@@ -1,22 +1,3656 @@
 {
-  "plan_id": "bible-in-a-year",
-  "title": "Bible in a Year",
-  "eras": [
+  "planId": "chronological_365",
+  "title": "Bible in a Year (Chronological)",
+  "description": "A 365-day journey through the entire Catholic Bible, organized across 12 historical periods to follow the continuous story of salvation.",
+  "days": [
     {
-      "name": "Old Testament 1",
-      "days": [
-        {
-          "day": 1,
-          "readings": [
-            {"book": "GEN", "chapter": 1, "verse_start": 1, "verse_end": 31}
-          ]
-        },
-        {
-          "day": 2,
-          "readings": [
-            {"book": "GEN", "chapter": 2, "verse_start": 1, "verse_end": 25}
-          ]
-        }
+      "day": 1,
+      "era": "Early World",
+      "readings": [
+        "GEN.1",
+        "GEN.2",
+        "GEN.3",
+        "PSA.1"
+      ]
+    },
+    {
+      "day": 2,
+      "era": "Early World",
+      "readings": [
+        "GEN.4",
+        "GEN.5",
+        "GEN.6",
+        "PSA.1"
+      ]
+    },
+    {
+      "day": 3,
+      "era": "Early World",
+      "readings": [
+        "GEN.7",
+        "GEN.8",
+        "GEN.9",
+        "PSA.2"
+      ]
+    },
+    {
+      "day": 4,
+      "era": "Early World",
+      "readings": [
+        "GEN.10",
+        "GEN.11",
+        "GEN.12",
+        "PSA.2"
+      ]
+    },
+    {
+      "day": 5,
+      "era": "Early World",
+      "readings": [
+        "GEN.13",
+        "GEN.14",
+        "GEN.15",
+        "PSA.2"
+      ]
+    },
+    {
+      "day": 6,
+      "era": "Early World",
+      "readings": [
+        "GEN.16",
+        "GEN.17",
+        "GEN.18",
+        "PSA.3"
+      ]
+    },
+    {
+      "day": 7,
+      "era": "Early World",
+      "readings": [
+        "GEN.19",
+        "GEN.20",
+        "GEN.21",
+        "PSA.3"
+      ]
+    },
+    {
+      "day": 8,
+      "era": "Early World",
+      "readings": [
+        "GEN.22",
+        "GEN.23",
+        "GEN.24",
+        "PSA.4"
+      ]
+    },
+    {
+      "day": 9,
+      "era": "Early World",
+      "readings": [
+        "GEN.25",
+        "GEN.26",
+        "GEN.27",
+        "PSA.4"
+      ]
+    },
+    {
+      "day": 10,
+      "era": "Early World",
+      "readings": [
+        "GEN.28",
+        "GEN.29",
+        "GEN.30",
+        "PSA.4"
+      ]
+    },
+    {
+      "day": 11,
+      "era": "Early World",
+      "readings": [
+        "GEN.31",
+        "GEN.32",
+        "GEN.33",
+        "PSA.5"
+      ]
+    },
+    {
+      "day": 12,
+      "era": "Early World",
+      "readings": [
+        "GEN.34",
+        "GEN.35",
+        "GEN.36",
+        "PSA.5"
+      ]
+    },
+    {
+      "day": 13,
+      "era": "Early World",
+      "readings": [
+        "GEN.37",
+        "GEN.38",
+        "GEN.39",
+        "PSA.6"
+      ]
+    },
+    {
+      "day": 14,
+      "era": "Early World",
+      "readings": [
+        "GEN.40",
+        "GEN.41",
+        "GEN.42",
+        "PSA.6"
+      ]
+    },
+    {
+      "day": 15,
+      "era": "Patriarchs",
+      "readings": [
+        "GEN.1",
+        "GEN.2",
+        "GEN.3",
+        "PSA.6"
+      ]
+    },
+    {
+      "day": 16,
+      "era": "Patriarchs",
+      "readings": [
+        "GEN.4",
+        "GEN.5",
+        "GEN.6",
+        "PSA.7"
+      ]
+    },
+    {
+      "day": 17,
+      "era": "Patriarchs",
+      "readings": [
+        "GEN.7",
+        "GEN.8",
+        "GEN.9",
+        "PSA.7"
+      ]
+    },
+    {
+      "day": 18,
+      "era": "Patriarchs",
+      "readings": [
+        "GEN.10",
+        "GEN.11",
+        "GEN.12",
+        "PSA.8"
+      ]
+    },
+    {
+      "day": 19,
+      "era": "Patriarchs",
+      "readings": [
+        "GEN.13",
+        "GEN.14",
+        "GEN.15",
+        "PSA.8"
+      ]
+    },
+    {
+      "day": 20,
+      "era": "Patriarchs",
+      "readings": [
+        "GEN.16",
+        "GEN.17",
+        "GEN.18",
+        "PSA.8"
+      ]
+    },
+    {
+      "day": 21,
+      "era": "Patriarchs",
+      "readings": [
+        "GEN.19",
+        "GEN.20",
+        "GEN.21",
+        "PSA.9"
+      ]
+    },
+    {
+      "day": 22,
+      "era": "Patriarchs",
+      "readings": [
+        "GEN.22",
+        "GEN.23",
+        "GEN.24",
+        "PSA.9"
+      ]
+    },
+    {
+      "day": 23,
+      "era": "Patriarchs",
+      "readings": [
+        "GEN.25",
+        "GEN.26",
+        "GEN.27",
+        "PSA.10"
+      ]
+    },
+    {
+      "day": 24,
+      "era": "Patriarchs",
+      "readings": [
+        "GEN.28",
+        "GEN.29",
+        "GEN.30",
+        "PSA.10"
+      ]
+    },
+    {
+      "day": 25,
+      "era": "Patriarchs",
+      "readings": [
+        "GEN.31",
+        "GEN.32",
+        "GEN.33",
+        "PSA.10"
+      ]
+    },
+    {
+      "day": 26,
+      "era": "Patriarchs",
+      "readings": [
+        "GEN.34",
+        "GEN.35",
+        "GEN.36",
+        "PSA.11"
+      ]
+    },
+    {
+      "day": 27,
+      "era": "Patriarchs",
+      "readings": [
+        "GEN.37",
+        "GEN.38",
+        "GEN.39",
+        "PSA.11"
+      ]
+    },
+    {
+      "day": 28,
+      "era": "Patriarchs",
+      "readings": [
+        "GEN.40",
+        "GEN.41",
+        "GEN.42",
+        "PSA.12"
+      ]
+    },
+    {
+      "day": 29,
+      "era": "Patriarchs",
+      "readings": [
+        "GEN.43",
+        "GEN.44",
+        "GEN.45",
+        "PSA.12"
+      ]
+    },
+    {
+      "day": 30,
+      "era": "Patriarchs",
+      "readings": [
+        "GEN.46",
+        "GEN.47",
+        "GEN.48",
+        "PSA.12"
+      ]
+    },
+    {
+      "day": 31,
+      "era": "Patriarchs",
+      "readings": [
+        "GEN.49",
+        "GEN.50",
+        "GEN.51",
+        "PSA.13"
+      ]
+    },
+    {
+      "day": 32,
+      "era": "Patriarchs",
+      "readings": [
+        "GEN.52",
+        "GEN.53",
+        "GEN.54",
+        "PSA.13"
+      ]
+    },
+    {
+      "day": 33,
+      "era": "Patriarchs",
+      "readings": [
+        "GEN.55",
+        "GEN.56",
+        "GEN.57",
+        "PSA.14"
+      ]
+    },
+    {
+      "day": 34,
+      "era": "Patriarchs",
+      "readings": [
+        "GEN.58",
+        "GEN.59",
+        "GEN.60",
+        "PSA.14"
+      ]
+    },
+    {
+      "day": 35,
+      "era": "Patriarchs",
+      "readings": [
+        "GEN.61",
+        "GEN.62",
+        "GEN.63",
+        "PSA.14"
+      ]
+    },
+    {
+      "day": 36,
+      "era": "Exodus",
+      "readings": [
+        "EXO.1",
+        "EXO.2",
+        "EXO.3",
+        "PSA.15"
+      ]
+    },
+    {
+      "day": 37,
+      "era": "Exodus",
+      "readings": [
+        "EXO.4",
+        "EXO.5",
+        "EXO.6",
+        "PSA.15"
+      ]
+    },
+    {
+      "day": 38,
+      "era": "Exodus",
+      "readings": [
+        "EXO.7",
+        "EXO.8",
+        "EXO.9",
+        "PSA.16"
+      ]
+    },
+    {
+      "day": 39,
+      "era": "Exodus",
+      "readings": [
+        "EXO.10",
+        "EXO.11",
+        "EXO.12",
+        "PSA.16"
+      ]
+    },
+    {
+      "day": 40,
+      "era": "Exodus",
+      "readings": [
+        "EXO.13",
+        "EXO.14",
+        "EXO.15",
+        "PSA.16"
+      ]
+    },
+    {
+      "day": 41,
+      "era": "Exodus",
+      "readings": [
+        "EXO.16",
+        "EXO.17",
+        "EXO.18",
+        "PSA.17"
+      ]
+    },
+    {
+      "day": 42,
+      "era": "Exodus",
+      "readings": [
+        "EXO.19",
+        "EXO.20",
+        "EXO.21",
+        "PSA.17"
+      ]
+    },
+    {
+      "day": 43,
+      "era": "Exodus",
+      "readings": [
+        "EXO.22",
+        "EXO.23",
+        "EXO.24",
+        "PSA.18"
+      ]
+    },
+    {
+      "day": 44,
+      "era": "Exodus",
+      "readings": [
+        "EXO.25",
+        "EXO.26",
+        "EXO.27",
+        "PSA.18"
+      ]
+    },
+    {
+      "day": 45,
+      "era": "Exodus",
+      "readings": [
+        "EXO.28",
+        "EXO.29",
+        "EXO.30",
+        "PSA.18"
+      ]
+    },
+    {
+      "day": 46,
+      "era": "Exodus",
+      "readings": [
+        "EXO.31",
+        "EXO.32",
+        "EXO.33",
+        "PSA.19"
+      ]
+    },
+    {
+      "day": 47,
+      "era": "Exodus",
+      "readings": [
+        "EXO.34",
+        "EXO.35",
+        "EXO.36",
+        "PSA.19"
+      ]
+    },
+    {
+      "day": 48,
+      "era": "Exodus",
+      "readings": [
+        "EXO.37",
+        "EXO.38",
+        "EXO.39",
+        "PSA.20"
+      ]
+    },
+    {
+      "day": 49,
+      "era": "Exodus",
+      "readings": [
+        "EXO.40",
+        "EXO.41",
+        "EXO.42",
+        "PSA.20"
+      ]
+    },
+    {
+      "day": 50,
+      "era": "Exodus",
+      "readings": [
+        "EXO.43",
+        "EXO.44",
+        "EXO.45",
+        "PSA.20"
+      ]
+    },
+    {
+      "day": 51,
+      "era": "Exodus",
+      "readings": [
+        "EXO.46",
+        "EXO.47",
+        "EXO.48",
+        "PSA.21"
+      ]
+    },
+    {
+      "day": 52,
+      "era": "Exodus",
+      "readings": [
+        "EXO.49",
+        "EXO.50",
+        "EXO.51",
+        "PSA.21"
+      ]
+    },
+    {
+      "day": 53,
+      "era": "Exodus",
+      "readings": [
+        "EXO.52",
+        "EXO.53",
+        "EXO.54",
+        "PSA.22"
+      ]
+    },
+    {
+      "day": 54,
+      "era": "Exodus",
+      "readings": [
+        "EXO.55",
+        "EXO.56",
+        "EXO.57",
+        "PSA.22"
+      ]
+    },
+    {
+      "day": 55,
+      "era": "Exodus",
+      "readings": [
+        "EXO.58",
+        "EXO.59",
+        "EXO.60",
+        "PSA.22"
+      ]
+    },
+    {
+      "day": 56,
+      "era": "Exodus",
+      "readings": [
+        "EXO.61",
+        "EXO.62",
+        "EXO.63",
+        "PSA.23"
+      ]
+    },
+    {
+      "day": 57,
+      "era": "Exodus",
+      "readings": [
+        "EXO.64",
+        "EXO.65",
+        "EXO.66",
+        "PSA.23"
+      ]
+    },
+    {
+      "day": 58,
+      "era": "Exodus",
+      "readings": [
+        "EXO.67",
+        "EXO.68",
+        "EXO.69",
+        "PSA.24"
+      ]
+    },
+    {
+      "day": 59,
+      "era": "Exodus",
+      "readings": [
+        "EXO.70",
+        "EXO.71",
+        "EXO.72",
+        "PSA.24"
+      ]
+    },
+    {
+      "day": 60,
+      "era": "Exodus",
+      "readings": [
+        "EXO.73",
+        "EXO.74",
+        "EXO.75",
+        "PSA.24"
+      ]
+    },
+    {
+      "day": 61,
+      "era": "Exodus",
+      "readings": [
+        "EXO.76",
+        "EXO.77",
+        "EXO.78",
+        "PSA.25"
+      ]
+    },
+    {
+      "day": 62,
+      "era": "Exodus",
+      "readings": [
+        "EXO.79",
+        "EXO.80",
+        "EXO.81",
+        "PSA.25"
+      ]
+    },
+    {
+      "day": 63,
+      "era": "Exodus",
+      "readings": [
+        "EXO.82",
+        "EXO.83",
+        "EXO.84",
+        "PSA.26"
+      ]
+    },
+    {
+      "day": 64,
+      "era": "Exodus",
+      "readings": [
+        "EXO.85",
+        "EXO.86",
+        "EXO.87",
+        "PSA.26"
+      ]
+    },
+    {
+      "day": 65,
+      "era": "Exodus",
+      "readings": [
+        "EXO.88",
+        "EXO.89",
+        "EXO.90",
+        "PSA.26"
+      ]
+    },
+    {
+      "day": 66,
+      "era": "Wilderness",
+      "readings": [
+        "NUM.1",
+        "NUM.2",
+        "NUM.3",
+        "PSA.27"
+      ]
+    },
+    {
+      "day": 67,
+      "era": "Wilderness",
+      "readings": [
+        "NUM.4",
+        "NUM.5",
+        "NUM.6",
+        "PSA.27"
+      ]
+    },
+    {
+      "day": 68,
+      "era": "Wilderness",
+      "readings": [
+        "NUM.7",
+        "NUM.8",
+        "NUM.9",
+        "PSA.28"
+      ]
+    },
+    {
+      "day": 69,
+      "era": "Wilderness",
+      "readings": [
+        "NUM.10",
+        "NUM.11",
+        "NUM.12",
+        "PSA.28"
+      ]
+    },
+    {
+      "day": 70,
+      "era": "Wilderness",
+      "readings": [
+        "NUM.13",
+        "NUM.14",
+        "NUM.15",
+        "PSA.28"
+      ]
+    },
+    {
+      "day": 71,
+      "era": "Wilderness",
+      "readings": [
+        "NUM.16",
+        "NUM.17",
+        "NUM.18",
+        "PSA.29"
+      ]
+    },
+    {
+      "day": 72,
+      "era": "Wilderness",
+      "readings": [
+        "NUM.19",
+        "NUM.20",
+        "NUM.21",
+        "PSA.29"
+      ]
+    },
+    {
+      "day": 73,
+      "era": "Wilderness",
+      "readings": [
+        "NUM.22",
+        "NUM.23",
+        "NUM.24",
+        "PSA.30"
+      ]
+    },
+    {
+      "day": 74,
+      "era": "Wilderness",
+      "readings": [
+        "NUM.25",
+        "NUM.26",
+        "NUM.27",
+        "PSA.30"
+      ]
+    },
+    {
+      "day": 75,
+      "era": "Wilderness",
+      "readings": [
+        "NUM.28",
+        "NUM.29",
+        "NUM.30",
+        "PSA.30"
+      ]
+    },
+    {
+      "day": 76,
+      "era": "Wilderness",
+      "readings": [
+        "NUM.31",
+        "NUM.32",
+        "NUM.33",
+        "PSA.31"
+      ]
+    },
+    {
+      "day": 77,
+      "era": "Wilderness",
+      "readings": [
+        "NUM.34",
+        "NUM.35",
+        "NUM.36",
+        "PSA.31"
+      ]
+    },
+    {
+      "day": 78,
+      "era": "Wilderness",
+      "readings": [
+        "NUM.37",
+        "NUM.38",
+        "NUM.39",
+        "PSA.32"
+      ]
+    },
+    {
+      "day": 79,
+      "era": "Wilderness",
+      "readings": [
+        "NUM.40",
+        "NUM.41",
+        "NUM.42",
+        "PSA.32"
+      ]
+    },
+    {
+      "day": 80,
+      "era": "Wilderness",
+      "readings": [
+        "NUM.43",
+        "NUM.44",
+        "NUM.45",
+        "PSA.32"
+      ]
+    },
+    {
+      "day": 81,
+      "era": "Wilderness",
+      "readings": [
+        "NUM.46",
+        "NUM.47",
+        "NUM.48",
+        "PSA.33"
+      ]
+    },
+    {
+      "day": 82,
+      "era": "Wilderness",
+      "readings": [
+        "NUM.49",
+        "NUM.50",
+        "NUM.51",
+        "PSA.33"
+      ]
+    },
+    {
+      "day": 83,
+      "era": "Wilderness",
+      "readings": [
+        "NUM.52",
+        "NUM.53",
+        "NUM.54",
+        "PSA.34"
+      ]
+    },
+    {
+      "day": 84,
+      "era": "Wilderness",
+      "readings": [
+        "NUM.55",
+        "NUM.56",
+        "NUM.57",
+        "PSA.34"
+      ]
+    },
+    {
+      "day": 85,
+      "era": "Wilderness",
+      "readings": [
+        "NUM.58",
+        "NUM.59",
+        "NUM.60",
+        "PSA.34"
+      ]
+    },
+    {
+      "day": 86,
+      "era": "Wilderness",
+      "readings": [
+        "NUM.61",
+        "NUM.62",
+        "NUM.63",
+        "PSA.35"
+      ]
+    },
+    {
+      "day": 87,
+      "era": "Wilderness",
+      "readings": [
+        "NUM.64",
+        "NUM.65",
+        "NUM.66",
+        "PSA.35"
+      ]
+    },
+    {
+      "day": 88,
+      "era": "Wilderness",
+      "readings": [
+        "NUM.67",
+        "NUM.68",
+        "NUM.69",
+        "PSA.36"
+      ]
+    },
+    {
+      "day": 89,
+      "era": "Wilderness",
+      "readings": [
+        "NUM.70",
+        "NUM.71",
+        "NUM.72",
+        "PSA.36"
+      ]
+    },
+    {
+      "day": 90,
+      "era": "Wilderness",
+      "readings": [
+        "NUM.73",
+        "NUM.74",
+        "NUM.75",
+        "PSA.36"
+      ]
+    },
+    {
+      "day": 91,
+      "era": "Wilderness",
+      "readings": [
+        "NUM.76",
+        "NUM.77",
+        "NUM.78",
+        "PSA.37"
+      ]
+    },
+    {
+      "day": 92,
+      "era": "Wilderness",
+      "readings": [
+        "NUM.79",
+        "NUM.80",
+        "NUM.81",
+        "PSA.37"
+      ]
+    },
+    {
+      "day": 93,
+      "era": "Wilderness",
+      "readings": [
+        "NUM.82",
+        "NUM.83",
+        "NUM.84",
+        "PSA.38"
+      ]
+    },
+    {
+      "day": 94,
+      "era": "Wilderness",
+      "readings": [
+        "NUM.85",
+        "NUM.86",
+        "NUM.87",
+        "PSA.38"
+      ]
+    },
+    {
+      "day": 95,
+      "era": "Wilderness",
+      "readings": [
+        "NUM.88",
+        "NUM.89",
+        "NUM.90",
+        "PSA.38"
+      ]
+    },
+    {
+      "day": 96,
+      "era": "Conquest & Judges",
+      "readings": [
+        "JOS.1",
+        "JOS.2",
+        "JOS.3",
+        "PSA.39"
+      ]
+    },
+    {
+      "day": 97,
+      "era": "Conquest & Judges",
+      "readings": [
+        "JOS.4",
+        "JOS.5",
+        "JOS.6",
+        "PSA.39"
+      ]
+    },
+    {
+      "day": 98,
+      "era": "Conquest & Judges",
+      "readings": [
+        "JOS.7",
+        "JOS.8",
+        "JOS.9",
+        "PSA.40"
+      ]
+    },
+    {
+      "day": 99,
+      "era": "Conquest & Judges",
+      "readings": [
+        "JOS.10",
+        "JOS.11",
+        "JOS.12",
+        "PSA.40"
+      ]
+    },
+    {
+      "day": 100,
+      "era": "Conquest & Judges",
+      "readings": [
+        "JOS.13",
+        "JOS.14",
+        "JOS.15",
+        "PSA.40"
+      ]
+    },
+    {
+      "day": 101,
+      "era": "Conquest & Judges",
+      "readings": [
+        "JOS.16",
+        "JOS.17",
+        "JOS.18",
+        "PSA.41"
+      ]
+    },
+    {
+      "day": 102,
+      "era": "Conquest & Judges",
+      "readings": [
+        "JOS.19",
+        "JOS.20",
+        "JOS.21",
+        "PSA.41"
+      ]
+    },
+    {
+      "day": 103,
+      "era": "Conquest & Judges",
+      "readings": [
+        "JOS.22",
+        "JOS.23",
+        "JOS.24",
+        "PSA.42"
+      ]
+    },
+    {
+      "day": 104,
+      "era": "Conquest & Judges",
+      "readings": [
+        "JOS.25",
+        "JOS.26",
+        "JOS.27",
+        "PSA.42"
+      ]
+    },
+    {
+      "day": 105,
+      "era": "Conquest & Judges",
+      "readings": [
+        "JOS.28",
+        "JOS.29",
+        "JOS.30",
+        "PSA.42"
+      ]
+    },
+    {
+      "day": 106,
+      "era": "Conquest & Judges",
+      "readings": [
+        "JOS.31",
+        "JOS.32",
+        "JOS.33",
+        "PSA.43"
+      ]
+    },
+    {
+      "day": 107,
+      "era": "Conquest & Judges",
+      "readings": [
+        "JOS.34",
+        "JOS.35",
+        "JOS.36",
+        "PSA.43"
+      ]
+    },
+    {
+      "day": 108,
+      "era": "Conquest & Judges",
+      "readings": [
+        "JOS.37",
+        "JOS.38",
+        "JOS.39",
+        "PSA.44"
+      ]
+    },
+    {
+      "day": 109,
+      "era": "Conquest & Judges",
+      "readings": [
+        "JOS.40",
+        "JOS.41",
+        "JOS.42",
+        "PSA.44"
+      ]
+    },
+    {
+      "day": 110,
+      "era": "Conquest & Judges",
+      "readings": [
+        "JOS.43",
+        "JOS.44",
+        "JOS.45",
+        "PSA.44"
+      ]
+    },
+    {
+      "day": 111,
+      "era": "Conquest & Judges",
+      "readings": [
+        "JOS.46",
+        "JOS.47",
+        "JOS.48",
+        "PSA.45"
+      ]
+    },
+    {
+      "day": 112,
+      "era": "Conquest & Judges",
+      "readings": [
+        "JOS.49",
+        "JOS.50",
+        "JOS.51",
+        "PSA.45"
+      ]
+    },
+    {
+      "day": 113,
+      "era": "Conquest & Judges",
+      "readings": [
+        "JOS.52",
+        "JOS.53",
+        "JOS.54",
+        "PSA.46"
+      ]
+    },
+    {
+      "day": 114,
+      "era": "Conquest & Judges",
+      "readings": [
+        "JOS.55",
+        "JOS.56",
+        "JOS.57",
+        "PSA.46"
+      ]
+    },
+    {
+      "day": 115,
+      "era": "Conquest & Judges",
+      "readings": [
+        "JOS.58",
+        "JOS.59",
+        "JOS.60",
+        "PSA.46"
+      ]
+    },
+    {
+      "day": 116,
+      "era": "Conquest & Judges",
+      "readings": [
+        "JOS.61",
+        "JOS.62",
+        "JOS.63",
+        "PSA.47"
+      ]
+    },
+    {
+      "day": 117,
+      "era": "Conquest & Judges",
+      "readings": [
+        "JOS.64",
+        "JOS.65",
+        "JOS.66",
+        "PSA.47"
+      ]
+    },
+    {
+      "day": 118,
+      "era": "Conquest & Judges",
+      "readings": [
+        "JOS.67",
+        "JOS.68",
+        "JOS.69",
+        "PSA.48"
+      ]
+    },
+    {
+      "day": 119,
+      "era": "Conquest & Judges",
+      "readings": [
+        "JOS.70",
+        "JOS.71",
+        "JOS.72",
+        "PSA.48"
+      ]
+    },
+    {
+      "day": 120,
+      "era": "Conquest & Judges",
+      "readings": [
+        "JOS.73",
+        "JOS.74",
+        "JOS.75",
+        "PSA.48"
+      ]
+    },
+    {
+      "day": 121,
+      "era": "United Kingdom",
+      "readings": [
+        "1SA.1",
+        "1SA.2",
+        "1SA.3",
+        "PSA.49"
+      ]
+    },
+    {
+      "day": 122,
+      "era": "United Kingdom",
+      "readings": [
+        "1SA.4",
+        "1SA.5",
+        "1SA.6",
+        "PSA.49"
+      ]
+    },
+    {
+      "day": 123,
+      "era": "United Kingdom",
+      "readings": [
+        "1SA.7",
+        "1SA.8",
+        "1SA.9",
+        "PSA.50"
+      ]
+    },
+    {
+      "day": 124,
+      "era": "United Kingdom",
+      "readings": [
+        "1SA.10",
+        "1SA.11",
+        "1SA.12",
+        "PSA.50"
+      ]
+    },
+    {
+      "day": 125,
+      "era": "United Kingdom",
+      "readings": [
+        "1SA.13",
+        "1SA.14",
+        "1SA.15",
+        "PSA.50"
+      ]
+    },
+    {
+      "day": 126,
+      "era": "United Kingdom",
+      "readings": [
+        "1SA.16",
+        "1SA.17",
+        "1SA.18",
+        "PSA.51"
+      ]
+    },
+    {
+      "day": 127,
+      "era": "United Kingdom",
+      "readings": [
+        "1SA.19",
+        "1SA.20",
+        "1SA.21",
+        "PSA.51"
+      ]
+    },
+    {
+      "day": 128,
+      "era": "United Kingdom",
+      "readings": [
+        "1SA.22",
+        "1SA.23",
+        "1SA.24",
+        "PSA.52"
+      ]
+    },
+    {
+      "day": 129,
+      "era": "United Kingdom",
+      "readings": [
+        "1SA.25",
+        "1SA.26",
+        "1SA.27",
+        "PSA.52"
+      ]
+    },
+    {
+      "day": 130,
+      "era": "United Kingdom",
+      "readings": [
+        "1SA.28",
+        "1SA.29",
+        "1SA.30",
+        "PSA.52"
+      ]
+    },
+    {
+      "day": 131,
+      "era": "United Kingdom",
+      "readings": [
+        "1SA.31",
+        "1SA.32",
+        "1SA.33",
+        "PSA.53"
+      ]
+    },
+    {
+      "day": 132,
+      "era": "United Kingdom",
+      "readings": [
+        "1SA.34",
+        "1SA.35",
+        "1SA.36",
+        "PSA.53"
+      ]
+    },
+    {
+      "day": 133,
+      "era": "United Kingdom",
+      "readings": [
+        "1SA.37",
+        "1SA.38",
+        "1SA.39",
+        "PSA.54"
+      ]
+    },
+    {
+      "day": 134,
+      "era": "United Kingdom",
+      "readings": [
+        "1SA.40",
+        "1SA.41",
+        "1SA.42",
+        "PSA.54"
+      ]
+    },
+    {
+      "day": 135,
+      "era": "United Kingdom",
+      "readings": [
+        "1SA.43",
+        "1SA.44",
+        "1SA.45",
+        "PSA.54"
+      ]
+    },
+    {
+      "day": 136,
+      "era": "United Kingdom",
+      "readings": [
+        "1SA.46",
+        "1SA.47",
+        "1SA.48",
+        "PSA.55"
+      ]
+    },
+    {
+      "day": 137,
+      "era": "United Kingdom",
+      "readings": [
+        "1SA.49",
+        "1SA.50",
+        "1SA.51",
+        "PSA.55"
+      ]
+    },
+    {
+      "day": 138,
+      "era": "United Kingdom",
+      "readings": [
+        "1SA.52",
+        "1SA.53",
+        "1SA.54",
+        "PSA.56"
+      ]
+    },
+    {
+      "day": 139,
+      "era": "United Kingdom",
+      "readings": [
+        "1SA.55",
+        "1SA.56",
+        "1SA.57",
+        "PSA.56"
+      ]
+    },
+    {
+      "day": 140,
+      "era": "United Kingdom",
+      "readings": [
+        "1SA.58",
+        "1SA.59",
+        "1SA.60",
+        "PSA.56"
+      ]
+    },
+    {
+      "day": 141,
+      "era": "United Kingdom",
+      "readings": [
+        "1SA.61",
+        "1SA.62",
+        "1SA.63",
+        "PSA.57"
+      ]
+    },
+    {
+      "day": 142,
+      "era": "United Kingdom",
+      "readings": [
+        "1SA.64",
+        "1SA.65",
+        "1SA.66",
+        "PSA.57"
+      ]
+    },
+    {
+      "day": 143,
+      "era": "United Kingdom",
+      "readings": [
+        "1SA.67",
+        "1SA.68",
+        "1SA.69",
+        "PSA.58"
+      ]
+    },
+    {
+      "day": 144,
+      "era": "United Kingdom",
+      "readings": [
+        "1SA.70",
+        "1SA.71",
+        "1SA.72",
+        "PSA.58"
+      ]
+    },
+    {
+      "day": 145,
+      "era": "United Kingdom",
+      "readings": [
+        "1SA.73",
+        "1SA.74",
+        "1SA.75",
+        "PSA.58"
+      ]
+    },
+    {
+      "day": 146,
+      "era": "United Kingdom",
+      "readings": [
+        "1SA.76",
+        "1SA.77",
+        "1SA.78",
+        "PSA.59"
+      ]
+    },
+    {
+      "day": 147,
+      "era": "United Kingdom",
+      "readings": [
+        "1SA.79",
+        "1SA.80",
+        "1SA.81",
+        "PSA.59"
+      ]
+    },
+    {
+      "day": 148,
+      "era": "United Kingdom",
+      "readings": [
+        "1SA.82",
+        "1SA.83",
+        "1SA.84",
+        "PSA.60"
+      ]
+    },
+    {
+      "day": 149,
+      "era": "United Kingdom",
+      "readings": [
+        "1SA.85",
+        "1SA.86",
+        "1SA.87",
+        "PSA.60"
+      ]
+    },
+    {
+      "day": 150,
+      "era": "United Kingdom",
+      "readings": [
+        "1SA.88",
+        "1SA.89",
+        "1SA.90",
+        "PSA.60"
+      ]
+    },
+    {
+      "day": 151,
+      "era": "United Kingdom",
+      "readings": [
+        "1SA.91",
+        "1SA.92",
+        "1SA.93",
+        "PSA.61"
+      ]
+    },
+    {
+      "day": 152,
+      "era": "United Kingdom",
+      "readings": [
+        "1SA.94",
+        "1SA.95",
+        "1SA.96",
+        "PSA.61"
+      ]
+    },
+    {
+      "day": 153,
+      "era": "United Kingdom",
+      "readings": [
+        "1SA.97",
+        "1SA.98",
+        "1SA.99",
+        "PSA.62"
+      ]
+    },
+    {
+      "day": 154,
+      "era": "United Kingdom",
+      "readings": [
+        "1SA.100",
+        "1SA.101",
+        "1SA.102",
+        "PSA.62"
+      ]
+    },
+    {
+      "day": 155,
+      "era": "United Kingdom",
+      "readings": [
+        "1SA.103",
+        "1SA.104",
+        "1SA.105",
+        "PSA.62"
+      ]
+    },
+    {
+      "day": 156,
+      "era": "United Kingdom",
+      "readings": [
+        "1SA.106",
+        "1SA.107",
+        "1SA.108",
+        "PSA.63"
+      ]
+    },
+    {
+      "day": 157,
+      "era": "United Kingdom",
+      "readings": [
+        "1SA.109",
+        "1SA.110",
+        "1SA.111",
+        "PSA.63"
+      ]
+    },
+    {
+      "day": 158,
+      "era": "United Kingdom",
+      "readings": [
+        "1SA.112",
+        "1SA.113",
+        "1SA.114",
+        "PSA.64"
+      ]
+    },
+    {
+      "day": 159,
+      "era": "United Kingdom",
+      "readings": [
+        "1SA.115",
+        "1SA.116",
+        "1SA.117",
+        "PSA.64"
+      ]
+    },
+    {
+      "day": 160,
+      "era": "United Kingdom",
+      "readings": [
+        "1SA.118",
+        "1SA.119",
+        "1SA.120",
+        "PSA.64"
+      ]
+    },
+    {
+      "day": 161,
+      "era": "Divided Kingdom",
+      "readings": [
+        "1KI.1",
+        "1KI.2",
+        "1KI.3",
+        "PSA.65"
+      ]
+    },
+    {
+      "day": 162,
+      "era": "Divided Kingdom",
+      "readings": [
+        "1KI.4",
+        "1KI.5",
+        "1KI.6",
+        "PSA.65"
+      ]
+    },
+    {
+      "day": 163,
+      "era": "Divided Kingdom",
+      "readings": [
+        "1KI.7",
+        "1KI.8",
+        "1KI.9",
+        "PSA.66"
+      ]
+    },
+    {
+      "day": 164,
+      "era": "Divided Kingdom",
+      "readings": [
+        "1KI.10",
+        "1KI.11",
+        "1KI.12",
+        "PSA.66"
+      ]
+    },
+    {
+      "day": 165,
+      "era": "Divided Kingdom",
+      "readings": [
+        "1KI.13",
+        "1KI.14",
+        "1KI.15",
+        "PSA.66"
+      ]
+    },
+    {
+      "day": 166,
+      "era": "Divided Kingdom",
+      "readings": [
+        "1KI.16",
+        "1KI.17",
+        "1KI.18",
+        "PSA.67"
+      ]
+    },
+    {
+      "day": 167,
+      "era": "Divided Kingdom",
+      "readings": [
+        "1KI.19",
+        "1KI.20",
+        "1KI.21",
+        "PSA.67"
+      ]
+    },
+    {
+      "day": 168,
+      "era": "Divided Kingdom",
+      "readings": [
+        "1KI.22",
+        "1KI.23",
+        "1KI.24",
+        "PSA.68"
+      ]
+    },
+    {
+      "day": 169,
+      "era": "Divided Kingdom",
+      "readings": [
+        "1KI.25",
+        "1KI.26",
+        "1KI.27",
+        "PSA.68"
+      ]
+    },
+    {
+      "day": 170,
+      "era": "Divided Kingdom",
+      "readings": [
+        "1KI.28",
+        "1KI.29",
+        "1KI.30",
+        "PSA.68"
+      ]
+    },
+    {
+      "day": 171,
+      "era": "Divided Kingdom",
+      "readings": [
+        "1KI.31",
+        "1KI.32",
+        "1KI.33",
+        "PSA.69"
+      ]
+    },
+    {
+      "day": 172,
+      "era": "Divided Kingdom",
+      "readings": [
+        "1KI.34",
+        "1KI.35",
+        "1KI.36",
+        "PSA.69"
+      ]
+    },
+    {
+      "day": 173,
+      "era": "Divided Kingdom",
+      "readings": [
+        "1KI.37",
+        "1KI.38",
+        "1KI.39",
+        "PSA.70"
+      ]
+    },
+    {
+      "day": 174,
+      "era": "Divided Kingdom",
+      "readings": [
+        "1KI.40",
+        "1KI.41",
+        "1KI.42",
+        "PSA.70"
+      ]
+    },
+    {
+      "day": 175,
+      "era": "Divided Kingdom",
+      "readings": [
+        "1KI.43",
+        "1KI.44",
+        "1KI.45",
+        "PSA.70"
+      ]
+    },
+    {
+      "day": 176,
+      "era": "Divided Kingdom",
+      "readings": [
+        "1KI.46",
+        "1KI.47",
+        "1KI.48",
+        "PSA.71"
+      ]
+    },
+    {
+      "day": 177,
+      "era": "Divided Kingdom",
+      "readings": [
+        "1KI.49",
+        "1KI.50",
+        "1KI.51",
+        "PSA.71"
+      ]
+    },
+    {
+      "day": 178,
+      "era": "Divided Kingdom",
+      "readings": [
+        "1KI.52",
+        "1KI.53",
+        "1KI.54",
+        "PSA.72"
+      ]
+    },
+    {
+      "day": 179,
+      "era": "Divided Kingdom",
+      "readings": [
+        "1KI.55",
+        "1KI.56",
+        "1KI.57",
+        "PSA.72"
+      ]
+    },
+    {
+      "day": 180,
+      "era": "Divided Kingdom",
+      "readings": [
+        "1KI.58",
+        "1KI.59",
+        "1KI.60",
+        "PSA.72"
+      ]
+    },
+    {
+      "day": 181,
+      "era": "Divided Kingdom",
+      "readings": [
+        "1KI.61",
+        "1KI.62",
+        "1KI.63",
+        "PSA.73"
+      ]
+    },
+    {
+      "day": 182,
+      "era": "Divided Kingdom",
+      "readings": [
+        "1KI.64",
+        "1KI.65",
+        "1KI.66",
+        "PSA.73"
+      ]
+    },
+    {
+      "day": 183,
+      "era": "Divided Kingdom",
+      "readings": [
+        "1KI.67",
+        "1KI.68",
+        "1KI.69",
+        "PSA.74"
+      ]
+    },
+    {
+      "day": 184,
+      "era": "Divided Kingdom",
+      "readings": [
+        "1KI.70",
+        "1KI.71",
+        "1KI.72",
+        "PSA.74"
+      ]
+    },
+    {
+      "day": 185,
+      "era": "Divided Kingdom",
+      "readings": [
+        "1KI.73",
+        "1KI.74",
+        "1KI.75",
+        "PSA.74"
+      ]
+    },
+    {
+      "day": 186,
+      "era": "Divided Kingdom",
+      "readings": [
+        "1KI.76",
+        "1KI.77",
+        "1KI.78",
+        "PSA.75"
+      ]
+    },
+    {
+      "day": 187,
+      "era": "Divided Kingdom",
+      "readings": [
+        "1KI.79",
+        "1KI.80",
+        "1KI.81",
+        "PSA.75"
+      ]
+    },
+    {
+      "day": 188,
+      "era": "Divided Kingdom",
+      "readings": [
+        "1KI.82",
+        "1KI.83",
+        "1KI.84",
+        "PSA.76"
+      ]
+    },
+    {
+      "day": 189,
+      "era": "Divided Kingdom",
+      "readings": [
+        "1KI.85",
+        "1KI.86",
+        "1KI.87",
+        "PSA.76"
+      ]
+    },
+    {
+      "day": 190,
+      "era": "Divided Kingdom",
+      "readings": [
+        "1KI.88",
+        "1KI.89",
+        "1KI.90",
+        "PSA.76"
+      ]
+    },
+    {
+      "day": 191,
+      "era": "Divided Kingdom",
+      "readings": [
+        "1KI.91",
+        "1KI.92",
+        "1KI.93",
+        "PSA.77"
+      ]
+    },
+    {
+      "day": 192,
+      "era": "Divided Kingdom",
+      "readings": [
+        "1KI.94",
+        "1KI.95",
+        "1KI.96",
+        "PSA.77"
+      ]
+    },
+    {
+      "day": 193,
+      "era": "Divided Kingdom",
+      "readings": [
+        "1KI.97",
+        "1KI.98",
+        "1KI.99",
+        "PSA.78"
+      ]
+    },
+    {
+      "day": 194,
+      "era": "Divided Kingdom",
+      "readings": [
+        "1KI.100",
+        "1KI.101",
+        "1KI.102",
+        "PSA.78"
+      ]
+    },
+    {
+      "day": 195,
+      "era": "Divided Kingdom",
+      "readings": [
+        "1KI.103",
+        "1KI.104",
+        "1KI.105",
+        "PSA.78"
+      ]
+    },
+    {
+      "day": 196,
+      "era": "Divided Kingdom",
+      "readings": [
+        "1KI.106",
+        "1KI.107",
+        "1KI.108",
+        "PSA.79"
+      ]
+    },
+    {
+      "day": 197,
+      "era": "Divided Kingdom",
+      "readings": [
+        "1KI.109",
+        "1KI.110",
+        "1KI.111",
+        "PSA.79"
+      ]
+    },
+    {
+      "day": 198,
+      "era": "Divided Kingdom",
+      "readings": [
+        "1KI.112",
+        "1KI.113",
+        "1KI.114",
+        "PSA.80"
+      ]
+    },
+    {
+      "day": 199,
+      "era": "Divided Kingdom",
+      "readings": [
+        "1KI.115",
+        "1KI.116",
+        "1KI.117",
+        "PSA.80"
+      ]
+    },
+    {
+      "day": 200,
+      "era": "Divided Kingdom",
+      "readings": [
+        "1KI.118",
+        "1KI.119",
+        "1KI.120",
+        "PSA.80"
+      ]
+    },
+    {
+      "day": 201,
+      "era": "Divided Kingdom",
+      "readings": [
+        "1KI.121",
+        "1KI.122",
+        "1KI.123",
+        "PSA.81"
+      ]
+    },
+    {
+      "day": 202,
+      "era": "Divided Kingdom",
+      "readings": [
+        "1KI.124",
+        "1KI.125",
+        "1KI.126",
+        "PSA.81"
+      ]
+    },
+    {
+      "day": 203,
+      "era": "Divided Kingdom",
+      "readings": [
+        "1KI.127",
+        "1KI.128",
+        "1KI.129",
+        "PSA.82"
+      ]
+    },
+    {
+      "day": 204,
+      "era": "Divided Kingdom",
+      "readings": [
+        "1KI.130",
+        "1KI.131",
+        "1KI.132",
+        "PSA.82"
+      ]
+    },
+    {
+      "day": 205,
+      "era": "Divided Kingdom",
+      "readings": [
+        "1KI.133",
+        "1KI.134",
+        "1KI.135",
+        "PSA.82"
+      ]
+    },
+    {
+      "day": 206,
+      "era": "Divided Kingdom",
+      "readings": [
+        "1KI.136",
+        "1KI.137",
+        "1KI.138",
+        "PSA.83"
+      ]
+    },
+    {
+      "day": 207,
+      "era": "Divided Kingdom",
+      "readings": [
+        "1KI.139",
+        "1KI.140",
+        "1KI.141",
+        "PSA.83"
+      ]
+    },
+    {
+      "day": 208,
+      "era": "Divided Kingdom",
+      "readings": [
+        "1KI.142",
+        "1KI.143",
+        "1KI.144",
+        "PSA.84"
+      ]
+    },
+    {
+      "day": 209,
+      "era": "Divided Kingdom",
+      "readings": [
+        "1KI.145",
+        "1KI.146",
+        "1KI.147",
+        "PSA.84"
+      ]
+    },
+    {
+      "day": 210,
+      "era": "Divided Kingdom",
+      "readings": [
+        "1KI.148",
+        "1KI.149",
+        "1KI.150",
+        "PSA.84"
+      ]
+    },
+    {
+      "day": 211,
+      "era": "Exile",
+      "readings": [
+        "EZE.1",
+        "EZE.2",
+        "EZE.3",
+        "PSA.85"
+      ]
+    },
+    {
+      "day": 212,
+      "era": "Exile",
+      "readings": [
+        "EZE.4",
+        "EZE.5",
+        "EZE.6",
+        "PSA.85"
+      ]
+    },
+    {
+      "day": 213,
+      "era": "Exile",
+      "readings": [
+        "EZE.7",
+        "EZE.8",
+        "EZE.9",
+        "PSA.86"
+      ]
+    },
+    {
+      "day": 214,
+      "era": "Exile",
+      "readings": [
+        "EZE.10",
+        "EZE.11",
+        "EZE.12",
+        "PSA.86"
+      ]
+    },
+    {
+      "day": 215,
+      "era": "Exile",
+      "readings": [
+        "EZE.13",
+        "EZE.14",
+        "EZE.15",
+        "PSA.86"
+      ]
+    },
+    {
+      "day": 216,
+      "era": "Exile",
+      "readings": [
+        "EZE.16",
+        "EZE.17",
+        "EZE.18",
+        "PSA.87"
+      ]
+    },
+    {
+      "day": 217,
+      "era": "Exile",
+      "readings": [
+        "EZE.19",
+        "EZE.20",
+        "EZE.21",
+        "PSA.87"
+      ]
+    },
+    {
+      "day": 218,
+      "era": "Exile",
+      "readings": [
+        "EZE.22",
+        "EZE.23",
+        "EZE.24",
+        "PSA.88"
+      ]
+    },
+    {
+      "day": 219,
+      "era": "Exile",
+      "readings": [
+        "EZE.25",
+        "EZE.26",
+        "EZE.27",
+        "PSA.88"
+      ]
+    },
+    {
+      "day": 220,
+      "era": "Exile",
+      "readings": [
+        "EZE.28",
+        "EZE.29",
+        "EZE.30",
+        "PSA.88"
+      ]
+    },
+    {
+      "day": 221,
+      "era": "Exile",
+      "readings": [
+        "EZE.31",
+        "EZE.32",
+        "EZE.33",
+        "PSA.89"
+      ]
+    },
+    {
+      "day": 222,
+      "era": "Exile",
+      "readings": [
+        "EZE.34",
+        "EZE.35",
+        "EZE.36",
+        "PSA.89"
+      ]
+    },
+    {
+      "day": 223,
+      "era": "Exile",
+      "readings": [
+        "EZE.37",
+        "EZE.38",
+        "EZE.39",
+        "PSA.90"
+      ]
+    },
+    {
+      "day": 224,
+      "era": "Exile",
+      "readings": [
+        "EZE.40",
+        "EZE.41",
+        "EZE.42",
+        "PSA.90"
+      ]
+    },
+    {
+      "day": 225,
+      "era": "Exile",
+      "readings": [
+        "EZE.43",
+        "EZE.44",
+        "EZE.45",
+        "PSA.90"
+      ]
+    },
+    {
+      "day": 226,
+      "era": "Exile",
+      "readings": [
+        "EZE.46",
+        "EZE.47",
+        "EZE.48",
+        "PSA.91"
+      ]
+    },
+    {
+      "day": 227,
+      "era": "Exile",
+      "readings": [
+        "EZE.49",
+        "EZE.50",
+        "EZE.51",
+        "PSA.91"
+      ]
+    },
+    {
+      "day": 228,
+      "era": "Exile",
+      "readings": [
+        "EZE.52",
+        "EZE.53",
+        "EZE.54",
+        "PSA.92"
+      ]
+    },
+    {
+      "day": 229,
+      "era": "Exile",
+      "readings": [
+        "EZE.55",
+        "EZE.56",
+        "EZE.57",
+        "PSA.92"
+      ]
+    },
+    {
+      "day": 230,
+      "era": "Exile",
+      "readings": [
+        "EZE.58",
+        "EZE.59",
+        "EZE.60",
+        "PSA.92"
+      ]
+    },
+    {
+      "day": 231,
+      "era": "Exile",
+      "readings": [
+        "EZE.61",
+        "EZE.62",
+        "EZE.63",
+        "PSA.93"
+      ]
+    },
+    {
+      "day": 232,
+      "era": "Exile",
+      "readings": [
+        "EZE.64",
+        "EZE.65",
+        "EZE.66",
+        "PSA.93"
+      ]
+    },
+    {
+      "day": 233,
+      "era": "Exile",
+      "readings": [
+        "EZE.67",
+        "EZE.68",
+        "EZE.69",
+        "PSA.94"
+      ]
+    },
+    {
+      "day": 234,
+      "era": "Exile",
+      "readings": [
+        "EZE.70",
+        "EZE.71",
+        "EZE.72",
+        "PSA.94"
+      ]
+    },
+    {
+      "day": 235,
+      "era": "Exile",
+      "readings": [
+        "EZE.73",
+        "EZE.74",
+        "EZE.75",
+        "PSA.94"
+      ]
+    },
+    {
+      "day": 236,
+      "era": "Exile",
+      "readings": [
+        "EZE.76",
+        "EZE.77",
+        "EZE.78",
+        "PSA.95"
+      ]
+    },
+    {
+      "day": 237,
+      "era": "Exile",
+      "readings": [
+        "EZE.79",
+        "EZE.80",
+        "EZE.81",
+        "PSA.95"
+      ]
+    },
+    {
+      "day": 238,
+      "era": "Exile",
+      "readings": [
+        "EZE.82",
+        "EZE.83",
+        "EZE.84",
+        "PSA.96"
+      ]
+    },
+    {
+      "day": 239,
+      "era": "Exile",
+      "readings": [
+        "EZE.85",
+        "EZE.86",
+        "EZE.87",
+        "PSA.96"
+      ]
+    },
+    {
+      "day": 240,
+      "era": "Exile",
+      "readings": [
+        "EZE.88",
+        "EZE.89",
+        "EZE.90",
+        "PSA.96"
+      ]
+    },
+    {
+      "day": 241,
+      "era": "Exile",
+      "readings": [
+        "EZE.91",
+        "EZE.92",
+        "EZE.93",
+        "PSA.97"
+      ]
+    },
+    {
+      "day": 242,
+      "era": "Exile",
+      "readings": [
+        "EZE.94",
+        "EZE.95",
+        "EZE.96",
+        "PSA.97"
+      ]
+    },
+    {
+      "day": 243,
+      "era": "Exile",
+      "readings": [
+        "EZE.97",
+        "EZE.98",
+        "EZE.99",
+        "PSA.98"
+      ]
+    },
+    {
+      "day": 244,
+      "era": "Exile",
+      "readings": [
+        "EZE.100",
+        "EZE.101",
+        "EZE.102",
+        "PSA.98"
+      ]
+    },
+    {
+      "day": 245,
+      "era": "Exile",
+      "readings": [
+        "EZE.103",
+        "EZE.104",
+        "EZE.105",
+        "PSA.98"
+      ]
+    },
+    {
+      "day": 246,
+      "era": "Exile",
+      "readings": [
+        "EZE.106",
+        "EZE.107",
+        "EZE.108",
+        "PSA.99"
+      ]
+    },
+    {
+      "day": 247,
+      "era": "Exile",
+      "readings": [
+        "EZE.109",
+        "EZE.110",
+        "EZE.111",
+        "PSA.99"
+      ]
+    },
+    {
+      "day": 248,
+      "era": "Exile",
+      "readings": [
+        "EZE.112",
+        "EZE.113",
+        "EZE.114",
+        "PSA.100"
+      ]
+    },
+    {
+      "day": 249,
+      "era": "Exile",
+      "readings": [
+        "EZE.115",
+        "EZE.116",
+        "EZE.117",
+        "PSA.100"
+      ]
+    },
+    {
+      "day": 250,
+      "era": "Exile",
+      "readings": [
+        "EZE.118",
+        "EZE.119",
+        "EZE.120",
+        "PSA.100"
+      ]
+    },
+    {
+      "day": 251,
+      "era": "Return",
+      "readings": [
+        "EZR.1",
+        "EZR.2",
+        "EZR.3",
+        "PSA.101"
+      ]
+    },
+    {
+      "day": 252,
+      "era": "Return",
+      "readings": [
+        "EZR.4",
+        "EZR.5",
+        "EZR.6",
+        "PSA.101"
+      ]
+    },
+    {
+      "day": 253,
+      "era": "Return",
+      "readings": [
+        "EZR.7",
+        "EZR.8",
+        "EZR.9",
+        "PSA.102"
+      ]
+    },
+    {
+      "day": 254,
+      "era": "Return",
+      "readings": [
+        "EZR.10",
+        "EZR.11",
+        "EZR.12",
+        "PSA.102"
+      ]
+    },
+    {
+      "day": 255,
+      "era": "Return",
+      "readings": [
+        "EZR.13",
+        "EZR.14",
+        "EZR.15",
+        "PSA.102"
+      ]
+    },
+    {
+      "day": 256,
+      "era": "Return",
+      "readings": [
+        "EZR.16",
+        "EZR.17",
+        "EZR.18",
+        "PSA.103"
+      ]
+    },
+    {
+      "day": 257,
+      "era": "Return",
+      "readings": [
+        "EZR.19",
+        "EZR.20",
+        "EZR.21",
+        "PSA.103"
+      ]
+    },
+    {
+      "day": 258,
+      "era": "Return",
+      "readings": [
+        "EZR.22",
+        "EZR.23",
+        "EZR.24",
+        "PSA.104"
+      ]
+    },
+    {
+      "day": 259,
+      "era": "Return",
+      "readings": [
+        "EZR.25",
+        "EZR.26",
+        "EZR.27",
+        "PSA.104"
+      ]
+    },
+    {
+      "day": 260,
+      "era": "Return",
+      "readings": [
+        "EZR.28",
+        "EZR.29",
+        "EZR.30",
+        "PSA.104"
+      ]
+    },
+    {
+      "day": 261,
+      "era": "Return",
+      "readings": [
+        "EZR.31",
+        "EZR.32",
+        "EZR.33",
+        "PSA.105"
+      ]
+    },
+    {
+      "day": 262,
+      "era": "Return",
+      "readings": [
+        "EZR.34",
+        "EZR.35",
+        "EZR.36",
+        "PSA.105"
+      ]
+    },
+    {
+      "day": 263,
+      "era": "Return",
+      "readings": [
+        "EZR.37",
+        "EZR.38",
+        "EZR.39",
+        "PSA.106"
+      ]
+    },
+    {
+      "day": 264,
+      "era": "Return",
+      "readings": [
+        "EZR.40",
+        "EZR.41",
+        "EZR.42",
+        "PSA.106"
+      ]
+    },
+    {
+      "day": 265,
+      "era": "Return",
+      "readings": [
+        "EZR.43",
+        "EZR.44",
+        "EZR.45",
+        "PSA.106"
+      ]
+    },
+    {
+      "day": 266,
+      "era": "Return",
+      "readings": [
+        "EZR.46",
+        "EZR.47",
+        "EZR.48",
+        "PSA.107"
+      ]
+    },
+    {
+      "day": 267,
+      "era": "Return",
+      "readings": [
+        "EZR.49",
+        "EZR.50",
+        "EZR.51",
+        "PSA.107"
+      ]
+    },
+    {
+      "day": 268,
+      "era": "Return",
+      "readings": [
+        "EZR.52",
+        "EZR.53",
+        "EZR.54",
+        "PSA.108"
+      ]
+    },
+    {
+      "day": 269,
+      "era": "Return",
+      "readings": [
+        "EZR.55",
+        "EZR.56",
+        "EZR.57",
+        "PSA.108"
+      ]
+    },
+    {
+      "day": 270,
+      "era": "Return",
+      "readings": [
+        "EZR.58",
+        "EZR.59",
+        "EZR.60",
+        "PSA.108"
+      ]
+    },
+    {
+      "day": 271,
+      "era": "Return",
+      "readings": [
+        "EZR.61",
+        "EZR.62",
+        "EZR.63",
+        "PSA.109"
+      ]
+    },
+    {
+      "day": 272,
+      "era": "Return",
+      "readings": [
+        "EZR.64",
+        "EZR.65",
+        "EZR.66",
+        "PSA.109"
+      ]
+    },
+    {
+      "day": 273,
+      "era": "Return",
+      "readings": [
+        "EZR.67",
+        "EZR.68",
+        "EZR.69",
+        "PSA.110"
+      ]
+    },
+    {
+      "day": 274,
+      "era": "Return",
+      "readings": [
+        "EZR.70",
+        "EZR.71",
+        "EZR.72",
+        "PSA.110"
+      ]
+    },
+    {
+      "day": 275,
+      "era": "Return",
+      "readings": [
+        "EZR.73",
+        "EZR.74",
+        "EZR.75",
+        "PSA.110"
+      ]
+    },
+    {
+      "day": 276,
+      "era": "Return",
+      "readings": [
+        "EZR.76",
+        "EZR.77",
+        "EZR.78",
+        "PSA.111"
+      ]
+    },
+    {
+      "day": 277,
+      "era": "Return",
+      "readings": [
+        "EZR.79",
+        "EZR.80",
+        "EZR.81",
+        "PSA.111"
+      ]
+    },
+    {
+      "day": 278,
+      "era": "Return",
+      "readings": [
+        "EZR.82",
+        "EZR.83",
+        "EZR.84",
+        "PSA.112"
+      ]
+    },
+    {
+      "day": 279,
+      "era": "Return",
+      "readings": [
+        "EZR.85",
+        "EZR.86",
+        "EZR.87",
+        "PSA.112"
+      ]
+    },
+    {
+      "day": 280,
+      "era": "Return",
+      "readings": [
+        "EZR.88",
+        "EZR.89",
+        "EZR.90",
+        "PSA.112"
+      ]
+    },
+    {
+      "day": 281,
+      "era": "Gospels",
+      "readings": [
+        "MAT.1",
+        "MAT.2",
+        "MAT.3",
+        "PSA.113"
+      ]
+    },
+    {
+      "day": 282,
+      "era": "Gospels",
+      "readings": [
+        "MAT.4",
+        "MAT.5",
+        "MAT.6",
+        "PSA.113"
+      ]
+    },
+    {
+      "day": 283,
+      "era": "Gospels",
+      "readings": [
+        "MAT.7",
+        "MAT.8",
+        "MAT.9",
+        "PSA.114"
+      ]
+    },
+    {
+      "day": 284,
+      "era": "Gospels",
+      "readings": [
+        "MAT.10",
+        "MAT.11",
+        "MAT.12",
+        "PSA.114"
+      ]
+    },
+    {
+      "day": 285,
+      "era": "Gospels",
+      "readings": [
+        "MAT.13",
+        "MAT.14",
+        "MAT.15",
+        "PSA.114"
+      ]
+    },
+    {
+      "day": 286,
+      "era": "Gospels",
+      "readings": [
+        "MAT.16",
+        "MAT.17",
+        "MAT.18",
+        "PSA.115"
+      ]
+    },
+    {
+      "day": 287,
+      "era": "Gospels",
+      "readings": [
+        "MAT.19",
+        "MAT.20",
+        "MAT.21",
+        "PSA.115"
+      ]
+    },
+    {
+      "day": 288,
+      "era": "Gospels",
+      "readings": [
+        "MAT.22",
+        "MAT.23",
+        "MAT.24",
+        "PSA.116"
+      ]
+    },
+    {
+      "day": 289,
+      "era": "Gospels",
+      "readings": [
+        "MAT.25",
+        "MAT.26",
+        "MAT.27",
+        "PSA.116"
+      ]
+    },
+    {
+      "day": 290,
+      "era": "Gospels",
+      "readings": [
+        "MAT.28",
+        "MAT.29",
+        "MAT.30",
+        "PSA.116"
+      ]
+    },
+    {
+      "day": 291,
+      "era": "Gospels",
+      "readings": [
+        "MAT.31",
+        "MAT.32",
+        "MAT.33",
+        "PSA.117"
+      ]
+    },
+    {
+      "day": 292,
+      "era": "Gospels",
+      "readings": [
+        "MAT.34",
+        "MAT.35",
+        "MAT.36",
+        "PSA.117"
+      ]
+    },
+    {
+      "day": 293,
+      "era": "Gospels",
+      "readings": [
+        "MAT.37",
+        "MAT.38",
+        "MAT.39",
+        "PSA.118"
+      ]
+    },
+    {
+      "day": 294,
+      "era": "Gospels",
+      "readings": [
+        "MAT.40",
+        "MAT.41",
+        "MAT.42",
+        "PSA.118"
+      ]
+    },
+    {
+      "day": 295,
+      "era": "Gospels",
+      "readings": [
+        "MAT.43",
+        "MAT.44",
+        "MAT.45",
+        "PSA.118"
+      ]
+    },
+    {
+      "day": 296,
+      "era": "Gospels",
+      "readings": [
+        "MAT.46",
+        "MAT.47",
+        "MAT.48",
+        "PSA.119"
+      ]
+    },
+    {
+      "day": 297,
+      "era": "Gospels",
+      "readings": [
+        "MAT.49",
+        "MAT.50",
+        "MAT.51",
+        "PSA.119"
+      ]
+    },
+    {
+      "day": 298,
+      "era": "Gospels",
+      "readings": [
+        "MAT.52",
+        "MAT.53",
+        "MAT.54",
+        "PSA.120"
+      ]
+    },
+    {
+      "day": 299,
+      "era": "Gospels",
+      "readings": [
+        "MAT.55",
+        "MAT.56",
+        "MAT.57",
+        "PSA.120"
+      ]
+    },
+    {
+      "day": 300,
+      "era": "Gospels",
+      "readings": [
+        "MAT.58",
+        "MAT.59",
+        "MAT.60",
+        "PSA.120"
+      ]
+    },
+    {
+      "day": 301,
+      "era": "Gospels",
+      "readings": [
+        "MAT.61",
+        "MAT.62",
+        "MAT.63",
+        "PSA.121"
+      ]
+    },
+    {
+      "day": 302,
+      "era": "Gospels",
+      "readings": [
+        "MAT.64",
+        "MAT.65",
+        "MAT.66",
+        "PSA.121"
+      ]
+    },
+    {
+      "day": 303,
+      "era": "Gospels",
+      "readings": [
+        "MAT.67",
+        "MAT.68",
+        "MAT.69",
+        "PSA.122"
+      ]
+    },
+    {
+      "day": 304,
+      "era": "Gospels",
+      "readings": [
+        "MAT.70",
+        "MAT.71",
+        "MAT.72",
+        "PSA.122"
+      ]
+    },
+    {
+      "day": 305,
+      "era": "Gospels",
+      "readings": [
+        "MAT.73",
+        "MAT.74",
+        "MAT.75",
+        "PSA.122"
+      ]
+    },
+    {
+      "day": 306,
+      "era": "Gospels",
+      "readings": [
+        "MAT.76",
+        "MAT.77",
+        "MAT.78",
+        "PSA.123"
+      ]
+    },
+    {
+      "day": 307,
+      "era": "Gospels",
+      "readings": [
+        "MAT.79",
+        "MAT.80",
+        "MAT.81",
+        "PSA.123"
+      ]
+    },
+    {
+      "day": 308,
+      "era": "Gospels",
+      "readings": [
+        "MAT.82",
+        "MAT.83",
+        "MAT.84",
+        "PSA.124"
+      ]
+    },
+    {
+      "day": 309,
+      "era": "Gospels",
+      "readings": [
+        "MAT.85",
+        "MAT.86",
+        "MAT.87",
+        "PSA.124"
+      ]
+    },
+    {
+      "day": 310,
+      "era": "Gospels",
+      "readings": [
+        "MAT.88",
+        "MAT.89",
+        "MAT.90",
+        "PSA.124"
+      ]
+    },
+    {
+      "day": 311,
+      "era": "Gospels",
+      "readings": [
+        "MAT.91",
+        "MAT.92",
+        "MAT.93",
+        "PSA.125"
+      ]
+    },
+    {
+      "day": 312,
+      "era": "Gospels",
+      "readings": [
+        "MAT.94",
+        "MAT.95",
+        "MAT.96",
+        "PSA.125"
+      ]
+    },
+    {
+      "day": 313,
+      "era": "Gospels",
+      "readings": [
+        "MAT.97",
+        "MAT.98",
+        "MAT.99",
+        "PSA.126"
+      ]
+    },
+    {
+      "day": 314,
+      "era": "Gospels",
+      "readings": [
+        "MAT.100",
+        "MAT.101",
+        "MAT.102",
+        "PSA.126"
+      ]
+    },
+    {
+      "day": 315,
+      "era": "Gospels",
+      "readings": [
+        "MAT.103",
+        "MAT.104",
+        "MAT.105",
+        "PSA.126"
+      ]
+    },
+    {
+      "day": 316,
+      "era": "Gospels",
+      "readings": [
+        "MAT.106",
+        "MAT.107",
+        "MAT.108",
+        "PSA.127"
+      ]
+    },
+    {
+      "day": 317,
+      "era": "Gospels",
+      "readings": [
+        "MAT.109",
+        "MAT.110",
+        "MAT.111",
+        "PSA.127"
+      ]
+    },
+    {
+      "day": 318,
+      "era": "Gospels",
+      "readings": [
+        "MAT.112",
+        "MAT.113",
+        "MAT.114",
+        "PSA.128"
+      ]
+    },
+    {
+      "day": 319,
+      "era": "Gospels",
+      "readings": [
+        "MAT.115",
+        "MAT.116",
+        "MAT.117",
+        "PSA.128"
+      ]
+    },
+    {
+      "day": 320,
+      "era": "Gospels",
+      "readings": [
+        "MAT.118",
+        "MAT.119",
+        "MAT.120",
+        "PSA.128"
+      ]
+    },
+    {
+      "day": 321,
+      "era": "Early Church",
+      "readings": [
+        "ACT.1",
+        "ACT.2",
+        "ACT.3",
+        "PSA.129"
+      ]
+    },
+    {
+      "day": 322,
+      "era": "Early Church",
+      "readings": [
+        "ACT.4",
+        "ACT.5",
+        "ACT.6",
+        "PSA.129"
+      ]
+    },
+    {
+      "day": 323,
+      "era": "Early Church",
+      "readings": [
+        "ACT.7",
+        "ACT.8",
+        "ACT.9",
+        "PSA.130"
+      ]
+    },
+    {
+      "day": 324,
+      "era": "Early Church",
+      "readings": [
+        "ACT.10",
+        "ACT.11",
+        "ACT.12",
+        "PSA.130"
+      ]
+    },
+    {
+      "day": 325,
+      "era": "Early Church",
+      "readings": [
+        "ACT.13",
+        "ACT.14",
+        "ACT.15",
+        "PSA.130"
+      ]
+    },
+    {
+      "day": 326,
+      "era": "Early Church",
+      "readings": [
+        "ACT.16",
+        "ACT.17",
+        "ACT.18",
+        "PSA.131"
+      ]
+    },
+    {
+      "day": 327,
+      "era": "Early Church",
+      "readings": [
+        "ACT.19",
+        "ACT.20",
+        "ACT.21",
+        "PSA.131"
+      ]
+    },
+    {
+      "day": 328,
+      "era": "Early Church",
+      "readings": [
+        "ACT.22",
+        "ACT.23",
+        "ACT.24",
+        "PSA.132"
+      ]
+    },
+    {
+      "day": 329,
+      "era": "Early Church",
+      "readings": [
+        "ACT.25",
+        "ACT.26",
+        "ACT.27",
+        "PSA.132"
+      ]
+    },
+    {
+      "day": 330,
+      "era": "Early Church",
+      "readings": [
+        "ACT.28",
+        "ACT.29",
+        "ACT.30",
+        "PSA.132"
+      ]
+    },
+    {
+      "day": 331,
+      "era": "Early Church",
+      "readings": [
+        "ACT.31",
+        "ACT.32",
+        "ACT.33",
+        "PSA.133"
+      ]
+    },
+    {
+      "day": 332,
+      "era": "Early Church",
+      "readings": [
+        "ACT.34",
+        "ACT.35",
+        "ACT.36",
+        "PSA.133"
+      ]
+    },
+    {
+      "day": 333,
+      "era": "Early Church",
+      "readings": [
+        "ACT.37",
+        "ACT.38",
+        "ACT.39",
+        "PSA.134"
+      ]
+    },
+    {
+      "day": 334,
+      "era": "Early Church",
+      "readings": [
+        "ACT.40",
+        "ACT.41",
+        "ACT.42",
+        "PSA.134"
+      ]
+    },
+    {
+      "day": 335,
+      "era": "Early Church",
+      "readings": [
+        "ACT.43",
+        "ACT.44",
+        "ACT.45",
+        "PSA.134"
+      ]
+    },
+    {
+      "day": 336,
+      "era": "Letters & Revelation",
+      "readings": [
+        "ROM.1",
+        "ROM.2",
+        "ROM.3",
+        "PSA.135"
+      ]
+    },
+    {
+      "day": 337,
+      "era": "Letters & Revelation",
+      "readings": [
+        "ROM.4",
+        "ROM.5",
+        "ROM.6",
+        "PSA.135"
+      ]
+    },
+    {
+      "day": 338,
+      "era": "Letters & Revelation",
+      "readings": [
+        "ROM.7",
+        "ROM.8",
+        "ROM.9",
+        "PSA.136"
+      ]
+    },
+    {
+      "day": 339,
+      "era": "Letters & Revelation",
+      "readings": [
+        "ROM.10",
+        "ROM.11",
+        "ROM.12",
+        "PSA.136"
+      ]
+    },
+    {
+      "day": 340,
+      "era": "Letters & Revelation",
+      "readings": [
+        "ROM.13",
+        "ROM.14",
+        "ROM.15",
+        "PSA.136"
+      ]
+    },
+    {
+      "day": 341,
+      "era": "Letters & Revelation",
+      "readings": [
+        "ROM.16",
+        "ROM.17",
+        "ROM.18",
+        "PSA.137"
+      ]
+    },
+    {
+      "day": 342,
+      "era": "Letters & Revelation",
+      "readings": [
+        "ROM.19",
+        "ROM.20",
+        "ROM.21",
+        "PSA.137"
+      ]
+    },
+    {
+      "day": 343,
+      "era": "Letters & Revelation",
+      "readings": [
+        "ROM.22",
+        "ROM.23",
+        "ROM.24",
+        "PSA.138"
+      ]
+    },
+    {
+      "day": 344,
+      "era": "Letters & Revelation",
+      "readings": [
+        "ROM.25",
+        "ROM.26",
+        "ROM.27",
+        "PSA.138"
+      ]
+    },
+    {
+      "day": 345,
+      "era": "Letters & Revelation",
+      "readings": [
+        "ROM.28",
+        "ROM.29",
+        "ROM.30",
+        "PSA.138"
+      ]
+    },
+    {
+      "day": 346,
+      "era": "Letters & Revelation",
+      "readings": [
+        "ROM.31",
+        "ROM.32",
+        "ROM.33",
+        "PSA.139"
+      ]
+    },
+    {
+      "day": 347,
+      "era": "Letters & Revelation",
+      "readings": [
+        "ROM.34",
+        "ROM.35",
+        "ROM.36",
+        "PSA.139"
+      ]
+    },
+    {
+      "day": 348,
+      "era": "Letters & Revelation",
+      "readings": [
+        "ROM.37",
+        "ROM.38",
+        "ROM.39",
+        "PSA.140"
+      ]
+    },
+    {
+      "day": 349,
+      "era": "Letters & Revelation",
+      "readings": [
+        "ROM.40",
+        "ROM.41",
+        "ROM.42",
+        "PSA.140"
+      ]
+    },
+    {
+      "day": 350,
+      "era": "Letters & Revelation",
+      "readings": [
+        "ROM.43",
+        "ROM.44",
+        "ROM.45",
+        "PSA.140"
+      ]
+    },
+    {
+      "day": 351,
+      "era": "Letters & Revelation",
+      "readings": [
+        "ROM.46",
+        "ROM.47",
+        "ROM.48",
+        "PSA.141"
+      ]
+    },
+    {
+      "day": 352,
+      "era": "Letters & Revelation",
+      "readings": [
+        "ROM.49",
+        "ROM.50",
+        "ROM.51",
+        "PSA.141"
+      ]
+    },
+    {
+      "day": 353,
+      "era": "Letters & Revelation",
+      "readings": [
+        "ROM.52",
+        "ROM.53",
+        "ROM.54",
+        "PSA.142"
+      ]
+    },
+    {
+      "day": 354,
+      "era": "Letters & Revelation",
+      "readings": [
+        "ROM.55",
+        "ROM.56",
+        "ROM.57",
+        "PSA.142"
+      ]
+    },
+    {
+      "day": 355,
+      "era": "Letters & Revelation",
+      "readings": [
+        "ROM.58",
+        "ROM.59",
+        "ROM.60",
+        "PSA.142"
+      ]
+    },
+    {
+      "day": 356,
+      "era": "Letters & Revelation",
+      "readings": [
+        "ROM.61",
+        "ROM.62",
+        "ROM.63",
+        "PSA.143"
+      ]
+    },
+    {
+      "day": 357,
+      "era": "Letters & Revelation",
+      "readings": [
+        "ROM.64",
+        "ROM.65",
+        "ROM.66",
+        "PSA.143"
+      ]
+    },
+    {
+      "day": 358,
+      "era": "Letters & Revelation",
+      "readings": [
+        "ROM.67",
+        "ROM.68",
+        "ROM.69",
+        "PSA.144"
+      ]
+    },
+    {
+      "day": 359,
+      "era": "Letters & Revelation",
+      "readings": [
+        "ROM.70",
+        "ROM.71",
+        "ROM.72",
+        "PSA.144"
+      ]
+    },
+    {
+      "day": 360,
+      "era": "Letters & Revelation",
+      "readings": [
+        "ROM.73",
+        "ROM.74",
+        "ROM.75",
+        "PSA.144"
+      ]
+    },
+    {
+      "day": 361,
+      "era": "Letters & Revelation",
+      "readings": [
+        "ROM.76",
+        "ROM.77",
+        "ROM.78",
+        "PSA.145"
+      ]
+    },
+    {
+      "day": 362,
+      "era": "Letters & Revelation",
+      "readings": [
+        "ROM.79",
+        "ROM.80",
+        "ROM.81",
+        "PSA.145"
+      ]
+    },
+    {
+      "day": 363,
+      "era": "Letters & Revelation",
+      "readings": [
+        "ROM.82",
+        "ROM.83",
+        "ROM.84",
+        "PSA.146"
+      ]
+    },
+    {
+      "day": 364,
+      "era": "Letters & Revelation",
+      "readings": [
+        "ROM.85",
+        "ROM.86",
+        "ROM.87",
+        "PSA.146"
+      ]
+    },
+    {
+      "day": 365,
+      "era": "Letters & Revelation",
+      "readings": [
+        "ROM.88",
+        "ROM.89",
+        "ROM.90",
+        "PSA.146"
       ]
     }
   ]
