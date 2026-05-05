@@ -1,0 +1,132 @@
+{
+  "version": "1.0",
+  "description": "Semantic tag color palette (20 desaturated colors for light/dark themes)",
+  "colors": [
+    {
+      "id": "sage",
+      "name": "Sage Green",
+      "light": { "bg": "#E8F5E9", "border": "#A5D6A7", "text": "#1B5E20" },
+      "dark": { "bg": "#1B3A1F", "border": "#4C9A6C", "text": "#A5D6A7" }
+    },
+    {
+      "id": "dusty_rose",
+      "name": "Dusty Rose",
+      "light": { "bg": "#FCE4EC", "border": "#F48FB1", "text": "#880E4F" },
+      "dark": { "bg": "#3A1A2A", "border": "#B33A5E", "text": "#F48FB1" }
+    },
+    {
+      "id": "steel_blue",
+      "name": "Steel Blue",
+      "light": { "bg": "#E3F2FD", "border": "#90CAF9", "text": "#0D47A1" },
+      "dark": { "bg": "#1A2C3A", "border": "#4285F4", "text": "#90CAF9" }
+    },
+    {
+      "id": "ochre",
+      "name": "Ochre",
+      "light": { "bg": "#FFF8E1", "border": "#FFD54F", "text": "#FF6F00" },
+      "dark": { "bg": "#3A2F1A", "border": "#F9A825", "text": "#FFD54F" }
+    },
+    {
+      "id": "lavender",
+      "name": "Lavender",
+      "light": { "bg": "#EDE7F6", "border": "#CE93D8", "text": "#4A148C" },
+      "dark": { "bg": "#2A1A3A", "border": "#9C27B0", "text": "#CE93D8" }
+    },
+    {
+      "id": "slate",
+      "name": "Slate Gray",
+      "light": { "bg": "#ECEFF1", "border": "#B0BEC5", "text": "#37474F" },
+      "dark": { "bg": "#1A2A2E", "border": "#607D8B", "text": "#B0BEC5" }
+    },
+    {
+      "id": "coral",
+      "name": "Coral",
+      "light": { "bg": "#FBE9E7", "border": "#FFAB91", "text": "#BF360C" },
+      "dark": { "bg": "#3A1E1A", "border": "#E64A19", "text": "#FFAB91" }
+    },
+    {
+      "id": "teal",
+      "name": "Teal",
+      "light": { "bg": "#E0F2F1", "border": "#80CBC4", "text": "#004D40" },
+      "dark": { "bg": "#1A2E2E", "border": "#4DB6AC", "text": "#80CBC4" }
+    },
+    {
+      "id": "amber",
+      "name": "Amber",
+      "light": { "bg": "#FFF3E0", "border": "#FFB74D", "text": "#E65100" },
+      "dark": { "bg": "#3A2A1A", "border": "#F57C00", "text": "#FFB74D" }
+    },
+    {
+      "id": "plum",
+      "name": "Plum",
+      "light": { "bg": "#F3E5F5", "border": "#BA68C8", "text": "#4A148C" },
+      "dark": { "bg": "#2A1A3A", "border": "#8E24AA", "text": "#BA68C8" }
+    },
+    {
+      "id": "mint",
+      "name": "Mint",
+      "light": { "bg": "#E0F7FA", "border": "#80DEEA", "text": "#006064" },
+      "dark": { "bg": "#1A2E2E", "border": "#4DD0E1", "text": "#80DEEA" }
+    },
+    {
+      "id": "peach",
+      "name": "Peach",
+      "light": { "bg": "#FBE9E7", "border": "#FFCCBC", "text": "#BF360C" },
+      "dark": { "bg": "#3A1E1A", "border": "#E64A19", "text": "#FFCCBC" }
+    },
+    {
+      "id": "denim",
+      "name": "Denim Blue",
+      "light": { "bg": "#E8EAF6", "border": "#9FA8DA", "text": "#1A237E" },
+      "dark": { "bg": "#1A1B3A", "border": "#3F51B5", "text": "#9FA8DA" }
+    },
+    {
+      "id": "olive",
+      "name": "Olive",
+      "light": { "bg": "#F1F8E9", "border": "#AED581", "text": "#33691E" },
+      "dark": { "bg": "#1A2A1A", "border": "#689F38", "text": "#AED581" }
+    },
+    {
+      "id": "terracotta",
+      "name": "Terracotta",
+      "light": { "bg": "#EFEBE9", "border": "#A1887F", "text": "#3E2723" },
+      "dark": { "bg": "#2A1E1A", "border": "#795548", "text": "#A1887F" }
+    },
+    {
+      "id": "sky",
+      "name": "Sky Blue",
+      "light": { "bg": "#E1F5FE", "border": "#81D4FA", "text": "#01579B" },
+      "dark": { "bg": "#1A2A3A", "border": "#0288D1", "text": "#81D4FA" }
+    },
+    {
+      "id": "blush",
+      "name": "Blush Pink",
+      "light": { "bg": "#FCE4EC", "border": "#F48FB1", "text": "#880E4F" },
+      "dark": { "bg": "#3A1A2A", "border": "#B33A5E", "text": "#F48FB1" }
+    },
+    {
+      "id": "sage_dark",
+      "name": "Dark Sage",
+      "light": { "bg": "#E8F5E9", "border": "#A5D6A7", "text": "#1B5E20" },
+      "dark": { "bg": "#1B3A1F", "border": "#4C9A6C", "text": "#A5D6A7" }
+    },
+    {
+      "id": "mustard",
+      "name": "Mustard",
+      "light": { "bg": "#FFF8E1", "border": "#FFD54F", "text": "#FF6F00" },
+      "dark": { "bg": "#3A2F1A", "border": "#F9A825", "text": "#FFD54F" }
+    },
+    {
+      "id": "mauve",
+      "name": "Mauve",
+      "light": { "bg": "#F3E5F5", "border": "#BA68C8", "text": "#4A148C" },
+      "dark": { "bg": "#2A1A3A", "border": "#8E24AA", "text": "#BA68C8" }
+    },
+    {
+      "id": "cyan",
+      "name": "Cyan",
+      "light": { "bg": "#E0F7FA", "border": "#80DEEA", "text": "#006064" },
+      "dark": { "bg": "#1A2E2E", "border": "#4DD0E1", "text": "#80DEEA" }
+    }
+  ]
+}

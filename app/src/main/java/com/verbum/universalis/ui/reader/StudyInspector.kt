@@ -32,8 +32,6 @@ fun StudyInspector(
     onTabSelect: (InspectorTab) -> Unit,
     modifier: Modifier = Modifier
 ) {
-    var selectedTab by remember { mutableStateOf(InspectorTab.LEXICON) }
-
     Column(modifier = modifier.fillMaxSize()) {
         TabRow(selectedTabIndex = activeTab.ordinal) {
             Tab(selected = activeTab == InspectorTab.LEXICON, onClick = { onTabSelect(InspectorTab.LEXICON) }, text = { Text("Lexicon") })
@@ -60,8 +58,8 @@ fun LexiconView(selectedWord: InterlinearWordEntity?, lexiconEntry: LexiconEntit
     } else {
         Column {
             Text("Original: ${selectedWord.original}", style = androidx.compose.material3.MaterialTheme.typography.titleMedium)
-            Text("Transliteration: ${selectedWord.transliteration}", style = androidx.compose.material3.MaterialTheme.typography.bodyMedium)
-            Text("Literal: ${selectedWord.literal}", style = androidx.compose.material3.MaterialTheme.typography.bodyMedium)
+            Text("Transliteration: ${selectedWord.transliteration ?: "N/A"}", style = androidx.compose.material3.MaterialTheme.typography.bodyMedium)
+            Text("Literal: ${selectedWord.literal ?: "N/A"}", style = androidx.compose.material3.MaterialTheme.typography.bodyMedium)
             if (lexiconEntry != null) {
                 Text("Definition: ${lexiconEntry.definition}", style = androidx.compose.material3.MaterialTheme.typography.bodyLarge)
             } else {
@@ -80,11 +78,22 @@ fun CatenaView(catenaEntries: List<CatenaCommentaryEntity>) {
             items(catenaEntries.size) { idx ->
                 val entry = catenaEntries[idx]
                 Column(modifier = Modifier.padding(vertical = 8.dp)) {
-                    Text("• ${entry.fatherName}${entry.appendToAuthorName ?: ""}", style = androidx.compose.material3.MaterialTheme.typography.labelMedium)
+                    // Author + Period
+                    val authorText = buildString {
+                        append(entry.author)
+                        if (entry.period?.isNotEmpty() == true) {
+                            append(" (${entry.period})")
+                        }
+                    }
+                    Text("• $authorText", style = androidx.compose.material3.MaterialTheme.typography.labelMedium)
+                    
+                    // Source title
                     if (entry.sourceTitle?.isNotEmpty() == true) {
                         Text(entry.sourceTitle, style = androidx.compose.material3.MaterialTheme.typography.labelSmall)
                     }
-                    Text(entry.text, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium)
+                    
+                    // Full text inline
+                    Text(entry.content, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium)
                 }
             }
         }

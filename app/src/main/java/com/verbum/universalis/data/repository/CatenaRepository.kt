@@ -13,57 +13,57 @@ class CatenaRepository(
     @androidx.annotation.qualifiers.ApplicationContext private val context: Context
 ) {
     private val downloader = DataDownloader()
-    
-    // Book name mapping: our book_id -> catena book string
+
+    // Book name mapping: our book_id -> catena book string (abbreviated)
     private val bookIdToCatenaBook = mapOf(
-        1 to "genesis", 2 to "exodus", 3 to "leviticus", 4 to "numbers", 5 to "deuteronomy",
-        6 to "joshua", 7 to "judges", 8 to "ruth", 9 to "1samuel", 10 to "2samuel",
-        11 to "1kings", 12 to "2kings", 13 to "1chronicles", 14 to "2chronicles",
-        15 to "ezra", 16 to "nehemiah", 17 to "tobit", 18 to "judith", 19 to "esther",
-        20 to "job", 21 to "psalms", 22 to "proverbs", 23 to "ecclesiastes", 24 to "songofsolomon",
-        25 to "wisdom", 26 to "sirach", 27 to "isaiah", 28 to "jeremiah",
-        29 to "lamentations", 30 to "baruch", 31 to "ezekiel", 32 to "daniel",
-        33 to "hosea", 34 to "joel", 35 to "amos", 36 to "obadiah",
-        37 to "jonah", 38 to "micah", 39 to "nahum", 40 to "habakkuk",
-        41 to "zephaniah", 42 to "haggai", 43 to "zechariah", 44 to "malachi",
-        45 to "1maccabees", 46 to "2maccabees", 47 to "matthew", 48 to "mark",
-        49 to "luke", 50 to "john", 51 to "acts", 52 to "romans",
-        53 to "1corinthians", 54 to "2corinthians", 55 to "galatians", 56 to "ephesians",
-        57 to "philippians", 58 to "colossians", 59 to "1thessalonians", 60 to "2thessalonians",
-        61 to "1timothy", 62 to "2timothy", 63 to "titus", 64 to "philemon",
-        65 to "hebrews", 66 to "james", 67 to "1peter", 68 to "2peter",
+        1 to "gen", 2 to "exod", 3 to "lev", 4 to "num", 5 to "deut",
+        6 to "josh", 7 to "judg", 8 to "ruth", 9 to "1sam", 10 to "2sam",
+        11 to "1kgs", 12 to "2kgs", 13 to "1chr", 14 to "2chr",
+        15 to "ezra", 16 to "neh", 17 to "tob", 18 to "jdt", 19 to "esth",
+        20 to "job", 21 to "ps", 22 to "prov", 23 to "eccl", 24 to "song",
+        25 to "wis", 26 to "sir", 27 to "isa", 28 to "jer",
+        29 to "lam", 30 to "bar", 31 to "ezek", 32 to "dan",
+        33 to "hos", 34 to "joel", 35 to "amos", 36 to "obad",
+        37 to "jonah", 38 to "mic", 39 to "nah", 40 to "hab",
+        41 to "zeph", 42 to "hag", 43 to "zech", 44 to "mal",
+        45 to "1macc", 46 to "2macc", 47 to "matt", 48 to "mark",
+        49 to "luk", 50 to "john", 51 to "acts", 52 to "rom",
+        53 to "1cor", 54 to "2cor", 55 to "gal", 56 to "eph",
+        57 to "phil", 58 to "col", 59 to "1thes", 60 to "2thes",
+        61 to "1tim", 62 to "2tim", 63 to "titus", 64 to "phlm",
+        65 to "heb", 66 to "jas", 67 to "1pet", 68 to "2pet",
         69 to "1john", 70 to "2john", 71 to "3john", 72 to "jude",
-        73 to "revelation"
+        73 to "rev"
     )
-    
-    // Encode chapter/verse to match catena.sqlite format (chapter * 1000000 + verse)
-    fun encodeVerse(chapter: Int, verse: Int): Int = (chapter * 1000000) + verse
-    
+
     fun getCommentariesForVerse(bookId: Int, chapter: Int, verseNumber: Int): Flow<List<CatenaCommentaryEntity>> {
         val book = bookIdToCatenaBook[bookId] ?: return kotlinx.coroutines.flow.flowOf(emptyList())
-        val encodedVerse = encodeVerse(chapter, verseNumber)
-        return catenaDao.getCommentariesByVerse(encodedVerse)
+        return catenaDao.getCommentariesForVerse(book, chapter, verseNumber)
     }
-    
-    fun getCommentariesForChapter(bookId: Int, chapter: Int, startVerse: Int, endVerse: Int): Flow<List<CatenaCommentaryEntity>> {
+
+    fun getCommentariesForChapter(bookId: Int, chapter: Int): Flow<List<CatenaCommentaryEntity>> {
         val book = bookIdToCatenaBook[bookId] ?: return kotlinx.coroutines.flow.flowOf(emptyList())
-        val start = encodeVerse(chapter, startVerse)
-        val end = encodeVerse(chapter, endVerse)
-        return catenaDao.getCommentariesForChapter(book, start, end)
+        return catenaDao.getCommentariesForChapter(book, chapter)
     }
-    
+
+    fun getCommentariesForBook(bookId: Int): Flow<List<CatenaCommentaryEntity>> {
+        val book = bookIdToCatenaBook[bookId] ?: return kotlinx.coroutines.flow.flowOf(emptyList())
+        return catenaDao.getCommentariesByBook(book)
+    }
+
     suspend fun isDatabaseDownloaded(): Boolean {
         return CatenaDatabase.isDatabaseDownloaded(context)
     }
-    
+
     suspend fun downloadDatabase(): Boolean {
-        val outputFile = File(context.filesDir, "catena.sqlite")
+        val outputFile = File(context.filesDir, "verbum_catena.db")
         val success = downloader.downloadCatenaDatabase(outputFile)
         if (success) {
             // Move to databases folder for Room
             val dbDir = File(context.filesDir, "databases")
             if (!dbDir.exists()) dbDir.mkdirs()
-            val finalDb = File(dbDir, "catena.sqlite")
+            val finalDb = File(dbDir, "verbum_catena.db")
+            if (finalDb.exists()) finalDb.delete()
             outputFile.renameTo(finalDb)
         }
         return success
