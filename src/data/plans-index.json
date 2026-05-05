@@ -1,0 +1,21 @@
+{
+  "plans": [
+    {
+      "planId": "chronological_365",
+      "title": "Bible in a Year (Chronological)",
+      "description": "A 365-day journey through the entire Catholic Bible, organized across 12 historical periods to follow the continuous story of salvation.",
+      "type": "bible_in_a_year",
+      "totalDays": 365,
+      "file": "bible-in-a-year.json"
+    },
+    {
+      "planId": "daily_mass_readings",
+      "title": "Daily Mass Readings",
+      "description": "Daily Catholic Mass readings following the liturgical calendar.",
+      "type": "daily_mass",
+      "totalDays": 493,
+      "file": "daily-mass-readings.json"
+    }
+  ],
+  "lastUpdated": "2026-05-05T17:53:10.512Z"
+}

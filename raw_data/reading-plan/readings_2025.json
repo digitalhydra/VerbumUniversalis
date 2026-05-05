@@ -1,0 +1,1560 @@
+[
+  {
+    "date": "2025-08-25",
+    "monthDay": "8/25",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "1 Thessalonians 1:1-5, 8b-10",
+      "psalm": "Psalm 149:1b-2, 3-4, 5-6a and 9b",
+      "gospel": "Matthew 23:13-22"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/082525.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/08-25.json"
+  },
+  {
+    "date": "2025-08-26",
+    "monthDay": "8/26",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "1 Thessalonians 2:1-8",
+      "psalm": "Psalm 139:1-3, 4-6",
+      "gospel": "Matthew 23:23-26"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/082625.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/08-26.json"
+  },
+  {
+    "date": "2025-08-27",
+    "monthDay": "8/27",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "1 Thessalonians 2:9-13",
+      "psalm": "Psalm 139:7-8, 9-10, 11-12ab",
+      "gospel": "Matthew 23:27-32"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/082725.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/08-27.json"
+  },
+  {
+    "date": "2025-08-28",
+    "monthDay": "8/28",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "1 Thessalonians 3:7-13",
+      "psalm": "Psalm 90:3-5a, 12-13, 14 and 17",
+      "gospel": "Matthew 24:42-51"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/082825.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/08-28.json"
+  },
+  {
+    "date": "2025-08-29",
+    "monthDay": "8/29",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "1 Thessalonians 4:1-8",
+      "psalm": "Psalm 97:1 and 2b, 5-6, 10, 11-12",
+      "gospel": "Mark 6:17-29"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/082925.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/08-29.json"
+  },
+  {
+    "date": "2025-08-30",
+    "monthDay": "8/30",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "1 Thessalonians 4:9-11",
+      "psalm": "Psalm 98:1, 7-8, 9",
+      "gospel": "Matthew 25:14-30"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/083025.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/08-30.json"
+  },
+  {
+    "date": "2025-08-31",
+    "monthDay": "8/31",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Sirach 3:17-18, 20, 28-29",
+      "psalm": "Psalm 68:4-5, 6-7, 10-11",
+      "secondReading": "Hebrews 12:18-19, 22-24a",
+      "gospel": "Luke 14:1, 7-14"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/083125.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/08-31.json"
+  },
+  {
+    "date": "2025-09-01",
+    "monthDay": "9/1",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "1 Thessalonians 4:13-18",
+      "psalm": "Psalm 96:1 and 3, 4-5, 11-12, 13",
+      "gospel": "Luke 4:16-30"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/090125.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/09-01.json"
+  },
+  {
+    "date": "2025-09-02",
+    "monthDay": "9/2",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "1 Thessalonians 5:1-6, 9-11",
+      "psalm": "Psalm 27:1, 4, 13-14",
+      "gospel": "Luke 4:31-37"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/090225.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/09-02.json"
+  },
+  {
+    "date": "2025-09-03",
+    "monthDay": "9/3",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Colossians 1:1-8",
+      "psalm": "Psalm 52:10, 11",
+      "gospel": "Luke 4:38-44"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/090325.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/09-03.json"
+  },
+  {
+    "date": "2025-09-04",
+    "monthDay": "9/4",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Colossians 1:9-14",
+      "psalm": "Psalm 98:2-3ab, 3cd-4, 5-6",
+      "gospel": "Luke 5:1-11"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/090425.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/09-04.json"
+  },
+  {
+    "date": "2025-09-05",
+    "monthDay": "9/5",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Colossians 1:15-20",
+      "psalm": "Psalm 100:1b-2, 3, 4, 5",
+      "gospel": "Luke 5:33-39"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/090525.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/09-05.json"
+  },
+  {
+    "date": "2025-09-06",
+    "monthDay": "9/6",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Colossians 1:21-23",
+      "psalm": "Psalm 54:3-4, 6 and 8",
+      "gospel": "Luke 6:1-5"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/090625.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/09-06.json"
+  },
+  {
+    "date": "2025-09-07",
+    "monthDay": "9/7",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Wisdom 9:13-18b",
+      "psalm": "Psalm 90:3-4, 5-6, 12-13, 14 and 17",
+      "secondReading": "Philemon 9-10, 12-17",
+      "gospel": "Luke 14:25-33"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/090725.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/09-07.json"
+  },
+  {
+    "date": "2025-09-08",
+    "monthDay": "9/8",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Micah 5:1-4a",
+      "psalm": "Psalm 13:6ab, 6c",
+      "gospel": "Matthew 1:1-16, 18-23"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/090825.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/09-08.json"
+  },
+  {
+    "date": "2025-09-09",
+    "monthDay": "9/9",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Colossians 2:6-15",
+      "psalm": "Psalm 145:1b-2, 8-9, 10-11",
+      "gospel": "Luke 6:12-19"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/090925.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/09-09.json"
+  },
+  {
+    "date": "2025-09-10",
+    "monthDay": "9/10",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Colossians 3:1-11",
+      "psalm": "Psalm 145:2-3, 10-11, 12-13ab",
+      "gospel": "Luke 6:20-26"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/091025.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/09-10.json"
+  },
+  {
+    "date": "2025-09-11",
+    "monthDay": "9/11",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Colossians 3:12-17",
+      "psalm": "Psalm 150:1b-2, 3-4, 5-6",
+      "gospel": "Luke 6:27-38"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/091125.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/09-11.json"
+  },
+  {
+    "date": "2025-09-12",
+    "monthDay": "9/12",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "1 Timothy 1:1-2, 12-14",
+      "psalm": "Psalm 16:1b-2a and 5, 7-8, 11",
+      "gospel": "Luke 6:39-42"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/091225.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/09-12.json"
+  },
+  {
+    "date": "2025-09-13",
+    "monthDay": "9/13",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "1 Timothy 1:15-17",
+      "psalm": "Psalm 113:1b-2, 3-4, 5 and 6-7",
+      "gospel": "Luke 6:43-49"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/091325.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/09-13.json"
+  },
+  {
+    "date": "2025-09-14",
+    "monthDay": "9/14",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Numbers 21:4b-9",
+      "psalm": "Psalm 78:1bc-2, 34-35, 36-37, 38",
+      "secondReading": "Philippians 2:6-11",
+      "gospel": "John 3:13-17"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/091425.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/09-14.json"
+  },
+  {
+    "date": "2025-09-15",
+    "monthDay": "9/15",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "1 Timothy 2:1-8",
+      "psalm": "Psalm 28:2, 7, 8-9",
+      "gospel": "John 19:25-27"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/091525.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/09-15.json"
+  },
+  {
+    "date": "2025-09-16",
+    "monthDay": "9/16",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "1 Timothy 3:1-13",
+      "psalm": "Psalm 101:1b-2ab, 2cd-3ab, 5, 6",
+      "gospel": "Luke 7:11-17"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/091625.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/09-16.json"
+  },
+  {
+    "date": "2025-09-17",
+    "monthDay": "9/17",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "1 Timothy 3:14-16",
+      "psalm": "Psalm 111:1-2, 3-4, 5-6",
+      "gospel": "Luke 7:31-35"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/091725.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/09-17.json"
+  },
+  {
+    "date": "2025-09-19",
+    "monthDay": "9/19",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "1 Timothy 6:2c-12",
+      "psalm": "Psalm 49:6-7, 8-10, 17-18, 19-20",
+      "gospel": "Luke 8:1-3"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/091925.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/09-19.json"
+  },
+  {
+    "date": "2025-09-20",
+    "monthDay": "9/20",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "1 Timothy 6:13-16",
+      "psalm": "Psalm 100:1b-2, 3, 4, 5",
+      "gospel": "Luke 8:4-15"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/092025.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/09-20.json"
+  },
+  {
+    "date": "2025-09-21",
+    "monthDay": "9/21",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Amos 8:4-7",
+      "psalm": "Psalm 113:1-2, 4-6, 7-8",
+      "secondReading": "1 Timothy 2:1-8",
+      "gospel": "Luke 16:1-13"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/092125.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/09-21.json"
+  },
+  {
+    "date": "2025-09-22",
+    "monthDay": "9/22",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Ezra 1:1-6",
+      "psalm": "Psalm 126:1b-2ab, 2cd-3, 4-5, 6",
+      "gospel": "Luke 8:16-18"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/092225.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/09-22.json"
+  },
+  {
+    "date": "2025-09-23",
+    "monthDay": "9/23",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Ezra 6:7-8, 12b, 14-20",
+      "psalm": "Psalm 122:1-2, 3-4ab, 4cd-5",
+      "gospel": "Luke 8:19-21"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/092325.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/09-23.json"
+  },
+  {
+    "date": "2025-09-24",
+    "monthDay": "9/24",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Ezra 9:5-9",
+      "psalm": "Tobit 13:2, 3-4a, 4befghn, 7-8",
+      "gospel": "Luke 9:1-6"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/092425.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/09-24.json"
+  },
+  {
+    "date": "2025-09-25",
+    "monthDay": "9/25",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Haggai 1:1-8",
+      "psalm": "Psalm 149:1b-2, 3-4, 5-6a and 9b",
+      "gospel": "Luke 9:7-9"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/092525.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/09-25.json"
+  },
+  {
+    "date": "2025-09-26",
+    "monthDay": "9/26",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Haggai 2:1-9",
+      "psalm": "Psalm 43:1, 2, 3, 4",
+      "gospel": "Luke 9:18-22"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/092625.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/09-26.json"
+  },
+  {
+    "date": "2025-09-27",
+    "monthDay": "9/27",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Zechariah 2:5-9, 14-15a",
+      "psalm": "Jeremiah 31:10, 11-12ab, 13",
+      "gospel": "Luke 9:43b-45"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/092725.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/09-27.json"
+  },
+  {
+    "date": "2025-09-28",
+    "monthDay": "9/28",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Amos 6:1a, 4-7",
+      "psalm": "Psalm 146:7, 8-9, 9-10",
+      "secondReading": "1 Timothy 6:11-16",
+      "gospel": "Luke 16:19-31"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/092825.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/09-28.json"
+  },
+  {
+    "date": "2025-09-29",
+    "monthDay": "9/29",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Daniel 7:9-10, 13-14",
+      "psalm": "Psalm 138:1-2ab, 2cde-3, 4-5",
+      "gospel": "John 1:47-51"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/092925.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/09-29.json"
+  },
+  {
+    "date": "2025-09-30",
+    "monthDay": "9/30",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Zechariah 8:20-23",
+      "psalm": "Psalm 87:1b-3, 4-5, 6-7",
+      "gospel": "Luke 9:51-56"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/093025.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/09-30.json"
+  },
+  {
+    "date": "2025-10-01",
+    "monthDay": "10/1",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Nehemiah 2:1-8",
+      "psalm": "Psalm 137:1-2, 3, 4-5, 6",
+      "gospel": "Luke 9:57-62"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/100125.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/10-01.json"
+  },
+  {
+    "date": "2025-10-02",
+    "monthDay": "10/2",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Nehemiah 8:1-4a, 5-6, 7b-12",
+      "psalm": "Psalm 19:8, 9, 10, 11",
+      "gospel": "Matthew 18:1-5, 10"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/100225.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/10-02.json"
+  },
+  {
+    "date": "2025-10-03",
+    "monthDay": "10/3",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Baruch 1:15-22",
+      "psalm": "Psalm 79:1b-2, 3-5, 8, 9",
+      "gospel": "Luke 10:13-16"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/100325.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/10-03.json"
+  },
+  {
+    "date": "2025-10-04",
+    "monthDay": "10/4",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Baruch 4:5-12, 27-29",
+      "psalm": "Psalm 69:33-35, 36-37",
+      "gospel": "Luke 10:17-24"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/100425.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/10-04.json"
+  },
+  {
+    "date": "2025-10-05",
+    "monthDay": "10/5",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Habakkuk 1:2-3; 2:2-4",
+      "psalm": "Psalm 95:1-2, 6-7, 8-9",
+      "secondReading": "2 Timothy 1:6-8, 13-14",
+      "gospel": "Luke 17:5-10"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/100525.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/10-05.json"
+  },
+  {
+    "date": "2025-10-06",
+    "monthDay": "10/6",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Jonah 1:1\u20132:1-2, 11",
+      "psalm": "Jonah 2:3, 4, 5, 8",
+      "gospel": "Luke 10:25-37"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/100625.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/10-06.json"
+  },
+  {
+    "date": "2025-10-07",
+    "monthDay": "10/7",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Jonah 3:1-10",
+      "psalm": "Psalm 130:1b-2, 3-4ab, 7-8",
+      "gospel": "Luke 10:38-42"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/100725.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/10-07.json"
+  },
+  {
+    "date": "2025-10-08",
+    "monthDay": "10/8",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Jonah 4:1-11",
+      "psalm": "Psalm 86:3-4, 5-6, 9-10",
+      "gospel": "Luke 11:1-4"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/100825.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/10-08.json"
+  },
+  {
+    "date": "2025-10-09",
+    "monthDay": "10/9",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Malachi 3:13-20b",
+      "psalm": "Psalm 1:1-2, 3, 4 and 6",
+      "gospel": "Luke 11:5-13"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/100925.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/10-09.json"
+  },
+  {
+    "date": "2025-10-10",
+    "monthDay": "10/10",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Joel 1:13-15; 2:1-2",
+      "psalm": "Psalm 9:2-3, 6 and 16, 8-9",
+      "gospel": "Luke 11:15-26"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/101025.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/10-10.json"
+  },
+  {
+    "date": "2025-10-11",
+    "monthDay": "10/11",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Joel 4:12-21",
+      "psalm": "Psalm 97:1-2, 5-6, 11-12",
+      "gospel": "Luke 11:27-28"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/101125.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/10-11.json"
+  },
+  {
+    "date": "2025-10-12",
+    "monthDay": "10/12",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "2 Kings 5:14-17",
+      "psalm": "Psalm 98:1, 2-3, 3-4",
+      "secondReading": "2 Timothy 2:8-13",
+      "gospel": "Luke 17:11-19"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/101225.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/10-12.json"
+  },
+  {
+    "date": "2025-10-13",
+    "monthDay": "10/13",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Romans 1:1-7",
+      "psalm": "Psalm 98:1bcde, 2-3ab, 3cd-4",
+      "gospel": "Luke 11:29-32"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/101325.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/10-13.json"
+  },
+  {
+    "date": "2025-10-14",
+    "monthDay": "10/14",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Romans 1:16-25",
+      "psalm": "Psalm 19:2-3, 4-5",
+      "gospel": "Luke 11:37-41"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/101425.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/10-14.json"
+  },
+  {
+    "date": "2025-10-15",
+    "monthDay": "10/15",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Romans 3:21-30",
+      "psalm": "Psalm 130:1b-2, 3-4, 5-6ab",
+      "gospel": "Luke 11:47-54"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/101525.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/10-15.json"
+  },
+  {
+    "date": "2025-10-16",
+    "monthDay": "10/16",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Romans 4:1-8",
+      "psalm": "Psalm 32:1b-2, 5, 11",
+      "gospel": "Luke 12:1-7"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/101625.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/10-16.json"
+  },
+  {
+    "date": "2025-10-17",
+    "monthDay": "10/17",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "2 Timothy 4:10-17b",
+      "psalm": "Psalm 145:10-11, 12-13, 17-18",
+      "gospel": "Luke 10:1-9"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/101725.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/10-17.json"
+  },
+  {
+    "date": "2025-10-18",
+    "monthDay": "10/18",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Exodus 17:8-13",
+      "psalm": "Psalm 121:1-2, 3-4, 5-6, 7-8",
+      "secondReading": "2 Timothy 3:14-4:2",
+      "gospel": "Luke 18:1-8"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/101825.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/10-18.json"
+  },
+  {
+    "date": "2025-10-19",
+    "monthDay": "10/19",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Romans 4:20-25",
+      "psalm": "Luke 1:69-70, 71-72, 73-75",
+      "gospel": "Luke 12:13-21"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/101925.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/10-19.json"
+  },
+  {
+    "date": "2025-10-20",
+    "monthDay": "10/20",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Romans 5:12, 15b, 17-19, 20b-21",
+      "psalm": "Psalm 40:7-8a, 8b-9, 10, 17",
+      "gospel": "Luke 12:35-38"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/102025.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/10-20.json"
+  },
+  {
+    "date": "2025-10-21",
+    "monthDay": "10/21",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Romans 5:12, 15b, 17-19, 20b-21",
+      "psalm": "Psalm 40:7-8a, 8b-9, 10, 17",
+      "gospel": "Luke 12:35-38"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/102125.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/10-21.json"
+  },
+  {
+    "date": "2025-10-22",
+    "monthDay": "10/22",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Romans 6:12-18",
+      "psalm": "Psalm 124:1b-3, 4-6, 7-8",
+      "gospel": "Luke 12:39-48"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/102225.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/10-22.json"
+  },
+  {
+    "date": "2025-10-23",
+    "monthDay": "10/23",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Romans 6:19-23",
+      "psalm": "Psalm 1:1-2, 3, 4 and 6",
+      "gospel": "Luke 12:49-53"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/102325.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/10-23.json"
+  },
+  {
+    "date": "2025-10-24",
+    "monthDay": "10/24",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Romans 7:18-25a",
+      "psalm": "Psalm 119:66, 68, 76, 77, 93, 94",
+      "gospel": "Luke 12:54-59"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/102425.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/10-24.json"
+  },
+  {
+    "date": "2025-10-25",
+    "monthDay": "10/25",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Romans 8:1-11",
+      "psalm": "Psalm 24:1b-2, 3-4ab, 5-6",
+      "gospel": "Luke 13:1-9"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/102525.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/10-25.json"
+  },
+  {
+    "date": "2025-10-26",
+    "monthDay": "10/26",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Sirach 35:12-14, 16-18",
+      "psalm": "Psalm 34:2-3, 17-18, 19, 23",
+      "secondReading": "2 Timothy 4:6-8, 16-18",
+      "gospel": "Luke 18:9-14"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/102625.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/10-26.json"
+  },
+  {
+    "date": "2025-10-27",
+    "monthDay": "10/27",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Romans 8:12-17",
+      "psalm": "Psalm 68:2 and 4, 6-7ab, 20-21",
+      "gospel": "Luke 13:10-17"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/102725.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/10-27.json"
+  },
+  {
+    "date": "2025-10-28",
+    "monthDay": "10/28",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Ephesians 2:19-22",
+      "psalm": "Psalm 19:2-3, 4-5",
+      "gospel": "Luke 6:12-16"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/102825.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/10-28.json"
+  },
+  {
+    "date": "2025-10-29",
+    "monthDay": "10/29",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Romans 8:26-30",
+      "psalm": "Psalm 13:4-5, 6",
+      "gospel": "Luke 13:22-30"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/102925.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/10-29.json"
+  },
+  {
+    "date": "2025-10-30",
+    "monthDay": "10/30",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Romans 8:31b-39",
+      "psalm": "Psalm 109:21-22, 26-27, 30-31",
+      "gospel": "Luke 13:31-35"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/103025.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/10-30.json"
+  },
+  {
+    "date": "2025-10-31",
+    "monthDay": "10/31",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Romans 9:1-5",
+      "psalm": "Psalm 147:12-13, 14-15, 19-20",
+      "gospel": "Luke 14:1-6"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/103125.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/10-31.json"
+  },
+  {
+    "date": "2025-11-01",
+    "monthDay": "11/1",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Revelation 7:2-4, 9-14",
+      "psalm": "Psalm 24:1bc-2, 3-4ab, 5-6",
+      "secondReading": "1 John 3:1-3",
+      "gospel": "Matthew 5:1-12a"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/110125.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/11-01.json"
+  },
+  {
+    "date": "2025-11-02",
+    "monthDay": "11/2",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Wisdom 3:1-9",
+      "psalm": "Psalm 23:1-3a, 3b-4, 5, 6",
+      "secondReading": "Romans 5:5-11",
+      "gospel": "John 6:37-40"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/110225.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/11-02.json"
+  },
+  {
+    "date": "2025-11-03",
+    "monthDay": "11/3",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Romans 11:29-36",
+      "psalm": "Psalm 69:30-31, 33-34, 36",
+      "gospel": "Luke 14:12-14"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/110325.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/11-03.json"
+  },
+  {
+    "date": "2025-11-04",
+    "monthDay": "11/4",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Romans 12:5-16ab",
+      "psalm": "Psalm 131:1bcde, 2, 3",
+      "gospel": "Luke 14:15-24"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/110425.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/11-04.json"
+  },
+  {
+    "date": "2025-11-05",
+    "monthDay": "11/5",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Romans 13:8-10",
+      "psalm": "Psalm 112:1b-2, 4-5, 9",
+      "gospel": "Luke 14:25-33"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/110525.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/11-05.json"
+  },
+  {
+    "date": "2025-11-06",
+    "monthDay": "11/6",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Romans 14:7-12",
+      "psalm": "Psalm 27:1bcde, 4, 13-14",
+      "gospel": "Luke 15:1-10"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/110625.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/11-06.json"
+  },
+  {
+    "date": "2025-11-07",
+    "monthDay": "11/7",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Romans 15:14-21",
+      "psalm": "Psalm 98:1, 2-3ab, 3cd-4",
+      "gospel": "Luke 16:1-8"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/110725.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/11-07.json"
+  },
+  {
+    "date": "2025-11-08",
+    "monthDay": "11/8",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Romans 16:3-9, 16, 22-27",
+      "psalm": "Psalm 145:2-3, 4-5, 10-11",
+      "gospel": "Luke 16:9-15"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/110825.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/11-08.json"
+  },
+  {
+    "date": "2025-11-09",
+    "monthDay": "11/9",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Ezekiel 47:1-2, 8-9, 12",
+      "psalm": "Psalm 46:2-3, 5-6, 8-9",
+      "secondReading": "1 Corinthians 3:9c-11, 16-17",
+      "gospel": "John 2:13-22"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/110925.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/11-09.json"
+  },
+  {
+    "date": "2025-11-10",
+    "monthDay": "11/10",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Wisdom 1:1-7",
+      "psalm": "Psalm 139:1b-3, 4-6, 7-8, 9-10",
+      "gospel": "Luke 17:1-6"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/111025.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/11-10.json"
+  },
+  {
+    "date": "2025-11-11",
+    "monthDay": "11/11",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Wisdom 2:23\u20143:9",
+      "psalm": "Psalm 34:2-3, 16-17, 18-19",
+      "gospel": "Luke 17:7-10"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/111125.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/11-11.json"
+  },
+  {
+    "date": "2025-11-12",
+    "monthDay": "11/12",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Wisdom 6:1-11",
+      "psalm": "Psalm 82:3-4, 6-7",
+      "gospel": "Luke 17:11-19"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/111225.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/11-12.json"
+  },
+  {
+    "date": "2025-11-13",
+    "monthDay": "11/13",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Wisdom 7:22b\u20148:1",
+      "psalm": "Psalm 119:89, 90, 91, 130, 135, 175",
+      "gospel": "Luke 17:20-25"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/111325.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/11-13.json"
+  },
+  {
+    "date": "2025-11-14",
+    "monthDay": "11/14",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Wisdom 13:1-9",
+      "psalm": "Psalm 19:2-3, 4-5ab",
+      "gospel": "Luke 17:26-37"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/111425.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/11-14.json"
+  },
+  {
+    "date": "2025-11-15",
+    "monthDay": "11/15",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Wisdom 18:14-16; 19:6-9",
+      "psalm": "Psalm 105:2-3, 36-37, 42-43",
+      "gospel": "Luke 18:1-8"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/111525.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/11-15.json"
+  },
+  {
+    "date": "2025-11-16",
+    "monthDay": "11/16",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Malachi 4:1-2a",
+      "psalm": "Psalm 98:5-6, 7-8, 9",
+      "secondReading": "2 Thessalonians 3:7-12",
+      "gospel": "Luke 21:5-19"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/111625.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/11-16.json"
+  },
+  {
+    "date": "2025-11-17",
+    "monthDay": "11/17",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "1 Maccabees 1:10-15, 41-43, 54-57, 62-63",
+      "psalm": "Psalm 119:53, 61, 134, 150, 155, 158",
+      "gospel": "Luke 18:35-43"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/111725.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/11-17.json"
+  },
+  {
+    "date": "2025-11-18",
+    "monthDay": "11/18",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "2 Maccabees 6:18-31",
+      "psalm": "Psalm 3:2-3, 4-5, 6-7",
+      "gospel": "Luke 19:1-10"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/111825.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/11-18.json"
+  },
+  {
+    "date": "2025-11-19",
+    "monthDay": "11/19",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "2 Maccabees 7:1, 20-31",
+      "psalm": "Psalm 17:1bcd, 5-6, 8b, 15",
+      "gospel": "Luke 19:11-28"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/111925.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/11-19.json"
+  },
+  {
+    "date": "2025-11-20",
+    "monthDay": "11/20",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "1 Maccabees 2:15-29",
+      "psalm": "Psalm 50:1b-2, 5-6, 14-15",
+      "gospel": "Luke 19:41-44"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/112025.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/11-20.json"
+  },
+  {
+    "date": "2025-11-21",
+    "monthDay": "11/21",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "1 Maccabees 4:36-37, 52-59",
+      "psalm": "1 Chronicles 29:10bcd, 11abc, 11d-12a, 12bcd",
+      "gospel": "Luke 19:45-48"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/112125.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/11-21.json"
+  },
+  {
+    "date": "2025-11-22",
+    "monthDay": "11/22",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "1 Maccabees 6:1-13",
+      "psalm": "Psalm 9:2-3, 4, 6, 16, 19",
+      "gospel": "Luke 20:27-40"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/112225.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/11-22.json"
+  },
+  {
+    "date": "2025-11-23",
+    "monthDay": "11/23",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "2 Samuel 5:1-3",
+      "psalm": "Psalm 122:1-2, 3-4, 4-5",
+      "secondReading": "Colossians 1:12-20",
+      "gospel": "Luke 23:35-43"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/112325.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/11-23.json"
+  },
+  {
+    "date": "2025-11-24",
+    "monthDay": "11/24",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Daniel 1:1-6, 8-20",
+      "psalm": "Daniel 3:52, 53, 54, 55, 56",
+      "gospel": "Luke 21:1-4"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/112425.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/11-24.json"
+  },
+  {
+    "date": "2025-11-25",
+    "monthDay": "11/25",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Daniel 2:31-45",
+      "psalm": "Daniel 3:57, 58, 59, 60, 61",
+      "gospel": "Luke 21:5-11"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/112525.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/11-25.json"
+  },
+  {
+    "date": "2025-11-26",
+    "monthDay": "11/26",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Daniel 5:1-6, 13-14, 16-17, 23-28",
+      "psalm": "Daniel 3:62, 63, 64, 65, 66, 67",
+      "gospel": "Luke 21:12-19"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/112625.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/11-26.json"
+  },
+  {
+    "date": "2025-11-27",
+    "monthDay": "11/27",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Sirach 35:12-14, 16-18",
+      "psalm": "Psalm 138:1-2a, 2bc-3, 7c-8",
+      "secondReading": "2 Timothy 4:6-8, 16-18",
+      "gospel": "Luke 18:9-14"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/112725.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/11-27.json"
+  },
+  {
+    "date": "2025-11-28",
+    "monthDay": "11/28",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Daniel 7:2-14",
+      "psalm": "Daniel 3:75, 76, 77, 78, 79, 80, 81",
+      "gospel": "Luke 21:29-33"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/112825.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/11-28.json"
+  },
+  {
+    "date": "2025-11-29",
+    "monthDay": "11/29",
+    "season": "Ordinary Time",
+    "readings": {
+      "firstReading": "Daniel 7:15-27",
+      "psalm": "Daniel 3:82, 83, 84, 85, 86, 87",
+      "gospel": "Luke 21:34-36"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/112925.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/11-29.json"
+  },
+  {
+    "date": "2025-11-30",
+    "monthDay": "11/30",
+    "season": "Advent",
+    "readings": {
+      "firstReading": "Isaiah 2:1-5",
+      "psalm": "Psalm 122:1-2, 3-4, 4-5, 6-7, 8-9",
+      "secondReading": "Romans 13:11-14",
+      "gospel": "Matthew 24:37-44"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/113025.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/11-30.json"
+  },
+  {
+    "date": "2025-12-01",
+    "monthDay": "12/1",
+    "season": "Advent",
+    "readings": {
+      "firstReading": "Isaiah 4:2-6",
+      "psalm": "Psalm 122:1-2, 3-4b, 4cd-5, 6-7, 8-9",
+      "gospel": "Matthew 8:5-11"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/120125.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/12-01.json"
+  },
+  {
+    "date": "2025-12-02",
+    "monthDay": "12/2",
+    "season": "Advent",
+    "readings": {
+      "firstReading": "Isaiah 11:1-10",
+      "psalm": "Psalm 72:1-2, 7-8, 12-13, 17",
+      "gospel": "Luke 10:21-24"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/120225.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/12-02.json"
+  },
+  {
+    "date": "2025-12-03",
+    "monthDay": "12/3",
+    "season": "Advent",
+    "readings": {
+      "firstReading": "Isaiah 25:6-10a",
+      "psalm": "Psalm 23:1-3a, 3b-4, 5, 6",
+      "gospel": "Matthew 15:29-37"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/120325.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/12-03.json"
+  },
+  {
+    "date": "2025-12-04",
+    "monthDay": "12/4",
+    "season": "Advent",
+    "readings": {
+      "firstReading": "Isaiah 26:1-6",
+      "psalm": "Psalm 118:1 and 8-9, 19-21, 25-27a",
+      "gospel": "Matthew 7:21, 24-27"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/120425.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/12-04.json"
+  },
+  {
+    "date": "2025-12-05",
+    "monthDay": "12/5",
+    "season": "Advent",
+    "readings": {
+      "firstReading": "Isaiah 29:17-24",
+      "psalm": "Psalm 27:1, 4, 13-14",
+      "gospel": "Matthew 9:27-31"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/120525.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/12-05.json"
+  },
+  {
+    "date": "2025-12-06",
+    "monthDay": "12/6",
+    "season": "Advent",
+    "readings": {
+      "firstReading": "Isaiah 30:19-21, 23-26",
+      "psalm": "Psalm 147:1-2, 3-4, 5-6",
+      "gospel": "Matthew 9:35-10:1, 5a, 6-8"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/120625.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/12-06.json"
+  },
+  {
+    "date": "2025-12-07",
+    "monthDay": "12/7",
+    "season": "Advent",
+    "readings": {
+      "firstReading": "Isaiah 11:1-10",
+      "psalm": "Psalm 72:1-2, 7-8, 12-13, 17",
+      "secondReading": "Romans 15:4-9",
+      "gospel": "Matthew 3:1-12"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/120725.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/12-07.json"
+  },
+  {
+    "date": "2025-12-08",
+    "monthDay": "12/8",
+    "season": "Advent",
+    "readings": {
+      "firstReading": "Genesis 3:9-15, 20",
+      "psalm": "Psalm 98:1, 2-3ab, 3cd-4",
+      "secondReading": "Ephesians 1:3-6, 11-12",
+      "gospel": "Luke 1:26-38"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/120825.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/12-08.json"
+  },
+  {
+    "date": "2025-12-09",
+    "monthDay": "12/9",
+    "season": "Advent",
+    "readings": {
+      "firstReading": "Isaiah 40:1-11",
+      "psalm": "Psalm 96:1-2, 3 and 10ac, 11-12, 13",
+      "gospel": "Matthew 18:12-14"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/120925.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/12-09.json"
+  },
+  {
+    "date": "2025-12-10",
+    "monthDay": "12/10",
+    "season": "Advent",
+    "readings": {
+      "firstReading": "Isaiah 40:25-31",
+      "psalm": "Psalm 103:1-2, 3-4, 8 and 10",
+      "gospel": "Matthew 11:28-30"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/121025.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/12-10.json"
+  },
+  {
+    "date": "2025-12-11",
+    "monthDay": "12/11",
+    "season": "Advent",
+    "readings": {
+      "firstReading": "Isaiah 41:13-20",
+      "psalm": "Psalm 145:1 and 9, 10-11, 12-13ab",
+      "gospel": "Matthew 11:11-15"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/121125.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/12-11.json"
+  },
+  {
+    "date": "2025-12-12",
+    "monthDay": "12/12",
+    "season": "Advent",
+    "readings": {
+      "firstReading": "Zechariah 2:14-17",
+      "psalm": "Judith 13:18bcde, 19",
+      "gospel": "Luke 1:26-38"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/121225.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/12-12.json"
+  },
+  {
+    "date": "2025-12-13",
+    "monthDay": "12/13",
+    "season": "Advent",
+    "readings": {
+      "firstReading": "Sirach 48:1-4, 9-11",
+      "psalm": "Psalm 80:2ac and 3b, 15-16, 18-19",
+      "gospel": "Matthew 17:9a, 10-13"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/121325.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/12-13.json"
+  },
+  {
+    "date": "2025-12-14",
+    "monthDay": "12/14",
+    "season": "Advent",
+    "readings": {
+      "firstReading": "Isaiah 35:1-6a, 10",
+      "psalm": "Psalm 146:6-7, 8-9, 9-10",
+      "secondReading": "James 5:7-10",
+      "gospel": "Matthew 11:2-11"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/121425.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/12-14.json"
+  },
+  {
+    "date": "2025-12-15",
+    "monthDay": "12/15",
+    "season": "Advent",
+    "readings": {
+      "firstReading": "Numbers 24:2-7, 15-17a",
+      "psalm": "Psalm 25:4-5ab, 6 and 7bc, 8-9",
+      "gospel": "Matthew 21:23-27"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/121525.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/12-15.json"
+  },
+  {
+    "date": "2025-12-16",
+    "monthDay": "12/16",
+    "season": "Advent",
+    "readings": {
+      "firstReading": "Zephaniah 3:1-2, 9-13",
+      "psalm": "Psalm 34:2-3, 6-7, 17-18, 19 and 23",
+      "gospel": "Matthew 21:28-32"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/121625.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/12-16.json"
+  },
+  {
+    "date": "2025-12-17",
+    "monthDay": "12/17",
+    "season": "Advent",
+    "readings": {
+      "firstReading": "Genesis 49:2, 8-10",
+      "psalm": "Psalm 72:1-2, 3-4ab, 7-8, 17",
+      "gospel": "Matthew 1:1-17"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/121725.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/12-17.json"
+  },
+  {
+    "date": "2025-12-18",
+    "monthDay": "12/18",
+    "season": "Advent",
+    "readings": {
+      "firstReading": "Jeremiah 23:5-8",
+      "psalm": "Psalm 72:1-2, 12-13, 18-19",
+      "gospel": "Matthew 1:18-25"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/121825.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/12-18.json"
+  },
+  {
+    "date": "2025-12-19",
+    "monthDay": "12/19",
+    "season": "Advent",
+    "readings": {
+      "firstReading": "Judges 13:2-7, 24-25a",
+      "psalm": "Psalm 71:3-4a, 5-6ab, 16-17",
+      "gospel": "Luke 1:5-25"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/121925.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/12-19.json"
+  },
+  {
+    "date": "2025-12-20",
+    "monthDay": "12/20",
+    "season": "Advent",
+    "readings": {
+      "firstReading": "Isaiah 7:10-14",
+      "psalm": "Psalm 24:1-2, 3-4ab, 5-6",
+      "gospel": "Luke 1:26-38"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/122025.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/12-20.json"
+  },
+  {
+    "date": "2025-12-21",
+    "monthDay": "12/21",
+    "season": "Advent",
+    "readings": {
+      "firstReading": "Isaiah 7:10-14",
+      "psalm": "Psalm 24:1-2, 3-4, 5-6",
+      "secondReading": "Romans 1:1-7",
+      "gospel": "Matthew 1:18-24"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/122125.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/12-21.json"
+  },
+  {
+    "date": "2025-12-22",
+    "monthDay": "12/22",
+    "season": "Advent",
+    "readings": {
+      "firstReading": "1 Samuel 1:24-28",
+      "psalm": "1 Samuel 2:1, 4-5, 6-7, 8abcd",
+      "gospel": "Luke 1:46-56"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/122225.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/12-22.json"
+  },
+  {
+    "date": "2025-12-23",
+    "monthDay": "12/23",
+    "season": "Advent",
+    "readings": {
+      "firstReading": "Malachi 3:1-4, 23-24",
+      "psalm": "Psalm 25:4-5ab, 8-9, 10 and 14",
+      "gospel": "Luke 1:57-66"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/122325.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/12-23.json"
+  },
+  {
+    "date": "2025-12-24",
+    "monthDay": "12/24",
+    "season": "Advent",
+    "readings": {
+      "firstReading": "2 Samuel 7:1-5, 8b-12, 14a, 16",
+      "psalm": "Psalm 89:2-3, 4-5, 27 and 29",
+      "gospel": "Luke 1:67-79"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/122425.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/12-24.json"
+  },
+  {
+    "date": "2025-12-25",
+    "monthDay": "12/25",
+    "season": "Christmas",
+    "readings": {
+      "firstReading": "Isaiah 52:7-10",
+      "psalm": "Psalm 98:1, 2-3, 3-4, 5-6",
+      "secondReading": "Hebrews 1:1-6",
+      "gospel": "John 1:1-18"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/122525.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/12-25.json"
+  },
+  {
+    "date": "2025-12-26",
+    "monthDay": "12/26",
+    "season": "Christmas",
+    "readings": {
+      "firstReading": "Acts 6:8-10; 7:54-59",
+      "psalm": "Psalm 31:3cd-4, 6 and 8ab, 16bc and 17",
+      "gospel": "Matthew 10:17-22"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/122625.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/12-26.json"
+  },
+  {
+    "date": "2025-12-27",
+    "monthDay": "12/27",
+    "season": "Christmas",
+    "readings": {
+      "firstReading": "1 John 1:1-4",
+      "psalm": "Psalm 97:1-2, 5-6, 11-12",
+      "gospel": "John 20:1a and 2-8"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/122725.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/12-27.json"
+  },
+  {
+    "date": "2025-12-28",
+    "monthDay": "12/28",
+    "season": "Christmas",
+    "readings": {
+      "firstReading": "Sirach 3:2-6, 12-14",
+      "psalm": "Psalm 128:1-2, 3, 4-5",
+      "secondReading": "Colossians 3:12-21",
+      "gospel": "Matthew 2:13-15, 19-23"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/122825.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/12-28.json"
+  },
+  {
+    "date": "2025-12-29",
+    "monthDay": "12/29",
+    "season": "Christmas",
+    "readings": {
+      "firstReading": "1 John 2:3-11",
+      "psalm": "Psalm 96:1-2a, 2b-3, 5b-6",
+      "gospel": "Luke 2:22-35"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/122925.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/12-29.json"
+  },
+  {
+    "date": "2025-12-30",
+    "monthDay": "12/30",
+    "season": "Christmas",
+    "readings": {
+      "firstReading": "1 John 2:12-17",
+      "psalm": "Psalm 96:7-8a, 8b-9, 10",
+      "gospel": "Luke 2:36-40"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/123025.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/12-30.json"
+  },
+  {
+    "date": "2025-12-31",
+    "monthDay": "12/31",
+    "season": "Christmas",
+    "readings": {
+      "firstReading": "1 John 2:18-21",
+      "psalm": "Psalm 96:1-2, 11-12, 13",
+      "gospel": "John 1:1-18"
+    },
+    "usccbLink": "https://bible.usccb.org/bible/readings/123125.cfm",
+    "apiEndpoint": "https://cpbjr.github.io/catholic-readings-api/readings/2025/12-31.json"
+  }
+]
