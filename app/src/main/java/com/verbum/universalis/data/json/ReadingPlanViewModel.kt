@@ -15,6 +15,9 @@ import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.launch
 import kotlinx.serialization.decodeFromString
 import kotlinx.serialization.json.Json
+import kotlinx.serialization.json.jsonObject
+import kotlinx.serialization.json.jsonPrimitive
+import kotlinx.serialization.json.jsonArray
 
 @HiltViewModel
 class ReadingPlanViewModel @Inject constructor(
@@ -24,65 +27,85 @@ class ReadingPlanViewModel @Inject constructor(
 
     private val json = Json { ignoreUnknownKeys = true }
 
-    private val _currentPlanId = MutableStateFlow("bible-in-a-year")
-    val currentPlanId: StateFlow<String?> = _currentPlanId.asStateFlow()
+    private val _plansIndex = MutableStateFlow<ReadingPlanIndex?>(null)
+    val plansIndex: StateFlow<ReadingPlanIndex?> = _plansIndex.asStateFlow()
 
-    val currentPlan: Flow<ReadingPlan?> = _currentPlanId.map { planId ->
-        loadPlanFromAssets(app, "$planId.json")
+    private val _currentPlanFile = MutableStateFlow("bible-in-a-year.json")
+    val currentPlanFile: StateFlow<String> = _currentPlanFile.asStateFlow()
+
+    val currentPlan: Flow<ReadingPlan?> = _currentPlanFile.map { filename ->
+        loadPlanFromAssets(app, filename)
     }
-
-    private val _currentEraIndex = MutableStateFlow(0)
-    val currentEraIndex: StateFlow<Int> = _currentEraIndex.asStateFlow()
 
     private val _currentDayIndex = MutableStateFlow(0)
     val currentDayIndex: StateFlow<Int> = _currentDayIndex.asStateFlow()
 
-    val currentDayReadings: Flow<List<Reading>> = combine(
-        currentPlan, currentEraIndex, currentDayIndex
-    ) { plan, eraIdx, dayIdx ->
-        if (plan == null || eraIdx >= plan.eras.size) emptyList()
-        else {
-            val era = plan.eras[eraIdx]
-            if (dayIdx >= era.days.size) emptyList()
-            else era.days[dayIdx].readings
-        }
+    val currentDay: Flow<PlanDay?> = combine(currentPlan, currentDayIndex) { plan, dayIdx ->
+        if (plan == null || dayIdx >= plan.days.size) null
+        else plan.days[dayIdx]
     }
 
-    private val _progressList = MutableStateFlow<List<ReadingProgress>>(emptyList())
-    val progressList: StateFlow<List<ReadingProgress>> = _progressList.asStateFlow()
+    private val _progressMap = MutableStateFlow<Map<String, Map<Int, DayProgress>>>(emptyMap())
+    val progressMap: StateFlow<Map<String, Map<Int, DayProgress>>> = _progressMap.asStateFlow()
 
-    val progressPercentage: Flow<Float> = combine(currentPlan, _progressList) { plan, progressList ->
-        if (plan == null || plan.eras.isEmpty()) 0f
+    val currentPlanProgress: Flow<Float> = combine(currentPlan, _progressMap) { plan, progressMap ->
+        if (plan == null || plan.totalDays == 0) 0f
         else {
-            val totalDays = plan.eras.sumOf { it.days.size }
-            val completedDays = progressList.count { it.completed }
-            if (totalDays == 0) 0f else completedDays.toFloat() / totalDays.toFloat()
+            val planProgress = progressMap[plan.planId] ?: emptyMap()
+            val completedDays = planProgress.count { it.value.completed }
+            completedDays.toFloat() / plan.totalDays.toFloat()
         }
     }
 
     init {
         viewModelScope.launch {
-            _progressList.value = fileManager.loadProgress()
+            _plansIndex.value = loadPlansIndex()
+            _progressMap.value = fileManager.loadProgressV2()
         }
     }
 
-    fun selectDay(eraIndex: Int, dayIndex: Int) {
-        _currentEraIndex.value = eraIndex
+    fun selectPlan(planFile: String) {
+        _currentPlanFile.value = planFile
+        _currentDayIndex.value = 0
+    }
+
+    fun selectDay(dayIndex: Int) {
         _currentDayIndex.value = dayIndex
     }
 
-    fun markDayCompleted(eraIndex: Int, dayIndex: Int) {
+    fun markDayCompleted(planId: String, dayIndex: Int, completed: Boolean = true) {
         viewModelScope.launch {
-            val progressList = fileManager.loadProgress().toMutableList()
-            val existing = progressList.find { it.planId == _currentPlanId.value && it.eraIndex == eraIndex && it.dayIndex == dayIndex }
+            val progressMap = _progressMap.value.toMutableMap()
+            val planProgress = progressMap.getOrPut(planId) { mutableMapOf() }.toMutableMap()
+            
+            val existing = planProgress[dayIndex]
             if (existing != null) {
-                existing.completed = true
-                existing.lastUpdated = System.currentTimeMillis()
+                planProgress[dayIndex] = existing.copy(completed = completed, lastUpdated = System.currentTimeMillis())
             } else {
-                progressList.add(ReadingProgress(_currentPlanId.value!!, eraIndex, dayIndex, true))
+                planProgress[dayIndex] = DayProgress(completed, System.currentTimeMillis())
             }
-            fileManager.saveProgress(progressList)
-            _progressList.value = progressList
+            
+            progressMap[planId] = planProgress
+            _progressMap.value = progressMap
+            fileManager.saveProgressV2(progressMap)
+        }
+    }
+
+    fun isDayCompleted(planId: String, dayIndex: Int): Boolean {
+        return _progressMap.value[planId]?.get(dayIndex)?.completed ?: false
+    }
+
+    fun getDayProgress(planId: String, dayIndex: Int): DayProgress? {
+        return _progressMap.value[planId]?.get(dayIndex)
+    }
+
+    private fun loadPlansIndex(): ReadingPlanIndex? {
+        return try {
+            val jsonString = app.assets.open("plans/plans-index.json").bufferedReader().use { it.readText() }
+            json.decodeFromString<ReadingPlanIndex>(jsonString)
+        } catch (e: Exception) {
+            e.printStackTrace()
+            null
         }
     }
 
@@ -95,4 +118,33 @@ class ReadingPlanViewModel @Inject constructor(
             null
         }
     }
+
+    fun parseReading(readingElement: kotlinx.serialization.json.JsonElement): ParsedReading {
+        return try {
+            if (readingElement is kotlinx.serialization.json.JsonPrimitive) {
+                // Bible in a Year format: "GEN.1"
+                val ref = readingElement.jsonPrimitive.content
+                ParsedReading.Simple(ref)
+            } else if (readingElement is kotlinx.serialization.json.JsonObject) {
+                // Daily Mass format: {type, reference}
+                val type = readingElement["type"]?.jsonPrimitive?.content ?: ""
+                val reference = readingElement["reference"]?.jsonPrimitive?.content ?: ""
+                ParsedReading.Detailed(type, reference)
+            } else {
+                ParsedReading.Simple("Unknown")
+            }
+        } catch (e: Exception) {
+            ParsedReading.Simple("Error: ${e.message}")
+        }
+    }
+}
+
+data class DayProgress(
+    val completed: Boolean = false,
+    val lastUpdated: Long = 0L
+)
+
+sealed class ParsedReading {
+    data class Simple(val reference: String) : ParsedReading()
+    data class Detailed(val type: String, val reference: String) : ParsedReading()
 }

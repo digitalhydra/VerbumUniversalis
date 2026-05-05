@@ -2,6 +2,8 @@
   "planId": "chronological_365",
   "title": "Bible in a Year (Chronological)",
   "description": "A 365-day journey through the entire Catholic Bible, organized across 12 historical periods to follow the continuous story of salvation.",
+  "type": "bible_in_a_year",
+  "totalDays": 365,
   "days": [
     {
       "day": 1,
@@ -11,7 +13,13 @@
         "GEN.2",
         "GEN.3",
         "PSA.1"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 2,
@@ -21,7 +29,13 @@
         "GEN.5",
         "GEN.6",
         "PSA.1"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 3,
@@ -31,7 +45,13 @@
         "GEN.8",
         "GEN.9",
         "PSA.2"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 4,
@@ -41,7 +61,13 @@
         "GEN.11",
         "GEN.12",
         "PSA.2"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 5,
@@ -51,7 +77,13 @@
         "GEN.14",
         "GEN.15",
         "PSA.2"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 6,
@@ -61,7 +93,13 @@
         "GEN.17",
         "GEN.18",
         "PSA.3"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 7,
@@ -71,7 +109,13 @@
         "GEN.20",
         "GEN.21",
         "PSA.3"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 8,
@@ -81,7 +125,13 @@
         "GEN.23",
         "GEN.24",
         "PSA.4"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 9,
@@ -91,7 +141,13 @@
         "GEN.26",
         "GEN.27",
         "PSA.4"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 10,
@@ -101,7 +157,13 @@
         "GEN.29",
         "GEN.30",
         "PSA.4"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 11,
@@ -111,7 +173,13 @@
         "GEN.32",
         "GEN.33",
         "PSA.5"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 12,
@@ -121,7 +189,13 @@
         "GEN.35",
         "GEN.36",
         "PSA.5"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 13,
@@ -131,7 +205,13 @@
         "GEN.38",
         "GEN.39",
         "PSA.6"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 14,
@@ -141,7 +221,13 @@
         "GEN.41",
         "GEN.42",
         "PSA.6"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 15,
@@ -151,7 +237,13 @@
         "GEN.2",
         "GEN.3",
         "PSA.6"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 16,
@@ -161,7 +253,13 @@
         "GEN.5",
         "GEN.6",
         "PSA.7"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 17,
@@ -171,7 +269,13 @@
         "GEN.8",
         "GEN.9",
         "PSA.7"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 18,
@@ -181,7 +285,13 @@
         "GEN.11",
         "GEN.12",
         "PSA.8"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 19,
@@ -191,7 +301,13 @@
         "GEN.14",
         "GEN.15",
         "PSA.8"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 20,
@@ -201,7 +317,13 @@
         "GEN.17",
         "GEN.18",
         "PSA.8"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 21,
@@ -211,7 +333,13 @@
         "GEN.20",
         "GEN.21",
         "PSA.9"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 22,
@@ -221,7 +349,13 @@
         "GEN.23",
         "GEN.24",
         "PSA.9"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 23,
@@ -231,7 +365,13 @@
         "GEN.26",
         "GEN.27",
         "PSA.10"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 24,
@@ -241,7 +381,13 @@
         "GEN.29",
         "GEN.30",
         "PSA.10"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 25,
@@ -251,7 +397,13 @@
         "GEN.32",
         "GEN.33",
         "PSA.10"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 26,
@@ -261,7 +413,13 @@
         "GEN.35",
         "GEN.36",
         "PSA.11"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 27,
@@ -271,7 +429,13 @@
         "GEN.38",
         "GEN.39",
         "PSA.11"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 28,
@@ -281,7 +445,13 @@
         "GEN.41",
         "GEN.42",
         "PSA.12"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 29,
@@ -291,7 +461,13 @@
         "GEN.44",
         "GEN.45",
         "PSA.12"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 30,
@@ -301,7 +477,13 @@
         "GEN.47",
         "GEN.48",
         "PSA.12"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 31,
@@ -311,7 +493,13 @@
         "GEN.50",
         "GEN.51",
         "PSA.13"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 32,
@@ -321,7 +509,13 @@
         "GEN.53",
         "GEN.54",
         "PSA.13"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 33,
@@ -331,7 +525,13 @@
         "GEN.56",
         "GEN.57",
         "PSA.14"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 34,
@@ -341,7 +541,13 @@
         "GEN.59",
         "GEN.60",
         "PSA.14"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 35,
@@ -351,7 +557,13 @@
         "GEN.62",
         "GEN.63",
         "PSA.14"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 36,
@@ -361,7 +573,13 @@
         "EXO.2",
         "EXO.3",
         "PSA.15"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 37,
@@ -371,7 +589,13 @@
         "EXO.5",
         "EXO.6",
         "PSA.15"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 38,
@@ -381,7 +605,13 @@
         "EXO.8",
         "EXO.9",
         "PSA.16"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 39,
@@ -391,7 +621,13 @@
         "EXO.11",
         "EXO.12",
         "PSA.16"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 40,
@@ -401,7 +637,13 @@
         "EXO.14",
         "EXO.15",
         "PSA.16"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 41,
@@ -411,7 +653,13 @@
         "EXO.17",
         "EXO.18",
         "PSA.17"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 42,
@@ -421,7 +669,13 @@
         "EXO.20",
         "EXO.21",
         "PSA.17"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 43,
@@ -431,7 +685,13 @@
         "EXO.23",
         "EXO.24",
         "PSA.18"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 44,
@@ -441,7 +701,13 @@
         "EXO.26",
         "EXO.27",
         "PSA.18"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 45,
@@ -451,7 +717,13 @@
         "EXO.29",
         "EXO.30",
         "PSA.18"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 46,
@@ -461,7 +733,13 @@
         "EXO.32",
         "EXO.33",
         "PSA.19"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 47,
@@ -471,7 +749,13 @@
         "EXO.35",
         "EXO.36",
         "PSA.19"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 48,
@@ -481,7 +765,13 @@
         "EXO.38",
         "EXO.39",
         "PSA.20"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 49,
@@ -491,7 +781,13 @@
         "EXO.41",
         "EXO.42",
         "PSA.20"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 50,
@@ -501,7 +797,13 @@
         "EXO.44",
         "EXO.45",
         "PSA.20"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 51,
@@ -511,7 +813,13 @@
         "EXO.47",
         "EXO.48",
         "PSA.21"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 52,
@@ -521,7 +829,13 @@
         "EXO.50",
         "EXO.51",
         "PSA.21"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 53,
@@ -531,7 +845,13 @@
         "EXO.53",
         "EXO.54",
         "PSA.22"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 54,
@@ -541,7 +861,13 @@
         "EXO.56",
         "EXO.57",
         "PSA.22"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 55,
@@ -551,7 +877,13 @@
         "EXO.59",
         "EXO.60",
         "PSA.22"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 56,
@@ -561,7 +893,13 @@
         "EXO.62",
         "EXO.63",
         "PSA.23"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 57,
@@ -571,7 +909,13 @@
         "EXO.65",
         "EXO.66",
         "PSA.23"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 58,
@@ -581,7 +925,13 @@
         "EXO.68",
         "EXO.69",
         "PSA.24"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 59,
@@ -591,7 +941,13 @@
         "EXO.71",
         "EXO.72",
         "PSA.24"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 60,
@@ -601,7 +957,13 @@
         "EXO.74",
         "EXO.75",
         "PSA.24"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 61,
@@ -611,7 +973,13 @@
         "EXO.77",
         "EXO.78",
         "PSA.25"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 62,
@@ -621,7 +989,13 @@
         "EXO.80",
         "EXO.81",
         "PSA.25"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 63,
@@ -631,7 +1005,13 @@
         "EXO.83",
         "EXO.84",
         "PSA.26"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 64,
@@ -641,7 +1021,13 @@
         "EXO.86",
         "EXO.87",
         "PSA.26"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 65,
@@ -651,7 +1037,13 @@
         "EXO.89",
         "EXO.90",
         "PSA.26"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 66,
@@ -661,7 +1053,13 @@
         "NUM.2",
         "NUM.3",
         "PSA.27"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 67,
@@ -671,7 +1069,13 @@
         "NUM.5",
         "NUM.6",
         "PSA.27"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 68,
@@ -681,7 +1085,13 @@
         "NUM.8",
         "NUM.9",
         "PSA.28"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 69,
@@ -691,7 +1101,13 @@
         "NUM.11",
         "NUM.12",
         "PSA.28"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 70,
@@ -701,7 +1117,13 @@
         "NUM.14",
         "NUM.15",
         "PSA.28"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 71,
@@ -711,7 +1133,13 @@
         "NUM.17",
         "NUM.18",
         "PSA.29"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 72,
@@ -721,7 +1149,13 @@
         "NUM.20",
         "NUM.21",
         "PSA.29"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 73,
@@ -731,7 +1165,13 @@
         "NUM.23",
         "NUM.24",
         "PSA.30"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 74,
@@ -741,7 +1181,13 @@
         "NUM.26",
         "NUM.27",
         "PSA.30"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 75,
@@ -751,7 +1197,13 @@
         "NUM.29",
         "NUM.30",
         "PSA.30"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 76,
@@ -761,7 +1213,13 @@
         "NUM.32",
         "NUM.33",
         "PSA.31"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 77,
@@ -771,7 +1229,13 @@
         "NUM.35",
         "NUM.36",
         "PSA.31"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 78,
@@ -781,7 +1245,13 @@
         "NUM.38",
         "NUM.39",
         "PSA.32"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 79,
@@ -791,7 +1261,13 @@
         "NUM.41",
         "NUM.42",
         "PSA.32"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 80,
@@ -801,7 +1277,13 @@
         "NUM.44",
         "NUM.45",
         "PSA.32"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 81,
@@ -811,7 +1293,13 @@
         "NUM.47",
         "NUM.48",
         "PSA.33"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 82,
@@ -821,7 +1309,13 @@
         "NUM.50",
         "NUM.51",
         "PSA.33"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 83,
@@ -831,7 +1325,13 @@
         "NUM.53",
         "NUM.54",
         "PSA.34"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 84,
@@ -841,7 +1341,13 @@
         "NUM.56",
         "NUM.57",
         "PSA.34"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 85,
@@ -851,7 +1357,13 @@
         "NUM.59",
         "NUM.60",
         "PSA.34"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 86,
@@ -861,7 +1373,13 @@
         "NUM.62",
         "NUM.63",
         "PSA.35"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 87,
@@ -871,7 +1389,13 @@
         "NUM.65",
         "NUM.66",
         "PSA.35"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 88,
@@ -881,7 +1405,13 @@
         "NUM.68",
         "NUM.69",
         "PSA.36"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 89,
@@ -891,7 +1421,13 @@
         "NUM.71",
         "NUM.72",
         "PSA.36"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 90,
@@ -901,7 +1437,13 @@
         "NUM.74",
         "NUM.75",
         "PSA.36"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 91,
@@ -911,7 +1453,13 @@
         "NUM.77",
         "NUM.78",
         "PSA.37"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 92,
@@ -921,7 +1469,13 @@
         "NUM.80",
         "NUM.81",
         "PSA.37"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 93,
@@ -931,7 +1485,13 @@
         "NUM.83",
         "NUM.84",
         "PSA.38"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 94,
@@ -941,7 +1501,13 @@
         "NUM.86",
         "NUM.87",
         "PSA.38"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 95,
@@ -951,7 +1517,13 @@
         "NUM.89",
         "NUM.90",
         "PSA.38"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 96,
@@ -961,7 +1533,13 @@
         "JOS.2",
         "JOS.3",
         "PSA.39"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 97,
@@ -971,7 +1549,13 @@
         "JOS.5",
         "JOS.6",
         "PSA.39"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 98,
@@ -981,7 +1565,13 @@
         "JOS.8",
         "JOS.9",
         "PSA.40"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 99,
@@ -991,7 +1581,13 @@
         "JOS.11",
         "JOS.12",
         "PSA.40"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 100,
@@ -1001,7 +1597,13 @@
         "JOS.14",
         "JOS.15",
         "PSA.40"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 101,
@@ -1011,7 +1613,13 @@
         "JOS.17",
         "JOS.18",
         "PSA.41"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 102,
@@ -1021,7 +1629,13 @@
         "JOS.20",
         "JOS.21",
         "PSA.41"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 103,
@@ -1031,7 +1645,13 @@
         "JOS.23",
         "JOS.24",
         "PSA.42"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 104,
@@ -1041,7 +1661,13 @@
         "JOS.26",
         "JOS.27",
         "PSA.42"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 105,
@@ -1051,7 +1677,13 @@
         "JOS.29",
         "JOS.30",
         "PSA.42"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 106,
@@ -1061,7 +1693,13 @@
         "JOS.32",
         "JOS.33",
         "PSA.43"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 107,
@@ -1071,7 +1709,13 @@
         "JOS.35",
         "JOS.36",
         "PSA.43"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 108,
@@ -1081,7 +1725,13 @@
         "JOS.38",
         "JOS.39",
         "PSA.44"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 109,
@@ -1091,7 +1741,13 @@
         "JOS.41",
         "JOS.42",
         "PSA.44"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 110,
@@ -1101,7 +1757,13 @@
         "JOS.44",
         "JOS.45",
         "PSA.44"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 111,
@@ -1111,7 +1773,13 @@
         "JOS.47",
         "JOS.48",
         "PSA.45"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 112,
@@ -1121,7 +1789,13 @@
         "JOS.50",
         "JOS.51",
         "PSA.45"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 113,
@@ -1131,7 +1805,13 @@
         "JOS.53",
         "JOS.54",
         "PSA.46"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 114,
@@ -1141,7 +1821,13 @@
         "JOS.56",
         "JOS.57",
         "PSA.46"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 115,
@@ -1151,7 +1837,13 @@
         "JOS.59",
         "JOS.60",
         "PSA.46"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 116,
@@ -1161,7 +1853,13 @@
         "JOS.62",
         "JOS.63",
         "PSA.47"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 117,
@@ -1171,7 +1869,13 @@
         "JOS.65",
         "JOS.66",
         "PSA.47"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 118,
@@ -1181,7 +1885,13 @@
         "JOS.68",
         "JOS.69",
         "PSA.48"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 119,
@@ -1191,7 +1901,13 @@
         "JOS.71",
         "JOS.72",
         "PSA.48"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 120,
@@ -1201,7 +1917,13 @@
         "JOS.74",
         "JOS.75",
         "PSA.48"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 121,
@@ -1211,7 +1933,13 @@
         "1SA.2",
         "1SA.3",
         "PSA.49"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 122,
@@ -1221,7 +1949,13 @@
         "1SA.5",
         "1SA.6",
         "PSA.49"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 123,
@@ -1231,7 +1965,13 @@
         "1SA.8",
         "1SA.9",
         "PSA.50"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 124,
@@ -1241,7 +1981,13 @@
         "1SA.11",
         "1SA.12",
         "PSA.50"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 125,
@@ -1251,7 +1997,13 @@
         "1SA.14",
         "1SA.15",
         "PSA.50"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 126,
@@ -1261,7 +2013,13 @@
         "1SA.17",
         "1SA.18",
         "PSA.51"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 127,
@@ -1271,7 +2029,13 @@
         "1SA.20",
         "1SA.21",
         "PSA.51"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 128,
@@ -1281,7 +2045,13 @@
         "1SA.23",
         "1SA.24",
         "PSA.52"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 129,
@@ -1291,7 +2061,13 @@
         "1SA.26",
         "1SA.27",
         "PSA.52"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 130,
@@ -1301,7 +2077,13 @@
         "1SA.29",
         "1SA.30",
         "PSA.52"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 131,
@@ -1311,7 +2093,13 @@
         "1SA.32",
         "1SA.33",
         "PSA.53"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 132,
@@ -1321,7 +2109,13 @@
         "1SA.35",
         "1SA.36",
         "PSA.53"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 133,
@@ -1331,7 +2125,13 @@
         "1SA.38",
         "1SA.39",
         "PSA.54"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 134,
@@ -1341,7 +2141,13 @@
         "1SA.41",
         "1SA.42",
         "PSA.54"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 135,
@@ -1351,7 +2157,13 @@
         "1SA.44",
         "1SA.45",
         "PSA.54"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 136,
@@ -1361,7 +2173,13 @@
         "1SA.47",
         "1SA.48",
         "PSA.55"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 137,
@@ -1371,7 +2189,13 @@
         "1SA.50",
         "1SA.51",
         "PSA.55"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 138,
@@ -1381,7 +2205,13 @@
         "1SA.53",
         "1SA.54",
         "PSA.56"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 139,
@@ -1391,7 +2221,13 @@
         "1SA.56",
         "1SA.57",
         "PSA.56"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 140,
@@ -1401,7 +2237,13 @@
         "1SA.59",
         "1SA.60",
         "PSA.56"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 141,
@@ -1411,7 +2253,13 @@
         "1SA.62",
         "1SA.63",
         "PSA.57"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 142,
@@ -1421,7 +2269,13 @@
         "1SA.65",
         "1SA.66",
         "PSA.57"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 143,
@@ -1431,7 +2285,13 @@
         "1SA.68",
         "1SA.69",
         "PSA.58"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 144,
@@ -1441,7 +2301,13 @@
         "1SA.71",
         "1SA.72",
         "PSA.58"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 145,
@@ -1451,7 +2317,13 @@
         "1SA.74",
         "1SA.75",
         "PSA.58"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 146,
@@ -1461,7 +2333,13 @@
         "1SA.77",
         "1SA.78",
         "PSA.59"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 147,
@@ -1471,7 +2349,13 @@
         "1SA.80",
         "1SA.81",
         "PSA.59"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 148,
@@ -1481,7 +2365,13 @@
         "1SA.83",
         "1SA.84",
         "PSA.60"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 149,
@@ -1491,7 +2381,13 @@
         "1SA.86",
         "1SA.87",
         "PSA.60"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 150,
@@ -1501,7 +2397,13 @@
         "1SA.89",
         "1SA.90",
         "PSA.60"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 151,
@@ -1511,7 +2413,13 @@
         "1SA.92",
         "1SA.93",
         "PSA.61"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 152,
@@ -1521,7 +2429,13 @@
         "1SA.95",
         "1SA.96",
         "PSA.61"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 153,
@@ -1531,7 +2445,13 @@
         "1SA.98",
         "1SA.99",
         "PSA.62"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 154,
@@ -1541,7 +2461,13 @@
         "1SA.101",
         "1SA.102",
         "PSA.62"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 155,
@@ -1551,7 +2477,13 @@
         "1SA.104",
         "1SA.105",
         "PSA.62"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 156,
@@ -1561,7 +2493,13 @@
         "1SA.107",
         "1SA.108",
         "PSA.63"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 157,
@@ -1571,7 +2509,13 @@
         "1SA.110",
         "1SA.111",
         "PSA.63"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 158,
@@ -1581,7 +2525,13 @@
         "1SA.113",
         "1SA.114",
         "PSA.64"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 159,
@@ -1591,7 +2541,13 @@
         "1SA.116",
         "1SA.117",
         "PSA.64"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 160,
@@ -1601,7 +2557,13 @@
         "1SA.119",
         "1SA.120",
         "PSA.64"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 161,
@@ -1611,7 +2573,13 @@
         "1KI.2",
         "1KI.3",
         "PSA.65"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 162,
@@ -1621,7 +2589,13 @@
         "1KI.5",
         "1KI.6",
         "PSA.65"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 163,
@@ -1631,7 +2605,13 @@
         "1KI.8",
         "1KI.9",
         "PSA.66"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 164,
@@ -1641,7 +2621,13 @@
         "1KI.11",
         "1KI.12",
         "PSA.66"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 165,
@@ -1651,7 +2637,13 @@
         "1KI.14",
         "1KI.15",
         "PSA.66"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 166,
@@ -1661,7 +2653,13 @@
         "1KI.17",
         "1KI.18",
         "PSA.67"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 167,
@@ -1671,7 +2669,13 @@
         "1KI.20",
         "1KI.21",
         "PSA.67"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 168,
@@ -1681,7 +2685,13 @@
         "1KI.23",
         "1KI.24",
         "PSA.68"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 169,
@@ -1691,7 +2701,13 @@
         "1KI.26",
         "1KI.27",
         "PSA.68"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 170,
@@ -1701,7 +2717,13 @@
         "1KI.29",
         "1KI.30",
         "PSA.68"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 171,
@@ -1711,7 +2733,13 @@
         "1KI.32",
         "1KI.33",
         "PSA.69"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 172,
@@ -1721,7 +2749,13 @@
         "1KI.35",
         "1KI.36",
         "PSA.69"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 173,
@@ -1731,7 +2765,13 @@
         "1KI.38",
         "1KI.39",
         "PSA.70"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 174,
@@ -1741,7 +2781,13 @@
         "1KI.41",
         "1KI.42",
         "PSA.70"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 175,
@@ -1751,7 +2797,13 @@
         "1KI.44",
         "1KI.45",
         "PSA.70"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 176,
@@ -1761,7 +2813,13 @@
         "1KI.47",
         "1KI.48",
         "PSA.71"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 177,
@@ -1771,7 +2829,13 @@
         "1KI.50",
         "1KI.51",
         "PSA.71"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 178,
@@ -1781,7 +2845,13 @@
         "1KI.53",
         "1KI.54",
         "PSA.72"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 179,
@@ -1791,7 +2861,13 @@
         "1KI.56",
         "1KI.57",
         "PSA.72"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 180,
@@ -1801,7 +2877,13 @@
         "1KI.59",
         "1KI.60",
         "PSA.72"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 181,
@@ -1811,7 +2893,13 @@
         "1KI.62",
         "1KI.63",
         "PSA.73"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 182,
@@ -1821,7 +2909,13 @@
         "1KI.65",
         "1KI.66",
         "PSA.73"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 183,
@@ -1831,7 +2925,13 @@
         "1KI.68",
         "1KI.69",
         "PSA.74"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 184,
@@ -1841,7 +2941,13 @@
         "1KI.71",
         "1KI.72",
         "PSA.74"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 185,
@@ -1851,7 +2957,13 @@
         "1KI.74",
         "1KI.75",
         "PSA.74"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 186,
@@ -1861,7 +2973,13 @@
         "1KI.77",
         "1KI.78",
         "PSA.75"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 187,
@@ -1871,7 +2989,13 @@
         "1KI.80",
         "1KI.81",
         "PSA.75"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 188,
@@ -1881,7 +3005,13 @@
         "1KI.83",
         "1KI.84",
         "PSA.76"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 189,
@@ -1891,7 +3021,13 @@
         "1KI.86",
         "1KI.87",
         "PSA.76"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 190,
@@ -1901,7 +3037,13 @@
         "1KI.89",
         "1KI.90",
         "PSA.76"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 191,
@@ -1911,7 +3053,13 @@
         "1KI.92",
         "1KI.93",
         "PSA.77"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 192,
@@ -1921,7 +3069,13 @@
         "1KI.95",
         "1KI.96",
         "PSA.77"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 193,
@@ -1931,7 +3085,13 @@
         "1KI.98",
         "1KI.99",
         "PSA.78"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 194,
@@ -1941,7 +3101,13 @@
         "1KI.101",
         "1KI.102",
         "PSA.78"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 195,
@@ -1951,7 +3117,13 @@
         "1KI.104",
         "1KI.105",
         "PSA.78"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 196,
@@ -1961,7 +3133,13 @@
         "1KI.107",
         "1KI.108",
         "PSA.79"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 197,
@@ -1971,7 +3149,13 @@
         "1KI.110",
         "1KI.111",
         "PSA.79"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 198,
@@ -1981,7 +3165,13 @@
         "1KI.113",
         "1KI.114",
         "PSA.80"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 199,
@@ -1991,7 +3181,13 @@
         "1KI.116",
         "1KI.117",
         "PSA.80"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 200,
@@ -2001,7 +3197,13 @@
         "1KI.119",
         "1KI.120",
         "PSA.80"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 201,
@@ -2011,7 +3213,13 @@
         "1KI.122",
         "1KI.123",
         "PSA.81"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 202,
@@ -2021,7 +3229,13 @@
         "1KI.125",
         "1KI.126",
         "PSA.81"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 203,
@@ -2031,7 +3245,13 @@
         "1KI.128",
         "1KI.129",
         "PSA.82"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 204,
@@ -2041,7 +3261,13 @@
         "1KI.131",
         "1KI.132",
         "PSA.82"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 205,
@@ -2051,7 +3277,13 @@
         "1KI.134",
         "1KI.135",
         "PSA.82"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 206,
@@ -2061,7 +3293,13 @@
         "1KI.137",
         "1KI.138",
         "PSA.83"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 207,
@@ -2071,7 +3309,13 @@
         "1KI.140",
         "1KI.141",
         "PSA.83"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 208,
@@ -2081,7 +3325,13 @@
         "1KI.143",
         "1KI.144",
         "PSA.84"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 209,
@@ -2091,7 +3341,13 @@
         "1KI.146",
         "1KI.147",
         "PSA.84"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 210,
@@ -2101,7 +3357,13 @@
         "1KI.149",
         "1KI.150",
         "PSA.84"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 211,
@@ -2111,7 +3373,13 @@
         "EZE.2",
         "EZE.3",
         "PSA.85"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 212,
@@ -2121,7 +3389,13 @@
         "EZE.5",
         "EZE.6",
         "PSA.85"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 213,
@@ -2131,7 +3405,13 @@
         "EZE.8",
         "EZE.9",
         "PSA.86"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 214,
@@ -2141,7 +3421,13 @@
         "EZE.11",
         "EZE.12",
         "PSA.86"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 215,
@@ -2151,7 +3437,13 @@
         "EZE.14",
         "EZE.15",
         "PSA.86"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 216,
@@ -2161,7 +3453,13 @@
         "EZE.17",
         "EZE.18",
         "PSA.87"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 217,
@@ -2171,7 +3469,13 @@
         "EZE.20",
         "EZE.21",
         "PSA.87"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 218,
@@ -2181,7 +3485,13 @@
         "EZE.23",
         "EZE.24",
         "PSA.88"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 219,
@@ -2191,7 +3501,13 @@
         "EZE.26",
         "EZE.27",
         "PSA.88"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 220,
@@ -2201,7 +3517,13 @@
         "EZE.29",
         "EZE.30",
         "PSA.88"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 221,
@@ -2211,7 +3533,13 @@
         "EZE.32",
         "EZE.33",
         "PSA.89"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 222,
@@ -2221,7 +3549,13 @@
         "EZE.35",
         "EZE.36",
         "PSA.89"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 223,
@@ -2231,7 +3565,13 @@
         "EZE.38",
         "EZE.39",
         "PSA.90"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 224,
@@ -2241,7 +3581,13 @@
         "EZE.41",
         "EZE.42",
         "PSA.90"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 225,
@@ -2251,7 +3597,13 @@
         "EZE.44",
         "EZE.45",
         "PSA.90"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 226,
@@ -2261,7 +3613,13 @@
         "EZE.47",
         "EZE.48",
         "PSA.91"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 227,
@@ -2271,7 +3629,13 @@
         "EZE.50",
         "EZE.51",
         "PSA.91"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 228,
@@ -2281,7 +3645,13 @@
         "EZE.53",
         "EZE.54",
         "PSA.92"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 229,
@@ -2291,7 +3661,13 @@
         "EZE.56",
         "EZE.57",
         "PSA.92"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 230,
@@ -2301,7 +3677,13 @@
         "EZE.59",
         "EZE.60",
         "PSA.92"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 231,
@@ -2311,7 +3693,13 @@
         "EZE.62",
         "EZE.63",
         "PSA.93"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 232,
@@ -2321,7 +3709,13 @@
         "EZE.65",
         "EZE.66",
         "PSA.93"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 233,
@@ -2331,7 +3725,13 @@
         "EZE.68",
         "EZE.69",
         "PSA.94"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 234,
@@ -2341,7 +3741,13 @@
         "EZE.71",
         "EZE.72",
         "PSA.94"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 235,
@@ -2351,7 +3757,13 @@
         "EZE.74",
         "EZE.75",
         "PSA.94"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 236,
@@ -2361,7 +3773,13 @@
         "EZE.77",
         "EZE.78",
         "PSA.95"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 237,
@@ -2371,7 +3789,13 @@
         "EZE.80",
         "EZE.81",
         "PSA.95"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 238,
@@ -2381,7 +3805,13 @@
         "EZE.83",
         "EZE.84",
         "PSA.96"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 239,
@@ -2391,7 +3821,13 @@
         "EZE.86",
         "EZE.87",
         "PSA.96"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 240,
@@ -2401,7 +3837,13 @@
         "EZE.89",
         "EZE.90",
         "PSA.96"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 241,
@@ -2411,7 +3853,13 @@
         "EZE.92",
         "EZE.93",
         "PSA.97"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 242,
@@ -2421,7 +3869,13 @@
         "EZE.95",
         "EZE.96",
         "PSA.97"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 243,
@@ -2431,7 +3885,13 @@
         "EZE.98",
         "EZE.99",
         "PSA.98"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 244,
@@ -2441,7 +3901,13 @@
         "EZE.101",
         "EZE.102",
         "PSA.98"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 245,
@@ -2451,7 +3917,13 @@
         "EZE.104",
         "EZE.105",
         "PSA.98"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 246,
@@ -2461,7 +3933,13 @@
         "EZE.107",
         "EZE.108",
         "PSA.99"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 247,
@@ -2471,7 +3949,13 @@
         "EZE.110",
         "EZE.111",
         "PSA.99"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 248,
@@ -2481,7 +3965,13 @@
         "EZE.113",
         "EZE.114",
         "PSA.100"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 249,
@@ -2491,7 +3981,13 @@
         "EZE.116",
         "EZE.117",
         "PSA.100"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 250,
@@ -2501,7 +3997,13 @@
         "EZE.119",
         "EZE.120",
         "PSA.100"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 251,
@@ -2511,7 +4013,13 @@
         "EZR.2",
         "EZR.3",
         "PSA.101"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 252,
@@ -2521,7 +4029,13 @@
         "EZR.5",
         "EZR.6",
         "PSA.101"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 253,
@@ -2531,7 +4045,13 @@
         "EZR.8",
         "EZR.9",
         "PSA.102"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 254,
@@ -2541,7 +4061,13 @@
         "EZR.11",
         "EZR.12",
         "PSA.102"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 255,
@@ -2551,7 +4077,13 @@
         "EZR.14",
         "EZR.15",
         "PSA.102"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 256,
@@ -2561,7 +4093,13 @@
         "EZR.17",
         "EZR.18",
         "PSA.103"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 257,
@@ -2571,7 +4109,13 @@
         "EZR.20",
         "EZR.21",
         "PSA.103"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 258,
@@ -2581,7 +4125,13 @@
         "EZR.23",
         "EZR.24",
         "PSA.104"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 259,
@@ -2591,7 +4141,13 @@
         "EZR.26",
         "EZR.27",
         "PSA.104"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 260,
@@ -2601,7 +4157,13 @@
         "EZR.29",
         "EZR.30",
         "PSA.104"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 261,
@@ -2611,7 +4173,13 @@
         "EZR.32",
         "EZR.33",
         "PSA.105"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 262,
@@ -2621,7 +4189,13 @@
         "EZR.35",
         "EZR.36",
         "PSA.105"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 263,
@@ -2631,7 +4205,13 @@
         "EZR.38",
         "EZR.39",
         "PSA.106"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 264,
@@ -2641,7 +4221,13 @@
         "EZR.41",
         "EZR.42",
         "PSA.106"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 265,
@@ -2651,7 +4237,13 @@
         "EZR.44",
         "EZR.45",
         "PSA.106"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 266,
@@ -2661,7 +4253,13 @@
         "EZR.47",
         "EZR.48",
         "PSA.107"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 267,
@@ -2671,7 +4269,13 @@
         "EZR.50",
         "EZR.51",
         "PSA.107"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 268,
@@ -2681,7 +4285,13 @@
         "EZR.53",
         "EZR.54",
         "PSA.108"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 269,
@@ -2691,7 +4301,13 @@
         "EZR.56",
         "EZR.57",
         "PSA.108"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 270,
@@ -2701,7 +4317,13 @@
         "EZR.59",
         "EZR.60",
         "PSA.108"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 271,
@@ -2711,7 +4333,13 @@
         "EZR.62",
         "EZR.63",
         "PSA.109"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 272,
@@ -2721,7 +4349,13 @@
         "EZR.65",
         "EZR.66",
         "PSA.109"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 273,
@@ -2731,7 +4365,13 @@
         "EZR.68",
         "EZR.69",
         "PSA.110"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 274,
@@ -2741,7 +4381,13 @@
         "EZR.71",
         "EZR.72",
         "PSA.110"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 275,
@@ -2751,7 +4397,13 @@
         "EZR.74",
         "EZR.75",
         "PSA.110"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 276,
@@ -2761,7 +4413,13 @@
         "EZR.77",
         "EZR.78",
         "PSA.111"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 277,
@@ -2771,7 +4429,13 @@
         "EZR.80",
         "EZR.81",
         "PSA.111"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 278,
@@ -2781,7 +4445,13 @@
         "EZR.83",
         "EZR.84",
         "PSA.112"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 279,
@@ -2791,7 +4461,13 @@
         "EZR.86",
         "EZR.87",
         "PSA.112"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 280,
@@ -2801,7 +4477,13 @@
         "EZR.89",
         "EZR.90",
         "PSA.112"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 281,
@@ -2811,7 +4493,13 @@
         "MAT.2",
         "MAT.3",
         "PSA.113"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 282,
@@ -2821,7 +4509,13 @@
         "MAT.5",
         "MAT.6",
         "PSA.113"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 283,
@@ -2831,7 +4525,13 @@
         "MAT.8",
         "MAT.9",
         "PSA.114"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 284,
@@ -2841,7 +4541,13 @@
         "MAT.11",
         "MAT.12",
         "PSA.114"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 285,
@@ -2851,7 +4557,13 @@
         "MAT.14",
         "MAT.15",
         "PSA.114"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 286,
@@ -2861,7 +4573,13 @@
         "MAT.17",
         "MAT.18",
         "PSA.115"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 287,
@@ -2871,7 +4589,13 @@
         "MAT.20",
         "MAT.21",
         "PSA.115"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 288,
@@ -2881,7 +4605,13 @@
         "MAT.23",
         "MAT.24",
         "PSA.116"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 289,
@@ -2891,7 +4621,13 @@
         "MAT.26",
         "MAT.27",
         "PSA.116"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 290,
@@ -2901,7 +4637,13 @@
         "MAT.29",
         "MAT.30",
         "PSA.116"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 291,
@@ -2911,7 +4653,13 @@
         "MAT.32",
         "MAT.33",
         "PSA.117"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 292,
@@ -2921,7 +4669,13 @@
         "MAT.35",
         "MAT.36",
         "PSA.117"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 293,
@@ -2931,7 +4685,13 @@
         "MAT.38",
         "MAT.39",
         "PSA.118"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 294,
@@ -2941,7 +4701,13 @@
         "MAT.41",
         "MAT.42",
         "PSA.118"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 295,
@@ -2951,7 +4717,13 @@
         "MAT.44",
         "MAT.45",
         "PSA.118"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 296,
@@ -2961,7 +4733,13 @@
         "MAT.47",
         "MAT.48",
         "PSA.119"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 297,
@@ -2971,7 +4749,13 @@
         "MAT.50",
         "MAT.51",
         "PSA.119"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 298,
@@ -2981,7 +4765,13 @@
         "MAT.53",
         "MAT.54",
         "PSA.120"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 299,
@@ -2991,7 +4781,13 @@
         "MAT.56",
         "MAT.57",
         "PSA.120"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 300,
@@ -3001,7 +4797,13 @@
         "MAT.59",
         "MAT.60",
         "PSA.120"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 301,
@@ -3011,7 +4813,13 @@
         "MAT.62",
         "MAT.63",
         "PSA.121"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 302,
@@ -3021,7 +4829,13 @@
         "MAT.65",
         "MAT.66",
         "PSA.121"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 303,
@@ -3031,7 +4845,13 @@
         "MAT.68",
         "MAT.69",
         "PSA.122"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 304,
@@ -3041,7 +4861,13 @@
         "MAT.71",
         "MAT.72",
         "PSA.122"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 305,
@@ -3051,7 +4877,13 @@
         "MAT.74",
         "MAT.75",
         "PSA.122"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 306,
@@ -3061,7 +4893,13 @@
         "MAT.77",
         "MAT.78",
         "PSA.123"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 307,
@@ -3071,7 +4909,13 @@
         "MAT.80",
         "MAT.81",
         "PSA.123"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 308,
@@ -3081,7 +4925,13 @@
         "MAT.83",
         "MAT.84",
         "PSA.124"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 309,
@@ -3091,7 +4941,13 @@
         "MAT.86",
         "MAT.87",
         "PSA.124"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 310,
@@ -3101,7 +4957,13 @@
         "MAT.89",
         "MAT.90",
         "PSA.124"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 311,
@@ -3111,7 +4973,13 @@
         "MAT.92",
         "MAT.93",
         "PSA.125"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 312,
@@ -3121,7 +4989,13 @@
         "MAT.95",
         "MAT.96",
         "PSA.125"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 313,
@@ -3131,7 +5005,13 @@
         "MAT.98",
         "MAT.99",
         "PSA.126"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 314,
@@ -3141,7 +5021,13 @@
         "MAT.101",
         "MAT.102",
         "PSA.126"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 315,
@@ -3151,7 +5037,13 @@
         "MAT.104",
         "MAT.105",
         "PSA.126"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 316,
@@ -3161,7 +5053,13 @@
         "MAT.107",
         "MAT.108",
         "PSA.127"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 317,
@@ -3171,7 +5069,13 @@
         "MAT.110",
         "MAT.111",
         "PSA.127"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 318,
@@ -3181,7 +5085,13 @@
         "MAT.113",
         "MAT.114",
         "PSA.128"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 319,
@@ -3191,7 +5101,13 @@
         "MAT.116",
         "MAT.117",
         "PSA.128"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 320,
@@ -3201,7 +5117,13 @@
         "MAT.119",
         "MAT.120",
         "PSA.128"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 321,
@@ -3211,7 +5133,13 @@
         "ACT.2",
         "ACT.3",
         "PSA.129"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 322,
@@ -3221,7 +5149,13 @@
         "ACT.5",
         "ACT.6",
         "PSA.129"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 323,
@@ -3231,7 +5165,13 @@
         "ACT.8",
         "ACT.9",
         "PSA.130"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 324,
@@ -3241,7 +5181,13 @@
         "ACT.11",
         "ACT.12",
         "PSA.130"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 325,
@@ -3251,7 +5197,13 @@
         "ACT.14",
         "ACT.15",
         "PSA.130"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 326,
@@ -3261,7 +5213,13 @@
         "ACT.17",
         "ACT.18",
         "PSA.131"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 327,
@@ -3271,7 +5229,13 @@
         "ACT.20",
         "ACT.21",
         "PSA.131"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 328,
@@ -3281,7 +5245,13 @@
         "ACT.23",
         "ACT.24",
         "PSA.132"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 329,
@@ -3291,7 +5261,13 @@
         "ACT.26",
         "ACT.27",
         "PSA.132"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 330,
@@ -3301,7 +5277,13 @@
         "ACT.29",
         "ACT.30",
         "PSA.132"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 331,
@@ -3311,7 +5293,13 @@
         "ACT.32",
         "ACT.33",
         "PSA.133"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 332,
@@ -3321,7 +5309,13 @@
         "ACT.35",
         "ACT.36",
         "PSA.133"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 333,
@@ -3331,7 +5325,13 @@
         "ACT.38",
         "ACT.39",
         "PSA.134"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 334,
@@ -3341,7 +5341,13 @@
         "ACT.41",
         "ACT.42",
         "PSA.134"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 335,
@@ -3351,7 +5357,13 @@
         "ACT.44",
         "ACT.45",
         "PSA.134"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 336,
@@ -3361,7 +5373,13 @@
         "ROM.2",
         "ROM.3",
         "PSA.135"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 337,
@@ -3371,7 +5389,13 @@
         "ROM.5",
         "ROM.6",
         "PSA.135"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 338,
@@ -3381,7 +5405,13 @@
         "ROM.8",
         "ROM.9",
         "PSA.136"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 339,
@@ -3391,7 +5421,13 @@
         "ROM.11",
         "ROM.12",
         "PSA.136"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 340,
@@ -3401,7 +5437,13 @@
         "ROM.14",
         "ROM.15",
         "PSA.136"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 341,
@@ -3411,7 +5453,13 @@
         "ROM.17",
         "ROM.18",
         "PSA.137"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 342,
@@ -3421,7 +5469,13 @@
         "ROM.20",
         "ROM.21",
         "PSA.137"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 343,
@@ -3431,7 +5485,13 @@
         "ROM.23",
         "ROM.24",
         "PSA.138"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 344,
@@ -3441,7 +5501,13 @@
         "ROM.26",
         "ROM.27",
         "PSA.138"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 345,
@@ -3451,7 +5517,13 @@
         "ROM.29",
         "ROM.30",
         "PSA.138"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 346,
@@ -3461,7 +5533,13 @@
         "ROM.32",
         "ROM.33",
         "PSA.139"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 347,
@@ -3471,7 +5549,13 @@
         "ROM.35",
         "ROM.36",
         "PSA.139"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 348,
@@ -3481,7 +5565,13 @@
         "ROM.38",
         "ROM.39",
         "PSA.140"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 349,
@@ -3491,7 +5581,13 @@
         "ROM.41",
         "ROM.42",
         "PSA.140"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 350,
@@ -3501,7 +5597,13 @@
         "ROM.44",
         "ROM.45",
         "PSA.140"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 351,
@@ -3511,7 +5613,13 @@
         "ROM.47",
         "ROM.48",
         "PSA.141"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 352,
@@ -3521,7 +5629,13 @@
         "ROM.50",
         "ROM.51",
         "PSA.141"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 353,
@@ -3531,7 +5645,13 @@
         "ROM.53",
         "ROM.54",
         "PSA.142"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 354,
@@ -3541,7 +5661,13 @@
         "ROM.56",
         "ROM.57",
         "PSA.142"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 355,
@@ -3551,7 +5677,13 @@
         "ROM.59",
         "ROM.60",
         "PSA.142"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 356,
@@ -3561,7 +5693,13 @@
         "ROM.62",
         "ROM.63",
         "PSA.143"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 357,
@@ -3571,7 +5709,13 @@
         "ROM.65",
         "ROM.66",
         "PSA.143"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 358,
@@ -3581,7 +5725,13 @@
         "ROM.68",
         "ROM.69",
         "PSA.144"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 359,
@@ -3591,7 +5741,13 @@
         "ROM.71",
         "ROM.72",
         "PSA.144"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 360,
@@ -3601,7 +5757,13 @@
         "ROM.74",
         "ROM.75",
         "PSA.144"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 361,
@@ -3611,7 +5773,13 @@
         "ROM.77",
         "ROM.78",
         "PSA.145"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 362,
@@ -3621,7 +5789,13 @@
         "ROM.80",
         "ROM.81",
         "PSA.145"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 363,
@@ -3631,7 +5805,13 @@
         "ROM.83",
         "ROM.84",
         "PSA.146"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 364,
@@ -3641,7 +5821,13 @@
         "ROM.86",
         "ROM.87",
         "PSA.146"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     },
     {
       "day": 365,
@@ -3651,7 +5837,13 @@
         "ROM.89",
         "ROM.90",
         "PSA.146"
-      ]
+      ],
+      "readingCount": 4,
+      "progress": {
+        "completed": false,
+        "completedAt": null,
+        "readingsCompleted": []
+      }
     }
   ]
 }

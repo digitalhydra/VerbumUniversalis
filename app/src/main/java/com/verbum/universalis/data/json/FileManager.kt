@@ -75,4 +75,12 @@ class FileManager @Inject constructor(
     fun loadProgress(): List<ReadingProgress> {
         return readFile("progress.json") { json.decodeFromString<List<ReadingProgress>>(it) } ?: emptyList()
     }
+
+    fun saveProgressV2(progressMap: Map<String, Map<Int, DayProgress>>) {
+        writeAtomic("progress_v2.json", progressMap) { json.encodeToString(it) }
+    }
+
+    fun loadProgressV2(): Map<String, Map<Int, DayProgress>> {
+        return readFile("progress_v2.json") { json.decodeFromString<Map<String, Map<Int, DayProgress>>>(it) } ?: emptyMap()
+    }
 }
