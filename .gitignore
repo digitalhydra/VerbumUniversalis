@@ -1,0 +1,32 @@
+# Android
+build/
+.gradle/
+.idea/
+local.properties
+
+# Raw data (too large - uploaded separately)
+raw_data/
+extracted_data/
+
+# Databases (downloaded at runtime)
+*.db
+*.sqlite
+
+# Build outputs
+app/build/
+app/src/src/
+
+# Testing
+app/src/androidTest/
+app/src/test/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary
+*.tmp
+*.bak
