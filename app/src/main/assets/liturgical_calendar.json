@@ -1,0 +1,7 @@
+{
+  "readings": [
+    {"date": "2024-01-01", "celebration": "Solemnity of Mary", "readings": [{"book": "NUM", "chapter": 6, "verse_start": 22, "verse_end": 27}]},
+    {"date": "2024-01-06", "celebration": "Epiphany", "readings": [{"book": "ISA", "chapter": 60, "verse_start": 1, "verse_end": 6}]},
+    {"date": "2024-02-14", "celebration": "Ash Wednesday", "readings": [{"book": "JOL", "chapter": 2, "verse_start": 12, "verse_end": 18}]}
+  ]
+}

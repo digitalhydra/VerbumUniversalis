@@ -1,0 +1,43 @@
+{
+  "entries": [
+    {
+      "verse_ref": "GEN.1.1",
+      "references": [
+        {"ref": "JHN.1.1", "description": "Logos creation parallel"},
+        {"ref": "HEB.11.3", "description": "Faith understands creation"},
+        {"ref": "2COR.5.17", "description": "New creation in Christ"}
+      ]
+    },
+    {
+      "verse_ref": "JHN.3.16",
+      "references": [
+        {"ref": "ROM.5.8", "description": "God demonstrates love through Christ"},
+        {"ref": "1JN.4.9", "description": "God sent His Son"},
+        {"ref": "ISA.53.5", "description": "Suffering servant for our healing"}
+      ]
+    },
+    {
+      "verse_ref": "PSA.22.1",
+      "references": [
+        {"ref": "MAT.27.46", "description": "Cry of dereliction on the Cross"},
+        {"ref": "MRK.15.34", "description": "Same cry in Mark"},
+        {"ref": "HEB.5.7", "description": "Christ's prayers in Gethsemane"}
+      ]
+    },
+    {
+      "verse_ref": "ISA.53.5",
+      "references": [
+        {"ref": "1PE.2.24", "description": "By His stripes we are healed"},
+        {"ref": "MAT.8.17", "description": "Fulfilled in Jesus' healing ministry"},
+        {"ref": "1JN.3.16", "description": "Connection to John 3:16"}
+      ]
+    },
+    {
+      "verse_ref": "PHL.2.6-11",
+      "references": [
+        {"ref": "2COR.8.9", "description": "Christ's emptying Himself"},
+        {"ref": "JHN.1.1-14", "description": "The Word became flesh"},
+        {"ref": "HEB.1.3", "description": "Son's superiority over angels"}
+      ]
+    }
+  ]

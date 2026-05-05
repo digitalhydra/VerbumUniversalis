@@ -1,0 +1,23 @@
+{
+  "plan_id": "bible-in-a-year",
+  "title": "Bible in a Year",
+  "eras": [
+    {
+      "name": "Old Testament 1",
+      "days": [
+        {
+          "day": 1,
+          "readings": [
+            {"book": "GEN", "chapter": 1, "verse_start": 1, "verse_end": 31}
+          ]
+        },
+        {
+          "day": 2,
+          "readings": [
+            {"book": "GEN", "chapter": 2, "verse_start": 1, "verse_end": 25}
+          ]
+        }
+      ]
+    }
+  ]
+}
