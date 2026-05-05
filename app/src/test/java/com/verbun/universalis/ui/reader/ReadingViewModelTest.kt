@@ -1,9 +1,9 @@
-package com.verbun.universalis.ui.reader
+package com.verbum.universalis.ui.reader
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.test.core.app.ApplicationProvider
-import com.verbun.universalis.data.json.FileManager
-import com.verbun.universalis.data.repository.BibleRepository
+import com.verbum.universalis.data.json.FileManager
+import com.verbum.universalis.data.repository.BibleRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.test.TestDispatcher
 import kotlinx.coroutines.test.UnconfinedTestDispatcher

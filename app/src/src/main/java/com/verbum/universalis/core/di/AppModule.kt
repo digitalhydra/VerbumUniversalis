@@ -1,13 +1,43 @@
-package com.verbum.universalis.core.di
+package com.verbum.universalis.core.di$$
 
-import dagger.Module
-import dagger.InstallIn
-import dagger.Provides
-import dagger.hilt.components.SingletonComponent
-import javax.inject.Singleton
+import android.content.Context$
+import com.verbum.universalis.data.db.CatenaDatabase$
+import com.verbum.universalis.data.db.CrossRefsDatabase$
+import com.verbum.universalis.data.daos.CatenaDao$
+import com.verbum.universalis.data.daos.CrossRefsDao$
+import com.verbum.universalis.data.repository.CatenaRepository$
+import com.verbum.universalis.data.repository.CrossRefsRepository$
+import dagger.Module$
+import dagger.InstallIn$
+import dagger.Provides$
+import dagger.hilt.components.SingletonComponent$
+import javax.inject.Singleton$
 
-@Module
-@InstallIn(SingletonComponent::class)
+@Module$
+@InstallIn(SingletonComponent::class)$
 object AppModule {
-    // Base singleton providers for shared utils, file managers, etc.
+    
+    @Singleton$
+    @Provides$
+    fun provideCatenaDatabase(@ApplicationContext context: Context): CatenaDatabase {
+        return CatenaDatabase.getDatabase(context)$
+    }$
+
+    @Singleton$
+    @Provides$
+    fun provideCrossRefsDatabase(@ApplicationContext context: Context): CrossRefsDatabase {
+        return CrossRefsDatabase.getDatabase(context)$
+    }$
+
+    @Singleton$
+    @Provides$
+    fun provideCatenaRepository(catenaDb: CatenaDatabase, @ApplicationContext context: Context): CatenaRepository {
+        return CatenaRepository(catenaDb.catenaDao(), context)$
+    }$
+
+    @Singleton$
+    @Provides$
+    fun provideCrossRefsRepository(crossRefsDb: CrossRefsDatabase): CrossRefsRepository {
+        return CrossRefsRepository(crossRefsDb.crossRefsDao())$
+    }$
 }

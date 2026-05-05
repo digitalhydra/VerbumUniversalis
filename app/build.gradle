@@ -7,11 +7,11 @@ plugins {
 }
 
 android {
-    namespace 'com.verbun.universalis'
+    namespace 'com.verbum.universalis'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.verbun.universalis"
+        applicationId "com.verbum.universalis"
         minSdk 26
         targetSdk 34
         versionCode 1

@@ -1,12 +1,12 @@
-package com.verbun.universalis.data
+package com.verbum.universalis.data
 
 import android.content.Context
 import androidx.room.Room
 import androidx.test.core.app.ApplicationProvider
 import com.google.common.truth.Truth.assertThat
-import com.verbun.universalis.data.daos.*
-import com.verbun.universalis.data.db.AppDatabase
-import com.verbun.universalis.data.entities.*
+import com.verbum.universalis.data.daos.*
+import com.verbum.universalis.data.db.AppDatabase
+import com.verbum.universalis.data.entities.*
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.runBlocking
 import org.junit.After

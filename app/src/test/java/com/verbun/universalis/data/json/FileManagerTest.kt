@@ -1,4 +1,4 @@
-package com.verbun.universalis.data.json
+package com.verbum.universalis.data.json
 
 import android.content.Context
 import androidx.test.core.app.ApplicationProvider

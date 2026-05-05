@@ -12,10 +12,11 @@ import kotlinx.coroutines.withContext
 class DataDownloader {
     companion object {
         private const val TAG = "DataDownloader"
-        // Verbum Universalis data URLs (GitHub Releases)
-        private const val BASE_URL = "https://github.com/YOUR_USER/VERBUM_DATA/releases/download/v1.0.0"
-        const val CATENA_DB_URL = "${BASE_URL}/verbum_catena.db"
-        const val CROSS_REFS_DB_URL = "${BASE_URL}/verbum_cross_refs.db"
+        // Hardcoded URL for Catena SQLite database
+        const val CATENA_SQLITE_URL = "https://github.com/HistoricalChristianFaith/Commentaries-Database/releases/download/v1.0.0/data.sqlite"
+        const val CATENA_URL = "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/catena.json"
+        const val REFERENCES_URL = "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/references.json"
+        const val LITURGICAL_URL = "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/liturgical_calendar.json"
     }
 
     private val client = OkHttpClient.Builder()
@@ -23,19 +24,33 @@ class DataDownloader {
         .readTimeout(60, TimeUnit.SECONDS)
         .build()
 
-    suspend fun downloadCatenaDatabase(outputFile: File): Boolean = withContext(Dispatchers.IO) {
-        return@withContext downloadBinaryFile(CATENA_DB_URL, outputFile)
-    }
+    suspend fun downloadFile(url: String, outputFile: File): Boolean = withContext(Dispatchers.IO) {
+        try {
+            val request = Request.Builder().url(url).build()
+            val response = client.newCall(request).execute()
+            
+            if (!response.isSuccessful) {
+                Log.e(TAG, "Download failed: ${response.code}")
+                return@withContext false
+            }
 
-    suspend fun downloadCrossRefsDatabase(outputFile: File): Boolean = withContext(Dispatchers.IO) {
-        return@withContext downloadBinaryFile(CROSS_REFS_DB_URL, outputFile)
+            val body = response.body ?: return@withContext false
+            val content = body.string()
+            outputFile.writeText(content)
+            
+            Log.i(TAG, "Downloaded $url to ${outputFile.absolutePath}")
+            true
+        } catch (e: Exception) {
+            Log.e(TAG, "Download error", e)
+            false
+        }
     }
 
     suspend fun downloadBinaryFile(url: String, outputFile: File): Boolean = withContext(Dispatchers.IO) {
         try {
             val request = Request.Builder().url(url).build()
             val response = client.newCall(request).execute()
-
+            
             if (!response.isSuccessful) {
                 Log.e(TAG, "Download failed: ${response.code}")
                 return@withContext false
@@ -47,12 +62,16 @@ class DataDownloader {
                     input.copyTo(output)
                 }
             }
-
+            
             Log.i(TAG, "Downloaded binary $url to ${outputFile.absolutePath} (${outputFile.length()} bytes)")
             true
         } catch (e: Exception) {
             Log.e(TAG, "Download error", e)
             false
         }
+    }
+
+    suspend fun downloadCatenaDatabase(outputFile: File): Boolean {
+        return downloadBinaryFile(CATENA_SQLITE_URL, outputFile)
     }
 }

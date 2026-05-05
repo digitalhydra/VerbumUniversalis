@@ -1,8 +1,8 @@
-package com.verbun.universalis.data.sync
+package com.verbum.universalis.data.sync
 
 import android.content.Context
 import androidx.test.core.app.ApplicationProvider
-import com.verbun.universalis.data.json.FileManager
+import com.verbum.universalis.data.json.FileManager
 import kotlinx.coroutines.test.runTest
 import org.eclipse.jgit.api.Git
 import org.eclipse.jgit.lib.Repository

@@ -1,4 +1,4 @@
-package com.verbun.universalis.data.sync
+package com.verbum.universalis.data.sync
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import kotlinx.coroutines.Dispatchers
