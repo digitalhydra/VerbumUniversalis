@@ -98,12 +98,24 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 }
 
-task generateSeedDb(type: Exec) {
-    commandLine 'python3', 'etl_full.py'
+task generateSeedDb {
+    // Skip if DB exists AND --build_seed not passed
+    def buildRequested = project.hasProperty('build_seed')
+    def dbExists = file('app/src/main/assets/verbum_seed.db').exists()
+    
+    outputs.upToDateWhen { dbExists && !buildRequested }
+    
     doLast {
+        if (!dbExists || buildRequested) {
+            logger.quiet('Generating verbum_seed.db...')
+            exec {
+                workingDir 'etl'
+                commandLine 'python3', 'build_verbum_seed.py'
+            }
+        }
         copy {
             from 'verbum_seed.db'
-            into 'src/main/assets'
+            into 'app/src/main/assets'
         }
     }
 }
