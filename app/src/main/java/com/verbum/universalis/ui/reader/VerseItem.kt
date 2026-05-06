@@ -24,6 +24,7 @@ import androidx.compose.ui.unit.sp
 import com.verbum.universalis.core.theme.SourceSerifProFontFamily
 import com.verbum.universalis.ui.components.Hairline
 import com.verbum.universalis.data.entities.VerseWithTexts
+import com.verbum.universalis.ui.theme.HighlightPalette
 
 @Composable
 fun VerseItem(
@@ -38,7 +39,7 @@ fun VerseItem(
     val expanded = remember { mutableStateOf(false) }
     val highlightColor = if (highlights.isNotEmpty()) {
         val colorId = highlights.first()
-        HighlightPalette.all[colorId % 20].copy(alpha = 0.3f)
+        HighlightPalette.all[colorId % HighlightPalette.all.size].copy(alpha = 0.3f)
     } else Color.Transparent
 
     Column(
