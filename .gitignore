@@ -29,3 +29,6 @@ raw_data/cross_references.txt
 # raw_data/catena/build_final_catena.py
 # raw_data/catena/build_cross_refs_final.py
 /local.properties
+/raw_data/_extracted
+/raw_data/strongs-master
+/strongs-master
