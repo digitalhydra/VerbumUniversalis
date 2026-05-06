@@ -8,13 +8,12 @@ import com.verbum.universalis.R
 // Bundled Fonts
 val InterFontFamily = FontFamily(
     Font(R.font.inter_regular, FontWeight.Normal),
-    Font(R.font.inter_medium, FontWeight.Medium),
     Font(R.font.inter_bold, FontWeight.Bold)
 )
 
 val SourceSerifProFontFamily = FontFamily(
-    Font(R.font.sourceserifpro_regular, FontWeight.Normal),
-    Font(R.font.sourceserifpro_bold, FontWeight.Bold)
+    Font(R.font.sourceserif_regular, FontWeight.Normal),
+    Font(R.font.sourceserif_bold, FontWeight.Bold)
 )
 
 // Typography Specs
@@ -30,6 +29,6 @@ val ContentTypography = androidx.compose.material3.Typography(
 val UITypography = androidx.compose.material3.Typography(
     labelLarge = androidx.compose.ui.text.TextStyle(
         fontFamily = InterFontFamily,
-        fontWeight = FontWeight.Medium
+        fontWeight = FontWeight.Bold
     )
 )

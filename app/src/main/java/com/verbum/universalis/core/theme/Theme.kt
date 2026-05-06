@@ -35,9 +35,23 @@ fun VerbumTheme(
 
     MaterialTheme(
         colorScheme = colorScheme,
-        // Note: Typography setup requires font files. 
-        // We'll apply SourceSerifPro and Inter once the font files are added to res/font.
-        // For now, using default Material3 typography.
+        typography = androidx.compose.material3.Typography(
+            displayLarge = ContentTypography.displayLarge,
+            displayMedium = ContentTypography.displayMedium,
+            displaySmall = ContentTypography.displaySmall,
+            headlineLarge = ContentTypography.headlineLarge,
+            headlineMedium = ContentTypography.headlineMedium,
+            headlineSmall = ContentTypography.headlineSmall,
+            titleLarge = UITypography.titleLarge,
+            titleMedium = UITypography.titleMedium,
+            titleSmall = UITypography.titleSmall,
+            bodyLarge = ContentTypography.bodyLarge,
+            bodyMedium = ContentTypography.bodyMedium,
+            bodySmall = ContentTypography.bodySmall,
+            labelLarge = UITypography.labelLarge,
+            labelMedium = UITypography.labelMedium,
+            labelSmall = UITypography.labelSmall
+        ),
         content = content
     )
 }

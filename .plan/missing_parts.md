@@ -39,12 +39,14 @@
 
 ## Still Missing ❌
 
-### Phase 6/7 - Git Sync
-- [ ] **GitHub OAuth flow** - Custom Tabs + callback
-- [ ] **SSH key generation** - RSA/ED25519 + Deploy Key upload
-- [ ] **GitHub API integration** - List/create repos, add keys
-- [ ] **LWW conflict resolution** - Timestamp-based merging
-- [ ] **New device clone scenario** - Backup collision handling
+### Phase 6/7 - Git Sync (v1 - Manual Deploy Key)
+- [x] **SSH Deploy Key** - Generate key, copy to clipboard, link to GitHub
+- [x] **Repo URL config** - Input SSH URL in settings
+- [x] **LWW conflict resolution** - Timestamp-based merging
+- [x] **New device clone scenario** - Backup collision handling
+
+### Phase 6/7 - Git Sync (v2 - GitHub API)
+- [ ] **GitHub API integration** - Auto-add deploy key, create repo (optional)
 
 ### Phase 1/7 - Dashboard & Liturgical
 - [x] **Liturgical reading navigation** - Auto-jump to daily readings (tapping navigates to ReadingScreen)
