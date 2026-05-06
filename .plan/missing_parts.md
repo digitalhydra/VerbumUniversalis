@@ -3,36 +3,41 @@
 ## Completed ✅
 
 ### Phase 2 - ETL & Database
-- [x] **ETL script** - Generate `verbum_seed.db` from raw SWORD data
+- [x] **ETL script** - Generate `verbum_seed.db` from raw SWORD data (deterministic, same MD5)
 - [x] **Latin Vulgate Clementina** - Added VUL texts to `texts` table
-- [x] **Masoretic Hebrew** - Added Hebrew interlinear + morphology
-- [x] **Strong's/Thayer's Lexicon** - Populated `lexicon` table (14,197 entries)
+- [x] **Masoretic Hebrew** - Added OSHB interlinear + morphology (no separate Strong's needed)
+- [x] **Greek Lexicon** - Added Strong's Greek (5,624 entries)
 - [x] **Semantic Tag Legend** - Created `tags_legend.json` (20-color palette)
 
+### Phase 3 - Reading Canvas
+- [x] **3-Language Toggle** - EN (DRB), ES (Platense), LA (Vulgata) dropdown
+- [x] **Last read passage persistence** - Saves to DataStore
+
 ### Phase 4 - Interlinear & Adaptive
-- [x] **Hebrew Interlinear** - Masoretic text word blocks (data loaded)
+- [x] **Hebrew Interlinear** - OSHB word blocks with lemma/morphology
+- [x] **Greek Interlinear** - ABPGRK word blocks with lemma/morphology
 - [x] **Catena Tab** - Data layer + UI complete (137K entries, ordered by author, period shown)
+- [x] **References Tab** - Data layer + UI complete
+- [x] **Tradition toggle** - Filter Catena by tradition (Catholic/Orthodox/Protestant)
 
 ### Phase 5 - User Data & Reading Plans
-- [x] **Reading plan JSON files** - `bible-in-a-year.json` + era grouping in `assets/plans/`
-- [x] **Era-based UI** - 12 historical periods in plan data
-- [x] **Semantic highlight rendering** - 20 desaturated colors from `tags_legend.json`
+- [x] **Reading plan JSON files** - `bible-in-a-year.json` + era grouping
+- [x] **Era-based UI** - 12 historical periods
+- [x] **Semantic highlight rendering** - 20 desaturated colors
 
 ### Phase 1/7 - Dashboard & Liturgical
 - [x] **Daily Liturgical Readings** - `liturgical_calendar.json` in assets
 - [x] **Tier 3 Calendar API** - Static JSON (USCCB, CEC Colombia, calapi.inadiutorium.cz)
+- [x] **Daily Mass Readings** - Bundled 2026, date picker
+
+### Tier 2 - Catena & Cross-Refs Downloads
+- [x] **Separate DBs** - verbum_catena.db, verbum_cross_refs.db (NOT bundled)
+- [x] **On-demand download** - Prompts user to download when opening Catena/References tab
+- [x] **URLs configured** - Points to digitalhydra/verbum-data repo
 
 ---
 
 ## Still Missing ❌
-
-### Phase 3 - Reading Canvas
-- [ ] **Latin Canvas toggle** - Add LA (Vulgata) to language toggle
-- [ ] **Last read passage persistence** - Save/restore position
-
-### Phase 4 - Interlinear & Adaptive
-- [ ] **References Tab** - TSK cross-reference data (`references.json` exists, needs UI)
-- [ ] **Tradition toggle** - Show/hide Catena in Study Inspector
 
 ### Phase 6/7 - Git Sync
 - [ ] **GitHub OAuth flow** - Custom Tabs + callback
@@ -42,23 +47,25 @@
 - [ ] **New device clone scenario** - Backup collision handling
 
 ### Phase 1/7 - Dashboard & Liturgical
-- [ ] **Liturgical reading navigation** - Auto-jump to daily readings (UI)
-
-### Tier 2 - Catena Commentary Engine (Not in any phase)
-- [ ] **Rolling cache** - Current month auto-download
-- [ ] **Manual download UI** - Full book downloads
-- [ ] **CCEL dataset parsing** - XML/JSON patristic data
-
-### Phase 2 - ETL & Database
-- [ ] **Spanish (SpaScioNT)** - LZSS compression not supported by pysword, needs custom parser
+- [x] **Liturgical reading navigation** - Auto-jump to daily readings (tapping navigates to ReadingScreen)
+- [x] **Mass readings flow** - Shows First Reading, Psalm, Gospel with Next navigation
+- [x] **Bible in a Year flow** - Navigate through daily readings with Next Day button
 
 ---
 
-## Implementation Order
-1. ~~**ETL Seed Generator** (Phase 2 blocker)~~ ✅ DONE
-2. ~~**Catena Data Source (Phase 4/7)**~~ ✅ DONE
-3. ~~**References Data Source (Phase 4/7)**~~ ✅ DONE (data exists)
-4. **References Tab UI** - Wire up `references.json` to Study Inspector
-5. **GitHub OAuth + SSH** (Phase 6/7)
-6. **Daily Liturgical Readings UI** (Phase 1/7)
-7. Remaining gaps...
+## Implementation Order (Complete)
+1. ✅ **ETL Seed Generator** (Phase 2)
+2. ✅ **Catena Data Source** (Phase 4)
+3. ✅ **References Data Source** (Phase 4)
+4. ✅ **Daily Mass Readings UI** (Phase 1)
+5. ✅ **3-Language Toggle** (Phase 3)
+6. ✅ **Tradition Toggle** (Phase 4)
+7. ✅ **Download URLs** (Tier 2)
+8. ✅ **Last Read Persistence** (Phase 3)
+
+---
+
+## Next Steps
+1. GitHub OAuth + SSH sync (Phase 6/7)
+2. Liturgical auto-jump (Phase 1/7)
+3. Upload verbum_catena.db + verbum_cross_refs.db to digitalhydra/verbum-data repo
