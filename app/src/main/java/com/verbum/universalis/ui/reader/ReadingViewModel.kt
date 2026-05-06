@@ -104,7 +104,8 @@ class ReadingViewModel @Inject constructor(
         }
     }
 
-    private val _activeLanguage = MutableStateFlow("DR") // Default: Douay-Rheims (EN)
+    // Language codes: "en_DRB"=English, "es_PLA"=Spanish, "la_VUL"=Latin
+    private val _activeLanguage = MutableStateFlow("en_DRB") // Default: English
     val activeLanguage: StateFlow<String> = _activeLanguage.asStateFlow()
 
     private val _showNoteBottomSheet = MutableStateFlow(false)
@@ -145,8 +146,26 @@ class ReadingViewModel @Inject constructor(
         }
     }
 
+    fun setLanguage(langCode: String) {
+        _activeLanguage.value = langCode
+    }
+
+    // Cycle through languages: en_DRB -> es_PLA -> la_VUL -> en_DRB
     fun toggleLanguage() {
-        _activeLanguage.value = if (_activeLanguage.value == "DR") "Spa" else "DR"
+        _activeLanguage.value = when (_activeLanguage.value) {
+            "en_DRB" -> "es_PLA"
+            "es_PLA" -> "la_VUL"
+            else -> "en_DRB"
+        }
+    }
+
+    fun getLanguageDisplayName(): String {
+        return when (_activeLanguage.value) {
+            "en_DRB" -> "EN"
+            "es_PLA" -> "ES"
+            "la_VUL" -> "LA"
+            else -> "EN"
+        }
     }
 
     private val _isSelectionMode = MutableStateFlow(false)
@@ -159,6 +178,15 @@ class ReadingViewModel @Inject constructor(
     fun getDisplayText(verseWithTexts: VerseWithTexts): String {
         val langCode = _activeLanguage.value
         return verseWithTexts.texts.find { it.lang_code == langCode }?.content ?: "N/A"
+    }
+
+    fun getDisplayNameForLangCode(langCode: String): String {
+        return when (langCode) {
+            "en_DRB" -> "English (Douay-Rheims)"
+            "es_PLA" -> "Español (Platense)"
+            "la_VUL" -> "Latina (Vulgata)"
+            else -> langCode
+        }
     }
 
     fun showNoteSheet(verseId: Int) {

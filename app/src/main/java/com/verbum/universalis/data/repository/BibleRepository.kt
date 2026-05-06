@@ -2,6 +2,7 @@ package com.verbum.universalis.data.repository*
 
 import android.content.Context*
 import com.verbum.universalis.data.daos.*
+import com.verbum.universalis.data.db.CrossRefsDatabase*
 import com.verbum.universalis.data.entities.*
 import kotlinx.coroutines.flow.Flow*
 import kotlinx.coroutines.flow.map*
@@ -20,10 +21,15 @@ class BibleRepository(
     private val interlinearDao: InterlinearDao,
     private val lexiconDao: LexiconDao,
     private val catenaRepository: CatenaRepository,
+    private val crossRefsRepository: CrossRefsRepository,
     @ApplicationContext private val context: Context
 ) {
     fun getChapter(bookId: Int, chapter: Int): Flow<List<VerseWithTexts>> {
         return verseDao.getChapter(bookId, chapter)
+    }
+
+    fun getVerseById(verseId: Int): Flow<VerseEntity?> {
+        return verseDao.getVerseById(verseId)
     }
 
     fun getInterlinearWordsForVerse(verseId: Int): Flow<List<InterlinearWordEntity>> {
@@ -38,28 +44,7 @@ class BibleRepository(
         return verseDao.getAllBooks()
     }
 
-    // Reverse mapping: bookId → bookCode (e.g., 1 → "GEN")
-    private val bookIdToCode = mapOf(
-        1 to "GEN", 2 to "EXO", 3 to "LEV", 4 to "NUM", 5 to "DEU",
-        6 to "JOS", 7 to "JDG", 8 to "RUT", 9 to "1SA", 10 to "2SA",
-        11 to "1KI", 12 to "2KI", 13 to "1CH", 14 to "2CH",
-        15 to "EZR", 16 to "NEH", 17 to "TOB", 18 to "JDT", 19 to "EST",
-        20 to "JOB", 21 to "PSA", 22 to "PRO", 23 to "ECC", 24 to "SNG",
-        25 to "WIS", 26 to "SIR", 27 to "ISA", 28 to "JER",
-        29 to "LAM", 30 to "BAR", 31 to "EZK", 32 to "DAN",
-        33 to "HOS", 34 to "JOL", 35 to "AMO", 36 to "OBA",
-        37 to "JON", 38 to "MIC", 39 to "NAH", 40 to "HAB",
-        41 to "ZEP", 42 to "HAG", 43 to "ZEC", 44 to "MAL",
-        45 to "1MA", 46 to "2MA", 47 to "MAT", 48 to "MAR",
-        49 to "LUK", 50 to "JHN", 51 to "ACT", 52 to "ROM",
-        53 to "1CO", 54 to "2CO", 55 to "GAL", 56 to "EPH",
-        57 to "PHP", 58 to "COL", 59 to "1TH", 60 to "2TH",
-        61 to "1TI", 62 to "2TI", 63 to "TIT", 64 to "PHM",
-        65 to "HEB", 66 to "JAS", 67 to "1PE", 68 to "2PE",
-        69 to "1JN", 70 to "2JN", 71 to "3JN", 72 to "JUD",
-        73 to "REV"
-    )
-
+    // Catena methods
     fun getCatenaForVerse(bookId: Int, chapter: Int, verseNumber: Int): Flow<List<com.verbum.universalis.data.entities.CatenaCommentaryEntity>> {
         return catenaRepository.getCommentariesForVerse(bookId, chapter, verseNumber)
     }
@@ -72,12 +57,29 @@ class BibleRepository(
         return catenaRepository.downloadDatabase()
     }
 
-    // References data classes
+    // Cross-references methods
+    fun getCrossRefsForVerse(bookCode: String, chapter: Int, verse: Int): Flow<List<CrossReferenceEntity>> {
+        return crossRefsRepository.getCrossRefsForVerse(bookCode, chapter, verse)
+    }
+
+    fun getCrossRefsForChapter(bookCode: String, chapter: Int): Flow<List<CrossReferenceEntity>> {
+        return crossRefsRepository.getCrossRefsForChapter(bookCode, chapter)
+    }
+
+    suspend fun isCrossRefsDownloaded(): Boolean {
+        return crossRefsRepository.isDatabaseDownloaded()
+    }
+
+    suspend fun downloadCrossRefs(): Boolean {
+        return crossRefsRepository.downloadDatabase()
+    }
+
+    // Reference data classes (for JSON)
     data class Reference(val ref: String, val description: String)
     data class ReferenceEntry(val verse_ref: String, val references: List<Reference>)
     data class ReferencesData(val entries: List<ReferenceEntry>)
 
-    // Load references for a specific verse (download if needed, filter by verse)
+    // Get references for a verse with descriptions
     suspend fun getReferencesForVerse(verseId: Int): List<Reference> {
         val cacheFile = File(context.filesDir, "cache/references.json")
         if (!cacheFile.exists()) {
@@ -87,13 +89,13 @@ class BibleRepository(
         return try {
             val jsonString = cacheFile.readText()
             val data = Json { ignoreUnknownKeys = true }.decodeFromString<ReferencesData>(jsonString)
-            
+
             // Get verse to build ref
             val verse = getVerseByIdSync(verseId)
             if (verse != null) {
-                val bookCode = bookIdToCode[verse.bookId] ?: return emptyList()
+                val bookCode = getBookCodeForId(verse.bookId)
                 val refPrefix = "${bookCode}.${verse.chapter}.${verse.verseNumber}"
-                // Filter entries where verse_ref starts with refPrefix, then merge all references
+                // Filter entries where verse_ref starts with refPrefix
                 val matchingEntries = data.entries.filter { it.verse_ref.startsWith(refPrefix) }
                 val allReferences = mutableListOf<Reference>()
                 matchingEntries.forEach { entry ->
@@ -109,31 +111,55 @@ class BibleRepository(
         }
     }
 
-    // Liturgical Calendar data classes
-    data class LiturgicalEntry(val date: String, val celebration: String, val readings: List<ReadingRef>)
-    data class ReadingRef(val book: String, val chapter: Int, val verse_start: Int?, val verse_end: Int?)
-    data class LiturgicalCalendar(val readings: List<LiturgicalEntry>)
+    // Navigation: parse reference string "GEN.1.1" to (bookId, chapter, verse)
+    fun parseReference(ref: String): Triple<Int, Int, Int>? {
+        // Format: "GEN.1.1" or "1COR.2.3"
+        val parts = ref.split(".")
+        if (parts.size < 3) return null
 
-    // Get today's liturgical reading
-    suspend fun getTodayLiturgicalReading(): LiturgicalEntry? {
-        val cacheFile = File(context.filesDir, "cache/liturgical_calendar.json")
-        if (!cacheFile.exists()) {
-            downloadFile(LITURGICAL_URL, cacheFile)
-        }
+        val bookCode = parts[0]
+        val chapter = parts[1].toIntOrNull() ?: return null
+        val verse = parts[2].split("-")[0].toIntOrNull() ?: return null
 
+        val bookId = getBookIdForCode(bookCode) ?: return null
+        return Triple(bookId, chapter, verse)
+    }
+
+    // Private helpers
+    private val bookIdToCode = mapOf(
+        1 to "GEN", 2 to "EXO", 3 to "LEV", 4 to "NUM", 5 to "DEU",
+        6 to "JOS", 7 to "JDG", 8 to "RUT", 9 to "1SA", 10 to "2SA",
+        11 to "1KI", 12 to "2KI", 13 to "1CH", 14 to "2CH",
+        15 to "EZR", 16 to "NEH", 17 to "TOB", 18 to "JDT", 19 to "EST",
+        20 to "JOB", 21 to "PSA", 22 to "PRO", 23 to "ECC", 24 to "SNG",
+        25 to "WIS", 26 to "SIR", 27 to "ISA", 28 to "JER",
+        29 to "LAM", 30 to "BAR", 31 to "EZK", 32 to "DAN",
+        33 to "HOS", 34 to "JOL", 35 to "AMO", 36 to "OBA",
+        37 to "JON", 38 to "MIC", 39 to "NAH", 40 to "HAB",
+        41 to "ZEP", 42 to "HAG", 43 to "ZEC", 44 to "MAL",
+        45 to "1MA", 46 to "2MA", 47 to "MAT", 48 to "MRK",
+        49 to "LUK", 50 to "JHN", 51 to "ACT", 52 to "ROM",
+        53 to "1CO", 54 to "2CO", 55 to "GAL", 56 to "EPH",
+        57 to "PHP", 58 to "COL", 59 to "1TH", 60 to "2TH",
+        61 to "1TI", 62 to "2TI", 63 to "TIT", 64 to "PHM",
+        65 to "HEB", 66 to "JAS", 67 to "1PE", 68 to "2PE",
+        69 to "1JN", 70 to "2JN", 71 to "3JN", 72 to "JUD",
+        73 to "REV"
+    )
+
+    private fun getBookCodeForId(bookId: Int): String? = bookIdToCode[bookId]
+    private fun getBookIdForCode(code: String): Int? = bookIdToCode.entries.find { it.value == code }?.key
+
+    private fun getVerseByIdSync(verseId: Int): VerseEntity? {
         return try {
-            val jsonString = cacheFile.readText()
-            val data = Json { ignoreUnknownKeys = true }.decodeFromString<LiturgicalCalendar>(jsonString)
-            val today = java.time.LocalDate.now().toString() // "2024-01-01" format
-            data.readings.find { it.date == today }
+            val flow = verseDao.getVerseById(verseId)
+            kotlinx.coroutines.runBlocking { flow.first() }
         } catch (e: Exception) {
-            e.printStackTrace()
             null
         }
     }
 
     companion object {
-        // TODO: Replace with real GitHub raw URLs
         private const val CATENA_URL = "https://raw.githubusercontent.com/YOUR_USER/VERBUM_DATA/main/catena.json"
         private const val REFERENCES_URL = "https://raw.githubusercontent.com/YOUR_USER/VERBUM_DATA/main/references.json"
         private const val LITURGICAL_URL = "https://raw.githubusercontent.com/YOUR_USER/VERBUM_DATA/main/liturgical_calendar.json"
@@ -159,18 +185,6 @@ class BibleRepository(
             }
         } catch (e: Exception) {
             android.util.Log.e("BibleRepository", "Error downloading $url", e)
-        }
-    }
-
-    // Extension to get verse synchronously (for suspend context)
-    fun getVerseByIdSync(verseId: Int): VerseEntity? {
-        return try {
-            val flow = verseDao.getVerseById(verseId)
-            kotlinx.coroutines.runBlocking {
-                flow.first()
-            }
-        } catch (e: Exception) {
-            null
         }
     }
 }

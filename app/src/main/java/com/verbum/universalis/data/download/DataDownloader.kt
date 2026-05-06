@@ -12,11 +12,9 @@ import kotlinx.coroutines.withContext
 class DataDownloader {
     companion object {
         private const val TAG = "DataDownloader"
-        // Hardcoded URL for Catena SQLite database
-        const val CATENA_SQLITE_URL = "https://github.com/HistoricalChristianFaith/Commentaries-Database/releases/download/v1.0.0/data.sqlite"
-        const val CATENA_URL = "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/catena.json"
-        const val REFERENCES_URL = "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/references.json"
-        const val LITURGICAL_URL = "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/liturgical_calendar.json"
+        // Verbum data repos - download from GitHub raw content
+        const val CATENA_DB_URL = "https://raw.githubusercontent.com/digitalhydra/verbum-data/main/verbum_catena.db"
+        const val CROSS_REFS_DB_URL = "https://raw.githubusercontent.com/digitalhydra/verbum-data/main/verbum_cross_refs.db"
     }
 
     private val client = OkHttpClient.Builder()
@@ -71,7 +69,7 @@ class DataDownloader {
         }
     }
 
-    suspend fun downloadCatenaDatabase(outputFile: File): Boolean {
-        return downloadBinaryFile(CATENA_SQLITE_URL, outputFile)
-    }
+    suspend fun downloadCatenaDatabase(outputFile: File): Boolean = downloadBinaryFile(CATENA_DB_URL, outputFile)
+    
+    suspend fun downloadCrossRefsDatabase(outputFile: File): Boolean = downloadBinaryFile(CROSS_REFS_DB_URL, outputFile)
 }
