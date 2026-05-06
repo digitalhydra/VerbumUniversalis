@@ -3,4 +3,6 @@
     <color name="gold">#D9CFCC</color>
     <color name="background_light">#FFFFFF</color>
     <color name="background_dark">#121212</color>
+    <color name="ic_launcher_background">#D9CFCC</color>
+    <color name="ic_launcher_foreground">#121212</color>
 </resources>
