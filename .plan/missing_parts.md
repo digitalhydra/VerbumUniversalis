@@ -70,4 +70,4 @@
 ## Next Steps
 1. GitHub OAuth + SSH sync (Phase 6/7)
 2. Liturgical auto-jump (Phase 1/7)
-3. Upload verbum_catena.db + verbum_cross_refs.db to digitalhydra/verbum-data repo
+3. **TODO:** Upload `verbum_catena.db` + `verbum_cross_refs.db` to digitalhydra/verbum-data repo and update URLs in DataDownloader.kt

@@ -46,9 +46,18 @@ Create a high-legibility, typography-driven reading experience that prioritizes 
 - **Phase 5 Hook:** "Highlight" and "Note" actions trigger the JSON `FileManager` to save user data.
 
 ## 5. Acceptance Criteria (Definition of Done)
-1. [ ] User can navigate to any Book/Chapter via the Picker or Acronym Search.
-2. [ ] The canvas renders in Verse-by-Verse mode with the correct Serif typography.
-3. [ ] The translation toggle instantly switches between English and Spanish.
-4. [ ] Tapping a verse opens the action menu with all 5 requested study hooks.
-5. [ ] Hold-tapping triggers a visual "Selection Mode" for precision highlighting.
-6. [ ] The UI is strictly "Bear-style" (no shadows, no cards, high-contrast neutrals).
+1. [x] User can navigate to any Book/Chapter via the Picker or Acronym Search.
+2. [x] The canvas renders in Verse-by-Verse mode with the correct Serif typography.
+3. [x] The translation toggle instantly switches between English and Spanish.
+4. [x] Tapping a verse opens the action menu with all 5 requested study hooks.
+5. [x] Hold-tapping triggers a visual "Selection Mode" for precision highlighting.
+6. [x] The UI is strictly "Bear-style" (no shadows, no cards, high-contrast neutrals).
+
+## 6. Additional Features Implemented
+- **Greek Language Support:** Added Greek (EL) as 4th translation option
+- **Interlinear Rendering:** When Greek selected, shows word blocks (original + transliteration + literal + morphology)
+- **Study Inspector:** Right-side panel with Lexicon (Greek only), Catena, References tabs
+- **Unified Note/Highlight:** Single bottom drawer for note + highlight with single save
+- **Verse Actions:** Tap verse → menu (Highlight/Note, References, Catena, Interlinear)
+- **Selection Mode:** Long press → select verses → bottom drawer for note/highlight
+- **Last Read Persistence:** Saves last passage to DataStore
