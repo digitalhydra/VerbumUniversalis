@@ -89,6 +89,10 @@ dependencies {
     // Security for EncryptedSharedPreferences
     implementation 'androidx.security:security-crypto:1.1.0'
 
+    // BouncyCastle for SSH key PEM conversion
+    implementation 'org.bouncycastle:bcprov-jdk15on:1.70'
+    implementation 'org.bouncycastle:bcpkix-jdk15on:1.70'
+
     // Testing
     testImplementation 'junit:junit:4.13.2'
     testImplementation 'androidx.arch.core:core-testing:2.2.0'
