@@ -1,195 +1,182 @@
-package com.verbum.universalis.ui.reader.*
+package com.verbum.universalis.ui.reader
 
-import androidx.compose.foundation.layout.Box*
-import androidx.compose.foundation.layout.Column*
-import androidx.compose.foundation.layout.fillMaxSize*
-import androidx.compose.foundation.layout.padding*
-import androidx.compose.material3.Tab*
-import androidx.compose.material3.TabRow*
-import androidx.compose.material3.Text*
-import androidx.compose.runtime.Composable*
-import androidx.compose.runtime.collectAsState*
-import androidx.compose.runtime.getValue*
-import androidx.compose.runtime.mutableStateOf*
-import androidx.compose.runtime.remember*
-import androidx.compose.runtime.setValue*
-import androidx.compose.ui.Modifier*
-import androidx.compose.ui.unit.dp*
-import com.verbum.universalis.data.entities.CatenaCommentaryEntity*
-import com.verbum.universalis.data.entities.InterlinearWordEntity*
-import com.verbum.universalis.data.entities.LexiconEntity*
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Tab
+import androidx.compose.material3.TabRow
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.unit.dp
+import com.verbum.universalis.data.entities.CatenaCommentaryEntity
+import com.verbum.universalis.data.entities.InterlinearWordEntity
+import com.verbum.universalis.data.entities.LexiconEntity
+import com.verbum.universalis.data.repository.BibleRepository.Reference
 
-enum class InspectorTab { LEXICON, CATENA, REFERENCES, MY_NOTES }
+enum class InspectorTab { LEXICON, CATENA, REFERENCES }
 
-// Church traditions for filtering Catena commentaries
-enum class ChurchTradition(val displayName: String) {
-    ALL("All Traditions"),
-    CATHOLIC("Catholic"),
-    ORTHODOX("Orthodox"),
-    PROTESTANT("Protestant")
-}
-
-@Composable*
+@Composable
 fun StudyInspector(
     selectedWord: InterlinearWordEntity?,
     lexiconEntry: LexiconEntity?,
-    notes: List<com.verbum.universalis.data.json.Note> = emptyList(),
     catenaEntries: List<CatenaCommentaryEntity> = emptyList(),
-    references: List<com.verbum.universalis.data.repository.BibleRepository.Reference> = emptyList(),
+    references: List<Reference> = emptyList(),
     activeTab: InspectorTab,
     onTabSelect: (InspectorTab) -> Unit,
     onReferenceClick: (String) -> Unit = {},
-    activeTradition: ChurchTradition = ChurchTradition.ALL,
-    onTraditionSelect: (ChurchTradition) -> Unit = {},
-    modifier: Modifier = Modifier*
+    showLexicon: Boolean = true, // Only show Lexicon when Greek
+    modifier: Modifier = Modifier
 ) {
-    // Filter catena entries by tradition
-    val filteredCatena = remember(catenaEntries, activeTradition) {
-        if (activeTradition == ChurchTradition.ALL) catenaEntries
-        else catenaEntries.filter { entry -> 
-            entry.period?.contains(activeTradition.displayName, ignoreCase = true) == true
+    // Filter tabs based on language mode
+    val availableTabs = if (showLexicon) {
+        listOf(InspectorTab.LEXICON, InspectorTab.CATENA, InspectorTab.REFERENCES)
+    } else {
+        listOf(InspectorTab.CATENA, InspectorTab.REFERENCES)
+    }
+    
+    // If current tab is not available, switch to first available
+    LaunchedEffect(activeTab, showLexicon) {
+        if (!availableTabs.contains(activeTab)) {
+            onTabSelect(availableTabs.first())
         }
     }
-        // Add tradition dropdown filter for Catena tab
-        var showTraditionMenu by remember { mutableStateOf(false) }
-        
-        Box {
-            Text(
-                text = if (activeTab == InspectorTab.CATENA) "T: ${activeTradition.displayName}" else "",
-                style = MaterialTheme.typography.labelSmall,
-                modifier = Modifier
-                    .clickable { if (activeTab == InspectorTab.CATENA) showTraditionMenu = true }
-                    .padding(start = 8.dp)
-            )
-            DropdownMenu(
-                expanded = showTraditionMenu,
-                onDismissRequest = { showTraditionMenu = false }
-            ) {
-                ChurchTradition.entries.forEach { tradition ->
-                    DropdownMenuItem(
-                        text = { Text(tradition.displayName) },
-                        onClick = {
-                            onTraditionSelect(tradition)
-                            showTraditionMenu = false
-                        }
-                    )
-                }
+    Column(modifier = modifier.fillMaxSize()) {
+        TabRow {
+            availableTabs.forEach { tab ->
+                Tab(
+                    selected = activeTab == tab,
+                    onClick = { onTabSelect(tab) },
+                    text = { Text(when (tab) {
+                        InspectorTab.LEXICON -> "Lexicon"
+                        InspectorTab.CATENA -> "Catena"
+                        InspectorTab.REFERENCES -> "Refs"
+                    }) }
+                )
             }
-        }
-    }
-            Tab(selected = activeTab == InspectorTab.LEXICON, onClick = { onTabSelect(InspectorTab.LEXICON) }, text = { Text("Lexicon") })
-            Tab(selected = activeTab == InspectorTab.CATENA, onClick = { onTabSelect(InspectorTab.CATENA) }, text = { Text("Catena") })
-            Tab(selected = activeTab == InspectorTab.REFERENCES, onClick = { onTabSelect(InspectorTab.REFERENCES) }, text = { Text("References") })
-            Tab(selected = activeTab == InspectorTab.MY_NOTES, onClick = { onTabSelect(InspectorTab.MY_NOTES) }, text = { Text("My Notes") })
         }
 
         Box(modifier = Modifier.fillMaxSize().padding(16.dp)) {
             when (activeTab) {
                 InspectorTab.LEXICON -> LexiconView(selectedWord, lexiconEntry)
                 InspectorTab.CATENA -> CatenaView(catenaEntries)
-                InspectorTab.REFERENCES -> ReferencesView(references, onReferenceClick = { onReferenceClick(it) })
-                InspectorTab.MY_NOTES -> NotesView(notes)
+                InspectorTab.REFERENCES -> ReferencesView(references, onReferenceClick)
             }
         }
     }
 }
 
-@Composable*
-fun LexiconView(selectedWord: InterlinearWordEntity?, lexiconEntry: LexiconEntity?) {
-    if (selectedWord == null) {
-        Text("Select a word to see its definition.")
-    } else {
-        Column {
-            Text("Original: ${selectedWord.original}", style = androidx.compose.material3.MaterialTheme.typography.titleMedium)
-            Text("Transliteration: ${selectedWord.transliteration ?: "N/A"}", style = androidx.compose.material3.MaterialTheme.typography.bodyMedium)
-            Text("Literal: ${selectedWord.literal ?: "N/A"}", style = androidx.compose.material3.MaterialTheme.typography.bodyMedium)
+@Composable
+fun LexiconView(selectedWord: InterlinearWordEntity?, lexiconEntry: LexiconEntity?, showLexicon: Boolean = true) {
+    Column(modifier = Modifier.fillMaxSize().padding(16.dp)) {
+        if (!showLexicon) {
+            Text(
+                "Select Greek language to view lexicon.",
+                style = MaterialTheme.typography.bodyMedium,
+                color = MaterialTheme.colorScheme.onSurfaceVariant
+            )
+        } else if (selectedWord == null) {
+            Text("Select a word to see its definition.")
+        } else {
+            Text(
+                "Original: ${selectedWord.original}",
+                style = MaterialTheme.typography.titleMedium
+            )
+            Text(
+                "Transliteration: ${selectedWord.transliteration ?: "N/A"}",
+                style = MaterialTheme.typography.bodyMedium
+            )
+            Text(
+                "Literal: ${selectedWord.literal ?: "N/A"}",
+                style = MaterialTheme.typography.bodyMedium
+            )
+            Spacer(modifier = Modifier.height(8.dp))
             if (lexiconEntry != null) {
-                Text("Definition: ${lexiconEntry.definition}", style = androidx.compose.material3.MaterialTheme.typography.bodyLarge)
+                Text(
+                    "Definition: ${lexiconEntry.definition}",
+                    style = MaterialTheme.typography.bodyLarge
+                )
             } else {
-                Text("No lexicon entry found for lemma: ${selectedWord.lemma}")
+                Text("No lexicon entry for lemma: ${selectedWord.lemma}")
             }
         }
     }
 }
 
-@Composable*
+@Composable
 fun CatenaView(catenaEntries: List<CatenaCommentaryEntity>) {
     if (catenaEntries.isEmpty()) {
-        Text("No Catena entries for this verse.", style = androidx.compose.material3.MaterialTheme.typography.bodyMedium)
+        Text(
+            "No Catena entries for this verse.",
+            style = MaterialTheme.typography.bodyMedium,
+            modifier = Modifier.padding(16.dp)
+        )
     } else {
-        androidx.compose.foundation.lazy.LazyColumn(modifier = Modifier.fillMaxSize()) {
+        LazyColumn(modifier = Modifier.fillMaxSize()) {
             items(catenaEntries.size) { idx ->
                 val entry = catenaEntries[idx]
                 Column(modifier = Modifier.padding(vertical = 8.dp)) {
-                    // Author + Period
                     val authorText = buildString {
                         append(entry.author)
-                        if (entry.period?.isNotEmpty() == true) {
+                        if (!entry.period.isNullOrEmpty()) {
                             append(" (${entry.period})")
                         }
                     }
-                    Text("• $authorText", style = androidx.compose.material3.MaterialTheme.typography.labelMedium)
-
-                    // Source title
-                    if (entry.sourceTitle?.isNotEmpty() == true) {
-                        Text(entry.sourceTitle, style = androidx.compose.material3.MaterialTheme.typography.labelSmall)
+                    Text("• $authorText", style = MaterialTheme.typography.labelMedium)
+                    if (!entry.sourceTitle.isNullOrEmpty()) {
+                        Text(
+                            entry.sourceTitle,
+                            style = MaterialTheme.typography.labelSmall
+                        )
                     }
-
-                    // Full text inline
-                    Text(entry.content, style = androidx.compose.material3.MaterialTheme.typography.bodyMedium)
+                    Text(entry.content, style = MaterialTheme.typography.bodyMedium)
                 }
             }
         }
     }
 }
 
-@Composable*
+@Composable
 fun ReferencesView(
-    references: List<com.verbum.universalis.data.repository.BibleRepository.Reference>,
+    references: List<Reference>,
     onReferenceClick: (String) -> Unit,
-    modifier: Modifier = Modifier*
+    modifier: Modifier = Modifier
 ) {
     if (references.isEmpty()) {
-        Text("No references for this verse.", style = androidx.compose.material3.MaterialTheme.typography.bodyMedium, modifier = modifier.padding(16.dp))
+        Text(
+            "No references for this verse.",
+            style = MaterialTheme.typography.bodyMedium,
+            modifier = modifier.padding(16.dp)
+        )
     } else {
-        androidx.compose.foundation.lazy.LazyColumn(modifier = modifier.fillMaxSize()) {
-            items(references) { ref ->
+        LazyColumn(modifier = modifier.fillMaxSize()) {
+            items(references.size) { idx ->
+                val ref = references[idx]
                 Column(
-                    modifier = Modifier*
+                    modifier = Modifier
                         .fillMaxSize()
                         .clickable { onReferenceClick(ref.ref) }
                         .padding(vertical = 8.dp, horizontal = 16.dp)
                 ) {
                     Text(
-                        text = "→ ${ref.ref}",
-                        style = androidx.compose.material3.MaterialTheme.typography.bodyMedium,
-                        color = androidx.compose.material3.MaterialTheme.colorScheme.primary
+                        "→ ${ref.ref}",
+                        style = MaterialTheme.typography.bodyMedium,
+                        color = MaterialTheme.colorScheme.primary
                     )
                     if (ref.description.isNotEmpty()) {
-                        androidx.compose.foundation.layout.Spacer(modifier = Modifier.height(4.dp))
+                        Spacer(modifier = Modifier.height(4.dp))
                         Text(
-                            text = ref.description,
-                            style = androidx.compose.material3.MaterialTheme.typography.bodySmall,
-                            color = androidx.compose.material3.MaterialTheme.colorScheme.onSurfaceVariant
+                            ref.description,
+                            style = MaterialTheme.typography.bodySmall,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant
                         )
                     }
-                }
-            }
-        }
-    }
-}
-
-@Composable*
-fun NotesView(notes: List<com.verbum.universalis.data.json.Note>) {
-    Column(modifier = Modifier.fillMaxSize().padding(16.dp)) {
-        Text("My Notes", style = androidx.compose.material3.MaterialTheme.typography.titleMedium)
-        if (notes.isEmpty()) {
-            Text("No notes yet.", style = androidx.compose.material3.MaterialTheme.typography.bodyMedium)
-        } else {
-            androidx.compose.foundation.lazy.LazyColumn {
-                items(notes) { note ->
-                    Text("• ${note.content}", style = androidx.compose.material3.MaterialTheme.typography.bodyMedium)
-                    Text("  (Verse ${note.verseId})", style = androidx.compose.material3.MaterialTheme.typography.labelSmall)
                 }
             }
         }

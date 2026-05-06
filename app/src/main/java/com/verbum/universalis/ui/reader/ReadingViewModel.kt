@@ -49,6 +49,8 @@ data class Passage(val bookId: Int, val chapter: Int, val verseRange: IntRange?)
             "2 Peter" to 68, "2 Pet" to 68, "1 John" to 69, "2 John" to 70,
             "3 John" to 71, "Jude" to 72, "Revelation" to 73, "Rev" to 73"
         )
+        
+        val BOOK_ID_TO_NAME = BOOK_NAME_TO_ID.entries.associate { (k, v) -> v to k }
 
         fun fromString(query: String, bookNameToId: Map<String, Int>): Passage? {
             val regex = Regex("(\\d*\\s*[a-zA-Z]+)\\s*(\\d+):?(\\d*)-?(\\d*)")
@@ -104,18 +106,65 @@ class ReadingViewModel @Inject constructor(
         }
     }
 
-    // Language codes: "en_DRB"=English, "es_PLA"=Spanish, "la_VUL"=Latin
+    // Language codes: "en_DRB"=English, "es_PLA"=Spanish, "la_VUL"=Latin, "el_GRK"=Greek
     private val _activeLanguage = MutableStateFlow("en_DRB") // Default: English
     val activeLanguage: StateFlow<String> = _activeLanguage.asStateFlow()
 
     private val _showNoteBottomSheet = MutableStateFlow(false)
     val showNoteBottomSheet: StateFlow<Boolean> = _showNoteBottomSheet.asStateFlow()
 
+    // Combined note + highlight bottom sheet (shown when verse selected in selection mode)
+    private val _showNoteHighlightSheet = MutableStateFlow(false)
+    val showNoteHighlightSheet: StateFlow<Boolean> = _showNoteHighlightSheet.asStateFlow()
+
+    private val _selectedVerseForNoteHighlight = MutableStateFlow<Int?>(null)
+    val selectedVerseForNoteHighlight: StateFlow<Int?> = _selectedVerseForNoteHighlight.asStateFlow()
+
+    fun showNoteHighlightSheet(verseId: Int) {
+        _selectedVerseForNoteHighlight.value = verseId
+        _showNoteHighlightSheet.value = true
+    }
+
+    fun hideNoteHighlightSheet() {
+        _showNoteHighlightSheet.value = false
+        _selectedVerseForNoteHighlight.value = null
+    }
+
     private val _selectedVerseIdForNote = MutableStateFlow<Int?>(null)
     val selectedVerseIdForNote: StateFlow<Int?> = _selectedVerseIdForNote.asStateFlow()
 
     val verses: Flow<List<VerseWithTexts>> = _currentPassage.map { passage ->
         repository.getChapter(passage.bookId, passage.chapter)
+    }
+    
+    // Greek interlinear words when el_GRK is selected
+    private val _greekWords = MutableStateFlow<List<InterlinearWordEntity>>(emptyList())
+    val greekWords: StateFlow<List<InterlinearWordEntity>> = _greekWords.asStateFlow()
+    
+    // Load Greek words when language changed
+    fun loadGreekWordsIfNeeded() {
+        if (_activeLanguage.value == "el_GRK") {
+            viewModelScope.launch {
+                val passage = _currentPassage.value
+                _greekWords.value = repository.getGreekWordsForChapter(passage.bookId, passage.chapter)
+            }
+        }
+    }
+
+    // Right pane toggle (tablet/mobile)
+    private val _showStudyInspector = MutableStateFlow(false)
+    val showStudyInspector: StateFlow<Boolean> = _showStudyInspector.asStateFlow()
+
+    fun toggleStudyInspector() {
+        _showStudyInspector.value = !_showStudyInspector.value
+    }
+
+    // For passing Greek word selection to StudyInspector
+    private val _selectedGreekWord = MutableStateFlow<InterlinearWordEntity?>(null)
+    val selectedGreekWord: StateFlow<InterlinearWordEntity?> = _selectedGreekWord.asStateFlow()
+
+    fun selectGreekWord(word: InterlinearWordEntity) {
+        _selectedGreekWord.value = word
     }
 
     fun setPassage(bookId: Int, chapter: Int) {
@@ -148,13 +197,17 @@ class ReadingViewModel @Inject constructor(
 
     fun setLanguage(langCode: String) {
         _activeLanguage.value = langCode
+        // Load Greek words if Greek selected
+        if (langCode == "el_GRK") {
+            loadGreekWordsIfNeeded()
+        }
     }
 
     // Cycle through languages: en_DRB -> es_PLA -> la_VUL -> en_DRB
     fun toggleLanguage() {
         _activeLanguage.value = when (_activeLanguage.value) {
             "en_DRB" -> "es_PLA"
-            "es_PLA" -> "la_VUL"
+            "la_VUL" -> "el_GRK"
             else -> "en_DRB"
         }
     }
@@ -164,15 +217,28 @@ class ReadingViewModel @Inject constructor(
             "en_DRB" -> "EN"
             "es_PLA" -> "ES"
             "la_VUL" -> "LA"
+            "el_GRK" -> "EL" // Greek
             else -> "EN"
         }
     }
 
+    // Selection mode state
     private val _isSelectionMode = MutableStateFlow(false)
     val isSelectionMode: StateFlow<Boolean> = _isSelectionMode.asStateFlow()
 
+    // Currently selected verse (for highlight/note)
+    private val _selectedVerseId = MutableStateFlow<Int?>(null)
+    val selectedVerseId: StateFlow<Int?> = _selectedVerseId.asStateFlow()
+
     fun toggleSelectionMode() {
         _isSelectionMode.value = !_isSelectionMode.value
+        if (!_isSelectionMode.value) {
+            _selectedVerseId.value = null
+        }
+    }
+
+    fun selectVerse(verseId: Int) {
+        _selectedVerseId.value = verseId
     }
 
     fun getDisplayText(verseWithTexts: VerseWithTexts): String {
@@ -185,57 +251,41 @@ class ReadingViewModel @Inject constructor(
             "en_DRB" -> "English (Douay-Rheims)"
             "es_PLA" -> "Español (Platense)"
             "la_VUL" -> "Latina (Vulgata)"
+            "el_GRK" -> "Ελληνικά (Greek)"
             else -> langCode
         }
     }
 
-    fun showNoteSheet(verseId: Int) {
-        _selectedVerseIdForNote.value = verseId
-        _showNoteBottomSheet.value = true
+    // Get display string for current passage (e.g., "Genesis 1:1")
+    fun getCurrentPassageReference(): String {
+        val p = _currentPassage.value ?: return ""
+        val bookName = Passage.BOOK_ID_TO_NAME[p.bookId] ?: "Book ${p.bookId}"
+        return "$bookName ${p.chapter}"
     }
 
-    fun hideNoteSheet() {
-        _showNoteBottomSheet.value = false
-        _selectedVerseIdForNote.value = null
-    }
-
-    fun saveNote(content: String) {
-        val verseId = _selectedVerseIdForNote.value ?: return
+    // Unified save: note with optional highlight
+    fun saveNoteWithHighlight(noteContent: String, highlightColorId: Int?) {
+        val verseId = _selectedVerseId.value ?: return
         viewModelScope.launch {
             val fileManager = (app as VerbumApplication).fileManager
             val notes = fileManager.loadNotes().toMutableList()
-            notes.add(Note(verseId = verseId, content = content, timestamp = System.currentTimeMillis()))
+            notes.add(
+                Note(
+                    verseId = verseId,
+                    content = noteContent,
+                    highlightColorId = highlightColorId,
+                    timestamp = System.currentTimeMillis()
+                )
+            )
             fileManager.saveNotes(notes)
-            hideNoteSheet()
+            _selectedVerseId.value = null
+            _isSelectionMode.value = false
         }
     }
 
-    private val _showHighlightPicker = MutableStateFlow(false)
-    val showHighlightPicker: StateFlow<Boolean> = _showHighlightPicker.asStateFlow()
-
-    private val _selectedVerseIdForHighlight = MutableStateFlow<Int?>(null)
-    val selectedVerseIdForHighlight: StateFlow<Int?> = _selectedVerseIdForHighlight.asStateFlow()
-
-    fun showHighlightPicker(verseId: Int) {
-        _selectedVerseIdForHighlight.value = verseId
-        _showHighlightPicker.value = true
-    }
-
-    fun hideHighlightPicker() {
-        _showHighlightPicker.value = false
-        _selectedVerseIdForHighlight.value = null
-    }
-
-    fun saveHighlight(colorId: Int) {
-        val verseId = _selectedVerseIdForHighlight.value ?: return
-        viewModelScope.launch {
-            val fileManager = (app as VerbumApplication).fileManager
-            val highlights = fileManager.loadHighlights().toMutableList()
-            highlights.add(Highlight(verseId = verseId, colorId = colorId, timestamp = System.currentTimeMillis()))
-            fileManager.saveHighlights(highlights)
-            hideHighlightPicker()
-        }
-    }
+    // Legacy compat
+    fun saveNote(content: String) = saveNoteWithHighlight(content, null)
+    fun saveHighlight(colorId: Int) = saveNoteWithHighlight("", colorId)
 
     fun getHighlightsForVerse(verseId: Int): List<Int> {
         val fileManager = (app as VerbumApplication).fileManager

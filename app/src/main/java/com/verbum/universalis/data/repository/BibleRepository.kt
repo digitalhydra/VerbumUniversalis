@@ -36,6 +36,10 @@ class BibleRepository(
         return interlinearDao.getWordsForVerse(verseId)
     }
 
+    fun getGreekWordsForChapter(bookId: Int, chapter: Int): Flow<List<InterlinearWordEntity>> {
+        return interlinearDao.getWordsForChapter(bookId, chapter)
+    }
+
     fun getLexiconEntry(lemma: String): Flow<LexiconEntity?> {
         return lexiconDao.getDefinition(lemma)
     }

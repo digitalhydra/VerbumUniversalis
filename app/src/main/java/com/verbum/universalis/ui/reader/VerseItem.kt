@@ -29,7 +29,7 @@ import com.verbum.universalis.data.entities.VerseWithTexts
 fun VerseItem(
     verseWithTexts: VerseWithTexts,
     displayText: String,
-    isSelected: Boolean = false,
+    isSelectedVerse: Boolean = false, // Specific verse is selected
     highlights: List<Int> = emptyList(), // colorIds
     onVerseClick: (Int) -> Unit,
     onLongClick: () -> Unit,
@@ -46,7 +46,7 @@ fun VerseItem(
             .fillMaxWidth()
             .padding(vertical = 8.dp, horizontal = 16.dp)
             .background(
-                if (isSelected) 
+                if (isSelectedVerse) 
                     MaterialTheme.colorScheme.primary.copy(alpha = 0.1f) 
                 else if (highlights.isNotEmpty()) 
                     highlightColor
@@ -55,10 +55,11 @@ fun VerseItem(
             )
             .combinedClickable(
                 onClick = {
-                    if (!isSelected) {
-                        expanded.value = true // Single Tap: Open Menu
+                    if (isSelectedVerse) {
+                        // Already selected - open note/highlight drawer
+                        onVerseClick(verseWithTexts.verse.id)
                     } else {
-                        onVerseClick(verseWithTexts.verse.id) // In selection mode, select this verse
+                        expanded.value = true // Single Tap: Open Menu
                     }
                 },
                 onLongClick = onLongClick // Hold Tap: Enter Selection Mode
@@ -107,16 +108,15 @@ fun VerseItem(
         Spacer(modifier = Modifier.height(8.dp))
         Hairline() // 1dp hairline between verses
 
-        // Action Menu (Single Tap)
+        // Action Menu (Single Tap on unselected verse)
         DropdownMenu(
-            expanded = expanded.value && !isSelected,
+            expanded = expanded.value && !isSelectedVerse,
             onDismissRequest = { expanded.value = false }
         ) {
-            DropdownMenuItem(text = { Text("Highlight") }, onClick = { onAction("highlight"); expanded.value = false })
-            DropdownMenuItem(text = { Text("Note on Verse") }, onClick = { onAction("note"); expanded.value = false })
+            DropdownMenuItem(text = { Text("Highlight / Note") }, onClick = { onAction("note"); expanded.value = false })
             DropdownMenuItem(text = { Text("References") }, onClick = { onAction("reference"); expanded.value = false })
             DropdownMenuItem(text = { Text("Catena Commentary") }, onClick = { onAction("catena"); expanded.value = false })
-            DropdownMenuItem(text = { Text("Interlinear Reader") }, onClick = { onAction("interlinear"); expanded.value = false })
+            DropdownMenuItem(text = { Text("Interlinear") }, onClick = { onAction("interlinear"); expanded.value = false })
         }
     }
 }

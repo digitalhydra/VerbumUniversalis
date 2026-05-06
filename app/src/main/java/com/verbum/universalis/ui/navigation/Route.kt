@@ -58,9 +58,10 @@ sealed class Route(val route: String) {
         }
     }
 
-    object InterlinearReader : Route("interlinear_reader/{verseId}") {
-        fun createRoute(verseId: Int?): String {
-            return if (verseId == null) "interlinear_reader/0" else "interlinear_reader/$verseId"
+    object InterlinearReader : Route("interlinear_reader/{verseId}?tab={tab}") {
+        fun createRoute(verseId: Int?, tab: String = ""): String {
+            val base = if (verseId == null) "interlinear_reader/0" else "interlinear_reader/$verseId"
+            return if (tab.isNotEmpty()) "$base?tab=$tab" else base
         }
     }
     object ReadingPlans : Route("reading_plans")
@@ -133,10 +134,18 @@ fun VerbumNavGraph(navController: NavHostController) {
             )
         }
 
-        composable(Route.InterlinearReader.route) { backStackEntry ->
+        composable(
+            route = Route.InterlinearReader.route,
+            arguments = listOf(
+                navArgument("verseId") { type = NavType.StringType; defaultValue = "0" },
+                navArgument("tab") { type = NavType.StringType; nullable = true; defaultValue = "" }
+            )
+        ) { backStackEntry ->
             val verseId = backStackEntry.arguments?.getString("verseId")?.toIntOrNull()
+            val initialTab = backStackEntry.arguments?.getString("tab") ?: ""
             InterlinearReaderScreen(
                 verseId = verseId,
+                initialTab = initialTab,
                 onBack = { navController.popBackStack() },
                 onReferenceClick = { ref ->
                     val parts = ref.split(".")

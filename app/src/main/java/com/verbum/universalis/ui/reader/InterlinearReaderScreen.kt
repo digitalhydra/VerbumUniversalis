@@ -2,6 +2,8 @@ package com.verbum.universalis.ui.reader
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.ExperimentalLayoutApi
+import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.ListDetailPaneScaffold
@@ -9,17 +11,17 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
-import com.verbum.unbum.universalis.ui.reader.InterlinearWordBlock
 
+@OptIn(ExperimentalLayoutApi::class)
 @Composable
 fun InterlinearReaderScreen(
     viewModel: InterlinearViewModel = hiltViewModel(),
     studyInspectorViewModel: StudyInspectorViewModel = hiltViewModel(),
     verseId: Int? = null,
+    initialTab: String = "", // "catena" or "references" to open directly
     onBack: () -> Unit = {},
     onReferenceClick: (String) -> Unit = {}
 ) {
@@ -27,15 +29,19 @@ fun InterlinearReaderScreen(
     val selectedWord by viewModel.selectedWord.collectAsState(initial = null)
     val showMorphology by viewModel.showMorphology.collectAsState(initial = true)
     val lexiconEntry by viewModel.lexiconEntry.collectAsState(initial = null)
-    val activeTab by studyInspectorViewModel.activeTab.collectAsState(initial = InspectorTab.LEXICON)
-    val activeTradition by studyInspectorViewModel.activeTradition.collectAsState(initial = ChurchTradition.ALL)
-    val notes by viewModel.notes.collectAsState(initial = emptyList())
-    val catenaEntries by viewModel.catenaEntries.collectAsState(initial = emptyList())
-    val references by viewModel.references.collectAsState(initial = emptyList())
-
-    val filteredCatena = remember(catenaEntries, activeTradition) {
-        studyInspectorViewModel.getFilteredCatena(catenaEntries)
+    
+    // Set initial tab based on navigation parameter
+    LaunchedEffect(initialTab) {
+        when (initialTab) {
+            "catena" -> studyInspectorViewModel.setActiveTab(InspectorTab.CATENA)
+            "references" -> studyInspectorViewModel.setActiveTab(InspectorTab.REFERENCES)
+            else -> studyInspectorViewModel.setActiveTab(InspectorTab.LEXICON)
+        }
     }
+    
+    val activeTab by studyInspectorViewModel.activeTab.collectAsState(initial = InspectorTab.LEXICON)
+    val catenaEntries by studyInspectorViewModel.catenaEntries.collectAsState(initial = emptyList())
+    val references by studyInspectorViewModel.crossRefs.collectAsState(initial = emptyList())
 
     LaunchedEffect(verseId) { viewModel.setVerse(verseId) }
 
@@ -52,7 +58,7 @@ fun InterlinearReaderScreen(
                             word = word,
                             isSelected = word == selectedWord,
                             isHighlighted = viewModel.isWordHighlighted(word),
-                            highlightColor = HighlightPalette.all[0],
+                            highlightColor = com.verbum.universalis.ui.theme.HighlightPalette.all[0],
                             showMorphology = showMorphology,
                             onClick = { viewModel.selectWord(word) }
                         )
@@ -64,14 +70,11 @@ fun InterlinearReaderScreen(
             StudyInspector(
                 selectedWord = selectedWord,
                 lexiconEntry = lexiconEntry,
-                notes = notes,
-                catenaEntries = filteredCatena,
+                catenaEntries = catenaEntries,
                 references = references,
                 activeTab = activeTab,
                 onTabSelect = { studyInspectorViewModel.setActiveTab(it) },
-                onReferenceClick = { ref -> onReferenceClick(ref) },
-                activeTradition = activeTradition,
-                onTraditionSelect = { studyInspectorViewModel.setActiveTradition(it) }
+                onReferenceClick = { ref -> onReferenceClick(ref) }
             )
         }
     )

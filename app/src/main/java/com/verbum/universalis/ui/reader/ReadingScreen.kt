@@ -1,11 +1,14 @@
 package com.verbum.universalis.ui.reader
 
+import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.width
 import androidx.compose.material3.CenterAlignedTopAppBar
 import androidx.compose.material3.DropdownMenu
 import androidx.compose.material3.DropdownMenuItem
@@ -62,10 +65,9 @@ fun ReadingScreen(
         val activeLanguage by viewModel.activeLanguage.collectAsState(initial = "en_DRB")
         var showBookPicker by remember { mutableStateOf(false) }
         var quickJumpQuery by remember { mutableStateOf("") }
-        val showNoteBottomSheet by viewModel.showNoteBottomSheet.collectAsState(initial = false)
-        val selectedVerseIdForNote by viewModel.selectedVerseIdForNote.collectAsState(initial = null)
-        val showHighlightPicker by viewModel.showHighlightPicker.collectAsState(initial = false)
-        val selectedVerseIdForHighlight by viewModel.selectedVerseIdForHighlight.collectAsState(initial = null)
+        val showNoteHighlightSheet by viewModel.showNoteHighlightSheet.collectAsState(initial = false)
+        val showStudyInspector by viewModel.showStudyInspector.collectAsState(initial = false)
+        val selectedGreekWord by viewModel.selectedGreekWord.collectAsState(initial = null)
 
         if (showBookPicker) {
             BookPickerScreen(
@@ -106,7 +108,14 @@ fun ReadingScreen(
                         )
                     },
                     actions = {
-                        // 3-language dropdown
+                        // Study Inspector toggle
+                        Text(
+                            text = if (showStudyInspector) "◀" else "▶",
+                            modifier = Modifier
+                                .padding(12.dp)
+                                .clickable { viewModel.toggleStudyInspector() }
+                        )
+                        // Language dropdown + Greek
                         var showLangMenu by remember { mutableStateOf(false) }
                         Box {
                             Text(
@@ -137,6 +146,13 @@ fun ReadingScreen(
                                     text = { Text("LA - Latina (Vulgata)") },
                                     onClick = {
                                         viewModel.setLanguage("la_VUL")
+                                        showLangMenu = false
+                                    }
+                                )
+                                DropdownMenuItem(
+                                    text = { Text("EL - Ελληνικά (Greek)") },
+                                    onClick = {
+                                        viewModel.setLanguage("el_GRK")
                                         showLangMenu = false
                                     }
                                 )
@@ -179,37 +195,99 @@ fun ReadingScreen(
                 }
             }
         ) { paddingValues ->
-            ReadingCanvas(
+            Box(modifier = Modifier.fillMaxSize()) {
+                ReadingCanvas(
+                    modifier = Modifier
+                        .fillMaxSize()
+                        .padding(paddingValues),
+                    onAction = { action, verseId ->
+                        when (action) {
+                            "interlinear" -> {
+                                viewModel.toggleStudyInspector()
+                            }
+                            "note" -> viewModel.showNoteSheet(verseId)
+                            "highlight" -> viewModel.showNoteHighlightSheet(verseId)
+                            "reference", "catena" -> {
+                                viewModel.toggleStudyInspector()
+                            }
+                        }
+                    },
+                    showStudyInspector = showStudyInspector,
+                    onWordClick = { word -> 
+                        viewModel.selectGreekWord(word)
+                        if (!showStudyInspector) viewModel.toggleStudyInspector()
+                    }
+                )
+
+                // StudyInspector - Slide in from RIGHT
+                if (showStudyInspector) {
+                    Box(
+                        modifier = Modifier
+                            .fillMaxSize()
+                            .padding(paddingValues)
+                    ) {
+                        // Semi-transparent overlay
+                        Box(
+                            modifier = Modifier
+                                .fillMaxSize()
+                                .clickable { viewModel.toggleStudyInspector() }
+                                .background(
+                                    MaterialTheme.colorScheme.scrim.copy(alpha = 0.5f)
+                                )
+                        )
+                        // Right panel
+                        Box(
+                            modifier = Modifier
+                                .fillMaxHeight()
+                                .width(350.dp)
+                                .align(androidx.compose.ui.Alignment.CenterEnd)
+                                .background(MaterialTheme.colorScheme.surface)
+                                .padding(paddingValues)
+                        ) {
+                            com.verbum.universalis.ui.reader.StudyInspector(
+                                selectedWord = selectedGreekWord,
+                                lexiconEntry = null,
+                                catenaEntries = emptyList(),
+                                references = emptyList(),
+                                activeTab = com.verbum.universalis.ui.reader.InspectorTab.CATENA,
+                                onTabSelect = { },
+                                showLexicon = activeLanguage == "el_GRK"
+                            )
+                        }
+                    }
+                }
+            }
                 modifier = Modifier
                     .fillMaxSize()
                     .padding(paddingValues),
                 onAction = { action, verseId ->
                     when (action) {
-                        "interlinear" -> {
-                            navController.navigate(
-                                Route.InterlinearReader.createRoute(verseId)
-                            )
+                        "interlinear", "reference", "catena" -> {
+                            viewModel.toggleStudyInspector()
                         }
-                        "note" -> viewModel.showNoteSheet(verseId)
-                        "highlight" -> viewModel.showHighlightPicker(verseId)
-                        "reference" -> { }
+                        "note", "highlight" -> {
+                            // Open combined note + highlight bottom sheet
+                            viewModel.showNoteHighlightSheet(verseId)
+                        }
                     }
+                },
+                showStudyInspector = showStudyInspector,
+                onWordClick = { word -> 
+                    viewModel.selectGreekWord(word)
+                    if (!showStudyInspector) viewModel.toggleStudyInspector()
                 }
             )
 
-            if (showNoteBottomSheet) {
-                com.verbum.universalis.ui.components.NoteBottomSheet(
-                    verseId = selectedVerseIdForNote,
-                    onDismiss = { viewModel.hideNoteSheet() },
-                    onSave = { viewModel.saveNote(it) }
-                )
-            }
-
-            if (showHighlightPicker) {
-                com.verbum.universalis.ui.components.ColorPickerBottomSheet(
-                    colors = HighlightPalette.all,
-                    onColorSelected = { colorId -> viewModel.saveHighlight(colorId) },
-                    onDismiss = { viewModel.hideHighlightPicker() }
+            if (showNoteHighlightSheet) {
+                com.verbum.universalis.ui.components.NoteAndHighlightBottomSheet(
+                    verseReference = viewModel.getCurrentPassageReference(),
+                    existingNote = null,
+                    existingHighlightColorId = null,
+                    availableColors = com.verbum.universalis.ui.theme.HighlightPalette.all,
+                    onSaveNote = { note, colorId -> 
+                        viewModel.saveNoteWithHighlight(note, colorId)
+                    },
+                    onDismiss = { viewModel.hideNoteHighlightSheet() }
                 )
             }
         }

@@ -16,7 +16,8 @@ data class Note(
     val verseId: Int,
     val startOffset: Int = 0,
     val endOffset: Int = 0,
-    val content: String,
+    val content: String = "", // Empty = highlight only
+    val highlightColorId: Int? = null, // null = note only
     val timestamp: Long = System.currentTimeMillis()
 )
 

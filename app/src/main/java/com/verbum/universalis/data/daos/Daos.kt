@@ -39,6 +39,14 @@ interface InterlinearDao {
 
     @Query("SELECT * FROM interlinear_words WHERE verse_id = :verseId ORDER BY word_order ASC")
     fun getWordsForVerse(verseId: Int): Flow<List<InterlinearWordEntity>>
+
+    @Query("""
+        SELECT w.* FROM interlinear_words w
+        INNER JOIN verses v ON w.verse_id = v.id
+        WHERE v.book_id = :bookId AND v.chapter = :chapter
+        ORDER BY v.verse_number, w.word_order ASC
+    """)
+    fun getWordsForChapter(bookId: Int, chapter: Int): Flow<List<InterlinearWordEntity>>
 }
 
 @Dao
