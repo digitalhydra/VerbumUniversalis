@@ -16,6 +16,7 @@ import com.verbum.universalis.data.json.DayProgress
 import com.verbum.universalis.data.json.PlanDay
 import com.verbum.universalis.data.json.PlanSummary
 import com.verbum.universalis.data.json.ReadingPlan
+import com.verbum.universalis.data.json.ReadingPlanViewModel
 import kotlinx.coroutines.flow.collectLatest
 
 @Composable

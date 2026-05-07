@@ -9,10 +9,9 @@ import java.io.StringWriter
 import java.security.KeyPair
 import java.security.KeyPairGenerator
 import java.security.KeyStore
-import java.util.Base64
+import android.util.Base64
 import org.bouncycastle.asn1.pkcs.PrivateKeyInfo
-import org.bouncycastle.openss1.jcajce.JcaPEMWriter
-import org.bouncycastle.openss1.jcajce.JcaPEMWriter
+import org.bouncycastle.openssl.jcajce.JcaPEMWriter
 
 class SSHKeyManager(private val context: Context) {
     companion object {

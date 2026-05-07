@@ -1,8 +1,8 @@
 package com.verbum.universalis.data.download
 
 import android.util.Log
-import com.squareup.okhttp3.OkHttpClient
-import com.squareup.okhttp3.Request
+import okhttp3.OkHttpClient
+import okhttp3.Request
 import java.io.File
 import java.io.FileOutputStream
 import java.util.concurrent.TimeUnit

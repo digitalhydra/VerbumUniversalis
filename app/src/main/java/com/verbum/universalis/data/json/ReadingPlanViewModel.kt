@@ -139,10 +139,6 @@ class ReadingPlanViewModel @Inject constructor(
     }
 }
 
-data class DayProgress(
-    val completed: Boolean = false,
-    val lastUpdated: Long = 0L
-)
 
 sealed class ParsedReading {
     data class Simple(val reference: String) : ParsedReading()

@@ -5,6 +5,7 @@ import com.verbum.universalis.data.daos.*
 import com.verbum.universalis.data.db.CrossRefsDatabase
 import com.verbum.universalis.data.entities.*
 import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.map
 import kotlinx.serialization.decodeFromString
 import kotlinx.serialization.encodeToString
@@ -12,8 +13,8 @@ import kotlinx.serialization.json.Json
 import java.io.File
 import javax.inject.Inject
 import dagger.hilt.android.qualifiers.ApplicationContext
-import com.squareup.okhttp3.OkHttpClient
-import com.squareup.okhttp3.Request
+import okhttp3.OkHttpClient
+import okhttp3.Request
 import java.util.concurrent.TimeUnit
 
 class BibleRepository(
@@ -97,8 +98,8 @@ class BibleRepository(
             // Get verse to build ref
             val verse = getVerseByIdSync(verseId)
             if (verse != null) {
-                val bookCode = getBookCodeForId(verse.bookId)
-                val refPrefix = "${bookCode}.${verse.chapter}.${verse.verseNumber}"
+                val bookCode = getBookCodeForId(verse.book_id)
+                val refPrefix = "${bookCode}.${verse.chapter}.${verse.verse_number}"
                 // Filter entries where verse_ref starts with refPrefix
                 val matchingEntries = data.entries.filter { it.verse_ref.startsWith(refPrefix) }
                 val allReferences = mutableListOf<Reference>()

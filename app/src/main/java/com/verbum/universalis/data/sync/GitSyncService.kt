@@ -19,6 +19,10 @@ import kotlinx.serialization.json.Json
 import org.eclipse.jgit.api.Git
 import org.eclipse.jgit.lib.Repository
 import org.eclipse.jgit.storage.file.FileRepositoryBuilder
+import org.eclipse.jgit.transport.JschConfigSessionConfig
+import org.eclipse.jgit.transport.OpenSshConfig
+import org.eclipse.jgit.transport.SshSessionFactory
+import com.jcraft.jsch.Session
 import java.io.File
 import javax.inject.Inject
 
@@ -274,17 +278,34 @@ build/
         } else {
             // Clone remote repo with SSH key
             repoDir.mkdirs()
+            
+            // Set up SSH session factory with our key
+            val privateKey = sshKeyManager.getPrivateKey()
+            if (privateKey != null) {
+                // Write key to temp file and configure JSch
+                val keyFile = File.createTempFile("ssh_key", ".pem", context.cacheDir)
+                keyFile.writeText(privateKey)
+                keyFile.deleteOnExit()
+                
+                val jsch = com.jcraft.jsch.JSch()
+                jsch.addIdentity(keyFile.absolutePath)
+                
+                // Create custom SSH session factory
+                val sshFactory = object : SshSessionFactory() {
+                    override fun createSession(
+                        host: String, port: Int, user: String, password: String?
+                    ): Session {
+                        val session = jsch.getSession(user, host, port)
+                        session.setConfig("StrictHostKeyChecking", "no")
+                        return session
+                    }
+                }
+                SshSessionFactory.setInstance(sshFactory)
+            }
+            
             val cloneCommand = Git.cloneRepository()
                 .setURI(repoUrl)
                 .setDirectory(repoDir)
-
-            // Use SSH key if available
-            val publicKey = sshKeyManager.getPublicKey()
-            if (publicKey != null) {
-                // Configure JGit to use SSH
-                // This requires setting up SshSessionFactory with the private key
-                // For now, just clone with default SSH config
-            }
 
             cloneCommand.call()
         }

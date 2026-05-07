@@ -20,7 +20,6 @@ import com.verbum.universalis.data.entities.InterlinearWordEntity
 import com.verbum.universalis.data.entities.LexiconEntity
 import com.verbum.universalis.data.repository.BibleRepository.Reference
 
-enum class InspectorTab { LEXICON, CATENA, REFERENCES }
 
 @Composable
 fun StudyInspector(
@@ -42,13 +41,13 @@ fun StudyInspector(
     }
     
     // If current tab is not available, switch to first available
-    LaunchedEffect(activeTab, showLexicon) {
+    androidx.compose.runtime.LaunchedEffect(activeTab, showLexicon) {
         if (!availableTabs.contains(activeTab)) {
             onTabSelect(availableTabs.first())
         }
     }
     Column(modifier = modifier.fillMaxSize()) {
-        TabRow {
+        TabRow(selectedTabIndex = availableTabs.indexOf(activeTab).coerceAtLeast(0)) {
             availableTabs.forEach { tab ->
                 Tab(
                     selected = activeTab == tab,
@@ -57,6 +56,7 @@ fun StudyInspector(
                         InspectorTab.LEXICON -> "Lexicon"
                         InspectorTab.CATENA -> "Catena"
                         InspectorTab.REFERENCES -> "Refs"
+                        else -> tab.name
                     }) }
                 )
             }
@@ -67,6 +67,7 @@ fun StudyInspector(
                 InspectorTab.LEXICON -> LexiconView(selectedWord, lexiconEntry)
                 InspectorTab.CATENA -> CatenaView(catenaEntries)
                 InspectorTab.REFERENCES -> ReferencesView(references, onReferenceClick)
+                else -> { /* Handle other tabs or do nothing */ }
             }
         }
     }

@@ -10,6 +10,8 @@ import androidx.datastore.preferences.preferencesDataStore
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.verbum.universalis.data.repository.BibleRepository
+import com.verbum.universalis.VerbumApplication
+import com.verbum.universalis.data.json.Note
 import com.verbum.universalis.data.entities.VerseWithTexts
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject

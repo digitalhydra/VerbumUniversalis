@@ -1,4 +1,4 @@
-package com.verbum.universalis.ui.navigation
+package com.verbum.universalis.ui.reader
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
@@ -16,13 +16,12 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
+import com.verbum.universalis.ui.navigation.MassReadings
+import com.verbum.universalis.ui.navigation.PlanReadings
 import com.verbum.universalis.ui.reader.Passage
 import com.verbum.universalis.ui.reader.ReadingScreen
 import com.verbum.universalis.ui.reader.ReadingViewModel
 
-// Type aliases
-typealias MassReadings = List<Pair<String, String>>
-typealias PlanReadings = List<List<String>>
 
 @Composable
 fun ReadingCanvasScreen(

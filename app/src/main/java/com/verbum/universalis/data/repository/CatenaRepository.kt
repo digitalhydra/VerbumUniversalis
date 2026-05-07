@@ -5,12 +5,13 @@ import com.verbum.universalis.data.daos.CatenaDao
 import com.verbum.universalis.data.db.CatenaDatabase
 import com.verbum.universalis.data.download.DataDownloader
 import com.verbum.universalis.data.entities.CatenaCommentaryEntity
+import dagger.hilt.android.qualifiers.ApplicationContext
 import kotlinx.coroutines.flow.Flow
 import java.io.File
 
 class CatenaRepository(
     private val catenaDao: CatenaDao,
-    @androidx.annotation.qualifiers.ApplicationContext private val context: Context
+    @ApplicationContext private val context: Context
 ) {
     private val downloader = DataDownloader()
 

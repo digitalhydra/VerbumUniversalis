@@ -5,12 +5,13 @@ import com.verbum.universalis.data.daos.CrossRefsDao
 import com.verbum.universalis.data.db.CrossRefsDatabase
 import com.verbum.universalis.data.download.DataDownloader
 import com.verbum.universalis.data.entities.CrossReferenceEntity
+import dagger.hilt.android.qualifiers.ApplicationContext
 import kotlinx.coroutines.flow.Flow
 import java.io.File
 
 class CrossRefsRepository(
     private val crossRefsDao: CrossRefsDao,
-    @androidx.annotation.qualifiers.ApplicationContext private val context: Context
+    @ApplicationContext private val context: Context
 ) {
     private val downloader = DataDownloader()
 

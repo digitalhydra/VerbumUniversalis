@@ -1,29 +1,33 @@
 package com.verbum.universalis.core.theme
 
+import android.content.Context
+import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.darkColorScheme
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.CompositionLocalProvider
+import androidx.compose.ui.platform.LocalContext
 
 private val DarkColorScheme = darkColorScheme(
-    background = DarkBackground,
-    surface = DarkSurface,
-    primary = VerbunGold,
-    outline = DarkOutline,
-    onBackground = DarkTextPrimary,
-    onSurface = DarkTextPrimary,
-    onPrimary = DarkTextPrimary // Text on Gold buttons
+    primary = LightGold,
+    background = DeepCharcoal,
+    surface = DarkGray,
+    onPrimary = DeepCharcoal,
+    onBackground = TextPrimaryDark,
+    onSurface = TextPrimaryDark,
+    outline = MutedCharcoal
 )
 
 private val LightColorScheme = lightColorScheme(
-    background = LightBackground,
-    surface = LightSurface,
-    primary = VerbunGold,
-    outline = LightOutline,
-    onBackground = LightTextPrimary,
-    onSurface = LightTextPrimary,
-    onPrimary = LightTextPrimary
+    primary = LightGold,
+    background = White,
+    surface = OffWhite,
+    onPrimary = DeepCharcoal,
+    onBackground = TextPrimaryLight,
+    onSurface = TextPrimaryLight,
+    outline = SoftGray
 )
 
 @Composable
@@ -35,23 +39,7 @@ fun VerbumTheme(
 
     MaterialTheme(
         colorScheme = colorScheme,
-        typography = androidx.compose.material3.Typography(
-            displayLarge = ContentTypography.displayLarge,
-            displayMedium = ContentTypography.displayMedium,
-            displaySmall = ContentTypography.displaySmall,
-            headlineLarge = ContentTypography.headlineLarge,
-            headlineMedium = ContentTypography.headlineMedium,
-            headlineSmall = ContentTypography.headlineSmall,
-            titleLarge = UITypography.titleLarge,
-            titleMedium = UITypography.titleMedium,
-            titleSmall = UITypography.titleSmall,
-            bodyLarge = ContentTypography.bodyLarge,
-            bodyMedium = ContentTypography.bodyMedium,
-            bodySmall = ContentTypography.bodySmall,
-            labelLarge = UITypography.labelLarge,
-            labelMedium = UITypography.labelMedium,
-            labelSmall = UITypography.labelSmall
-        ),
+        typography = VerbumTypography,
         content = content
     )
 }
