@@ -85,6 +85,7 @@ dependencies {
 
     // JGit for Git Sync
     implementation 'org.eclipse.jgit:org.eclipse.jgit:6.8.0.202311291450-r'
+    implementation 'org.eclipse.jgit:org.eclipse.jgit.ssh.jsch:6.8.0.202311291450-r'
     implementation 'org.eclipse.jgit:org.eclipse.jgit.ssh.apache:6.8.0.202311291450-r'
     // JSch for SSH key authentication
     implementation 'com.jcraft:jsch:0.1.55'
