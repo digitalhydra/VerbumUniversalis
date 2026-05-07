@@ -93,12 +93,16 @@ fun DashboardScreen(
             Text("Today: ${entry.celebration?.name ?: "No celebration"}", style = MaterialTheme.typography.titleMedium)
             if (entry.readings.isNotEmpty()) {
                 entry.readings.forEach { ref ->
+                    val parts = ref.reference.split(".", ":", " ")
+                    val book = if (parts.isNotEmpty()) parts[0] else ""
+                    val chapter = if (parts.size >= 2) parts[1].toIntOrNull() ?: 1 else 1
+                    
                     Text(
-                        text = "• ${ref.book} ${ref.chapter}",
+                        text = "• $book $chapter",
                         style = MaterialTheme.typography.bodyMedium,
                         modifier = Modifier.clickable {
-                            val bookId = Passage.BOOK_NAME_TO_ID[ref.book] ?: return@clickable
-                            onNavigateToReading(bookId, ref.chapter)
+                            val bookId = Passage.BOOK_NAME_TO_ID[book] ?: return@clickable
+                            onNavigateToReading(bookId, chapter)
                         }
                     )
                 }

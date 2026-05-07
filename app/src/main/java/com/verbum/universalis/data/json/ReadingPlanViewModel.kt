@@ -48,13 +48,33 @@ class ReadingPlanViewModel @Inject constructor(
     private val _progressMap = MutableStateFlow<Map<String, Map<Int, DayProgress>>>(emptyMap())
     val progressMap: StateFlow<Map<String, Map<Int, DayProgress>>> = _progressMap.asStateFlow()
 
-    val currentPlanProgress: Flow<Float> = combine(currentPlan, _progressMap) { plan, progressMap ->
+    val progressPercentage: Flow<Float> = combine(currentPlan, _progressMap) { plan, progressMap ->
         if (plan == null || plan.totalDays == 0) 0f
         else {
             val planProgress = progressMap[plan.planId] ?: emptyMap()
             val completedDays = planProgress.count { it.value.completed }
             completedDays.toFloat() / plan.totalDays.toFloat()
         }
+    }
+
+    val currentDayReadings: Flow<List<ReadingInfo>> = currentDay.map { day ->
+        day?.readings?.mapNotNull { element ->
+            val ref = when (element) {
+                is kotlinx.serialization.json.JsonPrimitive -> element.content
+                is kotlinx.serialization.json.JsonObject -> element["reference"]?.jsonPrimitive?.content
+                else -> null
+            } ?: return@mapNotNull null
+
+            // Parse "GEN.1" or "Genesis 1:1"
+            val parts = ref.split(".", ":", " ")
+            if (parts.size >= 2) {
+                val book = parts[0]
+                val chapter = parts[1].toIntOrNull() ?: 1
+                ReadingInfo(book, chapter)
+            } else {
+                ReadingInfo(ref, 1)
+            }
+        } ?: emptyList()
     }
 
     init {
@@ -144,3 +164,5 @@ sealed class ParsedReading {
     data class Simple(val reference: String) : ParsedReading()
     data class Detailed(val type: String, val reference: String) : ParsedReading()
 }
+
+data class ReadingInfo(val book: String, val chapter: Int)

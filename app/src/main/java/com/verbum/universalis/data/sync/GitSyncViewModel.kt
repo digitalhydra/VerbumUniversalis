@@ -23,6 +23,7 @@ class GitSyncViewModel @Inject constructor(
 ) : ViewModel() {
 
     val syncStatus: StateFlow<SyncStatus> = syncService.syncStatus
+    val syncProgress: StateFlow<SyncStage> = syncService.syncProgress
 
     fun configureRepo(url: String, token: String? = null) {
         viewModelScope.launch {

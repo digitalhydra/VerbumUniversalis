@@ -11,6 +11,7 @@ import com.verbum.universalis.ui.reader.InterlinearReaderScreen
 import com.verbum.universalis.ui.reader.ReadingCanvasScreen
 import com.verbum.universalis.ui.plans.ReadingPlansScreen
 import com.verbum.universalis.ui.settings.SettingsScreen
+import com.verbum.universalis.ui.reader.Passage
 
 // Type alias for mass readings: List of (readingType, reference)
 typealias MassReadings = List<Pair<String, String>>
@@ -153,13 +154,18 @@ fun VerbumNavGraph(navController: NavHostController) {
                         val bookCode = parts[0]
                         val chapter = parts[1].toIntOrNull()
                         if (chapter != null) {
-                            navController.navigate(Route.ReadingCanvas.createRoute(bookCode, chapter))
+                            val bookId = Passage.BOOK_NAME_TO_ID[bookCode] ?: Passage.BOOK_NAME_TO_ID.entries.find { 
+                                it.key.equals(bookCode, ignoreCase = true) 
+                            }?.value
+                            navController.navigate(Route.ReadingCanvas.createRoute(bookId, chapter))
                         }
                     }
                 }
             )
         }
-        composable(Route.ReadingPlans.route) { ReadingPlansScreen() }
+        composable(Route.ReadingPlans.route) { 
+            ReadingPlansScreen(onNavigateBack = { navController.popBackStack() }) 
+        }
         composable(Route.Settings.route) { SettingsScreen() }
     }
 }

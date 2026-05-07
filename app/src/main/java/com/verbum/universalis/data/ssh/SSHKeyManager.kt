@@ -9,7 +9,7 @@ import java.io.StringWriter
 import java.security.KeyPair
 import java.security.KeyPairGenerator
 import java.security.KeyStore
-import android.util.Base64
+import java.util.Base64
 import org.bouncycastle.asn1.pkcs.PrivateKeyInfo
 import org.bouncycastle.openssl.jcajce.JcaPEMWriter
 
@@ -40,7 +40,7 @@ class SSHKeyManager(private val context: Context) {
         encryptedPrefs.edit().putString(PRIVATE_KEY_KEY, privateKeyPEM).apply()
 
         // Store public key
-        val publicKeyStr = "ssh-rsa ${Base64.encodeToString(keyPair.public.encoded, Base64.NO_WRAP)}"
+        val publicKeyStr = "ssh-rsa ${Base64.getEncoder().encodeToString(keyPair.public.encoded)}"
         encryptedPrefs.edit().putString(PUBLIC_KEY_KEY, publicKeyStr).apply()
 
         return keyPair

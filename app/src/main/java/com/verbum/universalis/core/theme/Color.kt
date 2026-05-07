@@ -13,3 +13,7 @@ val TextPrimaryLight = Color(0xFF000000)
 val TextSecondaryLight = Color(0xFF666666)
 val TextPrimaryDark = Color(0xFFFFFFFF)
 val TextSecondaryDark = Color(0xFFB0B0B0)
+
+val LightOutline = Color(0xFFE0E0E0)
+val DarkOutline = Color(0xFF333333)
+val VerbunGold = Color(0xFFD4AF37)

@@ -19,9 +19,10 @@ import kotlinx.serialization.json.Json
 import org.eclipse.jgit.api.Git
 import org.eclipse.jgit.lib.Repository
 import org.eclipse.jgit.storage.file.FileRepositoryBuilder
-import org.eclipse.jgit.transport.JschConfigSessionConfig
-import org.eclipse.jgit.transport.OpenSshConfig
+import org.eclipse.jgit.transport.ssh.jsch.JschConfigSessionFactory
+import org.eclipse.jgit.transport.ssh.jsch.OpenSshConfig
 import org.eclipse.jgit.transport.SshSessionFactory
+import org.eclipse.jgit.util.FS
 import com.jcraft.jsch.Session
 import java.io.File
 import javax.inject.Inject
@@ -287,17 +288,16 @@ build/
                 keyFile.writeText(privateKey)
                 keyFile.deleteOnExit()
                 
-                val jsch = com.jcraft.jsch.JSch()
-                jsch.addIdentity(keyFile.absolutePath)
-                
                 // Create custom SSH session factory
-                val sshFactory = object : SshSessionFactory() {
-                    override fun createSession(
-                        host: String, port: Int, user: String, password: String?
-                    ): Session {
-                        val session = jsch.getSession(user, host, port)
+                val sshFactory = object : JschConfigSessionFactory() {
+                    override fun configure(hc: OpenSshConfig.Host, session: Session) {
                         session.setConfig("StrictHostKeyChecking", "no")
-                        return session
+                    }
+
+                    override fun createDefaultJSch(fs: FS): com.jcraft.jsch.JSch {
+                        val jsch = super.createDefaultJSch(fs)
+                        jsch.addIdentity(keyFile.absolutePath)
+                        return jsch
                     }
                 }
                 SshSessionFactory.setInstance(sshFactory)
@@ -374,7 +374,7 @@ build/
                     .setGitDir(gitDir)
                     .build()
                 val git = Git(repository)
-                val remoteUrl = git.remoteList().call().find { it.name == "origin" }?.URIs?.firstOrNull()?.toString()
+                val remoteUrl = git.remoteList().call().find { it.name == "origin" }?.getURIs()?.firstOrNull()?.toString()
                 "Repo: $remoteUrl\nBranch: ${repository.branch}"
             } else {
                 "No local repo"
