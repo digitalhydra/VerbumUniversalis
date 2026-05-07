@@ -6,8 +6,10 @@ import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
-import androidx.compose.material3.ListDetailPaneScaffold
+import androidx.compose.material3.adaptive.ExperimentalMaterial3AdaptiveApi
+import androidx.compose.material3.adaptive.layout.ListDetailPaneScaffold
 import androidx.compose.runtime.Composable
+import androidx.compose.material3.adaptive.navigation.rememberListDetailPaneScaffoldNavigator
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
@@ -15,7 +17,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 
-@OptIn(ExperimentalLayoutApi::class)
+@OptIn(ExperimentalLayoutApi::class, ExperimentalMaterial3AdaptiveApi::class)
 @Composable
 fun InterlinearReaderScreen(
     viewModel: InterlinearViewModel = hiltViewModel(),
@@ -45,7 +47,11 @@ fun InterlinearReaderScreen(
 
     LaunchedEffect(verseId) { viewModel.setVerse(verseId) }
 
+    // Remember navigation scaffold for adaptive layout
+    val scaffoldNavigator = rememberListDetailPaneScaffoldNavigator<Any>()
     ListDetailPaneScaffold(
+        directive = scaffoldNavigator.scaffoldDirective,
+        scaffoldState = scaffoldNavigator.scaffoldState,
         listPane = {
             Box(modifier = Modifier.fillMaxSize().padding(16.dp)) {
                 FlowRow(

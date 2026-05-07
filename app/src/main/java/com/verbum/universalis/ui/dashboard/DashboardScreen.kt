@@ -23,12 +23,7 @@ import com.verbum.universalis.data.sync.GitSyncViewModel
 import com.verbum.universalis.data.sync.SyncStage
 import com.verbum.universalis.ui.reader.Passage
 import com.verbum.universalis.ui.navigation.MassReadings
-
-// Type alias for readings list: (readingType, reference) pairs
-typealias MassReadings = List<Pair<String, String>>
-
-// Type alias for plan readings: List of (reference) per day
-typealias PlanReadings = List<String>
+import com.verbum.universalis.ui.navigation.PlanReadings
 
 @Composable
 fun DashboardScreen(

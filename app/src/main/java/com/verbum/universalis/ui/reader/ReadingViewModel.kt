@@ -12,13 +12,18 @@ import androidx.lifecycle.viewModelScope
 import com.verbum.universalis.data.repository.BibleRepository
 import com.verbum.universalis.VerbumApplication
 import com.verbum.universalis.data.json.Note
-import com.verbum.universalis.data.entities.VerseWithTexts
+import com.verbum.universalis.data.daos.VerseWithTexts
+import com.verbum.universalis.data.entities.InterlinearWordEntity
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
+import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.combine
+import kotlinx.coroutines.flow.flatMapLatest
+import kotlinx.coroutines.flow.flowOf
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.launch
 
@@ -135,22 +140,25 @@ class ReadingViewModel @Inject constructor(
     private val _selectedVerseIdForNote = MutableStateFlow<Int?>(null)
     val selectedVerseIdForNote: StateFlow<Int?> = _selectedVerseIdForNote.asStateFlow()
 
-    val verses: Flow<List<VerseWithTexts>> = _currentPassage.map { passage ->
+    @OptIn(ExperimentalCoroutinesApi::class)
+    val verses: Flow<List<VerseWithTexts>> = _currentPassage.flatMapLatest { passage ->
         repository.getChapter(passage.bookId, passage.chapter)
     }
     
     // Greek interlinear words when el_GRK is selected
-    private val _greekWords = MutableStateFlow<List<InterlinearWordEntity>>(emptyList())
-    val greekWords: StateFlow<List<InterlinearWordEntity>> = _greekWords.asStateFlow()
+    @OptIn(ExperimentalCoroutinesApi::class)
+    val greekWords: Flow<List<InterlinearWordEntity>> = combine(_currentPassage, _activeLanguage) { p, l -> p to l }
+        .flatMapLatest { (passage, lang) ->
+            if (lang == "el_GRK") {
+                repository.getGreekWordsForChapter(passage.bookId, passage.chapter)
+            } else {
+                flowOf(emptyList())
+            }
+        }
     
     // Load Greek words when language changed
     fun loadGreekWordsIfNeeded() {
-        if (_activeLanguage.value == "el_GRK") {
-            viewModelScope.launch {
-                val passage = _currentPassage.value
-                _greekWords.value = repository.getGreekWordsForChapter(passage.bookId, passage.chapter)
-            }
-        }
+        // No longer needed as greekWords is a derived Flow
     }
 
     // Right pane toggle (tablet/mobile)

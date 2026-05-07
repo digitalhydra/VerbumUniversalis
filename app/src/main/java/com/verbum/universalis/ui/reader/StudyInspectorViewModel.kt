@@ -11,6 +11,7 @@ import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
@@ -41,7 +42,7 @@ class StudyInspectorViewModel @Inject constructor(
         _selectedWord.value = word
         if (word != null) {
             viewModelScope.launch {
-                _lexiconEntry.value = repository.getLexiconEntry(word.lemma)
+                _lexiconEntry.value = repository.getLexiconEntry(word.lemma).first()
             }
             setActiveTab(InspectorTab.LEXICON)
         }
@@ -62,10 +63,34 @@ class StudyInspectorViewModel @Inject constructor(
         _activeTab.value = tab
     }
 
-    fun isCatenaDownloaded(): Boolean = repository.isCatenaDownloaded()
-    suspend fun downloadCatena(): Boolean = repository.downloadCatena()
-    fun isCrossRefsDownloaded(): Boolean = repository.isCrossRefsDownloaded()
-    suspend fun downloadCrossRefs(): Boolean = repository.downloadCrossRefs()
+    private val _isCatenaDownloaded = MutableStateFlow(false)
+    val isCatenaDownloaded: StateFlow<Boolean> = _isCatenaDownloaded.asStateFlow()
+
+    private val _isCrossRefsDownloaded = MutableStateFlow(false)
+    val isCrossRefsDownloaded: StateFlow<Boolean> = _isCrossRefsDownloaded.asStateFlow()
+
+    init {
+        checkDownloads()
+    }
+
+    private fun checkDownloads() {
+        viewModelScope.launch {
+            _isCatenaDownloaded.value = repository.isCatenaDownloaded()
+            _isCrossRefsDownloaded.value = repository.isCrossRefsDownloaded()
+        }
+    }
+
+    suspend fun downloadCatena(): Boolean {
+        val success = repository.downloadCatena()
+        if (success) _isCatenaDownloaded.value = true
+        return success
+    }
+
+    suspend fun downloadCrossRefs(): Boolean {
+        val success = repository.downloadCrossRefs()
+        if (success) _isCrossRefsDownloaded.value = true
+        return success
+    }
 
     fun parseReference(ref: String): Triple<Int, Int, Int>? = repository.parseReference(ref)
 }

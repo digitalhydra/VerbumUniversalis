@@ -45,4 +45,16 @@ object AppModule {
     ): CrossRefsRepository {
         return CrossRefsRepository(crossRefsDb.crossRefsDao(), context)
     }
+
+    @Singleton
+    @Provides
+    fun provideSSHKeyManager(@ApplicationContext context: Context): com.verbum.universalis.data.ssh.SSHKeyManager {
+        return com.verbum.universalis.data.ssh.SSHKeyManager(context)
+    }
+
+    @Singleton
+    @Provides
+    fun provideGitHubApiService(): com.verbum.universalis.data.github.GitHubApiService {
+        return com.verbum.universalis.data.github.GitHubApiService()
+    }
 }

@@ -1,5 +1,6 @@
 package com.verbum.universalis.ui.reader
 
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -11,7 +12,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.verbum.universalis.core.theme.SourceSerifProFontFamily
+import com.verbum.universalis.core.theme.Inter
+import com.verbum.universalis.core.theme.SourceSerifPro
 import com.verbum.universalis.data.entities.InterlinearWordEntity
 
 @Composable
@@ -34,7 +36,7 @@ fun InterlinearWordBlock(
         Text(
             text = word.original,
             style = MaterialTheme.typography.bodyLarge.copy(
-                fontFamily = SourceSerifProFontFamily,
+                fontFamily = SourceSerifPro,
                 fontWeight = androidx.compose.ui.text.font.FontWeight.Bold
             ),
             color = if (isSelected) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.onSurface
@@ -45,7 +47,7 @@ fun InterlinearWordBlock(
             Text(
                 text = word.transliteration,
                 style = MaterialTheme.typography.labelSmall.copy(
-                    fontFamily = com.verbum.universalis.core.theme.InterFontFamily,
+                    fontFamily = Inter,
                     fontStyle = androidx.compose.ui.text.font.FontStyle.Italic
                 ),
                 color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.6f)
@@ -57,7 +59,7 @@ fun InterlinearWordBlock(
             Text(
                 text = word.literal,
                 style = MaterialTheme.typography.bodyMedium.copy(
-                    fontFamily = SourceSerifProFontFamily
+                    fontFamily = SourceSerifPro
                 ),
                 color = MaterialTheme.colorScheme.onSurface
             )
@@ -68,7 +70,7 @@ fun InterlinearWordBlock(
             Text(
                 text = word.morphology,
                 style = MaterialTheme.typography.labelSmall.copy(
-                    fontFamily = com.verbum.universalis.core.theme.InterFontFamily
+                    fontFamily = Inter
                 ),
                 color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.6f)
             )

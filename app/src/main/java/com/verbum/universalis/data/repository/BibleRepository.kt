@@ -50,8 +50,13 @@ class BibleRepository(
     }
 
     // Catena methods
-    fun getCatenaForVerse(bookId: Int, chapter: Int, verseNumber: Int): Flow<List<com.verbum.universalis.data.entities.CatenaCommentaryEntity>> {
-        return catenaRepository.getCommentariesForVerse(bookId, chapter, verseNumber)
+    suspend fun getCatenaForVerse(bookId: Int, chapter: Int, verseNumber: Int): List<CatenaCommentaryEntity> {
+        return catenaRepository.getCommentariesForVerse(bookId, chapter, verseNumber).first()
+    }
+
+    suspend fun getCatenaForVerse(verseId: Int): List<CatenaCommentaryEntity> {
+        val verse = getVerseByIdSync(verseId) ?: return emptyList()
+        return getCatenaForVerse(verse.book_id, verse.chapter, verse.verse_number)
     }
 
     suspend fun isCatenaDownloaded(): Boolean {
@@ -86,6 +91,13 @@ class BibleRepository(
 
     // Get references for a verse with descriptions
     suspend fun getReferencesForVerse(verseId: Int): List<Reference> {
+        val verse = getVerseByIdSync(verseId) ?: return emptyList()
+        return getReferencesForVerse(verse.book_id, verse.chapter, verse.verse_number)
+    }
+
+    suspend fun getReferencesForVerse(bookId: Int, chapter: Int, verseNumber: Int): List<Reference> {
+        val bookCode = getBookCodeForId(bookId) ?: return emptyList()
+        
         val cacheFile = File(context.filesDir, "cache/references.json")
         if (!cacheFile.exists()) {
             downloadFile(REFERENCES_URL, cacheFile)
@@ -95,21 +107,14 @@ class BibleRepository(
             val jsonString = cacheFile.readText()
             val data = Json { ignoreUnknownKeys = true }.decodeFromString<ReferencesData>(jsonString)
 
-            // Get verse to build ref
-            val verse = getVerseByIdSync(verseId)
-            if (verse != null) {
-                val bookCode = getBookCodeForId(verse.book_id)
-                val refPrefix = "${bookCode}.${verse.chapter}.${verse.verse_number}"
-                // Filter entries where verse_ref starts with refPrefix
-                val matchingEntries = data.entries.filter { it.verse_ref.startsWith(refPrefix) }
-                val allReferences = mutableListOf<Reference>()
-                matchingEntries.forEach { entry ->
-                    allReferences.addAll(entry.references)
-                }
-                allReferences
-            } else {
-                emptyList()
+            val refPrefix = "${bookCode}.${chapter}.${verseNumber}"
+            // Filter entries where verse_ref starts with refPrefix
+            val matchingEntries = data.entries.filter { it.verse_ref.startsWith(refPrefix) }
+            val allReferences = mutableListOf<Reference>()
+            matchingEntries.forEach { entry ->
+                allReferences.addAll(entry.references)
             }
+            allReferences
         } catch (e: Exception) {
             e.printStackTrace()
             emptyList()

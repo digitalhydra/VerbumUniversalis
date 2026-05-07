@@ -51,7 +51,7 @@ class UserSettingsViewModel @Inject constructor(
 
     fun updateLastRead(passage: String) {
         viewModelScope.launch {
-            val updated = _userSettings.value.copy(lastRead = passage)
+            val updated = _userSettings.value.copy(lastReadPassage = passage)
             _userSettings.value = updated
             fileManager.saveSettings(updated)
         }

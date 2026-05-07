@@ -31,6 +31,7 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.compose.rememberNavController
 import com.verbum.universalis.core.theme.VerbumTheme
+import com.verbum.universalis.data.entities.InterlinearWordEntity
 import com.verbum.universalis.ui.components.BookPickerScreen
 import com.verbum.universalis.ui.navigation.Route
 import com.verbum.universalis.ui.navigation.MassReadings
@@ -71,11 +72,10 @@ fun ReadingScreen(
 
         if (showBookPicker) {
             BookPickerScreen(
-                onBookSelected = { bookId, chapter ->
-                    viewModel.setPassage(bookId, chapter)
+                onBookClick = { book ->
+                    viewModel.setPassage(book.id, 1) // Default to chapter 1
                     showBookPicker = false
-                },
-                onDismiss = { showBookPicker = false }
+                }
             )
         }
 
@@ -261,7 +261,7 @@ fun ReadingScreen(
                         existingNote = null,
                         existingHighlightColorId = null,
                         availableColors = com.verbum.universalis.ui.theme.HighlightPalette.all,
-                        onSaveNote = { note, colorId -> 
+                        onSave = { note, colorId ->
                             viewModel.saveNoteWithHighlight(note, colorId)
                         },
                         onDismiss = { viewModel.hideNoteHighlightSheet() }

@@ -1,5 +1,8 @@
 package com.verbum.universalis.ui.reader
 
+import androidx.compose.foundation.ExperimentalFoundationApi
+import androidx.compose.foundation.background
+import androidx.compose.foundation.combinedClickable
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -13,19 +16,20 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.combinedClickable
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.em
 import androidx.compose.ui.unit.sp
-import com.verbum.universalis.core.theme.SourceSerifProFontFamily
+import com.verbum.universalis.core.theme.SourceSerifPro
 import com.verbum.universalis.ui.components.Hairline
-import com.verbum.universalis.data.entities.VerseWithTexts
+import com.verbum.universalis.data.daos.VerseWithTexts
 import com.verbum.universalis.ui.theme.HighlightPalette
 
+@OptIn(ExperimentalFoundationApi::class)
 @Composable
 fun VerseItem(
     verseWithTexts: VerseWithTexts,
@@ -69,17 +73,17 @@ fun VerseItem(
         Text(
             text = "${verseWithTexts.verse.verse_number}",
             style = MaterialTheme.typography.labelSmall.copy(
-                fontFamily = SourceSerifProFontFamily,
+                fontFamily = SourceSerifPro,
                 fontSize = 12.sp,
                 color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.6f)
             )
         )
-        if (isSelected) {
+        if (isSelectedVerse) {
             androidx.compose.foundation.text.selection.SelectionContainer {
                 Text(
                     text = displayText,
                     style = MaterialTheme.typography.bodyLarge.copy(
-                        fontFamily = SourceSerifProFontFamily,
+                        fontFamily = SourceSerifPro,
                         lineHeight = 1.6.em // 1.6x line height
                     ),
                     modifier = Modifier.padding(top = 4.dp)
@@ -100,7 +104,7 @@ fun VerseItem(
             Text(
                 text = annotatedString,
                 style = MaterialTheme.typography.bodyLarge.copy(
-                    fontFamily = SourceSerifProFontFamily,
+                    fontFamily = SourceSerifPro,
                     lineHeight = 1.6.em // 1.6x line height
                 ),
                 modifier = Modifier.padding(top = 4.dp)

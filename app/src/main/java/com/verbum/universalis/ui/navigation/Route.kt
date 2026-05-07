@@ -138,11 +138,11 @@ fun VerbumNavGraph(navController: NavHostController) {
         composable(
             route = Route.InterlinearReader.route,
             arguments = listOf(
-                navArgument("verseId") { type = NavType.StringType; defaultValue = "0" },
+                navArgument("verseId") { type = NavType.IntType },
                 navArgument("tab") { type = NavType.StringType; nullable = true; defaultValue = "" }
             )
         ) { backStackEntry ->
-            val verseId = backStackEntry.arguments?.getString("verseId")?.toIntOrNull()
+            val verseId = backStackEntry.arguments?.getInt("verseId")
             val initialTab = backStackEntry.arguments?.getString("tab") ?: ""
             InterlinearReaderScreen(
                 verseId = verseId,
@@ -166,7 +166,9 @@ fun VerbumNavGraph(navController: NavHostController) {
         composable(Route.ReadingPlans.route) { 
             ReadingPlansScreen(onNavigateBack = { navController.popBackStack() }) 
         }
-        composable(Route.Settings.route) { SettingsScreen() }
+        composable(Route.Settings.route) { 
+            SettingsScreen(onBack = { navController.popBackStack() }) 
+        }
     }
 }
 

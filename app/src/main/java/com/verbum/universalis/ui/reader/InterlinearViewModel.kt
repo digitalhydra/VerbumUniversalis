@@ -7,13 +7,20 @@ import com.verbum.universalis.data.json.Note
 import com.verbum.universalis.data.repository.BibleRepository
 import com.verbum.universalis.data.entities.InterlinearWordEntity
 import com.verbum.universalis.data.entities.LexiconEntity
+import com.verbum.universalis.data.entities.CatenaCommentaryEntity
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
+import kotlinx.coroutines.ExperimentalCoroutinesApi
+import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.flatMapLatest
+import kotlinx.coroutines.flow.flowOf
+import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.launch
 
+@OptIn(ExperimentalCoroutinesApi::class)
 @HiltViewModel
 class InterlinearViewModel @Inject constructor(
     private val repository: BibleRepository,
@@ -30,8 +37,8 @@ class InterlinearViewModel @Inject constructor(
     }
 
     // Catena entries for selected verse
-    private val _catenaEntries = MutableStateFlow<List<BibleRepository.CatenaEntry>>(emptyList())
-    val catenaEntries: StateFlow<List<BibleRepository.CatenaEntry>> = _catenaEntries.asStateFlow()
+    private val _catenaEntries = MutableStateFlow<List<CatenaCommentaryEntity>>(emptyList())
+    val catenaEntries: StateFlow<List<CatenaCommentaryEntity>> = _catenaEntries.asStateFlow()
 
     // References for selected verse
     private val _references = MutableStateFlow<List<BibleRepository.Reference>>(emptyList())
@@ -44,16 +51,16 @@ class InterlinearViewModel @Inject constructor(
         return highlights.isNotEmpty()
     }
 
-    val words: Flow<List<InterlinearWordEntity>> = _selectedVerseId.map { verseId ->
-        if (verseId == null) emptyList()
+    val words: Flow<List<InterlinearWordEntity>> = _selectedVerseId.flatMapLatest { verseId ->
+        if (verseId == null) flowOf(emptyList())
         else repository.getInterlinearWordsForVerse(verseId)
     }
 
     private val _selectedWord = MutableStateFlow<InterlinearWordEntity?>(null)
     val selectedWord: StateFlow<InterlinearWordEntity?> = _selectedWord.asStateFlow()
 
-    val lexiconEntry: Flow<LexiconEntity?> = _selectedWord.map { word ->
-        if (word == null) null
+    val lexiconEntry: Flow<LexiconEntity?> = _selectedWord.flatMapLatest { word ->
+        if (word == null) flowOf(null)
         else repository.getLexiconEntry(word.lemma)
     }
 

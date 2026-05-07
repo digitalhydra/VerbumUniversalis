@@ -10,14 +10,18 @@ import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
+import androidx.compose.foundation.layout.padding
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.verbum.universalis.core.theme.VerbumTheme
+import com.verbum.universalis.data.daos.VerseWithTexts
+import com.verbum.universalis.data.entities.InterlinearWordEntity
 
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
 fun ReadingCanvas(
+    modifier: Modifier = Modifier,
     viewModel: ReadingViewModel = hiltViewModel(),
     onAction: (String, Int) -> Unit, // action string, verseId
     showStudyInspector: Boolean = false, // for tablet
@@ -34,10 +38,11 @@ fun ReadingCanvas(
         // When Greek is selected, render interlinear word blocks
         if (activeLanguage == "el_GRK") {
             FlowRow(
-                modifier = Modifier.fillMaxSize(),
+                modifier = modifier
+                    .fillMaxSize()
+                    .padding(16.dp),
                 horizontalArrangement = Arrangement.spacedBy(8.dp),
-                verticalArrangement = Arrangement.spacedBy(8.dp),
-                contentPadding = androidx.compose.foundation.layout.PaddingValues(16.dp)
+                verticalArrangement = Arrangement.spacedBy(8.dp)
             ) {
                 greekWords.forEach { word ->
                     InterlinearWordBlock(
