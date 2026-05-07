@@ -4,7 +4,7 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 import androidx.room.ColumnInfo
 
-/**
+/
  * Cross-reference entry.
  * Matches verbum_cross_refs.db schema.
  */

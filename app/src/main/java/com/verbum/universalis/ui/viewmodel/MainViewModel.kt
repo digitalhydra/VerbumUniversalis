@@ -1,7 +1,7 @@
 package com.verbum.universalis.ui.viewmodel
 
 import android.app.Application
-import androidx.lifecycle.*
+import androidx.lifecycle.
 import com.verbum.universalis.data.db.AppDatabase
 import com.verbum.universalis.data.repository.BibleRepository
 import com.verbum.universalis.data.entities.VerseWithTexts

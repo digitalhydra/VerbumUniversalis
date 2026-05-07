@@ -1,26 +1,26 @@
-package com.verbum.universalis.data.sync*
+package com.verbum.universalis.data.sync
 
-import android.content.Context*
-import android.util.Log*
-import com.verbum.universalis.data.json.FileManager*
-import com.verbum.universalis.data.json.Highlight*
-import com.verbum.universalis.data.json.Note*
-import com.verbum.universalis.data.json.ReadingProgress*
-import com.verbum.universalis.data.ssh.SSHKeyManager*
-import dagger.hilt.android.qualifiers.ApplicationContext*
-import kotlinx.coroutines.Dispatchers*
-import kotlinx.coroutines.flow.MutableStateFlow*
-import kotlinx.coroutines.flow.StateFlow*
-import kotlinx.coroutines.flow.asStateFlow*
-import kotlinx.coroutines.withContext*
-import kotlinx.serialization.decodeFromString*
-import kotlinx.serialization.encodeToString*
-import kotlinx.serialization.json.Json*
-import org.eclipse.jgit.api.Git*
-import org.eclipse.jgit.lib.Repository*
-import org.eclipse.jgit.storage.file.FileRepositoryBuilder*
-import java.io.File*
-import javax.inject.Inject*
+import android.content.Context
+import android.util.Log
+import com.verbum.universalis.data.json.FileManager
+import com.verbum.universalis.data.json.Highlight
+import com.verbum.universalis.data.json.Note
+import com.verbum.universalis.data.json.ReadingProgress
+import com.verbum.universalis.data.ssh.SSHKeyManager
+import dagger.hilt.android.qualifiers.ApplicationContext
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.withContext
+import kotlinx.serialization.decodeFromString
+import kotlinx.serialization.encodeToString
+import kotlinx.serialization.json.Json
+import org.eclipse.jgit.api.Git
+import org.eclipse.jgit.lib.Repository
+import org.eclipse.jgit.storage.file.FileRepositoryBuilder
+import java.io.File
+import javax.inject.Inject
 
 enum class SyncStage {
     IDLE, PULLING, ADDING, COMMITTING, PUSHING, DONE, ERROR

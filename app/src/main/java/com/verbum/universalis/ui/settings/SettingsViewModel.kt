@@ -1,4 +1,4 @@
-package com.verbum.universalis.ui.settings*
+package com.verbum.universalis.ui.settings
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
