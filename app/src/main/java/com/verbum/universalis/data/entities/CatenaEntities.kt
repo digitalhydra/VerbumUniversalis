@@ -4,7 +4,7 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 import androidx.room.ColumnInfo
 
-/
+/**
  * Catena commentary entry.
  * Matches verbum_catena.db schema.
  */

@@ -4,8 +4,8 @@ import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.verbum.universalis.data.daos.
-import com.verbum.universalis.data.entities.
+import com.verbum.universalis.data.daos.*
+import com.verbum.universalis.data.entities.*
 
 @Database(
     entities = [BookEntity::class, VerseEntity::class, TextEntity::class, InterlinearWordEntity::class, LexiconEntity::class],

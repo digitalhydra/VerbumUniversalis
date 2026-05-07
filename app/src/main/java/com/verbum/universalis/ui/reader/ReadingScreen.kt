@@ -202,13 +202,11 @@ fun ReadingScreen(
                         .padding(paddingValues),
                     onAction = { action, verseId ->
                         when (action) {
-                            "interlinear" -> {
+                            "interlinear", "reference", "catena" -> {
                                 viewModel.toggleStudyInspector()
                             }
-                            "note" -> viewModel.showNoteSheet(verseId)
-                            "highlight" -> viewModel.showNoteHighlightSheet(verseId)
-                            "reference", "catena" -> {
-                                viewModel.toggleStudyInspector()
+                            "note", "highlight" -> {
+                                viewModel.showNoteHighlightSheet(verseId)
                             }
                         }
                     },
@@ -256,39 +254,19 @@ fun ReadingScreen(
                         }
                     }
                 }
-            }
-                modifier = Modifier
-                    .fillMaxSize()
-                    .padding(paddingValues),
-                onAction = { action, verseId ->
-                    when (action) {
-                        "interlinear", "reference", "catena" -> {
-                            viewModel.toggleStudyInspector()
-                        }
-                        "note", "highlight" -> {
-                            // Open combined note + highlight bottom sheet
-                            viewModel.showNoteHighlightSheet(verseId)
-                        }
-                    }
-                },
-                showStudyInspector = showStudyInspector,
-                onWordClick = { word -> 
-                    viewModel.selectGreekWord(word)
-                    if (!showStudyInspector) viewModel.toggleStudyInspector()
-                }
-            )
 
-            if (showNoteHighlightSheet) {
-                com.verbum.universalis.ui.components.NoteAndHighlightBottomSheet(
-                    verseReference = viewModel.getCurrentPassageReference(),
-                    existingNote = null,
-                    existingHighlightColorId = null,
-                    availableColors = com.verbum.universalis.ui.theme.HighlightPalette.all,
-                    onSaveNote = { note, colorId -> 
-                        viewModel.saveNoteWithHighlight(note, colorId)
-                    },
-                    onDismiss = { viewModel.hideNoteHighlightSheet() }
-                )
+                if (showNoteHighlightSheet) {
+                    com.verbum.universalis.ui.components.NoteAndHighlightBottomSheet(
+                        verseReference = viewModel.getCurrentPassageReference(),
+                        existingNote = null,
+                        existingHighlightColorId = null,
+                        availableColors = com.verbum.universalis.ui.theme.HighlightPalette.all,
+                        onSaveNote = { note, colorId -> 
+                            viewModel.saveNoteWithHighlight(note, colorId)
+                        },
+                        onDismiss = { viewModel.hideNoteHighlightSheet() }
+                    )
+                }
             }
         }
     }

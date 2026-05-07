@@ -1,4 +1,4 @@
-package com.verbum.universalis.ui.dashboard.
+package com.verbum.universalis.ui.dashboard
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope

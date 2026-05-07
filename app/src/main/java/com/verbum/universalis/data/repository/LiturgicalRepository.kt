@@ -1,7 +1,7 @@
-package com.verbum.universalis.data.repository.
+package com.verbum.universalis.data.repository
 
 import android.content.Context
-import com.verbum.universalis.data.entities.
+import com.verbum.universalis.data.entities.*
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
@@ -121,6 +121,6 @@ class LiturgicalRepository @Inject constructor(
             startVerse
         }
 
-        return Triple(bookCode, startVerse, IntRange(startVerse, endVerse))* 
+        return Triple(bookCode, startVerse, IntRange(startVerse, endVerse))
     }
 }

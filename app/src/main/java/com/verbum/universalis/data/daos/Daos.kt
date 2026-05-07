@@ -1,10 +1,13 @@
 package com.verbum.universalis.data.daos
 
-import androidx.room.Entity
+import androidx.room.Dao
+import androidx.room.Embedded
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import com.verbum.universalis.data.entities
+import androidx.room.Relation
+import androidx.room.Transaction
+import com.verbum.universalis.data.entities.*
 import kotlinx.coroutines.flow.Flow
 
 data class VerseWithTexts(

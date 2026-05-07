@@ -47,7 +47,7 @@ data class Passage(val bookId: Int, val chapter: Int, val verseRange: IntRange?)
             "2 Timothy" to 62, "2 Tim" to 62, "Titus" to 63, "Philemon" to 64, "Hebrews" to 65,
             "Heb" to 65, "James" to 66, "Jas" to 66, "1 Peter" to 67, "1 Pet" to 67,
             "2 Peter" to 68, "2 Pet" to 68, "1 John" to 69, "2 John" to 70,
-            "3 John" to 71, "Jude" to 72, "Revelation" to 73, "Rev" to 73"
+            "3 John" to 71, "Jude" to 72, "Revelation" to 73, "Rev" to 73
         )
         
         val BOOK_ID_TO_NAME = BOOK_NAME_TO_ID.entries.associate { (k, v) -> v to k }
