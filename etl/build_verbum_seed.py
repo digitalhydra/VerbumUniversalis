@@ -346,14 +346,14 @@ def create_fresh_db(path):
     conn = sqlite3.connect(str(path))
     conn.executescript("""
         CREATE TABLE books (
-            id INTEGER PRIMARY KEY,
+            id INTEGER PRIMARY KEY NOT NULL,
             name_en TEXT NOT NULL,
-            name_es TEXT,
-            name_la TEXT,
+            name_es TEXT NOT NULL,
+            name_la TEXT NOT NULL,
             testament TEXT NOT NULL
         );
         CREATE TABLE verses (
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
             book_id INTEGER NOT NULL,
             chapter INTEGER NOT NULL,
             verse_number INTEGER NOT NULL,
@@ -361,7 +361,7 @@ def create_fresh_db(path):
         );
         CREATE INDEX idx_verses_book ON verses(book_id, chapter, verse_number);
         CREATE TABLE texts (
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
             verse_id INTEGER NOT NULL,
             lang_code TEXT NOT NULL,
             content TEXT NOT NULL,
@@ -369,10 +369,10 @@ def create_fresh_db(path):
         );
         CREATE INDEX idx_texts_verse ON texts(verse_id, lang_code);
         CREATE TABLE interlinear_words (
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
             verse_id INTEGER NOT NULL,
             word_order INTEGER NOT NULL,
-            original TEXT,
+            original TEXT NOT NULL,
             transliteration TEXT,
             literal TEXT,
             morphology TEXT,
@@ -381,9 +381,9 @@ def create_fresh_db(path):
         );
         CREATE INDEX idx_interlinear_verse ON interlinear_words(verse_id);
         CREATE TABLE lexicon (
-            lemma TEXT PRIMARY KEY,
+            lemma TEXT PRIMARY KEY NOT NULL,
             language TEXT NOT NULL,
-            definition TEXT
+            definition TEXT NOT NULL
         );
     """)
     conn.commit()
