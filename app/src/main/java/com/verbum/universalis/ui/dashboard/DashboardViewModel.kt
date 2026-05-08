@@ -3,7 +3,6 @@ package com.verbum.universalis.ui.dashboard
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.verbum.universalis.data.repository.LiturgicalRepository
-import com.verbum.universalis.data.entities.LiturgicalReadingEntry
 import com.verbum.universalis.data.entities.DailyMassReadingEntry
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
@@ -17,22 +16,26 @@ class DashboardViewModel @Inject constructor(
     private val liturgicalRepository: LiturgicalRepository
 ) : ViewModel() {
 
-    private val _todayLiturgical = MutableStateFlow<LiturgicalReadingEntry?>(null)
-    val todayLiturgical: StateFlow<LiturgicalReadingEntry?> = _todayLiturgical.asStateFlow()
+    private val _selectedDate = MutableStateFlow(java.time.LocalDate.now().toString())
+    val selectedDate: StateFlow<String> = _selectedDate.asStateFlow()
 
-    private val _todayMassReadings = MutableStateFlow<DailyMassReadingEntry?>(null)
-    val todayMassReadings: StateFlow<DailyMassReadingEntry?> = _todayMassReadings.asStateFlow()
+    private val _massReadings = MutableStateFlow<DailyMassReadingEntry?>(null)
+    val massReadings: StateFlow<DailyMassReadingEntry?> = _massReadings.asStateFlow()
 
     init {
-        viewModelScope.launch {
-            _todayLiturgical.value = liturgicalRepository.getTodayCalendarEntry()
-            _todayMassReadings.value = liturgicalRepository.getTodayMassReadings()
-        }
+        updateDate(java.time.LocalDate.now().toString())
     }
 
-    // For day picker: get entry for specific date
-    fun getLiturgicalForDate(date: String): LiturgicalReadingEntry? {
-        return liturgicalRepository.getCalendarEntryForDate(date)
+    fun updateDate(date: String) {
+        _selectedDate.value = date
+        viewModelScope.launch {
+            val readings = liturgicalRepository.getMassReadingsForDate(date)
+            _massReadings.value = readings
+            
+            if (readings == null) {
+                android.util.Log.w("DashboardViewModel", "No mass readings found for date: $date")
+            }
+        }
     }
 
     fun getMassReadingsForDate(date: String): DailyMassReadingEntry? {

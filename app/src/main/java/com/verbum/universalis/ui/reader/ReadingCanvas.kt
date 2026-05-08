@@ -34,6 +34,18 @@ fun ReadingCanvas(
         val listState = rememberLazyListState()
         val isSelectionMode by viewModel.isSelectionMode.collectAsState(initial = false)
         val selectedVerseId by viewModel.selectedVerseId.collectAsState(initial = null)
+        val currentPassage by viewModel.currentPassage.collectAsState()
+
+        // Handle scrolling to a specific verse
+        androidx.compose.runtime.LaunchedEffect(currentPassage.verseRange, verses) {
+            val targetVerse = currentPassage.verseRange?.start
+            if (targetVerse != null && verses.isNotEmpty()) {
+                val index = verses.indexOfFirst { it.verse.verse_number == targetVerse }
+                if (index >= 0) {
+                    listState.animateScrollToItem(index)
+                }
+            }
+        }
 
         // When Greek is selected, render interlinear word blocks
         if (activeLanguage == "el_GRK") {

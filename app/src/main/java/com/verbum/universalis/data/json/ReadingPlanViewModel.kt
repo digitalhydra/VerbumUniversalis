@@ -67,7 +67,12 @@ class ReadingPlanViewModel @Inject constructor(
 
             // Parse "GEN.1" or "Genesis 1:1"
             val parts = ref.split(".", ":", " ")
-            if (parts.size >= 2) {
+            if (parts.size >= 3) {
+                val book = parts[0]
+                val chapter = parts[1].toIntOrNull() ?: 1
+                val verse = parts[2].toIntOrNull()
+                ReadingInfo(book, chapter, verse)
+            } else if (parts.size == 2) {
                 val book = parts[0]
                 val chapter = parts[1].toIntOrNull() ?: 1
                 ReadingInfo(book, chapter)
@@ -165,4 +170,4 @@ sealed class ParsedReading {
     data class Detailed(val type: String, val reference: String) : ParsedReading()
 }
 
-data class ReadingInfo(val book: String, val chapter: Int)
+data class ReadingInfo(val book: String, val chapter: Int, val verse: Int? = null)

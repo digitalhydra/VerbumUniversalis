@@ -1,6 +1,7 @@
 package com.verbum.universalis.ui.navigation
 
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
 import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
@@ -23,31 +24,37 @@ sealed class Route(val route: String) {
     object Dashboard : Route("dashboard")
     
     object ReadingCanvas : Route("reading_canvas") {
-        const val routeWithArgs = "reading_canvas/{bookId}/{chapter}?readings={readings}&currentIndex={currentIndex}&plandays={plandays}&planday={planday}"
+        const val routeWithArgs = "reading_canvas?bookId={bookId}&chapter={chapter}&verse={verse}&readings={readings}&currentIndex={currentIndex}&plandays={plandays}&planday={planday}"
         
-        fun createRoute(bookId: Int? = null, chapter: Int? = null): String {
-            return if (bookId != null && chapter != null) {
-                "reading_canvas/$bookId/$chapter"
-            } else {
-                "reading_canvas"
+        fun createRoute(bookId: Int? = null, chapter: Int? = null, verse: Int? = null): String {
+            return when {
+                bookId != null && chapter != null -> {
+                    val base = "reading_canvas?bookId=$bookId&chapter=$chapter"
+                    if (verse != null) "$base&verse=$verse" else base
+                }
+                else -> "reading_canvas"
             }
         }
         
         fun createRouteWithReadings(
             bookId: Int, 
             chapter: Int, 
+            verse: Int?,
             readings: MassReadings, 
             currentIndex: Int
         ): String {
             val readingsStr = if (readings.isNotEmpty()) {
                 readings.joinToString("|") { "${it.first},${it.second}" }
             } else ""
-            return "reading_canvas/$bookId/$chapter?readings=$readingsStr&currentIndex=$currentIndex"
+            val base = "reading_canvas?bookId=$bookId&chapter=$chapter"
+            val withVerse = if (verse != null) "$base&verse=$verse" else base
+            return "$withVerse&readings=$readingsStr&currentIndex=$currentIndex"
         }
         
         fun createRouteWithPlan(
             bookId: Int, 
             chapter: Int, 
+            verse: Int?,
             allDays: PlanReadings, 
             currentDayIndex: Int
         ): String {
@@ -55,7 +62,9 @@ sealed class Route(val route: String) {
             val daysStr = allDays.joinToString(",") { day ->
                 day.joinToString("|")
             }
-            return "reading_canvas/$bookId/$chapter?plandays=$daysStr&planday=$currentDayIndex"
+            val base = "reading_canvas?bookId=$bookId&chapter=$chapter"
+            val withVerse = if (verse != null) "$base&verse=$verse" else base
+            return "$withVerse&plandays=$daysStr&planday=$currentDayIndex"
         }
     }
 
@@ -70,24 +79,28 @@ sealed class Route(val route: String) {
 }
 
 @Composable
-fun VerbumNavGraph(navController: NavHostController) {
+fun VerbumNavGraph(
+    navController: NavHostController,
+    modifier: Modifier = Modifier
+) {
     NavHost(
         navController = navController,
-        startDestination = Route.Dashboard.route
+        startDestination = Route.Dashboard.route,
+        modifier = modifier
     ) {
         composable(Route.Dashboard.route) {
             DashboardScreen(
                 onNavigateToReading = { bookId, chapter ->
                     navController.navigate(Route.ReadingCanvas.createRoute(bookId, chapter))
                 },
-                onNavigateToMassReading = { bookId, chapter, readings, index ->
+                onNavigateToMassReading = { bookId, chapter, verse, readings, index ->
                     navController.navigate(
-                        Route.ReadingCanvas.createRouteWithReadings(bookId, chapter, readings, index)
+                        Route.ReadingCanvas.createRouteWithReadings(bookId, chapter, verse, readings, index)
                     )
                 },
-                onNavigateToPlanReading = { bookId, chapter, allDays, dayIndex ->
+                onNavigateToPlanReading = { bookId, chapter, verse, allDays, dayIndex ->
                     navController.navigate(
-                        Route.ReadingCanvas.createRouteWithPlan(bookId, chapter, allDays, dayIndex)
+                        Route.ReadingCanvas.createRouteWithPlan(bookId, chapter, verse, allDays, dayIndex)
                     )
                 }
             )
@@ -96,16 +109,18 @@ fun VerbumNavGraph(navController: NavHostController) {
         composable(
             route = Route.ReadingCanvas.routeWithArgs,
             arguments = listOf(
-                navArgument("bookId") { type = NavType.IntType },
-                navArgument("chapter") { type = NavType.IntType },
+                navArgument("bookId") { type = NavType.IntType; defaultValue = -1 },
+                navArgument("chapter") { type = NavType.IntType; defaultValue = -1 },
+                navArgument("verse") { type = NavType.IntType; defaultValue = -1 },
                 navArgument("readings") { type = NavType.StringType; nullable = true; defaultValue = "" },
                 navArgument("currentIndex") { type = NavType.IntType; defaultValue = -1 },
                 navArgument("plandays") { type = NavType.StringType; nullable = true; defaultValue = "" },
                 navArgument("planday") { type = NavType.IntType; defaultValue = -1 }
             )
         ) { backStackEntry ->
-            val bookId = backStackEntry.arguments?.getInt("bookId")
-            val chapter = backStackEntry.arguments?.getInt("chapter")
+            val bookId = backStackEntry.arguments?.getInt("bookId").takeIf { it != -1 }
+            val chapter = backStackEntry.arguments?.getInt("chapter").takeIf { it != -1 }
+            val verse = backStackEntry.arguments?.getInt("verse").takeIf { it != -1 }
             val readingsStr = backStackEntry.arguments?.getString("readings") ?: ""
             val currentIndex = backStackEntry.arguments?.getInt("currentIndex") ?: -1
             val planDaysStr = backStackEntry.arguments?.getString("plandays") ?: ""
@@ -117,18 +132,19 @@ fun VerbumNavGraph(navController: NavHostController) {
             ReadingCanvasScreen(
                 initialBookId = bookId,
                 initialChapter = chapter,
+                initialVerse = verse,
                 massReadings = massReadings,
                 currentReadingIndex = currentIndex,
                 planReadings = planReadings,
                 currentPlanDayIndex = planDay,
-                onNavigateNext = { nextBookId, nextChapter, nextIdx ->
+                onNavigateNext = { nextBookId, nextChapter, nextVerse, nextIdx ->
                     navController.navigate(
-                        Route.ReadingCanvas.createRouteWithReadings(nextBookId, nextChapter, massReadings, nextIdx)
+                        Route.ReadingCanvas.createRouteWithReadings(nextBookId, nextChapter, nextVerse, massReadings, nextIdx)
                     )
                 },
-                onNavigateNextDay = { nextBookId, nextChapter, nextDayIdx ->
+                onNavigateNextDay = { nextBookId, nextChapter, nextVerse, nextDayIdx ->
                     navController.navigate(
-                        Route.ReadingCanvas.createRouteWithPlan(nextBookId, nextChapter, planReadings, nextDayIdx)
+                        Route.ReadingCanvas.createRouteWithPlan(nextBookId, nextChapter, nextVerse, planReadings, nextDayIdx)
                     )
                 },
                 onBack = { navController.popBackStack() }

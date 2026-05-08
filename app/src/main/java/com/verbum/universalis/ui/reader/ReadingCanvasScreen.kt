@@ -27,18 +27,19 @@ import com.verbum.universalis.ui.reader.ReadingViewModel
 fun ReadingCanvasScreen(
     initialBookId: Int? = null,
     initialChapter: Int? = null,
+    initialVerse: Int? = null,
     massReadings: MassReadings = emptyList(),
     currentReadingIndex: Int = -1,
     planReadings: PlanReadings = emptyList(),
     currentPlanDayIndex: Int = -1,
-    onNavigateNext: ((bookId: Int, chapter: Int, nextIndex: Int) -> Unit)? = null,
-    onNavigateNextDay: ((bookId: Int, chapter: Int, nextDayIndex: Int) -> Unit)? = null,
+    onNavigateNext: ((bookId: Int, chapter: Int, verse: Int?, nextIndex: Int) -> Unit)? = null,
+    onNavigateNextDay: ((bookId: Int, chapter: Int, verse: Int?, nextDayIndex: Int) -> Unit)? = null,
     onBack: (() -> Unit)? = null,
     viewModel: ReadingViewModel = hiltViewModel()
 ) {
-    LaunchedEffect(initialBookId, initialChapter) {
+    LaunchedEffect(initialBookId, initialChapter, initialVerse) {
         if (initialBookId != null && initialChapter != null) {
-            viewModel.setPassage(initialBookId, initialChapter)
+            viewModel.setPassage(initialBookId, initialChapter, initialVerse)
         }
     }
     
@@ -54,14 +55,15 @@ fun ReadingCanvasScreen(
         viewModel = viewModel,
         initialBookId = initialBookId,
         initialChapter = initialChapter,
+        initialVerse = initialVerse,
         showNextReading = massReadings.isNotEmpty() && currentReadingIndex >= 0,
         nextReadingText = nextMassReadingText,
         onNextReadingClick = {
             val nextIdx = currentReadingIndex + 1
             if (nextIdx < massReadings.size) {
                 val (_, nextRef) = massReadings[nextIdx]
-                parseAndNavigate(nextRef) { bookId, chapter ->
-                    onNavigateNext?.invoke(bookId, chapter, nextIdx)
+                parseAndNavigate(nextRef) { bookId, chapter, verse ->
+                    onNavigateNext?.invoke(bookId, chapter, verse, nextIdx)
                 }
             }
         },
@@ -72,8 +74,8 @@ fun ReadingCanvasScreen(
             if (nextDayIdx < planReadings.size) {
                 val nextDayReadings = planReadings[nextDayIdx]
                 if (nextDayReadings.isNotEmpty()) {
-                    parseAndNavigate(nextDayReadings[0]) { bookId, chapter ->
-                        onNavigateNextDay?.invoke(bookId, chapter, nextDayIdx)
+                    parseAndNavigate(nextDayReadings[0]) { bookId, chapter, verse ->
+                        onNavigateNextDay?.invoke(bookId, chapter, verse, nextDayIdx)
                     }
                 }
             }
@@ -101,25 +103,36 @@ private fun getNextDayText(allDays: PlanReadings, currentDayIndex: Int): String?
     return "Next Day →"
 }
 
-private fun parseAndNavigate(ref: String, onNavigate: (bookId: Int, chapter: Int) -> Unit) {
+private fun parseAndNavigate(ref: String, onNavigate: (bookId: Int, chapter: Int, verse: Int?) -> Unit) {
     try {
-        // Handle "Genesis 1:1" or "GEN.1" format
-        val parts = if (ref.contains(":")) {
-            ref.split(":")
-        } else {
-            ref.split(".")
-        }
-        
-        if (parts.isNotEmpty()) {
-            val bookPart = parts[0].trim()
-            val chapterPart = if (parts.size > 1) parts[1].split("-")[0].split(",")[0].trim() else "1"
+        val parts = ref.split(":")
+        if (parts.size >= 2) {
+            val bookAndChapter = parts[0].trim()
+            val versePartWithRange = parts[1].trim()
             
-            val bookId = Passage.BOOK_NAME_TO_ID[bookPart] ?: 
-                Passage.BOOK_NAME_TO_ID.entries.find { it.key.contains(bookPart, ignoreCase = true) }?.value
-            val chapter = chapterPart.toIntOrNull()
+            val bookName = if (bookAndChapter.contains(" ")) bookAndChapter.substringBeforeLast(" ").trim() else bookAndChapter
+            val chapterString = if (bookAndChapter.contains(" ")) bookAndChapter.substringAfterLast(" ").trim() else "1"
+            
+            val bookId = Passage.BOOK_NAME_TO_ID[bookName] ?: 
+                        Passage.BOOK_NAME_TO_ID.entries.find { it.key.contains(bookName, ignoreCase = true) }?.value
+            val chapter = chapterString.toIntOrNull()
+            val verse = versePartWithRange.split("-")[0].split(",")[0].trim().toIntOrNull()
             
             if (bookId != null && chapter != null) {
-                onNavigate(bookId, chapter)
+                onNavigate(bookId, chapter, verse)
+            }
+        } else {
+            // Handle "GEN.1" or "Genesis 1"
+            val refText = ref.trim().replace(".", " ")
+            val bookName = if (refText.contains(" ")) refText.substringBeforeLast(" ").trim() else refText
+            val chapterString = if (refText.contains(" ")) refText.substringAfterLast(" ").trim() else "1"
+            
+            val bookId = Passage.BOOK_NAME_TO_ID[bookName] ?: 
+                        Passage.BOOK_NAME_TO_ID.entries.find { it.key.contains(bookName, ignoreCase = true) }?.value
+            val chapter = chapterString.toIntOrNull()
+            
+            if (bookId != null && chapter != null) {
+                onNavigate(bookId, chapter, null)
             }
         }
     } catch (e: Exception) { /* ignore */ }

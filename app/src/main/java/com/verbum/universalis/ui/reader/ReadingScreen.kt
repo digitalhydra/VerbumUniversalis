@@ -43,6 +43,7 @@ fun ReadingScreen(
     viewModel: ReadingViewModel = hiltViewModel(),
     initialBookId: Int? = null,
     initialChapter: Int? = null,
+    initialVerse: Int? = null,
     // Mass readings flow
     showNextReading: Boolean = false,
     nextReadingText: String? = null,
@@ -55,9 +56,9 @@ fun ReadingScreen(
     onBack: (() -> Unit)? = null
 ) {
     VerbumTheme {
-        LaunchedEffect(initialBookId, initialChapter) {
+        LaunchedEffect(initialBookId, initialChapter, initialVerse) {
             if (initialBookId != null && initialChapter != null) {
-                viewModel.setPassage(initialBookId, initialChapter)
+                viewModel.setPassage(initialBookId, initialChapter, initialVerse)
             }
         }
 
@@ -202,7 +203,12 @@ fun ReadingScreen(
                         .padding(paddingValues),
                     onAction = { action, verseId ->
                         when (action) {
-                            "interlinear", "reference", "catena" -> {
+                            "interlinear" -> {
+                                // Navigate to the InterlinearReader full-screen route
+                                navController.navigate(Route.InterlinearReader.createRoute(verseId))
+                            }
+                            "reference", "catena" -> {
+                                // Toggle the study inspector to show the relevant tab
                                 viewModel.toggleStudyInspector()
                             }
                             "note", "highlight" -> {

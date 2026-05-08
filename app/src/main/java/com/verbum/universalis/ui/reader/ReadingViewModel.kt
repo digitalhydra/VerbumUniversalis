@@ -60,6 +60,16 @@ data class Passage(val bookId: Int, val chapter: Int, val verseRange: IntRange?)
         val BOOK_ID_TO_NAME = BOOK_NAME_TO_ID.entries.associate { (k, v) -> v to k }
 
         fun fromString(query: String, bookNameToId: Map<String, Int>): Passage? {
+            // Check for simple ID:CHAPTER format
+            if (query.contains(":")) {
+                val parts = query.split(":")
+                val bId = parts[0].toIntOrNull()
+                val cNum = parts[1].toIntOrNull()
+                if (bId != null && cNum != null) {
+                    return Passage(bId, cNum, null)
+                }
+            }
+
             val regex = Regex("(\\d*\\s*[a-zA-Z]+)\\s*(\\d+):?(\\d*)-?(\\d*)")
             val match = regex.find(query)
             if (match != null) {
@@ -177,8 +187,9 @@ class ReadingViewModel @Inject constructor(
         _selectedGreekWord.value = word
     }
 
-    fun setPassage(bookId: Int, chapter: Int) {
-        _currentPassage.value = Passage(bookId, chapter, null)
+    fun setPassage(bookId: Int, chapter: Int, verse: Int? = null) {
+        val range = if (verse != null) IntRange(verse, verse) else null
+        _currentPassage.value = Passage(bookId, chapter, range)
         saveLastPassage(bookId, chapter)
     }
 

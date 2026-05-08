@@ -1,174 +1,359 @@
 package com.verbum.universalis.ui.dashboard
 
+import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
-import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.padding
-import androidx.compose.material3.Button
-import androidx.compose.material3.LinearProgressIndicator
-import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
-import androidx.compose.runtime.collectAsState
-import androidx.compose.runtime.getValue
+import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.*
+import androidx.compose.runtime.*
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
-import com.verbum.universalis.data.json.ReadingPlan
+import com.verbum.universalis.core.theme.VerbumBlue
+import com.verbum.universalis.core.theme.VerbumBlueLight
 import com.verbum.universalis.data.json.ReadingPlanViewModel
-import com.verbum.universalis.data.sync.GitSyncViewModel
-import com.verbum.universalis.data.sync.SyncStage
-import com.verbum.universalis.ui.reader.Passage
 import com.verbum.universalis.ui.navigation.MassReadings
 import com.verbum.universalis.ui.navigation.PlanReadings
+import com.verbum.universalis.ui.reader.Passage
+import java.time.LocalDate
+import java.time.format.DateTimeFormatter
+import java.time.format.TextStyle
+import java.util.*
 
 @Composable
 fun DashboardScreen(
     viewModel: ReadingPlanViewModel = hiltViewModel(),
     dashboardViewModel: DashboardViewModel = hiltViewModel(),
-    gitSyncViewModel: GitSyncViewModel = hiltViewModel(),
     onNavigateToReading: (bookId: Int, chapter: Int) -> Unit = { _, _ -> },
-    onNavigateToMassReading: (bookId: Int, chapter: Int, allReadings: MassReadings, currentIndex: Int) -> Unit = { _, _, _, _ -> },
-    onNavigateToPlanReading: (bookId: Int, chapter: Int, allDays: List<List<String>>, currentDayIndex: Int) -> Unit = { _, _, _, _ -> }
+    onNavigateToMassReading: (bookId: Int, chapter: Int, verse: Int?, allReadings: MassReadings, currentIndex: Int) -> Unit = { _, _, _, _, _ -> },
+    onNavigateToPlanReading: (bookId: Int, chapter: Int, verse: Int?, allDays: List<List<String>>, currentDayIndex: Int) -> Unit = { _, _, _, _, _ -> }
 ) {
     val currentPlan by viewModel.currentPlan.collectAsState(initial = null)
-    val progress by viewModel.progressPercentage.collectAsState(initial = 0f)
     val currentDayReadings by viewModel.currentDayReadings.collectAsState(initial = emptyList())
     val currentDayIndex by viewModel.currentDayIndex.collectAsState(initial = 0)
-    val syncStatus by gitSyncViewModel.syncStatus.collectAsState()
-    val syncProgress by gitSyncViewModel.syncProgress.collectAsState()
-    val todayLiturgical by dashboardViewModel.todayLiturgical.collectAsState(initial = null)
-    val todayMassReadings by dashboardViewModel.todayMassReadings.collectAsState(initial = null)
+    val selectedDateStr by dashboardViewModel.selectedDate.collectAsState()
+    val massReadingsEntry by dashboardViewModel.massReadings.collectAsState()
+
+    val selectedDate = LocalDate.parse(selectedDateStr)
+    val dateFormatter = DateTimeFormatter.ofPattern("MMMM d, yyyy", Locale.getDefault())
 
     Column(
         modifier = Modifier
-            .fillMaxWidth()
-            .padding(16.dp),
-        verticalArrangement = Arrangement.spacedBy(16.dp)
+            .fillMaxSize()
+            .background(Color.White)
+            .padding(horizontal = 24.dp)
     ) {
-        // Sync Status
-        if (!syncStatus.isConfigured) {
+        Spacer(modifier = Modifier.height(24.dp))
+        
+        // Date and Title
+        Text(
+            text = selectedDate.format(dateFormatter),
+            style = MaterialTheme.typography.bodyMedium,
+            color = Color.Gray
+        )
+        Row(
+            modifier = Modifier.fillMaxWidth(),
+            horizontalArrangement = Arrangement.SpaceBetween,
+            verticalAlignment = Alignment.CenterVertically
+        ) {
             Text(
-                text = "Warning: Data is local-only. Configure Git Sync in Settings to backup.",
-                style = MaterialTheme.typography.bodySmall,
-                color = MaterialTheme.colorScheme.error
+                text = if (selectedDate == LocalDate.now()) "Today" else selectedDate.dayOfWeek.getDisplayName(TextStyle.FULL, Locale.getDefault()),
+                style = MaterialTheme.typography.headlineLarge.copy(
+                    fontWeight = FontWeight.Bold,
+                    fontSize = 32.sp
+                ),
+                color = Color.Black
             )
-        } else {
-            val statusText = when (syncProgress) {
-                SyncStage.IDLE -> if (syncStatus.isSyncing) "Starting sync..." else "Idle"
-                SyncStage.PULLING -> "Pulling remote changes..."
-                SyncStage.ADDING -> "Adding local changes..."
-                SyncStage.COMMITTING -> "Committing changes..."
-                SyncStage.PUSHING -> "Pushing to remote..."
-                SyncStage.DONE -> "Sync complete"
-                SyncStage.ERROR -> "Sync error"
-            }
-            Text(text = "Sync Status: $statusText", style = MaterialTheme.typography.bodySmall)
-            if (syncStatus.isSyncing) {
-                LinearProgressIndicator(
-                    modifier = Modifier.fillMaxWidth(),
-                    color = MaterialTheme.colorScheme.primary
+            massReadingsEntry?.season?.let { name ->
+                Text(
+                    text = name,
+                    style = MaterialTheme.typography.bodySmall,
+                    color = VerbumBlue,
+                    modifier = Modifier.widthIn(max = 180.dp),
+                    maxLines = 1,
+                    textAlign = androidx.compose.ui.text.style.TextAlign.End
                 )
-            }
-            syncStatus.lastSyncTime?.let {
-                Text("Last sync: $it", style = MaterialTheme.typography.bodySmall)
-            }
-            Button(onClick = { gitSyncViewModel.triggerSync() }, enabled = !syncStatus.isSyncing) {
-                Text("Sync Now")
             }
         }
 
-        Text("Dashboard", style = MaterialTheme.typography.headlineLarge)
+        Spacer(modifier = Modifier.height(24.dp))
 
-        // Today's Liturgical Reading
-        todayLiturgical?.let { entry ->
-            Text("Today: ${entry.celebration?.name ?: "No celebration"}", style = MaterialTheme.typography.titleMedium)
-            if (entry.readings.isNotEmpty()) {
-                entry.readings.forEach { ref ->
-                    val parts = ref.reference.split(".", ":", " ")
-                    val book = if (parts.isNotEmpty()) parts[0] else ""
-                    val chapter = if (parts.size >= 2) parts[1].toIntOrNull() ?: 1 else 1
-                    
+        // Week Calendar
+        WeekCalendar(
+            selectedDate = selectedDate,
+            onDateSelected = { date ->
+                dashboardViewModel.updateDate(date.toString())
+            }
+        )
+
+        Spacer(modifier = Modifier.height(32.dp))
+
+        // Readings Timeline
+        LazyColumn(
+            modifier = Modifier.fillMaxSize(),
+            verticalArrangement = Arrangement.spacedBy(16.dp),
+            contentPadding = PaddingValues(bottom = 24.dp)
+        ) {
+            // 1. Daily Mass Section
+            massReadingsEntry?.let { mass ->
+                item {
                     Text(
-                        text = "• $book $chapter",
-                        style = MaterialTheme.typography.bodyMedium,
-                        modifier = Modifier.clickable {
-                            val bookId = Passage.BOOK_NAME_TO_ID[book] ?: return@clickable
-                            onNavigateToReading(bookId, chapter)
+                        text = "Daily Mass",
+                        style = MaterialTheme.typography.labelLarge.copy(
+                            fontWeight = FontWeight.Bold,
+                            letterSpacing = 1.sp
+                        ),
+                        color = VerbumBlue,
+                        modifier = Modifier.padding(start = 44.dp, top = 8.dp, bottom = 4.dp)
+                    )
+                }
+
+                val readings = mass.readings.map { it.type to it.reference }
+                items(mass.readings.size) { index ->
+                    val ref = mass.readings[index]
+                    val typeLabel = when (ref.type) {
+                        "firstReading" -> "First Reading"
+                        "psalm" -> "Responsorial Psalm"
+                        "gospel" -> "Gospel"
+                        else -> ref.type.replaceFirstChar { it.uppercase() }
+                    }
+                    
+                    TimelineItem(
+                        title = typeLabel,
+                        subtitle = ref.reference,
+                        time = if (index == 0) "Liturgical" else "",
+                        isHighlighted = ref.type == "gospel",
+                        onClick = {
+                            val parts = ref.reference.split(":")
+                            if (parts.size >= 2) {
+                                val bookAndChapter = parts[0].trim()
+                                val versePartWithRange = parts[1].trim()
+                                
+                                val bookName = if (bookAndChapter.contains(" ")) bookAndChapter.substringBeforeLast(" ").trim() else bookAndChapter
+                                val chapterString = if (bookAndChapter.contains(" ")) bookAndChapter.substringAfterLast(" ").trim() else "1"
+                                
+                                val bookId = Passage.BOOK_NAME_TO_ID[bookName] ?: 
+                                            Passage.BOOK_NAME_TO_ID.entries.find { it.key.contains(bookName, ignoreCase = true) }?.value
+                                
+                                if (bookId != null) {
+                                    val chapter = chapterString.toIntOrNull() ?: 1
+                                    val verse = versePartWithRange.split("-")[0].split(",")[0].trim().toIntOrNull()
+                                    onNavigateToMassReading(bookId, chapter, verse, readings, index)
+                                }
+                            } else {
+                                // Fallback for simple references like "John 1" or "John 1-5"
+                                val refText = ref.reference.trim()
+                                val bookName = if (refText.contains(" ")) refText.substringBeforeLast(" ").trim() else refText
+                                val chapterString = if (refText.contains(" ")) refText.substringAfterLast(" ").trim() else "1"
+                                
+                                val bookId = Passage.BOOK_NAME_TO_ID[bookName] ?: 
+                                            Passage.BOOK_NAME_TO_ID.entries.find { it.key.contains(bookName, ignoreCase = true) }?.value
+                                if (bookId != null) {
+                                    val chapter = chapterString.split("-")[0].split(",")[0].trim().toIntOrNull() ?: 1
+                                    onNavigateToReading(bookId, chapter)
+                                }
+                            }
                         }
                     )
                 }
             }
-            Spacer(modifier = Modifier.height(16.dp))
+
+            // Separator between Mass and Plan
+            if (massReadingsEntry != null && currentDayReadings.isNotEmpty()) {
+                item {
+                    HorizontalDivider(
+                        modifier = Modifier.padding(vertical = 12.dp, horizontal = 16.dp),
+                        thickness = 1.dp,
+                        color = Color(0xFFF0F0F0)
+                    )
+                }
+            }
+
+            // 2. Yearly Plan Section
+            if (currentDayReadings.isNotEmpty()) {
+                item {
+                    Text(
+                        text = "Yearly Plan",
+                        style = MaterialTheme.typography.labelLarge.copy(
+                            fontWeight = FontWeight.Bold,
+                            letterSpacing = 1.sp
+                        ),
+                        color = Color.Gray,
+                        modifier = Modifier.padding(start = 44.dp, bottom = 4.dp)
+                    )
+                }
+
+                val allPlanDays = currentPlan?.days?.map { day ->
+                    day.readings.map { it.toString() }
+                } ?: emptyList()
+
+                items(currentDayReadings.size) { index ->
+                    val reading = currentDayReadings[index]
+                    TimelineItem(
+                        title = "Bible in a Year",
+                        subtitle = "${reading.book} ${reading.chapter}",
+                        time = "Day ${currentDayIndex + 1}",
+                        isHighlighted = false,
+                        onClick = {
+                            val bookId = Passage.BOOK_NAME_TO_ID[reading.book] ?: 
+                                        Passage.BOOK_NAME_TO_ID.entries.find { it.key.contains(reading.book, ignoreCase = true) }?.value
+                            if (bookId != null) {
+                                onNavigateToPlanReading(bookId, reading.chapter, reading.verse, allPlanDays, currentDayIndex)
+                            }
+                        }
+                    )
+                }
+            }
+        }
+    }
+}
+
+@Composable
+fun WeekCalendar(
+    selectedDate: LocalDate,
+    onDateSelected: (LocalDate) -> Unit
+) {
+    val today = LocalDate.now()
+    // Show a window of 7 days around the selected date or just the current week
+    val startOfWeek = today.minusDays(today.dayOfWeek.value.toLong() - 1)
+    
+    Row(
+        modifier = Modifier.fillMaxWidth(),
+        horizontalArrangement = Arrangement.SpaceBetween
+    ) {
+        (0..6).forEach { dayOffset ->
+            val date = startOfWeek.plusDays(dayOffset.toLong())
+            val isSelected = date == selectedDate
+            
+            Column(
+                horizontalAlignment = Alignment.CenterHorizontally,
+                verticalArrangement = Arrangement.spacedBy(8.dp),
+                modifier = Modifier.clickable(
+                    interactionSource = remember { androidx.compose.foundation.interaction.MutableInteractionSource() },
+                    indication = null
+                ) { onDateSelected(date) }
+            ) {
+                Text(
+                    text = date.dayOfWeek.getDisplayName(TextStyle.SHORT, Locale.getDefault()),
+                    style = MaterialTheme.typography.bodySmall,
+                    color = if (isSelected) VerbumBlue else Color.Gray,
+                    fontWeight = if (isSelected) FontWeight.Bold else FontWeight.Normal
+                )
+                Text(
+                    text = date.dayOfMonth.toString(),
+                    style = MaterialTheme.typography.bodyLarge.copy(
+                        fontWeight = if (isSelected) FontWeight.Bold else FontWeight.Medium
+                    ),
+                    color = if (isSelected) VerbumBlue else Color.Black
+                )
+                if (isSelected) {
+                    Box(
+                        modifier = Modifier
+                            .size(4.dp)
+                            .clip(CircleShape)
+                            .background(VerbumBlue)
+                    )
+                } else {
+                    Spacer(modifier = Modifier.size(4.dp))
+                }
+            }
+        }
+    }
+}
+
+@Composable
+fun TimelineItem(
+    title: String,
+    subtitle: String,
+    time: String,
+    isHighlighted: Boolean,
+    onClick: () -> Unit
+) {
+    Row(
+        modifier = Modifier
+            .fillMaxWidth()
+            .height(IntrinsicSize.Min)
+            .clickable(onClick = onClick),
+        verticalAlignment = Alignment.Top
+    ) {
+        // Timeline line and dot
+        Box(
+            modifier = Modifier
+                .width(32.dp)
+                .fillMaxHeight(),
+            contentAlignment = Alignment.TopCenter
+        ) {
+            // The vertical line
+            Box(
+                modifier = Modifier
+                    .width(2.dp)
+                    .fillMaxHeight()
+                    .padding(top = 12.dp) // Start below the dot center
+                    .background(Color(0xFFF0F0F0))
+            )
+            
+            // The dot
+            Box(
+                modifier = Modifier
+                    .padding(top = 4.dp)
+                    .size(16.dp)
+                    .clip(CircleShape)
+                    .background(if (isHighlighted) VerbumBlue else Color.White)
+                    .then(
+                        if (!isHighlighted) Modifier.background(Color.White).padding(2.dp).clip(CircleShape).background(Color.LightGray) else Modifier
+                    )
+            )
         }
 
-        // Today's Mass Readings (with flow navigation)
-        todayMassReadings?.let { entry ->
-            Text("Mass Readings:", style = MaterialTheme.typography.titleMedium)
-            val readings = entry.readings.map { it.type to it.reference }
-            entry.readings.forEachIndexed { idx, ref ->
-                val typeLabel = when (ref.type) {
-                    "firstReading" -> "1st Reading"
-                    "psalm" -> "Psalm"
-                    "gospel" -> "Gospel"
-                    else -> ref.type ?: "Reading"
-                }
-                Text(
-                    text = "• $typeLabel: ${ref.reference}",
-                    style = MaterialTheme.typography.bodyMedium,
-                    modifier = Modifier.clickable {
-                        val parts = ref.reference.split(":")
-                        if (parts.size >= 2) {
-                            val bookPart = parts[0].trim()
-                            val chapterVerse = parts[1].split("-")[0].split(",")[0].trim()
-                            val bookId = Passage.BOOK_NAME_TO_ID[bookPart] ?: return@clickable
-                            val chapter = chapterVerse.toIntOrNull() ?: return@clickable
-                            onNavigateToMassReading(bookId, chapter, readings, idx)
-                        }
+        Spacer(modifier = Modifier.width(12.dp))
+
+        // Content Card
+        Card(
+            modifier = Modifier
+                .weight(1f)
+                .padding(bottom = 8.dp),
+            shape = RoundedCornerShape(16.dp),
+            colors = CardDefaults.cardColors(
+                containerColor = if (isHighlighted) VerbumBlue else Color(0xFFF8F9FA)
+            ),
+            elevation = CardDefaults.cardElevation(defaultElevation = 0.dp)
+        ) {
+            Column(
+                modifier = Modifier.padding(16.dp)
+            ) {
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.SpaceBetween,
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+                    Text(
+                        text = title,
+                        style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
+                        color = if (isHighlighted) Color.White else Color.Black
+                    )
+                    if (time.isNotEmpty()) {
+                        Text(
+                            text = time,
+                            style = MaterialTheme.typography.bodySmall,
+                            color = if (isHighlighted) Color.White.copy(alpha = 0.8f) else Color.Gray
+                        )
                     }
+                }
+                Spacer(modifier = Modifier.height(4.dp))
+                Text(
+                    text = subtitle,
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = if (isHighlighted) Color.White.copy(alpha = 0.9f) else Color.Gray
                 )
             }
-            Spacer(modifier = Modifier.height(16.dp))
-        }
-
-        Spacer(modifier = Modifier.height(16.dp))
-
-        // Bible in a Year Plan
-        Text("Current Plan: ${currentPlan?.title ?: "None"}", style = MaterialTheme.typography.titleMedium)
-        LinearProgressIndicator(
-            progress = { progress },
-            modifier = Modifier.fillMaxWidth().height(2.dp),
-            color = MaterialTheme.colorScheme.primary
-        )
-
-        Spacer(modifier = Modifier.height(16.dp))
-
-        Text("Today's Readings:", style = MaterialTheme.typography.titleMedium)
-        
-        // Get all plan readings for navigation flow
-        val allPlanDays = currentPlan?.days?.map { day -> 
-            day.readings.mapNotNull { reading ->
-                // Parse reading reference "Genesis 1:1" or just "GEN.1"
-                val ref = when (reading) {
-                    is String -> reading
-                    else -> null
-                }
-                ref
-            }
-        } ?: emptyList()
-        
-        currentDayReadings.forEachIndexed { idx, reading ->
-            Text(
-                text = "- ${reading.book} ${reading.chapter}",
-                style = MaterialTheme.typography.bodyMedium,
-                modifier = Modifier.clickable {
-                    val bookId = Passage.BOOK_NAME_TO_ID[reading.book] ?: return@clickable
-                    onNavigateToPlanReading(bookId, reading.chapter, allPlanDays, currentDayIndex)
-                }
-            )
         }
     }
 }
