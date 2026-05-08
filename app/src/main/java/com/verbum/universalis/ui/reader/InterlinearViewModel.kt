@@ -60,8 +60,9 @@ class InterlinearViewModel @Inject constructor(
     val selectedWord: StateFlow<InterlinearWordEntity?> = _selectedWord.asStateFlow()
 
     val lexiconEntry: Flow<LexiconEntity?> = _selectedWord.flatMapLatest { word ->
-        if (word == null) flowOf(null)
-        else repository.getLexiconEntry(word.lemma)
+        val lemma = word?.lemma
+        if (lemma == null) flowOf(null)
+        else repository.getLexiconEntry(lemma)
     }
 
     private val _showMorphology = MutableStateFlow(true)

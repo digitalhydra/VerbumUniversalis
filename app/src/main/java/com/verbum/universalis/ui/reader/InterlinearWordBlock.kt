@@ -43,7 +43,7 @@ fun InterlinearWordBlock(
         )
 
         // 2. Transliteration (Sans-Serif, Italic, Muted Gray)
-        if (word.transliteration.isNotBlank()) {
+        if (!word.transliteration.isNullOrBlank()) {
             Text(
                 text = word.transliteration,
                 style = MaterialTheme.typography.labelSmall.copy(
@@ -55,7 +55,7 @@ fun InterlinearWordBlock(
         }
 
         // 3. Literal Translation (Serif)
-        if (word.literal.isNotBlank()) {
+        if (!word.literal.isNullOrBlank()) {
             Text(
                 text = word.literal,
                 style = MaterialTheme.typography.bodyMedium.copy(
@@ -66,7 +66,7 @@ fun InterlinearWordBlock(
         }
 
         // 4. Morphology (Sans-Serif, Small, Muted Gray) - Controlled by global toggle
-        if (showMorphology && word.morphology.isNotBlank()) {
+        if (showMorphology && !word.morphology.isNullOrBlank()) {
             Text(
                 text = word.morphology,
                 style = MaterialTheme.typography.labelSmall.copy(

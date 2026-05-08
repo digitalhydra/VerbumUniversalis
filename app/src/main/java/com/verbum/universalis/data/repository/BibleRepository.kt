@@ -56,7 +56,7 @@ class BibleRepository(
 
     suspend fun getCatenaForVerse(verseId: Int): List<CatenaCommentaryEntity> {
         val verse = getVerseByIdSync(verseId) ?: return emptyList()
-        return getCatenaForVerse(verse.book_id, verse.chapter, verse.verse_number)
+        return getCatenaForVerse(verse.book_id ?: 0, verse.chapter ?: 0, verse.verse_number ?: 0)
     }
 
     suspend fun isCatenaDownloaded(): Boolean {
@@ -92,7 +92,7 @@ class BibleRepository(
     // Get references for a verse with descriptions
     suspend fun getReferencesForVerse(verseId: Int): List<Reference> {
         val verse = getVerseByIdSync(verseId) ?: return emptyList()
-        return getReferencesForVerse(verse.book_id, verse.chapter, verse.verse_number)
+        return getReferencesForVerse(verse.book_id ?: 0, verse.chapter ?: 0, verse.verse_number ?: 0)
     }
 
     suspend fun getReferencesForVerse(bookId: Int, chapter: Int, verseNumber: Int): List<Reference> {

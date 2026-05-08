@@ -9,7 +9,7 @@ import com.verbum.universalis.data.entities.*
 
 @Database(
     entities = [BookEntity::class, VerseEntity::class, TextEntity::class, InterlinearWordEntity::class, LexiconEntity::class],
-    version = 1
+    version = 2
 )
 abstract class AppDatabase : RoomDatabase() {
     abstract fun verseDao(): VerseDao
@@ -28,6 +28,7 @@ abstract class AppDatabase : RoomDatabase() {
                     "verbum_database"
                 )
                 .createFromAsset("verbum_seed.db")
+                .fallbackToDestructiveMigration(true)
                 .build()
                 INSTANCE = instance
                 instance

@@ -42,7 +42,12 @@ class StudyInspectorViewModel @Inject constructor(
         _selectedWord.value = word
         if (word != null) {
             viewModelScope.launch {
-                _lexiconEntry.value = repository.getLexiconEntry(word.lemma).first()
+                val lemma = word.lemma
+                _lexiconEntry.value = if (lemma != null) {
+                    repository.getLexiconEntry(lemma).first()
+                } else {
+                    null
+                }
             }
             setActiveTab(InspectorTab.LEXICON)
         }
