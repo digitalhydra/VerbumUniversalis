@@ -36,6 +36,12 @@ interface VerseDao {
 
     @Query("SELECT * FROM books ORDER BY id ASC")
     fun getAllBooks(): Flow<List<BookEntity>>
+
+    @Query("SELECT MAX(chapter) FROM verses WHERE book_id = :bookId")
+    fun getMaxChapterForBook(bookId: Int): Flow<Int?>
+
+    @Query("SELECT MAX(verse_number) FROM verses WHERE book_id = :bookId AND chapter = :chapter")
+    fun getMaxVerseForChapter(bookId: Int, chapter: Int): Flow<Int?>
 }
 
 @Dao

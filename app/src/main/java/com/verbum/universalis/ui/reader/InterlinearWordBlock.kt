@@ -36,7 +36,6 @@ fun InterlinearWordBlock(
         Text(
             text = word.original,
             style = MaterialTheme.typography.bodyLarge.copy(
-                fontFamily = SourceSerifPro,
                 fontWeight = androidx.compose.ui.text.font.FontWeight.Bold
             ),
             color = if (isSelected) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.onSurface
@@ -47,7 +46,6 @@ fun InterlinearWordBlock(
             Text(
                 text = word.transliteration,
                 style = MaterialTheme.typography.labelSmall.copy(
-                    fontFamily = Inter,
                     fontStyle = androidx.compose.ui.text.font.FontStyle.Italic
                 ),
                 color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.6f)
@@ -69,9 +67,7 @@ fun InterlinearWordBlock(
         if (showMorphology && !word.morphology.isNullOrBlank()) {
             Text(
                 text = word.morphology,
-                style = MaterialTheme.typography.labelSmall.copy(
-                    fontFamily = Inter
-                ),
+                style = MaterialTheme.typography.labelSmall,
                 color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.6f)
             )
         }

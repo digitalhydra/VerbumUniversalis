@@ -147,7 +147,9 @@ fun VerbumNavGraph(
                         Route.ReadingCanvas.createRouteWithPlan(nextBookId, nextChapter, nextVerse, planReadings, nextDayIdx)
                     )
                 },
-                onBack = { navController.popBackStack() }
+                onBack = { 
+                    navController.popBackStack(Route.Dashboard.route, inclusive = false)
+                }
             )
         }
 

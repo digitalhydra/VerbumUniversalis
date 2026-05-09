@@ -49,6 +49,14 @@ class BibleRepository(
         return verseDao.getAllBooks()
     }
 
+    fun getMaxChapterForBook(bookId: Int): Flow<Int?> {
+        return verseDao.getMaxChapterForBook(bookId)
+    }
+
+    fun getMaxVerseForChapter(bookId: Int, chapter: Int): Flow<Int?> {
+        return verseDao.getMaxVerseForChapter(bookId, chapter)
+    }
+
     // Catena methods
     suspend fun getCatenaForVerse(bookId: Int, chapter: Int, verseNumber: Int): List<CatenaCommentaryEntity> {
         return catenaRepository.getCommentariesForVerse(bookId, chapter, verseNumber).first()

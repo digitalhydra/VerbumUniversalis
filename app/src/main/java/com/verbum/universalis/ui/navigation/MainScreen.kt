@@ -25,6 +25,12 @@ import com.verbum.universalis.core.theme.VerbumBlue
 @Composable
 fun MainScreen() {
     val navController = rememberNavController()
+    val navBackStackEntry by navController.currentBackStackEntryAsState()
+    val currentDestination = navBackStackEntry?.destination
+    val currentRoute = currentDestination?.route
+    
+    // Bottom bar only on Dashboard
+    val showBottomBar = currentRoute == Route.Dashboard.route
     
     val items = listOf(
         NavigationItem("Bible", Route.ReadingCanvas.route, Icons.Default.MenuBook),
@@ -34,43 +40,42 @@ fun MainScreen() {
 
     Scaffold(
         bottomBar = {
-            NavigationBar(
-                containerColor = Color.White,
-                tonalElevation = 0.dp
-            ) {
-                val navBackStackEntry by navController.currentBackStackEntryAsState()
-                val currentDestination = navBackStackEntry?.destination
-                
-                items.forEach { item ->
-                    val selected = currentDestination?.hierarchy?.any { it.route?.startsWith(item.route) == true } == true
-                    NavigationBarItem(
-                        icon = { 
-                            Icon(
-                                imageVector = item.icon, 
-                                contentDescription = item.label,
-                                modifier = Modifier.size(28.dp)
-                            ) 
-                        },
-                        label = null,
-                        alwaysShowLabel = false,
-                        selected = selected,
-                        onClick = {
-                            navController.navigate(item.route) {
-                                popUpTo(navController.graph.findStartDestination().id) {
-                                    saveState = true
+            if (showBottomBar) {
+                NavigationBar(
+                    containerColor = Color.White,
+                    tonalElevation = 0.dp
+                ) {
+                    items.forEach { item ->
+                        val selected = currentDestination?.hierarchy?.any { it.route?.startsWith(item.route) == true } == true
+                        NavigationBarItem(
+                            icon = { 
+                                Icon(
+                                    imageVector = item.icon, 
+                                    contentDescription = item.label,
+                                    modifier = Modifier.size(28.dp)
+                                ) 
+                            },
+                            label = null,
+                            alwaysShowLabel = false,
+                            selected = selected,
+                            onClick = {
+                                navController.navigate(item.route) {
+                                    popUpTo(navController.graph.findStartDestination().id) {
+                                        saveState = true
+                                    }
+                                    launchSingleTop = true
+                                    restoreState = true
                                 }
-                                launchSingleTop = true
-                                restoreState = true
-                            }
-                        },
-                        colors = NavigationBarItemDefaults.colors(
-                            selectedIconColor = VerbumBlue,
-                            selectedTextColor = VerbumBlue,
-                            indicatorColor = Color.Transparent,
-                            unselectedIconColor = Color.Gray,
-                            unselectedTextColor = Color.Gray
+                            },
+                            colors = NavigationBarItemDefaults.colors(
+                                selectedIconColor = VerbumBlue,
+                                selectedTextColor = VerbumBlue,
+                                indicatorColor = Color.Transparent,
+                                unselectedIconColor = Color.Gray,
+                                unselectedTextColor = Color.Gray
+                            )
                         )
-                    )
+                    }
                 }
             }
         }

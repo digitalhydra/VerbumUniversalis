@@ -7,6 +7,7 @@ import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.core.edit
 import androidx.datastore.preferences.core.stringPreferencesKey
 import androidx.datastore.preferences.preferencesDataStore
+import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.verbum.universalis.data.repository.BibleRepository
@@ -22,6 +23,7 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.combine
+import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.flatMapLatest
 import kotlinx.coroutines.flow.flowOf
 import kotlinx.coroutines.flow.map
@@ -100,23 +102,39 @@ val Application.dataStore by preferencesDataStore(name = "verbum_settings")
 @HiltViewModel
 class ReadingViewModel @Inject constructor(
     private val repository: BibleRepository,
-    private val app: Application
+    private val app: Application,
+    private val savedStateHandle: SavedStateHandle
 ) : ViewModel() {
 
     private val LAST_PASSAGE_KEY = stringPreferencesKey("last_passage")
 
-    private val _currentPassage = MutableStateFlow(Passage(1, 1, null)) // Default: Genesis 1
-    val currentPassage: StateFlow<Passage> = _currentPassage.asStateFlow()
+    private val _currentPassage: MutableStateFlow<Passage>
+    val currentPassage: StateFlow<Passage>
 
     init {
-        // Load last read passage from DataStore
-        viewModelScope.launch {
-            app.dataStore.data.collect { preferences ->
-                val lastPassage = preferences[LAST_PASSAGE_KEY]
-                if (lastPassage != null) {
-                    val passage = Passage.fromString(lastPassage, Passage.BOOK_NAME_TO_ID)
-                    if (passage != null) {
-                        _currentPassage.value = passage
+        val bookId = savedStateHandle.get<Int>("bookId") ?: -1
+        val chapter = savedStateHandle.get<Int>("chapter") ?: -1
+        val verse = savedStateHandle.get<Int>("verse") ?: -1
+
+        val initialPassage = if (bookId != -1 && chapter != -1) {
+            Passage(bookId, chapter, if (verse != -1) IntRange(verse, verse) else null)
+        } else {
+            Passage(1, 1, null) // Temporary default
+        }
+
+        _currentPassage = MutableStateFlow(initialPassage)
+        currentPassage = _currentPassage.asStateFlow()
+
+        if (bookId == -1 || chapter == -1) {
+            // Load last read passage from DataStore only if no arguments provided
+            viewModelScope.launch {
+                app.dataStore.data.first().let { preferences ->
+                    val lastPassage = preferences[LAST_PASSAGE_KEY]
+                    if (lastPassage != null) {
+                        val passage = Passage.fromString(lastPassage, Passage.BOOK_NAME_TO_ID)
+                        if (passage != null) {
+                            _currentPassage.value = passage
+                        }
                     }
                 }
             }
@@ -210,6 +228,42 @@ class ReadingViewModel @Inject constructor(
         }
     }
 
+    fun nextChapter() {
+        Log.d("ReadingViewModel", "nextChapter called")
+        viewModelScope.launch {
+            val current = _currentPassage.value
+            val maxChapter = repository.getMaxChapterForBook(current.bookId).first() ?: 1
+            Log.d("ReadingViewModel", "current book: ${current.bookId}, chapter: ${current.chapter}, maxChapter: $maxChapter")
+            if (current.chapter < maxChapter) {
+                setPassage(current.bookId, current.chapter + 1)
+            } else {
+                // Next book
+                if (current.bookId < 73) { // 73 is the last Catholic book ID
+                    Log.d("ReadingViewModel", "Moving to next book: ${current.bookId + 1}")
+                    setPassage(current.bookId + 1, 1)
+                }
+            }
+        }
+    }
+
+    fun previousChapter() {
+        Log.d("ReadingViewModel", "previousChapter called")
+        viewModelScope.launch {
+            val current = _currentPassage.value
+            if (current.chapter > 1) {
+                setPassage(current.bookId, current.chapter - 1)
+            } else {
+                // Previous book
+                if (current.bookId > 1) {
+                    val prevBookId = current.bookId - 1
+                    val maxChapterOfPrev = repository.getMaxChapterForBook(prevBookId).first() ?: 1
+                    Log.d("ReadingViewModel", "Moving to previous book: $prevBookId, maxChapter: $maxChapterOfPrev")
+                    setPassage(prevBookId, maxChapterOfPrev)
+                }
+            }
+        }
+    }
+
     private fun saveLastPassage(bookId: Int, chapter: Int) {
         viewModelScope.launch {
             app.dataStore.edit { preferences ->
@@ -279,11 +333,15 @@ class ReadingViewModel @Inject constructor(
         }
     }
 
-    // Get display string for current passage (e.g., "Genesis 1:1")
-    fun getCurrentPassageReference(): String {
-        val p = _currentPassage.value ?: return ""
+    // Get display string for a passage (e.g., "Genesis 1")
+    fun getPassageReference(p: Passage): String {
         val bookName = Passage.BOOK_ID_TO_NAME[p.bookId] ?: "Book ${p.bookId}"
         return "$bookName ${p.chapter}"
+    }
+
+    @Deprecated("Use getPassageReference(Passage) instead", ReplaceWith("getPassageReference(currentPassage.value)"))
+    fun getCurrentPassageReference(): String {
+        return getPassageReference(_currentPassage.value)
     }
 
     // Unified save: note with optional highlight
