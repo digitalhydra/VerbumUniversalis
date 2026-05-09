@@ -174,7 +174,6 @@ fun ReadingCanvas(
                 Text(
                     text = viewModel.getPassageReference(currentPassage),
                     style = MaterialTheme.typography.headlineMedium.copy(
-                        fontFamily = SourceSerifPro,
                         fontWeight = FontWeight.Bold
                     ),
                     modifier = Modifier.padding(bottom = 16.dp)
@@ -185,7 +184,6 @@ fun ReadingCanvas(
                         Text(
                             text = annotatedString,
                             style = MaterialTheme.typography.bodyLarge.copy(
-                                fontFamily = SourceSerifPro,
                                 fontSize = 18.sp,
                                 lineHeight = 30.sp
                             ),

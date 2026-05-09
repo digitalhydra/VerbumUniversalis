@@ -56,9 +56,7 @@ fun InterlinearWordBlock(
         if (!word.literal.isNullOrBlank()) {
             Text(
                 text = word.literal,
-                style = MaterialTheme.typography.bodyMedium.copy(
-                    fontFamily = SourceSerifPro
-                ),
+                style = MaterialTheme.typography.bodyMedium,
                 color = MaterialTheme.colorScheme.onSurface
             )
         }
