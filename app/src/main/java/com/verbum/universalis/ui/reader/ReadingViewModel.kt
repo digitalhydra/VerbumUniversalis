@@ -151,7 +151,9 @@ class ReadingViewModel @Inject constructor(
     val selectedVerseIdForNote: StateFlow<Int?> = _selectedVerseIdForNote.asStateFlow()
 
     @OptIn(ExperimentalCoroutinesApi::class)
-    val verses: Flow<List<VerseWithTexts>> = _currentPassage.flatMapLatest { passage ->
+    val verses: Flow<List<VerseWithTexts>> = combine(_currentPassage, _activeLanguage) { passage, _ -> 
+        passage 
+    }.flatMapLatest { passage ->
         repository.getChapter(passage.bookId, passage.chapter)
     }
     
@@ -224,10 +226,11 @@ class ReadingViewModel @Inject constructor(
         }
     }
 
-    // Cycle through languages: en_DRB -> es_PLA -> la_VUL -> en_DRB
+    // Cycle through languages: en_DRB -> es_PLA -> la_VUL -> el_GRK -> en_DRB
     fun toggleLanguage() {
         _activeLanguage.value = when (_activeLanguage.value) {
             "en_DRB" -> "es_PLA"
+            "es_PLA" -> "la_VUL"
             "la_VUL" -> "el_GRK"
             else -> "en_DRB"
         }
@@ -262,8 +265,7 @@ class ReadingViewModel @Inject constructor(
         _selectedVerseId.value = verseId
     }
 
-    fun getDisplayText(verseWithTexts: VerseWithTexts): String {
-        val langCode = _activeLanguage.value
+    fun getDisplayText(verseWithTexts: VerseWithTexts, langCode: String): String {
         return verseWithTexts.texts.find { it.lang_code == langCode }?.content ?: "N/A"
     }
 

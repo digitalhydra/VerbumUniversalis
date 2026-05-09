@@ -74,7 +74,7 @@ fun ReadingCanvas(
                 contentPadding = androidx.compose.foundation.layout.PaddingValues(horizontal = 16.dp, vertical = 8.dp)
             ) {
                 items(verses) { verseWithTexts ->
-                    val displayText = viewModel.getDisplayText(verseWithTexts)
+                    val displayText = viewModel.getDisplayText(verseWithTexts, activeLanguage)
                     val highlights = viewModel.getHighlightsForVerse(verseWithTexts.verse.id)
                     val isThisVerseSelected = selectedVerseId == verseWithTexts.verse.id
                     VerseItem(
