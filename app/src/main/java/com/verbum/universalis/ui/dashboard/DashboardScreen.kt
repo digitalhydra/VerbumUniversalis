@@ -45,6 +45,10 @@ fun DashboardScreen(
     val selectedDate = LocalDate.parse(selectedDateStr)
     val dateFormatter = DateTimeFormatter.ofPattern("MMMM d, yyyy", Locale.getDefault())
 
+    val accentColor = remember(massReadingsEntry?.season) {
+        getLiturgicalColor(massReadingsEntry?.season)
+    }
+
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -76,7 +80,7 @@ fun DashboardScreen(
                 Text(
                     text = name,
                     style = MaterialTheme.typography.bodySmall,
-                    color = VerbumBlue,
+                    color = accentColor,
                     modifier = Modifier.widthIn(max = 180.dp),
                     maxLines = 1,
                     textAlign = androidx.compose.ui.text.style.TextAlign.End
@@ -89,6 +93,7 @@ fun DashboardScreen(
         // Week Calendar
         WeekCalendar(
             selectedDate = selectedDate,
+            accentColor = accentColor,
             onDateSelected = { date ->
                 dashboardViewModel.updateDate(date.toString())
             }
@@ -111,7 +116,7 @@ fun DashboardScreen(
                             fontWeight = FontWeight.Bold,
                             letterSpacing = 1.sp
                         ),
-                        color = VerbumBlue,
+                        color = accentColor,
                         modifier = Modifier.padding(start = 44.dp, top = 8.dp, bottom = 4.dp)
                     )
                 }
@@ -131,6 +136,7 @@ fun DashboardScreen(
                         subtitle = ref.reference,
                         time = if (index == 0) "Liturgical" else "",
                         isHighlighted = ref.type == "gospel",
+                        accentColor = accentColor,
                         onClick = {
                             val parts = ref.reference.split(":")
                             if (parts.size >= 2) {
@@ -202,6 +208,7 @@ fun DashboardScreen(
                         subtitle = "${reading.book} ${reading.chapter}",
                         time = "Day ${currentDayIndex + 1}",
                         isHighlighted = false,
+                        accentColor = accentColor,
                         onClick = {
                             val bookId = Passage.BOOK_NAME_TO_ID[reading.book] ?: 
                                         Passage.BOOK_NAME_TO_ID.entries.find { it.key.contains(reading.book, ignoreCase = true) }?.value
@@ -219,6 +226,7 @@ fun DashboardScreen(
 @Composable
 fun WeekCalendar(
     selectedDate: LocalDate,
+    accentColor: Color,
     onDateSelected: (LocalDate) -> Unit
 ) {
     val today = LocalDate.now()
@@ -244,7 +252,7 @@ fun WeekCalendar(
                 Text(
                     text = date.dayOfWeek.getDisplayName(TextStyle.SHORT, Locale.getDefault()),
                     style = MaterialTheme.typography.bodySmall,
-                    color = if (isSelected) VerbumBlue else Color.Gray,
+                    color = if (isSelected) accentColor else Color.Gray,
                     fontWeight = if (isSelected) FontWeight.Bold else FontWeight.Normal
                 )
                 Text(
@@ -252,14 +260,14 @@ fun WeekCalendar(
                     style = MaterialTheme.typography.bodyLarge.copy(
                         fontWeight = if (isSelected) FontWeight.Bold else FontWeight.Medium
                     ),
-                    color = if (isSelected) VerbumBlue else Color.Black
+                    color = if (isSelected) accentColor else Color.Black
                 )
                 if (isSelected) {
                     Box(
                         modifier = Modifier
                             .size(4.dp)
                             .clip(CircleShape)
-                            .background(VerbumBlue)
+                            .background(accentColor)
                     )
                 } else {
                     Spacer(modifier = Modifier.size(4.dp))
@@ -275,6 +283,7 @@ fun TimelineItem(
     subtitle: String,
     time: String,
     isHighlighted: Boolean,
+    accentColor: Color,
     onClick: () -> Unit
 ) {
     Row(
@@ -306,7 +315,7 @@ fun TimelineItem(
                     .padding(top = 4.dp)
                     .size(16.dp)
                     .clip(CircleShape)
-                    .background(if (isHighlighted) VerbumBlue else Color.White)
+                    .background(if (isHighlighted) accentColor else Color.White)
                     .then(
                         if (!isHighlighted) Modifier.background(Color.White).padding(2.dp).clip(CircleShape).background(Color.LightGray) else Modifier
                     )
@@ -322,7 +331,7 @@ fun TimelineItem(
                 .padding(bottom = 8.dp),
             shape = RoundedCornerShape(16.dp),
             colors = CardDefaults.cardColors(
-                containerColor = if (isHighlighted) VerbumBlue else Color(0xFFF8F9FA)
+                containerColor = if (isHighlighted) accentColor else Color(0xFFF8F9FA)
             ),
             elevation = CardDefaults.cardElevation(defaultElevation = 0.dp)
         ) {
@@ -355,5 +364,20 @@ fun TimelineItem(
                 )
             }
         }
+    }
+}
+
+fun getLiturgicalColor(season: String?): Color {
+    return when {
+        season == null -> VerbumBlue
+        season.contains("Advent", ignoreCase = true) -> Color(0xFF673AB7) // Violet
+        season.contains("Christmas", ignoreCase = true) -> Color(0xFFB8860B) // Dark Gold
+        season.contains("Lent", ignoreCase = true) -> Color(0xFF673AB7) // Violet
+        season.contains("Easter", ignoreCase = true) -> Color(0xFFB8860B) // Dark Gold
+        season.contains("Ordinary", ignoreCase = true) -> Color(0xFF388E3C) // Green
+        season.contains("Holy Week", ignoreCase = true) || 
+        season.contains("Pentecost", ignoreCase = true) ||
+        season.contains("Passion", ignoreCase = true) -> Color(0xFFC62828) // Red
+        else -> VerbumBlue
     }
 }
