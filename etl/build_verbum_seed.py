@@ -393,9 +393,12 @@ def create_fresh_db(path):
 def populate_books(conn):
     """Insert 73 Catholic books."""
     for entry in BOOKS:
+        # BOOKS entry: (id, sword_code, name_en, name_es, name_la, testament)
+        # Table: id, name_en, name_es, name_la, testament
+        data = (entry[0], entry[2], entry[3], entry[4], entry[5])
         conn.execute(
             "INSERT INTO books (id, name_en, name_es, name_la, testament) VALUES (?, ?, ?, ?, ?)",
-            entry[:5]  # id, name_en, name_es, name_la, testament
+            data
         )
     conn.commit()
     print(f"  Inserted {len(BOOKS)} books")

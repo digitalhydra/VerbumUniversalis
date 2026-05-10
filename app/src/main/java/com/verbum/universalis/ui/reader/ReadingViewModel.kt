@@ -59,7 +59,9 @@ data class Passage(val bookId: Int, val chapter: Int, val verseRange: IntRange?)
             "3 John" to 71, "Jude" to 72, "Revelation" to 73, "Rev" to 73
         )
         
-        val BOOK_ID_TO_NAME = BOOK_NAME_TO_ID.entries.associate { (k, v) -> v to k }
+        val BOOK_ID_TO_NAME = BOOK_NAME_TO_ID.entries
+            .sortedBy { it.key.length }
+            .associate { (k, v) -> v to k }
 
         fun fromString(query: String, bookNameToId: Map<String, Int>): Passage? {
             // Check for simple ID:CHAPTER format

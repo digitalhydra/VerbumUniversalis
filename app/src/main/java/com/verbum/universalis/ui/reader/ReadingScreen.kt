@@ -272,6 +272,9 @@ fun ReadingScreen(
                 exit = slideOutVertically(targetOffsetY = { -it })
             ) {
                 BookPickerScreen(
+                    initialBookId = currentPassage.bookId,
+                    initialChapter = currentPassage.chapter,
+                    initialVerse = currentPassage.verseRange?.start,
                     onClose = { showBookPicker = false },
                     onResult = { b, c, v ->
                         viewModel.setPassage(b, c, v)
