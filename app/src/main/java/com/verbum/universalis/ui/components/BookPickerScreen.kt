@@ -429,7 +429,7 @@ fun BookGrid(books: List<BookEntity>, selectedBookId: Int?, onBookClick: (BookEn
 @Composable
 fun BookItem(book: BookEntity, isSelected: Boolean, onClick: () -> Unit) {
     val abbreviation = getAbbreviation(book.id)
-    val fullName = book.name_en
+    val fullName = Passage.BOOK_ID_TO_LONG_NAME[book.id] ?: book.name_en
     Card(
         modifier = Modifier
             .fillMaxWidth()

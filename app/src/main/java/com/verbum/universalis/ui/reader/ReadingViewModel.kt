@@ -59,9 +59,27 @@ data class Passage(val bookId: Int, val chapter: Int, val verseRange: IntRange?)
             "3 John" to 71, "Jude" to 72, "Revelation" to 73, "Rev" to 73
         )
         
-        val BOOK_ID_TO_NAME = BOOK_NAME_TO_ID.entries
-            .sortedBy { it.key.length }
-            .associate { (k, v) -> v to k }
+        val BOOK_ID_TO_LONG_NAME = mapOf(
+            1 to "Genesis", 2 to "Exodus", 3 to "Leviticus", 4 to "Numbers", 5 to "Deuteronomy",
+            6 to "Joshua", 7 to "Judges", 8 to "Ruth", 9 to "1 Samuel", 10 to "2 Samuel",
+            11 to "1 Kings", 12 to "2 Kings", 13 to "1 Chronicles", 14 to "2 Chronicles",
+            15 to "Ezra", 16 to "Nehemiah", 17 to "Tobit", 18 to "Judith", 19 to "Esther",
+            20 to "Job", 21 to "Psalms", 22 to "Proverbs", 23 to "Ecclesiastes",
+            24 to "Song of Solomon", 25 to "Wisdom", 26 to "Sirach", 27 to "Isaiah",
+            28 to "Jeremiah", 29 to "Lamentations", 30 to "Baruch", 31 to "Ezekiel",
+            32 to "Daniel", 33 to "Hosea", 34 to "Joel", 35 to "Amos", 36 to "Obadiah",
+            37 to "Jonah", 38 to "Micah", 39 to "Nahum", 40 to "Habakkuk",
+            41 to "Zephaniah", 42 to "Haggai", 43 to "Zechariah", 44 to "Malachi",
+            45 to "1 Maccabees", 46 to "2 Maccabees", 47 to "Matthew", 48 to "Mark",
+            49 to "Luke", 50 to "John", 51 to "Acts", 52 to "Romans", 53 to "1 Corinthians",
+            54 to "2 Corinthians", 55 to "Galatians", 56 to "Ephesians", 57 to "Philippians",
+            58 to "Colossians", 59 to "1 Thessalonians", 60 to "2 Thessalonians",
+            61 to "1 Timothy", 62 to "2 Timothy", 63 to "Titus", 64 to "Philemon",
+            65 to "Hebrews", 66 to "James", 67 to "1 Peter", 68 to "2 Peter",
+            69 to "1 John", 70 to "2 John", 71 to "3 John", 72 to "Jude", 73 to "Revelation"
+        )
+
+        val BOOK_ID_TO_NAME = BOOK_ID_TO_LONG_NAME
 
         fun fromString(query: String, bookNameToId: Map<String, Int>): Passage? {
             // Check for simple ID:CHAPTER format
