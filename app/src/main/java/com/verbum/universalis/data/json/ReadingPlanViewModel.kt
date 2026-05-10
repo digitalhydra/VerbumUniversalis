@@ -116,6 +116,58 @@ class ReadingPlanViewModel @Inject constructor(
         }
     }
 
+    fun toggleReadingCompleted(planId: String, dayIndex: Int, readingIndex: Int) {
+        viewModelScope.launch {
+            val progressMap = _progressMap.value.toMutableMap()
+            val planProgress = progressMap.getOrPut(planId) { mutableMapOf() }.toMutableMap()
+            val existing = planProgress[dayIndex] ?: DayProgress()
+            
+            val newList = if (existing.completedReadings.contains(readingIndex)) {
+                existing.completedReadings.filter { it != readingIndex }
+            } else {
+                existing.completedReadings + readingIndex
+            }
+            
+            // Auto-complete day if all readings are done (if we know the count)
+            // For now, just update the readings list
+            planProgress[dayIndex] = existing.copy(
+                completedReadings = newList,
+                lastUpdated = System.currentTimeMillis()
+            )
+            
+            progressMap[planId] = planProgress
+            _progressMap.value = progressMap
+            fileManager.saveProgressV2(progressMap)
+        }
+    }
+
+    fun setDayCompleted(planId: String, dayIndex: Int, completed: Boolean, totalReadings: Int) {
+        viewModelScope.launch {
+            val progressMap = _progressMap.value.toMutableMap()
+            val planProgress = progressMap.getOrPut(planId) { mutableMapOf() }.toMutableMap()
+            val existing = planProgress[dayIndex] ?: DayProgress()
+            
+            planProgress[dayIndex] = existing.copy(
+                completed = completed,
+                completedReadings = if (completed) (0 until totalReadings).toList() else emptyList(),
+                lastUpdated = System.currentTimeMillis()
+            )
+            
+            progressMap[planId] = planProgress
+            _progressMap.value = progressMap
+            fileManager.saveProgressV2(progressMap)
+        }
+    }
+
+    fun resetPlan(planId: String) {
+        viewModelScope.launch {
+            val progressMap = _progressMap.value.toMutableMap()
+            progressMap.remove(planId)
+            _progressMap.value = progressMap
+            fileManager.saveProgressV2(progressMap)
+        }
+    }
+
     fun isDayCompleted(planId: String, dayIndex: Int): Boolean {
         return _progressMap.value[planId]?.get(dayIndex)?.completed ?: false
     }

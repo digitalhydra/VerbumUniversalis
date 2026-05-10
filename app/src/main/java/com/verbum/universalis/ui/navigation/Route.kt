@@ -102,6 +102,9 @@ fun VerbumNavGraph(
                     navController.navigate(
                         Route.ReadingCanvas.createRouteWithPlan(bookId, chapter, verse, allDays, dayIndex)
                     )
+                },
+                onNavigateToPlanTracking = {
+                    navController.navigate(Route.ReadingPlans.route)
                 }
             )
         }

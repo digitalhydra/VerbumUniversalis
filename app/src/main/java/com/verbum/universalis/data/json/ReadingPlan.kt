@@ -58,5 +58,6 @@ data class ReadingReference(
 @Serializable
 data class DayProgress(
     val completed: Boolean = false,
-    val lastUpdated: Long = 0L
+    val lastUpdated: Long = 0L,
+    val completedReadings: List<Int> = emptyList()
 )

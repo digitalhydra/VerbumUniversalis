@@ -7,6 +7,10 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.CheckCircle
+import androidx.compose.material.icons.filled.ChevronRight
+import androidx.compose.material.icons.filled.RadioButtonUnchecked
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -34,13 +38,15 @@ fun DashboardScreen(
     dashboardViewModel: DashboardViewModel = hiltViewModel(),
     onNavigateToReading: (bookId: Int, chapter: Int) -> Unit = { _, _ -> },
     onNavigateToMassReading: (bookId: Int, chapter: Int, verse: Int?, allReadings: MassReadings, currentIndex: Int) -> Unit = { _, _, _, _, _ -> },
-    onNavigateToPlanReading: (bookId: Int, chapter: Int, verse: Int?, allDays: List<List<String>>, currentDayIndex: Int) -> Unit = { _, _, _, _, _ -> }
+    onNavigateToPlanReading: (bookId: Int, chapter: Int, verse: Int?, allDays: List<List<String>>, currentDayIndex: Int) -> Unit = { _, _, _, _, _ -> },
+    onNavigateToPlanTracking: () -> Unit = {}
 ) {
     val currentPlan by viewModel.currentPlan.collectAsState(initial = null)
     val currentDayReadings by viewModel.currentDayReadings.collectAsState(initial = emptyList())
     val currentDayIndex by viewModel.currentDayIndex.collectAsState(initial = 0)
     val selectedDateStr by dashboardViewModel.selectedDate.collectAsState()
     val massReadingsEntry by dashboardViewModel.massReadings.collectAsState()
+    val progressMap by viewModel.progressMap.collectAsState()
 
     val selectedDate = LocalDate.parse(selectedDateStr)
     val dateFormatter = DateTimeFormatter.ofPattern("MMMM d, yyyy", Locale.getDefault())
@@ -186,29 +192,52 @@ fun DashboardScreen(
             // 2. Yearly Plan Section
             if (currentDayReadings.isNotEmpty()) {
                 item {
-                    Text(
-                        text = "Yearly Plan",
-                        style = MaterialTheme.typography.labelLarge.copy(
-                            fontWeight = FontWeight.Bold,
-                            letterSpacing = 1.sp
-                        ),
-                        color = Color.Gray,
-                        modifier = Modifier.padding(start = 44.dp, bottom = 4.dp)
-                    )
+                    Row(
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .clickable { onNavigateToPlanTracking() }
+                            .padding(start = 44.dp, bottom = 4.dp),
+                        horizontalArrangement = Arrangement.SpaceBetween,
+                        verticalAlignment = Alignment.CenterVertically
+                    ) {
+                        Text(
+                            text = "Yearly Plan",
+                            style = MaterialTheme.typography.labelLarge.copy(
+                                fontWeight = FontWeight.Bold,
+                                letterSpacing = 1.sp
+                            ),
+                            color = Color.Gray
+                        )
+                        Icon(
+                            Icons.Default.ChevronRight,
+                            contentDescription = null,
+                            tint = Color.Gray,
+                            modifier = Modifier.padding(end = 16.dp)
+                        )
+                    }
                 }
 
                 val allPlanDays = currentPlan?.days?.map { day ->
                     day.readings.map { it.toString() }
                 } ?: emptyList()
 
+                val planId = currentPlan?.planId ?: ""
+                val dayProgress = progressMap[planId]?.get(currentDayIndex)
+
                 items(currentDayReadings.size) { index ->
                     val reading = currentDayReadings[index]
+                    val isCompleted = dayProgress?.completedReadings?.contains(index) ?: false
+
                     TimelineItem(
                         title = "Bible in a Year",
                         subtitle = "${reading.book} ${reading.chapter}",
                         time = "Day ${currentDayIndex + 1}",
                         isHighlighted = false,
                         accentColor = accentColor,
+                        isCompleted = isCompleted,
+                        onToggleComplete = {
+                            viewModel.toggleReadingCompleted(planId, currentDayIndex, index)
+                        },
                         onClick = {
                             val bookId = Passage.BOOK_NAME_TO_ID[reading.book] ?: 
                                         Passage.BOOK_NAME_TO_ID.entries.find { it.key.contains(reading.book, ignoreCase = true) }?.value
@@ -284,6 +313,8 @@ fun TimelineItem(
     time: String,
     isHighlighted: Boolean,
     accentColor: Color,
+    isCompleted: Boolean = false,
+    onToggleComplete: (() -> Unit)? = null,
     onClick: () -> Unit
 ) {
     Row(
@@ -315,9 +346,9 @@ fun TimelineItem(
                     .padding(top = 4.dp)
                     .size(16.dp)
                     .clip(CircleShape)
-                    .background(if (isHighlighted) accentColor else Color.White)
+                    .background(if (isHighlighted || isCompleted) accentColor else Color.White)
                     .then(
-                        if (!isHighlighted) Modifier.background(Color.White).padding(2.dp).clip(CircleShape).background(Color.LightGray) else Modifier
+                        if (!isHighlighted && !isCompleted) Modifier.background(Color.White).padding(2.dp).clip(CircleShape).background(Color.LightGray) else Modifier
                     )
             )
         }
@@ -335,33 +366,46 @@ fun TimelineItem(
             ),
             elevation = CardDefaults.cardElevation(defaultElevation = 0.dp)
         ) {
-            Column(
-                modifier = Modifier.padding(16.dp)
+            Row(
+                modifier = Modifier.padding(16.dp),
+                verticalAlignment = Alignment.CenterVertically
             ) {
-                Row(
-                    modifier = Modifier.fillMaxWidth(),
-                    horizontalArrangement = Arrangement.SpaceBetween,
-                    verticalAlignment = Alignment.CenterVertically
-                ) {
-                    Text(
-                        text = title,
-                        style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
-                        color = if (isHighlighted) Color.White else Color.Black
-                    )
-                    if (time.isNotEmpty()) {
+                Column(modifier = Modifier.weight(1f)) {
+                    Row(
+                        modifier = Modifier.fillMaxWidth(),
+                        horizontalArrangement = Arrangement.SpaceBetween,
+                        verticalAlignment = Alignment.CenterVertically
+                    ) {
                         Text(
-                            text = time,
-                            style = MaterialTheme.typography.bodySmall,
-                            color = if (isHighlighted) Color.White.copy(alpha = 0.8f) else Color.Gray
+                            text = title,
+                            style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
+                            color = if (isHighlighted) Color.White else Color.Black
+                        )
+                        if (time.isNotEmpty()) {
+                            Text(
+                                text = time,
+                                style = MaterialTheme.typography.bodySmall,
+                                color = if (isHighlighted) Color.White.copy(alpha = 0.8f) else Color.Gray
+                            )
+                        }
+                    }
+                    Spacer(modifier = Modifier.height(4.dp))
+                    Text(
+                        text = subtitle,
+                        style = MaterialTheme.typography.bodyMedium,
+                        color = if (isHighlighted) Color.White.copy(alpha = 0.9f) else Color.Gray
+                    )
+                }
+                
+                if (onToggleComplete != null) {
+                    IconButton(onClick = onToggleComplete) {
+                        Icon(
+                            imageVector = if (isCompleted) Icons.Default.CheckCircle else Icons.Default.RadioButtonUnchecked,
+                            contentDescription = "Complete",
+                            tint = if (isCompleted) accentColor else Color.LightGray
                         )
                     }
                 }
-                Spacer(modifier = Modifier.height(4.dp))
-                Text(
-                    text = subtitle,
-                    style = MaterialTheme.typography.bodyMedium,
-                    color = if (isHighlighted) Color.White.copy(alpha = 0.9f) else Color.Gray
-                )
             }
         }
     }
