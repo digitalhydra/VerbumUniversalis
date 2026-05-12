@@ -1,20 +1,18 @@
 package com.verbum.universalis.ui.reader
 
-import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.ExperimentalLayoutApi
-import androidx.compose.foundation.layout.FlowRow
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.*
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
 import androidx.compose.material3.adaptive.ExperimentalMaterial3AdaptiveApi
 import androidx.compose.material3.adaptive.layout.ListDetailPaneScaffold
-import androidx.compose.runtime.Composable
 import androidx.compose.material3.adaptive.navigation.rememberListDetailPaneScaffoldNavigator
-import androidx.compose.runtime.LaunchedEffect
-import androidx.compose.runtime.collectAsState
-import androidx.compose.runtime.getValue
+import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalLayoutDirection
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 
 @OptIn(ExperimentalLayoutApi::class, ExperimentalMaterial3AdaptiveApi::class)
@@ -31,6 +29,7 @@ fun InterlinearReaderScreen(
     val selectedWord by viewModel.selectedWord.collectAsState(initial = null)
     val showMorphology by viewModel.showMorphology.collectAsState(initial = true)
     val lexiconEntry by viewModel.lexiconEntry.collectAsState(initial = null)
+    val verseEntity by viewModel.verseEntity.collectAsState(initial = null)
     
     // Set initial tab based on navigation parameter
     LaunchedEffect(initialTab) {
@@ -53,21 +52,33 @@ fun InterlinearReaderScreen(
         directive = scaffoldNavigator.scaffoldDirective,
         scaffoldState = scaffoldNavigator.scaffoldState,
         listPane = {
-            Box(modifier = Modifier.fillMaxSize().padding(16.dp)) {
-                FlowRow(
-                    modifier = Modifier.fillMaxSize(),
-                    horizontalArrangement = Arrangement.spacedBy(8.dp),
-                    verticalArrangement = Arrangement.spacedBy(8.dp)
-                ) {
-                    words.forEach { word ->
-                        InterlinearWordBlock(
-                            word = word,
-                            isSelected = word == selectedWord,
-                            isHighlighted = viewModel.isWordHighlighted(word),
-                            highlightColor = com.verbum.universalis.ui.theme.HighlightPalette.all[0],
-                            showMorphology = showMorphology,
-                            onClick = { viewModel.selectWord(word) }
-                        )
+            Column(modifier = Modifier.fillMaxSize().padding(16.dp)) {
+                // Header with Verse Reference
+                Text(
+                    text = verseEntity?.let { "Verse ${it.verse_number}" } ?: "Loading...",
+                    style = MaterialTheme.typography.headlineSmall.copy(fontWeight = FontWeight.Bold),
+                    modifier = Modifier.padding(bottom = 16.dp)
+                )
+
+                val isHebrew = verseEntity?.book_id?.let { it <= 46 } ?: false
+                val layoutDirection = if (isHebrew) LayoutDirection.Rtl else LayoutDirection.Ltr
+
+                CompositionLocalProvider(LocalLayoutDirection provides layoutDirection) {
+                    FlowRow(
+                        modifier = Modifier.fillMaxWidth(),
+                        horizontalArrangement = Arrangement.spacedBy(8.dp),
+                        verticalArrangement = Arrangement.spacedBy(16.dp)
+                    ) {
+                        words.forEach { word ->
+                            InterlinearWordBlock(
+                                word = word,
+                                isSelected = word == selectedWord,
+                                isHighlighted = viewModel.isWordHighlighted(word),
+                                highlightColor = com.verbum.universalis.ui.theme.HighlightPalette.all[0],
+                                showMorphology = showMorphology,
+                                onClick = { viewModel.selectWord(word) }
+                            )
+                        }
                     }
                 }
             }

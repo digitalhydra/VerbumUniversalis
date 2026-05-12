@@ -126,6 +126,13 @@ fun ReadingScreen(
                                                 showLangMenu = false
                                             }
                                         )
+                                        DropdownMenuItem(
+                                            text = { Text("HE - עברית (Hebrew)") },
+                                            onClick = {
+                                                viewModel.setLanguage("he_HEB")
+                                                showLangMenu = false
+                                            }
+                                        )
                                     }
                                 }
                             }

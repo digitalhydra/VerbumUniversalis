@@ -195,11 +195,11 @@ class ReadingViewModel @Inject constructor(
         repository.getChapter(passage.bookId, passage.chapter)
     }
     
-    // Greek interlinear words when el_GRK is selected
+    // Interlinear words (Greek for NT, Hebrew for OT)
     @OptIn(ExperimentalCoroutinesApi::class)
-    val greekWords: Flow<List<InterlinearWordEntity>> = combine(_currentPassage, _activeLanguage) { p, l -> p to l }
+    val interlinearWords: Flow<List<InterlinearWordEntity>> = combine(_currentPassage, _activeLanguage) { p, l -> p to l }
         .flatMapLatest { (passage, lang) ->
-            if (lang == "el_GRK") {
+            if (lang == "el_GRK" || lang == "he_HEB") {
                 repository.getGreekWordsForChapter(passage.bookId, passage.chapter)
             } else {
                 flowOf(emptyList())
@@ -300,12 +300,13 @@ class ReadingViewModel @Inject constructor(
         }
     }
 
-    // Cycle through languages: en_DRB -> es_PLA -> la_VUL -> el_GRK -> en_DRB
+    // Cycle through languages: en_DRB -> es_PLA -> la_VUL -> el_GRK -> he_HEB -> en_DRB
     fun toggleLanguage() {
         _activeLanguage.value = when (_activeLanguage.value) {
             "en_DRB" -> "es_PLA"
             "es_PLA" -> "la_VUL"
             "la_VUL" -> "el_GRK"
+            "el_GRK" -> "he_HEB"
             else -> "en_DRB"
         }
     }
@@ -316,6 +317,7 @@ class ReadingViewModel @Inject constructor(
             "es_PLA" -> "ES"
             "la_VUL" -> "LA"
             "el_GRK" -> "EL" // Greek
+            "he_HEB" -> "HE" // Hebrew
             else -> "EN"
         }
     }

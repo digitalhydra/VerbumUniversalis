@@ -30,6 +30,12 @@ class InterlinearViewModel @Inject constructor(
     private val _selectedVerseId = MutableStateFlow<Int?>(null)
     val selectedVerseId: StateFlow<Int?> = _selectedVerseId.asStateFlow()
 
+    @OptIn(ExperimentalCoroutinesApi::class)
+    val verseEntity: Flow<com.verbum.universalis.data.entities.VerseEntity?> = _selectedVerseId.flatMapLatest { id ->
+        if (id == null) flowOf(null)
+        else repository.getVerseById(id)
+    }
+
     // Notes for selected verse
     val notes: Flow<List<Note>> = _selectedVerseId.map { verseId ->
         if (verseId == null) emptyList()
@@ -62,7 +68,7 @@ class InterlinearViewModel @Inject constructor(
     val lexiconEntry: Flow<LexiconEntity?> = _selectedWord.flatMapLatest { word ->
         val lemma = word?.lemma
         if (lemma == null) flowOf(null)
-        else repository.getLexiconEntry(lemma!!)
+        else repository.getLexiconEntry(lemma)
     }
 
     private val _showMorphology = MutableStateFlow(true)

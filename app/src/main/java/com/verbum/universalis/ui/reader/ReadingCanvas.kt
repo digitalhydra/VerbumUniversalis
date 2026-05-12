@@ -4,16 +4,10 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.gestures.detectDragGestures
 import androidx.compose.foundation.gestures.detectTapGestures
-import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.ExperimentalLayoutApi
-import androidx.compose.foundation.layout.FlowRow
-import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.text.selection.SelectionContainer
 import androidx.compose.foundation.verticalScroll
@@ -22,6 +16,7 @@ import androidx.compose.material3.DropdownMenuItem
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
@@ -31,12 +26,14 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.input.pointer.pointerInput
+import androidx.compose.ui.platform.LocalLayoutDirection
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.TextLayoutResult
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.BaselineShift
 import androidx.compose.ui.text.withStyle
+import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
@@ -52,17 +49,18 @@ fun ReadingCanvas(
     viewModel: ReadingViewModel = hiltViewModel(),
     onAction: (String, Int) -> Unit, // action string, verseId
     showStudyInspector: Boolean = false, // for tablet
-    onWordClick: (InterlinearWordEntity) -> Unit = {} // word selection for Greek
+    onWordClick: (InterlinearWordEntity) -> Unit = {} // word selection
 ) {
     VerbumTheme {
         val verses by viewModel.verses.collectAsState(initial = emptyList())
         val activeLanguage by viewModel.activeLanguage.collectAsState(initial = "en_DRB")
-        val greekWords by viewModel.greekWords.collectAsState(initial = emptyList())
+        val interlinearWords by viewModel.interlinearWords.collectAsState(initial = emptyList())
         val isSelectionMode by viewModel.isSelectionMode.collectAsState(initial = false)
         val selectedVerseId by viewModel.selectedVerseId.collectAsState(initial = null)
         val currentPassage by viewModel.currentPassage.collectAsState()
 
         var offsetX by remember { mutableStateOf(0f) }
+        val listState = rememberLazyListState()
         val scrollState = rememberScrollState()
         var layoutResult by remember { mutableStateOf<TextLayoutResult?>(null) }
         val verseOffsets = remember(verses, activeLanguage) { mutableMapOf<Int, Int>() }
@@ -128,35 +126,71 @@ fun ReadingCanvas(
         }
 
         // Handle scrolling to a specific verse
-        LaunchedEffect(currentPassage.verseRange, layoutResult) {
+        LaunchedEffect(currentPassage.verseRange, layoutResult, listState) {
             val targetVerse = currentPassage.verseRange?.start
-            val lr = layoutResult
-            if (targetVerse != null && lr != null) {
-                verseOffsets[targetVerse]?.let { charOffset ->
-                    val y = lr.getCursorRect(charOffset).top
-                    scrollState.animateScrollTo(y.toInt())
+            if (targetVerse != null) {
+                if (activeLanguage == "el_GRK" || activeLanguage == "he_HEB") {
+                    val index = verses.indexOfFirst { it.verse.verse_number == targetVerse }
+                    if (index >= 0) {
+                        listState.animateScrollToItem(index)
+                    }
+                } else {
+                    layoutResult?.let { lr ->
+                        verseOffsets[targetVerse]?.let { charOffset ->
+                            val y = lr.getCursorRect(charOffset).top
+                            scrollState.animateScrollTo(y.toInt())
+                        }
+                    }
                 }
             }
         }
 
-        if (activeLanguage == "el_GRK") {
-            FlowRow(
+        if (activeLanguage == "el_GRK" || activeLanguage == "he_HEB") {
+            val layoutDirection = if (activeLanguage == "he_HEB") LayoutDirection.Rtl else LayoutDirection.Ltr
+
+            LazyColumn(
                 modifier = modifier
                     .fillMaxSize()
-                    .then(swipeModifier)
-                    .padding(16.dp)
-                    .verticalScroll(scrollState),
-                horizontalArrangement = Arrangement.spacedBy(8.dp),
-                verticalArrangement = Arrangement.spacedBy(8.dp)
+                    .then(swipeModifier),
+                state = listState,
+                contentPadding = PaddingValues(16.dp),
+                verticalArrangement = Arrangement.spacedBy(24.dp)
             ) {
-                greekWords.forEach { word ->
-                    InterlinearWordBlock(
-                        word = word,
-                        isSelected = false,
-                        isHighlighted = false,
-                        showMorphology = true,
-                        onClick = { onWordClick(word) }
-                    )
+                // Group words by verse
+                val wordsByVerse = interlinearWords.groupBy { it.verse_id }
+                
+                items(verses) { verseWithTexts ->
+                    val verseWords = wordsByVerse[verseWithTexts.verse.id] ?: emptyList()
+                    
+                    Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                        // Verse Number
+                        Text(
+                            text = verseWithTexts.verse.verse_number.toString(),
+                            style = MaterialTheme.typography.labelMedium.copy(
+                                fontWeight = FontWeight.Bold,
+                                color = Color.Gray
+                            ),
+                            modifier = Modifier.padding(bottom = 4.dp)
+                        )
+
+                        CompositionLocalProvider(LocalLayoutDirection provides layoutDirection) {
+                            FlowRow(
+                                modifier = Modifier.fillMaxWidth(),
+                                horizontalArrangement = Arrangement.spacedBy(8.dp),
+                                verticalArrangement = Arrangement.spacedBy(16.dp)
+                            ) {
+                                verseWords.forEach { word ->
+                                    InterlinearWordBlock(
+                                        word = word,
+                                        isSelected = false,
+                                        isHighlighted = false,
+                                        showMorphology = true,
+                                        onClick = { onWordClick(word) }
+                                    )
+                                }
+                            }
+                        }
+                    }
                 }
             }
         } else {
