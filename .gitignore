@@ -36,3 +36,9 @@ raw_data/catena/verbum_cross_refs.db
 /strongs-master
 /raw_data/catena/Commentaries-Database/
 /raw_data/catena/bible-commentaries-dataset/
+/AppIcons
+/cross_references.txt
+/data.out
+/catena.sqlite
+/scripts/verbum_catena.db
+/scripts/verbum_cross_refs.db
