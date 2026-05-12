@@ -27,13 +27,14 @@ from collections import defaultdict
 
 # === PATHS ===
 SCRIPT_DIR = Path(__file__).parent
+ROOT_DIR = SCRIPT_DIR.parent
 OUTPUT_DB = SCRIPT_DIR / "verbum_catena.db"
 
 # Dataset 1: Commentaries-Database SQLite
-DATASET1_SQLITE = SCRIPT_DIR / "catena.sqlite"
+DATASET1_SQLITE = ROOT_DIR / "catena.sqlite"
 
 # Dataset 2: bible-commentaries-dataset
-DATASET2_BASE = SCRIPT_DIR / "bible-commentaries-dataset/data/01_cleaned/catena_bible"
+DATASET2_BASE = ROOT_DIR / "raw_data/catena/bible-commentaries-dataset/data/01_cleaned/catena_bible"
 
 # === PROTESTANT/NON-CATHOLIC AUTHORS TO REMOVE ===
 PROTESTANT_AUTHORS = {
