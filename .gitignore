@@ -22,6 +22,8 @@ Thumbs.db
 raw_data/catena/catena.sqlite
 raw_data/catena/cross-references.zip
 raw_data/cross_references.txt
+raw_data/catena/verbum_catena.db
+raw_data/catena/verbum_cross_refs.db
 
 # Keep these (needed for GitHub release upload):
 # raw_data/catena/verbum_catena.db
