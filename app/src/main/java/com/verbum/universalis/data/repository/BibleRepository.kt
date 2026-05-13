@@ -2,7 +2,6 @@ package com.verbum.universalis.data.repository
 
 import android.content.Context
 import com.verbum.universalis.data.daos.*
-import com.verbum.universalis.data.db.CrossRefsDatabase
 import com.verbum.universalis.data.entities.*
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.first
@@ -11,7 +10,6 @@ import kotlinx.serialization.decodeFromString
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
 import java.io.File
-import javax.inject.Inject
 import dagger.hilt.android.qualifiers.ApplicationContext
 import okhttp3.OkHttpClient
 import okhttp3.Request
@@ -64,7 +62,7 @@ class BibleRepository(
 
     suspend fun getCatenaForVerse(verseId: Int): List<CatenaCommentaryEntity> {
         val verse = getVerseByIdSync(verseId) ?: return emptyList()
-        return getCatenaForVerse(verse.book_id ?: 0, verse.chapter ?: 0, verse.verse_number ?: 0)
+        return getCatenaForVerse(verse.book_id, verse.chapter, verse.verse_number)
     }
 
     suspend fun isCatenaDownloaded(): Boolean {
@@ -100,7 +98,7 @@ class BibleRepository(
     // Get references for a verse with descriptions
     suspend fun getReferencesForVerse(verseId: Int): List<Reference> {
         val verse = getVerseByIdSync(verseId) ?: return emptyList()
-        return getReferencesForVerse(verse.book_id ?: 0, verse.chapter ?: 0, verse.verse_number ?: 0)
+        return getReferencesForVerse(verse.book_id, verse.chapter, verse.verse_number)
     }
 
     suspend fun getReferencesForVerse(bookId: Int, chapter: Int, verseNumber: Int): List<Reference> {
@@ -116,7 +114,6 @@ class BibleRepository(
             val data = Json { ignoreUnknownKeys = true }.decodeFromString<ReferencesData>(jsonString)
 
             val refPrefix = "${bookCode}.${chapter}.${verseNumber}"
-            // Filter entries where verse_ref starts with refPrefix
             val matchingEntries = data.entries.filter { it.verse_ref.startsWith(refPrefix) }
             val allReferences = mutableListOf<Reference>()
             matchingEntries.forEach { entry ->
@@ -131,7 +128,6 @@ class BibleRepository(
 
     // Navigation: parse reference string "GEN.1.1" to (bookId, chapter, verse)
     fun parseReference(ref: String): Triple<Int, Int, Int>? {
-        // Format: "GEN.1.1" or "1COR.2.3"
         val parts = ref.split(".")
         if (parts.size < 3) return null
 
