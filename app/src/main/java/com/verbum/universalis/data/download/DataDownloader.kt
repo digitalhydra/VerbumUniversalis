@@ -13,8 +13,8 @@ class DataDownloader {
     companion object {
         private const val TAG = "DataDownloader"
         // Verbum data repos - download from GitHub releases
-        const val CATENA_DB_URL = "https://github.com/digitalhydra/VerbumUniversalis/releases/download/v1.0.0/verbum_catena.db"
-        const val CROSS_REFS_DB_URL = "https://github.com/digitalhydra/VerbumUniversalis/releases/download/v1.0.0/verbum_cross_refs.db"
+        const val CATENA_DB_URL = "https://github.com/digitalhydra/VerbumUniversalis/releases/download/WIP/verbum_catena.db"
+        const val CROSS_REFS_DB_URL = "https://github.com/digitalhydra/VerbumUniversalis/releases/download/WIP/verbum_cross_refs.db"
     }
 
     private val client = OkHttpClient.Builder()
