@@ -1,8 +1,5 @@
 package com.verbum.universalis.ui.settings
 
-import android.content.Context
-import android.widget.Toast
-import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
@@ -10,39 +7,22 @@ import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material.icons.filled.ErrorOutline
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
-import androidx.compose.runtime.rememberCoroutineScope
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.platform.LocalContext
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
-import com.verbum.universalis.data.repository.CatenaRepository
-import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun DownloadCatenaScreen(
     onBack: () -> Unit = {},
-    catenaRepository: CatenaRepository = hiltViewModel()
+    viewModel: DownloadCatenaViewModel = hiltViewModel()
 ) {
-    val context = LocalContext.current
-    val scope = rememberCoroutineScope()
-    var isAlreadyDownloaded by remember { mutableStateOf(false) }
-    var downloadStatus by remember { mutableStateOf(DownloadStatus.Idle) }
-
-    // Check if the database is already downloaded when the screen appears
-    LaunchedEffect(Unit) {
-        scope.launch {
-            isAlreadyDownloaded = catenaRepository.isDatabaseDownloaded()
-        }
-    }
+    val isDownloaded by viewModel.isDownloaded.collectAsState()
+    val downloadStatus by viewModel.downloadStatus.collectAsState()
 
     Scaffold(
         topBar = {
@@ -67,8 +47,8 @@ fun DownloadCatenaScreen(
                 style = MaterialTheme.typography.titleMedium
             )
             Spacer(modifier = Modifier.height(24.dp))
-            
-            if (isAlreadyDownloaded) {
+
+            if (isDownloaded) {
                 Text(
                     text = "Catena database is already downloaded and ready to use.",
                     style = MaterialTheme.typography.bodyLarge,
@@ -80,34 +60,22 @@ fun DownloadCatenaScreen(
                     style = MaterialTheme.typography.bodyLarge
                 )
                 Spacer(modifier = Modifier.height(16.dp))
-                
+
                 when (downloadStatus) {
                     DownloadStatus.Idle -> {
                         Button(
-                            onClick = {
-                                downloadStatus = DownloadStatus.Downloading
-                                // Launch download in coroutine
-                                scope.launch {
-                                    val success = catenaRepository.downloadDatabase()
-                                    downloadStatus = if (success) DownloadStatus.Success else DownloadStatus.Error
-                                }
-                            },
-                            modifier = Modifier.fillMaxWidth(),
-                            enabled = true
+                            onClick = { viewModel.startDownload() },
+                            modifier = Modifier.fillMaxWidth()
                         ) {
                             Text("Download Now")
                         }
                     }
                     DownloadStatus.Downloading -> {
-                        Box(
-                            modifier = Modifier
-                                .fillMaxWidth()
-                                .padding(24.dp)
-                                .align(Alignment.CenterHorizontally)
+                        Column(
+                            horizontalAlignment = Alignment.CenterHorizontally,
+                            modifier = Modifier.fillMaxWidth().padding(24.dp)
                         ) {
-                            CircularProgressIndicator(
-                                strokeWidth = 4.dp
-                            )
+                            CircularProgressIndicator(strokeWidth = 4.dp)
                             Spacer(modifier = Modifier.height(16.dp))
                             Text(
                                 text = "Downloading...",
@@ -116,13 +84,11 @@ fun DownloadCatenaScreen(
                         }
                     }
                     DownloadStatus.Success -> {
-                        Column(
-                            horizontalAlignment = Alignment.CenterHorizontally
-                        ) {
+                        Column(horizontalAlignment = Alignment.CenterHorizontally) {
                             Icon(
                                 imageVector = Icons.Default.CheckCircle,
                                 contentDescription = "Success",
-                                tint = Color(0xFF4CAF50), // success green
+                                tint = Color(0xFF4CAF50),
                                 modifier = Modifier.size(48.dp)
                             )
                             Spacer(modifier = Modifier.height(16.dp))
@@ -145,9 +111,7 @@ fun DownloadCatenaScreen(
                         }
                     }
                     DownloadStatus.Error -> {
-                        Column(
-                            horizontalAlignment = Alignment.CenterHorizontally
-                        ) {
+                        Column(horizontalAlignment = Alignment.CenterHorizontally) {
                             Icon(
                                 imageVector = Icons.Default.ErrorOutline,
                                 contentDescription = "Error",
@@ -162,9 +126,7 @@ fun DownloadCatenaScreen(
                             )
                             Spacer(modifier = Modifier.height(8.dp))
                             Button(
-                                onClick = {
-                                    downloadStatus = DownloadStatus.Idle
-                                },
+                                onClick = { viewModel.resetToIdle() },
                                 modifier = Modifier.fillMaxWidth()
                             ) {
                                 Text("Retry")
@@ -175,12 +137,4 @@ fun DownloadCatenaScreen(
             }
         }
     }
-}
-
-// We'll create a simple enum for download status
-private enum class DownloadStatus {
-    Idle,
-    Downloading,
-    Success,
-    Error
 }
