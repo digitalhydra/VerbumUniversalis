@@ -129,7 +129,7 @@ fun ReadingCanvas(
         LaunchedEffect(currentPassage.verseRange, layoutResult, listState) {
             val targetVerse = currentPassage.verseRange?.start
             if (targetVerse != null) {
-                if (activeLanguage == "el_GRK" || activeLanguage == "he_HEB") {
+                if (activeLanguage == "il_IL") {
                     val index = verses.indexOfFirst { it.verse.verse_number == targetVerse }
                     if (index >= 0) {
                         listState.animateScrollToItem(index)
@@ -145,8 +145,9 @@ fun ReadingCanvas(
             }
         }
 
-        if (activeLanguage == "el_GRK" || activeLanguage == "he_HEB") {
-            val layoutDirection = if (activeLanguage == "he_HEB") LayoutDirection.Rtl else LayoutDirection.Ltr
+        if (activeLanguage == "il_IL") {
+            val isHebrew = currentPassage.bookId <= 46
+            val layoutDirection = if (isHebrew) LayoutDirection.Rtl else LayoutDirection.Ltr
 
             LazyColumn(
                 modifier = modifier

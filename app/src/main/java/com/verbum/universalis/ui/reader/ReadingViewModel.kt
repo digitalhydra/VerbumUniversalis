@@ -206,11 +206,6 @@ class ReadingViewModel @Inject constructor(
             }
         }
     
-    // Load Greek words when language changed
-    fun loadGreekWordsIfNeeded() {
-        // No longer needed as greekWords is a derived Flow
-    }
-
     // Right pane toggle (tablet/mobile)
     private val _showStudyInspector = MutableStateFlow(false)
     val showStudyInspector: StateFlow<Boolean> = _showStudyInspector.asStateFlow()
@@ -294,10 +289,6 @@ class ReadingViewModel @Inject constructor(
 
     fun setLanguage(langCode: String) {
         _activeLanguage.value = langCode
-        // Load Greek words if Greek selected
-        if (langCode == "el_GRK") {
-            loadGreekWordsIfNeeded()
-        }
     }
 
     // Cycle through languages: en_DRB -> es_PLA -> la_VUL -> il_IL -> en_DRB
@@ -348,7 +339,7 @@ class ReadingViewModel @Inject constructor(
             "en_DRB" -> "English (Douay-Rheims)"
             "es_PLA" -> "Español (Platense)"
             "la_VUL" -> "Latina (Vulgata)"
-            "el_GRK" -> "Ελληνικά (Greek)"
+            "il_IL" -> "Interlinear (GRK/HEB)"
             else -> langCode
         }
     }

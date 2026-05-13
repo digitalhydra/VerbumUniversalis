@@ -12,8 +12,6 @@ import androidx.compose.foundation.pager.rememberPagerState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.CalendarMonth
-import androidx.compose.material.icons.filled.CalendarToday
 import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material.icons.filled.ChevronRight
 import androidx.compose.material.icons.filled.Home
@@ -144,20 +142,20 @@ fun DashboardScreen(
                 Spacer(modifier = Modifier.height(24.dp))
                 
                 // Date and Title
-                Text(
-                    text = selectedDate.format(dateFormatter),
-                    style = MaterialTheme.typography.bodyMedium,
-                    color = Color.Gray
-                )
                 Row(
                     modifier = Modifier.fillMaxWidth(),
                     horizontalArrangement = Arrangement.SpaceBetween,
-                    verticalAlignment = Alignment.CenterVertically
+                    verticalAlignment = Alignment.Top
                 ) {
-                    // Date and title on the left
-                    Column(
-                        horizontalAlignment = Alignment.Start
-                    ) {
+                    // Left side: date and day name
+                    Column {
+                        // Only this top date is clickable
+                        Text(
+                            text = selectedDate.format(dateFormatter),
+                            style = MaterialTheme.typography.bodyMedium,
+                            color = Color.Gray,
+                            modifier = Modifier.clickable { showDatePicker = true }
+                        )
                         Text(
                             text = if (selectedDate == LocalDate.now()) "Today" else selectedDate.dayOfWeek.getDisplayName(TextStyle.FULL, Locale.getDefault()),
                             style = MaterialTheme.typography.headlineLarge.copy(
@@ -166,31 +164,15 @@ fun DashboardScreen(
                             ),
                             color = Color.Black
                         )
-                        massReadingsEntry?.season?.let { name ->
-                            Text(
-                                text = name,
-                                style = MaterialTheme.typography.bodySmall,
-                                color = accentColor,
-                                modifier = Modifier.widthIn(max = 180.dp),
-                                maxLines = 1,
-                                textAlign = androidx.compose.ui.text.style.TextAlign.End
-                            )
-                        }
                     }
-                    // Then only the date picker button (settings moved to bottom bar)
-                    Row(
-                        verticalAlignment = Alignment.CenterVertically,
-                        horizontalArrangement = Arrangement.spacedBy(8.dp)
-                    ) {
-                        // Date picker button
-                        IconButton(
-                            onClick = { showDatePicker = true },
-                            modifier = Modifier
-                                .background(MaterialTheme.colorScheme.primary.copy(alpha = 0.1f))
-                                .size(40.dp)
-                        ) {
-                            Icon(Icons.Default.CalendarToday, contentDescription = "Select date")
-                        }
+                    
+                    // Right side: season label
+                    massReadingsEntry?.season?.let { name ->
+                        Text(
+                            text = name,
+                            style = MaterialTheme.typography.bodySmall,
+                            color = accentColor
+                        )
                     }
                 }
 
