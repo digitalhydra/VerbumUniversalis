@@ -35,6 +35,16 @@ class StudyInspectorViewModel @Inject constructor(
     private val _crossRefs = MutableStateFlow<List<Reference>>(emptyList())
     val crossRefs: StateFlow<List<Reference>> = _crossRefs.asStateFlow()
 
+    // Lazy loading states - only load when user opens study inspector
+    private val _isLoadingCatena = MutableStateFlow(false)
+    val isLoadingCatena: StateFlow<Boolean> = _isLoadingCatena.asStateFlow()
+
+    private val _isLoadingRefs = MutableStateFlow(false)
+    val isLoadingRefs: StateFlow<Boolean> = _isLoadingRefs.asStateFlow()
+
+    // Track if data has been loaded for current verse (to avoid reloading on tab switch)
+    private var dataLoadedForVerse: Triple<Int, Int, Int>? = null
+
     private val _activeTab = MutableStateFlow(InspectorTab.LEXICON)
     val activeTab: StateFlow<InspectorTab> = _activeTab.asStateFlow()
 
@@ -54,13 +64,57 @@ class StudyInspectorViewModel @Inject constructor(
     }
 
     fun setCurrentVerse(bookId: Int, chapter: Int, verseNumber: Int) {
-        _currentVerse.value = Triple(bookId, chapter, verseNumber)
-        viewModelScope.launch {
-            _catenaEntries.value = repository.getCatenaForVerse(bookId, chapter, verseNumber)
-            _crossRefs.value = repository.getReferencesForVerse(bookId, chapter, verseNumber)
+        val verse = Triple(bookId, chapter, verseNumber)
+        _currentVerse.value = verse
+        
+        // Don't load data here - lazy load when user opens study inspector
+        // Reset data if verse changed (but keep the verse info)
+        if (dataLoadedForVerse != verse) {
+            dataLoadedForVerse = verse
+            _catenaEntries.value = emptyList()
+            _crossRefs.value = emptyList()
         }
+        
         if (_selectedWord.value == null) {
             setActiveTab(InspectorTab.CATENA)
+        }
+    }
+
+    /**
+     * Load catena and cross-references on demand.
+     * Call this when the user opens the study inspector.
+     * Only loads once per verse - subsequent calls are no-ops.
+     */
+    fun loadCatenaAndRefs() {
+        val verse = _currentVerse.value ?: return
+        
+        // Don't reload if already loaded for this verse
+        if (dataLoadedForVerse != verse) {
+            dataLoadedForVerse = verse
+        }
+        
+        // Load catena (only if not already loaded)
+        if (_catenaEntries.value.isEmpty()) {
+            viewModelScope.launch {
+                _isLoadingCatena.value = true
+                try {
+                    _catenaEntries.value = repository.getCatenaForVerse(verse.first, verse.second, verse.third)
+                } finally {
+                    _isLoadingCatena.value = false
+                }
+            }
+        }
+        
+        // Load cross-references (only if not already loaded)
+        if (_crossRefs.value.isEmpty()) {
+            viewModelScope.launch {
+                _isLoadingRefs.value = true
+                try {
+                    _crossRefs.value = repository.getReferencesForVerse(verse.first, verse.second, verse.third)
+                } finally {
+                    _isLoadingRefs.value = false
+                }
+            }
         }
     }
 

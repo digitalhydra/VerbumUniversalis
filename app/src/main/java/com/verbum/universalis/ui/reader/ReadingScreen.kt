@@ -67,12 +67,23 @@ fun ReadingScreen(
         val inspectorWord by studyInspectorVM.selectedWord.collectAsState()
         val lexiconEntry by studyInspectorVM.lexiconEntry.collectAsState()
 
+        val isLoadingCatena by studyInspectorVM.isLoadingCatena.collectAsState(initial = false)
+        val isLoadingRefs by studyInspectorVM.isLoadingRefs.collectAsState(initial = false)
+
+        // Store verse info but don't load data yet (lazy loading)
         LaunchedEffect(currentPassage) {
             studyInspectorVM.setCurrentVerse(
                 currentPassage.bookId,
                 currentPassage.chapter,
                 currentPassage.verseRange?.start ?: 1
             )
+        }
+
+        // Lazy load catena/refs only when study inspector is opened
+        LaunchedEffect(showStudyInspector) {
+            if (showStudyInspector) {
+                studyInspectorVM.loadCatenaAndRefs()
+            }
         }
 
         Box(modifier = Modifier.fillMaxSize()) {
@@ -134,16 +145,9 @@ fun ReadingScreen(
                                             }
                                         )
                                         DropdownMenuItem(
-                                            text = { Text("EL - Ελληνικά (Greek)") },
+                                            text = { Text("IL - Interlinear (GRK/HEB)") },
                                             onClick = {
-                                                viewModel.setLanguage("el_GRK")
-                                                showLangMenu = false
-                                            }
-                                        )
-                                        DropdownMenuItem(
-                                            text = { Text("HE - עברית (Hebrew)") },
-                                            onClick = {
-                                                viewModel.setLanguage("he_HEB")
+                                                viewModel.setLanguage("il_IL")
                                                 showLangMenu = false
                                             }
                                         )
@@ -272,7 +276,9 @@ fun ReadingScreen(
                                             viewModel.toggleStudyInspector()
                                         }
                                     },
-                                    showLexicon = activeLanguage == "el_GRK"
+                                    showLexicon = activeLanguage == "el_GRK",
+                                    isLoadingCatena = isLoadingCatena,
+                                    isLoadingRefs = isLoadingRefs
                                 )
                             }
                         }

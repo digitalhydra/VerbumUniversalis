@@ -8,10 +8,12 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Tab
 import androidx.compose.material3.TabRow
 import androidx.compose.material3.Text
+import androidx.compose.ui.Alignment
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
@@ -31,6 +33,8 @@ fun StudyInspector(
     onTabSelect: (InspectorTab) -> Unit,
     onReferenceClick: (String) -> Unit = {},
     showLexicon: Boolean = true, // Only show Lexicon when Greek
+    isLoadingCatena: Boolean = false,
+    isLoadingRefs: Boolean = false,
     modifier: Modifier = Modifier
 ) {
     // Filter tabs based on language mode
@@ -65,8 +69,8 @@ fun StudyInspector(
         Box(modifier = Modifier.fillMaxSize().padding(16.dp)) {
             when (activeTab) {
                 InspectorTab.LEXICON -> LexiconView(selectedWord, lexiconEntry)
-                InspectorTab.CATENA -> CatenaView(catenaEntries)
-                InspectorTab.REFERENCES -> ReferencesView(references, onReferenceClick)
+                InspectorTab.CATENA -> CatenaView(catenaEntries, isLoadingCatena)
+                InspectorTab.REFERENCES -> ReferencesView(references, onReferenceClick, isLoadingRefs)
                 else -> { /* Handle other tabs or do nothing */ }
             }
         }
@@ -111,8 +115,20 @@ fun LexiconView(selectedWord: InterlinearWordEntity?, lexiconEntry: LexiconEntit
 }
 
 @Composable
-fun CatenaView(catenaEntries: List<CatenaCommentaryEntity>) {
-    if (catenaEntries.isEmpty()) {
+fun CatenaView(
+    catenaEntries: List<CatenaCommentaryEntity>,
+    isLoading: Boolean = false
+) {
+    if (isLoading) {
+        Box(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(16.dp),
+            contentAlignment = Alignment.Center
+        ) {
+            CircularProgressIndicator()
+        }
+    } else if (catenaEntries.isEmpty()) {
         Text(
             "No Catena entries for this verse.",
             style = MaterialTheme.typography.bodyMedium,
@@ -147,9 +163,19 @@ fun CatenaView(catenaEntries: List<CatenaCommentaryEntity>) {
 fun ReferencesView(
     references: List<Reference>,
     onReferenceClick: (String) -> Unit,
+    isLoading: Boolean = false,
     modifier: Modifier = Modifier
 ) {
-    if (references.isEmpty()) {
+    if (isLoading) {
+        Box(
+            modifier = modifier
+                .fillMaxSize()
+                .padding(16.dp),
+            contentAlignment = Alignment.Center
+        ) {
+            CircularProgressIndicator()
+        }
+    } else if (references.isEmpty()) {
         Text(
             "No references for this verse.",
             style = MaterialTheme.typography.bodyMedium,

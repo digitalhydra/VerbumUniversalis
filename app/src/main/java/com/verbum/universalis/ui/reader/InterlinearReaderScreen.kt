@@ -43,8 +43,14 @@ fun InterlinearReaderScreen(
     val activeTab by studyInspectorViewModel.activeTab.collectAsState(initial = InspectorTab.LEXICON)
     val catenaEntries by studyInspectorViewModel.catenaEntries.collectAsState(initial = emptyList())
     val references by studyInspectorViewModel.crossRefs.collectAsState(initial = emptyList())
+    val isLoadingCatena by studyInspectorViewModel.isLoadingCatena.collectAsState(initial = false)
+    val isLoadingRefs by studyInspectorViewModel.isLoadingRefs.collectAsState(initial = false)
 
-    LaunchedEffect(verseId) { viewModel.setVerse(verseId) }
+    // Set the verse and load data when verse changes (data always visible in split pane)
+    LaunchedEffect(verseId) {
+        viewModel.setVerse(verseId)
+        studyInspectorViewModel.loadCatenaAndRefs()
+    }
 
     // Remember navigation scaffold for adaptive layout
     val scaffoldNavigator = rememberListDetailPaneScaffoldNavigator<Any>()
@@ -91,7 +97,9 @@ fun InterlinearReaderScreen(
                 references = references,
                 activeTab = activeTab,
                 onTabSelect = { studyInspectorViewModel.setActiveTab(it) },
-                onReferenceClick = { ref -> onReferenceClick(ref) }
+                onReferenceClick = { ref -> onReferenceClick(ref) },
+                isLoadingCatena = isLoadingCatena,
+                isLoadingRefs = isLoadingRefs
             )
         }
     )
