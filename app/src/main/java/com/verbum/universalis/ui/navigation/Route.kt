@@ -195,10 +195,12 @@ fun VerbumNavGraph(
             ReadingPlansScreen(onNavigateBack = { navController.popBackStack() }) 
         }
         composable(Route.Settings.route) { 
-            SettingsScreen(onBack = { navController.popBackStack() }) 
+            SettingsScreen(
+                onBack = { navController.popBackStack() },
+                onNavigate = { route -> navController.navigate(route) }
+            ) 
         }
         composable(Route.DownloadCatena.route) { 
-            /* We'll create this screen later, for now just a placeholder */
             com.verbum.universalis.ui.settings.DownloadCatenaScreen(onBack = { navController.popBackStack() }) 
         }
         composable(Route.Sync.route) { 
