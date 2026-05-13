@@ -2,6 +2,7 @@ package com.verbum.universalis.data.db
 
 import android.content.Context
 import android.database.sqlite.SQLiteDatabase
+import android.util.Log
 import com.verbum.universalis.data.entities.CatenaCommentaryEntity
 import java.io.File
 
@@ -9,68 +10,123 @@ import java.io.File
  * Opens the pre-built verbum_catena.db directly with raw SQLite,
  * avoiding Room schema validation issues with the externally-built DB.
  */
-class CatenaRawDatabase private constructor(private val db: SQLiteDatabase) {
+class CatenaRawDatabase private constructor(private val db: SQLiteDatabase?) {
+
+    private fun isTableExists(tableName: String): Boolean {
+        if (db == null || !db.isOpen) return false
+        return try {
+            val cursor = db.rawQuery("SELECT name FROM sqlite_master WHERE type='table' AND name=?", arrayOf(tableName))
+            cursor.use { it.count > 0 }
+        } catch (e: Exception) {
+            false
+        }
+    }
 
     fun queryCommentaries(books: List<String>, chapter: Int, verseNumber: Int): List<CatenaCommentaryEntity> {
-        val placeholders = books.joinToString(",") { "'${it.replace("'", "''")}'" }
-        val sql = """
-            SELECT * FROM commentaries 
-            WHERE book IN ($placeholders) 
-              AND chapter = ? 
-              AND verse_start <= ? AND verse_end >= ?
-            ORDER BY author_normalized
-        """.trimIndent()
-        val cursor = db.rawQuery(sql, arrayOf(chapter.toString(), verseNumber.toString(), verseNumber.toString()))
-        return cursor.use { c ->
-            val results = mutableListOf<CatenaCommentaryEntity>()
-            while (c.moveToNext()) {
-                results.add(
-                    CatenaCommentaryEntity(
-                        id = c.getString(c.getColumnIndexOrThrow("id")),
-                        book = c.getString(c.getColumnIndexOrThrow("book")),
-                        chapter = c.getInt(c.getColumnIndexOrThrow("chapter")),
-                        verseStart = c.getInt(c.getColumnIndexOrThrow("verse_start")),
-                        verseEnd = c.getInt(c.getColumnIndexOrThrow("verse_end")),
-                        author = c.getString(c.getColumnIndexOrThrow("author")),
-                        authorNormalized = c.getString(c.getColumnIndexOrThrow("author_normalized")),
-                        period = c.getStringOrNull("period"),
-                        sourceTitle = c.getStringOrNull("source_title"),
-                        sourceUrl = c.getStringOrNull("source_url"),
-                        content = c.getString(c.getColumnIndexOrThrow("content")),
-                        contentHash = c.getStringOrNull("content_hash"),
-                        datasetSource = c.getString(c.getColumnIndexOrThrow("dataset_source")),
-                        createdAt = c.getStringOrNull("created_at")
-                    )
-                )
+        if (db == null) {
+            Log.e("CatenaRaw", "DB is null")
+            return emptyList()
+        }
+        if (!db.isOpen) {
+            Log.e("CatenaRaw", "DB is not open")
+            return emptyList()
+        }
+        if (!isTableExists("commentaries")) {
+            Log.e("CatenaRaw", "Table 'commentaries' does not exist in DB at: ${db.path}")
+            // List all tables
+            db.rawQuery("SELECT name FROM sqlite_master WHERE type='table'", null).use { c ->
+                val tables = mutableListOf<String>()
+                while (c.moveToNext()) tables.add(c.getString(0))
+                Log.e("CatenaRaw", "Available tables: $tables")
             }
-            results
+            return emptyList()
+        }
+        
+        return try {
+            val placeholders = books.joinToString(",") { "'${it.replace("'", "''")}'" }
+            val sql = """
+                SELECT * FROM commentaries 
+                WHERE book IN ($placeholders) 
+                  AND chapter = ? 
+                  AND verse_start <= ? AND verse_end >= ?
+                ORDER BY author_normalized
+            """.trimIndent()
+            val cursor = db.rawQuery(sql, arrayOf(chapter.toString(), verseNumber.toString(), verseNumber.toString()))
+            cursor.use { c ->
+                val results = mutableListOf<CatenaCommentaryEntity>()
+                while (c.moveToNext()) {
+                    results.add(
+                        CatenaCommentaryEntity(
+                            id = c.getString(c.getColumnIndexOrThrow("id")),
+                            book = c.getString(c.getColumnIndexOrThrow("book")),
+                            chapter = c.getInt(c.getColumnIndexOrThrow("chapter")),
+                            verseStart = c.getInt(c.getColumnIndexOrThrow("verse_start")),
+                            verseEnd = c.getInt(c.getColumnIndexOrThrow("verse_end")),
+                            author = c.getString(c.getColumnIndexOrThrow("author")),
+                            authorNormalized = c.getString(c.getColumnIndexOrThrow("author_normalized")),
+                            period = c.getStringOrNull("period"),
+                            sourceTitle = c.getStringOrNull("source_title"),
+                            sourceUrl = c.getStringOrNull("source_url"),
+                            content = c.getString(c.getColumnIndexOrThrow("content")),
+                            contentHash = c.getStringOrNull("content_hash"),
+                            datasetSource = c.getString(c.getColumnIndexOrThrow("dataset_source")),
+                            createdAt = c.getStringOrNull("created_at")
+                        )
+                    )
+                }
+                results
+            }
+        } catch (e: Exception) {
+            Log.e("CatenaRawDatabase", "Error querying commentaries", e)
+            emptyList()
         }
     }
 
     fun queryCommentariesForChapter(books: List<String>, chapter: Int): List<CatenaCommentaryEntity> {
-        val placeholders = books.joinToString(",") { "'${it.replace("'", "''")}'" }
-        val sql = """
-            SELECT * FROM commentaries 
-            WHERE book IN ($placeholders) AND chapter = ?
-            ORDER BY author_normalized, verse_start
-        """.trimIndent()
-        val cursor = db.rawQuery(sql, arrayOf(chapter.toString()))
-        return cursor.use { c -> mapCursor(c) }
+        if (db == null || !db.isOpen) {
+            Log.e("CatenaRaw", "DB unavailable for chapter query")
+            return emptyList()
+        }
+        if (!isTableExists("commentaries")) {
+            Log.e("CatenaRaw", "Table 'commentaries' missing for chapter query")
+            return emptyList()
+        }
+        
+        return try {
+            val placeholders = books.joinToString(",") { "'${it.replace("'", "''")}'" }
+            val sql = """
+                SELECT * FROM commentaries 
+                WHERE book IN ($placeholders) AND chapter = ?
+                ORDER BY author_normalized, verse_start
+            """.trimIndent()
+            val cursor = db.rawQuery(sql, arrayOf(chapter.toString()))
+            cursor.use { c -> mapCursor(c) }
+        } catch (e: Exception) {
+            Log.e("CatenaRawDatabase", "Error querying commentaries for chapter", e)
+            emptyList()
+        }
     }
 
     fun queryCommentariesByBook(books: List<String>): List<CatenaCommentaryEntity> {
-        val placeholders = books.joinToString(",") { "'${it.replace("'", "''")}'" }
-        val sql = """
-            SELECT * FROM commentaries 
-            WHERE book IN ($placeholders)
-            ORDER BY author_normalized, chapter, verse_start
-        """.trimIndent()
-        val cursor = db.rawQuery(sql, null)
-        return cursor.use { c -> mapCursor(c) }
+        if (db == null || !db.isOpen || !isTableExists("commentaries")) return emptyList()
+        
+        return try {
+            val placeholders = books.joinToString(",") { "'${it.replace("'", "''")}'" }
+            val sql = """
+                SELECT * FROM commentaries 
+                WHERE book IN ($placeholders)
+                ORDER BY author_normalized, chapter, verse_start
+            """.trimIndent()
+            val cursor = db.rawQuery(sql, null)
+            cursor.use { c -> mapCursor(c) }
+        } catch (e: Exception) {
+            Log.e("CatenaRawDatabase", "Error querying commentaries by book", e)
+            emptyList()
+        }
     }
 
     fun close() {
-        db.close()
+        db?.close()
     }
 
     private fun mapCursor(cursor: android.database.Cursor): List<CatenaCommentaryEntity> {
@@ -109,19 +165,40 @@ class CatenaRawDatabase private constructor(private val db: SQLiteDatabase) {
                 INSTANCE ?: run {
                     val sources = listOf(
                         File(context.filesDir, "databases/$DATABASE_NAME"),
-                        File(context.filesDir, DATABASE_NAME)
+                        File(context.filesDir, DATABASE_NAME),
+                        context.getDatabasePath(DATABASE_NAME)
                     )
-                    val roomPath = context.getDatabasePath(DATABASE_NAME)
-                    val source = sources.firstOrNull { it.exists() }
-                    if (source != null) {
-                        roomPath.parentFile?.mkdirs()
-                        source.copyTo(roomPath, overwrite = true)
+                    
+                    // Debug: log which files exist
+                    sources.forEach { f ->
+                        Log.i("CatenaRaw", "Checking ${f.absolutePath}: exists=${f.exists()}, size=${f.length()}")
                     }
-                    val db = SQLiteDatabase.openDatabase(
-                        roomPath.absolutePath,
-                        null,
-                        SQLiteDatabase.OPEN_READONLY or SQLiteDatabase.CREATE_IF_NECESSARY
-                    )
+                    
+                    val dbFile = sources.firstOrNull { it.exists() && it.length() > 0 }
+                    Log.i("CatenaRaw", "Using dbFile: ${dbFile?.absolutePath}")
+                    
+                    val db = try {
+                        if (dbFile != null) {
+                            SQLiteDatabase.openDatabase(
+                                dbFile.absolutePath,
+                                null,
+                                SQLiteDatabase.OPEN_READONLY
+                            ).also { opened ->
+                                // Debug: check tables
+                                opened.rawQuery("SELECT name FROM sqlite_master WHERE type='table'", null).use { c ->
+                                    val tables = mutableListOf<String>()
+                                    while (c.moveToNext()) tables.add(c.getString(0))
+                                    Log.i("CatenaRaw", "Tables in DB: $tables")
+                                }
+                            }
+                        } else {
+                            null
+                        }
+                    } catch (e: Exception) {
+                        Log.e("CatenaRawDatabase", "Failed to open catena database", e)
+                        null
+                    }
+                    
                     val instance = CatenaRawDatabase(db)
                     INSTANCE = instance
                     instance
@@ -132,7 +209,10 @@ class CatenaRawDatabase private constructor(private val db: SQLiteDatabase) {
         fun isDatabaseDownloaded(context: Context): Boolean {
             val dbFile = File(context.filesDir, "databases/$DATABASE_NAME")
             val downloadedFile = File(context.filesDir, DATABASE_NAME)
-            return dbFile.exists() || downloadedFile.exists()
+            val systemDbFile = context.getDatabasePath(DATABASE_NAME)
+            return (dbFile.exists() && dbFile.length() > 0) || 
+                   (downloadedFile.exists() && downloadedFile.length() > 0) ||
+                   (systemDbFile.exists() && systemDbFile.length() > 0)
         }
 
         fun invalidate() {
@@ -144,5 +224,5 @@ class CatenaRawDatabase private constructor(private val db: SQLiteDatabase) {
 
 private fun android.database.Cursor.getStringOrNull(columnName: String): String? {
     val idx = getColumnIndex(columnName)
-    return if (idx >= 0) getString(idx) else null
+    return if (idx >= 0 && !isNull(idx)) getString(idx) else null
 }

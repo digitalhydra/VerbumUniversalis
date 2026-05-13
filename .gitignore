@@ -21,7 +21,6 @@ Thumbs.db
 # Ignore large raw data files we don't need
 raw_data/catena/catena.sqlite
 raw_data/catena/cross-references.zip
-raw_data/cross_references.txt
 raw_data/catena/verbum_catena.db
 raw_data/catena/verbum_cross_refs.db
 

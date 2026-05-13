@@ -157,8 +157,8 @@ class BibleRepository(
                 if (line.isBlank() || line.startsWith("#") || line.startsWith("From")) continue
                 val parts = line.split("\t")
                 if (parts.size < 2) continue
-                val fromRef = parts[0].trim()
-                val toRef = parts[1].trim()
+                val fromRef = normalizeTsvRef(parts[0].trim())
+                val toRef = normalizeTsvRef(parts[1].trim())
                 val votes = parts.getOrNull(2)?.trim()?.toIntOrNull()
                 val desc = if (votes != null) "votes: $votes" else ""
                 grouped.getOrPut(fromRef) { mutableListOf() }.add(Reference(toRef, desc))
@@ -178,9 +178,10 @@ class BibleRepository(
         }
     }
 
-    // Navigation: parse reference string "GEN.1.1" to (bookId, chapter, verse)
+    // Navigation: parse reference string "GEN.1.1" or "Gen.1.1" to (bookId, chapter, verse)
     fun parseReference(ref: String): Triple<Int, Int, Int>? {
-        val parts = ref.split(".")
+        val normalized = normalizeTsvRef(ref)
+        val parts = normalized.split(".")
         if (parts.size < 3) return null
 
         val bookCode = parts[0]
@@ -215,6 +216,51 @@ class BibleRepository(
 
     private fun getBookCodeForId(bookId: Int): String? = bookIdToCode[bookId]
     private fun getBookIdForCode(code: String): Int? = bookIdToCode.entries.find { it.value == code }?.key
+
+    // Map TSV book codes (Gen, Matt, Ps, 2Pet, etc.) → our internal book codes (GEN, MAT, PSA, 2PE)
+    private val tsvBookCodeToInternal: Map<String, String> = mapOf(
+        "Gen" to "GEN", "Exod" to "EXO", "Lev" to "LEV", "Num" to "NUM", "Deut" to "DEU",
+        "Josh" to "JOS", "Judg" to "JDG", "Ruth" to "RUT",
+        "1Sam" to "1SA", "2Sam" to "2SA", "1Kgs" to "1KI", "2Kgs" to "2KI",
+        "1Chr" to "1CH", "2Chr" to "2CH", "Ezra" to "EZR", "Neh" to "NEH",
+        "Tob" to "TOB", "Jdt" to "JDT", "Esth" to "EST",
+        "Job" to "JOB", "Ps" to "PSA", "Prov" to "PRO", "Eccl" to "ECC",
+        "Song" to "SNG", "Wis" to "WIS", "Sir" to "SIR",
+        "Isa" to "ISA", "Jer" to "JER", "Lam" to "LAM", "Bar" to "BAR",
+        "Ezek" to "EZK", "Dan" to "DAN",
+        "Hos" to "HOS", "Joel" to "JOL", "Amos" to "AMO", "Obad" to "OBA",
+        "Jonah" to "JON", "Mic" to "MIC", "Nah" to "NAH", "Hab" to "HAB",
+        "Zeph" to "ZEP", "Hag" to "HAG", "Zech" to "ZEC", "Mal" to "MAL",
+        "1Macc" to "1MA", "2Macc" to "2MA",
+        "Matt" to "MAT", "Mark" to "MRK", "Luke" to "LUK", "John" to "JHN",
+        "Acts" to "ACT", "Rom" to "ROM",
+        "1Cor" to "1CO", "2Cor" to "2CO", "Gal" to "GAL", "Eph" to "EPH",
+        "Phil" to "PHP", "Col" to "COL",
+        "1Thess" to "1TH", "2Thess" to "2TH",
+        "1Tim" to "1TI", "2Tim" to "2TI", "Titus" to "TIT",
+        "Phlm" to "PHM", "Heb" to "HEB", "Jas" to "JAS",
+        "1Pet" to "1PE", "2Pet" to "2PE",
+        "1John" to "1JN", "2John" to "2JN", "3John" to "3JN",
+        "Jude" to "JUD", "Rev" to "REV"
+    )
+
+    /** Convert a TSV verse ref ("Gen.1.1", "Rom.1.19-Rom.1.20") to our internal format */
+    private fun normalizeTsvRef(ref: String): String {
+        if (ref.contains('-')) {
+            val parts = ref.split("-", limit = 2)
+            return normalizeOneRef(parts[0]) + "-" + normalizeOneRef(parts[1])
+        }
+        return normalizeOneRef(ref)
+    }
+
+    private fun normalizeOneRef(ref: String): String {
+        val dotIndex = ref.indexOf('.')
+        if (dotIndex < 0) return ref.uppercase()
+        val bookCode = ref.substring(0, dotIndex)
+        val rest = ref.substring(dotIndex)
+        val internalCode = tsvBookCodeToInternal[bookCode] ?: bookCode.uppercase()
+        return internalCode + rest
+    }
 
     private fun getVerseByIdSync(verseId: Int): VerseEntity? {
         return try {

@@ -300,13 +300,12 @@ class ReadingViewModel @Inject constructor(
         }
     }
 
-    // Cycle through languages: en_DRB -> es_PLA -> la_VUL -> el_GRK -> he_HEB -> en_DRB
+    // Cycle through languages: en_DRB -> es_PLA -> la_VUL -> il_IL -> en_DRB
     fun toggleLanguage() {
         _activeLanguage.value = when (_activeLanguage.value) {
             "en_DRB" -> "es_PLA"
             "es_PLA" -> "la_VUL"
-            "la_VUL" -> "el_GRK"
-            "el_GRK" -> "he_HEB"
+            "la_VUL" -> "il_IL"
             else -> "en_DRB"
         }
     }
@@ -316,8 +315,7 @@ class ReadingViewModel @Inject constructor(
             "en_DRB" -> "EN"
             "es_PLA" -> "ES"
             "la_VUL" -> "LA"
-            "el_GRK" -> "EL" // Greek
-            "il_IL" -> "IL" // Hebrew
+            "il_IL" -> "IL" // Interlinear
             else -> "EN"
         }
     }
