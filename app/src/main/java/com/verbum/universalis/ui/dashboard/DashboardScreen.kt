@@ -139,6 +139,7 @@ fun DashboardScreen(
             Text("")
         },
         content = {
+            Column(modifier = Modifier.fillMaxSize()) {
             Column(modifier = Modifier.padding(horizontal = 24.dp)) {
                 Spacer(modifier = Modifier.height(24.dp))
                 
@@ -238,43 +239,8 @@ fun DashboardScreen(
                     }
                 )
             }
+            }
         },
-        bottomBar = {
-            BottomAppBar(
-                content = {
-                    Row(
-                        Modifier.fillMaxWidth(),
-                        horizontalArrangement = Arrangement.SpaceEvenly
-                    ) {
-                        // Dashboard icon (current)
-                        IconButton(
-                            onClick = { /* Do nothing, we are already on Dashboard */ },
-                            enabled = false
-                        ) {
-                            Icon(Icons.Default.Home, contentDescription = "Dashboard")
-                        }
-                        // Reading icon
-                        IconButton(
-                            onClick = { /* TODO: Navigate to Reading */ }
-                        ) {
-                            Icon(Icons.Default.MenuBook, contentDescription = "Reading")
-                        }
-                        // Plans icon
-                        IconButton(
-                            onClick = { /* TODO: Navigate to Plans */ }
-                        ) {
-                            Icon(Icons.Default.CalendarMonth, contentDescription = "Plans")
-                        }
-                        // Settings icon
-                        IconButton(
-                            onClick = { onNavigateToSettings() }
-                        ) {
-                            Icon(Icons.Default.Settings, contentDescription = "Settings")
-                        }
-                    }
-                }
-            )
-        }
     )
 }
 
