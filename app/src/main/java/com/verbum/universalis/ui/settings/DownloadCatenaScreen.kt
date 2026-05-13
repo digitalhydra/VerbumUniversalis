@@ -2,11 +2,15 @@ package com.verbum.universalis.ui.settings
 
 import android.content.Context
 import android.widget.Toast
-import androidx.core.content.getSystemService
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.ArrowBack
+import androidx.compose.material.icons.filled.CheckCircle
+import androidx.compose.material.icons.filled.ErrorOutline
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -14,9 +18,10 @@ import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.platform.LocalContext
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.verbum.universalis.data.repository.CatenaRepository
 import kotlinx.coroutines.launch
@@ -117,7 +122,7 @@ fun DownloadCatenaScreen(
                             Icon(
                                 imageVector = Icons.Default.CheckCircle,
                                 contentDescription = "Success",
-                                tint = MaterialTheme.colorScheme.success,
+                                tint = Color(0xFF4CAF50), // success green
                                 modifier = Modifier.size(48.dp)
                             )
                             Spacer(modifier = Modifier.height(16.dp))
