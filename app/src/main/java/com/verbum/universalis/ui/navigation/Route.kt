@@ -76,6 +76,10 @@ sealed class Route(val route: String) {
     }
     object ReadingPlans : Route("reading_plans")
     object Settings : Route("settings")
+    object DownloadCatena : Route("download_catena")
+    object Sync : Route("sync")
+    object Notes : Route("notes")
+    object Theme : Route("theme")
 }
 
 @Composable
@@ -105,6 +109,9 @@ fun VerbumNavGraph(
                 },
                 onNavigateToPlanTracking = {
                     navController.navigate(Route.ReadingPlans.route)
+                },
+                onNavigateToSettings = {
+                    navController.navigate(Route.Settings.route)
                 }
             )
         }
@@ -189,6 +196,19 @@ fun VerbumNavGraph(
         }
         composable(Route.Settings.route) { 
             SettingsScreen(onBack = { navController.popBackStack() }) 
+        }
+        composable(Route.DownloadCatena.route) { 
+            /* We'll create this screen later, for now just a placeholder */
+            com.verbum.universalis.ui.settings.DownloadCatenaScreen(onBack = { navController.popBackStack() }) 
+        }
+        composable(Route.Sync.route) { 
+            com.verbum.universalis.ui.settings.SyncScreen(onBack = { navController.popBackStack() }) 
+        }
+        composable(Route.Notes.route) { 
+            com.verbum.universalis.ui.settings.NotesScreen(onBack = { navController.popBackStack() }) 
+        }
+        composable(Route.Theme.route) { 
+            com.verbum.universalis.ui.settings.ThemeScreen(onBack = { navController.popBackStack() }) 
         }
     }
 }

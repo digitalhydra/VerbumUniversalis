@@ -184,7 +184,7 @@ fun ReadingCanvas(
                                         word = word,
                                         isSelected = false,
                                         isHighlighted = false,
-                                        showMorphology = true,
+                                        showMorphology = false,  // Hidden by default; grammar for later
                                         onClick = { onWordClick(word) }
                                     )
                                 }

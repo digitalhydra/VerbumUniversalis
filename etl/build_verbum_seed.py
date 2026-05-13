@@ -461,6 +461,169 @@ def insert_texts(conn, verse_lookup, parsed, lang_code):
     print(f"  Inserted {count} texts for {lang_code}")
 
 
+# ─── TRANSLITERATION ──────────────────────────────────────────────────────────
+
+def transliterate_greek(text):
+    """
+    SBL-style transliteration: Greek polytonic Unicode → Latin.
+    Handles letters with breathing marks, accents, iota subscript.
+    """
+    GREEK_MAP = {
+        # Alpha
+        '\u03b1': 'a', '\u1f00': 'a', '\u1f01': 'ha', '\u1f02': 'a', '\u1f03': 'ha',
+        '\u1f04': 'a', '\u1f05': 'ha', '\u1f06': 'a', '\u1f07': 'ha',
+        '\u1f70': 'a', '\u1f71': 'a', '\u1fb6': 'a', '\u1fb7': 'a',
+        '\u0391': 'A', '\u1f08': 'A', '\u1f09': 'Ha', '\u1f0a': 'A', '\u1f0b': 'Ha',
+        '\u1f0c': 'A', '\u1f0d': 'Ha', '\u1f0e': 'A', '\u1f0f': 'Ha',
+        '\u1fb8': 'A', '\u1fb9': 'A', '\u1fba': 'A', '\u1fbb': 'Ha',
+        '\u1fbc': 'A',
+        # Epsilon
+        '\u03b5': 'e', '\u1f10': 'e', '\u1f11': 'he', '\u1f12': 'e', '\u1f13': 'he',
+        '\u1f14': 'e', '\u1f15': 'he', '\u1f72': 'e', '\u1f73': 'e',
+        '\u0395': 'E', '\u1f18': 'E', '\u1f19': 'He', '\u1f1a': 'E', '\u1f1b': 'He',
+        '\u1f1c': 'E', '\u1f1d': 'He', '\u1fc8': 'E', '\u1fc9': 'E',
+        # Eta
+        '\u03b7': '\u0113', '\u1f20': '\u0113', '\u1f21': 'h\u0113', '\u1f22': '\u0113', '\u1f23': 'h\u0113',
+        '\u1f24': '\u0113', '\u1f25': 'h\u0113', '\u1f26': '\u0113', '\u1f27': 'h\u0113',
+        '\u1f74': '\u0113', '\u1f75': '\u0113', '\u1fc6': '\u0113', '\u1fc7': '\u0113',
+        '\u0397': '\u0112', '\u1f28': '\u0112', '\u1f29': 'H\u0112', '\u1f2a': '\u0112', '\u1f2b': 'H\u0112',
+        '\u1f2c': '\u0112', '\u1f2d': 'H\u0112', '\u1f2e': '\u0112', '\u1f2f': 'H\u0112',
+        '\u1fca': '\u0112', '\u1fcb': '\u0112', '\u1fcc': '\u0112',
+        # Iota
+        '\u03b9': 'i', '\u1f30': 'i', '\u1f31': 'hi', '\u1f32': 'i', '\u1f33': 'hi',
+        '\u1f34': 'i', '\u1f35': 'hi', '\u1f36': 'i', '\u1f37': 'hi',
+        '\u1f76': 'i', '\u1f77': 'i', '\u1fd6': 'i', '\u1fd7': 'i',
+        '\u03ca': 'i', '\u1fd2': 'i', '\u1fd3': 'i',
+        '\u0399': 'I', '\u1f38': 'I', '\u1f39': 'Hi', '\u1f3a': 'I', '\u1f3b': 'Hi',
+        '\u1f3c': 'I', '\u1f3d': 'Hi', '\u1f3e': 'I', '\u1f3f': 'Hi',
+        '\u1fd8': 'I', '\u1fd9': 'I', '\u1fda': 'I', '\u1fdb': 'I',
+        '\u1fd0': 'i', '\u1fd1': 'i',
+        # Omicron
+        '\u03bf': 'o', '\u1f40': 'o', '\u1f41': 'ho', '\u1f42': 'o', '\u1f43': 'ho',
+        '\u1f44': 'o', '\u1f45': 'ho', '\u1f78': 'o', '\u1f79': 'o',
+        '\u039f': 'O', '\u1f48': 'O', '\u1f49': 'Ho', '\u1f4a': 'O', '\u1f4b': 'Ho',
+        '\u1f4c': 'O', '\u1f4d': 'Ho', '\u1ff8': 'O', '\u1ff9': 'O',
+        # Upsilon
+        '\u03c5': 'y', '\u1f50': 'y', '\u1f51': 'hy', '\u1f52': 'y', '\u1f53': 'hy',
+        '\u1f54': 'y', '\u1f55': 'hy', '\u1f56': 'y', '\u1f57': 'hy',
+        '\u1f7a': 'y', '\u1f7b': 'y', '\u1fe6': 'y', '\u1fe7': 'y',
+        '\u03cb': 'y', '\u1fe2': 'y', '\u1fe3': 'y',
+        '\u03a5': 'Y', '\u1f59': 'Hy', '\u1f5b': 'Hy', '\u1f5d': 'Hy', '\u1f5f': 'Hy',
+        '\u1fe8': 'Y', '\u1fe9': 'Y', '\u1fea': 'Y', '\u1feb': 'Y',
+        '\u1fe0': 'y', '\u1fe1': 'y',
+        # Omega
+        '\u03c9': '\u014d', '\u1f60': '\u014d', '\u1f61': 'h\u014d', '\u1f62': '\u014d', '\u1f63': 'h\u014d',
+        '\u1f64': '\u014d', '\u1f65': 'h\u014d', '\u1f66': '\u014d', '\u1f67': 'h\u014d',
+        '\u1f7c': '\u014d', '\u1f7d': '\u014d', '\u1ff6': '\u014d', '\u1ff7': '\u014d',
+        '\u03a9': '\u014c', '\u1f68': '\u014c', '\u1f69': 'H\u014c', '\u1f6a': '\u014c', '\u1f6b': 'H\u014c',
+        '\u1f6c': '\u014c', '\u1f6d': 'H\u014c', '\u1f6e': '\u014c', '\u1f6f': 'H\u014c',
+        '\u1ffa': '\u014c', '\u1ffb': '\u014c', '\u1ffc': '\u014c',
+        # Rho
+        '\u03c1': 'r', '\u1fe4': 'r', '\u1fe5': 'rh', '\u1fec': 'r',
+        '\u03a1': 'R',
+        # Tonos/accented vowels (V + tonos = U+03AC-03CE range)
+        '\u03ac': 'a',  # ά alpha with tonos
+        '\u03ad': 'e',  # έ epsilon with tonos
+        '\u03ae': '\u0113',  # ή eta with tonos
+        '\u03af': 'i',  # ί iota with tonos
+        '\u03cc': 'o',  # ό omicron with tonos
+        '\u03cd': 'y',  # ύ upsilon with tonos
+        '\u03ce': '\u014d',  # ώ omega with tonos
+        '\u0386': 'A',  # Ά alpha with tonos (capital)
+        '\u0388': 'E',  # Έ epsilon with tonos (capital)
+        '\u0389': '\u0112',  # Ή eta with tonos (capital)
+        '\u038a': 'I',  # Ί iota with tonos (capital)
+        '\u038c': 'O',  # Ό omicron with tonos (capital)
+        '\u038e': 'Y',  # Ύ upsilon with tonos (capital)
+        '\u038f': '\u014c',  # Ώ omega with tonos (capital)
+        # Iota with dialytika + tonos
+        '\u0390': 'i',  # ΐ
+        '\u03b0': 'y',  # ΰ
+        # Other consonants (no diacritic variants needed)
+        '\u03b2': 'b', '\u03b3': 'g', '\u03b4': 'd', '\u03b6': 'z',
+        '\u03b8': 'th', '\u03ba': 'k', '\u03bb': 'l', '\u03bc': 'm',
+        '\u03bd': 'n', '\u03be': 'x', '\u03c0': 'p', '\u03c3': 's',
+        '\u03c2': 's', '\u03c4': 't', '\u03c6': 'ph', '\u03c7': 'ch',
+        '\u03c8': 'ps',
+        '\u0392': 'B', '\u0393': 'G', '\u0394': 'D', '\u0396': 'Z',
+        '\u0398': 'Th', '\u039a': 'K', '\u039b': 'L', '\u039c': 'M',
+        '\u039d': 'N', '\u039e': 'X', '\u03a0': 'P', '\u03a3': 'S',
+        '\u03a4': 'T', '\u03a6': 'Ph', '\u03a7': 'Ch', '\u03a8': 'Ps',
+        # Punctuation / special
+        '\u00b7': '',  # middle dot (ano teleia)
+        '\u037e': '?',
+    }
+    result = []
+    for ch in text:
+        result.append(GREEK_MAP.get(ch, ch))
+    return ''.join(result)
+
+
+def transliterate_hebrew(text):
+    """
+    Basic transliteration: Hebrew Unicode → Latin.
+    Follows SBL general-purpose style. Simplified: skips cantillation,
+    maps consonants + vowels only.
+    """
+    # Hebrew Unicode ranges
+    # Consonants: 05D0-05EA
+    # Vowels (nikkud): 05B0-05BC (sheva, hatafim, hiriq, tsere, segol, patah, qamats, holam, dagesh)
+    #   also 05C7 (qamats qatan)
+    # Shin/sin dots: 05C1 (shin), 05C2 (sin)
+    # Cantillation marks: 0591-05AF, 05BD-05BF
+    # Other marks: 05C0 (paseq), 05C3 (sof pasuq), 05C4-05C5
+
+    CONSONANT_MAP = {
+        '\u05d0': '\u02bc',  # alef
+        '\u05d1': 'b', '\u05d2': 'g', '\u05d3': 'd',
+        '\u05d4': 'h', '\u05d5': 'w', '\u05d6': 'z',
+        '\u05d7': '\u1e25', '\u05d8': '\u1e6d', '\u05d9': 'y',
+        '\u05db': 'k', '\u05da': 'k',  # kaf (final)
+        '\u05dc': 'l', '\u05de': 'm', '\u05dd': 'm',
+        '\u05e0': 'n', '\u05df': 'n',
+        '\u05e1': 's', '\u05e2': '\u02bf',
+        '\u05e4': 'p', '\u05e3': 'p',
+        '\u05e6': '\u1e63', '\u05e5': '\u1e63',
+        '\u05e7': 'q', '\u05e8': 'r',
+        '\u05e9': '\u0161', '\u05ea': 't',
+    }
+    VOWEL_MAP = {
+        '\u05b0': '\u0115',  # sheva
+        '\u05b1': '\u0115',  # hataf segol
+        '\u05b2': '\u0103',  # hataf patah
+        '\u05b3': '\u014f',  # hataf qamats
+        '\u05b4': 'i',  # hiriq
+        '\u05b5': '\u0113',  # tsere
+        '\u05b6': 'e',  # segol
+        '\u05b7': 'a',  # patah
+        '\u05b8': '\u0101',  # qamats
+        '\u05b9': '\u014d',  # holam
+        '\u05ba': 'o',  # holam haser
+        '\u05bb': 'u',  # qibbuts
+        '\u05c7': 'o',  # qamats qatan
+    }
+    # Characters to skip (cantillation, dagesh, dots, etc.)
+    SKIP = set()
+    for cp in range(0x0591, 0x05AF + 1):
+        SKIP.add(chr(cp))
+    for cp in range(0x05BD, 0x05BF + 1):
+        SKIP.add(chr(cp))
+    SKIP.update({chr(cp) for cp in [0x05BC, 0x05C0, 0x05C1, 0x05C2, 0x05C3, 0x05C4, 0x05C5]})
+    SKIP.update({'\u05be', '\u05c3'})  # maqaf, sof pasuq
+
+    result = []
+    for ch in text:
+        if ch in SKIP:
+            continue
+        if ch in CONSONANT_MAP:
+            result.append(CONSONANT_MAP[ch])
+        elif ch in VOWEL_MAP:
+            result.append(VOWEL_MAP[ch])
+        elif ch == '\u05be':
+            result.append('-')
+    return ''.join(result)
+
+
 # ─── INTERLINEAR PARSING ──────────────────────────────────────────────────────
 
 def parse_interlinear_osis(osis_text):
@@ -621,6 +784,152 @@ def parse_interlinear():
     conn.close()
 
 
+def build_strongs_gloss_map():
+    """
+    Parse Strong's dictionaries and build lemma → English gloss lookup.
+    Returns dict: { 'strong:G976': 'book', 'strong:H07225': 'beginning', ... }
+    """
+    gloss_map = {}
+
+    # ── Greek Strong's ──
+    greek_xml = RAW / "strongs-master/greek/StrongsGreekDictionaryXML_1.4/strongsgreek.xml"
+    if greek_xml.exists():
+        try:
+            import xml.etree.ElementTree as ET
+            tree = ET.parse(str(greek_xml))
+            root = tree.getroot()
+            entries = root.find('entries')
+            if entries is not None:
+                for entry in entries.findall('entry'):
+                    strongs_num = entry.get('strongs', '')
+                    if not strongs_num:
+                        continue
+                    lemma_key = f"strong:G{int(strongs_num)}"
+
+                    # Get kjv_def as the concise gloss
+                    kjv_el = entry.find('kjv_def')
+                    if kjv_el is None:
+                        continue
+                    raw = ''.join(kjv_el.itertext()).strip()
+                    # Clean KJV formatting: "--book." → "book"
+                    # ":--do good." → "do good"
+                    gloss = raw.replace('--', '').replace(':--', '').strip(' .:;,-')
+                    # Take first word/phrase before comma or semicolon, strip newlines
+                    gloss = gloss.split(',')[0].split(';')[0].replace('\n', ' ').strip()
+                    if gloss and not gloss.startswith('X '):  # X = untranslated in KJV
+                        gloss_map[lemma_key] = gloss
+            print(f"    Parsed {len(gloss_map)} Greek glosses from Strong's")
+        except Exception as e:
+            print(f"    ERROR parsing Greek Strong's: {e}")
+    else:
+        print(f"    Greek Strong's XML not found at {greek_xml}")
+
+    # ── Hebrew Strong's ──
+    hebrew_xml = RAW / "strongs-master/hebrew/StrongHebrewG.xml"
+    if hebrew_xml.exists():
+        try:
+            import xml.etree.ElementTree as ET
+            tree = ET.parse(str(hebrew_xml))
+            root = tree.getroot()
+            # Hebrew XML uses OSIS namespace
+            ns = {'osis': 'http://www.bibletechnologies.net/2003/OSIS/namespace'}
+            for entry in root.findall('.//osis:div[@type="entry"]', ns):
+                entry_num = entry.get('n', '')
+                if not entry_num:
+                    continue
+                lemma_key = f"strong:H{int(entry_num)}"  # No zero-padding: H430 not H00430
+
+                # Get first list item as gloss
+                item = entry.find('.//osis:item', ns)
+                if item is None:
+                    continue
+                raw = ''.join(item.itertext()).strip()
+                # Clean numbering like "1) " prefix
+                gloss = raw.split(')', 1)[-1].strip() if ')' in raw else raw
+                if gloss:
+                    gloss_map[lemma_key] = gloss
+            print(f"    Parsed {len(gloss_map) - (len(gloss_map) - len([k for k in gloss_map if k.startswith('strong:G')]))} Hebrew glosses")
+        except Exception as e:
+            print(f"    ERROR parsing Hebrew Strong's: {e}")
+    else:
+        print(f"    Hebrew Strong's XML not found at {hebrew_xml}")
+
+    return gloss_map
+
+
+def populate_transliteration_and_glosses(gloss_map):
+    """
+    Post-process interlinear_words table:
+    - Set transliteration column from original text (algorithmic)
+    - Set literal column from Strong's gloss lookup
+    """
+    conn = sqlite3.connect(str(DB_PATH))
+
+    # ── Transliteration ──
+    print("\n  Generating transliterations...")
+    rows = conn.execute("SELECT id, original FROM interlinear_words WHERE transliteration IS NULL").fetchall()
+    greek_count = 0
+    hebrew_count = 0
+    
+    # Batch updates for performance
+    batch_size = 10000
+    batch = []
+    
+    def flush_batch():
+        if batch:
+            conn.executemany("UPDATE interlinear_words SET transliteration = ? WHERE id = ?", batch)
+            batch.clear()
+    
+    for row_id, original in rows:
+        if not original:
+            continue
+        # Detect script: Greek or Hebrew
+        first_char = original[0]
+        if '\u0370' <= first_char <= '\u03ff' or '\u1f00' <= first_char <= '\u1fff':
+            translit = transliterate_greek(original)
+            greek_count += 1
+        elif '\u0590' <= first_char <= '\u05ff':
+            translit = transliterate_hebrew(original)
+            hebrew_count += 1
+        else:
+            continue
+        batch.append((translit, row_id))
+        if len(batch) >= batch_size:
+            flush_batch()
+    flush_batch()
+    conn.commit()
+    print(f"    Transliterated: {greek_count} Greek, {hebrew_count} Hebrew")
+
+    # ── Glosses from Strong's ──
+    if gloss_map:
+        print("  Populating English glosses from Strong's...")
+        updated = 0
+        # Fetch all distinct lemmas and normalize them for lookup
+        rows = conn.execute("SELECT DISTINCT lemma FROM interlinear_words WHERE lemma IS NOT NULL AND literal IS NULL").fetchall()
+        gloss_updates = []
+        for (lemma,) in rows:
+            # Normalize: 'strong:H0430' -> 'strong:H430', 'strong:G0976' -> 'strong:G976'
+            if lemma.startswith('strong:G'):
+                num = lemma[8:].lstrip('0') or '0'
+                canon = f'strong:G{num}'
+            elif lemma.startswith('strong:H'):
+                num = lemma[8:].lstrip('0') or '0'
+                canon = f'strong:H{num}'
+            else:
+                continue
+            gloss = gloss_map.get(canon)
+            if gloss:
+                gloss_updates.append((gloss, lemma))
+        if gloss_updates:
+            conn.executemany("UPDATE interlinear_words SET literal = ? WHERE lemma = ? AND literal IS NULL", gloss_updates)
+            conn.commit()
+            # Count actual updated rows
+            updated = conn.execute("SELECT COUNT(*) FROM interlinear_words WHERE literal IS NOT NULL").fetchone()[0]
+        print(f"    Populated {updated} glosses")
+
+    conn.close()
+
+
 # ─── STRONG'S LEXICON ─────────────────────────────────────────────────────────
 
 def parse_strongs_xml(xml_path, language):
@@ -677,7 +986,7 @@ def parse_strongs():
     conn.commit()
 
     # Greek
-    greek_xml = RAW / "strongs-master/greek/strongsgreek.xml"
+    greek_xml = RAW / "strongs-master/greek/StrongsGreekDictionaryXML_1.4/strongsgreek.xml"
     if greek_xml.exists():
         print("\n  Parsing Greek Strong's...")
         data = parse_strongs_xml(greek_xml, 'grc')
@@ -750,7 +1059,13 @@ def main():
     print("\n[3/5] Parsing interlinear (Greek + Hebrew)...")
     parse_interlinear()
 
-    # Step 4: Strong's Lexicon
+    # Step 3.5: Build Strong's gloss map + populate transliteration and glosses
+    print("\n[3.5] Building Strong's gloss map...")
+    gloss_map = build_strongs_gloss_map()
+    print("\n[3.6] Populating transliterations and English glosses...")
+    populate_transliteration_and_glosses(gloss_map)
+
+    # Step 4: Strong's Lexicon (full definitions)
     print("\n[4/5] Parsing Strong's Lexicon...")
     parse_strongs()
 

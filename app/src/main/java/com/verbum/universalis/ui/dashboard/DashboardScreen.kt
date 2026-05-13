@@ -46,7 +46,8 @@ fun DashboardScreen(
     onNavigateToReading: (bookId: Int, chapter: Int) -> Unit = { _, _ -> },
     onNavigateToMassReading: (bookId: Int, chapter: Int, verse: Int?, allReadings: MassReadings, currentIndex: Int) -> Unit = { _, _, _, _, _ -> },
     onNavigateToPlanReading: (bookId: Int, chapter: Int, verse: Int?, allDays: List<List<String>>, currentDayIndex: Int) -> Unit = { _, _, _, _, _ -> },
-    onNavigateToPlanTracking: () -> Unit = {}
+    onNavigateToPlanTracking: () -> Unit = {},
+    onNavigateToSettings: () -> Unit = {}
 ) {
     val currentPlan by viewModel.currentPlan.collectAsState(initial = null)
     val currentDayReadings by viewModel.currentDayReadings.collectAsState(initial = emptyList())
@@ -127,93 +128,149 @@ fun DashboardScreen(
         }
     }
 
-    Column(
-        modifier = Modifier
-            .fillMaxSize()
-            .background(Color.White)
-    ) {
-        Column(modifier = Modifier.padding(horizontal = 24.dp)) {
-            Spacer(modifier = Modifier.height(24.dp))
-            
-            // Date and Title
-            Text(
-                text = selectedDate.format(dateFormatter),
-                style = MaterialTheme.typography.bodyMedium,
-                color = Color.Gray
-            )
-            Row(
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .clickable { showDatePicker = true },
-                horizontalArrangement = Arrangement.SpaceBetween,
-                verticalAlignment = Alignment.CenterVertically
-            ) {
+    Scaffold(
+        modifier = Modifier.background(Color.White),
+        topBar = {
+            Text("")
+        },
+        content = {
+            Column(modifier = Modifier.padding(horizontal = 24.dp)) {
+                Spacer(modifier = Modifier.height(24.dp))
+                
+                // Date and Title
                 Text(
-                    text = if (selectedDate == LocalDate.now()) "Today" else selectedDate.dayOfWeek.getDisplayName(TextStyle.FULL, Locale.getDefault()),
-                    style = MaterialTheme.typography.headlineLarge.copy(
-                        fontWeight = FontWeight.Bold,
-                        fontSize = 32.sp
-                    ),
-                    color = Color.Black
+                    text = selectedDate.format(dateFormatter),
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = Color.Gray
                 )
-                massReadingsEntry?.season?.let { name ->
-                    Text(
-                        text = name,
-                        style = MaterialTheme.typography.bodySmall,
-                        color = accentColor,
-                        modifier = Modifier.widthIn(max = 180.dp),
-                        maxLines = 1,
-                        textAlign = androidx.compose.ui.text.style.TextAlign.End
-                    )
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.SpaceBetween,
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+                    // Date and title on the left
+                    Column(
+                        alignment = Alignment.Start
+                    ) {
+                        Text(
+                            text = if (selectedDate == LocalDate.now()) "Today" else selectedDate.dayOfWeek.getDisplayName(TextStyle.FULL, Locale.getDefault()),
+                            style = MaterialTheme.typography.headlineLarge.copy(
+                                fontWeight = FontWeight.Bold,
+                                fontSize = 32.sp
+                            ),
+                            color = Color.Black
+                        )
+                        massReadingsEntry?.season?.let { name ->
+                            Text(
+                                text = name,
+                                style = MaterialTheme.typography.bodySmall,
+                                color = accentColor,
+                                modifier = Modifier.widthIn(max = 180.dp),
+                                maxLines = 1,
+                                textAlign = androidx.compose.ui.text.style.TextAlign.End
+                            )
+                        }
+                    }
+                    // Then only the date picker button (settings moved to bottom bar)
+                    Row(
+                        verticalAlignment = Alignment.CenterVertically,
+                        horizontalArrangement = Arrangement.spacedBy(8.dp)
+                    ) {
+                        // Date picker button
+                        IconButton(
+                            onClick = { showDatePicker = true },
+                            modifier = Modifier
+                                .background(MaterialTheme.colorScheme.primary.copy(alpha = 0.1f))
+                                .size(40.dp)
+                        ) {
+                            Icon(Icons.Default.CalendarToday, contentDescription = "Select date")
+                        }
+                    }
                 }
+
+                Spacer(modifier = Modifier.height(24.dp))
+
+                // Scrollable Date Strip
+                ScrollableDateStrip(
+                    allDates = allDates,
+                    selectedDate = selectedDate,
+                    accentColor = accentColor,
+                    onDateSelected = { date: LocalDate ->
+                        dashboardViewModel.updateDate(date.toString())
+                    }
+                )
+
+                Spacer(modifier = Modifier.height(32.dp))
             }
 
-            Spacer(modifier = Modifier.height(24.dp))
-
-            // Scrollable Date Strip
-            ScrollableDateStrip(
-                allDates = allDates,
-                selectedDate = selectedDate,
-                accentColor = accentColor,
-                onDateSelected = { date: LocalDate ->
-                    dashboardViewModel.updateDate(date.toString())
+            HorizontalPager(
+                state = pagerState,
+                modifier = Modifier.fillMaxSize(),
+                verticalAlignment = Alignment.Top
+            ) { page ->
+                val dateStr = allDates[page]
+                
+                val pageMassReadings = if (dateStr == selectedDateStr) {
+                    massReadingsEntry
+                } else {
+                    remember(dateStr) { dashboardViewModel.getMassReadingsForDate(dateStr) }
                 }
-            )
 
-            Spacer(modifier = Modifier.height(32.dp))
-        }
-
-        HorizontalPager(
-            state = pagerState,
-            modifier = Modifier.fillMaxSize(),
-            verticalAlignment = Alignment.Top
-        ) { page ->
-            val dateStr = allDates[page]
-            
-            val pageMassReadings = if (dateStr == selectedDateStr) {
-                massReadingsEntry
-            } else {
-                remember(dateStr) { dashboardViewModel.getMassReadingsForDate(dateStr) }
+                DashboardDayContent(
+                    massReadingsEntry = pageMassReadings,
+                    currentDayReadings = currentDayReadings,
+                    currentDayIndex = currentDayIndex,
+                    progressMap = progressMap,
+                    currentPlan = currentPlan,
+                    accentColor = if (dateStr == selectedDateStr) accentColor else getLiturgicalColor(pageMassReadings?.season),
+                    isCurrentDatePage = dateStr == selectedDateStr,
+                    onNavigateToReading = onNavigateToReading,
+                    onNavigateToMassReading = onNavigateToMassReading,
+                    onNavigateToPlanReading = onNavigateToPlanReading,
+                    onNavigateToPlanTracking = onNavigateToPlanTracking,
+                    onTogglePlanReadingComplete = { planId: String, dayIdx: Int, readingIdx: Int ->
+                        viewModel.toggleReadingCompleted(planId, dayIdx, readingIdx)
+                    }
+                )
             }
-
-            DashboardDayContent(
-                massReadingsEntry = pageMassReadings,
-                currentDayReadings = currentDayReadings,
-                currentDayIndex = currentDayIndex,
-                progressMap = progressMap,
-                currentPlan = currentPlan,
-                accentColor = if (dateStr == selectedDateStr) accentColor else getLiturgicalColor(pageMassReadings?.season),
-                isCurrentDatePage = dateStr == selectedDateStr,
-                onNavigateToReading = onNavigateToReading,
-                onNavigateToMassReading = onNavigateToMassReading,
-                onNavigateToPlanReading = onNavigateToPlanReading,
-                onNavigateToPlanTracking = onNavigateToPlanTracking,
-                onTogglePlanReadingComplete = { planId: String, dayIdx: Int, readingIdx: Int ->
-                    viewModel.toggleReadingCompleted(planId, dayIdx, readingIdx)
+        },
+        bottomBar = {
+            BottomAppBar(
+                content = {
+                    Row(
+                        Modifier.fillMaxWidth(),
+                        horizontalArrangement = Arrangement.SpaceEvenly
+                    ) {
+                        // Dashboard icon (current)
+                        IconButton(
+                            onClick = { /* Do nothing, we are already on Dashboard */ },
+                            enabled = false
+                        ) {
+                            Icon(Icons.Default.Home, contentDescription = "Dashboard")
+                        }
+                        // Reading icon
+                        IconButton(
+                            onClick = { /* TODO: Navigate to Reading */ }
+                        ) {
+                            Icon(Icons.Default.MenuBook, contentDescription = "Reading")
+                        }
+                        // Plans icon
+                        IconButton(
+                            onClick = { /* TODO: Navigate to Plans */ }
+                        ) {
+                            Icon(Icons.Default.CalendarMonth, contentDescription = "Plans")
+                        }
+                        // Settings icon
+                        IconButton(
+                            onClick = { onNavigateToSettings() }
+                        ) {
+                            Icon(Icons.Default.Settings, contentDescription = "Settings")
+                        }
+                    }
                 }
             )
         }
-    }
+    )
 }
 
 @Composable
