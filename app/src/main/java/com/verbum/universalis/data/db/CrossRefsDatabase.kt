@@ -25,18 +25,17 @@ abstract class CrossRefsDatabase : RoomDatabase() {
         fun getDatabase(context: Context): CrossRefsDatabase {
             return INSTANCE ?: synchronized(this) {
                 val instance = INSTANCE
-                if (instance != null) {
-                    return instance
-                }
+                if (instance != null) return instance
 
-                val dbFile = File(context.filesDir, "databases/$DATABASE_NAME")
-
-                // Check if database exists in filesDir (downloaded location)
-                if (!dbFile.exists()) {
-                    val downloadedFile = File(context.filesDir, DATABASE_NAME)
-                    if (downloadedFile.exists()) {
-                        downloadedFile.renameTo(dbFile)
-                    }
+                val sources = listOf(
+                    File(context.filesDir, "databases/$DATABASE_NAME"),
+                    File(context.filesDir, DATABASE_NAME)
+                )
+                val roomPath = context.getDatabasePath(DATABASE_NAME)
+                val source = sources.firstOrNull { it.exists() }
+                if (source != null) {
+                    roomPath.parentFile?.mkdirs()
+                    source.copyTo(roomPath, overwrite = true)
                 }
 
                 val db = Room.databaseBuilder(
@@ -56,6 +55,11 @@ abstract class CrossRefsDatabase : RoomDatabase() {
             val dbFile = File(context.filesDir, "databases/$DATABASE_NAME")
             val downloadedFile = File(context.filesDir, DATABASE_NAME)
             return dbFile.exists() || downloadedFile.exists()
+        }
+
+        fun invalidate() {
+            INSTANCE?.close()
+            INSTANCE = null
         }
     }
 }

@@ -199,7 +199,7 @@ class ReadingViewModel @Inject constructor(
     @OptIn(ExperimentalCoroutinesApi::class)
     val interlinearWords: Flow<List<InterlinearWordEntity>> = combine(_currentPassage, _activeLanguage) { p, l -> p to l }
         .flatMapLatest { (passage, lang) ->
-            if (lang == "el_GRK" || lang == "he_HEB") {
+            if (lang == "il_IL") {
                 repository.getGreekWordsForChapter(passage.bookId, passage.chapter)
             } else {
                 flowOf(emptyList())
@@ -317,7 +317,7 @@ class ReadingViewModel @Inject constructor(
             "es_PLA" -> "ES"
             "la_VUL" -> "LA"
             "el_GRK" -> "EL" // Greek
-            "he_HEB" -> "HE" // Hebrew
+            "il_IL" -> "IL" // Hebrew
             else -> "EN"
         }
     }

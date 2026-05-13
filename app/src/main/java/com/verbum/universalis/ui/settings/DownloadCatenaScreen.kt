@@ -23,6 +23,7 @@ fun DownloadCatenaScreen(
 ) {
     val isDownloaded by viewModel.isDownloaded.collectAsState()
     val downloadStatus by viewModel.downloadStatus.collectAsState()
+    val progressText by viewModel.progressText.collectAsState()
 
     Scaffold(
         topBar = {
@@ -50,13 +51,13 @@ fun DownloadCatenaScreen(
 
             if (isDownloaded) {
                 Text(
-                    text = "Catena database is already downloaded and ready to use.",
+                    text = "Catena database, cross-references, and reference links are ready.",
                     style = MaterialTheme.typography.bodyLarge,
                     color = MaterialTheme.colorScheme.primary
                 )
             } else {
                 Text(
-                    text = "This will download the verbum_catena.db file from GitHub releases (~200 MB).",
+                    text = "Downloads verbum_catena.db (~210 MB), verbum_cross_refs.db (~34 MB), and cross-reference links (~8 MB) from GitHub.",
                     style = MaterialTheme.typography.bodyLarge
                 )
                 Spacer(modifier = Modifier.height(16.dp))
@@ -78,7 +79,7 @@ fun DownloadCatenaScreen(
                             CircularProgressIndicator(strokeWidth = 4.dp)
                             Spacer(modifier = Modifier.height(16.dp))
                             Text(
-                                text = "Downloading...",
+                                text = progressText.ifEmpty { "Downloading…" },
                                 style = MaterialTheme.typography.titleMedium
                             )
                         }
@@ -93,12 +94,12 @@ fun DownloadCatenaScreen(
                             )
                             Spacer(modifier = Modifier.height(16.dp))
                             Text(
-                                text = "Download completed successfully!",
+                                text = "All data downloaded successfully!",
                                 style = MaterialTheme.typography.titleMedium
                             )
                             Spacer(modifier = Modifier.height(8.dp))
                             Text(
-                                text = "You can now use the Catena commentary in the app.",
+                                text = "Catena, cross-references, and reference links are ready.",
                                 style = MaterialTheme.typography.bodyLarge
                             )
                             Spacer(modifier = Modifier.height(24.dp))
@@ -120,7 +121,7 @@ fun DownloadCatenaScreen(
                             )
                             Spacer(modifier = Modifier.height(16.dp))
                             Text(
-                                text = "Download failed. Please check your internet connection and try again.",
+                                text = progressText.ifEmpty { "Download failed. Please check your internet connection and try again." },
                                 style = MaterialTheme.typography.titleMedium,
                                 color = MaterialTheme.colorScheme.error
                             )

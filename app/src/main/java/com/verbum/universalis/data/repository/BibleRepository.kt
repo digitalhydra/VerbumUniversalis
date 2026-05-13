@@ -91,8 +91,11 @@ class BibleRepository(
     }
 
     // Reference data classes (for JSON)
+    @kotlinx.serialization.Serializable
     data class Reference(val ref: String, val description: String)
+    @kotlinx.serialization.Serializable
     data class ReferenceEntry(val verse_ref: String, val references: List<Reference>)
+    @kotlinx.serialization.Serializable
     data class ReferencesData(val entries: List<ReferenceEntry>)
 
     // Get references for a verse with descriptions
@@ -104,25 +107,74 @@ class BibleRepository(
     suspend fun getReferencesForVerse(bookId: Int, chapter: Int, verseNumber: Int): List<Reference> {
         val bookCode = getBookCodeForId(bookId) ?: return emptyList()
         
+        val refPrefix = "${bookCode}.${chapter}.${verseNumber}"
         val cacheFile = File(context.filesDir, "cache/references.json")
+        
+        // Download and parse TSV if not cached yet
         if (!cacheFile.exists()) {
-            downloadFile(REFERENCES_URL, cacheFile)
+            downloadAndParseReferences(cacheFile)
+            if (!cacheFile.exists()) return emptyList()
         }
 
         return try {
             val jsonString = cacheFile.readText()
             val data = Json { ignoreUnknownKeys = true }.decodeFromString<ReferencesData>(jsonString)
-
-            val refPrefix = "${bookCode}.${chapter}.${verseNumber}"
-            val matchingEntries = data.entries.filter { it.verse_ref.startsWith(refPrefix) }
+            val matchingEntries = data.entries.filter { it.verse_ref == refPrefix }
             val allReferences = mutableListOf<Reference>()
             matchingEntries.forEach { entry ->
                 allReferences.addAll(entry.references)
             }
             allReferences
         } catch (e: Exception) {
-            e.printStackTrace()
+            android.util.Log.e("BibleRepository", "Failed to read references cache", e)
             emptyList()
+        }
+    }
+
+    /** Preload references TSV (download + parse + cache). Safe to call from any coroutine. */
+    suspend fun preloadReferences(): Boolean {
+        val cacheFile = File(context.filesDir, "cache/references.json")
+        if (cacheFile.exists()) return true
+        downloadAndParseReferences(cacheFile)
+        return cacheFile.exists()
+    }
+
+    private suspend fun downloadAndParseReferences(cacheFile: File) = kotlinx.coroutines.withContext(kotlinx.coroutines.Dispatchers.IO) {
+        try {
+            val request = Request.Builder().url(REFERENCES_URL).build()
+            val response = httpClient.newCall(request).execute()
+            if (!response.isSuccessful) {
+                android.util.Log.e("BibleRepository", "Failed to download references: ${response.code}")
+                return@withContext
+            }
+            val tsv = response.body?.string() ?: return@withContext
+            
+            // Parse TSV: From Verse\tTo Verse\tVotes
+            val lines = tsv.lines()
+            // Group by from-verse
+            val grouped = mutableMapOf<String, MutableList<Reference>>()
+            for (line in lines) {
+                if (line.isBlank() || line.startsWith("#") || line.startsWith("From")) continue
+                val parts = line.split("\t")
+                if (parts.size < 2) continue
+                val fromRef = parts[0].trim()
+                val toRef = parts[1].trim()
+                val votes = parts.getOrNull(2)?.trim()?.toIntOrNull()
+                val desc = if (votes != null) "votes: $votes" else ""
+                grouped.getOrPut(fromRef) { mutableListOf() }.add(Reference(toRef, desc))
+            }
+            
+            // Convert to JSON and cache
+            val entries = grouped.map { (verseRef, refs) ->
+                ReferenceEntry(verse_ref = verseRef, references = refs)
+            }
+            val data = ReferencesData(entries = entries)
+            val json = Json { prettyPrint = false }.encodeToString(data)
+            cacheFile.parentFile?.mkdirs()
+            cacheFile.writeText(json)
+            android.util.Log.i("BibleRepository", "Parsed ${entries.size} reference entries")
+        } catch (e: Exception) {
+            android.util.Log.e("BibleRepository", "Error downloading/parsing references", e)
         }
     }
 
@@ -174,31 +226,11 @@ class BibleRepository(
     }
 
     companion object {
-        private const val CATENA_URL = "https://raw.githubusercontent.com/YOUR_USER/VERBUM_DATA/main/catena.json"
-        private const val REFERENCES_URL = "https://raw.githubusercontent.com/YOUR_USER/VERBUM_DATA/main/references.json"
-        private const val LITURGICAL_URL = "https://raw.githubusercontent.com/YOUR_USER/VERBUM_DATA/main/liturgical_calendar.json"
+        private const val REFERENCES_URL = "https://raw.githubusercontent.com/digitalhydra/VerbumUniversalis/refs/heads/master/raw_data/cross_references.txt"
     }
 
     private val httpClient = OkHttpClient.Builder()
         .connectTimeout(30, TimeUnit.SECONDS)
-        .readTimeout(30, TimeUnit.SECONDS)
+        .readTimeout(120, TimeUnit.SECONDS)
         .build()
-
-    private suspend fun downloadFile(url: String, outputFile: File) = kotlinx.coroutines.withContext(kotlinx.coroutines.Dispatchers.IO) {
-        try {
-            val request = Request.Builder().url(url).build()
-            val response = httpClient.newCall(request).execute()
-            val body = response.body?.string()
-
-            if (response.isSuccessful && body != null) {
-                outputFile.parentFile?.mkdirs()
-                outputFile.writeText(body)
-                android.util.Log.i("BibleRepository", "Downloaded $url to ${outputFile.absolutePath}")
-            } else {
-                android.util.Log.e("BibleRepository", "Failed to download $url: ${response.message}")
-            }
-        } catch (e: Exception) {
-            android.util.Log.e("BibleRepository", "Error downloading $url", e)
-        }
-    }
 }

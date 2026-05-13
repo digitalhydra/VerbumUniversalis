@@ -54,12 +54,26 @@ fun ReadingScreen(
         }
 
         val navController = rememberNavController()
+        val studyInspectorVM: StudyInspectorViewModel = hiltViewModel()
         val activeLanguage by viewModel.activeLanguage.collectAsState(initial = "en_DRB")
         val currentPassage by viewModel.currentPassage.collectAsState()
         var showBookPicker by remember { mutableStateOf(false) }
         val showNoteHighlightSheet by viewModel.showNoteHighlightSheet.collectAsState(initial = false)
         val showStudyInspector by viewModel.showStudyInspector.collectAsState(initial = false)
         val selectedGreekWord by viewModel.selectedGreekWord.collectAsState(initial = null)
+        val catenaEntries by studyInspectorVM.catenaEntries.collectAsState(initial = emptyList())
+        val crossRefs by studyInspectorVM.crossRefs.collectAsState(initial = emptyList())
+        val activeInspectorTab by studyInspectorVM.activeTab.collectAsState(initial = InspectorTab.CATENA)
+        val inspectorWord by studyInspectorVM.selectedWord.collectAsState()
+        val lexiconEntry by studyInspectorVM.lexiconEntry.collectAsState()
+
+        LaunchedEffect(currentPassage) {
+            studyInspectorVM.setCurrentVerse(
+                currentPassage.bookId,
+                currentPassage.chapter,
+                currentPassage.verseRange?.start ?: 1
+            )
+        }
 
         Box(modifier = Modifier.fillMaxSize()) {
             Scaffold(
@@ -215,6 +229,7 @@ fun ReadingScreen(
                         showStudyInspector = showStudyInspector,
                         onWordClick = { word -> 
                             viewModel.selectGreekWord(word)
+                            studyInspectorVM.selectWord(word)
                             if (!showStudyInspector) viewModel.toggleStudyInspector()
                         }
                     )
@@ -245,12 +260,18 @@ fun ReadingScreen(
                                     .padding(paddingValues)
                             ) {
                                 com.verbum.universalis.ui.reader.StudyInspector(
-                                    selectedWord = selectedGreekWord,
-                                    lexiconEntry = null,
-                                    catenaEntries = emptyList(),
-                                    references = emptyList(),
-                                    activeTab = com.verbum.universalis.ui.reader.InspectorTab.CATENA,
-                                    onTabSelect = { },
+                                    selectedWord = inspectorWord,
+                                    lexiconEntry = lexiconEntry,
+                                    catenaEntries = catenaEntries,
+                                    references = crossRefs,
+                                    activeTab = activeInspectorTab,
+                                    onTabSelect = { studyInspectorVM.setActiveTab(it) },
+                                    onReferenceClick = { ref ->
+                                        studyInspectorVM.parseReference(ref)?.let { (bookId, chapter, verse) ->
+                                            viewModel.setPassage(bookId, chapter, verse)
+                                            viewModel.toggleStudyInspector()
+                                        }
+                                    },
                                     showLexicon = activeLanguage == "el_GRK"
                                 )
                             }

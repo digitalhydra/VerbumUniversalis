@@ -1,6 +1,7 @@
 package com.verbum.universalis.data.entities
 
 import androidx.room.Entity
+import androidx.room.Index
 import androidx.room.PrimaryKey
 import androidx.room.ColumnInfo
 
@@ -8,7 +9,15 @@ import androidx.room.ColumnInfo
  * Catena commentary entry.
  * Matches verbum_catena.db schema.
  */
-@Entity(tableName = "commentaries")
+@Entity(
+    tableName = "commentaries",
+    indices = [
+        Index(name = "idx_book", value = ["book"]),
+        Index(name = "idx_verse", value = ["verse_start", "verse_end"]),
+        Index(name = "idx_author", value = ["author_normalized"]),
+        Index(name = "idx_content_hash", value = ["content_hash"])
+    ]
+)
 data class CatenaCommentaryEntity(
     @PrimaryKey
     @ColumnInfo(name = "id")
@@ -48,5 +57,8 @@ data class CatenaCommentaryEntity(
     val contentHash: String?,
 
     @ColumnInfo(name = "dataset_source")
-    val datasetSource: String
+    val datasetSource: String,
+
+    @ColumnInfo(name = "created_at")
+    val createdAt: String? = null
 )
