@@ -276,7 +276,7 @@ fun ReadingScreen(
                                             viewModel.toggleStudyInspector()
                                         }
                                     },
-                                    showLexicon = activeLanguage == "el_GRK",
+                                    showLexicon = activeLanguage == "il_IL",
                                     isLoadingCatena = isLoadingCatena,
                                     isLoadingRefs = isLoadingRefs
                                 )

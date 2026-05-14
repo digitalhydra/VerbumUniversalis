@@ -787,7 +787,7 @@ def parse_interlinear():
 def build_strongs_gloss_map():
     """
     Parse Strong's dictionaries and build lemma → English gloss lookup.
-    Returns dict: { 'strong:G976': 'book', 'strong:H07225': 'beginning', ... }
+    Returns dict: { 'strong:G976': 'book', 'strong:H7225': 'beginning', ... }
     """
     gloss_map = {}
 
@@ -795,30 +795,24 @@ def build_strongs_gloss_map():
     greek_xml = RAW / "strongs-master/greek/StrongsGreekDictionaryXML_1.4/strongsgreek.xml"
     if greek_xml.exists():
         try:
-            import xml.etree.ElementTree as ET
             tree = ET.parse(str(greek_xml))
             root = tree.getroot()
-            entries = root.find('entries')
-            if entries is not None:
-                for entry in entries.findall('entry'):
-                    strongs_num = entry.get('strongs', '')
-                    if not strongs_num:
-                        continue
-                    lemma_key = f"strong:G{int(strongs_num)}"
+            for entry in root.findall('.//entry'):
+                strongs_num = entry.get('strongs', '')
+                if not strongs_num:
+                    continue
+                # Normalize: '01211' -> 'strong:G1211'
+                lemma_key = f"strong:G{int(strongs_num)}"
 
-                    # Get kjv_def as the concise gloss
-                    kjv_el = entry.find('kjv_def')
-                    if kjv_el is None:
-                        continue
+                # Get kjv_def as the concise gloss
+                kjv_el = entry.find('kjv_def')
+                if kjv_el is not None:
                     raw = ''.join(kjv_el.itertext()).strip()
-                    # Clean KJV formatting: "--book." → "book"
-                    # ":--do good." → "do good"
                     gloss = raw.replace('--', '').replace(':--', '').strip(' .:;,-')
-                    # Take first word/phrase before comma or semicolon, strip newlines
                     gloss = gloss.split(',')[0].split(';')[0].replace('\n', ' ').strip()
-                    if gloss and not gloss.startswith('X '):  # X = untranslated in KJV
+                    if gloss and not gloss.startswith('X '):
                         gloss_map[lemma_key] = gloss
-            print(f"    Parsed {len(gloss_map)} Greek glosses from Strong's")
+            print(f"    Parsed Greek glosses from Strong's")
         except Exception as e:
             print(f"    ERROR parsing Greek Strong's: {e}")
     else:
@@ -828,27 +822,26 @@ def build_strongs_gloss_map():
     hebrew_xml = RAW / "strongs-master/hebrew/StrongHebrewG.xml"
     if hebrew_xml.exists():
         try:
-            import xml.etree.ElementTree as ET
             tree = ET.parse(str(hebrew_xml))
             root = tree.getroot()
-            # Hebrew XML uses OSIS namespace
             ns = {'osis': 'http://www.bibletechnologies.net/2003/OSIS/namespace'}
             for entry in root.findall('.//osis:div[@type="entry"]', ns):
                 entry_num = entry.get('n', '')
                 if not entry_num:
                     continue
-                lemma_key = f"strong:H{int(entry_num)}"  # No zero-padding: H430 not H00430
+                lemma_key = f"strong:H{int(entry_num)}"
 
-                # Get first list item as gloss
                 item = entry.find('.//osis:item', ns)
                 if item is None:
                     continue
                 raw = ''.join(item.itertext()).strip()
-                # Clean numbering like "1) " prefix
                 gloss = raw.split(')', 1)[-1].strip() if ')' in raw else raw
                 if gloss:
                     gloss_map[lemma_key] = gloss
-            print(f"    Parsed {len(gloss_map) - (len(gloss_map) - len([k for k in gloss_map if k.startswith('strong:G')]))} Hebrew glosses")
+            print(f"    Parsed Hebrew glosses from Strong's")
+            # Debug: print first 5 Hebrew glosses
+            for k in list(gloss_map.keys())[:5]:
+                print(f"      DEBUG: {k} -> {gloss_map[k]}")
         except Exception as e:
             print(f"    ERROR parsing Hebrew Strong's: {e}")
     else:
@@ -868,65 +861,44 @@ def populate_transliteration_and_glosses(gloss_map):
     # ── Transliteration ──
     print("\n  Generating transliterations...")
     rows = conn.execute("SELECT id, original FROM interlinear_words WHERE transliteration IS NULL").fetchall()
-    greek_count = 0
-    hebrew_count = 0
-    
-    # Batch updates for performance
-    batch_size = 10000
+
     batch = []
-    
-    def flush_batch():
-        if batch:
-            conn.executemany("UPDATE interlinear_words SET transliteration = ? WHERE id = ?", batch)
-            batch.clear()
-    
     for row_id, original in rows:
-        if not original:
-            continue
-        # Detect script: Greek or Hebrew
+        if not original: continue
         first_char = original[0]
         if '\u0370' <= first_char <= '\u03ff' or '\u1f00' <= first_char <= '\u1fff':
             translit = transliterate_greek(original)
-            greek_count += 1
         elif '\u0590' <= first_char <= '\u05ff':
             translit = transliterate_hebrew(original)
-            hebrew_count += 1
-        else:
-            continue
+        else: continue
         batch.append((translit, row_id))
-        if len(batch) >= batch_size:
-            flush_batch()
-    flush_batch()
+        if len(batch) >= 5000:
+            conn.executemany("UPDATE interlinear_words SET transliteration = ? WHERE id = ?", batch)
+            batch = []
+    conn.executemany("UPDATE interlinear_words SET transliteration = ? WHERE id = ?", batch)
     conn.commit()
-    print(f"    Transliterated: {greek_count} Greek, {hebrew_count} Hebrew")
 
     # ── Glosses from Strong's ──
     if gloss_map:
         print("  Populating English glosses from Strong's...")
-        updated = 0
-        # Fetch all distinct lemmas and normalize them for lookup
         rows = conn.execute("SELECT DISTINCT lemma FROM interlinear_words WHERE lemma IS NOT NULL AND literal IS NULL").fetchall()
         gloss_updates = []
         for (lemma,) in rows:
-            # Normalize: 'strong:H0430' -> 'strong:H430', 'strong:G0976' -> 'strong:G976'
-            if lemma.startswith('strong:G'):
-                num = lemma[8:].lstrip('0') or '0'
-                canon = f'strong:G{num}'
-            elif lemma.startswith('strong:H'):
-                num = lemma[8:].lstrip('0') or '0'
-                canon = f'strong:H{num}'
-            else:
-                continue
+            # The lemma in interlinear_words is like 'strong:G3779' or 'strong:G03779'
+            # Normalize to match map keys like 'strong:G3779'
+            parts = lemma.split(':')
+            if len(parts) < 2: continue
+            prefix = parts[1][0] # G or H
+            num_str = parts[1][1:].lstrip('0') or '0'
+            canon = f"strong:{prefix}{num_str}"
+
             gloss = gloss_map.get(canon)
             if gloss:
                 gloss_updates.append((gloss, lemma))
+
         if gloss_updates:
             conn.executemany("UPDATE interlinear_words SET literal = ? WHERE lemma = ? AND literal IS NULL", gloss_updates)
             conn.commit()
-            # Count actual updated rows
-            updated = conn.execute("SELECT COUNT(*) FROM interlinear_words WHERE literal IS NOT NULL").fetchone()[0]
-        print(f"    Populated {updated} glosses")
-
     conn.close()
 
 

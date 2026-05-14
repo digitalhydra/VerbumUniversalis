@@ -1,10 +1,13 @@
 package com.verbum.universalis.ui.reader
 
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
@@ -18,6 +21,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.verbum.universalis.data.entities.CatenaCommentaryEntity
+import com.verbum.universalis.ui.components.BiblicalCommentaryCard
+import com.verbum.universalis.ui.components.CommentaryData
 import com.verbum.universalis.data.entities.InterlinearWordEntity
 import com.verbum.universalis.data.entities.LexiconEntity
 import com.verbum.universalis.data.repository.BibleRepository.Reference
@@ -135,25 +140,41 @@ fun CatenaView(
             modifier = Modifier.padding(16.dp)
         )
     } else {
-        LazyColumn(modifier = Modifier.fillMaxSize()) {
+        LazyColumn(
+            modifier = Modifier.fillMaxSize(),
+            verticalArrangement = Arrangement.spacedBy(16.dp),
+            contentPadding = PaddingValues(16.dp)
+        ) {
             items(catenaEntries.size) { idx ->
                 val entry = catenaEntries[idx]
-                Column(modifier = Modifier.padding(vertical = 8.dp)) {
-                    val authorText = buildString {
-                        append(entry.author)
-                        if (!entry.period.isNullOrEmpty()) {
-                            append(" (${entry.period})")
-                        }
-                    }
-                    Text("• $authorText", style = MaterialTheme.typography.labelMedium)
-                    if (!entry.sourceTitle.isNullOrEmpty()) {
-                        Text(
-                            entry.sourceTitle,
-                            style = MaterialTheme.typography.labelSmall
-                        )
-                    }
-                    Text(entry.content, style = MaterialTheme.typography.bodyMedium)
+                
+                // Build verse reference string (e.g., "Genesis 1:1" or "Genesis 1:1-3")
+                val verseReference = if (entry.verseStart == entry.verseEnd) {
+                    "${entry.book.replaceFirstChar { it.uppercase() }} ${entry.chapter}:${entry.verseStart}"
+                } else {
+                    "${entry.book.replaceFirstChar { it.uppercase() }} ${entry.chapter}:${entry.verseStart}-${entry.verseEnd}"
                 }
+                
+                // Build author text with period if available
+                val authorText = if (!entry.period.isNullOrEmpty()) {
+                    "${entry.author} (${entry.period})"
+                } else {
+                    entry.author
+                }
+                
+                // Format date from createdAt if available (take first 10 chars for YYYY-MM-DD)
+                val dateText = entry.createdAt?.take(10) ?: ""
+                
+                BiblicalCommentaryCard(
+                    commentary = CommentaryData(
+                        author = authorText,
+                        date = dateText,
+                        content = entry.content,
+                        verseReference = verseReference,
+                        authorAvatarUrl = null
+                    ),
+                    modifier = Modifier.fillMaxWidth()
+                )
             }
         }
     }
