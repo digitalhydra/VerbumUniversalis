@@ -1,24 +1,19 @@
 # 🛠️ ETL Pipeline: Verbum Seed DB
 
-This script generate `verbum_seed.db` for offline-first mode.
+This pipeline generates `verbum_seed.db`, providing offline-first Bible texts, interlinear data, and theological lexicons.
 
-## 🚀 How Run
-1. Need Python 3.
-2. Run command:
+## 🚀 Quick Start
+1. Install dependencies: `pip install pysword`
+2. Run build:
    ```bash
-   python3 etl.py
+   python3 etl/build_verbum_seed.py
    ```
 
-## 📦 Result
-- Script make `verbum_seed.db` in root.
-- Move file to `src/main/assets/` for Android app use.
+Detailed instructions, data requirements, and schema info are available in [**etl/README.md**](etl/README.md).
 
-## 🏗️ DB Structure
-- `books`: Metadata for Bible books.
+## 🏗️ DB Overview
+- `books`: Metadata for 73 Catholic books.
 - `verses`: Unique anchors for every verse.
-- `texts`: Translation content (DR, SCIO, VL).
-- `interlinear_words`: Morphology and original text.
-- `lexicon`: Root definitions.
-
-## ⚠️ Note
-Current `etl.py` use sample data (Gen 1:1). For full Bible, update `etl.py` with raw JSON/Text sources before run.
+- `texts`: Translation content (DR, PLA, VL).
+- `interlinear_words`: Greek/Hebrew text + Transliteration + English Gloss.
+- `lexicon`: Strong's definitions.
