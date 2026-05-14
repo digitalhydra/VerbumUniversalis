@@ -127,8 +127,13 @@ fun ReadingCanvas(
         }
 
         // Handle scrolling to a specific verse
-        LaunchedEffect(currentPassage.verseRange, layoutResult, listState) {
-            val targetVerse = currentPassage.verseRange?.start
+        LaunchedEffect(currentPassage.verseFilter, layoutResult, listState) {
+            val filter = currentPassage.verseFilter
+            val targetVerse = if (filter != null) {
+                // Scroll to first verse of first range/part
+                filter.split(",")[0].trim().split("-")[0].filter { it.isDigit() }.toIntOrNull()
+            } else null
+
             if (targetVerse != null) {
                 if (activeLanguage == "il_IL") {
                     val index = verses.indexOfFirst { it.verse.verse_number == targetVerse }

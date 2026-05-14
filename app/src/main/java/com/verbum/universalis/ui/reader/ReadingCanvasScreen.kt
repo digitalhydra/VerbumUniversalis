@@ -28,21 +28,16 @@ fun ReadingCanvasScreen(
     initialBookId: Int? = null,
     initialChapter: Int? = null,
     initialVerse: Int? = null,
+    initialFilter: String? = null,
     massReadings: MassReadings = emptyList(),
     currentReadingIndex: Int = -1,
     planReadings: PlanReadings = emptyList(),
     currentPlanDayIndex: Int = -1,
-    onNavigateNext: ((bookId: Int, chapter: Int, verse: Int?, nextIndex: Int) -> Unit)? = null,
-    onNavigateNextDay: ((bookId: Int, chapter: Int, verse: Int?, nextDayIndex: Int) -> Unit)? = null,
+    onNavigateNext: ((bookId: Int, chapter: Int, verse: Int?, filter: String?, nextIndex: Int) -> Unit)? = null,
+    onNavigateNextDay: ((bookId: Int, chapter: Int, verse: Int?, filter: String?, nextDayIndex: Int) -> Unit)? = null,
     onBack: (() -> Unit)? = null,
     viewModel: ReadingViewModel = hiltViewModel()
 ) {
-    LaunchedEffect(initialBookId, initialChapter, initialVerse) {
-        if (initialBookId != null && initialChapter != null) {
-            viewModel.setPassage(initialBookId, initialChapter, initialVerse)
-        }
-    }
-    
     val currentPassage by viewModel.currentPassage.collectAsState()
     
     // Calculate next reading text for mass readings
@@ -56,14 +51,15 @@ fun ReadingCanvasScreen(
         initialBookId = initialBookId,
         initialChapter = initialChapter,
         initialVerse = initialVerse,
+        initialFilter = initialFilter,
         showNextReading = massReadings.isNotEmpty() && currentReadingIndex >= 0,
         nextReadingText = nextMassReadingText,
         onNextReadingClick = {
             val nextIdx = currentReadingIndex + 1
             if (nextIdx < massReadings.size) {
                 val (_, nextRef) = massReadings[nextIdx]
-                parseAndNavigate(nextRef) { bookId, chapter, verse ->
-                    onNavigateNext?.invoke(bookId, chapter, verse, nextIdx)
+                parseAndNavigate(nextRef) { bookId, chapter, verse, filter ->
+                    onNavigateNext?.invoke(bookId, chapter, verse, filter, nextIdx)
                 }
             }
         },
@@ -74,8 +70,8 @@ fun ReadingCanvasScreen(
             if (nextDayIdx < planReadings.size) {
                 val nextDayReadings = planReadings[nextDayIdx]
                 if (nextDayReadings.isNotEmpty()) {
-                    parseAndNavigate(nextDayReadings[0]) { bookId, chapter, verse ->
-                        onNavigateNextDay?.invoke(bookId, chapter, verse, nextDayIdx)
+                    parseAndNavigate(nextDayReadings[0]) { bookId, chapter, verse, filter ->
+                        onNavigateNextDay?.invoke(bookId, chapter, verse, filter, nextDayIdx)
                     }
                 }
             }
@@ -103,12 +99,12 @@ private fun getNextDayText(allDays: PlanReadings, currentDayIndex: Int): String?
     return "Next Day →"
 }
 
-private fun parseAndNavigate(ref: String, onNavigate: (bookId: Int, chapter: Int, verse: Int?) -> Unit) {
+private fun parseAndNavigate(ref: String, onNavigate: (bookId: Int, chapter: Int, verse: Int?, filter: String?) -> Unit) {
     try {
         val parts = ref.split(":")
         if (parts.size >= 2) {
             val bookAndChapter = parts[0].trim()
-            val versePartWithRange = parts[1].trim()
+            val filterPart = parts[1].trim()
             
             val bookName = if (bookAndChapter.contains(" ")) bookAndChapter.substringBeforeLast(" ").trim() else bookAndChapter
             val chapterString = if (bookAndChapter.contains(" ")) bookAndChapter.substringAfterLast(" ").trim() else "1"
@@ -116,10 +112,14 @@ private fun parseAndNavigate(ref: String, onNavigate: (bookId: Int, chapter: Int
             val bookId = Passage.BOOK_NAME_TO_ID[bookName] ?: 
                         Passage.BOOK_NAME_TO_ID.entries.find { it.key.contains(bookName, ignoreCase = true) }?.value
             val chapter = chapterString.toIntOrNull()
-            val verse = versePartWithRange.split("-")[0].split(",")[0].trim().toIntOrNull()
+            
+            // If it's a simple verse like "1", filter is null and verse is 1.
+            // If it's complex like "1-11, 13-15", filter is the whole string.
+            val verse = filterPart.split("-")[0].split(",")[0].trim().toIntOrNull()
+            val filter = if (filterPart.contains("-") || filterPart.contains(",")) filterPart else null
             
             if (bookId != null && chapter != null) {
-                onNavigate(bookId, chapter, verse)
+                onNavigate(bookId, chapter, verse, filter)
             }
         } else {
             // Handle "GEN.1" or "Genesis 1"
@@ -132,7 +132,7 @@ private fun parseAndNavigate(ref: String, onNavigate: (bookId: Int, chapter: Int
             val chapter = chapterString.toIntOrNull()
             
             if (bookId != null && chapter != null) {
-                onNavigate(bookId, chapter, null)
+                onNavigate(bookId, chapter, null, null)
             }
         }
     } catch (e: Exception) { /* ignore */ }

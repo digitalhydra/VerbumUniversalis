@@ -30,7 +30,41 @@ import kotlinx.coroutines.flow.flowOf
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.launch
 
-data class Passage(val bookId: Int, val chapter: Int, val verseRange: IntRange?) {
+data class Passage(val bookId: Int, val chapter: Int, val verseFilter: String? = null) {
+    
+    val firstVerse: Int? by lazy {
+        verseFilter?.split(",")?.getOrNull(0)?.trim()?.split("-")?.getOrNull(0)?.filter { it.isDigit() }?.toIntOrNull()
+    }
+
+    private val ranges: List<IntRange> by lazy {
+        parseFilter(verseFilter)
+    }
+
+    fun isVerseVisible(verseNumber: Int): Boolean {
+        if (verseFilter == null) return true
+        if (ranges.isEmpty()) return false
+        return ranges.any { verseNumber in it }
+    }
+
+    private fun parseFilter(filter: String?): List<IntRange> {
+        if (filter.isNullOrBlank()) return emptyList()
+        return try {
+            filter.split(",").mapNotNull { part ->
+                val rangeParts = part.trim().split("-")
+                if (rangeParts.size == 2) {
+                    val start = rangeParts[0].filter { it.isDigit() }.toIntOrNull()
+                    val end = rangeParts[1].filter { it.isDigit() }.toIntOrNull()
+                    if (start != null && end != null) start..end else null
+                } else {
+                    val verse = rangeParts[0].filter { it.isDigit() }.toIntOrNull()
+                    if (verse != null) verse..verse else null
+                }
+            }
+        } catch (e: Exception) {
+            emptyList()
+        }
+    }
+
     companion object {
         val BOOK_NAME_TO_ID = mapOf(
             // English
@@ -87,26 +121,34 @@ data class Passage(val bookId: Int, val chapter: Int, val verseRange: IntRange?)
             if (query.contains(":")) {
                 val parts = query.split(":")
                 val bId = parts[0].toIntOrNull()
-                val cNum = parts[1].toIntOrNull()
-                if (bId != null && cNum != null) {
-                    return Passage(bId, cNum, null)
+                val cNumAndVerse = parts[1].trim()
+                
+                if (bId != null) {
+                    if (cNumAndVerse.contains(" ")) {
+                        // case where it might be "51:1 1-11, 13-15" (not standard but possible)
+                        val subParts = cNumAndVerse.split(" ")
+                        val cNum = subParts[0].toIntOrNull()
+                        if (cNum != null) return Passage(bId, cNum, subParts.getOrNull(1))
+                    } else {
+                        val cNum = cNumAndVerse.toIntOrNull()
+                        if (cNum != null) return Passage(bId, cNum, null)
+                    }
                 }
             }
 
-            val regex = Regex("(\\d*\\s*[a-zA-Z]+)\\s*(\\d+):?(\\d*)-?(\\d*)")
+            // Standard regex: "Genesis 1:1-11, 13-15"
+            val regex = Regex("(\\d*\\s*[a-zA-Z]+)\\s*(\\d+):?(.*)")
             val match = regex.find(query)
             if (match != null) {
-                val (bookName, chap, vStart, vEnd) = match.destructured
+                val (bookName, chap, filterPart) = match.destructured
                 val cleanedBookName = bookName.trim()
                 val bookId = bookNameToId[cleanedBookName] ?: bookNameToId.entries.find { 
                     it.key.contains(cleanedBookName, ignoreCase = true) || 
                     cleanedBookName.contains(it.key, ignoreCase = true)
                 }?.value ?: return null
                 val chapter = chap.toIntOrNull() ?: 1
-                val start = vStart.toIntOrNull()
-                val end = vEnd.toIntOrNull()
-                val range = if (start != null && end != null) IntRange(start, end) else null
-                return Passage(bookId, chapter, range)
+                val filter = filterPart.trim().takeIf { it.isNotEmpty() }
+                return Passage(bookId, chapter, filter)
             }
             // Try just chapter number
             val chapOnly = query.toIntOrNull()
@@ -152,9 +194,10 @@ class ReadingViewModel @Inject constructor(
         val bookId = savedStateHandle.get<Int>("bookId") ?: -1
         val chapter = savedStateHandle.get<Int>("chapter") ?: -1
         val verse = savedStateHandle.get<Int>("verse") ?: -1
+        val filter = savedStateHandle.get<String>("filter")
 
         val initialPassage = if (bookId != -1 && chapter != -1) {
-            Passage(bookId, chapter, if (verse != -1) IntRange(verse, verse) else null)
+            Passage(bookId, chapter, filter ?: if (verse != -1) "$verse" else null)
         } else {
             Passage(1, 1, null) // Temporary default
         }
@@ -224,7 +267,10 @@ class ReadingViewModel @Inject constructor(
     val verses: Flow<List<VerseWithTexts>> = combine(_currentPassage, _activeLanguage) { passage, _ -> 
         passage 
     }.flatMapLatest { passage ->
-        repository.getChapter(passage.bookId, passage.chapter)
+        repository.getChapter(passage.bookId, passage.chapter).map { list ->
+            if (passage.verseFilter == null) list
+            else list.filter { passage.isVerseVisible(it.verse.verse_number) }
+        }
     }
     
     // Interlinear words (Greek for NT, Hebrew for OT)
@@ -254,9 +300,9 @@ class ReadingViewModel @Inject constructor(
         _selectedGreekWord.value = word
     }
 
-    fun setPassage(bookId: Int, chapter: Int, verse: Int? = null) {
-        val range = if (verse != null) IntRange(verse, verse) else null
-        _currentPassage.value = Passage(bookId, chapter, range)
+    fun setPassage(bookId: Int, chapter: Int, verse: Int? = null, filter: String? = null) {
+        val actualFilter = filter ?: if (verse != null) "$verse" else null
+        _currentPassage.value = Passage(bookId, chapter, actualFilter)
         saveLastPassage(bookId, chapter)
     }
 
@@ -371,7 +417,11 @@ class ReadingViewModel @Inject constructor(
     // Get display string for a passage (e.g., "Genesis 1")
     fun getPassageReference(p: Passage): String {
         val bookName = Passage.BOOK_ID_TO_NAME[p.bookId] ?: "Book ${p.bookId}"
-        return "$bookName ${p.chapter}"
+        return if (p.verseFilter != null) {
+            "$bookName ${p.chapter}:${p.verseFilter}"
+        } else {
+            "$bookName ${p.chapter}"
+        }
     }
 
     @Deprecated("Use getPassageReference(Passage) instead", ReplaceWith("getPassageReference(currentPassage.value)"))

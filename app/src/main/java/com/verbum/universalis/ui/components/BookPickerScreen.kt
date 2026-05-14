@@ -117,13 +117,13 @@ class BookPickerViewModel @Inject constructor(
         _searchQuery.value = query
     }
 
-    fun handleSearchAction(onResult: (Int, Int, Int?) -> Unit) {
+    fun handleSearchAction(onResult: (Int, Int, Int?, String?) -> Unit) {
         val query = _searchQuery.value.trim()
         if (query.isEmpty()) return
         
         val passage = Passage.fromString(query, Passage.BOOK_NAME_TO_ID)
         if (passage != null) {
-            onResult(passage.bookId, passage.chapter, passage.verseRange?.start)
+            onResult(passage.bookId, passage.chapter, passage.firstVerse, passage.verseFilter)
         }
     }
 
@@ -175,7 +175,7 @@ fun BookPickerScreen(
     initialChapter: Int? = null,
     initialVerse: Int? = null,
     onClose: () -> Unit,
-    onResult: (bookId: Int, chapter: Int, verse: Int?) -> Unit
+    onResult: (bookId: Int, chapter: Int, verse: Int?, filter: String?) -> Unit
 ) {
     val currentStep by viewModel.currentStep.collectAsState()
     val testamentFilter by viewModel.testamentFilter.collectAsState()
@@ -233,7 +233,7 @@ fun BookPickerScreen(
                 leadingIcon = { Icon(Icons.Default.Search, contentDescription = null, tint = TextPrimaryLight) },
                 trailingIcon = {
                     if (searchQuery.any { it.isDigit() }) {
-                        TextButton(onClick = { viewModel.handleSearchAction(onResult) }) {
+                        TextButton(onClick = { viewModel.handleSearchAction { b, c, v, f -> onResult(b, c, v, f) } }) {
                             Text("Go", color = VerbumBlue, fontWeight = FontWeight.Bold)
                         }
                     }
@@ -307,7 +307,7 @@ fun BookPickerScreen(
                                 onNumberClick = { verse ->
                                     selectedBook?.let { book ->
                                         selectedChapter?.let { chapter ->
-                                            onResult(book.id, chapter, verse)
+                                            onResult(book.id, chapter, verse, null)
                                         }
                                     }
                                 }
@@ -342,7 +342,7 @@ fun BookPickerScreen(
                     onClick = {
                         selectedBook?.let { book ->
                             selectedChapter?.let { chapter ->
-                                onResult(book.id, chapter, null)
+                                onResult(book.id, chapter, null, null)
                             }
                         }
                     },

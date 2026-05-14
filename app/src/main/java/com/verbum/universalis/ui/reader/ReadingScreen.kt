@@ -36,6 +36,7 @@ fun ReadingScreen(
     initialBookId: Int? = null,
     initialChapter: Int? = null,
     initialVerse: Int? = null,
+    initialFilter: String? = null,
     // Mass readings flow
     showNextReading: Boolean = false,
     nextReadingText: String? = null,
@@ -48,9 +49,9 @@ fun ReadingScreen(
     onBack: (() -> Unit)? = null
 ) {
     VerbumTheme {
-        LaunchedEffect(initialBookId, initialChapter, initialVerse) {
+        LaunchedEffect(initialBookId, initialChapter, initialVerse, initialFilter) {
             if (initialBookId != null && initialChapter != null) {
-                viewModel.setPassage(initialBookId, initialChapter, initialVerse)
+                viewModel.setPassage(initialBookId, initialChapter, initialVerse, initialFilter)
             }
         }
 
@@ -77,7 +78,7 @@ fun ReadingScreen(
             studyInspectorVM.setCurrentVerse(
                 currentPassage.bookId,
                 currentPassage.chapter,
-                currentPassage.verseRange?.start ?: 1
+                currentPassage.firstVerse ?: 1
             )
         }
 
@@ -295,6 +296,9 @@ fun ReadingScreen(
                             onSave = { note, colorId ->
                                 viewModel.saveNoteWithHighlight(note, colorId)
                             },
+                            onDelete = { note ->
+                                viewModel.deleteNote(note)
+                            },
                             onDismiss = { viewModel.hideNoteHighlightSheet() }
                         )
                     }
@@ -310,10 +314,10 @@ fun ReadingScreen(
                 BookPickerScreen(
                     initialBookId = currentPassage.bookId,
                     initialChapter = currentPassage.chapter,
-                    initialVerse = currentPassage.verseRange?.start,
+                    initialVerse = currentPassage.firstVerse,
                     onClose = { showBookPicker = false },
-                    onResult = { b, c, v ->
-                        viewModel.setPassage(b, c, v)
+                    onResult = { b, c, v, f ->
+                        viewModel.setPassage(b, c, v, f)
                         showBookPicker = false
                     }
                 )

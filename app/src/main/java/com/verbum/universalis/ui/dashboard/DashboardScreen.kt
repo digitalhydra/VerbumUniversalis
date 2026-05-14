@@ -15,7 +15,8 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material.icons.filled.ChevronRight
 import androidx.compose.material.icons.filled.Home
-import androidx.compose.material.icons.filled.MenuBook
+import androidx.compose.material.icons.filled.Notifications
+import androidx.compose.material.icons.filled.NotificationImportant
 import androidx.compose.material.icons.filled.RadioButtonUnchecked
 import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material.icons.filled.Today
@@ -57,6 +58,7 @@ fun DashboardScreen(
     val currentDayIndex by viewModel.currentDayIndex.collectAsState(initial = 0)
     val selectedDateStr by dashboardViewModel.selectedDate.collectAsState()
     val massReadingsEntry by dashboardViewModel.massReadings.collectAsState()
+    val celebration by dashboardViewModel.celebration.collectAsState()
     val progressMap by viewModel.progressMap.collectAsState()
 
     val allDates = remember { dashboardViewModel.getAllDates() }
@@ -170,13 +172,25 @@ fun DashboardScreen(
                         )
                     }
                     
-                    // Right side: season label
+                    // Right side: season label and notification icon
                     massReadingsEntry?.season?.let { name ->
-                        Text(
-                            text = name,
-                            style = MaterialTheme.typography.bodySmall,
-                            color = accentColor
-                        )
+                        Row(verticalAlignment = Alignment.CenterVertically) {
+                            Text(
+                                text = name,
+                                style = MaterialTheme.typography.bodySmall,
+                                color = accentColor
+                            )
+                            // Show icon if celebration is not a FERIA
+                            if (celebration != null && celebration?.type?.uppercase() != "FERIA") {
+                                Spacer(modifier = Modifier.width(4.dp))
+                                Icon(
+                                    imageVector = Icons.Default.NotificationImportant,
+                                    contentDescription = "Important Celebration",
+                                    tint = accentColor,
+                                    modifier = Modifier.size(32.dp)
+                                )
+                            }
+                        }
                     }
                 }
 
@@ -192,7 +206,7 @@ fun DashboardScreen(
                     }
                 )
 
-                Spacer(modifier = Modifier.height(32.dp))
+                Spacer(modifier = Modifier.height(7.dp))
             }
 
             HorizontalPager(
@@ -210,6 +224,7 @@ fun DashboardScreen(
 
                 DashboardDayContent(
                     massReadingsEntry = pageMassReadings,
+                    celebration = if (dateStr == selectedDateStr) celebration else remember(dateStr) { null }, // Simplified for non-selected pages
                     currentDayReadings = currentDayReadings,
                     currentDayIndex = currentDayIndex,
                     progressMap = progressMap,
@@ -252,7 +267,7 @@ fun ScrollableDateStrip(
     LazyRow(
         state = listState,
         modifier = Modifier.fillMaxWidth(),
-        horizontalArrangement = Arrangement.spacedBy(16.dp),
+        horizontalArrangement = Arrangement.SpaceBetween,
         contentPadding = PaddingValues(horizontal = 4.dp)
     ) {
         items(allDates.size) { index ->
@@ -264,7 +279,7 @@ fun ScrollableDateStrip(
                 horizontalAlignment = Alignment.CenterHorizontally,
                 verticalArrangement = Arrangement.spacedBy(8.dp),
                 modifier = Modifier
-                    .width(45.dp)
+                    .fillParentMaxWidth(1f / 7f)
                     .clickable(
                         interactionSource = remember { androidx.compose.foundation.interaction.MutableInteractionSource() },
                         indication = null
@@ -301,6 +316,7 @@ fun ScrollableDateStrip(
 @Composable
 fun DashboardDayContent(
     massReadingsEntry: com.verbum.universalis.data.entities.DailyMassReadingEntry?,
+    celebration: com.verbum.universalis.data.entities.Celebration? = null,
     currentDayReadings: List<ReadingInfo>,
     currentDayIndex: Int,
     progressMap: Map<String, Map<Int, com.verbum.universalis.data.json.DayProgress>>,
@@ -324,15 +340,27 @@ fun DashboardDayContent(
         // 1. Daily Mass Section
         massReadingsEntry?.let { mass ->
             item {
-                Text(
-                    text = "Daily Mass",
-                    style = MaterialTheme.typography.labelLarge.copy(
-                        fontWeight = FontWeight.Bold,
-                        letterSpacing = 1.sp
-                    ),
-                    color = MaterialTheme.colorScheme.onSurfaceVariant,
-                    modifier = Modifier.padding(start = 44.dp, top = 8.dp, bottom = 4.dp)
-                )
+                Column(modifier = Modifier.padding(start = 44.dp, top = 8.dp, bottom = 4.dp)) {
+                    if (celebration != null && celebration.type?.uppercase() != "FERIA") {
+                        Text(
+                            text = celebration.name,
+                            style = MaterialTheme.typography.bodySmall.copy(
+                                fontWeight = FontWeight.Medium,
+                                fontSize = 12.sp
+                            ),
+                            color = accentColor,
+                            modifier = Modifier.padding(bottom = 2.dp)
+                        )
+                    }
+                    Text(
+                        text = "Daily Mass",
+                        style = MaterialTheme.typography.labelLarge.copy(
+                            fontWeight = FontWeight.Bold,
+                            letterSpacing = 1.sp
+                        ),
+                        color = MaterialTheme.colorScheme.onSurfaceVariant
+                    )
+                }
             }
 
             val readings = mass.readings.map { it.type to it.reference }

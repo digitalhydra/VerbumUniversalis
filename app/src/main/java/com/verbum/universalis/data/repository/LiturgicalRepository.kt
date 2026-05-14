@@ -20,8 +20,12 @@ class LiturgicalRepository @Inject constructor(
     private val _massReadings = MutableStateFlow<List<DailyMassReadingEntry>>(emptyList())
     val massReadings: StateFlow<List<DailyMassReadingEntry>> = _massReadings.asStateFlow()
 
+    private val _liturgicalCalendar = MutableStateFlow<List<LiturgicalReadingEntry>>(emptyList())
+    val liturgicalCalendar: StateFlow<List<LiturgicalReadingEntry>> = _liturgicalCalendar.asStateFlow()
+
     init {
         loadMassReadingsData()
+        loadLiturgicalCalendarData()
     }
 
     private fun loadMassReadingsData() {
@@ -43,6 +47,24 @@ class LiturgicalRepository @Inject constructor(
         }
     }
 
+    private fun loadLiturgicalCalendarData() {
+        try {
+            val filename = "liturgical_calendar.json"
+            val assetJson = try {
+                context.assets.open(filename).bufferedReader().use { it.readText() }
+            } catch (e: Exception) {
+                null
+            }
+
+            if (assetJson != null) {
+                val data = json.decodeFromString<List<LiturgicalReadingEntry>>(assetJson)
+                _liturgicalCalendar.value = data
+            }
+        } catch (e: Exception) {
+            e.printStackTrace()
+        }
+    }
+
     // Get today's mass readings
     fun getTodayMassReadings(): DailyMassReadingEntry? {
         val today = java.time.LocalDate.now().toString()
@@ -51,6 +73,10 @@ class LiturgicalRepository @Inject constructor(
 
     fun getMassReadingsForDate(date: String): DailyMassReadingEntry? {
         return _massReadings.value.find { it.date == date }
+    }
+
+    fun getCelebrationForDate(date: String): Celebration? {
+        return _liturgicalCalendar.value.find { it.date == date }?.celebration
     }
 
     fun getAllDates(): List<String> {

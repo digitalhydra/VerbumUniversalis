@@ -24,13 +24,14 @@ sealed class Route(val route: String) {
     object Dashboard : Route("dashboard")
     
     object ReadingCanvas : Route("reading_canvas") {
-        const val routeWithArgs = "reading_canvas?bookId={bookId}&chapter={chapter}&verse={verse}&readings={readings}&currentIndex={currentIndex}&plandays={plandays}&planday={planday}"
+        const val routeWithArgs = "reading_canvas?bookId={bookId}&chapter={chapter}&verse={verse}&filter={filter}&readings={readings}&currentIndex={currentIndex}&plandays={plandays}&planday={planday}"
         
-        fun createRoute(bookId: Int? = null, chapter: Int? = null, verse: Int? = null): String {
+        fun createRoute(bookId: Int? = null, chapter: Int? = null, verse: Int? = null, filter: String? = null): String {
             return when {
                 bookId != null && chapter != null -> {
                     val base = "reading_canvas?bookId=$bookId&chapter=$chapter"
-                    if (verse != null) "$base&verse=$verse" else base
+                    val withVerse = if (verse != null) "$base&verse=$verse" else base
+                    if (filter != null) "$withVerse&filter=$filter" else withVerse
                 }
                 else -> "reading_canvas"
             }
@@ -40,6 +41,7 @@ sealed class Route(val route: String) {
             bookId: Int, 
             chapter: Int, 
             verse: Int?,
+            filter: String?,
             readings: MassReadings, 
             currentIndex: Int
         ): String {
@@ -48,13 +50,15 @@ sealed class Route(val route: String) {
             } else ""
             val base = "reading_canvas?bookId=$bookId&chapter=$chapter"
             val withVerse = if (verse != null) "$base&verse=$verse" else base
-            return "$withVerse&readings=$readingsStr&currentIndex=$currentIndex"
+            val withFilter = if (filter != null) "$withVerse&filter=$filter" else withVerse
+            return "$withFilter&readings=$readingsStr&currentIndex=$currentIndex"
         }
         
         fun createRouteWithPlan(
             bookId: Int, 
             chapter: Int, 
             verse: Int?,
+            filter: String?,
             allDays: PlanReadings, 
             currentDayIndex: Int
         ): String {
@@ -64,7 +68,8 @@ sealed class Route(val route: String) {
             }
             val base = "reading_canvas?bookId=$bookId&chapter=$chapter"
             val withVerse = if (verse != null) "$base&verse=$verse" else base
-            return "$withVerse&plandays=$daysStr&planday=$currentDayIndex"
+            val withFilter = if (filter != null) "$withVerse&filter=$filter" else withVerse
+            return "$withFilter&plandays=$daysStr&planday=$currentDayIndex"
         }
     }
 
@@ -98,13 +103,19 @@ fun VerbumNavGraph(
                     navController.navigate(Route.ReadingCanvas.createRoute(bookId, chapter))
                 },
                 onNavigateToMassReading = { bookId, chapter, verse, readings, index ->
+                    // extract filter from reference if possible
+                    val ref = readings.getOrNull(index)?.second
+                    val filter = if (ref != null && ref.contains(":")) ref.substringAfter(":") else null
                     navController.navigate(
-                        Route.ReadingCanvas.createRouteWithReadings(bookId, chapter, verse, readings, index)
+                        Route.ReadingCanvas.createRouteWithReadings(bookId, chapter, verse, filter, readings, index)
                     )
                 },
                 onNavigateToPlanReading = { bookId, chapter, verse, allDays, dayIndex ->
+                    // Extract filter if possible from first reading of the day
+                    val ref = allDays.getOrNull(dayIndex)?.firstOrNull()
+                    val filter = if (ref != null && ref.contains(":")) ref.substringAfter(":") else null
                     navController.navigate(
-                        Route.ReadingCanvas.createRouteWithPlan(bookId, chapter, verse, allDays, dayIndex)
+                        Route.ReadingCanvas.createRouteWithPlan(bookId, chapter, verse, filter, allDays, dayIndex)
                     )
                 },
                 onNavigateToPlanTracking = {
@@ -122,6 +133,7 @@ fun VerbumNavGraph(
                 navArgument("bookId") { type = NavType.IntType; defaultValue = -1 },
                 navArgument("chapter") { type = NavType.IntType; defaultValue = -1 },
                 navArgument("verse") { type = NavType.IntType; defaultValue = -1 },
+                navArgument("filter") { type = NavType.StringType; nullable = true; defaultValue = null },
                 navArgument("readings") { type = NavType.StringType; nullable = true; defaultValue = "" },
                 navArgument("currentIndex") { type = NavType.IntType; defaultValue = -1 },
                 navArgument("plandays") { type = NavType.StringType; nullable = true; defaultValue = "" },
@@ -131,6 +143,7 @@ fun VerbumNavGraph(
             val bookId = backStackEntry.arguments?.getInt("bookId").takeIf { it != -1 }
             val chapter = backStackEntry.arguments?.getInt("chapter").takeIf { it != -1 }
             val verse = backStackEntry.arguments?.getInt("verse").takeIf { it != -1 }
+            val filter = backStackEntry.arguments?.getString("filter")
             val readingsStr = backStackEntry.arguments?.getString("readings") ?: ""
             val currentIndex = backStackEntry.arguments?.getInt("currentIndex") ?: -1
             val planDaysStr = backStackEntry.arguments?.getString("plandays") ?: ""
@@ -143,18 +156,19 @@ fun VerbumNavGraph(
                 initialBookId = bookId,
                 initialChapter = chapter,
                 initialVerse = verse,
+                initialFilter = filter,
                 massReadings = massReadings,
                 currentReadingIndex = currentIndex,
                 planReadings = planReadings,
                 currentPlanDayIndex = planDay,
-                onNavigateNext = { nextBookId, nextChapter, nextVerse, nextIdx ->
+                onNavigateNext = { nextBookId, nextChapter, nextVerse, nextFilter, nextIdx ->
                     navController.navigate(
-                        Route.ReadingCanvas.createRouteWithReadings(nextBookId, nextChapter, nextVerse, massReadings, nextIdx)
+                        Route.ReadingCanvas.createRouteWithReadings(nextBookId, nextChapter, nextVerse, nextFilter, massReadings, nextIdx)
                     )
                 },
-                onNavigateNextDay = { nextBookId, nextChapter, nextVerse, nextDayIdx ->
+                onNavigateNextDay = { nextBookId, nextChapter, nextVerse, nextFilter, nextDayIdx ->
                     navController.navigate(
-                        Route.ReadingCanvas.createRouteWithPlan(nextBookId, nextChapter, nextVerse, planReadings, nextDayIdx)
+                        Route.ReadingCanvas.createRouteWithPlan(nextBookId, nextChapter, nextVerse, nextFilter, planReadings, nextDayIdx)
                     )
                 },
                 onBack = { 

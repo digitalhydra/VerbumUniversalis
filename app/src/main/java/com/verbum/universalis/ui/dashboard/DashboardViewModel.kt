@@ -4,6 +4,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.verbum.universalis.data.repository.LiturgicalRepository
 import com.verbum.universalis.data.entities.DailyMassReadingEntry
+import com.verbum.universalis.data.entities.Celebration
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -22,6 +23,9 @@ class DashboardViewModel @Inject constructor(
     private val _massReadings = MutableStateFlow<DailyMassReadingEntry?>(null)
     val massReadings: StateFlow<DailyMassReadingEntry?> = _massReadings.asStateFlow()
 
+    private val _celebration = MutableStateFlow<Celebration?>(null)
+    val celebration: StateFlow<Celebration?> = _celebration.asStateFlow()
+
     init {
         updateDate(java.time.LocalDate.now().toString())
     }
@@ -31,6 +35,9 @@ class DashboardViewModel @Inject constructor(
         viewModelScope.launch {
             val readings = liturgicalRepository.getMassReadingsForDate(date)
             _massReadings.value = readings
+            
+            val celebration = liturgicalRepository.getCelebrationForDate(date)
+            _celebration.value = celebration
             
             if (readings == null) {
                 android.util.Log.w("DashboardViewModel", "No mass readings found for date: $date")
