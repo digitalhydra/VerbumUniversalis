@@ -241,9 +241,7 @@ fun ReadingScreen(
                     // StudyInspector - Slide in from RIGHT
                     if (showStudyInspector) {
                         Box(
-                            modifier = Modifier
-                                .fillMaxSize()
-                                .padding(paddingValues)
+                            modifier = Modifier.fillMaxSize()
                         ) {
                             // Semi-transparent overlay
                             Box(
@@ -254,14 +252,14 @@ fun ReadingScreen(
                                         MaterialTheme.colorScheme.scrim.copy(alpha = 0.5f)
                                     )
                             )
-                            // Right panel
-                            Box(
+                            // Right panel with elevation
+                            Surface(
                                 modifier = Modifier
                                     .fillMaxHeight()
                                     .width(350.dp)
-                                    .align(Alignment.CenterEnd)
-                                    .background(MaterialTheme.colorScheme.surface)
-                                    .padding(paddingValues)
+                                    .align(Alignment.CenterEnd),
+                                color = MaterialTheme.colorScheme.surface,
+                                shadowElevation = 8.dp
                             ) {
                                 com.verbum.universalis.ui.reader.StudyInspector(
                                     selectedWord = inspectorWord,

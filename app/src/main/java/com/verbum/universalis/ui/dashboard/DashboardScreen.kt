@@ -132,12 +132,16 @@ fun DashboardScreen(
     }
 
     Scaffold(
-        modifier = Modifier.background(Color.White),
+        modifier = Modifier.background(MaterialTheme.colorScheme.background),
         topBar = {
             Text("")
         },
         content = {
-            Column(modifier = Modifier.fillMaxSize()) {
+            Column(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .background(MaterialTheme.colorScheme.background)
+            ) {
             Column(modifier = Modifier.padding(horizontal = 24.dp)) {
                 Spacer(modifier = Modifier.height(24.dp))
                 
@@ -153,7 +157,7 @@ fun DashboardScreen(
                         Text(
                             text = selectedDate.format(dateFormatter),
                             style = MaterialTheme.typography.bodyMedium,
-                            color = Color.Gray,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant,
                             modifier = Modifier.clickable { showDatePicker = true }
                         )
                         Text(
@@ -162,7 +166,7 @@ fun DashboardScreen(
                                 fontWeight = FontWeight.Bold,
                                 fontSize = 32.sp
                             ),
-                            color = Color.Black
+                            color = MaterialTheme.colorScheme.onSurface
                         )
                     }
                     
@@ -269,7 +273,7 @@ fun ScrollableDateStrip(
                 Text(
                     text = date.dayOfWeek.getDisplayName(TextStyle.SHORT, Locale.getDefault()),
                     style = MaterialTheme.typography.bodySmall,
-                    color = if (isSelected) accentColor else Color.Gray,
+                    color = if (isSelected) accentColor else MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.6f),
                     fontWeight = if (isSelected) FontWeight.Bold else FontWeight.Normal
                 )
                 Text(
@@ -277,7 +281,7 @@ fun ScrollableDateStrip(
                     style = MaterialTheme.typography.bodyLarge.copy(
                         fontWeight = if (isSelected) FontWeight.Bold else FontWeight.Medium
                     ),
-                    color = if (isSelected) accentColor else Color.Black
+                    color = if (isSelected) accentColor else MaterialTheme.colorScheme.onSurface
                 )
                 if (isSelected) {
                     Box(
@@ -326,7 +330,7 @@ fun DashboardDayContent(
                         fontWeight = FontWeight.Bold,
                         letterSpacing = 1.sp
                     ),
-                    color = accentColor,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
                     modifier = Modifier.padding(start = 44.dp, top = 8.dp, bottom = 4.dp)
                 )
             }
@@ -388,7 +392,7 @@ fun DashboardDayContent(
                 HorizontalDivider(
                     modifier = Modifier.padding(vertical = 12.dp, horizontal = 16.dp),
                     thickness = 1.dp,
-                    color = Color(0xFFF0F0F0)
+                    color = MaterialTheme.colorScheme.outlineVariant
                 )
             }
         }
@@ -410,12 +414,12 @@ fun DashboardDayContent(
                             fontWeight = FontWeight.Bold,
                             letterSpacing = 1.sp
                         ),
-                        color = Color.Gray
+                        color = MaterialTheme.colorScheme.onSurfaceVariant
                     )
                     Icon(
                         Icons.Default.ChevronRight,
                         contentDescription = null,
-                        tint = Color.Gray,
+                        tint = MaterialTheme.colorScheme.onSurfaceVariant,
                         modifier = Modifier.padding(end = 16.dp)
                     )
                 }
@@ -486,7 +490,7 @@ fun TimelineItem(
                     .width(2.dp)
                     .fillMaxHeight()
                     .padding(top = 12.dp) // Start below the dot center
-                    .background(Color(0xFFF0F0F0))
+                    .background(MaterialTheme.colorScheme.outlineVariant.copy(alpha = 0.5f))
             )
             
             // The dot
@@ -495,9 +499,9 @@ fun TimelineItem(
                     .padding(top = 4.dp)
                     .size(16.dp)
                     .clip(CircleShape)
-                    .background(if (isHighlighted || isCompleted) accentColor else Color.White)
+                    .background(if (isHighlighted || isCompleted) accentColor else MaterialTheme.colorScheme.surface)
                     .then(
-                        if (!isHighlighted && !isCompleted) Modifier.background(Color.White).padding(2.dp).clip(CircleShape).background(Color.LightGray) else Modifier
+                        if (!isHighlighted && !isCompleted) Modifier.background(MaterialTheme.colorScheme.surface).padding(2.dp).clip(CircleShape).background(MaterialTheme.colorScheme.outlineVariant) else Modifier
                     )
             )
         }
@@ -511,7 +515,7 @@ fun TimelineItem(
                 .padding(bottom = 8.dp),
             shape = RoundedCornerShape(16.dp),
             colors = CardDefaults.cardColors(
-                containerColor = if (isHighlighted) accentColor else Color(0xFFF8F9FA)
+                containerColor = if (isHighlighted) accentColor else MaterialTheme.colorScheme.surfaceVariant
             ),
             elevation = CardDefaults.cardElevation(defaultElevation = 0.dp)
         ) {
@@ -528,13 +532,13 @@ fun TimelineItem(
                         Text(
                             text = title,
                             style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
-                            color = if (isHighlighted) Color.White else Color.Black
+                            color = if (isHighlighted) Color.White else MaterialTheme.colorScheme.onSurface
                         )
                         if (time.isNotEmpty()) {
                             Text(
                                 text = time,
                                 style = MaterialTheme.typography.bodySmall,
-                                color = if (isHighlighted) Color.White.copy(alpha = 0.8f) else Color.Gray
+                                color = if (isHighlighted) Color.White.copy(alpha = 0.8f) else MaterialTheme.colorScheme.onSurfaceVariant
                             )
                         }
                     }
@@ -542,7 +546,7 @@ fun TimelineItem(
                     Text(
                         text = subtitle,
                         style = MaterialTheme.typography.bodyMedium,
-                        color = if (isHighlighted) Color.White.copy(alpha = 0.9f) else Color.Gray
+                        color = if (isHighlighted) Color.White.copy(alpha = 0.9f) else MaterialTheme.colorScheme.onSurfaceVariant
                     )
                 }
                 
@@ -551,7 +555,7 @@ fun TimelineItem(
                         Icon(
                             imageVector = if (isCompleted) Icons.Default.CheckCircle else Icons.Default.RadioButtonUnchecked,
                             contentDescription = "Complete",
-                            tint = if (isCompleted) accentColor else Color.LightGray
+                            tint = if (isCompleted) (if (isHighlighted) Color.White else accentColor) else MaterialTheme.colorScheme.outline
                         )
                     }
                 }

@@ -55,7 +55,7 @@ fun StudyInspector(
             onTabSelect(availableTabs.first())
         }
     }
-    Column(modifier = modifier.fillMaxSize()) {
+    Column(modifier = modifier.fillMaxSize().padding(top = 56.dp)) {
         TabRow(selectedTabIndex = availableTabs.indexOf(activeTab).coerceAtLeast(0)) {
             availableTabs.forEach { tab ->
                 Tab(
@@ -71,7 +71,7 @@ fun StudyInspector(
             }
         }
 
-        Box(modifier = Modifier.fillMaxSize().padding(16.dp)) {
+        Box(modifier = Modifier.fillMaxSize().padding(3.dp)) {
             when (activeTab) {
                 InspectorTab.LEXICON -> LexiconView(selectedWord, lexiconEntry)
                 InspectorTab.CATENA -> CatenaView(catenaEntries, isLoadingCatena)
@@ -143,7 +143,7 @@ fun CatenaView(
         LazyColumn(
             modifier = Modifier.fillMaxSize(),
             verticalArrangement = Arrangement.spacedBy(16.dp),
-            contentPadding = PaddingValues(16.dp)
+            contentPadding = PaddingValues(3.dp)
         ) {
             items(catenaEntries.size) { idx ->
                 val entry = catenaEntries[idx]
@@ -155,20 +155,16 @@ fun CatenaView(
                     "${entry.book.replaceFirstChar { it.uppercase() }} ${entry.chapter}:${entry.verseStart}-${entry.verseEnd}"
                 }
                 
-                // Build author text with period if available
-                val authorText = if (!entry.period.isNullOrEmpty()) {
-                    "${entry.author} (${entry.period})"
-                } else {
-                    entry.author
-                }
+                // Build author text (just name, period is shown separately)
+                val authorText = entry.author
                 
-                // Format date from createdAt if available (take first 10 chars for YYYY-MM-DD)
-                val dateText = entry.createdAt?.take(10) ?: ""
+                // Get period from entry (like "1894-99" or "IV century")
+                val periodText = entry.period ?: ""
                 
                 BiblicalCommentaryCard(
                     commentary = CommentaryData(
                         author = authorText,
-                        date = dateText,
+                        period = periodText,
                         content = entry.content,
                         verseReference = verseReference,
                         authorAvatarUrl = null

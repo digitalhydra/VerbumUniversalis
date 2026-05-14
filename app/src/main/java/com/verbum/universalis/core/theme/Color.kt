@@ -19,3 +19,6 @@ val DarkOutline = Color(0xFF333333)
 val VerbunGold = Color(0xFFD4AF37)
 val VerbumBlue = Color(0xFF4A90E2)
 val VerbumBlueLight = Color(0xFFE3F2FD)
+
+val DarkSurface = Color(0xFF1C1C1E)
+val DarkSurfaceVariant = Color(0xFF2C2C2E)

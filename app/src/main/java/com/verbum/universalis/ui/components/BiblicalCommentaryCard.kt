@@ -14,12 +14,7 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.CalendarToday
-import androidx.compose.material3.AssistChip
-import androidx.compose.material3.AssistChipDefaults
 import androidx.compose.material3.ElevatedCard
-import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
@@ -29,7 +24,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -39,7 +33,7 @@ import androidx.compose.ui.unit.sp
  */
 data class CommentaryData(
     val author: String,
-    val date: String,
+    val period: String,
     val content: String,
     val verseReference: String,
     val authorAvatarUrl: String? = null
@@ -47,7 +41,7 @@ data class CommentaryData(
 
 /**
  * A Material 3 composable card for displaying biblical commentary.
- * Features a modern, clean design with rounded corners, author info, and tags.
+ * Clean design with rounded corners, author info, and period instead of date.
  */
 @Composable
 fun BiblicalCommentaryCard(
@@ -69,39 +63,30 @@ fun BiblicalCommentaryCard(
                 .fillMaxWidth()
                 .padding(20.dp)
         ) {
-            // ===== HEADER =====
+            // ===== HEADER: Small verse reference label on the left, period on the right =====
             Row(
                 modifier = Modifier.fillMaxWidth(),
                 horizontalArrangement = Arrangement.SpaceBetween,
                 verticalAlignment = Alignment.CenterVertically
             ) {
-                // Left: Reference Badge
+                // Left: Small verse reference label
                 Surface(
                     color = Color(0xFFFFF3E0), // Light orange (pastel)
-                    shape = RoundedCornerShape(8.dp)
+                    shape = RoundedCornerShape(6.dp)
                 ) {
                     Text(
                         text = commentary.verseReference,
-                        style = MaterialTheme.typography.labelMedium,
-                        fontWeight = FontWeight.Bold,
+                        style = MaterialTheme.typography.labelSmall,
+                        fontWeight = FontWeight.Medium,
                         color = Color(0xFFE65100), // Dark orange
-                        modifier = Modifier.padding(horizontal = 12.dp, vertical = 6.dp)
+                        modifier = Modifier.padding(horizontal = 8.dp, vertical = 4.dp)
                     )
                 }
 
-                // Right: Calendar icon + date
-                Row(
-                    verticalAlignment = Alignment.CenterVertically
-                ) {
-                    Icon(
-                        imageVector = Icons.Default.CalendarToday,
-                        contentDescription = null,
-                        modifier = Modifier.size(14.dp),
-                        tint = Color(0xFF9E9E9E) // Medium gray
-                    )
-                    Spacer(modifier = Modifier.width(4.dp))
+                // Right: Period (like "1894-99" or "IV century")
+                if (commentary.period.isNotEmpty()) {
                     Text(
-                        text = commentary.date,
+                        text = commentary.period,
                         style = MaterialTheme.typography.bodySmall,
                         color = Color(0xFF9E9E9E) // Medium gray
                     )
@@ -110,16 +95,6 @@ fun BiblicalCommentaryCard(
 
             Spacer(modifier = Modifier.height(16.dp))
 
-            // ===== TITLE / SUBTITLE =====
-            Text(
-                text = commentary.verseReference,
-                style = MaterialTheme.typography.titleLarge,
-                fontWeight = FontWeight.Bold,
-                color = Color(0xFF212121)
-            )
-
-            Spacer(modifier = Modifier.height(12.dp))
-
             // ===== CONTENT =====
             Text(
                 text = commentary.content,
@@ -127,44 +102,6 @@ fun BiblicalCommentaryCard(
                 color = Color(0xFF424242), // Dark gray, not pure black
                 lineHeight = 24.sp
             )
-
-            Spacer(modifier = Modifier.height(16.dp))
-
-            // ===== TAGS =====
-            Row(
-                horizontalArrangement = Arrangement.spacedBy(8.dp)
-            ) {
-                AssistChip(
-                    onClick = { },
-                    label = {
-                        Text(
-                            text = "#Teología",
-                            style = MaterialTheme.typography.labelSmall
-                        )
-                    },
-                    colors = AssistChipDefaults.assistChipColors(
-                        containerColor = Color(0xFFE3F2FD), // Light blue
-                        labelColor = Color(0xFF1565C0)
-                    ),
-                    border = null,
-                    modifier = Modifier.height(28.dp)
-                )
-                AssistChip(
-                    onClick = { },
-                    label = {
-                        Text(
-                            text = "#Exégesis",
-                            style = MaterialTheme.typography.labelSmall
-                        )
-                    },
-                    colors = AssistChipDefaults.assistChipColors(
-                        containerColor = Color(0xFFF3E5F5), // Light purple
-                        labelColor = Color(0xFF7B1FA2)
-                    ),
-                    border = null,
-                    modifier = Modifier.height(28.dp)
-                )
-            }
 
             Spacer(modifier = Modifier.height(16.dp))
 
@@ -178,23 +115,23 @@ fun BiblicalCommentaryCard(
                 modifier = Modifier.fillMaxWidth(),
                 verticalAlignment = Alignment.CenterVertically
             ) {
-                // Author Avatar - placeholder with initials (no avatar URLs available in current data)
+                // Author Avatar - placeholder with initials
                 Box(
                     modifier = Modifier
-                        .size(40.dp)
+                        .size(36.dp)
                         .clip(CircleShape)
                         .background(Color(0xFFE0E0E0)),
                     contentAlignment = Alignment.Center
                 ) {
                     Text(
                         text = commentary.author.take(1).uppercase(),
-                        style = MaterialTheme.typography.bodyMedium,
+                        style = MaterialTheme.typography.labelMedium,
                         fontWeight = FontWeight.Bold,
                         color = Color(0xFF757575)
                     )
                 }
 
-                Spacer(modifier = Modifier.width(12.dp))
+                Spacer(modifier = Modifier.width(10.dp))
 
                 // Author Name
                 Text(

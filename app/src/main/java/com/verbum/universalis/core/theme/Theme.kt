@@ -1,23 +1,23 @@
 package com.verbum.universalis.core.theme
 
-import android.content.Context
-import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.darkColorScheme
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.CompositionLocalProvider
-import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.graphics.Color
 
 private val DarkColorScheme = darkColorScheme(
-    primary = LightGold,
-    background = DeepCharcoal,
-    surface = DarkGray,
-    onPrimary = DeepCharcoal,
+    primary = VerbunGold,
+    background = Color(0xFF000000), // Pure Black for OLED
+    surface = DarkSurface,
+    surfaceVariant = DarkSurfaceVariant,
+    onPrimary = Color.Black,
     onBackground = TextPrimaryDark,
     onSurface = TextPrimaryDark,
-    outline = MutedCharcoal
+    onSurfaceVariant = TextSecondaryDark,
+    outline = MutedCharcoal,
+    outlineVariant = DarkOutline
 )
 
 private val LightColorScheme = lightColorScheme(
