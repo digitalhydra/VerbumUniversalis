@@ -12,6 +12,8 @@ import androidx.compose.material.icons.filled.Check
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -20,6 +22,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
+import com.verbum.universalis.core.theme.ThemeManager
 import com.verbum.universalis.data.json.FileManager
 import com.verbum.universalis.data.json.UserSettings
 import kotlinx.coroutines.runBlocking
@@ -39,20 +42,25 @@ fun ThemeScreen(
         })
     }
     
-    // Map theme string to isDarkTheme boolean
-    // "system" defaults to false (light) for simplicity
-    var isDarkTheme by remember(currentTheme) {
-        mutableStateOf(currentTheme == "dark")
+    // Observe theme state and apply via AppCompatDelegate
+    val themeState by ThemeManager.theme.collectAsState()
+    
+    LaunchedEffect(themeState) {
+        val mode = when (themeState) {
+            "dark" -> AppCompatDelegate.MODE_NIGHT_YES
+            "light" -> AppCompatDelegate.MODE_NIGHT_NO
+            else -> AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM
+        }
+        AppCompatDelegate.setDefaultNightMode(mode)
     }
     
     // Load theme from settings on first composition
     LaunchedEffect(Unit) {
         val settings = fileManager.loadSettings()
         currentTheme = settings?.theme ?: "system"
-        isDarkTheme = settings?.theme == "dark"
         
-        // Apply the saved theme via AppCompatDelegate
-        applyThemeFromSettings(settings?.theme ?: "system")
+        // Initialize the global ThemeManager if not already done
+        ThemeManager.initialize(context)
     }
 
     Scaffold(
@@ -85,8 +93,7 @@ fun ThemeScreen(
                 isSelected = currentTheme == "light",
                 onClick = {
                     currentTheme = "light"
-                    isDarkTheme = false
-                    saveAndApplyTheme(context, fileManager, "light")
+                    ThemeManager.setTheme(context, "light")
                 }
             )
 
@@ -98,31 +105,11 @@ fun ThemeScreen(
                 isSelected = currentTheme == "dark",
                 onClick = {
                     currentTheme = "dark"
-                    isDarkTheme = true
-                    saveAndApplyTheme(context, fileManager, "dark")
+                    ThemeManager.setTheme(context, "dark")
                 }
             )
         }
     }
-}
-
-private fun saveAndApplyTheme(context: Context, fileManager: FileManager, theme: String) {
-    // Save theme to UserSettings
-    val existingSettings = fileManager.loadSettings()
-    val updatedSettings = existingSettings?.copy(theme = theme) ?: UserSettings(theme = theme)
-    fileManager.saveSettings(updatedSettings)
-    
-    // Apply theme via AppCompatDelegate
-    applyThemeFromSettings(theme)
-}
-
-private fun applyThemeFromSettings(theme: String) {
-    val mode = when (theme) {
-        "dark" -> AppCompatDelegate.MODE_NIGHT_YES
-        "light" -> AppCompatDelegate.MODE_NIGHT_NO
-        else -> AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM
-    }
-    AppCompatDelegate.setDefaultNightMode(mode)
 }
 
 @OptIn(ExperimentalMaterial3Api::class)

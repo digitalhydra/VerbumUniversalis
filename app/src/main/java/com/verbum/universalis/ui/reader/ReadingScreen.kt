@@ -47,8 +47,7 @@ fun ReadingScreen(
     // Back navigation
     onBack: (() -> Unit)? = null
 ) {
-    val context = LocalContext.current
-    VerbumTheme(context = context) {
+    VerbumTheme {
         LaunchedEffect(initialBookId, initialChapter, initialVerse) {
             if (initialBookId != null && initialChapter != null) {
                 viewModel.setPassage(initialBookId, initialChapter, initialVerse)
@@ -61,6 +60,7 @@ fun ReadingScreen(
         val currentPassage by viewModel.currentPassage.collectAsState()
         var showBookPicker by remember { mutableStateOf(false) }
         val showNoteHighlightSheet by viewModel.showNoteHighlightSheet.collectAsState(initial = false)
+        val allNotes by viewModel.notes.collectAsState()
         val showStudyInspector by viewModel.showStudyInspector.collectAsState(initial = false)
         val selectedGreekWord by viewModel.selectedGreekWord.collectAsState(initial = null)
         val catenaEntries by studyInspectorVM.catenaEntries.collectAsState(initial = emptyList())
@@ -285,10 +285,12 @@ fun ReadingScreen(
                     }
 
                     if (showNoteHighlightSheet) {
+                        val selectedVerseId = viewModel.selectedVerseId.collectAsState().value
+                        val verseNotes = allNotes.filter { it.verseId == selectedVerseId }
+                        
                         com.verbum.universalis.ui.components.NoteAndHighlightBottomSheet(
                             verseReference = viewModel.getPassageReference(currentPassage),
-                            existingNote = null,
-                            existingHighlightColorId = null,
+                            existingNotes = verseNotes,
                             availableColors = com.verbum.universalis.ui.theme.HighlightPalette.all,
                             onSave = { note, colorId ->
                                 viewModel.saveNoteWithHighlight(note, colorId)

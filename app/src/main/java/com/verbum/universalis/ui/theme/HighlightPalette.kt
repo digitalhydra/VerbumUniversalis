@@ -6,26 +6,26 @@ import androidx.compose.ui.graphics.Color
 // Muted Pastels and Earth Tones (Sage, Dusty Rose, Steel Blue, Ochre)
 object HighlightPalette {
     val all = listOf(
-        Color(0xFF93B7A), // Sage Green
-        Color(0xFFC6A7A), // Dusty Rose
-        Color(0xFF7EA8C), // Steel Blue
-        Color(0xFFD4A373), // Ochre
-        Color(0xFFB8A9C), // Mauve
-        Color(0xFF8DAEAD), // Pale Aqua
-        Color(0xFFE8D5B), // Wheat
-        Color(0xFFA8B5B), // Dusty Lavender
-        Color(0xFFC4A882), // Sand
-        Color(0xFF88A098), // Muted Teal
-        Color(0xFFD4A08), // Peach
-        Color(0xFFB0A8A0), // Rose Taupe
-        Color(0xFF9CB8A8), // Seafoam
-        Color(0xFFC0B0A0), // Bisque
-        Color(0xFF8CB4A8), // Muted Mint
-        Color(0xFFD0B8A8), // Apricot
-        Color(0xFFA0A0B0), // Grey Lavender
-        Color(0xFFC8B09A), // Muted Salmon
-        Color(0xFF90A8B0), // Celadon
-        Color(0xFFD8C8B0)  // Straw
+        Color(0xFFE9F5DB), // Sage Green
+        Color(0xFFF5E6E8), // Dusty Rose
+        Color(0xFFD8E2DC), // Steel Blue
+        Color(0xFFFAE1DD), // Ochre
+        Color(0xFFECE4DB), // Mauve
+        Color(0xFFFFE5D9), // Pale Aqua
+        Color(0xFFFFCAD4), // Wheat
+        Color(0xFFF4ACB7), // Dusty Lavender
+        Color(0xFF9D8189), // Sand
+        Color(0xFFFFE5B4), // Muted Teal
+        Color(0xFFE0E0E0), // Peach
+        Color(0xFFD3D3D3), // Rose Taupe
+        Color(0xFFB0C4DE), // Seafoam
+        Color(0xFFADD8E6), // Bisque
+        Color(0xFFF0E68C), // Muted Mint
+        Color(0xFFE6E6FA), // Apricot
+        Color(0xFFFAF0E6), // Grey Lavender
+        Color(0xFFFFF5EE), // Muted Salmon
+        Color(0xFFF5F5DC), // Celadon
+        Color(0xFFFDF5E6)  // Straw
     )
 }
 

@@ -37,8 +37,7 @@ fun ReadingPlansScreen(
     viewModel: ReadingPlanViewModel = hiltViewModel(),
     onNavigateBack: () -> Unit
 ) {
-    val context = LocalContext.current
-    VerbumTheme(context = context) {
+    VerbumTheme {
         val plansIndex by viewModel.plansIndex.collectAsState()
         val currentPlan by viewModel.currentPlan.collectAsState(initial = null)
         val currentDayIdx by viewModel.currentDayIndex.collectAsState()
