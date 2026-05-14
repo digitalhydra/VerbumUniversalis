@@ -20,6 +20,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
@@ -36,7 +37,8 @@ fun ReadingPlansScreen(
     viewModel: ReadingPlanViewModel = hiltViewModel(),
     onNavigateBack: () -> Unit
 ) {
-    VerbumTheme {
+    val context = LocalContext.current
+    VerbumTheme(context = context) {
         val plansIndex by viewModel.plansIndex.collectAsState()
         val currentPlan by viewModel.currentPlan.collectAsState(initial = null)
         val currentDayIdx by viewModel.currentDayIndex.collectAsState()

@@ -12,7 +12,7 @@ class ReadingCanvasActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            VerbumTheme {
+            VerbumTheme(context = this) {
                 ReadingScreen(viewModel = hiltViewModel())
             }
         }

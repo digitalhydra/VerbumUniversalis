@@ -12,7 +12,7 @@ class DashboardActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            VerbumTheme {
+            VerbumTheme(context = this) {
                 com.verbum.universalis.ui.navigation.MainScreen()
             }
         }

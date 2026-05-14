@@ -17,6 +17,7 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Dialog
 import androidx.hilt.navigation.compose.hiltViewModel
@@ -46,7 +47,8 @@ fun ReadingScreen(
     // Back navigation
     onBack: (() -> Unit)? = null
 ) {
-    VerbumTheme {
+    val context = LocalContext.current
+    VerbumTheme(context = context) {
         LaunchedEffect(initialBookId, initialChapter, initialVerse) {
             if (initialBookId != null && initialChapter != null) {
                 viewModel.setPassage(initialBookId, initialChapter, initialVerse)

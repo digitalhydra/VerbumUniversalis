@@ -11,6 +11,7 @@ import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.material.icons.filled.Check
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -19,6 +20,9 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
+import com.verbum.universalis.data.json.FileManager
+import com.verbum.universalis.data.json.UserSettings
+import kotlinx.coroutines.runBlocking
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -26,12 +30,29 @@ fun ThemeScreen(
     onBack: () -> Unit = {}
 ) {
     val context = LocalContext.current
-    var isDarkTheme by remember {
-        mutableStateOf(
-            (context as? android.app.Activity)?.let { activity ->
-                AppCompatDelegate.getDefaultNightMode() == AppCompatDelegate.MODE_NIGHT_YES
-            } ?: false
-        )
+    val fileManager = remember { FileManager(context) }
+    
+    // Load current theme from UserSettings
+    var currentTheme by remember {
+        mutableStateOf(runBlocking {
+            fileManager.loadSettings()?.theme ?: "system"
+        })
+    }
+    
+    // Map theme string to isDarkTheme boolean
+    // "system" defaults to false (light) for simplicity
+    var isDarkTheme by remember(currentTheme) {
+        mutableStateOf(currentTheme == "dark")
+    }
+    
+    // Load theme from settings on first composition
+    LaunchedEffect(Unit) {
+        val settings = fileManager.loadSettings()
+        currentTheme = settings?.theme ?: "system"
+        isDarkTheme = settings?.theme == "dark"
+        
+        // Apply the saved theme via AppCompatDelegate
+        applyThemeFromSettings(settings?.theme ?: "system")
     }
 
     Scaffold(
@@ -61,10 +82,11 @@ fun ThemeScreen(
             ThemeOptionRow(
                 title = "Light Theme",
                 description = "Bright theme with dark text",
-                isSelected = !isDarkTheme,
+                isSelected = currentTheme == "light",
                 onClick = {
+                    currentTheme = "light"
                     isDarkTheme = false
-                    applyTheme(false)
+                    saveAndApplyTheme(context, fileManager, "light")
                 }
             )
 
@@ -73,14 +95,34 @@ fun ThemeScreen(
             ThemeOptionRow(
                 title = "Dark Theme",
                 description = "Dark theme with light text",
-                isSelected = isDarkTheme,
+                isSelected = currentTheme == "dark",
                 onClick = {
+                    currentTheme = "dark"
                     isDarkTheme = true
-                    applyTheme(true)
+                    saveAndApplyTheme(context, fileManager, "dark")
                 }
             )
         }
     }
+}
+
+private fun saveAndApplyTheme(context: Context, fileManager: FileManager, theme: String) {
+    // Save theme to UserSettings
+    val existingSettings = fileManager.loadSettings()
+    val updatedSettings = existingSettings?.copy(theme = theme) ?: UserSettings(theme = theme)
+    fileManager.saveSettings(updatedSettings)
+    
+    // Apply theme via AppCompatDelegate
+    applyThemeFromSettings(theme)
+}
+
+private fun applyThemeFromSettings(theme: String) {
+    val mode = when (theme) {
+        "dark" -> AppCompatDelegate.MODE_NIGHT_YES
+        "light" -> AppCompatDelegate.MODE_NIGHT_NO
+        else -> AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM
+    }
+    AppCompatDelegate.setDefaultNightMode(mode)
 }
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -132,11 +174,4 @@ fun ThemeOptionRow(
             }
         }
     }
-}
-
-private fun applyTheme(dark: Boolean) {
-    AppCompatDelegate.setDefaultNightMode(
-        if (dark) AppCompatDelegate.MODE_NIGHT_YES
-        else AppCompatDelegate.MODE_NIGHT_NO
-    )
 }

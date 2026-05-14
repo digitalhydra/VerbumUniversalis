@@ -1,11 +1,13 @@
 package com.verbum.universalis.core.theme
 
+import android.content.Context
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.darkColorScheme
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
+import com.verbum.universalis.data.json.FileManager
 
 private val DarkColorScheme = darkColorScheme(
     primary = VerbunGold,
@@ -32,10 +34,27 @@ private val LightColorScheme = lightColorScheme(
 
 @Composable
 fun VerbumTheme(
+    context: Context? = null,
     darkTheme: Boolean = isSystemInDarkTheme(),
     content: @Composable () -> Unit
 ) {
-    val colorScheme = if (darkTheme) DarkColorScheme else LightColorScheme
+    // If context is provided, read theme from UserSettings
+    val actualDarkTheme = if (context != null) {
+        val settings = try {
+            FileManager(context).loadSettings()
+        } catch (e: Exception) {
+            null
+        }
+        when (settings?.theme) {
+            "dark" -> true
+            "light" -> false
+            else -> darkTheme // fallback to parameter or system
+        }
+    } else {
+        darkTheme
+    }
+    
+    val colorScheme = if (actualDarkTheme) DarkColorScheme else LightColorScheme
 
     MaterialTheme(
         colorScheme = colorScheme,
