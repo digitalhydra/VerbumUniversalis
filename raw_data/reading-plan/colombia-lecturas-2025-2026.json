@@ -1,0 +1,4882 @@
+[
+  {
+    "date": "2025-11-30",
+    "celebration": "",
+    "celebrationTitle": "30  Noviembre, Domingo. 1ª Sem. de Adviento,  Morado",
+    "color": "Morado",
+    "liturgicalTime": "ADVIENTO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Is 2,1-5",
+      "psalm": "Sal 122(121),1-2.4-5.6-7. 8-9 (R. cf. 1)",
+      "secondReading": "Rm 13,11-14a",
+      "gospel": "Mt 24,37-44."
+    }
+  },
+  {
+    "date": "2025-12-01",
+    "celebration": "Feria",
+    "celebrationTitle": "01  Diciembre, Lunes. 1ª Sem. de Adviento,  Feria,  Morado",
+    "color": "Morado",
+    "liturgicalTime": "ADVIENTO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Is 4,2-6",
+      "psalm": "Sal 122(121),1-2.3-4a.6-7. 8-9 (R. cf. 1)",
+      "gospel": "Mt 8,5-11."
+    }
+  },
+  {
+    "date": "2025-12-02",
+    "celebration": "Feria",
+    "celebrationTitle": "02  Diciembre, Martes. 1ª Sem. de Adviento,  Feria,  Morado",
+    "color": "Morado",
+    "liturgicalTime": "ADVIENTO",
+    "prelude": "null",
+    "readings": {
+      "firstReading": "Is 11,1-10",
+      "psalm": "Sal 72(71),1-2.7-8.12-13.17 (R. cf. 7)",
+      "gospel": "Lc 10,21-24."
+    }
+  },
+  {
+    "date": "2025-12-03",
+    "celebration": "Memoria obligatoria",
+    "celebrationTitle": "03  Diciembre, Miércoles. 1ª Sem. de Adviento,  Memoria obligatoria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "ADVIENTO",
+    "prelude": "<p>San Francisco Javier, presbítero</p>",
+    "readings": {
+      "firstReading": "Is 25,6-10a",
+      "psalm": "Sal 23(22),1-3a.3b-4.5.6 (R. cf. 5a)",
+      "gospel": "Mt 15,29-37."
+    }
+  },
+  {
+    "date": "2025-12-04",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "04  Diciembre, Jueves. 1ª Sem. de Adviento,  Feria o Memoria libre,  Morado o Blanco",
+    "color": "Morado o Blanco",
+    "liturgicalTime": "ADVIENTO",
+    "prelude": "<p>San Juan Damasceno, presbítero y doctor de la Iglesia</p>",
+    "readings": {
+      "firstReading": "Is 26, 1-6",
+      "psalm": "Sal 118(117),1.8-9.19-20.21+25.26-27a (R. Is 26,2)",
+      "gospel": "Mt 7, 21.24-27."
+    }
+  },
+  {
+    "date": "2025-12-05",
+    "celebration": "Feria",
+    "celebrationTitle": "05  Diciembre, Viernes. 1ª Sem. de Adviento,  Feria,  Morado",
+    "color": "Morado",
+    "liturgicalTime": "ADVIENTO",
+    "prelude": "<p>null</p>",
+    "readings": {
+      "firstReading": "Is 29,17-24",
+      "psalm": "Sal 27(26) ,1.4.13-14 (R. 1a)",
+      "gospel": "Mt 9,27-31."
+    }
+  },
+  {
+    "date": "2025-12-06",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "06  Diciembre, Sábado. 1ª Sem. de Adviento,  Feria o Memoria libre,  Morado o Blanco",
+    "color": "Morado o Blanco",
+    "liturgicalTime": "ADVIENTO",
+    "prelude": "<p>San Nicolás, obispo</p>",
+    "readings": {
+      "firstReading": "Is 30, 19-21.23-26",
+      "psalm": "Sal 147(146),1-2.3-4.5-6 (R. cf. 3)",
+      "gospel": "Mt 9, 35 - 10,1.6-8."
+    }
+  },
+  {
+    "date": "2025-12-07",
+    "celebration": "",
+    "celebrationTitle": "07  Diciembre, Domingo. 2ª Sem. de Adviento,  Morado",
+    "color": "Morado",
+    "liturgicalTime": "ADVIENTO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Is 11,1-10",
+      "psalm": "Sal 72(71),1-2.7-8.12-13.17 (R. cf. 7)",
+      "secondReading": "Rm 15,4-9",
+      "gospel": "Mt 3,1-12."
+    }
+  },
+  {
+    "date": "2025-12-08",
+    "celebration": "Solemnidad",
+    "celebrationTitle": "08  Diciembre, Lunes.  Solemnidad,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "ADVIENTO",
+    "prelude": "<p>Inmaculada Concepción de la Bienaventurada Virgen María</p>",
+    "readings": {
+      "firstReading": "Gn 3,9-15.20",
+      "psalm": "Sal 98(97),1.2-3ab.3cd-4 (R. Lc 1,49)",
+      "secondReading": "Ef 1,3-6.11-12",
+      "gospel": "Lc 1,26-38."
+    }
+  },
+  {
+    "date": "2025-12-09",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "09  Diciembre, Martes. 2ª Sem. de Adviento,  Feria o Memoria libre,  Morado o Blanco",
+    "color": "Morado o Blanco",
+    "liturgicalTime": "ADVIENTO",
+    "prelude": "<p>San Juan Diego Cuauhtlatoatzin</p>",
+    "readings": {
+      "firstReading": "Is 40,1-11",
+      "psalm": "Sal 96(95),1-2.3+10ac.11-12.13 (R. cf. Is 40,10a.11a)",
+      "gospel": "Mt 18,12-14."
+    }
+  },
+  {
+    "date": "2025-12-10",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "10  Diciembre, Miércoles. 2ª Sem. de Adviento,  Feria o Memoria libre,  Morado o Blanco",
+    "color": "Morado o Blanco",
+    "liturgicalTime": "ADVIENTO",
+    "prelude": "<p>Bienaventurada Virgen María de Loreto,</p>",
+    "readings": {
+      "firstReading": "Is 40,25-31",
+      "psalm": "Sal 103(102),1-2.3-4.8+10 (R. Is 40,29)",
+      "gospel": "Mt 11,28-30."
+    }
+  },
+  {
+    "date": "2025-12-11",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "11  Diciembre, Jueves. 2ª Sem. de Adviento,  Feria o Memoria libre,  Morado o Blanco",
+    "color": "Morado o Blanco",
+    "liturgicalTime": "ADVIENTO",
+    "prelude": "<p>San Dámaso I, papa</p>",
+    "readings": {
+      "firstReading": "Is 41,13-20",
+      "psalm": "Sal 145(144),1 y 9.10.11-12.13ab (R. cf. 85[84],10)",
+      "gospel": "Mt 11,11-15."
+    }
+  },
+  {
+    "date": "2025-12-12",
+    "celebration": "Fiesta",
+    "celebrationTitle": "12  Diciembre, Viernes.  Fiesta,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "ADVIENTO",
+    "prelude": "<p>Bienaventurada Virgen María de Guadalupe, Patrona de América Latina</p>",
+    "readings": {
+      "firstReading": "Is 7,10-14; 8,10",
+      "psalm": "Sal 67(66),2-3.5.7-8 (R. 4)",
+      "secondReading": "Lc 1,39-48.",
+      "gospel": ""
+    }
+  },
+  {
+    "date": "2025-12-13",
+    "celebration": "Memoria obligatoria",
+    "celebrationTitle": "13  Diciembre, Sábado. 2ª Sem. de Adviento,  Memoria obligatoria,  Rojo",
+    "color": "Rojo",
+    "liturgicalTime": "ADVIENTO",
+    "prelude": "<p>Santa Lucía, virgen y mártir</p>",
+    "readings": {
+      "firstReading": "Sir 48,1-4.9-11",
+      "psalm": "Sal 80(79),2ac y 3b. 15-16.18-19 (R. cf. 4b)",
+      "gospel": "Mt 17,10-13."
+    }
+  },
+  {
+    "date": "2025-12-14",
+    "celebration": "",
+    "celebrationTitle": "14  Diciembre, Domingo. 3ª Sem. de Adviento,  Morado o Rosado",
+    "color": "Morado o Rosado",
+    "liturgicalTime": "ADVIENTO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Is 35,1-6a.10",
+      "psalm": "Sal 146(145),6c-7. 8-9a.9bc-10",
+      "secondReading": "St 5,7-10",
+      "gospel": "Mt 11,2-11."
+    }
+  },
+  {
+    "date": "2025-12-15",
+    "celebration": "Feria",
+    "celebrationTitle": "15  Diciembre, Lunes. 3ª Sem. de Adviento,  Feria,  Morado",
+    "color": "Morado",
+    "liturgicalTime": "ADVIENTO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Nm 24,2-7.15-17a",
+      "psalm": "Sal 25(24),4-5ab.6 y 7bc.8-9 (R. cf. 119[118],18)",
+      "gospel": "Mt 21,23-27"
+    }
+  },
+  {
+    "date": "2025-12-16",
+    "celebration": "Feria",
+    "celebrationTitle": "16  Diciembre, Martes. 3ª Sem. de Adviento,  Feria,  Morado",
+    "color": "Morado",
+    "liturgicalTime": "ADVIENTO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "So 3,1-2.9-13",
+      "psalm": "Sal 34(33),2-3.6-7.17-18.19+23 (R. 7a)",
+      "gospel": "Mt 21,28-32."
+    }
+  },
+  {
+    "date": "2025-12-17",
+    "celebration": "Feria privilegiada",
+    "celebrationTitle": "17  Diciembre, Miércoles.  Feria privilegiada,  Morado",
+    "color": "Morado",
+    "liturgicalTime": "ADVIENTO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Gn 49,2.8-10",
+      "psalm": "Sal 72(71),1-2.3-4ab.7-8.17 (R. cf. 110[109],2)",
+      "gospel": "Mt 1,1-17."
+    }
+  },
+  {
+    "date": "2025-12-18",
+    "celebration": "Feria privilegiada",
+    "celebrationTitle": "18  Diciembre, Jueves.  Feria privilegiada,  Morado",
+    "color": "Morado",
+    "liturgicalTime": "ADVIENTO",
+    "prelude": "null",
+    "readings": {
+      "firstReading": "Jr 23,5-8",
+      "psalm": "Sal 72(71),1-2.12-13.18-19 (R. cf. 7)",
+      "gospel": "Mt 1,18-24."
+    }
+  },
+  {
+    "date": "2025-12-19",
+    "celebration": "Feria privilegiada",
+    "celebrationTitle": "19  Diciembre, Viernes.  Feria privilegiada,  Morado",
+    "color": "Morado",
+    "liturgicalTime": "ADVIENTO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Jc 13,2-7.24-25a",
+      "psalm": "Sal 71(70),3-4a.5-6ab.16-17 (R. 22[21],11b)",
+      "gospel": "Lc 1,5-25."
+    }
+  },
+  {
+    "date": "2025-12-20",
+    "celebration": "Feria privilegiada",
+    "celebrationTitle": "20  Diciembre, Sábado.  Feria privilegiada,  Morado",
+    "color": "Morado",
+    "liturgicalTime": "ADVIENTO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Is 7,10-14",
+      "psalm": "Sal 24(23),1-2.3-4ab.5-6 (R. cf. 7c.10b)",
+      "gospel": "Lc 1,26-38."
+    }
+  },
+  {
+    "date": "2025-12-21",
+    "celebration": "",
+    "celebrationTitle": "21  Diciembre, Domingo. 4ª Sem. de Adviento,  Morado",
+    "color": "Morado",
+    "liturgicalTime": "ADVIENTO",
+    "prelude": "<p>null</p>",
+    "readings": {
+      "firstReading": "Is 7,10-14",
+      "psalm": "Sal 24(23),1-2.3-4ab. 5-6",
+      "secondReading": "Rm 1,1-7",
+      "gospel": "Mt 1,18-24."
+    }
+  },
+  {
+    "date": "2025-12-22",
+    "celebration": "Feria privilegiada",
+    "celebrationTitle": "22  Diciembre, Lunes.  Feria privilegiada,  Morado",
+    "color": "Morado",
+    "liturgicalTime": "ADVIENTO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "1S 1,24-28",
+      "psalm": "Sal 1S 2,1.4-5.6-7.8abcd (R. cf. 1a)",
+      "gospel": "Lc 1,46-56."
+    }
+  },
+  {
+    "date": "2025-12-23",
+    "celebration": "Feria privilegiada",
+    "celebrationTitle": "23  Diciembre, Martes.  Feria privilegiada,  Morado",
+    "color": "Morado",
+    "liturgicalTime": "ADVIENTO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Ml 3,1-4.23-24",
+      "psalm": "Sal 25(24),4-5ab.8-9.10+14 (R. cf. Lc 1,76)",
+      "gospel": "Lc 1,57-66."
+    }
+  },
+  {
+    "date": "2025-12-24",
+    "celebration": "Feria privilegiada",
+    "celebrationTitle": "24  Diciembre, Miércoles.  Feria privilegiada,  Morado",
+    "color": "Morado",
+    "liturgicalTime": "ADVIENTO",
+    "prelude": "<p>null</p>",
+    "readings": {
+      "firstReading": "2S 7,1-5.8b-12.14a.16",
+      "psalm": "Sal 89(88),2-3.4-5.27 y 29 (R. cf. 2a)",
+      "gospel": "Lc 1,67-79."
+    }
+  },
+  {
+    "date": "2025-12-24",
+    "celebration": "Solemnidad",
+    "celebrationTitle": "24  Diciembre, Miércoles.  NACIMIENTO DEL SEÑOR (Día de precepto),  Solemnidad,  Blanco  \r\n EN LA VIGILIA:",
+    "color": "Blanco",
+    "liturgicalTime": "NAVIDAD",
+    "prelude": "<p>null</p>",
+    "readings": {
+      "firstReading": "Is 62,1-5",
+      "psalm": "Sal 89 (88),4-5.16-17.27 y 29 (R. cf. 2a)",
+      "secondReading": "Hch 13,16-17.22-25",
+      "gospel": "Mt 1,1-25 (forma larga) o Mt 1,18-25 (forma breve)."
+    }
+  },
+  {
+    "date": "2025-12-25",
+    "celebration": "Solemnidad",
+    "celebrationTitle": "25  Diciembre, Jueves.  EN EL DÍA DE LA SOLEMNIDAD,  Solemnidad,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "NAVIDAD",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Is 62,11-12",
+      "psalm": "Sal 97(96),1 y 6.11-12",
+      "secondReading": "Tt 3,4-7",
+      "gospel": "Lc 2,15-20."
+    }
+  },
+  {
+    "date": "2025-12-26",
+    "celebration": "Fiesta",
+    "celebrationTitle": "26  Diciembre, Viernes.  Fiesta,  Rojo",
+    "color": "Rojo",
+    "liturgicalTime": "NAVIDAD",
+    "prelude": "<p>San Esteban, protomártir</p>",
+    "readings": {
+      "firstReading": "Hch 6,8-10; 7,54-60",
+      "psalm": "Sal 31(30),3cd-4.6+8ab.16bc-17 (R. 6a)",
+      "secondReading": "Mt 10,17-22.",
+      "gospel": ""
+    }
+  },
+  {
+    "date": "2025-12-27",
+    "celebration": "Fiesta",
+    "celebrationTitle": "27  Diciembre, Sábado.  Fiesta,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "NAVIDAD",
+    "prelude": "<p>San Juan, apóstol y evangelista</p>",
+    "readings": {
+      "firstReading": "1Jn 1,1-4",
+      "psalm": "Sal 97(96),1-2.5-6.11-12 (R. 12a)",
+      "secondReading": "Jn 20,2-8.",
+      "gospel": ""
+    }
+  },
+  {
+    "date": "2025-12-28",
+    "celebration": "Fiesta",
+    "celebrationTitle": "28  Diciembre, Domingo.  LA SAGRADA FAMILIA DE JESÚS, MARÍA Y JOSÉ,  Fiesta ,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "NAVIDAD",
+    "prelude": "<p>LA SAGRADA FAMILIA DE JESÚS, MARÍA Y JOSÉ.</p>",
+    "readings": {
+      "firstReading": "Eclo 3, 2-6. 12-14",
+      "psalm": "Sal 127, 1bc-2. 3. 4-5 (R.: cf. 1bc)",
+      "secondReading": "Col 3, 12-21",
+      "gospel": "Mt 2, 13-15. 19-23"
+    }
+  },
+  {
+    "date": "2025-12-29",
+    "celebration": "Feria",
+    "celebrationTitle": "29  Diciembre, Lunes.  día 5° Octava de Navidad,  Feria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "NAVIDAD",
+    "prelude": "",
+    "readings": {
+      "firstReading": "1Jn 2,3-11",
+      "psalm": "Sal 96(95),1-2a.2b-3.5b-6 (R. 11a)",
+      "gospel": "Lc 2,22-35."
+    }
+  },
+  {
+    "date": "2025-12-30",
+    "celebration": "Feria",
+    "celebrationTitle": "30  Diciembre, Martes.  día 6° Octava de Navidad,  Feria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "NAVIDAD",
+    "prelude": "",
+    "readings": {
+      "firstReading": "1Jn 2,12-17",
+      "psalm": "Sal 96(95),7-8a.8b-9.10 (R. 11a)",
+      "gospel": "Lc 2,36-40."
+    }
+  },
+  {
+    "date": "2025-12-31",
+    "celebration": "Feria",
+    "celebrationTitle": "31  Diciembre, Miércoles.  día 7° Octava de Navidad,  Feria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "NAVIDAD",
+    "prelude": "null",
+    "readings": {
+      "firstReading": "1Jn 2,18-21",
+      "psalm": "Sal 96(95),1-2.11-12.13 (R. 11a)",
+      "gospel": "Jn 1,1-18."
+    }
+  },
+  {
+    "date": "2026-01-01",
+    "celebration": "Solemnidad",
+    "celebrationTitle": "01  Enero, Jueves.  Solemnidad,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "NAVIDAD",
+    "prelude": "<p>Santa María Madre de Dios, (Día de precepto)</p>",
+    "readings": {
+      "firstReading": "Nm 6,22-27",
+      "psalm": "Sal 67(66) ,2-3.5.6+8",
+      "secondReading": "Ga 4,4-7",
+      "gospel": "Lc 2,16-21."
+    }
+  },
+  {
+    "date": "2026-01-02",
+    "celebration": "Memoria obligatoria",
+    "celebrationTitle": "02  Enero, Viernes.  antes de la Epifanía,  Memoria obligatoria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "NAVIDAD",
+    "prelude": "<p>Santos Basilio Magno y Gregorio Nacianceno, obispos y doctores de la Iglesia</p>",
+    "readings": {
+      "firstReading": "1Jn 2,22-28",
+      "psalm": "Sal 98(97),1.2-3ab.3cd-4 (R. cf. 3c)",
+      "gospel": "Jn 1,19-28."
+    }
+  },
+  {
+    "date": "2026-01-03",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "03  Enero, Sábado.  antes de la Epifanía,  Feria o Memoria libre,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "NAVIDAD",
+    "prelude": "<p>Santísimo Nombre de Jesús</p>",
+    "readings": {
+      "firstReading": "1Jn 2,29 - 3,6",
+      "psalm": "Sal 98(97),1.3cd-4. 5-6 (R. cf. 3c)",
+      "gospel": "Jn 1,29-34."
+    }
+  },
+  {
+    "date": "2026-01-03",
+    "celebration": "Solemnidad",
+    "celebrationTitle": "03  Enero, Sábado.  LA EPIFANIA DEL SEÑOR,  Solemnidad,  Blanco  \r\n EN LA VIGILIA:",
+    "color": "Blanco",
+    "liturgicalTime": "NAVIDAD",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Is 60,1-6",
+      "psalm": "Sal 72(71),1-2.7-8.10b-11.12-13 (R. cf. 11)",
+      "secondReading": "Ef 3,2-3a.5-6",
+      "gospel": "Mt 2,1-12."
+    }
+  },
+  {
+    "date": "2026-01-04",
+    "celebration": "Solemnidad",
+    "celebrationTitle": "04  Enero, Domingo.  EN EL DÍA DE LA SOLEMNIDAD,  Solemnidad,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "NAVIDAD",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Is 60,1-6",
+      "psalm": "Sal 72(71),1-2.7-8.10b-11.12-13 (R. cf. 11)",
+      "secondReading": "Ef 3,2-3a.5-6",
+      "gospel": "Mt 2,1-12."
+    }
+  },
+  {
+    "date": "2026-01-05",
+    "celebration": "Feria",
+    "celebrationTitle": "05  Enero, Lunes.  después de la Epifanía,  Feria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "NAVIDAD",
+    "prelude": "",
+    "readings": {
+      "firstReading": "1Jn 3,22 - 4,6",
+      "psalm": "Sal 2,7-8.10-11 (R. cf. Jn 1,49)",
+      "gospel": "Mt 4,12-17.23-25."
+    }
+  },
+  {
+    "date": "2026-01-06",
+    "celebration": "Feria",
+    "celebrationTitle": "06  Enero, Martes.  después de la Epifanía,  Feria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "NAVIDAD",
+    "prelude": "",
+    "readings": {
+      "firstReading": "1Jn 4,7-10",
+      "psalm": "Sal 72(71),1-2.3-4ab.7-8 (R. cf. 11)",
+      "gospel": "Mc 6,34-44."
+    }
+  },
+  {
+    "date": "2026-01-07",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "07  Enero, Miércoles.  después de la Epifanía,  Feria o Memoria libre,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "NAVIDAD",
+    "prelude": "<p>San Raimundo de Peñafort, presbítero</p>",
+    "readings": {
+      "firstReading": "1Jn 4,11-18",
+      "psalm": "Sal 72(71),1-2.10-11.2-13 (R. cf. 11)",
+      "gospel": "Mc 6,45-52."
+    }
+  },
+  {
+    "date": "2026-01-08",
+    "celebration": "Feria",
+    "celebrationTitle": "08  Enero, Jueves.  después de la Epifanía,  Feria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "NAVIDAD",
+    "prelude": "",
+    "readings": {
+      "firstReading": "1Jn 4,19 - 5,4",
+      "psalm": "Sal 72(71),1-2.14+15bc.17 (R. Lc 2,30-31)",
+      "gospel": "Lc 4,14-22a."
+    }
+  },
+  {
+    "date": "2026-01-09",
+    "celebration": "Feria",
+    "celebrationTitle": "09  Enero, Viernes.  después de la Epifanía,  Feria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "NAVIDAD",
+    "prelude": "",
+    "readings": {
+      "firstReading": "1Jn 5,5-13",
+      "psalm": "Sal 147,12-13.14-15.19-20 (R. 12a)",
+      "gospel": "Lc 5,12-16"
+    }
+  },
+  {
+    "date": "2026-01-10",
+    "celebration": "Feria",
+    "celebrationTitle": "10  Enero, Sábado.  después de la Epifanía,  Feria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "NAVIDAD",
+    "prelude": "",
+    "readings": {
+      "firstReading": "1Jn 5,14-21",
+      "psalm": "Sal 149,1-2.3-4.5-6a y 9b (R. 17[16],6a)",
+      "gospel": "Jn 3,22-30."
+    }
+  },
+  {
+    "date": "2026-01-11",
+    "celebration": "Fiesta",
+    "celebrationTitle": "11  Enero, Domingo.  EL BAUTISMO DEL SEÑOR,  Fiesta ,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "NAVIDAD",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Is 42,1-4.6-7",
+      "psalm": "Sal 29(28),1a y 2.3ac-4. 3b y 9b-10",
+      "secondReading": "Hch 10,34-38",
+      "gospel": "Mt 3,13-17."
+    }
+  },
+  {
+    "date": "2026-01-12",
+    "celebration": "Feria",
+    "celebrationTitle": "12  Enero, Lunes. 1ª Sem. del TO,  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "I TIEMPO ORDINARIO",
+    "prelude": "null",
+    "readings": {
+      "firstReading": "1S 1,1-8",
+      "psalm": "Sal 116(115),12-13.14 y 17. 18-19 (R. 17a)",
+      "gospel": "Mc 1,14-20."
+    }
+  },
+  {
+    "date": "2026-01-13",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "13  Enero, Martes. 1ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
+    "color": "Verde o Blanco",
+    "liturgicalTime": "I TIEMPO ORDINARIO",
+    "prelude": "<p>San Hilario, obispo y doctor de la Iglesia</p>",
+    "readings": {
+      "firstReading": "1S 1,9-20",
+      "psalm": "Sal 1S 2,1.4-5.6-7.8abcd (R. cf. 1a)",
+      "gospel": "Mc 1,21b-28."
+    }
+  },
+  {
+    "date": "2026-01-14",
+    "celebration": "Feria",
+    "celebrationTitle": "14  Enero, Miércoles. 1ª Sem. del TO,  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "I TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "1S 3,1-10.19-20",
+      "psalm": "Sal 40(39),2+5.7-8a. 8b-9.10 (R. cf. 8a.9a)",
+      "gospel": "Mc 1,29-39."
+    }
+  },
+  {
+    "date": "2026-01-15",
+    "celebration": "Feria",
+    "celebrationTitle": "15  Enero, Jueves. 1ª Sem. del TO,  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "I TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "1S 4,1-11",
+      "psalm": "Sal 44(43),10-11.14-15. 24-25 (R. 27b)",
+      "gospel": "Mc 1,40-45."
+    }
+  },
+  {
+    "date": "2026-01-16",
+    "celebration": "Feria",
+    "celebrationTitle": "16  Enero, Viernes. 1ª Sem. del TO,  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "I TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "1S 8,4-7.10-22a",
+      "psalm": "Sal 89(88),16-17.18-19 (R. cf. 2a)",
+      "gospel": "Mc 2,1-12."
+    }
+  },
+  {
+    "date": "2026-01-17",
+    "celebration": "Memoria obligatoria",
+    "celebrationTitle": "17  Enero, Sábado. 1ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "I TIEMPO ORDINARIO",
+    "prelude": "<p>San Antonio, abad</p>",
+    "readings": {
+      "firstReading": "1S 9,1-4.17-19; 10,1a",
+      "psalm": "Sal 21(20),2-3. 4-5.6-7 (R. 2a)",
+      "gospel": "Mc 2,13-17."
+    }
+  },
+  {
+    "date": "2026-01-18",
+    "celebration": "",
+    "celebrationTitle": "18  Enero, Domingo. 2ª Sem. del Tiempo Ordinario,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "I TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Is 49,3.5-6",
+      "psalm": "Sal 40(39),2+4ab.7.8-9.10 (R. cf. 8-9)",
+      "secondReading": "1Co 1,1-3",
+      "gospel": "Jn 1,29-34."
+    }
+  },
+  {
+    "date": "2026-01-19",
+    "celebration": "Feria",
+    "celebrationTitle": "19  Enero, Lunes. 2ª Sem. del TO,  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "I TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "1S 15,16-23",
+      "psalm": "Sal 50(49),8-9.16bc-17.21+ y 23 (R. 23b)",
+      "gospel": "Mc 2,18-22."
+    }
+  },
+  {
+    "date": "2026-01-20",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "20  Enero, Martes. 2ª Sem. del TO,  Feria o Memoria libre,  Verde o Rojo",
+    "color": "Verde o Rojo",
+    "liturgicalTime": "I TIEMPO ORDINARIO",
+    "prelude": "<p>San Fabián, papa y mártir; San Sebastián, mártir</p>",
+    "readings": {
+      "firstReading": "1S 16,1-13",
+      "psalm": "Sal 89(88),20.21-22.27-28 (R. 21a)",
+      "gospel": "Mc 2,23-28."
+    }
+  },
+  {
+    "date": "2026-01-21",
+    "celebration": "Memoria obligatoria",
+    "celebrationTitle": "21  Enero, Miércoles. 2ª Sem. del TO,  Memoria obligatoria,  Rojo",
+    "color": "Rojo",
+    "liturgicalTime": "I TIEMPO ORDINARIO",
+    "prelude": "<p>Santa Inés, virgen y mártir</p>",
+    "readings": {
+      "firstReading": "1S 17,32-33.37.40-51",
+      "psalm": "Sal 144(143),1. 2.9-10 (R. 1a)",
+      "gospel": "Mc 3,1-6."
+    }
+  },
+  {
+    "date": "2026-01-22",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "22  Enero, Jueves. 2ª Sem. del TO,  Feria o Memoria libre,  Verde o Rojo",
+    "color": "Verde o Rojo",
+    "liturgicalTime": "I TIEMPO ORDINARIO",
+    "prelude": "<p>San Vicente, diácono y mártir</p>",
+    "readings": {
+      "firstReading": "1S 18,6-9; 19,1-7",
+      "psalm": "Sal 56(55),2-3. 9-10.11-12.13 (R. 5bc)",
+      "gospel": "Mc 3,7-12."
+    }
+  },
+  {
+    "date": "2026-01-23",
+    "celebration": "Feria",
+    "celebrationTitle": "23  Enero, Viernes. 2ª Sem. del TO,  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "I TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "1S 24,3-21",
+      "psalm": "Sal 57(56),2.3-4.6+11 (R. 2a)",
+      "gospel": "Mc 3,13-19."
+    }
+  },
+  {
+    "date": "2026-01-24",
+    "celebration": "Memoria obligatoria",
+    "celebrationTitle": "24  Enero, Sábado. 2ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "I TIEMPO ORDINARIO",
+    "prelude": "<p>San Francisco de Sales, obispo y doctor de la Iglesia</p>",
+    "readings": {
+      "firstReading": "2S 1,1-4.11-12.19.23-27",
+      "psalm": "Sal 80(79), 2-3.5-7 (R. 4b)",
+      "gospel": "Mc 3,20-21."
+    }
+  },
+  {
+    "date": "2026-01-25",
+    "celebration": "",
+    "celebrationTitle": "25  Enero, Domingo. 3ª Sem. del Tiempo Ordinario,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "I TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Is 8,23b - 9,3",
+      "psalm": "Sal 27(26),1.4.13-14 (R. 1a)",
+      "secondReading": "1Co 1,10-13.17",
+      "gospel": "Mt 4,12-23 (forma larga) o Mt 4,12-17 (forma breve)."
+    }
+  },
+  {
+    "date": "2026-01-26",
+    "celebration": "Memoria obligatoria",
+    "celebrationTitle": "26  Enero, Lunes. 3ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "I TIEMPO ORDINARIO",
+    "prelude": "<p>Santos Timoteo y Tito, obispos</p>",
+    "readings": {
+      "firstReading": "2Tm 1,1-8 o Tt 1,1-5",
+      "psalm": "Sal 96(95),1-2a.2b-3.7-8a.10 (R. 3)",
+      "secondReading": "Lc 10,1-9.",
+      "gospel": ""
+    }
+  },
+  {
+    "date": "2026-01-27",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "27  Enero, Martes. 3ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
+    "color": "Verde o Blanco",
+    "liturgicalTime": "I TIEMPO ORDINARIO",
+    "prelude": "<p>Santa Ángela de Meríci, virgen</p>",
+    "readings": {
+      "firstReading": "2S 6,12b-15.17-19",
+      "psalm": "Sal 24(23),7.8.9.10 (R. cf. 8a)",
+      "gospel": "Mc 3,31-35."
+    }
+  },
+  {
+    "date": "2026-01-28",
+    "celebration": "Memoria obligatoria",
+    "celebrationTitle": "28  Enero, Miércoles. 3ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "I TIEMPO ORDINARIO",
+    "prelude": "<p>Santo Tomás de Aquino, presbítero y doctor de la Iglesia</p>",
+    "readings": {
+      "firstReading": "2S 7,4-17",
+      "psalm": "Sal 89(88), 4-5.27-28.29-30 (R. 29a)",
+      "gospel": "Mc 4,1-20."
+    }
+  },
+  {
+    "date": "2026-01-29",
+    "celebration": "Feria",
+    "celebrationTitle": "29  Enero, Jueves. 3ª Sem. del TO,  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "I TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "2S 7,18-19.24-29",
+      "psalm": "Sal 132(131),1-2.3-5.11.12.13-14 (R. Lc 1,32b)",
+      "gospel": "Mc 4,21-25"
+    }
+  },
+  {
+    "date": "2026-01-30",
+    "celebration": "Feria",
+    "celebrationTitle": "30  Enero, Viernes. 3ª Sem. del TO,  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "I TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "2S 11,1-4a.5-10a.13-17",
+      "psalm": "Sal 51(50),3-4.5-6a.6bc-7.10-11 (R. cf. 3a)",
+      "gospel": "Mc 4,26-34"
+    }
+  },
+  {
+    "date": "2026-01-31",
+    "celebration": "Memoria obligatoria",
+    "celebrationTitle": "31  Enero, Sábado. 3ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "I TIEMPO ORDINARIO",
+    "prelude": "<p>San Juan Bosco, presbítero</p>",
+    "readings": {
+      "firstReading": "2S 12,1-7a.10-17",
+      "psalm": "Sal 51(50),12-13.14-15.16-17 (R. 12a)",
+      "gospel": "Mc 4,35-41."
+    }
+  },
+  {
+    "date": "2026-02-01",
+    "celebration": "",
+    "celebrationTitle": "01  Febrero, Domingo. 4ª Sem. del Tiempo Ordinario,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "I TIEMPO ORDINARIO",
+    "prelude": "null",
+    "readings": {
+      "firstReading": "So 2,3; 3,12-13",
+      "psalm": "Sal 146(145),6c-7.8-9a.9bc-10 (R. Mt 5,3a)",
+      "secondReading": "1Co 1,26-31",
+      "gospel": "Mt 5,1-12a."
+    }
+  },
+  {
+    "date": "2026-02-02",
+    "celebration": "Fiesta",
+    "celebrationTitle": "02  Febrero, Lunes.  Fiesta,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "I TIEMPO ORDINARIO",
+    "prelude": "<p>Presentación del Señor,</p>",
+    "readings": {
+      "firstReading": "Ml 3,1-4",
+      "psalm": "Sal 24(23),7.8.9.10 (R. cf. Dn 3,53a)",
+      "secondReading": "Hb 2,14-18",
+      "gospel": "Cuando la fiesta no cae en domingo, se escoge una sola de las dos lecturas anteriores y luego se recita el salmo"
+    }
+  },
+  {
+    "date": "2026-02-03",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "03  Febrero, Martes. 4ª Sem. del TO,  Feria o Memoria libre,  Verde o Rojo o Blanco",
+    "color": "Verde o Rojo o Blanco",
+    "liturgicalTime": "I TIEMPO ORDINARIO",
+    "prelude": "<p>San Blas, obispo y mártir; San Óscar, obispo</p>",
+    "readings": {
+      "firstReading": "2S 18,9-10.14b.24-25a.30 - 19,3",
+      "psalm": "Sal 86(85),1-2.3-4.5-6 (R. 1a)",
+      "gospel": "Mc 5,21-43."
+    }
+  },
+  {
+    "date": "2026-02-04",
+    "celebration": "Feria",
+    "celebrationTitle": "04  Febrero, Miércoles. 4ª Sem. del TO,  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "I TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "2S 24,2.9-17",
+      "psalm": "Sal 32(31),1-2.5.6.7 (R. cf. 5c)",
+      "gospel": "Mc 6,1-6."
+    }
+  },
+  {
+    "date": "2026-02-05",
+    "celebration": "Memoria obligatoria",
+    "celebrationTitle": "05  Febrero, Jueves. 4ª Sem. del TO,  Memoria obligatoria,  Rojo",
+    "color": "Rojo",
+    "liturgicalTime": "I TIEMPO ORDINARIO",
+    "prelude": "<p>Santa Águeda, virgen y mártir</p>",
+    "readings": {
+      "firstReading": "1R 2,1-4.10-12",
+      "psalm": "Sal 1Cro 29,10.11ab.11d-12a.12bcd (R. 12b)",
+      "gospel": "Mc 6,7-13."
+    }
+  },
+  {
+    "date": "2026-02-06",
+    "celebration": "Memoria obligatoria",
+    "celebrationTitle": "06  Febrero, Viernes. 4ª Sem. del TO,  Memoria obligatoria,  Rojo",
+    "color": "Rojo",
+    "liturgicalTime": "I TIEMPO ORDINARIO",
+    "prelude": "<p>Santos Pablo Miki y Compañeros, mártires</p>",
+    "readings": {
+      "firstReading": "Sir 47,2-13",
+      "psalm": "Sal 18(17),31.47+50.51 (R. cf. 47b)",
+      "gospel": "Mc 6,14-29."
+    }
+  },
+  {
+    "date": "2026-02-07",
+    "celebration": "Feria o BMV",
+    "celebrationTitle": "07  Febrero, Sábado. 4ª Sem. del TO,  Feria o BMV,  Verde o Blanco",
+    "color": "Verde o Blanco",
+    "liturgicalTime": "I TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "1R 3,4-13",
+      "psalm": "Sal 119(118),9.10.11. 12.13.14 (R. 12b)",
+      "gospel": "Mc 6,30-34."
+    }
+  },
+  {
+    "date": "2026-02-08",
+    "celebration": "",
+    "celebrationTitle": "08  Febrero, Domingo. 5ª Sem. del Tiempo Ordinario,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "I TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Is 58,7-10",
+      "psalm": "Sal 112(111),4-5.6-7.8a+9 (R. 4a)",
+      "secondReading": "1Co 2,1-5",
+      "gospel": "Mt 5,13-16."
+    }
+  },
+  {
+    "date": "2026-02-09",
+    "celebration": "Feria",
+    "celebrationTitle": "09  Febrero, Lunes. 5ª Sem. del TO,  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "I TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "1R 8,1-7.9-13",
+      "psalm": "Sal 132(131),6-7.8-10 (R. 8a)",
+      "gospel": "Mc 6,53-56."
+    }
+  },
+  {
+    "date": "2026-02-10",
+    "celebration": "Memoria obligatoria",
+    "celebrationTitle": "10  Febrero, Martes. 5ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "I TIEMPO ORDINARIO",
+    "prelude": "<p>Santa Escolástica, virgen</p>",
+    "readings": {
+      "firstReading": "1R 8,22-23.27-30",
+      "psalm": "Sal 84(83),3.4. 5+10.11 (R. 2)",
+      "gospel": "Mc 7,1-13."
+    }
+  },
+  {
+    "date": "2026-02-11",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "11  Febrero, Miércoles. 5ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
+    "color": "Verde o Blanco",
+    "liturgicalTime": "I TIEMPO ORDINARIO",
+    "prelude": "<p>Bienaventurada Virgen María de Lourdes</p>",
+    "readings": {
+      "firstReading": "1R 10,1-10",
+      "psalm": "Sal 37(36),5-6.30-31. 39-40 (R. 30a)",
+      "gospel": "Mc 7,14-23."
+    }
+  },
+  {
+    "date": "2026-02-12",
+    "celebration": "Feria",
+    "celebrationTitle": "12  Febrero, Jueves. 5ª Sem. del TO,  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "I TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "1R 11,4-13",
+      "psalm": "Sal 106(105),3-4.35-36. 37+40 (R. 4a)",
+      "gospel": "Mc 7,24-30"
+    }
+  },
+  {
+    "date": "2026-02-13",
+    "celebration": "Feria",
+    "celebrationTitle": "13  Febrero, Viernes. 5ª Sem. del TO,  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "I TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "1R 11,29-32; 12,19",
+      "psalm": "Sal 81(80),10-11ab. 12-13.14-15 (R. cf. 11a+9a)",
+      "gospel": "Mc 7,31-37"
+    }
+  },
+  {
+    "date": "2026-02-14",
+    "celebration": "Memoria obligatoria",
+    "celebrationTitle": "14  Febrero, Sábado. 5ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "I TIEMPO ORDINARIO",
+    "prelude": "<p>Santos Cirilo, monje y Metodio, obispo</p>",
+    "readings": {
+      "firstReading": "1R 12,26-32; 13,33-34",
+      "psalm": "Sal 106(105), 6-7a.19-20.21-22 (R. 4a)",
+      "gospel": "Mc 8,1-10"
+    }
+  },
+  {
+    "date": "2026-02-15",
+    "celebration": "",
+    "celebrationTitle": "15  Febrero, Domingo. 6ª Sem. del Tiempo Ordinario,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "I TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Sir 15,16-21",
+      "psalm": "Sal 119(118),1-2.4-5.17-18.33-34 (R. cf. 33a)",
+      "secondReading": "1Co 2,6-10",
+      "gospel": "Mt 5,17-37 (forma larga) o Mt 5,20-22a.27-28.33-34a.37 (forma breve)."
+    }
+  },
+  {
+    "date": "2026-02-16",
+    "celebration": "Feria",
+    "celebrationTitle": "16  Febrero, Lunes. 6ª Sem. del TO,  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "I TIEMPO ORDINARIO",
+    "prelude": "null",
+    "readings": {
+      "firstReading": "St 1,1-11",
+      "psalm": "Sal 119(118),67.68.71. 72.75.76 (R. 77a)",
+      "gospel": "Mc 8,11-13."
+    }
+  },
+  {
+    "date": "2026-02-17",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "17  Febrero, Martes. 6ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
+    "color": "Verde o Blanco",
+    "liturgicalTime": "I TIEMPO ORDINARIO",
+    "prelude": "<p>Los siete santos Fundadores de la Orden de los Siervos de la Bienaventurada Virgen María</p>",
+    "readings": {
+      "firstReading": "St 1,12-18",
+      "psalm": "Sal 94(93),12-13a.14-15. 18-19 (R. 12a)",
+      "gospel": "Mc 8,14-21."
+    }
+  },
+  {
+    "date": "2026-02-18",
+    "celebration": "",
+    "celebrationTitle": "18  Febrero, Miércoles.  de Ceniza,  Morado",
+    "color": "Morado",
+    "liturgicalTime": "CUARESMA",
+    "prelude": "null",
+    "readings": {
+      "firstReading": "Jl 2,12-18",
+      "psalm": "Sal 51(50),3-4.5-6a.12-13.14 y 17 (R. cf. 3a)",
+      "gospel": "2Co 5,20 - 6,2"
+    }
+  },
+  {
+    "date": "2026-02-19",
+    "celebration": "Feria",
+    "celebrationTitle": "19  Febrero, Jueves.  después de Ceniza,  Feria,  Morado",
+    "color": "Morado",
+    "liturgicalTime": "CUARESMA",
+    "prelude": "null",
+    "readings": {
+      "firstReading": "Dt 30,15-20",
+      "psalm": "Sal 1,1-2.3.4 y 6 (R. 119[118],29)",
+      "gospel": "&nbsp;"
+    }
+  },
+  {
+    "date": "2026-02-20",
+    "celebration": "Feria",
+    "celebrationTitle": "20  Febrero, Viernes.  después de Ceniza,  Feria,  Morado",
+    "color": "Morado",
+    "liturgicalTime": "CUARESMA",
+    "prelude": "null",
+    "readings": {
+      "firstReading": "Is 58,1-9a",
+      "psalm": "Sal 51(50),3-4.5-6a.18-19 (R. cf. 19b)",
+      "gospel": "Mt 9,14-15 o Lc 22,39-46."
+    }
+  },
+  {
+    "date": "2026-02-21",
+    "celebration": "Feria",
+    "celebrationTitle": "21  Febrero, Sábado.  después de Ceniza,  Feria,  Morado",
+    "color": "Morado",
+    "liturgicalTime": "CUARESMA",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Is 58,9b-14",
+      "psalm": "Sal 86(85),1-2.3-4.5-6 (R. 11a)",
+      "gospel": "Lc 5,27-32."
+    }
+  },
+  {
+    "date": "2026-02-22",
+    "celebration": "",
+    "celebrationTitle": "22  Febrero, Domingo. 1ª Sem. de Cuaresma,  Morado",
+    "color": "Morado",
+    "liturgicalTime": "CUARESMA",
+    "prelude": "null",
+    "readings": {
+      "firstReading": "Gn 2,7-9; 3,1-7",
+      "psalm": "Sal 51(50),3-4.5-6a. 12-13.14 y 17 (R. cf. 3a)",
+      "secondReading": "Rm 5,12-19 (forma larga) o Rm 5,12.17-19 (forma breve)",
+      "gospel": "&nbsp;"
+    }
+  },
+  {
+    "date": "2026-02-23",
+    "celebration": "Feria",
+    "celebrationTitle": "23  Febrero, Lunes. 1ª Sem. de Cuaresma,  Feria,  Morado",
+    "color": "Morado",
+    "liturgicalTime": "CUARESMA",
+    "prelude": "null",
+    "readings": {
+      "firstReading": "Lv 19,1-2.11-18",
+      "psalm": "Sal 19(18),8.9.10. 15 (R. cf. Jn 6,63c)",
+      "gospel": "Mt 25,31-46."
+    }
+  },
+  {
+    "date": "2026-02-24",
+    "celebration": "Feria",
+    "celebrationTitle": "24  Febrero, Martes. 1ª Sem. de Cuaresma,  Feria,  Morado",
+    "color": "Morado",
+    "liturgicalTime": "CUARESMA",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Is 55,10-11",
+      "psalm": "Sal 34(33),4-5.6-7.16-17. 18-19 (R. cf. Mt 8,8)",
+      "gospel": "Mt 6,7-15."
+    }
+  },
+  {
+    "date": "2026-02-25",
+    "celebration": "Feria",
+    "celebrationTitle": "25  Febrero, Miércoles. 1ª Sem. de Cuaresma,  Feria,  Morado",
+    "color": "Morado",
+    "liturgicalTime": "CUARESMA",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Jon 3,1-10",
+      "psalm": "Sal 51(50),3-4.12-13. 18-19 (R. cf. 5a)",
+      "gospel": "Lc 11,29-32."
+    }
+  },
+  {
+    "date": "2026-02-26",
+    "celebration": "Feria",
+    "celebrationTitle": "26  Febrero, Jueves. 1ª Sem. de Cuaresma,  Feria,  Morado",
+    "color": "Morado",
+    "liturgicalTime": "CUARESMA",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Est 4,17n.p-r.aa-bb.gg.hh",
+      "psalm": "Sal 138(137),1-2a.2bc-3.7cd y 8bc (R. 3a)",
+      "gospel": "Mt 7,7-12."
+    }
+  },
+  {
+    "date": "2026-02-27",
+    "celebration": "Feria",
+    "celebrationTitle": "27  Febrero, Viernes. 1ª Sem. de Cuaresma,  Feria,  Morado",
+    "color": "Morado",
+    "liturgicalTime": "CUARESMA",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Ez 18,21-28",
+      "psalm": "Sal 130(129),1-2.3-4.5-6ab.6c-8 (R. 3)",
+      "gospel": "Mt 5,20-26 o Mc 14,53-64."
+    }
+  },
+  {
+    "date": "2026-02-28",
+    "celebration": "Feria",
+    "celebrationTitle": "28  Febrero, Sábado. 1ª Sem. de Cuaresma,  Feria,  Morado",
+    "color": "Morado",
+    "liturgicalTime": "CUARESMA",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Dt 26,16-19",
+      "psalm": "Sal 119(118),1-2.4-5. 7-8 (R. cf. 33)",
+      "gospel": "Mt 5,43-48."
+    }
+  },
+  {
+    "date": "2026-03-01",
+    "celebration": "",
+    "celebrationTitle": "01  Marzo, Domingo. 2ª Sem. de Cuaresma,  Morado",
+    "color": "Morado",
+    "liturgicalTime": "CUARESMA",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Gn 12,1-4a",
+      "psalm": "Sal 33(32),4-5.18-19. 20 y 22",
+      "secondReading": "2Tm 1,8b-10",
+      "gospel": "Mt 17,1-9."
+    }
+  },
+  {
+    "date": "2026-03-02",
+    "celebration": "Feria",
+    "celebrationTitle": "02  Marzo, Lunes. 2ª Sem. de Cuaresma,  Feria,  Morado",
+    "color": "Morado",
+    "liturgicalTime": "CUARESMA",
+    "prelude": "<p>null</p>",
+    "readings": {
+      "firstReading": "Dn 9,4b-10",
+      "psalm": "Sal 79(78),8.9.11.13 (R. cf. 103[102],10a)",
+      "gospel": "Lc 6,36-38."
+    }
+  },
+  {
+    "date": "2026-03-03",
+    "celebration": "Feria",
+    "celebrationTitle": "03  Marzo, Martes. 2ª Sem. de Cuaresma,  Feria,  Morado",
+    "color": "Morado",
+    "liturgicalTime": "CUARESMA",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Is 1,10.16-20",
+      "psalm": "Sal 50(49),8-9.16bc-17. 21 y 23 (R. cf. 14)",
+      "gospel": "Mt 23,1-12."
+    }
+  },
+  {
+    "date": "2026-03-04",
+    "celebration": "Feria",
+    "celebrationTitle": "04  Marzo, Miércoles. 2ª Sem. de Cuaresma,  Feria,  Morado",
+    "color": "Morado",
+    "liturgicalTime": "CUARESMA",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Jr 18,18-20",
+      "psalm": "Sal 31(30),5-6.14.15-16 (R. 17b)",
+      "gospel": "Mt 20,17-28."
+    }
+  },
+  {
+    "date": "2026-03-05",
+    "celebration": "Feria",
+    "celebrationTitle": "05  Marzo, Jueves. 2ª Sem. de Cuaresma,  Feria,  Morado",
+    "color": "Morado",
+    "liturgicalTime": "CUARESMA",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Jr 17,5-10",
+      "psalm": "Sal 1,1-2.3.4 y 6 (R. cf. 40[39],5a)",
+      "gospel": "Lc 16,19-31."
+    }
+  },
+  {
+    "date": "2026-03-06",
+    "celebration": "Feria",
+    "celebrationTitle": "06  Marzo, Viernes. 2ª Sem. de Cuaresma,  Feria,  Morado",
+    "color": "Morado",
+    "liturgicalTime": "CUARESMA",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Gn 37,3-4.12-13a.17b-28",
+      "psalm": "Sal 105(104),16-17.18-19.20-21 (R. 5a)",
+      "gospel": "Mt 21,33-43.45-46 o Lc 23,13-25."
+    }
+  },
+  {
+    "date": "2026-03-07",
+    "celebration": "Feria",
+    "celebrationTitle": "07  Marzo, Sábado. 2ª Sem. de Cuaresma,  Feria,  Morado",
+    "color": "Morado",
+    "liturgicalTime": "CUARESMA",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Mi 7,14-15.18-20",
+      "psalm": "Sal 103(102),1-2. 3-4.9-10.11-12 (R. 8a)",
+      "gospel": "Lc 15,1-3.11-32."
+    }
+  },
+  {
+    "date": "2026-03-08",
+    "celebration": "",
+    "celebrationTitle": "08  Marzo, Domingo. 3ª Sem. de Cuaresma,  Morado",
+    "color": "Morado",
+    "liturgicalTime": "CUARESMA",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Éx 17,3-7",
+      "psalm": "Sal 95(94),1-2.6-7ab.7c-9",
+      "secondReading": "Rm 5,1-2.5-8",
+      "gospel": "Jn 4,5-42 (forma larga) o Jn 4,5-15. 19b-26.39a.40-42 (forma breve)."
+    }
+  },
+  {
+    "date": "2026-03-09",
+    "celebration": "Feria",
+    "celebrationTitle": "09  Marzo, Lunes. 3ª Sem. de Cuaresma,  Feria,  Morado",
+    "color": "Morado",
+    "liturgicalTime": "CUARESMA",
+    "prelude": "",
+    "readings": {
+      "firstReading": "2R 5,1-15a",
+      "psalm": "Sal 42(41),2.3; 43(42),3.4 (R. cf. 42[41],3)",
+      "gospel": "Lc 4,24-30."
+    }
+  },
+  {
+    "date": "2026-03-10",
+    "celebration": "Feria",
+    "celebrationTitle": "10  Marzo, Martes. 3ª Sem. de Cuaresma,  Feria,  Morado",
+    "color": "Morado",
+    "liturgicalTime": "CUARESMA",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Dn 3,25.34-43",
+      "psalm": "Sal 25(24),4bc-5ab.6+7bc.8-9 (R. cf. 6a)",
+      "gospel": "Mt 18,21-35."
+    }
+  },
+  {
+    "date": "2026-03-11",
+    "celebration": "Feria",
+    "celebrationTitle": "11  Marzo, Miércoles. 3ª Sem. de Cuaresma,  Feria,  Morado",
+    "color": "Morado",
+    "liturgicalTime": "CUARESMA",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Dt 4,1.5-9",
+      "psalm": "Sal 147(146-147),12-13.15-16.19-20 (R. 119[118],34)",
+      "gospel": "Mt 5,17-19."
+    }
+  },
+  {
+    "date": "2026-03-12",
+    "celebration": "Feria",
+    "celebrationTitle": "12  Marzo, Jueves. 3ª Sem. de Cuaresma,  Feria,  Morado",
+    "color": "Morado",
+    "liturgicalTime": "CUARESMA",
+    "prelude": "null",
+    "readings": {
+      "firstReading": "Jr 7,23-28",
+      "psalm": "Sal 95(94),1-2.6-7ab.7c-9 (R. cf. 7c)",
+      "gospel": "Lc 11,14-23."
+    }
+  },
+  {
+    "date": "2026-03-13",
+    "celebration": "Feria",
+    "celebrationTitle": "13  Marzo, Viernes. 3ª Sem. de Cuaresma,  Feria,  Morado",
+    "color": "Morado",
+    "liturgicalTime": "CUARESMA",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Os 14,2-10",
+      "psalm": "Sal 81(80),6c-8a.8bc-9.10-11ab.14+17 (R. Dt 6,4)",
+      "gospel": "Mc 12,28b-34"
+    }
+  },
+  {
+    "date": "2026-03-14",
+    "celebration": "Feria",
+    "celebrationTitle": "14  Marzo, Sábado. 3ª Sem. de Cuaresma,  Feria,  Morado",
+    "color": "Morado",
+    "liturgicalTime": "CUARESMA",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Os 6,1-6",
+      "psalm": "Sal 51(50),3-4.18-19.20-21a (R. cf. 19b)",
+      "gospel": "Lc 18,9-14."
+    }
+  },
+  {
+    "date": "2026-03-15",
+    "celebration": "",
+    "celebrationTitle": "15  Marzo, Domingo. 4ª Sem. de Cuaresma,  «Laetare»,  Morado",
+    "color": "Morado",
+    "liturgicalTime": "CUARESMA",
+    "prelude": "null",
+    "readings": {
+      "firstReading": "1S 16,1b.6-7. 10-13a",
+      "psalm": "Sal 23(22),1-3a.3b-4.5.6 (R. cf. 2a)",
+      "secondReading": "Ef 5,8-14",
+      "gospel": "Jn 9,1-41 (forma larga) o Jn 9,1-9.13-17.34-38 (forma breve)."
+    }
+  },
+  {
+    "date": "2026-03-16",
+    "celebration": "Feria",
+    "celebrationTitle": "16  Marzo, Lunes. 4ª Sem. de Cuaresma,  Feria,  Morado",
+    "color": "Morado",
+    "liturgicalTime": "CUARESMA",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Is 65,17-21",
+      "psalm": "Sal 30(29),2 y 4.5-6.11-12a y 13b (R. cf. 2a.4b)",
+      "gospel": "Jn 4,43-54."
+    }
+  },
+  {
+    "date": "2026-03-17",
+    "celebration": "Feria",
+    "celebrationTitle": "17  Marzo, Martes. 4ª Sem. de Cuaresma,  Feria,  Morado",
+    "color": "Morado",
+    "liturgicalTime": "CUARESMA",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Ez 47,1-9.12",
+      "psalm": "Sal 46(45),2-3.5-6.8-9 (R. 36[35],10a)",
+      "gospel": "Jn 5,1-16."
+    }
+  },
+  {
+    "date": "2026-03-18",
+    "celebration": "Feria",
+    "celebrationTitle": "18  Marzo, Miércoles. 4ª Sem. de Cuaresma,  Feria,  Morado",
+    "color": "Morado",
+    "liturgicalTime": "CUARESMA",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Is 49,8-15",
+      "psalm": "Sal 145(144),8-9.13cd-14. 17-18 (R. cf. 71[70],20)",
+      "gospel": "Jn 5,17-30."
+    }
+  },
+  {
+    "date": "2026-03-19",
+    "celebration": "Solemnidad",
+    "celebrationTitle": "19  Marzo, Jueves.  Solemnidad,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "CUARESMA",
+    "prelude": "<p>San José, Esposo de la Bienaventurada Virgen María</p>",
+    "readings": {
+      "firstReading": "2S 7,4-5a.12-14a.16",
+      "psalm": "Sal 89(88),2-3. 4-5.27 y 29 (R. 37)",
+      "secondReading": "Rm 4,13.16-18.22",
+      "gospel": "Mt 1,16.18-21.24a o Lc 2,41-51a."
+    }
+  },
+  {
+    "date": "2026-03-20",
+    "celebration": "Feria",
+    "celebrationTitle": "20  Marzo, Viernes. 4ª Sem. de Cuaresma,  Feria,  Morado",
+    "color": "Morado",
+    "liturgicalTime": "CUARESMA",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Sb 2,1a.12-22",
+      "psalm": "Sal 34(33),17-18.19-20. 21 y 23 (R. 19a)",
+      "gospel": "Jn 7,1-2.10.25-30."
+    }
+  },
+  {
+    "date": "2026-03-21",
+    "celebration": "Feria",
+    "celebrationTitle": "21  Marzo, Sábado. 4ª Sem. de Cuaresma,  Feria,  Morado",
+    "color": "Morado",
+    "liturgicalTime": "CUARESMA",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Jr 11,18-20",
+      "psalm": "Sal 7,2-3.9bc-10.11-12 (R. 2a)",
+      "gospel": "Jn 7,40-53."
+    }
+  },
+  {
+    "date": "2026-03-22",
+    "celebration": "",
+    "celebrationTitle": "22  Marzo, Domingo. 5ª Sem. de Cuaresma,  Morado",
+    "color": "Morado",
+    "liturgicalTime": "CUARESMA",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Ez 37,12-14",
+      "psalm": "Sal 130(129),1-2.3-4.5-6ab.6c-8",
+      "secondReading": "Rm 8,8-11",
+      "gospel": "Jn 11,1-45 (forma larga) o Jn 11,3-7.17.20-27.34-45 (forma breve)."
+    }
+  },
+  {
+    "date": "2026-03-23",
+    "celebration": "Feria",
+    "celebrationTitle": "23  Marzo, Lunes. 5ª Sem. de Cuaresma,  Feria,  Morado",
+    "color": "Morado",
+    "liturgicalTime": "CUARESMA",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Dn 13,1-9.15-17.19-30.33-62 (forma larga) o Dn 13,41c-62 (forma breve)",
+      "psalm": "Sal 23(22),1-3a.3b-4.5.6 (R. 4a)",
+      "gospel": "Jn 8,1-11."
+    }
+  },
+  {
+    "date": "2026-03-24",
+    "celebration": "Feria",
+    "celebrationTitle": "24  Marzo, Martes. 5ª Sem. de Cuaresma,  Feria,  Morado",
+    "color": "Morado",
+    "liturgicalTime": "CUARESMA",
+    "prelude": "null",
+    "readings": {
+      "firstReading": "Nm 21,4-9",
+      "psalm": "Sal 102(101),2-3a.3b+16.17-19a.19b-21 (R. cf.4)",
+      "gospel": "Jn 8,21-30."
+    }
+  },
+  {
+    "date": "2026-03-25",
+    "celebration": "Solemnidad",
+    "celebrationTitle": "25  Marzo, Miércoles.  Solemnidad,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "CUARESMA",
+    "prelude": "<p>Anunciación del Señor,</p>",
+    "readings": {
+      "firstReading": "Is 7,10-14; 8,10",
+      "psalm": "Sal 40(39),7-8a. 8b-9.10.11 (R. 8a y 9a)",
+      "secondReading": "Hb 10,4-10",
+      "gospel": "Lc 1,26-38."
+    }
+  },
+  {
+    "date": "2026-03-26",
+    "celebration": "Feria",
+    "celebrationTitle": "26  Marzo, Jueves. 5ª Sem. de Cuaresma,  Feria,  Morado",
+    "color": "Morado",
+    "liturgicalTime": "CUARESMA",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Gn 17,3-9",
+      "psalm": "Sal 105(104),4-5.6-7.8-9 (R. cf. Lc 1,72-73)",
+      "gospel": "Jn 8,51-59"
+    }
+  },
+  {
+    "date": "2026-03-27",
+    "celebration": "Feria",
+    "celebrationTitle": "27  Marzo, Viernes. 5ª Sem. de Cuaresma,  Feria,  Morado",
+    "color": "Morado",
+    "liturgicalTime": "CUARESMA",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Jr 20,10-13",
+      "psalm": "Sal 18(17),2-3a.3bc-4.5-6.7 (R. cf. 7)",
+      "gospel": "Jn 10,31-42"
+    }
+  },
+  {
+    "date": "2026-03-28",
+    "celebration": "Feria",
+    "celebrationTitle": "28  Marzo, Sábado. 5ª Sem. de Cuaresma,  Feria,  Morado",
+    "color": "Morado",
+    "liturgicalTime": "CUARESMA",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Ez 37,21-28",
+      "psalm": "Sal Jr 31,10.11-12ab.13 (R. cf. Sal 133[132],1)",
+      "gospel": "Jn 11,45-57."
+    }
+  },
+  {
+    "date": "2026-03-29",
+    "celebration": "",
+    "celebrationTitle": "29  Marzo, Domingo.  DE RAMOS,  Rojo",
+    "color": "Rojo",
+    "liturgicalTime": "CUARESMA",
+    "prelude": "<p>Procesión: <br>Leccionario Dominical A: <br>Mt 21,1-11. <br>Para las formas de hacer la conmemoración de la entrada del Señor a Jerusalén leer en el Misal, pp. 241 - 249.</p>",
+    "readings": {
+      "firstReading": "Is 50,4-7",
+      "psalm": "Sal 22(21),8-9.17-18a.19-20. 23-24 (R. 2a)",
+      "secondReading": "Flp 2,6-11",
+      "gospel": "Mt 26,14 - 27,66 (forma larga) o Mt 27,11-54 (forma breve)"
+    }
+  },
+  {
+    "date": "2026-03-30",
+    "celebration": "Feria privilegiada",
+    "celebrationTitle": "30  Marzo, Lunes.  Santo,  Feria privilegiada,  Morado",
+    "color": "Morado",
+    "liturgicalTime": "CUARESMA",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Is 42,1-7",
+      "psalm": "Sal 27(26),1.2.3.13-14 (R. 1a)",
+      "gospel": "Jn 12,1-11."
+    }
+  },
+  {
+    "date": "2026-03-31",
+    "celebration": "Feria privilegiada",
+    "celebrationTitle": "31  Marzo, Martes.  Santo,  Feria privilegiada,  Morado",
+    "color": "Morado",
+    "liturgicalTime": "CUARESMA",
+    "prelude": "",
+    "readings": {}
+  },
+  {
+    "date": "2026-04-01",
+    "celebration": "Feria privilegiada",
+    "celebrationTitle": "01  Abril, Miércoles.  Santo,  Feria privilegiada,  Morado",
+    "color": "Morado",
+    "liturgicalTime": "CUARESMA",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Is 50,4-9a",
+      "psalm": "Sal 69(68),8.9-10.21-22.31.33-34 (R. cf. 30)",
+      "gospel": "Mt 26,14-25."
+    }
+  },
+  {
+    "date": "2026-04-02",
+    "celebration": "",
+    "celebrationTitle": "02  Abril, Jueves.  Santo,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "CUARESMA",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Is 61,1-3a.6a.8b-9",
+      "psalm": "Sal 89(88), 21-22.25+27 (R. cf. 2a)",
+      "gospel": "Ap 1,5-8"
+    }
+  },
+  {
+    "date": "2026-04-02",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "02  Abril, Jueves Santo. Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "TRIDUO PASCUAL",
+    "prelude": "",
+    "readings": {
+      "firstReading": "&Eacute;x 12,1-8.11-14",
+      "psalm": "Sal 116(115),12-13.15+16bc.17-18",
+      "secondReading": "1Co 11,23-26",
+      "gospel": "Jn 13,1-15."
+    }
+  },
+  {
+    "date": "2026-04-03",
+    "celebration": "",
+    "celebrationTitle": "03  Abril, Viernes.  Santo,  Rojo",
+    "color": "Rojo",
+    "liturgicalTime": "TRIDUO PASCUAL",
+    "prelude": "<p>Celebración de la Pasión del Señor: Ritos introductorios. <br>1ª Parte: Liturgia de la Palabra: Lecturas y Oración universal. <br>2ª Parte: Adoración de la Santa Cruz. <br>3ª Parte: Sagrada Comunión.</p>",
+    "readings": {
+      "firstReading": "Is 52,13 - 53,12",
+      "psalm": "Sal 31(30),2 y 6.12-13.15-16.17+25 (R. 6a)",
+      "secondReading": "Hb 4,14-16; 5,7-9",
+      "gospel": "Jn 18,1-19,42."
+    }
+  },
+  {
+    "date": "2026-04-04",
+    "celebration": "",
+    "celebrationTitle": "04  Abril, Sábado.  Santo,",
+    "color": "",
+    "liturgicalTime": "TRIDUO PASCUAL",
+    "prelude": "",
+    "readings": {}
+  },
+  {
+    "date": "2026-04-04",
+    "celebration": "Solemnidad",
+    "celebrationTitle": "04  Abril, Sábado.  DOMINGO DE PASCUA EN LA RESURRECCIÓN DEL SEÑOR,  Solemnidad,  Blanco  \r\n EN LA VIGILIA:",
+    "color": "Blanco",
+    "liturgicalTime": "TRIDUO PASCUAL",
+    "prelude": "<h2>Celebración</h2>\n<p>En la noche del sábado comienza la celebración de la Pascua con la Vigilia Pascual. No antes de entrada la noche. <br><br>La celebración tiene cuatro partes: <br><br><strong>1ª Parte: Pascua cósmica<br></strong>                Lucernario - Pregón Pascual<br><br><strong>2ª Parte: Pascua Histórica</strong><br>                Liturgia de la Palabra:<br><br>Leccionario Dominical A. Se proponen nueve lecturas: siete del Antiguo Testamento (cada una con su salmo responsorial y su oración respectiva) y dos del Nuevo Testamento. <br><br>Donde graves circunstancias pastorales lo exijan, se puede disminuir el número de lecturas del Antiguo Testamento. Háganse al menos tres lecturas del Antiguo Testamento; en casos urgentes, al menos dos. Nunca se omita la lectura del Capítulo 14 del Éxodo con su cántico. Debe tenerse en cuenta que la lectura y meditación de la Palabra de Dios es parte fundamental de esta Vigilia. <br><br><strong>Lecturas del Antiguo Testamento: <br><br>1ª lectura: </strong>Gn 1,1 - 2,2 (forma larga) o Gn 1,1. 26-31a (forma breve) / Sal 104(103), 1-2a.5-6.10 y 12.13-14ab.24 y 35c (R. cf. 30) o Sal 33(32),4-5.6-7.12-13.20 y 22 (R. 5a). <br><strong>2ª lectura: </strong>Gn 22,1-18 (forma larga) o Gn 22, 1-2.9a.10-13.15-18 (forma breve) / Sal 16(15), 5 y 8.9-10.11 (R. 1). <br><strong>3ª lectura: </strong>Éx 14,15 - 15,1 (nunca se puede omitir) / Sal Éx 15,1-2ab.2cd.3-4. 5-6.17-18 (R. 1a). <br><strong>4ª lectura:</strong> Is 54,5-14 / Sal 30(29),3-4.5-6.12ac-13 (R. 2a). <br><strong>5ª lectura: </strong>Is 55,1-11 / Sal Is 12,2-3.4bcd.5-6 (R. 3).<br><strong>6ª lectura:</strong> Ba 3,9-15.32 - 4,4 / Sal 19(18),8. 9.10.11 (R. Jn 6,68c). <br><strong>7ª lectura:</strong> Ez 36,16-17a.18-28 / Sal 42(41),3. 5bcd; 43(42),3.4 o, cuando se celebra el Bautismo, Sal 51(50), 12-13.14-15.18-19 (R. 12a) o Sal Is 12,2-3.4bcd.5-6 (R. 3). <br><br>Después de la última lectura del Antiguo Testamento con su Salmo responsorial y su oración, se encienden los cirios del altar; se entona solemnemente el <strong>GLORIA</strong> (se tocan las campanas); se dice la Oración Colecta. </p>\n<p><strong>Lecturas del Nuevo Testamento:<br><br></strong> Rm 6,3-11 / Aleluya solemne con el Sal 118 (117),1-2.15c+16a+17.22-23 / Mt 28,1-10 (puede usarse incienso). <br><br><strong>Homilía. <br><br>3ª Parte: Pascua de los neófitos</strong><br><strong>                Liturgia Bautismal y Renovación de los Compromisos Bautismales. <br></strong>                No hay Credo; hay Oración Universal. <br><br><strong>4ª Parte: Pascua de los fieles<br>               Liturgia de la Eucaristía</strong> <br><br>Prf. de Pascua I («…en esta santísima noche»); en la Plegaria Eucarística se hace memoria de los bautizados y de los padrinos. <br>Plegaria Eucarística I o Canon Romano, el «Reunidos en comunión…» y «Acepta, Señor, en tu bondad…» son propios. <br>Bendición final solemne, propia para este día; en la despedida de hoy se agrega doble Aleluya, que se mantiene durante toda la Octava de Pascua. <br><br>El Cirio pascual se enciende en todas las celebraciones litúrgicas, más solemnes, de este tiempo. <br><br><br></p>",
+    "readings": {}
+  },
+  {
+    "date": "2026-04-05",
+    "celebration": "Solemnidad",
+    "celebrationTitle": "05  Abril, Domingo.  DOMINGO DE PASCUA DE LA RESURECCIÓN DEL SEÑOR,  Solemnidad,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "TRIDUO PASCUAL",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Hch 10,34a.37-43",
+      "psalm": "Sal 118(117),1-2. 15c y 16a y 17.22-23 (R. 24)",
+      "secondReading": "Col 3,1-4 o 1Co 5,6b-8",
+      "gospel": "Secuencia (hoy obligatoria, durante la Octava a elección)"
+    }
+  },
+  {
+    "date": "2026-04-06",
+    "celebration": "",
+    "celebrationTitle": "06  Abril, Lunes.  de la Octava de Pascua,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "PASCUA",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Hch 2,14.22-33",
+      "psalm": "Sal 16(15),1-2+5.7-8.9-10.11 (R. cf. 11a)",
+      "gospel": "Mt 28,8-15."
+    }
+  },
+  {
+    "date": "2026-04-07",
+    "celebration": "",
+    "celebrationTitle": "07  Abril, Martes.  de la Octava de Pascua,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "PASCUA",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Hch 2,14a.36-41",
+      "psalm": "Sal 33(32),4-5.18-19.20+22 (R. cf. 5b)",
+      "gospel": "Jn 20,11-18."
+    }
+  },
+  {
+    "date": "2026-04-08",
+    "celebration": "",
+    "celebrationTitle": "08  Abril, Miércoles.  de la Octava de Pascua,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "PASCUA",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Hch 3,1-10",
+      "psalm": "Sal 105(104),1-2.3-4.6-7. 8-9 (R. 3b)",
+      "gospel": "Lc 24,13-35."
+    }
+  },
+  {
+    "date": "2026-04-09",
+    "celebration": "",
+    "celebrationTitle": "09  Abril, Jueves.  de la Octava de Pascua,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "PASCUA",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Hch 3,11-26",
+      "psalm": "Sal 8,2ab y 5.6-7.8-9 (R. cf. 2b)",
+      "gospel": "Lc 24,35-48."
+    }
+  },
+  {
+    "date": "2026-04-10",
+    "celebration": "",
+    "celebrationTitle": "10  Abril, Viernes.  de la Octava de Pascua,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "PASCUA",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Hch 4,1-12",
+      "psalm": "Sal 118(117),1-2 y 4.22-23.24-25.26-27a (R. 22)",
+      "gospel": "Jn 21,1-14."
+    }
+  },
+  {
+    "date": "2026-04-11",
+    "celebration": "",
+    "celebrationTitle": "11  Abril, Sábado.  de la Octava de Pascua",
+    "color": "Blanco",
+    "liturgicalTime": "PASCUA",
+    "prelude": "null",
+    "readings": {
+      "firstReading": "Hch 4,13-21",
+      "psalm": "Sal 118(117),1 y 14.15. 16-17.18-19.20-21 (R. 8)",
+      "gospel": "&nbsp;"
+    }
+  },
+  {
+    "date": "2026-04-12",
+    "celebration": "",
+    "celebrationTitle": "12  Abril, Domingo. 2ª Sem. de Pascua,  o de la Divina Misericordia,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "PASCUA",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Hch 2,42-47",
+      "psalm": "Sal 118(117),2-4.13-15ab.22-24 (R. cf. 1)",
+      "secondReading": "1P 1,3-9",
+      "gospel": "Jn 20,19-31."
+    }
+  },
+  {
+    "date": "2026-04-13",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "13  Abril, Lunes. 2ª Sem. de Pascua,  Feria o Memoria libre,  Blanco o Rojo",
+    "color": "Blanco o Rojo",
+    "liturgicalTime": "PASCUA",
+    "prelude": "<p>San Martín I, papa y mártir</p>",
+    "readings": {
+      "firstReading": "Hch 4,23-31",
+      "psalm": "Sal 2,1-3.4-6.7.8-9 (R. cf. 12d)",
+      "gospel": "Jn 3,1-8."
+    }
+  },
+  {
+    "date": "2026-04-14",
+    "celebration": "Feria",
+    "celebrationTitle": "14  Abril, Martes. 2ª Sem. de Pascua,  Feria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "PASCUA",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Hch 4,32-37",
+      "psalm": "Sal 93(92),1ab.1c-2.5 (R. 122[121],3)",
+      "gospel": "Jn 3,7b-15."
+    }
+  },
+  {
+    "date": "2026-04-15",
+    "celebration": "Feria",
+    "celebrationTitle": "15  Abril, Miércoles. 2ª Sem. de Pascua,  Feria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "PASCUA",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Hch 5,17-26",
+      "psalm": "Sal 34(33),2-3.4-5.6-7.8-9 (R. 7a)",
+      "gospel": "Jn 3,16-21"
+    }
+  },
+  {
+    "date": "2026-04-16",
+    "celebration": "Feria",
+    "celebrationTitle": "16  Abril, Jueves. 2ª Sem. de Pascua,  Feria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "PASCUA",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Hch 5,27-33",
+      "psalm": "Sal 34(33),2 y 9.17-18.19-20 (R. 7a)",
+      "gospel": "Jn 3,31-36."
+    }
+  },
+  {
+    "date": "2026-04-17",
+    "celebration": "Feria",
+    "celebrationTitle": "17  Abril, Viernes. 2ª Sem. de Pascua,  Feria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "PASCUA",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Hch 5,34-42",
+      "psalm": "Sal 27(26),1.4.13-14 (R. cf. 5)",
+      "gospel": "Jn 6,1-15."
+    }
+  },
+  {
+    "date": "2026-04-18",
+    "celebration": "Feria",
+    "celebrationTitle": "18  Abril, Sábado. 2ª Sem. de Pascua,  Feria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "PASCUA",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Hch 6,1-7",
+      "psalm": "Sal 33(32),1-2.4-5.18-19 (R. 22)",
+      "gospel": "Jn 6,16-21."
+    }
+  },
+  {
+    "date": "2026-04-19",
+    "celebration": "",
+    "celebrationTitle": "19  Abril, Domingo. 3ª Sem. de Pascua,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "PASCUA",
+    "prelude": "null",
+    "readings": {
+      "firstReading": "Hch 2,14.22-33",
+      "psalm": "Sal 16(15),1-2 y 5.7-8.9-10.11 (R. 11a)",
+      "secondReading": "1P 1,17-21",
+      "gospel": "&nbsp;"
+    }
+  },
+  {
+    "date": "2026-04-20",
+    "celebration": "Feria",
+    "celebrationTitle": "20  Abril, Lunes. 3ª Sem. de Pascua,  Feria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "PASCUA",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Hch 6,8-15",
+      "psalm": "Sal 119(118),23-24.26-27. 29-30 (R. cf. 69[68],10)",
+      "gospel": "Jn 6,22-29."
+    }
+  },
+  {
+    "date": "2026-04-21",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "21  Abril, Martes. 3ª Sem. de Pascua,  Feria o Memoria libre,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "PASCUA",
+    "prelude": "<p>San Anselmo, obispo y doctor de la Iglesia</p>",
+    "readings": {
+      "firstReading": "Hch 7,51 - 8,1a",
+      "psalm": "Sal 31(30),3cd-4. 6 y 7b y 8a.17 y 21ab (R. 6a)",
+      "gospel": "Jn 6, 30-35."
+    }
+  },
+  {
+    "date": "2026-04-22",
+    "celebration": "Feria",
+    "celebrationTitle": "22  Abril, Miércoles. 3ª Sem. de Pascua,  Feria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "PASCUA",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Hch 8,1b-8",
+      "psalm": "Sal 66(65),1-3a.4-5.6-7a (R. 1)",
+      "gospel": "Jn 6,35-40"
+    }
+  },
+  {
+    "date": "2026-04-23",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "23  Abril, Jueves. 3ª Sem. de Pascua,  Feria o Memoria libre,  Blanco o Rojo",
+    "color": "Blanco o Rojo",
+    "liturgicalTime": "PASCUA",
+    "prelude": "<p>San Jorge , mártir; San Adalberto, obispo y mártir</p>",
+    "readings": {
+      "firstReading": "Hch 8,26-40",
+      "psalm": "Sal 66(65),8-9.16-17.20 (R. 1)",
+      "gospel": "Jn 6,44-51."
+    }
+  },
+  {
+    "date": "2026-04-24",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "24  Abril, Viernes. 3ª Sem. de Pascua,  Feria o Memoria libre,  Blanco o Rojo",
+    "color": "Blanco o Rojo",
+    "liturgicalTime": "PASCUA",
+    "prelude": "<p>San Fidel de Sigmaringa, presbítero y mártir</p>",
+    "readings": {
+      "firstReading": "Hch 9,1-20",
+      "psalm": "Sal 117(116),1.2 (R. Mc 16,15)",
+      "gospel": "Jn 6,52-59."
+    }
+  },
+  {
+    "date": "2026-04-25",
+    "celebration": "Fiesta",
+    "celebrationTitle": "25  Abril, Sábado.  Fiesta,  Rojo",
+    "color": "Rojo",
+    "liturgicalTime": "PASCUA",
+    "prelude": "<p>San Marcos, evangelista</p>",
+    "readings": {
+      "firstReading": "1P 5,5b-14",
+      "psalm": "Sal 89(88),2-3,6-7.16-17 (R. cf. 2a)",
+      "secondReading": "Mc 16,15-20.",
+      "gospel": ""
+    }
+  },
+  {
+    "date": "2026-04-26",
+    "celebration": "",
+    "celebrationTitle": "26  Abril, Domingo. 4ª Sem. de Pascua,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "PASCUA",
+    "prelude": "null",
+    "readings": {
+      "firstReading": "Hch 2,14a.36-41",
+      "psalm": "Sal 23(22),1-3a. 3b-4.5.6 (R. 1)",
+      "secondReading": "1P 2,20b-25",
+      "gospel": "Jn 10,1-10."
+    }
+  },
+  {
+    "date": "2026-04-27",
+    "celebration": "Feria",
+    "celebrationTitle": "27  Abril, Lunes. 4ª Sem. de Pascua,  Feria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "PASCUA",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Hch 11,1-18",
+      "psalm": "Sal 42(41),2.3; 43(42), 3.4 (R. cf. 42[41],3)",
+      "gospel": "Jn 10,11-18."
+    }
+  },
+  {
+    "date": "2026-04-28",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "28  Abril, Martes. 4ª Sem. de Pascua,  Feria o Memoria libre,  Blanco o Rojo",
+    "color": "Blanco o Rojo",
+    "liturgicalTime": "PASCUA",
+    "prelude": "<p>San Pedro Chanel, presbítero y mártir; San Luis María Grignion de Monfort, presbítero</p>",
+    "readings": {
+      "firstReading": "Hch 11,19-26",
+      "psalm": "Sal 87(86),2-3.4-5.6-7 (R. 117[116],1a)",
+      "gospel": "Jn 10,22-30."
+    }
+  },
+  {
+    "date": "2026-04-29",
+    "celebration": "Memoria obligatoria",
+    "celebrationTitle": "29  Abril, Miércoles. 4ª Sem. de Pascua,  Memoria obligatoria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "PASCUA",
+    "prelude": "<p>Santa Catalina de Siena, virgen y doctora de la Iglesia</p>",
+    "readings": {
+      "firstReading": "Hch 12,24 - 13,5a",
+      "psalm": "Sal 67(66),2-3.5. 6+8 (R. cf. 4)",
+      "gospel": "Jn 12,44-50."
+    }
+  },
+  {
+    "date": "2026-04-30",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "30  Abril, Jueves. 4ª Sem. de Pascua,  Feria o Memoria libre,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "PASCUA",
+    "prelude": "<p>San Pío V, papa</p>",
+    "readings": {
+      "firstReading": "Hch 13,13-25",
+      "psalm": "Sal 89(88),2-3.21-22.25+27 (R. cf. 18[17],51)",
+      "gospel": "Jn 13,16-20."
+    }
+  },
+  {
+    "date": "2026-05-01",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "01  Mayo, Viernes. 4ª Sem. de Pascua,  Feria o Memoria libre,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "PASCUA",
+    "prelude": "<p>San José, obrero</p>",
+    "readings": {
+      "firstReading": "Hch 13,26-33",
+      "psalm": "Sal 2,6-7.8-9.10-11 (R. Mt 16,16b)",
+      "gospel": "Jn 14,1-6."
+    }
+  },
+  {
+    "date": "2026-05-02",
+    "celebration": "Memoria obligatoria",
+    "celebrationTitle": "02  Mayo, Sábado. 4ª Sem. de Pascua,  Memoria obligatoria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "PASCUA",
+    "prelude": "<p>San Atanasio, obispo y doctor de la Iglesia</p>",
+    "readings": {
+      "firstReading": "Hch 13,44-52",
+      "psalm": "Sal 98(97),1.2-3ab.3cd-4 (R. 3cd)",
+      "gospel": "Jn 14,7-14."
+    }
+  },
+  {
+    "date": "2026-05-03",
+    "celebration": "Fiesta",
+    "celebrationTitle": "03  Mayo, Domingo. 5ª Sem. de Pascua",
+    "color": "Blanco",
+    "liturgicalTime": "PASCUA",
+    "prelude": "",
+    "readings": {}
+  },
+  {
+    "date": "2026-05-04",
+    "celebration": "Fiesta",
+    "celebrationTitle": "04  Mayo, Lunes.  Fiesta,  Rojo",
+    "color": "Rojo",
+    "liturgicalTime": "PASCUA",
+    "prelude": "<p>Santos Felipe y Santiago, apóstoles</p>",
+    "readings": {
+      "firstReading": "1Co 15,1-8",
+      "psalm": "Sal 19(18),2-3.4-5 (R. 5a)",
+      "secondReading": "Jn 14, 6-14.",
+      "gospel": ""
+    }
+  },
+  {
+    "date": "2026-05-05",
+    "celebration": "Feria",
+    "celebrationTitle": "05  Mayo, Martes. 5ª Sem. de Pascua,  Feria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "PASCUA",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Hch 14,19-28",
+      "psalm": "Sal 145(144),10.11-12. 13ab.21 (R. 126[125],5)",
+      "gospel": "Jn 14,27-31a."
+    }
+  },
+  {
+    "date": "2026-05-06",
+    "celebration": "Feria",
+    "celebrationTitle": "06  Mayo, Miércoles. 5ª Sem. de Pascua,  Feria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "PASCUA",
+    "prelude": "null",
+    "readings": {
+      "firstReading": "Hch 15, 1-6",
+      "psalm": "Sal 122 (121), 1-2. 3-4a. 4b-5 (R. cf. 1)",
+      "gospel": "Jn 15, 1-8."
+    }
+  },
+  {
+    "date": "2026-05-07",
+    "celebration": "Feria",
+    "celebrationTitle": "07  Mayo, Jueves. 5ª Sem. de Pascua,  Feria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "PASCUA",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Hch 15,7-21",
+      "psalm": "Sal 96(95),1-2a.2b-3.10 (R. cf. 3)",
+      "gospel": "Jn 15,9-11."
+    }
+  },
+  {
+    "date": "2026-05-08",
+    "celebration": "Feria",
+    "celebrationTitle": "08  Mayo, Viernes. 5ª Sem. de Pascua,  Feria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "PASCUA",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Hch 15, 22-31",
+      "psalm": "Sal 57 (56), 8-9. 10-11. 12 (R. 10a)",
+      "gospel": "Jn 15, 12-17."
+    }
+  },
+  {
+    "date": "2026-05-09",
+    "celebration": "Feria",
+    "celebrationTitle": "09  Mayo, Sábado. 5ª Sem. de Pascua,  Feria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "PASCUA",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Hch 16, 1-10",
+      "psalm": "Sal 100 (99), 1b-2. 3. 5. (R. 2a)",
+      "gospel": "Jn 15, 18-21."
+    }
+  },
+  {
+    "date": "2026-05-10",
+    "celebration": "",
+    "celebrationTitle": "10  Mayo, Domingo. 6ª Sem. de Pascua,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "PASCUA",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Hch 8,5-8.14-17",
+      "psalm": "Sal 66(65),1-3a.4-5.6-7a.16 y 20 (R. 1)",
+      "secondReading": "1P 3,15-18",
+      "gospel": "Jn 14,15-21."
+    }
+  },
+  {
+    "date": "2026-05-11",
+    "celebration": "Feria",
+    "celebrationTitle": "11  Mayo, Lunes. 6ª Sem. de Pascua,  Feria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "PASCUA",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Hch 16,10b-15",
+      "psalm": "Sal 149,1-2.3-4.5-6a+9b (R. 4a)",
+      "gospel": "Jn 15,26 - 16,4a."
+    }
+  },
+  {
+    "date": "2026-05-12",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "12  Mayo, Martes. 6ª Sem. de Pascua,  Feria o Memoria libre,  Blanco o Rojo",
+    "color": "Blanco o Rojo",
+    "liturgicalTime": "PASCUA",
+    "prelude": "<p>Santos Nereo y Aquileo, mártires; San Pancracio, mártir</p>",
+    "readings": {
+      "firstReading": "Hch 16,22-34",
+      "psalm": "Sal 138(137),1-2a. 2bc+3.7cd+8bc (R. 7cd)",
+      "gospel": "Jn 16,5-11."
+    }
+  },
+  {
+    "date": "2026-05-13",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "13  Mayo, Miércoles. 6ª Sem. de Pascua,  Feria o Memoria libre,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "PASCUA",
+    "prelude": "<p>Bienaventurada Virgen María de Fátima,</p>",
+    "readings": {
+      "firstReading": "Hch 17,15.22 - 18,1",
+      "psalm": "Sal 148,1-2. 11-12.13.14",
+      "gospel": "Jn 16,12-15."
+    }
+  },
+  {
+    "date": "2026-05-14",
+    "celebration": "Fiesta",
+    "celebrationTitle": "14  Mayo, Jueves.  Fiesta,  Rojo",
+    "color": "Rojo",
+    "liturgicalTime": "PASCUA",
+    "prelude": "<p>San Matías, apóstol</p>",
+    "readings": {
+      "firstReading": "Hch 1,15-17.20-26",
+      "psalm": "Sal 113(112),1-2.3-4.5-6.7-8 (R. cf. 8)",
+      "secondReading": "Jn 15,9-17.",
+      "gospel": ""
+    }
+  },
+  {
+    "date": "2026-05-15",
+    "celebration": "Feria",
+    "celebrationTitle": "15  Mayo, Viernes. 6ª Sem. de Pascua,  Feria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "PASCUA",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Hch 18,9-18",
+      "psalm": "Sal 47(46),2-3.4-5.6-7 (R. cf. 10a)",
+      "gospel": "Jn 16,20-23a."
+    }
+  },
+  {
+    "date": "2026-05-16",
+    "celebration": "Feria",
+    "celebrationTitle": "16  Mayo, Sábado. 6ª Sem. de Pascua,  Feria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "PASCUA",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Hch 18,23-28",
+      "psalm": "Sal 47(46),2-3.8-9.10 (R. 8a)",
+      "gospel": "Jn 16,23b-28."
+    }
+  },
+  {
+    "date": "2026-05-16",
+    "celebration": "Solemnidad",
+    "celebrationTitle": "16  Mayo, Sábado.  Solemnidad,  Blanco  \r\n EN LA VIGILIA:",
+    "color": "Blanco",
+    "liturgicalTime": "PASCUA",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Hch 1,1-11",
+      "psalm": "Sal 47(46),2-3.6-7.8-9 (R. cf. 6)",
+      "secondReading": "Ef 1,17-23",
+      "gospel": "Mt 28,16-20."
+    }
+  },
+  {
+    "date": "2026-05-17",
+    "celebration": "",
+    "celebrationTitle": "17  Mayo, Domingo.  EN EL DIA DE LA SOLEMNIDAD,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "PASCUA",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Hch 1,1-11",
+      "psalm": "Sal 47(46),2-3.6-7.8-9 (R. cf. 6)",
+      "secondReading": "Ef 1,17-23",
+      "gospel": "Mt 28,16-20."
+    }
+  },
+  {
+    "date": "2026-05-18",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "18  Mayo, Lunes. 7ª Sem. de Pascua,  Feria o Memoria libre,  Blanco o Rojo",
+    "color": "Blanco o Rojo",
+    "liturgicalTime": "PASCUA",
+    "prelude": "<p>San Juan I, papa y mártir</p>",
+    "readings": {
+      "firstReading": "Hch 19,1-8",
+      "psalm": "Sal 68(67),2.3.4+5ac.6-7ab (R. cf. 10)",
+      "gospel": "Jn 16,29-33."
+    }
+  },
+  {
+    "date": "2026-05-19",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "19  Mayo, Martes. 7ª Sem. de Pascua,  Feria o Memoria libre,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "PASCUA",
+    "prelude": "<p>Santa María Bernarda Bütler, virgen</p>",
+    "readings": {
+      "firstReading": "Hch 20,17-27",
+      "psalm": "Sal 68(67),10-11.20-21 (R. cf. 10)",
+      "gospel": "Jn 17,1-11a."
+    }
+  },
+  {
+    "date": "2026-05-20",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "20  Mayo, Miércoles. 7ª Sem. de Pascua,  Feria o Memoria libre,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "PASCUA",
+    "prelude": "<p>San Bernardino de Siena, presbítero</p>",
+    "readings": {
+      "firstReading": "Hch 20,28-38",
+      "psalm": "Sal 68(67),29-30.33-35a.35b-36c (R. 122[121],2)",
+      "gospel": "Jn 17,11b-19."
+    }
+  },
+  {
+    "date": "2026-05-21",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "21  Mayo, Jueves. 7ª Sem. de Pascua,  Feria o Memoria libre,  Blanco o Rojo",
+    "color": "Blanco o Rojo",
+    "liturgicalTime": "PASCUA",
+    "prelude": "Santos Cristóbal Magallanes,  presbítero y compañeros, mártires",
+    "readings": {}
+  },
+  {
+    "date": "2026-05-22",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "22  Mayo, Viernes. 7ª Sem. de Pascua,  Feria o Memoria libre,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "PASCUA",
+    "prelude": "<p>Santa Rita de Casia, religiosa</p>",
+    "readings": {
+      "firstReading": "Hch 25,13b-21",
+      "psalm": "Sal 103(102),1-2.11-12.19-20ab (R. 19a)",
+      "gospel": "Jn 21,1a.15-19."
+    }
+  },
+  {
+    "date": "2026-05-23",
+    "celebration": "Feria",
+    "celebrationTitle": "23  Mayo, Sábado. 7ª Sem. de Pascua,  Feria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "PASCUA",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Hch 28,16-20.30-31",
+      "psalm": "Sal 11(10),4. 5+7 (R. cf. 7b)",
+      "gospel": "Jn 21,20-25."
+    }
+  },
+  {
+    "date": "2026-05-23",
+    "celebration": "Solemnidad",
+    "celebrationTitle": "23  Mayo, Sábado.  Solemnidad,  Rojo  \r\n EN LA VIGILIA:",
+    "color": "Rojo",
+    "liturgicalTime": "PASCUA",
+    "prelude": "",
+    "readings": {
+      "firstReading": "1ª lectura: Gn 11, 1-9",
+      "psalm": "Sal 32, 10-11.12-13.14-15 (R. cf. 12b) 2ª lectura: Éx 19, 3-8a.16-20b",
+      "secondReading": "Sal Dn 3, 52a y c.53a.55a.56 (R. cf. 52b) o Sal 18, 8.9.10.11 (R. cf. Jn 6, 68c) 3ª lectura: Ez 37, 1-14",
+      "gospel": "Sal 106, 2-3.4-5.6-7.8-9 (R. cf. 1) 4ª lectura: Jl 3, 1-5"
+    }
+  },
+  {
+    "date": "2026-05-24",
+    "celebration": "Solemnidad",
+    "celebrationTitle": "24  Mayo, Domingo.  EN EL DIA DE LA SOLEMNIDAD,  Solemnidad,  Rojo",
+    "color": "Rojo",
+    "liturgicalTime": "PASCUA",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Hch 2,1-11",
+      "psalm": "Sal 104(103),1ab+24ac. 29bc-30.31+34 (R. cf. 30)",
+      "secondReading": "1Co 12, 3b-7.12-13",
+      "gospel": "Secuencia (obligatoria)"
+    }
+  },
+  {
+    "date": "2026-05-25",
+    "celebration": "Memoria obligatoria",
+    "celebrationTitle": "25  Mayo, Lunes. 8ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>Bienaventurada Virgen María, Madre de la Iglesia</p>",
+    "readings": {}
+  },
+  {
+    "date": "2026-05-26",
+    "celebration": "Memoria obligatoria",
+    "celebrationTitle": "26  Mayo, Martes. 8ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>San Felipe Neri, presbítero</p>",
+    "readings": {
+      "firstReading": "1P 1,10-16",
+      "psalm": "Sal 98(97), 1.2-3ab.3c-4 (R. 2a)",
+      "gospel": "Mc 10,28-31"
+    }
+  },
+  {
+    "date": "2026-05-27",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "27  Mayo, Miércoles. 8ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
+    "color": "Verde o Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>San Agustín de Canterbury, obispo</p>",
+    "readings": {
+      "firstReading": "1P 1,18-25",
+      "psalm": "Sal 147, 12-13.14-15.19-20 (R. 12a)",
+      "gospel": "Mc 10, 32-45"
+    }
+  },
+  {
+    "date": "2026-05-28",
+    "celebration": "Fiesta",
+    "celebrationTitle": "28  Mayo, Jueves. 8ª Sem. del TO,  JESUCRISTO, SUMO Y ETERNO SACERDOTE,  Fiesta ,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Gen 22, 9-18 o Heb 10, 4-10",
+      "psalm": "Sal 39, 7-8a. 8b-9. 10-11ab. 17 (R.: cf. 8a. 9a)",
+      "secondReading": "Mt 26, 36-42",
+      "gospel": ""
+    }
+  },
+  {
+    "date": "2026-05-29",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "29  Mayo, Viernes. 8ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
+    "color": "Verde o Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>San Pablo VI, papa</p>",
+    "readings": {
+      "firstReading": "1P 4, 7-13",
+      "psalm": "Sal 96(95), 10.11-12.13 (R. 13ab)",
+      "gospel": "Mc 11, 11-26"
+    }
+  },
+  {
+    "date": "2026-05-30",
+    "celebration": "Feria o BMV",
+    "celebrationTitle": "30  Mayo, Sábado. 8ª Sem. del TO,  Feria o BMV,  Verde o Blanco",
+    "color": "Verde o Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {}
+  },
+  {
+    "date": "2026-05-31",
+    "celebration": "Solemnidad",
+    "celebrationTitle": "31  Mayo, Domingo.  LA SANTÍSIMA TRINIDAD,  Solemnidad,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Éx 34,4b-6.8-9",
+      "psalm": "Sal Dn 3,52ac.53a+54a.55a+56a (R. 52b)",
+      "secondReading": "2Co 13,11-13",
+      "gospel": "Jn 3,16-18."
+    }
+  },
+  {
+    "date": "2026-06-01",
+    "celebration": "Memoria obligatoria",
+    "celebrationTitle": "01  Junio, Lunes. 9ª Sem. del TO,  Memoria obligatoria,  Rojo",
+    "color": "Rojo",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>San Justino, mártir</p>",
+    "readings": {
+      "firstReading": "2P 1,1-7",
+      "psalm": "Sal 91(90),1-2.14-15ab. 15c-16 (R. 2b)",
+      "gospel": "Mc 12,1-12."
+    }
+  },
+  {
+    "date": "2026-06-02",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "02  Junio, Martes. 9ª Sem. del TO,  Feria o Memoria libre,  Verde o Rojo",
+    "color": "Verde o Rojo",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>Santos Marcelino y Pedro, mártires</p>",
+    "readings": {
+      "firstReading": "2P 3,12-15a. 17-18",
+      "psalm": "Sal 90(89), 2.3-4.10.14+16 (R. 1)",
+      "gospel": "Mc 12,13-17"
+    }
+  },
+  {
+    "date": "2026-06-03",
+    "celebration": "Memoria obligatoria",
+    "celebrationTitle": "03  Junio, Miércoles. 9ª Sem. del TO,  Memoria obligatoria,  Rojo",
+    "color": "Rojo",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>Santos Carlos Lwanga y compañeros, mártires</p>",
+    "readings": {
+      "firstReading": "2Tm 1,1-3.6-12",
+      "psalm": "Sal 123(122),1-2a. 2bcd (R. 1a)",
+      "gospel": "Mc 12,18-27."
+    }
+  },
+  {
+    "date": "2026-06-04",
+    "celebration": "Feria",
+    "celebrationTitle": "04  Junio, Jueves. 9ª Sem. del TO,  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "2Tm 2, 8-15",
+      "psalm": "Sal 25(24), 4- 5ab.8-9.10+14(R. 4a)",
+      "gospel": "Mc 12, 28b-34"
+    }
+  },
+  {
+    "date": "2026-06-05",
+    "celebration": "Memoria obligatoria",
+    "celebrationTitle": "05  Junio, Viernes. 9ª Sem. del TO,  Memoria obligatoria,  Rojo",
+    "color": "Rojo",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>San Bonifacio, obispo y mártir</p>",
+    "readings": {
+      "firstReading": "2Tm 3, 10-17",
+      "psalm": "Sal 119(118), 157.160.161.165.166.168 (R. 165a)",
+      "gospel": "Mc 12, 35-37"
+    }
+  },
+  {
+    "date": "2026-06-06",
+    "celebration": "Feria o Memoria libre o BMV",
+    "celebrationTitle": "06  Junio, Sábado. 9ª Sem. del TO,  Feria o Memoria libre o BMV,  Verde o Blanco",
+    "color": "Verde o Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>San Norberto, obispo</p>",
+    "readings": {
+      "firstReading": "2Tm 4, 1-8",
+      "psalm": "Sal 71(70), 8-9.14-15ab.16-17.22 (R. cf. 15)",
+      "gospel": "Mc 12, 38-44"
+    }
+  },
+  {
+    "date": "2026-06-07",
+    "celebration": "Solemnidad",
+    "celebrationTitle": "07  Junio, Domingo.  EL CUERPO Y LA SANGRE SANTÍSIMOS DE CRISTO (En Colombia),  Solemnidad,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Dt 8,2-3.14b-16a",
+      "psalm": "Sal 147,12-13.14-15.19-20 (R. cf. Lc 1,53)",
+      "secondReading": "1Co 10,16-17",
+      "gospel": "Secuencia (opcional)"
+    }
+  },
+  {
+    "date": "2026-06-08",
+    "celebration": "Feria",
+    "celebrationTitle": "08  Junio, Lunes. 10ª Sem. del TO,  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "1R 17,1-6",
+      "psalm": "Sal 121(120),1-2.3-4.5-6.7-8 (R. cf. 2)",
+      "gospel": "Mt 5,1-12."
+    }
+  },
+  {
+    "date": "2026-06-09",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "09  Junio, Martes. 10ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
+    "color": "Verde o Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>San Efrén, diácono y doctor de la Iglesia</p>",
+    "readings": {
+      "firstReading": "1R 17,7-16",
+      "psalm": "Sal 4,2-3.4-5.6bc-8 (R. cf. 7)",
+      "gospel": "Mt 5,13-16."
+    }
+  },
+  {
+    "date": "2026-06-10",
+    "celebration": "Feria",
+    "celebrationTitle": "10  Junio, Miércoles. 10ª Sem. del TO,  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "1R 18,20-39",
+      "psalm": "Sal 16(15),1-2a.4.5+8. 11 (R. 1)",
+      "gospel": "Mt 5,17-19."
+    }
+  },
+  {
+    "date": "2026-06-11",
+    "celebration": "Memoria obligatoria",
+    "celebrationTitle": "11  Junio, Jueves. 10ª Sem. del TO,  Memoria obligatoria,  Rojo",
+    "color": "Rojo",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>San Bernabé, apóstol</p>",
+    "readings": {
+      "firstReading": "Hch 11,21b-26; 13,1-3",
+      "psalm": "Sal 98(97),1.2-3ab.3c-4.5-6 (R. 2b)",
+      "secondReading": "Mt 10,7-13.",
+      "gospel": ""
+    }
+  },
+  {
+    "date": "2026-06-12",
+    "celebration": "Solemnidad",
+    "celebrationTitle": "12  Junio, Viernes.  SAGRADO CORAZÓN DE JESÚS ,  Solemnidad,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Dt 7,6-11",
+      "psalm": "Sal 103(102),1-2.3-4.6-7.8 y 10 (R. cf. 17)",
+      "secondReading": "1Jn 4,7-16",
+      "gospel": "Mt 11,25-30."
+    }
+  },
+  {
+    "date": "2026-06-13",
+    "celebration": "Memoria obligatoria",
+    "celebrationTitle": "13  Junio, Sábado. 10ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>El Inmaculado Corazón de Santa María Virgen</p>",
+    "readings": {
+      "firstReading": "Is 61, 9-11",
+      "psalm": "Sal 1S 2, 1.4-5.6-7.8abcd (R. 1a)",
+      "secondReading": "Lc 2, 41-51.",
+      "gospel": ""
+    }
+  },
+  {
+    "date": "2026-06-14",
+    "celebration": "",
+    "celebrationTitle": "14  Junio, Domingo. 11ª Sem. del Tiempo Ordinario,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Éx 19,2-6a",
+      "psalm": "Sal 100(99),1-2.3.5(R.3c)",
+      "secondReading": "Rm 5,6-11",
+      "gospel": "Mt 9,36–10,8"
+    }
+  },
+  {
+    "date": "2026-06-15",
+    "celebration": "Feria",
+    "celebrationTitle": "15  Junio, Lunes. 11ª Sem. del TO,  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "1R 21,1-16",
+      "psalm": "Sal 5,2-3.5-6.7 (R. 2b)",
+      "gospel": "Mt 5,38-42."
+    }
+  },
+  {
+    "date": "2026-06-16",
+    "celebration": "Feria",
+    "celebrationTitle": "16  Junio, Martes. 11ª Sem. del TO,  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "1R 21,17-29",
+      "psalm": "Sal 51(50),3-4.5-6a. 11+16 (R. cf. 3a)",
+      "gospel": "Mt 5,43-48."
+    }
+  },
+  {
+    "date": "2026-06-17",
+    "celebration": "Feria",
+    "celebrationTitle": "17  Junio, Miércoles. 11ª Sem. del TO,  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "2R 2,1.6-14",
+      "psalm": "Sal 31(30),20.21.24 (R. 25)",
+      "gospel": "Mt 6,1-6.16-18."
+    }
+  },
+  {
+    "date": "2026-06-18",
+    "celebration": "Feria",
+    "celebrationTitle": "18  Junio, Jueves.  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Sir 48, 1-15",
+      "psalm": "Sal 96(95), 1-2.3-4.5-6.7",
+      "gospel": "Mt 6, 7-15"
+    }
+  },
+  {
+    "date": "2026-06-19",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "19  Junio, Viernes.  Feria o Memoria libre,  Verde o Blanco",
+    "color": "Verde o Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>San Romualdo, abad</p>",
+    "readings": {
+      "firstReading": "2R 11,1-4.9-18.20",
+      "psalm": "Sal 132(131),11.12.13-14.17-18 (R. 13)",
+      "gospel": "Mt 6,19-23."
+    }
+  },
+  {
+    "date": "2026-06-20",
+    "celebration": "Feria o BMV",
+    "celebrationTitle": "20  Junio, Sábado. 11ª Sem. del TO,  Feria o BMV,  Verde o Blanco",
+    "color": "Verde o Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "2Cro 24,17-25",
+      "psalm": "Sal 89(88),4-5.29-30. 31-32.33-34 (R. 29a)",
+      "gospel": "Mt 6,24-34."
+    }
+  },
+  {
+    "date": "2026-06-21",
+    "celebration": "",
+    "celebrationTitle": "21  Junio, Domingo. 12ª Sem. del Tiempo Ordinario,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Jr 20, 10-13",
+      "psalm": "Sal 69(68), 9-10.14.33-34 (R. 35,10)",
+      "secondReading": "Rm 5,12-15",
+      "gospel": "Mt, 10,26-33."
+    }
+  },
+  {
+    "date": "2026-06-22",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "22  Junio, Lunes. 12ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco o Rojo",
+    "color": "Verde o Blanco o Rojo",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>San Paulino de Nola, obispo; Santos Juan Fisher, obispo y Tomás Moro, mártires</p>",
+    "readings": {
+      "firstReading": "2R 17,5-8.13-15a.18",
+      "psalm": "Sal 60(59),3.4-5.12-13 (R. 7b)",
+      "gospel": "Mt 7,1-5."
+    }
+  },
+  {
+    "date": "2026-06-23",
+    "celebration": "Feria",
+    "celebrationTitle": "23  Junio, Martes. 12ª Sem. del TO,  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "2R 19,9b-11.14-21.31-35a.36",
+      "psalm": "Sal 48(47),2-3a.3b-4.10-11 (R. cf. 9d)",
+      "gospel": "Mt 7,6.12-14."
+    }
+  },
+  {
+    "date": "2026-06-24",
+    "celebration": "Solemnidad",
+    "celebrationTitle": "24  Junio, Miércoles.  Solemnidad,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>Natividad de San Juan Bautista</p>",
+    "readings": {
+      "firstReading": "Is 49,1-6",
+      "psalm": "Sal 139(138),1-3.13-14ab.14c-15(R. 14a)",
+      "secondReading": "Hch 13,22-26",
+      "gospel": "Lc 1,57-66.80"
+    }
+  },
+  {
+    "date": "2026-06-25",
+    "celebration": "Feria",
+    "celebrationTitle": "25  Junio, Jueves. 12ª Sem. del TO,  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "2R 24,8-17",
+      "psalm": "Sal 79(78),1-2.3-5.8.9 (R. 9bc)",
+      "gospel": "Mt 7,21-29."
+    }
+  },
+  {
+    "date": "2026-06-26",
+    "celebration": "Feria",
+    "celebrationTitle": "26  Junio, Viernes. 12ª Sem. del TO,  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "2R 25, 1-12",
+      "psalm": "Sal 137(136), 1-2.3.4-5.6 (R. 6a)",
+      "gospel": "Mt 8, 1-4"
+    }
+  },
+  {
+    "date": "2026-06-27",
+    "celebration": "Feria o Memoria libre o BMV",
+    "celebrationTitle": "27  Junio, Sábado. 12ª Sem. del TO,  Feria o Memoria libre o BMV,  Verde o Blanco",
+    "color": "Verde o Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>San Cirilo de Alejandría, obispo y doctor de la Iglesia</p>",
+    "readings": {
+      "firstReading": "Lm 2,2.10-14.18-19",
+      "psalm": "Sal 74(73),1-2. 3-4.5-7.20-21 (R. 19b)",
+      "gospel": "Mt 8,5-17."
+    }
+  },
+  {
+    "date": "2026-06-28",
+    "celebration": "",
+    "celebrationTitle": "28  Junio, Domingo. 13ª Sem. del Tiempo Ordinario,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "2 R 4,8,-11.14-16a",
+      "psalm": "Sal 89(88),2-3.16-17.18-19",
+      "secondReading": "Rm 6,3-4.8-11",
+      "gospel": "Mt 10, 37-42"
+    }
+  },
+  {
+    "date": "2026-06-29",
+    "celebration": "Solemnidad",
+    "celebrationTitle": "29  Junio, Lunes.  Solemnidad,  Rojo",
+    "color": "Rojo",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>Santos Pedro y Pablo, apóstoles</p>",
+    "readings": {
+      "firstReading": "Hch 12,1-11",
+      "psalm": "Sal 34(33),2-3.4-5.6-7.8-9 (R. 5b)",
+      "secondReading": "2Tm 4,6-8.17-18",
+      "gospel": "Mt 16,13-19."
+    }
+  },
+  {
+    "date": "2026-06-30",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "30  Junio, Martes. 13ª Sem. del TO,  Feria o Memoria libre,  Verde o Rojo",
+    "color": "Verde o Rojo",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>Santos Protomártires de la Iglesia Romana</p>",
+    "readings": {
+      "firstReading": "Am 3,1-8; 4,11-12",
+      "psalm": "Sal 5,5-6.7.8 (R. 9a)",
+      "gospel": "Mt 8,23-27."
+    }
+  },
+  {
+    "date": "2026-07-01",
+    "celebration": "Feria",
+    "celebrationTitle": "01  Julio, Miércoles. 13ª Sem. del TO,  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Am 5, 14-15. 21-24",
+      "psalm": "Sal 50(49), 7.8-9.10-11.12-13.16bc-17 (R. 23b)",
+      "gospel": "Mt 8, 28-34"
+    }
+  },
+  {
+    "date": "2026-07-02",
+    "celebration": "Feria",
+    "celebrationTitle": "02  Julio, Jueves. 13ª Sem. del TO,  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Am 7, 10-17",
+      "psalm": "Sal 19(18), 8.9.10.11 (R. 10b)",
+      "gospel": "Mt 9, 1-8"
+    }
+  },
+  {
+    "date": "2026-07-03",
+    "celebration": "Fiesta",
+    "celebrationTitle": "03  Julio, Viernes.  Fiesta,  Rojo",
+    "color": "Rojo",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>Santo Tomás, apóstol</p>",
+    "readings": {
+      "firstReading": "Ef 2,19-22",
+      "psalm": "Sal 117(116),1.2 (R.Mc 16,15)",
+      "secondReading": "Jn 20,24-29",
+      "gospel": ""
+    }
+  },
+  {
+    "date": "2026-07-04",
+    "celebration": "Feria o Memoria libre o BMV",
+    "celebrationTitle": "04  Julio, Sábado. 13ª Sem. del TO,  Feria o Memoria libre o BMV,  Verde o Blanco",
+    "color": "Verde o Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>Santa Isabel de Portugal</p>",
+    "readings": {
+      "firstReading": "Am 9,11-15",
+      "psalm": "Sal 85(84),9.11-12.13-14 (R. 9)",
+      "gospel": "Mt 9,14-17."
+    }
+  },
+  {
+    "date": "2026-07-05",
+    "celebration": "",
+    "celebrationTitle": "05  Julio, Domingo. 14ª Sem. del Tiempo Ordinario,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Za 9,9-10",
+      "psalm": "Sal 145(144),1-2.8-9.10-11.13cd-14 (R. 20[19],7)",
+      "secondReading": "Rm 8,9.11-13",
+      "gospel": "Mt 11,25-30."
+    }
+  },
+  {
+    "date": "2026-07-06",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "06  Julio, Lunes. 14ª Sem. del TO,  Feria o Memoria libre,  Verde o Rojo",
+    "color": "Verde o Rojo",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>Santa María Goretti, virgen y mártir</p>",
+    "readings": {
+      "firstReading": "Os 2,16.17b-18.21-22",
+      "psalm": "Sal 145(144),2-3.4-5.6-7.8-9 (R. 8a)",
+      "gospel": "Mt 9,18-26."
+    }
+  },
+  {
+    "date": "2026-07-07",
+    "celebration": "Feria",
+    "celebrationTitle": "07  Julio, Martes. 14ª Sem. del TO,  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Os 8,4-7.11-13",
+      "psalm": "Sal 115(113B),3-4.5-6.7ab-8.9-10 (R. 9a)",
+      "gospel": "Mt 9,32-38."
+    }
+  },
+  {
+    "date": "2026-07-08",
+    "celebration": "Feria",
+    "celebrationTitle": "08  Julio, Miércoles. 14ª Sem. del TO,  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Os 10,1-3.7-8.12",
+      "psalm": "Sal 105(104),2-3. 4-5.6-7 (R. 4b)",
+      "gospel": "Mt 10,1-7."
+    }
+  },
+  {
+    "date": "2026-07-09",
+    "celebration": "Fiesta",
+    "celebrationTitle": "09  Julio, Jueves.  Fiesta,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>Bienaventurada Virgen María del Rosario de Chiquinquirá, Patrona de Colombia</p>",
+    "readings": {
+      "firstReading": "Ef 1,3-6.11-12",
+      "psalm": "Sal 113(112),1-2.3-4.5-6.7-8 (R. 2)",
+      "secondReading": "Lc 11,27-28.",
+      "gospel": ""
+    }
+  },
+  {
+    "date": "2026-07-10",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "10  Julio, Viernes. 14ª Sem. del TO,  Feria o Memoria libre,  Verde o Rojo",
+    "color": "Verde o Rojo",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>Santos Agustín Zhao Rong, presbítero, y compañeros, mártires</p>",
+    "readings": {
+      "firstReading": "Os 14,2-10",
+      "psalm": "Sal 51(50),3-4.8-9.12-13. 14 y 17 (R. 17b)",
+      "gospel": "Mt 10,16-23."
+    }
+  },
+  {
+    "date": "2026-07-11",
+    "celebration": "Memoria obligatoria",
+    "celebrationTitle": "11  Julio, Sábado. 14ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>San Benito, abad</p>",
+    "readings": {
+      "firstReading": "Is 6, 1-8",
+      "psalm": "Sal 93(92), 1ab.1c-2.5 (R. 1a)",
+      "gospel": "Mt 10,24-33"
+    }
+  },
+  {
+    "date": "2026-07-12",
+    "celebration": "",
+    "celebrationTitle": "12  Julio, Domingo. 15ª Sem. del Tiempo Ordinario,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Is 55,10-11",
+      "psalm": "Sal 65(64),10.11.12-13. 14",
+      "secondReading": "Rm 8,18-23",
+      "gospel": "Mt 13,1-23 (forma larga) o Mt 13,1-9 (forma breve)."
+    }
+  },
+  {
+    "date": "2026-07-13",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "13  Julio, Lunes. 15ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
+    "color": "Verde o Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>San Enrique</p>",
+    "readings": {
+      "firstReading": "Is 1,10-17",
+      "psalm": "Sal 50(49),8-9.16bc-17.21 y 23 (R. 23b)",
+      "gospel": "Mt 10,34 - 11,1."
+    }
+  },
+  {
+    "date": "2026-07-14",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "14  Julio, Martes. 15ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
+    "color": "Verde o Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>San Camilo de Lelis, presbítero</p>",
+    "readings": {
+      "firstReading": "Is 7,1-9",
+      "psalm": "Sal 48(47),2-3a.3b-4.5-6.7-8 (R. 9d)",
+      "gospel": "Mt 11,20-24."
+    }
+  },
+  {
+    "date": "2026-07-15",
+    "celebration": "Memoria obligatoria",
+    "celebrationTitle": "15  Julio, Miércoles. 15ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>San Buenaventura, obispo y doctor de la Iglesia</p>",
+    "readings": {
+      "firstReading": "Is 10,5-7.13-16",
+      "psalm": "Sal 94(93),5-6.7-8. 9-10.14-15 (R. 14a)",
+      "gospel": "Mt 11,25-27."
+    }
+  },
+  {
+    "date": "2026-07-16",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "16  Julio, Jueves. 15ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
+    "color": "Verde o Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>Bienaventurada Virgen María del Carmen</p>",
+    "readings": {
+      "firstReading": "Is 26,7-9.12.16-19",
+      "psalm": "Sal 102(101),13-14+15.16-18.19-21 (R. 20b)",
+      "gospel": "Mt 11,28-30."
+    }
+  },
+  {
+    "date": "2026-07-17",
+    "celebration": "Feria",
+    "celebrationTitle": "17  Julio, Viernes. 15ª Sem. del TO,  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Is 38,1-6.21-22.7-8",
+      "psalm": "Sal Is 38,10. 11.12abcd.16 (R. 17b)",
+      "gospel": "Mt 12,1-8."
+    }
+  },
+  {
+    "date": "2026-07-18",
+    "celebration": "Feria o BMV",
+    "celebrationTitle": "18  Julio, Sábado. 15ª Sem. del TO,  Feria o BMV,  Verde o Blanco",
+    "color": "Verde o Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Mi 2,1-5",
+      "psalm": "Sal 9, 22-23. 24-25. 28-29. 35 (R.:33b)",
+      "gospel": "Mt 12, 14-21"
+    }
+  },
+  {
+    "date": "2026-07-19",
+    "celebration": "",
+    "celebrationTitle": "19  Julio, Domingo. 16ª Sem. del Tiempo Ordinario,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Sb 12,13.16-19",
+      "psalm": "Sal 86(85),5-6.9-10.15-16a (R. 5a)",
+      "secondReading": "Rm 8,26-27",
+      "gospel": "Mt 13,24-43 (forma larga) o Mt 13,24-30 (forma breve)."
+    }
+  },
+  {
+    "date": "2026-07-20",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "20  Julio, Lunes. 16ª Sem. del TO,  Feria o Memoria libre,  Verde o Rojo",
+    "color": "Verde o Rojo",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>San Apolinar, obispo y mártir</p>",
+    "readings": {
+      "firstReading": "Mi 6,1-4.6-8",
+      "psalm": "Sal 50(49),5-6.8-9.16bc-17.21+23 (R. 23b)",
+      "gospel": "Mt 12,38-42."
+    }
+  },
+  {
+    "date": "2026-07-21",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "21  Julio, Martes. 16ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
+    "color": "Verde o Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>San Lorenzo de Brindis, presbítero y doctor de la Iglesia</p>",
+    "readings": {
+      "firstReading": "Mi 7,14-15.18-20",
+      "psalm": "Sal 85(84), 2-4.5-6.7-8 (R. 8a)",
+      "gospel": "Mt 12,46-50."
+    }
+  },
+  {
+    "date": "2026-07-22",
+    "celebration": "Fiesta",
+    "celebrationTitle": "22  Julio, Miércoles.  Fiesta,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>Santa María Magdalena,</p>",
+    "readings": {
+      "firstReading": "Ct 3,1-4a o 2Co 5,14-17",
+      "psalm": "Sal 63(62),2.3-4.5-6.8-9 (R. 2b)",
+      "secondReading": "Jn 20,1.11-18.",
+      "gospel": ""
+    }
+  },
+  {
+    "date": "2026-07-23",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "23  Julio, Jueves. 16ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
+    "color": "Verde o Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>Santa Brígida, religiosa</p>",
+    "readings": {
+      "firstReading": "Jr 2,1-3.7-8.12-13",
+      "psalm": "Sal 36(35),6-7ab.8-9.10-11 (R. 10a)",
+      "gospel": "Mt 13,10-17."
+    }
+  },
+  {
+    "date": "2026-07-24",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "24  Julio, Viernes. 16ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
+    "color": "Verde o Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>San Charbel Makhluf, presbítero</p>",
+    "readings": {
+      "firstReading": "Jr 3, 14-17",
+      "psalm": "Sal Jr 31, 10.11-12ab.13 (R. cf. 10d)",
+      "gospel": "Mt 13, 18-23"
+    }
+  },
+  {
+    "date": "2026-07-25",
+    "celebration": "Fiesta",
+    "celebrationTitle": "25  Julio, Sábado.  Fiesta,  Rojo",
+    "color": "Rojo",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>Santiago, apóstol</p>",
+    "readings": {
+      "firstReading": "2Co 4, 7-15",
+      "psalm": "Sal 125, 1b-2ab. 2cd-3. 4-5. 6 (R.: 5)",
+      "secondReading": "Mt 20,20-28.",
+      "gospel": ""
+    }
+  },
+  {
+    "date": "2026-07-26",
+    "celebration": "",
+    "celebrationTitle": "26  Julio, Domingo. 17ª Sem. del Tiempo Ordinario,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "null",
+    "readings": {
+      "firstReading": "1R 3,5.7-12",
+      "psalm": "Sal 119(118),57+72. 76-77.127-128.129-130 (R. 97a)",
+      "secondReading": "Rm 8,28-30",
+      "gospel": "Mt 13,44-52 (forma larga) o Mt 13,44-46 (forma breve)."
+    }
+  },
+  {
+    "date": "2026-07-27",
+    "celebration": "Feria",
+    "celebrationTitle": "27  Julio, Lunes. 17ª Sem. del TO,  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "null",
+    "readings": {
+      "firstReading": "Jr 13, 1-11",
+      "psalm": "Sal Dt 32, 18-19.20.21 (R. 18a)",
+      "gospel": "Mt 13, 31-35"
+    }
+  },
+  {
+    "date": "2026-07-28",
+    "celebration": "Feria",
+    "celebrationTitle": "28  Julio, Martes. 17ª Sem. del TO,  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Jr 14,17-22",
+      "psalm": "Sal 79(78),8.9.11+13 (R. 9bc)",
+      "gospel": "Mt 13,36-43."
+    }
+  },
+  {
+    "date": "2026-07-29",
+    "celebration": "Memoria obligatoria",
+    "celebrationTitle": "29  Julio, Miércoles. 17ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>Santos Marta, María y Lázaro</p>",
+    "readings": {
+      "firstReading": "1Jn 4,7-16",
+      "psalm": "Sal 34(33),2-3.4-5.6-7. 8-9.10-11 (R. 2a)",
+      "secondReading": "Jn 11,19-27 o Lc 10,38-42",
+      "gospel": ""
+    }
+  },
+  {
+    "date": "2026-07-30",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "30  Julio, Jueves. 17ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
+    "color": "Verde o Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>San Pedro Crisólogo, obispo y doctor de la Iglesia</p>",
+    "readings": {
+      "firstReading": "Jr 18,1-6",
+      "psalm": "Sal 146(145),1b-2.3-4.5-6 (R. 5a)",
+      "gospel": "Mt 13,47-53."
+    }
+  },
+  {
+    "date": "2026-07-31",
+    "celebration": "Memoria obligatoria",
+    "celebrationTitle": "31  Julio, Viernes. 17ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>San Ignacio de Loyola, presbítero</p>",
+    "readings": {
+      "firstReading": "Jr 26,1-9",
+      "psalm": "Sal 69(68),5.8-10.14 (R. 14c)",
+      "gospel": "Mt 13,54-58."
+    }
+  },
+  {
+    "date": "2026-08-01",
+    "celebration": "Memoria obligatoria",
+    "celebrationTitle": "01  Agosto, Sábado. 17ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>San Alfonso María de Ligorio, obispo y doctor de la Iglesia</p>",
+    "readings": {
+      "firstReading": "Jr 26,11-16.24",
+      "psalm": "Sal 69(68),15-16.30-31.33-34 (R. cf. 14)",
+      "gospel": "Mt 14,1-12."
+    }
+  },
+  {
+    "date": "2026-08-02",
+    "celebration": "",
+    "celebrationTitle": "02  Agosto, Domingo. 18ª Sem. del Tiempo Ordinario,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "null",
+    "readings": {
+      "firstReading": "Is 55,1-3",
+      "psalm": "Sal 145(144),8-9.15-16.17-18 (R. cf. 16)",
+      "secondReading": "Rm 8,35.37-39",
+      "gospel": "Mt 14,13-21."
+    }
+  },
+  {
+    "date": "2026-08-03",
+    "celebration": "Feria",
+    "celebrationTitle": "03  Agosto, Lunes. 18ª Sem. del TO,  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "null",
+    "readings": {
+      "firstReading": "Jr 28,1-17",
+      "psalm": "Sal 119(118),29.43.79.80.95.102 (R. 68b)",
+      "gospel": "Mt 14,22-36."
+    }
+  },
+  {
+    "date": "2026-08-04",
+    "celebration": "Memoria obligatoria",
+    "celebrationTitle": "04  Agosto, Martes. 18ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>San Juan María Vianney, presbítero</p>",
+    "readings": {
+      "firstReading": "Jr 30,1-2.12-15.18-22",
+      "psalm": "Sal 102(101),16-18.19-21.29+22-23 (R. cf. 17)",
+      "gospel": "Mt 15, 1-2. 10-14."
+    }
+  },
+  {
+    "date": "2026-08-05",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "05  Agosto, Miércoles. 18ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
+    "color": "Verde o Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>Dedicación de la Basílica de Santa María</p>",
+    "readings": {
+      "firstReading": "Jr 31,1-7",
+      "psalm": "Sal Jr 31,10.11-12ab.13 (R. cf. 10d)",
+      "gospel": "Mt 15,21-28."
+    }
+  },
+  {
+    "date": "2026-08-06",
+    "celebration": "Fiesta",
+    "celebrationTitle": "06  Agosto, Jueves.  Fiesta,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>Transfiguración del Señor</p>",
+    "readings": {}
+  },
+  {
+    "date": "2026-08-07",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "07  Agosto, Viernes. 18ª Sem. del TO,  Feria o Memoria libre,  Verde o Rojo o Blanco",
+    "color": "Verde o Rojo o Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>Santos Sixto II, papa, y compañeros, mártires; San Cayetano, presbítero</p>",
+    "readings": {
+      "firstReading": "Na 2,1.3; 3,1-3.6-7",
+      "psalm": "Sal Dt 32, 35cd-36ab.39abcd.41 (R. 39c)",
+      "gospel": "Mt 16,24-28."
+    }
+  },
+  {
+    "date": "2026-08-08",
+    "celebration": "Memoria obligatoria",
+    "celebrationTitle": "08  Agosto, Sábado. 18ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>Santo Domingo de Guzmán, presbítero</p>",
+    "readings": {
+      "firstReading": "Ha 1, 12–2,4",
+      "psalm": "Sal 9, 8-9.10-11.12-13 (R. 11b)",
+      "gospel": "Mt 17, 14-20"
+    }
+  },
+  {
+    "date": "2026-08-09",
+    "celebration": "",
+    "celebrationTitle": "09  Agosto, Domingo. 19ª Sem. del Tiempo Ordinario,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "1R 19,9a.11-13a",
+      "psalm": "Sal 85(84),9ab+10.11-12.13-14 (R. 8)",
+      "secondReading": "Rm 9,1-5",
+      "gospel": "Mt 14,22-33."
+    }
+  },
+  {
+    "date": "2026-08-10",
+    "celebration": "Fiesta",
+    "celebrationTitle": "10  Agosto, Lunes.  Fiesta,  Rojo",
+    "color": "Rojo",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>San Lorenzo, diácono y Mártir</p>",
+    "readings": {
+      "firstReading": "2Co 9,6-10",
+      "psalm": "Sal 112(111),1-2.5-6.7-8.9 (R. 5a)",
+      "secondReading": "Jn 12,24-26.",
+      "gospel": ""
+    }
+  },
+  {
+    "date": "2026-08-11",
+    "celebration": "Memoria obligatoria",
+    "celebrationTitle": "11  Agosto, Martes. 19ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>Santa Clara, virgen</p>",
+    "readings": {
+      "firstReading": "Ez 2,8 - 3,4",
+      "psalm": "Sal 119(118),14.24.72.103.111.131 (R. 103a)",
+      "gospel": "Mt 18,1-5. 10.12-14."
+    }
+  },
+  {
+    "date": "2026-08-12",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "12  Agosto, Miércoles. 19ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
+    "color": "Verde o Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>Santa Juana Francisca de Chantal, religiosa</p>",
+    "readings": {
+      "firstReading": "Ez 9, 1-7;10,18-22",
+      "psalm": "Sal 113(112), 1-2.3-4.5-6 (R. 4b)",
+      "gospel": "Mt 18, 15-20"
+    }
+  },
+  {
+    "date": "2026-08-13",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "13  Agosto, Jueves. 19ª Sem. del TO,  Feria o Memoria libre,  Verde o Rojo",
+    "color": "Verde o Rojo",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>Santos Ponciano, papa, e Hipólito, presbítero , mártires</p>",
+    "readings": {
+      "firstReading": "Ez 12,1-12",
+      "psalm": "Sal 78(77),56-57.58-59. 61-62 (R. cf. 7c)",
+      "gospel": "Mt 18,21-19,1."
+    }
+  },
+  {
+    "date": "2026-08-14",
+    "celebration": "Memoria obligatoria",
+    "celebrationTitle": "14  Agosto, Viernes. 19ª Sem. del TO,  Memoria obligatoria,  Rojo",
+    "color": "Rojo",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>San Maximiliano María Kolbe, presbítero y mártir</p>",
+    "readings": {
+      "firstReading": "Ez 16,1-15.60.63 o Ez 16,59-63",
+      "psalm": "Sal Is 12,2-3.4bcd.5-6 (R. 1c)",
+      "gospel": "Mt 19,3-12."
+    }
+  },
+  {
+    "date": "2026-08-14",
+    "celebration": "Solemnidad",
+    "celebrationTitle": "14  Agosto, Viernes.  Solemnidad,  \r\n EN LA VIGILIA:",
+    "color": "",
+    "liturgicalTime": "",
+    "prelude": "La Asunción de  la Bienaventurada Virgen María(En la Vigilia)",
+    "readings": {
+      "firstReading": "1Cro 15,3-4.15-16; 16,1-2",
+      "psalm": "Sal 132 (131), 7-8.9-10.13-14 (R. cf. 8)",
+      "secondReading": "1Co 15,54-57",
+      "gospel": "Lc 11,27-28."
+    }
+  },
+  {
+    "date": "2026-08-15",
+    "celebration": "Solemnidad",
+    "celebrationTitle": "15  Agosto, Sábado.  Solemnidad,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>La Asunción de la Bienaventurada Virgen María,</p>",
+    "readings": {
+      "firstReading": "Ap 11,19a; 12,1-6a.10ab",
+      "psalm": "Sal 45(44), 7a+10bc.11-12a.14-15 (R. cf. 10b)",
+      "secondReading": "1Co 15,20-27a",
+      "gospel": "Lc 1,39-56."
+    }
+  },
+  {
+    "date": "2026-08-16",
+    "celebration": "",
+    "celebrationTitle": "16  Agosto, Domingo. 20ª Sem. del Tiempo Ordinario,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Is 56,1.6-7",
+      "psalm": "Sal 67(66),2-3.5.6+8 (R. cf. 4)",
+      "secondReading": "Rm 11,13-15.29-32",
+      "gospel": "Mt 15,21-28."
+    }
+  },
+  {
+    "date": "2026-08-17",
+    "celebration": "Feria",
+    "celebrationTitle": "17  Agosto, Lunes. 20ª Sem. del TO,  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Ez 24, 15-24",
+      "psalm": "Sal Dt 32, 18-19.20.21 (R. 18a)",
+      "gospel": "Mt 19, 16-22"
+    }
+  },
+  {
+    "date": "2026-08-18",
+    "celebration": "Feria",
+    "celebrationTitle": "18  Agosto, Martes. 20ª Sem. del TO,  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Ez 28,1-10",
+      "psalm": "Sal Dt 32,26-27ab.27cd-28.30.35cd-36ab (R. 39c)",
+      "gospel": "Mt 19,23-30."
+    }
+  },
+  {
+    "date": "2026-08-19",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "19  Agosto, Miércoles. 20ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
+    "color": "Verde o Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>San Juan Eudes, presbítero; San Ezequiel Moreno Díaz, obispo</p>",
+    "readings": {
+      "firstReading": "Ez 34,1-11",
+      "psalm": "Sal 23(22),1-3a.3b-4. 5.6 (R. 1)",
+      "gospel": "Mt 20,1-16."
+    }
+  },
+  {
+    "date": "2026-08-20",
+    "celebration": "Memoria obligatoria",
+    "celebrationTitle": "20  Agosto, Jueves. 20ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>San Bernardo, abad y doctor de la Iglesia</p>",
+    "readings": {
+      "firstReading": "Ez 36,23-28",
+      "psalm": "Sal 51(50),12-13.14-15.18-19 (R. Ez 36,25)",
+      "gospel": "Mt 22,1-14."
+    }
+  },
+  {
+    "date": "2026-08-21",
+    "celebration": "Memoria obligatoria",
+    "celebrationTitle": "21  Agosto, Viernes. 20ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>San Pío X, papa</p>",
+    "readings": {
+      "firstReading": "Ez 37,1-14",
+      "psalm": "Sal 107(106),2-3.4-5.6-7.8-9 (R. 1)",
+      "gospel": "Mt 22,34-40."
+    }
+  },
+  {
+    "date": "2026-08-22",
+    "celebration": "Memoria obligatoria",
+    "celebrationTitle": "22  Agosto, Sábado. 20ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>Bienaventurada Virgen María, Reina</p>",
+    "readings": {
+      "firstReading": "Ez 43,1-7a",
+      "psalm": "Sal 85(84),9ab-10.11-12. 13-14 (R. cf. 10b)",
+      "gospel": "Mt 23,1-12."
+    }
+  },
+  {
+    "date": "2026-08-23",
+    "celebration": "",
+    "celebrationTitle": "23  Agosto, Domingo. 21ª Sem. del Tiempo Ordinario,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Is 22,19-23",
+      "psalm": "Sal 138(137),1-2a. 2bc-3.6 y 8bc (R. 80[79],18)",
+      "secondReading": "Rm 11,33-36",
+      "gospel": "Mt 16,13-20."
+    }
+  },
+  {
+    "date": "2026-08-24",
+    "celebration": "Fiesta",
+    "celebrationTitle": "24  Agosto, Lunes.  Fiesta,  Rojo",
+    "color": "Rojo",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>San Bartolomé, apóstol</p>",
+    "readings": {
+      "firstReading": "Ap 21,9b-14",
+      "psalm": "Sal 145(144),10-11.12-13ab.17-18 (R. cf. 12)",
+      "secondReading": "Jn 1,45-51.",
+      "gospel": ""
+    }
+  },
+  {
+    "date": "2026-08-25",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "25  Agosto, Martes. 21ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
+    "color": "Verde o Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>San Luis, de Francia; San Jose de Calasanz, presbítero</p>",
+    "readings": {
+      "firstReading": "2Ts 2, 1-3a. 14-17",
+      "psalm": "Sal 95, 10.11-12a.12b-13 (R. 13ab)",
+      "gospel": "Mt 23, 23-26"
+    }
+  },
+  {
+    "date": "2026-08-26",
+    "celebration": "Feria",
+    "celebrationTitle": "26  Agosto, Miércoles. 21ª Sem. del TO,  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "2Ts 3,6-10.16-18",
+      "psalm": "Sal 128(127), 1-2.4-5 (R. cf. 1a)",
+      "gospel": "Mt 23, 27-32"
+    }
+  },
+  {
+    "date": "2026-08-27",
+    "celebration": "Memoria obligatoria",
+    "celebrationTitle": "27  Agosto, Jueves. 21ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>Santa Mónica</p>",
+    "readings": {
+      "firstReading": "1Co 1,1-9",
+      "psalm": "Sal 145(144),2-3.4-5.6-7 (R. cf. 1)",
+      "gospel": "Mt 24,42-51."
+    }
+  },
+  {
+    "date": "2026-08-28",
+    "celebration": "Memoria obligatoria",
+    "celebrationTitle": "28  Agosto, Viernes. 21ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>San Agustín, obispo y doctor de la Iglesia</p>",
+    "readings": {
+      "firstReading": "1Co 1,17-25",
+      "psalm": "Sal 33(32),1-2.4-5.10-11 (R. 5b)",
+      "gospel": "Mt 25,1-13."
+    }
+  },
+  {
+    "date": "2026-08-29",
+    "celebration": "Memoria obligatoria",
+    "celebrationTitle": "29  Agosto, Sábado. 21ª Sem. del TO,  Memoria obligatoria,  Rojo",
+    "color": "Rojo",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>Martirio de san Juan Bautista</p>",
+    "readings": {
+      "firstReading": "Jr 1,17-19",
+      "psalm": "Sal 71(70),1-2.3-4a.5-6ab.15ab y 17 (R. 15a)",
+      "secondReading": "Mc 6,17-29 .",
+      "gospel": ""
+    }
+  },
+  {
+    "date": "2026-08-30",
+    "celebration": "",
+    "celebrationTitle": "30  Agosto, Domingo. 22ª Sem. del Tiempo Ordinario,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Jr 20,7-9",
+      "psalm": "Sal 63(62),2.3-4.5-6.8-9 (R. 2b)",
+      "secondReading": "Rm 12,1-2",
+      "gospel": "Mt 16,21-27."
+    }
+  },
+  {
+    "date": "2026-08-31",
+    "celebration": "Feria",
+    "celebrationTitle": "31  Agosto, Lunes. 22ª Sem. del TO,  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "1Co 2, 1-5",
+      "psalm": "Sal 119(118), 97.98.100.101.102 (R. 97a)",
+      "gospel": "Lc 4, 16-30"
+    }
+  },
+  {
+    "date": "2026-09-01",
+    "celebration": "Feria",
+    "celebrationTitle": "01  Septiembre, Martes. 22ª Sem. del TO,  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "1Co 2,10b-16",
+      "psalm": "Sal 145(144),8-9.10-11.12-13ab.13cd-14 (R. 17a)",
+      "gospel": "Lc 4,31-37."
+    }
+  },
+  {
+    "date": "2026-09-02",
+    "celebration": "Feria",
+    "celebrationTitle": "02  Septiembre, Miércoles. 22ª Sem. del TO,  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "1Co 3,1-9",
+      "psalm": "Sal 33(32),12-13.14-15.20-21 (R.12b)",
+      "gospel": "Lc 4,38-44."
+    }
+  },
+  {
+    "date": "2026-09-03",
+    "celebration": "Memoria obligatoria",
+    "celebrationTitle": "03  Septiembre, Jueves. 22ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>San Gregorio Magno, papa y doctor de la Iglesia</p>",
+    "readings": {
+      "firstReading": "1Co 3,18-23",
+      "psalm": "Sal 24(23),1-2.3-4ab.5-6 (R. 1a)",
+      "gospel": "Lc 5,1-11."
+    }
+  },
+  {
+    "date": "2026-09-04",
+    "celebration": "Feria",
+    "celebrationTitle": "04  Septiembre, Viernes. 22ª Sem. del TO,  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "1Co 4,1-5",
+      "psalm": "Sal 37(36),3-4.5-6.27-28.39-40 (R. 39a)",
+      "gospel": "Lc 5,33-39."
+    }
+  },
+  {
+    "date": "2026-09-05",
+    "celebration": "Feria o Memoria libre o BMV",
+    "celebrationTitle": "05  Septiembre, Sábado. 22ª Sem. del TO,  Feria o Memoria libre o BMV,  Verde o Blanco",
+    "color": "Verde o Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>Santa Teresa de Calcuta, virgen</p>",
+    "readings": {
+      "firstReading": "1Co 4,6b-15",
+      "psalm": "Sal 145(144),17-18.19-20.21 (R. 18a)",
+      "gospel": "Lc 6,1-5."
+    }
+  },
+  {
+    "date": "2026-09-06",
+    "celebration": "",
+    "celebrationTitle": "06  Septiembre, Domingo. 23ª Sem. del Tiempo Ordinario,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Ez 33,7-9",
+      "psalm": "Sal 95(94),1-2.6-7ab. 7c-9",
+      "secondReading": "Rm 13,8-10",
+      "gospel": "Mt 18,15-20."
+    }
+  },
+  {
+    "date": "2026-09-07",
+    "celebration": "Feria",
+    "celebrationTitle": "07  Septiembre, Lunes. 23ª Sem. del TO,  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "1Co 5,1-8",
+      "psalm": "Sal 5,5-6.7.12 (R. 9a)",
+      "gospel": "Lc 6,6-11."
+    }
+  },
+  {
+    "date": "2026-09-08",
+    "celebration": "Fiesta",
+    "celebrationTitle": "08  Septiembre, Martes.  Fiesta,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>Natividad de la Bienaventurada Virgen María, null</p>",
+    "readings": {
+      "firstReading": "Mi 5,1-4a o Rm 8,28-30",
+      "psalm": "Sal 13(12),6ab.6cd (R. Is 61,10)",
+      "secondReading": "Mt 1,1-16.18-23 (forma larga) o Mt 1,18-23 (forma breve).",
+      "gospel": ""
+    }
+  },
+  {
+    "date": "2026-09-09",
+    "celebration": "Memoria obligatoria",
+    "celebrationTitle": "09  Septiembre, Miércoles. 23ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>San Pedro Claver, presbítero</p>",
+    "readings": {
+      "firstReading": "1Co 7,25-31",
+      "psalm": "Sal 45(44),11-12.14-15. 16-17 (R. 11a)",
+      "gospel": "Lc 6,20-26."
+    }
+  },
+  {
+    "date": "2026-09-10",
+    "celebration": "Feria",
+    "celebrationTitle": "10  Septiembre, Jueves. 23ª Sem. del TO,  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "1Co 8, 1b-7.11-13",
+      "psalm": "Sal 139(138), 1-3.13-14ab.23-24 (R. 24b)",
+      "gospel": "Lc 6, 27-38"
+    }
+  },
+  {
+    "date": "2026-09-11",
+    "celebration": "Feria",
+    "celebrationTitle": "11  Septiembre, Viernes. 23ª Sem. del TO,  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "1Co 9,16-19.22b-27",
+      "psalm": "Sal 84(83),3. 4.5-6.12 (R. 2)",
+      "gospel": "Lc 6,39-42."
+    }
+  },
+  {
+    "date": "2026-09-12",
+    "celebration": "Feria o Memoria libre o BMV",
+    "celebrationTitle": "12  Septiembre, Sábado. 23ª Sem. del TO,  Feria o Memoria libre o BMV,  Verde o Blanco",
+    "color": "Verde o Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>Santísimo Nombre de María</p>",
+    "readings": {
+      "firstReading": "1Co 10,14-22",
+      "psalm": "Sal 116(115),12-13. 17-18 (R. 17a)",
+      "gospel": "Lc 6,43-49."
+    }
+  },
+  {
+    "date": "2026-09-13",
+    "celebration": "",
+    "celebrationTitle": "13  Septiembre, Domingo. 24ª Sem. del Tiempo Ordinario,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Sir 27,30 - 28,7",
+      "psalm": "Sal 103(102),1-2.3-4.9-10.11-12 (R. 8a)",
+      "secondReading": "Rm 14,7-9",
+      "gospel": "Mt 18,21-35."
+    }
+  },
+  {
+    "date": "2026-09-14",
+    "celebration": "Feria",
+    "celebrationTitle": "14  Septiembre, Lunes. 24ª Sem. del TO,  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "1Co 11,17-26.33",
+      "psalm": "Sal 40(39),7-8a.8b-9.10.17 (R. 1Co 11,26b)",
+      "gospel": "Lc 7,1-10."
+    }
+  },
+  {
+    "date": "2026-09-15",
+    "celebration": "Memoria obligatoria",
+    "celebrationTitle": "15  Septiembre, Martes. 24ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>Bienaventurada Virgen María de los Dolores</p>",
+    "readings": {
+      "firstReading": "Hb 5,7-9",
+      "psalm": "Sal 31(30),2-3a.3b-4.5-6. 15-16.20 (R. 17b)",
+      "secondReading": "Secuencia (opcional)",
+      "gospel": "Jn 19,25-27 o Lc 2,33-35."
+    }
+  },
+  {
+    "date": "2026-09-16",
+    "celebration": "Memoria obligatoria",
+    "celebrationTitle": "16  Septiembre, Miércoles. 24ª Sem. del TO,  Memoria obligatoria,  Rojo",
+    "color": "Rojo",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>Santos Cornelio, papa y Cipriano, obispo, mártires</p>",
+    "readings": {
+      "firstReading": "1Co 12,31 - 13,13",
+      "psalm": "Sal 33(32),2-3. 4-5.12+22 (R. 12b)",
+      "gospel": "Lc 7,31-35."
+    }
+  },
+  {
+    "date": "2026-09-17",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "17  Septiembre, Jueves. 24ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
+    "color": "Verde o Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>San Roberto Belarmino, obispo y doctor de la Iglesia; Santa Hildegarda de Bingen, virgen y doctora de la Iglesia.</p>",
+    "readings": {
+      "firstReading": "1Co 15,1-11",
+      "psalm": "Sal 118(117),1-2.16ab-17.28 (R. 1a)",
+      "gospel": "Lc 7,36-50."
+    }
+  },
+  {
+    "date": "2026-09-18",
+    "celebration": "Feria",
+    "celebrationTitle": "18  Septiembre, Viernes. 24ª Sem. del TO,  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "1Co 15,12-20",
+      "psalm": "Sal 17(16),1.6-7. 8+15 (R. 15b)",
+      "gospel": "Lc 8,1-3."
+    }
+  },
+  {
+    "date": "2026-09-19",
+    "celebration": "Feria o Memoria libre o BMV",
+    "celebrationTitle": "19  Septiembre, Sábado. 24ª Sem. del TO,  Feria o Memoria libre o BMV,  Verde o Rojo o Blanco",
+    "color": "Verde o Rojo o Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>San Jenaro, obispo y mártir</p>",
+    "readings": {
+      "firstReading": "1Co 15,35-37.42-49",
+      "psalm": "Sal 56(55),10.11-12.13-14 (R. cf. 14c)",
+      "gospel": "Lc 8,4-15."
+    }
+  },
+  {
+    "date": "2026-09-20",
+    "celebration": "",
+    "celebrationTitle": "20  Septiembre, Domingo. 25ª Sem. del Tiempo Ordinario,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Is 55,6-9",
+      "psalm": "Sal 145(144),2-3.8-9.17-18 (R. 18a)",
+      "secondReading": "Flp 1,20c-24.27a",
+      "gospel": "Mt 20,1-16."
+    }
+  },
+  {
+    "date": "2026-09-21",
+    "celebration": "Fiesta",
+    "celebrationTitle": "21  Septiembre, Lunes.  Fiesta,  Rojo",
+    "color": "Rojo",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>San Mateo, apóstol y evangelista</p>",
+    "readings": {
+      "firstReading": "Ef 4,1-7.11-13",
+      "psalm": "Sal 19(18),2-3.4-5 (R. 5a)",
+      "secondReading": "Mt 9,9-13.",
+      "gospel": ""
+    }
+  },
+  {
+    "date": "2026-09-22",
+    "celebration": "Feria",
+    "celebrationTitle": "22  Septiembre, Martes. 25ª Sem. del TO,  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Pr 21,1-6.10-13",
+      "psalm": "Sal 119(118),1.27.30.34.35.44 (R. 35a)",
+      "gospel": "Lc 8,19-21."
+    }
+  },
+  {
+    "date": "2026-09-23",
+    "celebration": "Memoria obligatoria",
+    "celebrationTitle": "23  Septiembre, Miércoles. 25ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>San Pío de Pietrelcina, presbítero</p>",
+    "readings": {
+      "firstReading": "Pr 30, 5-9",
+      "psalm": "Sal 119(118), 29.72.89.101.104.163 (R. 105a)",
+      "gospel": "Lc 9,1-6"
+    }
+  },
+  {
+    "date": "2026-09-24",
+    "celebration": "Feria",
+    "celebrationTitle": "24  Septiembre, Jueves. 25ª Sem. del TO,  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Qo 1,2-11",
+      "psalm": "Sal 90(89),3-4.5-6.12-13.14 y 17 (R. 1)",
+      "gospel": "Lc 9,7-9."
+    }
+  },
+  {
+    "date": "2026-09-25",
+    "celebration": "Feria",
+    "celebrationTitle": "25  Septiembre, Viernes. 25ª Sem. del TO,  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Qo 3,1-11",
+      "psalm": "Sal 144(143),1a+2abc. 3-4 (R. 1a)",
+      "gospel": "Lc 9,18-22."
+    }
+  },
+  {
+    "date": "2026-09-26",
+    "celebration": "Feria o Memoria libre o BMV",
+    "celebrationTitle": "26  Septiembre, Sábado. 25ª Sem. del TO,  Feria o Memoria libre o BMV,  Verde o Rojo o Blanco",
+    "color": "Verde o Rojo o Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>Santos Cosme y Damián, mártires</p>",
+    "readings": {
+      "firstReading": "Qo 11,9 - 12,8",
+      "psalm": "Sal 90(89),3-4.5-6.12-13.14+17 (R. 1)",
+      "gospel": "Lc 9,43b-45."
+    }
+  },
+  {
+    "date": "2026-09-27",
+    "celebration": "",
+    "celebrationTitle": "27  Septiembre, Domingo. 26ª Sem. del Tiempo Ordinario,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Ez 18,25-28",
+      "psalm": "Sal 25(24),4-5ab.6-7. 8-9 (R. cf. 6a)",
+      "secondReading": "Flp 2,1-11 (forma larga) o Flp 2,1-5 (forma breve)",
+      "gospel": "Mt 21,28-32."
+    }
+  },
+  {
+    "date": "2026-09-28",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "28  Septiembre, Lunes. 26ª Sem. del TO,  Feria o Memoria libre,  Verde o Rojo",
+    "color": "Verde o Rojo",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>San Wenceslao, mártir; Santos Lorenzo Ruiz y compañeros, mártires</p>",
+    "readings": {
+      "firstReading": "Jb 1,6-22",
+      "psalm": "Sal 17(16),1.2-3.6-7 (R. 6b)",
+      "gospel": "Lc 9,46-50."
+    }
+  },
+  {
+    "date": "2026-09-29",
+    "celebration": "Fiesta",
+    "celebrationTitle": "29  Septiembre, Martes.  Fiesta,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>Santos Arcángeles Miguel, Gabriel y Rafael</p>",
+    "readings": {
+      "firstReading": "Dn 7,9-10.13-14 o Ap 12,7-12a",
+      "psalm": "Sal 138(137),1.2a.2b-3.4-5.7c-8 (R. 1c)",
+      "secondReading": "Jn 1,47-51.",
+      "gospel": ""
+    }
+  },
+  {
+    "date": "2026-09-30",
+    "celebration": "Memoria obligatoria",
+    "celebrationTitle": "30  Septiembre, Miércoles. 26ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>San Jerónimo, presbítero y doctor de la Iglesia</p>",
+    "readings": {
+      "firstReading": "Jb 9,1-12.14-16",
+      "psalm": "Sal 88(87),10bc-11.12-13.14-15 (R. 3a)",
+      "gospel": "Lc 9,57-62."
+    }
+  },
+  {
+    "date": "2026-10-01",
+    "celebration": "Memoria obligatoria",
+    "celebrationTitle": "01  Octubre, Jueves. 26ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>Santa Teresa del Niño Jesús, virgen y doctora de la Iglesia</p>",
+    "readings": {
+      "firstReading": "Jb 19, 21-27",
+      "psalm": "Sal 27(26), 7-8a.8b-9abc.13-14 (R. 13)",
+      "gospel": "Lc 10, 1-12"
+    }
+  },
+  {
+    "date": "2026-10-02",
+    "celebration": "Memoria obligatoria",
+    "celebrationTitle": "02  Octubre, Viernes. 26ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>Santos Ángeles Custodios</p>",
+    "readings": {
+      "firstReading": "Éx 23,20-23a",
+      "psalm": "Sal 91(90),1-2.3-4.5-6.10-11 (R.11)",
+      "secondReading": "Mt 18,1-5.10",
+      "gospel": ""
+    }
+  },
+  {
+    "date": "2026-10-03",
+    "celebration": "Feria o BMV",
+    "celebrationTitle": "03  Octubre, Sábado. 26ª Sem. del TO,  Feria o BMV,  Verde o Blanco",
+    "color": "Verde o Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Jb 42,1-3.5-6.12-16",
+      "psalm": "Sal 119(118), 66.71.75.91.125.130 (R. 135a)",
+      "gospel": "Lc 10,17-24."
+    }
+  },
+  {
+    "date": "2026-10-04",
+    "celebration": "",
+    "celebrationTitle": "04  Octubre, Domingo. 27ª Sem. del Tiempo Ordinario,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Is 5,1-7",
+      "psalm": "Sal 80(79),9 y 12.13-14.15-16.19-20 (R. cf. 15c)",
+      "secondReading": "Flp 4,6-9",
+      "gospel": "Mt 21,33-43."
+    }
+  },
+  {
+    "date": "2026-10-05",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "05  Octubre, Lunes. 27ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
+    "color": "Verde o Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>Santa Faustina Kowalska, virgen</p>",
+    "readings": {
+      "firstReading": "Ga 1,6-12",
+      "psalm": "Sal 111(110),1-2.7-8.9+10c (R. cf. 5b)",
+      "gospel": "Lc 10,25-37."
+    }
+  },
+  {
+    "date": "2026-10-06",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "06  Octubre, Martes. 27ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
+    "color": "Verde o Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>San Bruno, presbítero</p>",
+    "readings": {
+      "firstReading": "Ga 1,13-24",
+      "psalm": "Sal 139(138),1-3.13-14ab.14c-15 (R. 24b)",
+      "gospel": "Lc 10,38-42."
+    }
+  },
+  {
+    "date": "2026-10-07",
+    "celebration": "Memoria obligatoria",
+    "celebrationTitle": "07  Octubre, Miércoles. 27ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>Bienaventurada Virgen María del Rosario</p>",
+    "readings": {
+      "firstReading": "Ga 2,1-2.7-14",
+      "psalm": "Sal 117(116),1.2 (R. Mc 16,15)",
+      "gospel": "Lc 11,1-4."
+    }
+  },
+  {
+    "date": "2026-10-08",
+    "celebration": "Feria",
+    "celebrationTitle": "08  Octubre, Jueves. 27ª Sem. del TO,  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Ga 3,1-5",
+      "psalm": "Sal Lc 1,69-70.71-72.73-75 (R. cf. 68)",
+      "gospel": "Lc 11,5-13."
+    }
+  },
+  {
+    "date": "2026-10-09",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "09  Octubre, Viernes. 27ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco o Rojo",
+    "color": "Verde o Blanco o Rojo",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>San Luis Bertrán, presbítero; Santos Dionisio, obispo, y Compañeros, mártires; San Juan Leonardi, presbítero</p>",
+    "readings": {
+      "firstReading": "Ga 3,7-14",
+      "psalm": "Sal 111(110),1-2.3-4.5-6 (R. cf. 5b)",
+      "gospel": "Lc 11,15-26."
+    }
+  },
+  {
+    "date": "2026-10-10",
+    "celebration": "Feria o BMV",
+    "celebrationTitle": "10  Octubre, Sábado. 27ª Sem. del TO,  Feria o BMV,  Verde o Blanco",
+    "color": "Verde o Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Ga 3,22-29",
+      "psalm": "Sal 105(104),2-3.4-5.6-7 (R. 8a)",
+      "gospel": "Lc 11,27-28."
+    }
+  },
+  {
+    "date": "2026-10-11",
+    "celebration": "",
+    "celebrationTitle": "11  Octubre, Domingo. 28ª Sem. del Tiempo Ordinario,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Is 25,6-10a",
+      "psalm": "Sal 23(22),1-3a.3b-4.5.6 (R. cf. 5a)",
+      "secondReading": "Flp 4,12-14.19-20",
+      "gospel": "Mt 22,1-14 (forma larga) o Mt 22,1-10 (forma breve)."
+    }
+  },
+  {
+    "date": "2026-10-12",
+    "celebration": "Feria",
+    "celebrationTitle": "12  Octubre, Lunes. 28ª Sem. del TO,  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Ga 4,22-24.26-27.31 - 5,1",
+      "psalm": "Sal 113(112),1-2.3-4.5-7 (R. cf. 2)",
+      "gospel": "Lc 11,29-32."
+    }
+  },
+  {
+    "date": "2026-10-13",
+    "celebration": "Feria",
+    "celebrationTitle": "13  Octubre, Martes. 28ª Sem. del TO,  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Ga 5,1-6",
+      "psalm": "Sal 119(118),41.43.44.45.47.48 (R. 41a)",
+      "gospel": "Lc 11,37-41."
+    }
+  },
+  {
+    "date": "2026-10-14",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "14  Octubre, Miércoles. 28ª Sem. del TO,  Feria o Memoria libre,  Verde o Rojo",
+    "color": "Verde o Rojo",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>San Calixto I, papa y mártir</p>",
+    "readings": {
+      "firstReading": "Ga 5,18-25",
+      "psalm": "Sal 1,1-2.3.4+6 (R. cf. Jn 8,12)",
+      "gospel": "Lc 11,42-46."
+    }
+  },
+  {
+    "date": "2026-10-15",
+    "celebration": "Memoria obligatoria",
+    "celebrationTitle": "15  Octubre, Jueves.  Memoria obligatoria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>Santa Teresa de Jesús, virgen y doctora de la Iglesia</p>",
+    "readings": {
+      "firstReading": "Ef 1,1-10",
+      "psalm": "Sal 98(97),1.2-3ab.3cd-4.5-6 (R. 2a)",
+      "gospel": "Lc 11,47-54."
+    }
+  },
+  {
+    "date": "2026-10-16",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "16  Octubre, Viernes. 28ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
+    "color": "Verde o Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>Santa Eduviges, religiosa; Santa Margarita María de Alacoque, virgen</p>",
+    "readings": {
+      "firstReading": "Ef 1,11-14",
+      "psalm": "Sal 33(32),1-2.4-5.12-13 (R. 12b)",
+      "gospel": "Lc 12,1-7."
+    }
+  },
+  {
+    "date": "2026-10-17",
+    "celebration": "Memoria obligatoria",
+    "celebrationTitle": "17  Octubre, Sábado. 28ª Sem. del TO,  Memoria obligatoria,  Rojo",
+    "color": "Rojo",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>San Ignacio de Antioquía, obispo y mártir</p>",
+    "readings": {
+      "firstReading": "Ef 1,15-23",
+      "psalm": "Sal 8,2-3a.4-5.6-7a (R. cf. 7)",
+      "gospel": "Lc 12,8-12."
+    }
+  },
+  {
+    "date": "2026-10-18",
+    "celebration": "",
+    "celebrationTitle": "18  Octubre, Domingo. 29ª Sem. del Tiempo Ordinario,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "null",
+    "readings": {
+      "firstReading": "Is 45,1.4-6",
+      "psalm": "Sal 96(95),1 y 3.4-5.7-8.9-10a+c (R. 7b)",
+      "secondReading": "1Ts 1,1-5b",
+      "gospel": "Mt 22,15-21."
+    }
+  },
+  {
+    "date": "2026-10-19",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "19  Octubre, Lunes. 29ª Sem. del TO,  Feria o Memoria libre,  Verde o Rojo o Blanco",
+    "color": "Verde o Rojo o Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>Santos Juan de Brébeuf e Isaac Jogues, presbíteros, y compañeros, mártires; San Pablo de la Cruz, presbítero</p>",
+    "readings": {
+      "firstReading": "Ef 2,1-10",
+      "psalm": "Sal 100(99),2.3.4.5 (R. 3b)",
+      "gospel": "Lc 12,13-21."
+    }
+  },
+  {
+    "date": "2026-10-20",
+    "celebration": "Feria",
+    "celebrationTitle": "20  Octubre, Martes. 29ª Sem. del TO,  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Ef 2, 12-22",
+      "psalm": "Sal 85(84), 9ab-10.11-12.13-14 (R. 9)",
+      "gospel": "Lc 12, 35-38"
+    }
+  },
+  {
+    "date": "2026-10-21",
+    "celebration": "Memoria obligatoria",
+    "celebrationTitle": "21  Octubre, Miércoles. 29ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>Santa Laura de santa Catalina de Siena Montoya y Upegui, virgen</p>",
+    "readings": {
+      "firstReading": "Ef 3,2-12",
+      "psalm": "Sal Is 12,2-3.4bcd.5-6 (R. cf. 3)",
+      "gospel": "Lc 12,39-48."
+    }
+  },
+  {
+    "date": "2026-10-22",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "22  Octubre, Jueves. 29ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
+    "color": "Verde o Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>San Juan Pablo II, papa</p>",
+    "readings": {
+      "firstReading": "Ef 3,14-21",
+      "psalm": "Sal 33(32),1-2.4-5.11-12.18-19 (R. 5b)",
+      "gospel": "Lc 12,49-53."
+    }
+  },
+  {
+    "date": "2026-10-23",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "23  Octubre, Viernes. 29ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
+    "color": "Verde o Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>San Juan de Capistrano, presbítero</p>",
+    "readings": {
+      "firstReading": "Ef 4,1-6",
+      "psalm": "Sal 24(23),1-2.3-4ab.5-6 (R. cf. 6)",
+      "gospel": "Lc 12,54-59."
+    }
+  },
+  {
+    "date": "2026-10-24",
+    "celebration": "Feria o Memoria libre o BMV",
+    "celebrationTitle": "24  Octubre, Sábado. 29ª Sem. del TO,  Feria o Memoria libre o BMV,  Verde o Blanco",
+    "color": "Verde o Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>San Antonio María Claret, obispo</p>",
+    "readings": {
+      "firstReading": "Ef 4,7-16",
+      "psalm": "Sal 122(121),1-2.3-4a.4b-5 (R. cf. 1)",
+      "gospel": "Lc 13,1-9."
+    }
+  },
+  {
+    "date": "2026-10-25",
+    "celebration": "",
+    "celebrationTitle": "25  Octubre, Domingo. 30ª Sem. del Tiempo Ordinario,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Éx 22,20-26",
+      "psalm": "Sal 18(17),2-3a.3bc-4.47 y 51ab (R. 2)",
+      "secondReading": "1Ts 1,5c-10",
+      "gospel": "Mt 22,34-40."
+    }
+  },
+  {
+    "date": "2026-10-26",
+    "celebration": "Feria",
+    "celebrationTitle": "26  Octubre, Lunes. 30ª Sem. del TO,  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Ef 4,32 - 5,8",
+      "psalm": "Sal 1,1-2.3.4 y 6 (R. cf. Ef 5,1)",
+      "gospel": "Lc 13,10-17."
+    }
+  },
+  {
+    "date": "2026-10-27",
+    "celebration": "Feria",
+    "celebrationTitle": "27  Octubre, Martes. 30ª Sem. del TO,  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Ef 5,21-33",
+      "psalm": "Sal 128(127),1-2.3.4-5 (R. cf. 1a)",
+      "gospel": "Lc 13,18-21."
+    }
+  },
+  {
+    "date": "2026-10-28",
+    "celebration": "Fiesta",
+    "celebrationTitle": "28  Octubre, Miércoles.  Fiesta,  Rojo",
+    "color": "Rojo",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>Santos Simón y Judas, apóstoles</p>",
+    "readings": {
+      "firstReading": "Ef 2,19-22",
+      "psalm": "Sal 19(18),2-3.4-5 (R. 5a)",
+      "secondReading": "Lc 6,12-19.",
+      "gospel": ""
+    }
+  },
+  {
+    "date": "2026-10-29",
+    "celebration": "Feria",
+    "celebrationTitle": "29  Octubre, Jueves. 30ª Sem. del TO,  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Ef 6,10-20",
+      "psalm": "Sal 144(143),1.2.9-10 (R. 1a)",
+      "gospel": "Lc 13,31-35."
+    }
+  },
+  {
+    "date": "2026-10-30",
+    "celebration": "Feria",
+    "celebrationTitle": "30  Octubre, Viernes. 30ª Sem. del TO,  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Flp 1, 1-11",
+      "psalm": "Sal 111(110), 1-2. 3-4. 5-6 (R. 2a)",
+      "gospel": "Lc 14, 1-6"
+    }
+  },
+  {
+    "date": "2026-10-31",
+    "celebration": "Feria o BMV",
+    "celebrationTitle": "31  Octubre, Sábado. 30ª Sem. del TO,  Feria o BMV,  Verde o Blanco",
+    "color": "Verde o Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Flp 1,18b-26",
+      "psalm": "Sal 42(41),2.3.5bcd (R. 3a)",
+      "gospel": "Lc 14,1.7-11."
+    }
+  },
+  {
+    "date": "2026-11-01",
+    "celebration": "Solemnidad",
+    "celebrationTitle": "01  Noviembre, Domingo. 31ª Sem. del Tiempo Ordinario,  Solemnidad,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>Todos los Santos</p>",
+    "readings": {
+      "firstReading": "Ap 7,2-4.9-14",
+      "psalm": "Sal 24(23),1-2.3-4ab.5-6 (R. cf. 6 )",
+      "secondReading": "1Jn 3,1-3",
+      "gospel": "Mt 5,1-12a."
+    }
+  },
+  {
+    "date": "2026-11-02",
+    "celebration": "Memoria obligatoria",
+    "celebrationTitle": "02  Noviembre, Lunes. 31ª Sem. del TO,  Memoria obligatoria,  Morado",
+    "color": "Morado",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>Conmemoración de Todos los Fieles Difuntos</p>",
+    "readings": {}
+  },
+  {
+    "date": "2026-11-03",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "03  Noviembre, Martes. 31ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
+    "color": "Verde o Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>San Martín de Porres, religioso</p>",
+    "readings": {
+      "firstReading": "Flp 2, 5-11",
+      "psalm": "Sal 22(21), 26b-27.28-30a.31-32 (R. 26a)",
+      "gospel": "Lc 14,15-24"
+    }
+  },
+  {
+    "date": "2026-11-04",
+    "celebration": "Memoria obligatoria",
+    "celebrationTitle": "04  Noviembre, Miércoles. 31ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>San Carlos Borromeo, obispo</p>",
+    "readings": {
+      "firstReading": "Flp 2, 12-18",
+      "psalm": "Sal 27(26), 1.4.13-14 (R. 1a)",
+      "gospel": "Lc 14, 25-33"
+    }
+  },
+  {
+    "date": "2026-11-05",
+    "celebration": "Feria",
+    "celebrationTitle": "05  Noviembre, Jueves. 31ª Sem. del TO,  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Flp 3,3-8a",
+      "psalm": "Sal 105(104),2-3.4-5. 6-7 (R. 3b)",
+      "gospel": "Lc 15,1-10."
+    }
+  },
+  {
+    "date": "2026-11-06",
+    "celebration": "Feria",
+    "celebrationTitle": "06  Noviembre, Viernes. 31ª Sem. del TO,  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Flp 3,17 - 4,1",
+      "psalm": "Sal 122(121),1-2.4-5 (R. cf. 1)",
+      "gospel": "Lc 16,1-8."
+    }
+  },
+  {
+    "date": "2026-11-07",
+    "celebration": "Feria o BMV",
+    "celebrationTitle": "07  Noviembre, Sábado. 31ª Sem. del TO,  Feria o BMV,  Verde o Blanco",
+    "color": "Verde o Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Flp 4,10-19",
+      "psalm": "Sal 112(111),1-2.5-6.8a y 9 (R. 1a)",
+      "gospel": "Lc 16,9-15."
+    }
+  },
+  {
+    "date": "2026-11-08",
+    "celebration": "",
+    "celebrationTitle": "08  Noviembre, Domingo. 32ª Sem. del Tiempo Ordinario,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Sb 6,12-16",
+      "psalm": "Sal 63(62),2.3-4.5-6.7-8 (R. 2b)",
+      "secondReading": "1Ts 4,13-18 (forma larga) o 1Ts 4,13-14 (forma breve)",
+      "gospel": "Mt 25,1-13."
+    }
+  },
+  {
+    "date": "2026-11-09",
+    "celebration": "Fiesta",
+    "celebrationTitle": "09  Noviembre, Lunes.  Fiesta,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>Dedicación de la Basílica de Letrán</p>",
+    "readings": {
+      "firstReading": "Ez 47,1-2.8-9.12",
+      "psalm": "Sal 46(45),2-3.5-6.8-9 (R. 5)",
+      "secondReading": "1Co 3,9c-11.16-17",
+      "gospel": "Cuando la Fiesta no cae en domingo, se escoge una sola de las lecturas antes del evangelio"
+    }
+  },
+  {
+    "date": "2026-11-10",
+    "celebration": "Memoria obligatoria",
+    "celebrationTitle": "10  Noviembre, Martes. 32ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>San León Magno, papa y doctor de la Iglesia</p>",
+    "readings": {
+      "firstReading": "Tt 2,1-8.11-14",
+      "psalm": "Sal 37(36),3-4.18 y 23.27 y 29 (R. 39a)",
+      "gospel": "Lc 17,7-10."
+    }
+  },
+  {
+    "date": "2026-11-11",
+    "celebration": "Memoria obligatoria",
+    "celebrationTitle": "11  Noviembre, Miércoles. 32ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>San Martín de Tours, obispo</p>",
+    "readings": {
+      "firstReading": "Tt 3, 1-7",
+      "psalm": "Sal 23(22), 1-3a.3b-4.5.6 (R. 1)",
+      "gospel": "Lc 17, 11-19"
+    }
+  },
+  {
+    "date": "2026-11-12",
+    "celebration": "Memoria obligatoria",
+    "celebrationTitle": "12  Noviembre, Jueves. 32ª Sem. del TO,  Memoria obligatoria,  Rojo",
+    "color": "Rojo",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>San Josafat, obispo y mártir</p>",
+    "readings": {
+      "firstReading": "Flm 7-20",
+      "psalm": "Sal 146(145),7.8-9a.9bc-10 (R. 5a)",
+      "gospel": "Lc 17,20-25."
+    }
+  },
+  {
+    "date": "2026-11-13",
+    "celebration": "Feria",
+    "celebrationTitle": "13  Noviembre, Viernes. 32ª Sem. del TO,  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "2Jn 4-9",
+      "psalm": "Sal 119(118),1.2.10.11.17.18 (R. 1b)",
+      "gospel": "Lc 17,26-37."
+    }
+  },
+  {
+    "date": "2026-11-14",
+    "celebration": "Feria o BMV",
+    "celebrationTitle": "14  Noviembre, Sábado. 32ª Sem. del TO,  Feria o BMV,  Verde o Blanco",
+    "color": "Verde o Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "3Jn 5-8",
+      "psalm": "Sal 112(111),1-2.3-4.5-6 (R. 1a)",
+      "gospel": "Lc 18,1-8."
+    }
+  },
+  {
+    "date": "2026-11-15",
+    "celebration": "",
+    "celebrationTitle": "15  Noviembre, Domingo. 33ª Sem. del Tiempo Ordinario,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "null",
+    "readings": {
+      "firstReading": "Pr 31,10-13.19-20.30-31",
+      "psalm": "Sal 128(127),1-2.3.4-5 (R. 1a)",
+      "secondReading": "1Ts 5,1-6",
+      "gospel": "Mt 25,14-30 (forma larga) o Mt 25,14-15.19-21 (forma breve)."
+    }
+  },
+  {
+    "date": "2026-11-16",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "16  Noviembre, Lunes. 33ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
+    "color": "Verde o Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>Santa Margarita de Escocia, ; Santa Gertrudis, virgen</p>",
+    "readings": {
+      "firstReading": "Ap 1,1-4; 2,1-5a",
+      "psalm": "Sal 1,1-2.3.4+6 (R. Ap 2,7b)",
+      "gospel": "Lc 18,35-43."
+    }
+  },
+  {
+    "date": "2026-11-17",
+    "celebration": "Memoria obligatoria",
+    "celebrationTitle": "17  Noviembre, Martes. 33ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>Santa Isabel de Hungría, religiosa</p>",
+    "readings": {
+      "firstReading": "Ap 3,1-6.14-22",
+      "psalm": "Sal 15(14),2-3ab.3cd-4ab.5 (R. Ap 3,21)",
+      "gospel": "Lc 19,1-10."
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "18  Noviembre, Miércoles. 33ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
+    "color": "Verde o Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>Dedicación de las basílicas de los santos Pedro y Pablo, apóstoles</p>",
+    "readings": {
+      "firstReading": "Ap 4,1-11",
+      "psalm": "Sal 150,1-2.3-4.5-6 (R. Ap 4,8b)",
+      "gospel": "Lc 19,11-28."
+    }
+  },
+  {
+    "date": "2026-11-19",
+    "celebration": "Feria",
+    "celebrationTitle": "19  Noviembre, Jueves. 33ª Sem. del TO,  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "null",
+    "readings": {
+      "firstReading": "Ap 5,1-10",
+      "psalm": "Sal 149,1-2.3-4.5-6a+9b (R. cf. Ap 5,10)",
+      "gospel": "Lc 19,41-44."
+    }
+  },
+  {
+    "date": "2026-11-20",
+    "celebration": "Feria",
+    "celebrationTitle": "20  Noviembre, Viernes. 33ª Sem. del TO,  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "null",
+    "readings": {
+      "firstReading": "Ap 10,8-11",
+      "psalm": "Sal 119(118),14.24.72. 103.111.131 (R. 103a)",
+      "gospel": "Lc 19,45-48."
+    }
+  },
+  {
+    "date": "2026-11-21",
+    "celebration": "Memoria obligatoria",
+    "celebrationTitle": "21  Noviembre, Sábado. 33ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>La Presentación de la Bienaventurada Virgen María</p>",
+    "readings": {
+      "firstReading": "Ap 11,4-12",
+      "psalm": "Sal 144(143),1.2.9-10 (R. 1a)",
+      "gospel": "Lc 20,27-40."
+    }
+  },
+  {
+    "date": "2026-11-22",
+    "celebration": "Solemnidad",
+    "celebrationTitle": "22  Noviembre, Domingo. 34ª Sem. del Tiempo Ordinario,  NUESTRO SEÑOR JESUCRISTO, REY DEL UNIVERSO,  Solemnidad,  Blanco",
+    "color": "Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Ez 34,11-12.15-17",
+      "psalm": "Sal 23(22),1-3a.3b-4.5.6 (R. 1)",
+      "secondReading": "1Co 15,20-26.28",
+      "gospel": "Mt 25,31-46."
+    }
+  },
+  {
+    "date": "2026-11-23",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "23  Noviembre, Lunes. 34ª Sem. del TO,  Feria o Memoria libre,  Verde o Rojo o Blanco",
+    "color": "Verde o Rojo o Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>San Clemente I, papa y mártir; San Columbano, abad</p>",
+    "readings": {
+      "firstReading": "Ap 14,1-3.4b-5",
+      "psalm": "Sal 24(23),1-2.3-4ab.5-6 (R. cf. 6)",
+      "gospel": "Lc 21,1-4."
+    }
+  },
+  {
+    "date": "2026-11-24",
+    "celebration": "Memoria obligatoria",
+    "celebrationTitle": "24  Noviembre, Martes. 34ª Sem. del TO,  Memoria obligatoria,  Rojo",
+    "color": "Rojo",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>San Andres Dung Lac, presbítero y compañeros, mártires</p>",
+    "readings": {
+      "firstReading": "Ap 14,14-19",
+      "psalm": "Sal 96(95),10.11-12.13 (R. 13b)",
+      "gospel": "Lc 21,5-11."
+    }
+  },
+  {
+    "date": "2026-11-25",
+    "celebration": "Feria o Memoria libre",
+    "celebrationTitle": "25  Noviembre, Miércoles. 34ª Sem. del TO,  Feria o Memoria libre,  Verde o Rojo",
+    "color": "Verde o Rojo",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "<p>Santa Catalina de Alejandría, virgen y mártir</p>",
+    "readings": {
+      "firstReading": "Ap 15,1-4",
+      "psalm": "Sal 98(97),1.2-3ab.7-8.9 (R. Ap 15,3b)",
+      "gospel": "Lc 21,12-19."
+    }
+  },
+  {
+    "date": "2026-11-26",
+    "celebration": "Feria",
+    "celebrationTitle": "26  Noviembre, Jueves. 34ª Sem. del TO,  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Ap 18,1-2.21-23; 19,1-3.9a",
+      "psalm": "Sal 100(99),2.3.4.5 (R. Ap 19,9a)",
+      "gospel": "Lc 21,20-28."
+    }
+  },
+  {
+    "date": "2026-11-27",
+    "celebration": "Feria",
+    "celebrationTitle": "27  Noviembre, Viernes. 34ª Sem. del TO,  Feria,  Verde",
+    "color": "Verde",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Ap 20,1-4.11 - 21,2",
+      "psalm": "Sal 84(83),3.4.5-6a+8a (R. Ap 21,3b)",
+      "gospel": "Lc 21,29-33."
+    }
+  },
+  {
+    "date": "2026-11-28",
+    "celebration": "Feria o BMV",
+    "celebrationTitle": "28  Noviembre, Sábado. 34ª Sem. del TO,  Feria o BMV,  Verde o Blanco",
+    "color": "Verde o Blanco",
+    "liturgicalTime": "II TIEMPO ORDINARIO",
+    "prelude": "",
+    "readings": {
+      "firstReading": "Ap 22,1-7",
+      "psalm": "Sal 95(94),1-2.3-5.6-7 (R. 1Co 16,22b + Ap 22,20c)",
+      "gospel": "Lc 21,34-36."
+    }
+  }
+]
