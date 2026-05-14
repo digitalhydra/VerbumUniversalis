@@ -15,6 +15,7 @@ import com.verbum.universalis.VerbumApplication
 import com.verbum.universalis.data.json.Note
 import com.verbum.universalis.data.daos.VerseWithTexts
 import com.verbum.universalis.data.entities.InterlinearWordEntity
+import com.verbum.universalis.data.repository.NotesRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 import kotlinx.coroutines.ExperimentalCoroutinesApi
@@ -122,6 +123,7 @@ val Application.dataStore by preferencesDataStore(name = "verbum_settings")
 @HiltViewModel
 class ReadingViewModel @Inject constructor(
     private val repository: BibleRepository,
+    private val notesRepository: NotesRepository,
     private val app: Application,
     private val savedStateHandle: SavedStateHandle
 ) : ViewModel() {
@@ -130,6 +132,21 @@ class ReadingViewModel @Inject constructor(
 
     private val _currentPassage: MutableStateFlow<Passage>
     val currentPassage: StateFlow<Passage>
+
+    // Selection mode state
+    private val _isSelectionMode = MutableStateFlow(false)
+    val isSelectionMode: StateFlow<Boolean> = _isSelectionMode.asStateFlow()
+
+    // Currently selected verse (for highlight/note)
+    private val _selectedVerseId = MutableStateFlow<Int?>(null)
+    val selectedVerseId: StateFlow<Int?> = _selectedVerseId.asStateFlow()
+
+    // Highlights state
+    private val _highlights = MutableStateFlow<List<com.verbum.universalis.data.json.Highlight>>(emptyList())
+    val highlights: StateFlow<List<com.verbum.universalis.data.json.Highlight>> = _highlights.asStateFlow()
+
+    private val _notes = MutableStateFlow<List<Note>>(emptyList())
+    val notes: StateFlow<List<Note>> = _notes.asStateFlow()
 
     init {
         val bookId = savedStateHandle.get<Int>("bookId") ?: -1
@@ -158,6 +175,21 @@ class ReadingViewModel @Inject constructor(
                     }
                 }
             }
+        }
+        refreshHighlights()
+        refreshNotes()
+    }
+
+    private fun refreshHighlights() {
+        viewModelScope.launch {
+            val fileManager = (app as VerbumApplication).fileManager
+            _highlights.value = fileManager.loadHighlights()
+        }
+    }
+
+    private fun refreshNotes() {
+        viewModelScope.launch {
+            _notes.value = notesRepository.getNotes()
         }
     }
 
@@ -311,14 +343,6 @@ class ReadingViewModel @Inject constructor(
         }
     }
 
-    // Selection mode state
-    private val _isSelectionMode = MutableStateFlow(false)
-    val isSelectionMode: StateFlow<Boolean> = _isSelectionMode.asStateFlow()
-
-    // Currently selected verse (for highlight/note)
-    private val _selectedVerseId = MutableStateFlow<Int?>(null)
-    val selectedVerseId: StateFlow<Int?> = _selectedVerseId.asStateFlow()
-
     fun toggleSelectionMode() {
         _isSelectionMode.value = !_isSelectionMode.value
         if (!_isSelectionMode.value) {
@@ -359,17 +383,36 @@ class ReadingViewModel @Inject constructor(
     fun saveNoteWithHighlight(noteContent: String, highlightColorId: Int?) {
         val verseId = _selectedVerseId.value ?: return
         viewModelScope.launch {
-            val fileManager = (app as VerbumApplication).fileManager
-            val notes = fileManager.loadNotes().toMutableList()
-            notes.add(
-                Note(
-                    verseId = verseId,
-                    content = noteContent,
-                    highlightColorId = highlightColorId,
-                    timestamp = System.currentTimeMillis()
+            // Save Note
+            if (noteContent.isNotBlank()) {
+                notesRepository.saveNote(
+                    Note(
+                        verseId = verseId,
+                        content = noteContent,
+                        highlightColorId = highlightColorId,
+                        timestamp = System.currentTimeMillis()
+                    )
                 )
-            )
-            fileManager.saveNotes(notes)
+                refreshNotes()
+            }
+
+            // Save Highlight
+            if (highlightColorId != null) {
+                val fileManager = (app as VerbumApplication).fileManager
+                val highlights = fileManager.loadHighlights().toMutableList()
+                // Remove existing highlight for this verse if any (simple implementation)
+                highlights.removeAll { it.verseId == verseId }
+                highlights.add(
+                    com.verbum.universalis.data.json.Highlight(
+                        verseId = verseId,
+                        colorId = highlightColorId,
+                        timestamp = System.currentTimeMillis()
+                    )
+                )
+                fileManager.saveHighlights(highlights)
+                refreshHighlights()
+            }
+
             _selectedVerseId.value = null
             _isSelectionMode.value = false
         }
@@ -380,8 +423,13 @@ class ReadingViewModel @Inject constructor(
     fun saveHighlight(colorId: Int) = saveNoteWithHighlight("", colorId)
 
     fun getHighlightsForVerse(verseId: Int): List<Int> {
-        val fileManager = (app as VerbumApplication).fileManager
-        val highlights = fileManager.loadHighlights()
-        return highlights.filter { it.verseId == verseId }.map { it.colorId }
+        return _highlights.value.filter { it.verseId == verseId }.map { it.colorId }
+    }
+
+    fun deleteNote(note: Note) {
+        viewModelScope.launch {
+            notesRepository.deleteNote(note.timestamp)
+            refreshNotes()
+        }
     }
 }

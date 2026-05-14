@@ -58,6 +58,7 @@ fun ReadingCanvas(
         val isSelectionMode by viewModel.isSelectionMode.collectAsState(initial = false)
         val selectedVerseId by viewModel.selectedVerseId.collectAsState(initial = null)
         val currentPassage by viewModel.currentPassage.collectAsState()
+        val savedHighlights by viewModel.highlights.collectAsState()
 
         var offsetX by remember { mutableStateOf(0f) }
         val listState = rememberLazyListState()
@@ -89,7 +90,7 @@ fun ReadingCanvas(
             verses.forEach { verseWithTexts ->
                 val verseNum = verseWithTexts.verse.verse_number
                 val text = viewModel.getDisplayText(verseWithTexts, activeLanguage)
-                val highlights = viewModel.getHighlightsForVerse(verseWithTexts.verse.id)
+                val highlights = savedHighlights.filter { it.verseId == verseWithTexts.verse.id }.map { it.colorId }
                 
                 verseOffsets[verseNum] = this.length
 
@@ -181,10 +182,12 @@ fun ReadingCanvas(
                                 verticalArrangement = Arrangement.spacedBy(16.dp)
                             ) {
                                 verseWords.forEach { word ->
+                                    val wordHighlights = savedHighlights.filter { it.verseId == verseWithTexts.verse.id }.map { it.colorId }
                                     InterlinearWordBlock(
                                         word = word,
                                         isSelected = false,
-                                        isHighlighted = false,
+                                        isHighlighted = wordHighlights.isNotEmpty(),
+                                        highlightColor = if (wordHighlights.isNotEmpty()) HighlightPalette.all[wordHighlights.first() % HighlightPalette.all.size] else Color.Transparent,
                                         showMorphology = false,  // Hidden by default; grammar for later
                                         onClick = { onWordClick(word) }
                                     )
