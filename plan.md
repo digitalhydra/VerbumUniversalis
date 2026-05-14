@@ -14,7 +14,10 @@
 - Package for beta testing
 - Finalize SSH key integration
 - Complete LWW conflict resolution
-- Implement settings screen with submenus: Download Catena, Sync, Notes, Theme
+- Implemented settings screen submenus (Download Catena, Sync, Notes, Theme) with wired navigation (onNavigate → navController.navigate)
 - Update app launcher icons using new assets from ./AppIcons/android/mipmap-*
-- Changed settings access from gear icon in dashboard to bottom navigation bar (Settings icon)
-- Implemented Download Catena screen with actual download functionality from GitHub releases
+- Removed gear icon from dashboard top bar; settings access is via MainScreen.kt NavigationBar (Options item → Settings)
+- Removed duplicate BottomAppBar from DashboardScreen; fixed layout by wrapping content in parent Column to prevent header/readings overlap
+- Implemented Download Catena screen with DownloadCatenaViewModel (fixed ClassCastException from hiltViewModel on non-ViewModel)
+- Implemented Notes screen with NotesViewModel (fixed same ClassCastException); real FileManager/BibleRepository wired
+- Implemented Theme screen with light/dark/system theme switching
