@@ -1,0 +1,3762 @@
+[
+  {
+    "date": "2026-01-01",
+    "monthDay": "1/1",
+    "season": "Christmas",
+    "celebration": {
+      "name": "Octave Day of Christmas",
+      "type": "SOLEMNITY"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-01-01"
+  },
+  {
+    "date": "2026-01-02",
+    "monthDay": "1/2",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Feria",
+      "type": "FERIA"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-01-02"
+  },
+  {
+    "date": "2026-01-03",
+    "monthDay": "1/3",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "II Mass of the B. V. M. \u2013 Vultum Tuum",
+      "type": "FERIA"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-01-03"
+  },
+  {
+    "date": "2026-01-04",
+    "monthDay": "1/4",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Holy Name of Jesus",
+      "type": "FEAST"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-01-04"
+  },
+  {
+    "date": "2026-01-05",
+    "monthDay": "1/5",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Feria",
+      "type": "FERIA",
+      "description": "St. Telesphorus Pope and Martyr"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-01-05"
+  },
+  {
+    "date": "2026-01-06",
+    "monthDay": "1/6",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Epiphany of the Lord",
+      "type": "SOLEMNITY"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-01-06"
+  },
+  {
+    "date": "2026-01-07",
+    "monthDay": "1/7",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Feria",
+      "type": "FERIA"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-01-07"
+  },
+  {
+    "date": "2026-01-08",
+    "monthDay": "1/8",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Feria",
+      "type": "FERIA"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-01-08"
+  },
+  {
+    "date": "2026-01-09",
+    "monthDay": "1/9",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Feria",
+      "type": "FERIA"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-01-09"
+  },
+  {
+    "date": "2026-01-10",
+    "monthDay": "1/10",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "II Mass of the B. V. M. \u2013 Vultum Tuum",
+      "type": "FERIA"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-01-10"
+  },
+  {
+    "date": "2026-01-11",
+    "monthDay": "1/11",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "The Holy Family: Jesus, Mary & Joseph",
+      "type": "FEAST"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-01-11"
+  },
+  {
+    "date": "2026-01-12",
+    "monthDay": "1/12",
+    "season": "Epiphany",
+    "celebration": {
+      "name": "Feria",
+      "type": "FERIA"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-01-12"
+  },
+  {
+    "date": "2026-01-13",
+    "monthDay": "1/13",
+    "season": "Epiphany",
+    "celebration": {
+      "name": "Commemoration of the Baptism of the Lord",
+      "type": "FEAST"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-01-13"
+  },
+  {
+    "date": "2026-01-14",
+    "monthDay": "1/14",
+    "season": "Epiphany",
+    "celebration": {
+      "name": "St. Hilary",
+      "type": "MEMORIAL",
+      "description": "S. Felicis"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-01-14"
+  },
+  {
+    "date": "2026-01-15",
+    "monthDay": "1/15",
+    "season": "Epiphany",
+    "celebration": {
+      "name": "St. Paul, the First Hermit",
+      "type": "MEMORIAL",
+      "description": "St. Maur, Abbot"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-01-15"
+  },
+  {
+    "date": "2026-01-16",
+    "monthDay": "1/16",
+    "season": "Epiphany",
+    "celebration": {
+      "name": "St. Marcellus I",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-01-16"
+  },
+  {
+    "date": "2026-01-17",
+    "monthDay": "1/17",
+    "season": "Epiphany",
+    "celebration": {
+      "name": "St. Anthony",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-01-17"
+  },
+  {
+    "date": "2026-01-18",
+    "monthDay": "1/18",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "II Sunday after Epiphany",
+      "type": "FEAST"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-01-18"
+  },
+  {
+    "date": "2026-01-19",
+    "monthDay": "1/19",
+    "season": "Epiphany",
+    "celebration": {
+      "name": "Feria",
+      "type": "FERIA",
+      "description": "Sts. Marius, Martha, Audifax & Abachum, St. Canute, Martyr"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-01-19"
+  },
+  {
+    "date": "2026-01-20",
+    "monthDay": "1/20",
+    "season": "Epiphany",
+    "celebration": {
+      "name": "Sts. Fabian & Sebastian",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-01-20"
+  },
+  {
+    "date": "2026-01-21",
+    "monthDay": "1/21",
+    "season": "Epiphany",
+    "celebration": {
+      "name": "St. Agnes",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-01-21"
+  },
+  {
+    "date": "2026-01-22",
+    "monthDay": "1/22",
+    "season": "Epiphany",
+    "celebration": {
+      "name": "Sts. Vincent & Anastasius",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-01-22"
+  },
+  {
+    "date": "2026-01-23",
+    "monthDay": "1/23",
+    "season": "Epiphany",
+    "celebration": {
+      "name": "St. Raymond of Pe\u00f1afort",
+      "type": "MEMORIAL",
+      "description": "St. Emerentiana"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-01-23"
+  },
+  {
+    "date": "2026-01-24",
+    "monthDay": "1/24",
+    "season": "Epiphany",
+    "celebration": {
+      "name": "St. Timothy",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-01-24"
+  },
+  {
+    "date": "2026-01-25",
+    "monthDay": "1/25",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "III Sunday after Epiphany",
+      "type": "FEAST"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-01-25"
+  },
+  {
+    "date": "2026-01-26",
+    "monthDay": "1/26",
+    "season": "Epiphany",
+    "celebration": {
+      "name": "St. Polycarp",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-01-26"
+  },
+  {
+    "date": "2026-01-27",
+    "monthDay": "1/27",
+    "season": "Epiphany",
+    "celebration": {
+      "name": "St. John Chrysostom",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-01-27"
+  },
+  {
+    "date": "2026-01-28",
+    "monthDay": "1/28",
+    "season": "Epiphany",
+    "celebration": {
+      "name": "St. Peter Nolasco",
+      "type": "MEMORIAL",
+      "description": "St. Agnes"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-01-28"
+  },
+  {
+    "date": "2026-01-29",
+    "monthDay": "1/29",
+    "season": "Epiphany",
+    "celebration": {
+      "name": "St. Francis de Sales",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-01-29"
+  },
+  {
+    "date": "2026-01-30",
+    "monthDay": "1/30",
+    "season": "Epiphany",
+    "celebration": {
+      "name": "St. Martina",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-01-30"
+  },
+  {
+    "date": "2026-01-31",
+    "monthDay": "1/31",
+    "season": "Epiphany",
+    "celebration": {
+      "name": "St. John Bosco",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-01-31"
+  },
+  {
+    "date": "2026-02-01",
+    "monthDay": "2/1",
+    "season": "Lent",
+    "celebration": {
+      "name": "Septuagesima Sunday",
+      "type": "FEAST"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-02-01"
+  },
+  {
+    "date": "2026-02-02",
+    "monthDay": "2/2",
+    "season": "Pre-Lent",
+    "celebration": {
+      "name": "Purification of the Blessed Virgin Mary",
+      "type": "FEAST"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-02-02"
+  },
+  {
+    "date": "2026-02-03",
+    "monthDay": "2/3",
+    "season": "Pre-Lent",
+    "celebration": {
+      "name": "Feria",
+      "type": "FERIA",
+      "description": "St. Blaise"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-02-03"
+  },
+  {
+    "date": "2026-02-04",
+    "monthDay": "2/4",
+    "season": "Pre-Lent",
+    "celebration": {
+      "name": "St. Andrew Corsini",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-02-04"
+  },
+  {
+    "date": "2026-02-05",
+    "monthDay": "2/5",
+    "season": "Pre-Lent",
+    "celebration": {
+      "name": "St. Agatha",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-02-05"
+  },
+  {
+    "date": "2026-02-06",
+    "monthDay": "2/6",
+    "season": "Pre-Lent",
+    "celebration": {
+      "name": "St. Titus",
+      "type": "MEMORIAL",
+      "description": "St. Dorothy"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-02-06"
+  },
+  {
+    "date": "2026-02-07",
+    "monthDay": "2/7",
+    "season": "Pre-Lent",
+    "celebration": {
+      "name": "St. Romuald",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-02-07"
+  },
+  {
+    "date": "2026-02-08",
+    "monthDay": "2/8",
+    "season": "Lent",
+    "celebration": {
+      "name": "Sexagesima Sunday",
+      "type": "FEAST"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-02-08"
+  },
+  {
+    "date": "2026-02-09",
+    "monthDay": "2/9",
+    "season": "Pre-Lent",
+    "celebration": {
+      "name": "St. Cyril of Alexandria",
+      "type": "MEMORIAL",
+      "description": "St. Appollonia"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-02-09"
+  },
+  {
+    "date": "2026-02-10",
+    "monthDay": "2/10",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Scholastica",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-02-10"
+  },
+  {
+    "date": "2026-02-11",
+    "monthDay": "2/11",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Our Lady of Lourdes",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-02-11"
+  },
+  {
+    "date": "2026-02-12",
+    "monthDay": "2/12",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Seven Holy Servite Founders",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-02-12"
+  },
+  {
+    "date": "2026-02-13",
+    "monthDay": "2/13",
+    "season": "Lent",
+    "celebration": {
+      "name": "Feria",
+      "type": "FERIA"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-02-13"
+  },
+  {
+    "date": "2026-02-14",
+    "monthDay": "2/14",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "III Mass of the B. V. M. \u2013 Salve, Sancta Parens",
+      "type": "FERIA",
+      "description": "St. Valentine"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-02-14"
+  },
+  {
+    "date": "2026-02-15",
+    "monthDay": "2/15",
+    "season": "Lent",
+    "celebration": {
+      "name": "Quinquagesima Sunday",
+      "type": "FEAST"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-02-15"
+  },
+  {
+    "date": "2026-02-16",
+    "monthDay": "2/16",
+    "season": "Pre-Lent",
+    "celebration": {
+      "name": "Feria",
+      "type": "FERIA"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-02-16"
+  },
+  {
+    "date": "2026-02-17",
+    "monthDay": "2/17",
+    "season": "Pre-Lent",
+    "celebration": {
+      "name": "Feria",
+      "type": "FERIA"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-02-17"
+  },
+  {
+    "date": "2026-02-18",
+    "monthDay": "2/18",
+    "season": "Lent",
+    "celebration": {
+      "name": "Ash Wednesday",
+      "type": "SOLEMNITY"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-02-18"
+  },
+  {
+    "date": "2026-02-19",
+    "monthDay": "2/19",
+    "season": "Lent",
+    "celebration": {
+      "name": "Feria V after Ash Wednesday",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-02-19"
+  },
+  {
+    "date": "2026-02-20",
+    "monthDay": "2/20",
+    "season": "Lent",
+    "celebration": {
+      "name": "Feria VI after Ash Wednesday",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-02-20"
+  },
+  {
+    "date": "2026-02-21",
+    "monthDay": "2/21",
+    "season": "Lent",
+    "celebration": {
+      "name": "Saturday after Ash Wednesday",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-02-21"
+  },
+  {
+    "date": "2026-02-22",
+    "monthDay": "2/22",
+    "season": "Lent",
+    "celebration": {
+      "name": "I Sunday of Lent",
+      "type": "SOLEMNITY"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-02-22"
+  },
+  {
+    "date": "2026-02-23",
+    "monthDay": "2/23",
+    "season": "Lent",
+    "celebration": {
+      "name": "Feria II after the I Sunday of Lent",
+      "type": "MEMORIAL",
+      "description": "St. Peter Damien"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-02-23"
+  },
+  {
+    "date": "2026-02-24",
+    "monthDay": "2/24",
+    "season": "Lent",
+    "celebration": {
+      "name": "St. Matthias",
+      "type": "FEAST",
+      "description": "Feria III after the I Sunday of Lent"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-02-24"
+  },
+  {
+    "date": "2026-02-25",
+    "monthDay": "2/25",
+    "season": "Lent",
+    "celebration": {
+      "name": "Ember Wednesday of Lent",
+      "type": "FEAST"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-02-25"
+  },
+  {
+    "date": "2026-02-26",
+    "monthDay": "2/26",
+    "season": "Lent",
+    "celebration": {
+      "name": "Feria V after the I Sunday of Lent",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-02-26"
+  },
+  {
+    "date": "2026-02-27",
+    "monthDay": "2/27",
+    "season": "Lent",
+    "celebration": {
+      "name": "Ember Friday of Lent",
+      "type": "FEAST",
+      "description": "St. Gabriel of Our Lady of Sorrows"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-02-27"
+  },
+  {
+    "date": "2026-02-28",
+    "monthDay": "2/28",
+    "season": "Lent",
+    "celebration": {
+      "name": "Ember Saturday of Lent",
+      "type": "FEAST"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-02-28"
+  },
+  {
+    "date": "2026-03-01",
+    "monthDay": "3/1",
+    "season": "Lent",
+    "celebration": {
+      "name": "II Sunday of Lent",
+      "type": "SOLEMNITY"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-03-01"
+  },
+  {
+    "date": "2026-03-02",
+    "monthDay": "3/2",
+    "season": "Lent",
+    "celebration": {
+      "name": "Feria II after the II Sunday of Lent",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-03-02"
+  },
+  {
+    "date": "2026-03-03",
+    "monthDay": "3/3",
+    "season": "Lent",
+    "celebration": {
+      "name": "Feria III after the II Sunday of Lent",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-03-03"
+  },
+  {
+    "date": "2026-03-04",
+    "monthDay": "3/4",
+    "season": "Lent",
+    "celebration": {
+      "name": "Feria IV after the II Sunday of Lent",
+      "type": "MEMORIAL",
+      "description": "St. Casimir, St. Lucius"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-03-04"
+  },
+  {
+    "date": "2026-03-05",
+    "monthDay": "3/5",
+    "season": "Lent",
+    "celebration": {
+      "name": "Feria V after the II Sunday of Lent",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-03-05"
+  },
+  {
+    "date": "2026-03-06",
+    "monthDay": "3/6",
+    "season": "Lent",
+    "celebration": {
+      "name": "Feria VI after the II Sunday of Lent",
+      "type": "MEMORIAL",
+      "description": "Sts. Felicitas & Perpetua"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-03-06"
+  },
+  {
+    "date": "2026-03-07",
+    "monthDay": "3/7",
+    "season": "Lent",
+    "celebration": {
+      "name": "Saturday after the II Sunday of Lent",
+      "type": "MEMORIAL",
+      "description": "St. Thomas Aquinas"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-03-07"
+  },
+  {
+    "date": "2026-03-08",
+    "monthDay": "3/8",
+    "season": "Lent",
+    "celebration": {
+      "name": "III Sunday of Lent",
+      "type": "SOLEMNITY"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-03-08"
+  },
+  {
+    "date": "2026-03-09",
+    "monthDay": "3/9",
+    "season": "Lent",
+    "celebration": {
+      "name": "Feria II after the III Sunday of Lent",
+      "type": "MEMORIAL",
+      "description": "St. Frances Rome"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-03-09"
+  },
+  {
+    "date": "2026-03-10",
+    "monthDay": "3/10",
+    "season": "Lent",
+    "celebration": {
+      "name": "Feria III after the III Sunday of Lent",
+      "type": "MEMORIAL",
+      "description": "Forty Holy Martyrs of Sebaste"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-03-10"
+  },
+  {
+    "date": "2026-03-11",
+    "monthDay": "3/11",
+    "season": "Lent",
+    "celebration": {
+      "name": "Feria IV after the III Sunday of Lent",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-03-11"
+  },
+  {
+    "date": "2026-03-12",
+    "monthDay": "3/12",
+    "season": "Lent",
+    "celebration": {
+      "name": "Feria V after the III Sunday of Lent",
+      "type": "MEMORIAL",
+      "description": "St. Gregory the Great"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-03-12"
+  },
+  {
+    "date": "2026-03-13",
+    "monthDay": "3/13",
+    "season": "Lent",
+    "celebration": {
+      "name": "Feria VI after the III Sunday of Lent",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-03-13"
+  },
+  {
+    "date": "2026-03-14",
+    "monthDay": "3/14",
+    "season": "Lent",
+    "celebration": {
+      "name": "Saturday after the III Sunday of Lent",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-03-14"
+  },
+  {
+    "date": "2026-03-15",
+    "monthDay": "3/15",
+    "season": "Lent",
+    "celebration": {
+      "name": "IV Sunday of Lent",
+      "type": "SOLEMNITY"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-03-15"
+  },
+  {
+    "date": "2026-03-16",
+    "monthDay": "3/16",
+    "season": "Lent",
+    "celebration": {
+      "name": "Feria II after the IV Sunday of Lent",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-03-16"
+  },
+  {
+    "date": "2026-03-17",
+    "monthDay": "3/17",
+    "season": "Lent",
+    "celebration": {
+      "name": "Feria III after the IV Sunday of Lent",
+      "type": "MEMORIAL",
+      "description": "St. Patrick"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-03-17"
+  },
+  {
+    "date": "2026-03-18",
+    "monthDay": "3/18",
+    "season": "Lent",
+    "celebration": {
+      "name": "Feria IV after the IV Sunday of Lent",
+      "type": "MEMORIAL",
+      "description": "St. Cyril of Jerusalem"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-03-18"
+  },
+  {
+    "date": "2026-03-19",
+    "monthDay": "3/19",
+    "season": "Lent",
+    "celebration": {
+      "name": "St. Joseph, Spouse of the Bl. Virgin Mary",
+      "type": "SOLEMNITY",
+      "description": "Feria V after the IV Sunday of Lent"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-03-19"
+  },
+  {
+    "date": "2026-03-20",
+    "monthDay": "3/20",
+    "season": "Lent",
+    "celebration": {
+      "name": "Feria VI after the IV Sunday of Lent",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-03-20"
+  },
+  {
+    "date": "2026-03-21",
+    "monthDay": "3/21",
+    "season": "Lent",
+    "celebration": {
+      "name": "Saturday after the IV Sunday of Lent",
+      "type": "MEMORIAL",
+      "description": "St. Benedict"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-03-21"
+  },
+  {
+    "date": "2026-03-22",
+    "monthDay": "3/22",
+    "season": "Lent",
+    "celebration": {
+      "name": "Passion Sunday",
+      "type": "SOLEMNITY"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-03-22"
+  },
+  {
+    "date": "2026-03-23",
+    "monthDay": "3/23",
+    "season": "Lent",
+    "celebration": {
+      "name": "Feria II of Passion Week",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-03-23"
+  },
+  {
+    "date": "2026-03-24",
+    "monthDay": "3/24",
+    "season": "Lent",
+    "celebration": {
+      "name": "Feria III of Passion Week",
+      "type": "MEMORIAL",
+      "description": "St. Gabriel the Archangel"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-03-24"
+  },
+  {
+    "date": "2026-03-25",
+    "monthDay": "3/25",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Annunciation of the Blessed Virgin Mary",
+      "type": "SOLEMNITY",
+      "description": "Feria IV of Passion Week"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-03-25"
+  },
+  {
+    "date": "2026-03-26",
+    "monthDay": "3/26",
+    "season": "Lent",
+    "celebration": {
+      "name": "Feria V of Passion Week",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-03-26"
+  },
+  {
+    "date": "2026-03-27",
+    "monthDay": "3/27",
+    "season": "Lent",
+    "celebration": {
+      "name": "Feria VI of Passion Week",
+      "type": "MEMORIAL",
+      "description": "For Our Lady of the Seven Sorrows"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-03-27"
+  },
+  {
+    "date": "2026-03-28",
+    "monthDay": "3/28",
+    "season": "Lent",
+    "celebration": {
+      "name": "Saturday of Passion Week",
+      "type": "MEMORIAL",
+      "description": "St. John of Capistrano"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-03-28"
+  },
+  {
+    "date": "2026-03-29",
+    "monthDay": "3/29",
+    "season": "Lent",
+    "celebration": {
+      "name": "Palm Sunday",
+      "type": "SOLEMNITY"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-03-29"
+  },
+  {
+    "date": "2026-03-30",
+    "monthDay": "3/30",
+    "season": "Lent",
+    "celebration": {
+      "name": "Feria II of Holy Week",
+      "type": "SOLEMNITY"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-03-30"
+  },
+  {
+    "date": "2026-03-31",
+    "monthDay": "3/31",
+    "season": "Lent",
+    "celebration": {
+      "name": "Feria III of Holy Week",
+      "type": "SOLEMNITY"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-03-31"
+  },
+  {
+    "date": "2026-04-01",
+    "monthDay": "4/1",
+    "season": "Lent",
+    "celebration": {
+      "name": "Feria IV of Holy Week",
+      "type": "SOLEMNITY"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-04-01"
+  },
+  {
+    "date": "2026-04-02",
+    "monthDay": "4/2",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Holy Thursday",
+      "type": "SOLEMNITY"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-04-02"
+  },
+  {
+    "date": "2026-04-03",
+    "monthDay": "4/3",
+    "season": "Lent",
+    "celebration": {
+      "name": "Good Friday",
+      "type": "SOLEMNITY"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-04-03"
+  },
+  {
+    "date": "2026-04-04",
+    "monthDay": "4/4",
+    "season": "Lent",
+    "celebration": {
+      "name": "Holy Saturday",
+      "type": "SOLEMNITY"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-04-04"
+  },
+  {
+    "date": "2026-04-05",
+    "monthDay": "4/5",
+    "season": "Easter",
+    "celebration": {
+      "name": "Easter Sunday",
+      "type": "SOLEMNITY"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-04-05"
+  },
+  {
+    "date": "2026-04-06",
+    "monthDay": "4/6",
+    "season": "Easter",
+    "celebration": {
+      "name": "Monday in the Octave of Easter",
+      "type": "SOLEMNITY"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-04-06"
+  },
+  {
+    "date": "2026-04-07",
+    "monthDay": "4/7",
+    "season": "Easter",
+    "celebration": {
+      "name": "Tuesday in the Octave of Easter",
+      "type": "SOLEMNITY"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-04-07"
+  },
+  {
+    "date": "2026-04-08",
+    "monthDay": "4/8",
+    "season": "Easter",
+    "celebration": {
+      "name": "Wednesday in the Octave of Easter",
+      "type": "SOLEMNITY"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-04-08"
+  },
+  {
+    "date": "2026-04-09",
+    "monthDay": "4/9",
+    "season": "Easter",
+    "celebration": {
+      "name": "Thursday in the Octave of Easter",
+      "type": "SOLEMNITY"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-04-09"
+  },
+  {
+    "date": "2026-04-10",
+    "monthDay": "4/10",
+    "season": "Easter",
+    "celebration": {
+      "name": "Friday in the Octave of Easter",
+      "type": "SOLEMNITY"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-04-10"
+  },
+  {
+    "date": "2026-04-11",
+    "monthDay": "4/11",
+    "season": "Easter",
+    "celebration": {
+      "name": "Saturday in the Octave of Easter",
+      "type": "SOLEMNITY"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-04-11"
+  },
+  {
+    "date": "2026-04-12",
+    "monthDay": "4/12",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Low Sunday",
+      "type": "SOLEMNITY"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-04-12"
+  },
+  {
+    "date": "2026-04-13",
+    "monthDay": "4/13",
+    "season": "Easter",
+    "celebration": {
+      "name": "St. Hermenegild",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-04-13"
+  },
+  {
+    "date": "2026-04-14",
+    "monthDay": "4/14",
+    "season": "Easter",
+    "celebration": {
+      "name": "St. Justin",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-04-14"
+  },
+  {
+    "date": "2026-04-15",
+    "monthDay": "4/15",
+    "season": "Easter",
+    "celebration": {
+      "name": "Feria",
+      "type": "FERIA"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-04-15"
+  },
+  {
+    "date": "2026-04-16",
+    "monthDay": "4/16",
+    "season": "Easter",
+    "celebration": {
+      "name": "Feria",
+      "type": "FERIA"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-04-16"
+  },
+  {
+    "date": "2026-04-17",
+    "monthDay": "4/17",
+    "season": "Easter",
+    "celebration": {
+      "name": "Feria",
+      "type": "FERIA",
+      "description": "St. Anicetus"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-04-17"
+  },
+  {
+    "date": "2026-04-18",
+    "monthDay": "4/18",
+    "season": "Easter",
+    "celebration": {
+      "name": "IV Mass of the B. V. M. \u2013 Salve, Sancta Parens",
+      "type": "FERIA"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-04-18"
+  },
+  {
+    "date": "2026-04-19",
+    "monthDay": "4/19",
+    "season": "Easter",
+    "celebration": {
+      "name": "II Sunday after Easter",
+      "type": "FEAST"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-04-19"
+  },
+  {
+    "date": "2026-04-20",
+    "monthDay": "4/20",
+    "season": "Easter",
+    "celebration": {
+      "name": "Feria",
+      "type": "FERIA"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-04-20"
+  },
+  {
+    "date": "2026-04-21",
+    "monthDay": "4/21",
+    "season": "Easter",
+    "celebration": {
+      "name": "St. Anselm",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-04-21"
+  },
+  {
+    "date": "2026-04-22",
+    "monthDay": "4/22",
+    "season": "Easter",
+    "celebration": {
+      "name": "Sts. Soter & Caius",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-04-22"
+  },
+  {
+    "date": "2026-04-23",
+    "monthDay": "4/23",
+    "season": "Easter",
+    "celebration": {
+      "name": "Feria",
+      "type": "FERIA",
+      "description": "St. George"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-04-23"
+  },
+  {
+    "date": "2026-04-24",
+    "monthDay": "4/24",
+    "season": "Easter",
+    "celebration": {
+      "name": "St. Fidelis of Sigmaringen",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-04-24"
+  },
+  {
+    "date": "2026-04-25",
+    "monthDay": "4/25",
+    "season": "Easter",
+    "celebration": {
+      "name": "St. Mark",
+      "type": "FEAST",
+      "description": "Pro rogationibus"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-04-25"
+  },
+  {
+    "date": "2026-04-26",
+    "monthDay": "4/26",
+    "season": "Easter",
+    "celebration": {
+      "name": "III Sunday after Easter",
+      "type": "FEAST"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-04-26"
+  },
+  {
+    "date": "2026-04-27",
+    "monthDay": "4/27",
+    "season": "Easter",
+    "celebration": {
+      "name": "St. Peter Canisius",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-04-27"
+  },
+  {
+    "date": "2026-04-28",
+    "monthDay": "4/28",
+    "season": "Easter",
+    "celebration": {
+      "name": "St. Paul of the Cross",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-04-28"
+  },
+  {
+    "date": "2026-04-29",
+    "monthDay": "4/29",
+    "season": "Easter",
+    "celebration": {
+      "name": "St. Peter of Verona",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-04-29"
+  },
+  {
+    "date": "2026-04-30",
+    "monthDay": "4/30",
+    "season": "Easter",
+    "celebration": {
+      "name": "St. Catherine of Siena",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-04-30"
+  },
+  {
+    "date": "2026-05-01",
+    "monthDay": "5/1",
+    "season": "Easter",
+    "celebration": {
+      "name": "St. Joseph the Workman",
+      "type": "SOLEMNITY"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-05-01"
+  },
+  {
+    "date": "2026-05-02",
+    "monthDay": "5/2",
+    "season": "Easter",
+    "celebration": {
+      "name": "St. Athanasius",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-05-02"
+  },
+  {
+    "date": "2026-05-03",
+    "monthDay": "5/3",
+    "season": "Easter",
+    "celebration": {
+      "name": "IV Sunday after Easter",
+      "type": "FEAST"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-05-03"
+  },
+  {
+    "date": "2026-05-04",
+    "monthDay": "5/4",
+    "season": "Easter",
+    "celebration": {
+      "name": "St. Monica",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-05-04"
+  },
+  {
+    "date": "2026-05-05",
+    "monthDay": "5/5",
+    "season": "Easter",
+    "celebration": {
+      "name": "St. Pius V",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-05-05"
+  },
+  {
+    "date": "2026-05-06",
+    "monthDay": "5/6",
+    "season": "Easter",
+    "celebration": {
+      "name": "Feria",
+      "type": "FERIA"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-05-06"
+  },
+  {
+    "date": "2026-05-07",
+    "monthDay": "5/7",
+    "season": "Easter",
+    "celebration": {
+      "name": "St. Stanislaus",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-05-07"
+  },
+  {
+    "date": "2026-05-08",
+    "monthDay": "5/8",
+    "season": "Easter",
+    "celebration": {
+      "name": "Feria",
+      "type": "FERIA"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-05-08"
+  },
+  {
+    "date": "2026-05-09",
+    "monthDay": "5/9",
+    "season": "Easter",
+    "celebration": {
+      "name": "St. Gregory of Nazianzen",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-05-09"
+  },
+  {
+    "date": "2026-05-10",
+    "monthDay": "5/10",
+    "season": "Easter",
+    "celebration": {
+      "name": "V Sunday after Easter",
+      "type": "FEAST"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-05-10"
+  },
+  {
+    "date": "2026-05-11",
+    "monthDay": "5/11",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Sts. Philip & James",
+      "type": "FEAST"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-05-11"
+  },
+  {
+    "date": "2026-05-12",
+    "monthDay": "5/12",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Sts. Nereus, Achilleus, Domitilla, & Pancras",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-05-12"
+  },
+  {
+    "date": "2026-05-13",
+    "monthDay": "5/13",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Vigil of the Ascension",
+      "type": "FEAST",
+      "description": "St. Robert Bellarmine"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-05-13"
+  },
+  {
+    "date": "2026-05-14",
+    "monthDay": "5/14",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Ascension of the Lord",
+      "type": "SOLEMNITY"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-05-14"
+  },
+  {
+    "date": "2026-05-15",
+    "monthDay": "5/15",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. John Baptist de la Salle",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-05-15"
+  },
+  {
+    "date": "2026-05-16",
+    "monthDay": "5/16",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "IV Mass of the B. V. M. \u2013 Salve, Sancta Parens",
+      "type": "FERIA",
+      "description": "St. Ubaldus"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-05-16"
+  },
+  {
+    "date": "2026-05-17",
+    "monthDay": "5/17",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Sunday after the Ascension",
+      "type": "FEAST"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-05-17"
+  },
+  {
+    "date": "2026-05-18",
+    "monthDay": "5/18",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Venantius",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-05-18"
+  },
+  {
+    "date": "2026-05-19",
+    "monthDay": "5/19",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Peter Celestine",
+      "type": "MEMORIAL",
+      "description": "St. Pudentiana Virginis"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-05-19"
+  },
+  {
+    "date": "2026-05-20",
+    "monthDay": "5/20",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Bernardine of Siena",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-05-20"
+  },
+  {
+    "date": "2026-05-21",
+    "monthDay": "5/21",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Feria",
+      "type": "FERIA"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-05-21"
+  },
+  {
+    "date": "2026-05-22",
+    "monthDay": "5/22",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Feria",
+      "type": "FERIA"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-05-22"
+  },
+  {
+    "date": "2026-05-23",
+    "monthDay": "5/23",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Saturday after the Ascension",
+      "type": "SOLEMNITY"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-05-23"
+  },
+  {
+    "date": "2026-05-24",
+    "monthDay": "5/24",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Pentecost Sunday",
+      "type": "SOLEMNITY"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-05-24"
+  },
+  {
+    "date": "2026-05-25",
+    "monthDay": "5/25",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Monday after Pentecost",
+      "type": "SOLEMNITY"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-05-25"
+  },
+  {
+    "date": "2026-05-26",
+    "monthDay": "5/26",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Tuesday after Pentecost",
+      "type": "SOLEMNITY"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-05-26"
+  },
+  {
+    "date": "2026-05-27",
+    "monthDay": "5/27",
+    "season": "Lent",
+    "celebration": {
+      "name": "Ember Wednesday of Pentecost",
+      "type": "SOLEMNITY"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-05-27"
+  },
+  {
+    "date": "2026-05-28",
+    "monthDay": "5/28",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Thursday after Pentecost",
+      "type": "SOLEMNITY"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-05-28"
+  },
+  {
+    "date": "2026-05-29",
+    "monthDay": "5/29",
+    "season": "Lent",
+    "celebration": {
+      "name": "Ember Friday of Pentecost",
+      "type": "SOLEMNITY"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-05-29"
+  },
+  {
+    "date": "2026-05-30",
+    "monthDay": "5/30",
+    "season": "Lent",
+    "celebration": {
+      "name": "Ember Saturday of Pentecost",
+      "type": "SOLEMNITY"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-05-30"
+  },
+  {
+    "date": "2026-05-31",
+    "monthDay": "5/31",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Trinity Sunday",
+      "type": "SOLEMNITY"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-05-31"
+  },
+  {
+    "date": "2026-06-01",
+    "monthDay": "6/1",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Angela Merici",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-06-01"
+  },
+  {
+    "date": "2026-06-02",
+    "monthDay": "6/2",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Feria",
+      "type": "FERIA",
+      "description": "Sts. Marcellinus, Peter, & Erasmus"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-06-02"
+  },
+  {
+    "date": "2026-06-03",
+    "monthDay": "6/3",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Feria",
+      "type": "FERIA"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-06-03"
+  },
+  {
+    "date": "2026-06-04",
+    "monthDay": "6/4",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Corpus Christi",
+      "type": "SOLEMNITY"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-06-04"
+  },
+  {
+    "date": "2026-06-05",
+    "monthDay": "6/5",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Boniface",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-06-05"
+  },
+  {
+    "date": "2026-06-06",
+    "monthDay": "6/6",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Norbert",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-06-06"
+  },
+  {
+    "date": "2026-06-07",
+    "monthDay": "6/7",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "II Sunday after Pentecost",
+      "type": "FEAST"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-06-07"
+  },
+  {
+    "date": "2026-06-08",
+    "monthDay": "6/8",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Feria",
+      "type": "FERIA"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-06-08"
+  },
+  {
+    "date": "2026-06-09",
+    "monthDay": "6/9",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Feria",
+      "type": "FERIA",
+      "description": "Sts. Primus & Felicianus"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-06-09"
+  },
+  {
+    "date": "2026-06-10",
+    "monthDay": "6/10",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Margaret of Scotland",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-06-10"
+  },
+  {
+    "date": "2026-06-11",
+    "monthDay": "6/11",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Barnabas",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-06-11"
+  },
+  {
+    "date": "2026-06-12",
+    "monthDay": "6/12",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Sacred Heart of Jesus",
+      "type": "SOLEMNITY"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-06-12"
+  },
+  {
+    "date": "2026-06-13",
+    "monthDay": "6/13",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Anthony of Padua",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-06-13"
+  },
+  {
+    "date": "2026-06-14",
+    "monthDay": "6/14",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "III Sunday after Pentecost",
+      "type": "FEAST"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-06-14"
+  },
+  {
+    "date": "2026-06-15",
+    "monthDay": "6/15",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Feria",
+      "type": "FERIA",
+      "description": "St. Vitus"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-06-15"
+  },
+  {
+    "date": "2026-06-16",
+    "monthDay": "6/16",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Feria",
+      "type": "FERIA"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-06-16"
+  },
+  {
+    "date": "2026-06-17",
+    "monthDay": "6/17",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Gregory Barbarigo",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-06-17"
+  },
+  {
+    "date": "2026-06-18",
+    "monthDay": "6/18",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Ephrem of Syria",
+      "type": "MEMORIAL",
+      "description": "Ss. Marcus and Marcellianus"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-06-18"
+  },
+  {
+    "date": "2026-06-19",
+    "monthDay": "6/19",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Julia of Falconieri",
+      "type": "MEMORIAL",
+      "description": "Sts. Gervasius and Protasius"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-06-19"
+  },
+  {
+    "date": "2026-06-20",
+    "monthDay": "6/20",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "V Mass of the B. V. M. \u2013 Salve, Sancta Parens",
+      "type": "FERIA",
+      "description": "St. Silverius"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-06-20"
+  },
+  {
+    "date": "2026-06-21",
+    "monthDay": "6/21",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "IV Sunday after Pentecost",
+      "type": "FEAST"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-06-21"
+  },
+  {
+    "date": "2026-06-22",
+    "monthDay": "6/22",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Paulinus of Nola",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-06-22"
+  },
+  {
+    "date": "2026-06-23",
+    "monthDay": "6/23",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Vigil of the Nativity of St. John the Baptist",
+      "type": "FEAST"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-06-23"
+  },
+  {
+    "date": "2026-06-24",
+    "monthDay": "6/24",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Nativity of St. John the Baptist",
+      "type": "SOLEMNITY"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-06-24"
+  },
+  {
+    "date": "2026-06-25",
+    "monthDay": "6/25",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. William",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-06-25"
+  },
+  {
+    "date": "2026-06-26",
+    "monthDay": "6/26",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Sts. John & Paul",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-06-26"
+  },
+  {
+    "date": "2026-06-27",
+    "monthDay": "6/27",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "V Mass of the B. V. M. \u2013 Salve, Sancta Parens",
+      "type": "FERIA"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-06-27"
+  },
+  {
+    "date": "2026-06-28",
+    "monthDay": "6/28",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "V Sunday after Pentecost",
+      "type": "FEAST",
+      "description": "Vigil of Sts. Peter & Paul"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-06-28"
+  },
+  {
+    "date": "2026-06-29",
+    "monthDay": "6/29",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Sts. Peter & Paul",
+      "type": "SOLEMNITY"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-06-29"
+  },
+  {
+    "date": "2026-06-30",
+    "monthDay": "6/30",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "In Commemoratione Sancti Pauli Apostoli",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-06-30"
+  },
+  {
+    "date": "2026-07-01",
+    "monthDay": "7/1",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "The Precious Blood of Our Lord Jesus Christ",
+      "type": "SOLEMNITY"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-07-01"
+  },
+  {
+    "date": "2026-07-02",
+    "monthDay": "7/2",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Visitation of the Blessed Virgin Mary",
+      "type": "FEAST",
+      "description": "SS. Processus and Martinian"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-07-02"
+  },
+  {
+    "date": "2026-07-03",
+    "monthDay": "7/3",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Irenaeus",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-07-03"
+  },
+  {
+    "date": "2026-07-04",
+    "monthDay": "7/4",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "V Mass of the B. V. M. \u2013 Salve, Sancta Parens",
+      "type": "FERIA"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-07-04"
+  },
+  {
+    "date": "2026-07-05",
+    "monthDay": "7/5",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "VI Sunday after Pentecost",
+      "type": "FEAST"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-07-05"
+  },
+  {
+    "date": "2026-07-06",
+    "monthDay": "7/6",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Feria",
+      "type": "FERIA"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-07-06"
+  },
+  {
+    "date": "2026-07-07",
+    "monthDay": "7/7",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Sts. Cyril & Methodius",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-07-07"
+  },
+  {
+    "date": "2026-07-08",
+    "monthDay": "7/8",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Elizabeth of Portugal",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-07-08"
+  },
+  {
+    "date": "2026-07-09",
+    "monthDay": "7/9",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Feria",
+      "type": "FERIA"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-07-09"
+  },
+  {
+    "date": "2026-07-10",
+    "monthDay": "7/10",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Seven Holy Brothers and Sts. Rufina & Secunda",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-07-10"
+  },
+  {
+    "date": "2026-07-11",
+    "monthDay": "7/11",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "V Mass of the B. V. M. \u2013 Salve, Sancta Parens",
+      "type": "FERIA",
+      "description": "St. Pius I"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-07-11"
+  },
+  {
+    "date": "2026-07-12",
+    "monthDay": "7/12",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "VII Sunday after Pentecost",
+      "type": "FEAST"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-07-12"
+  },
+  {
+    "date": "2026-07-13",
+    "monthDay": "7/13",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Feria",
+      "type": "FERIA"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-07-13"
+  },
+  {
+    "date": "2026-07-14",
+    "monthDay": "7/14",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Bonaventure",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-07-14"
+  },
+  {
+    "date": "2026-07-15",
+    "monthDay": "7/15",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Henry the Emperor",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-07-15"
+  },
+  {
+    "date": "2026-07-16",
+    "monthDay": "7/16",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Feria",
+      "type": "FERIA",
+      "description": "Our Lady of Mt. Carmel"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-07-16"
+  },
+  {
+    "date": "2026-07-17",
+    "monthDay": "7/17",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Feria",
+      "type": "FERIA",
+      "description": "St. Alexis"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-07-17"
+  },
+  {
+    "date": "2026-07-18",
+    "monthDay": "7/18",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Camillus de Lellis",
+      "type": "MEMORIAL",
+      "description": "Ss. Symphorosa and sons"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-07-18"
+  },
+  {
+    "date": "2026-07-19",
+    "monthDay": "7/19",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "VIII Sunday after Pentecost",
+      "type": "FEAST"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-07-19"
+  },
+  {
+    "date": "2026-07-20",
+    "monthDay": "7/20",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Jerome Emiliani",
+      "type": "MEMORIAL",
+      "description": "St. Margaret"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-07-20"
+  },
+  {
+    "date": "2026-07-21",
+    "monthDay": "7/21",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Laurence of Brindisi",
+      "type": "MEMORIAL",
+      "description": "St. Praxedis Virginis"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-07-21"
+  },
+  {
+    "date": "2026-07-22",
+    "monthDay": "7/22",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Mary Magdalene",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-07-22"
+  },
+  {
+    "date": "2026-07-23",
+    "monthDay": "7/23",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Apollinaris",
+      "type": "MEMORIAL",
+      "description": "S. Liborii"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-07-23"
+  },
+  {
+    "date": "2026-07-24",
+    "monthDay": "7/24",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Feria",
+      "type": "FERIA",
+      "description": "St. Christina"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-07-24"
+  },
+  {
+    "date": "2026-07-25",
+    "monthDay": "7/25",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. James the Greater",
+      "type": "FEAST",
+      "description": "St. Christopher"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-07-25"
+  },
+  {
+    "date": "2026-07-26",
+    "monthDay": "7/26",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "IX Sunday after Pentecost",
+      "type": "FEAST",
+      "description": "St. Anne, Mother of the Blessed Virgin"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-07-26"
+  },
+  {
+    "date": "2026-07-27",
+    "monthDay": "7/27",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Feria",
+      "type": "FERIA",
+      "description": "St. Pantaleon"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-07-27"
+  },
+  {
+    "date": "2026-07-28",
+    "monthDay": "7/28",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Sts. Nazarius & Celsus, St. Victor I & St. Innocent I",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-07-28"
+  },
+  {
+    "date": "2026-07-29",
+    "monthDay": "7/29",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Martha",
+      "type": "MEMORIAL",
+      "description": "Ss. Felicis, Simplicii, Faustini et Beatricis"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-07-29"
+  },
+  {
+    "date": "2026-07-30",
+    "monthDay": "7/30",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Feria",
+      "type": "FERIA",
+      "description": "Sts. Abdon & Sennen"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-07-30"
+  },
+  {
+    "date": "2026-07-31",
+    "monthDay": "7/31",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Ignatius Loyola",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-07-31"
+  },
+  {
+    "date": "2026-08-01",
+    "monthDay": "8/1",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "V Mass of the B. V. M. \u2013 Salve, Sancta Parens",
+      "type": "FERIA",
+      "description": "Holy Machabees"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-08-01"
+  },
+  {
+    "date": "2026-08-02",
+    "monthDay": "8/2",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "X Sunday after Pentecost",
+      "type": "FEAST"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-08-02"
+  },
+  {
+    "date": "2026-08-03",
+    "monthDay": "8/3",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Feria",
+      "type": "FERIA"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-08-03"
+  },
+  {
+    "date": "2026-08-04",
+    "monthDay": "8/4",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Dominic",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-08-04"
+  },
+  {
+    "date": "2026-08-05",
+    "monthDay": "8/5",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Dedication of the Basilica of St. Mary Major",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-08-05"
+  },
+  {
+    "date": "2026-08-06",
+    "monthDay": "8/6",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Transfiguration of Our Lord",
+      "type": "FEAST",
+      "description": "Pope Sixtus II, Felicissimus and Agapitus, Martyrs"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-08-06"
+  },
+  {
+    "date": "2026-08-07",
+    "monthDay": "8/7",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Cajetan",
+      "type": "MEMORIAL",
+      "description": "St. Donatus"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-08-07"
+  },
+  {
+    "date": "2026-08-08",
+    "monthDay": "8/8",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. John Mary Vianney",
+      "type": "MEMORIAL",
+      "description": "Ss. Cyriacus, Largus and Smaragdus, Martyrs"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-08-08"
+  },
+  {
+    "date": "2026-08-09",
+    "monthDay": "8/9",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Vigil of St. Lawrence",
+      "type": "MEMORIAL",
+      "description": "St. Romanus"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-08-09"
+  },
+  {
+    "date": "2026-08-10",
+    "monthDay": "8/10",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Lawrence",
+      "type": "FEAST"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-08-10"
+  },
+  {
+    "date": "2026-08-11",
+    "monthDay": "8/11",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Feria",
+      "type": "FERIA",
+      "description": "Sts. Tiburtius & Susanna"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-08-11"
+  },
+  {
+    "date": "2026-08-12",
+    "monthDay": "8/12",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Clare",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-08-12"
+  },
+  {
+    "date": "2026-08-13",
+    "monthDay": "8/13",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Feria",
+      "type": "FERIA",
+      "description": "Sts. Hippolytus & Cassian"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-08-13"
+  },
+  {
+    "date": "2026-08-14",
+    "monthDay": "8/14",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Vigil of the Assumption",
+      "type": "FEAST",
+      "description": "St. Eusebius"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-08-14"
+  },
+  {
+    "date": "2026-08-15",
+    "monthDay": "8/15",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Assumption of the Blessed Virgin Mary",
+      "type": "SOLEMNITY"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-08-15"
+  },
+  {
+    "date": "2026-08-16",
+    "monthDay": "8/16",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "XII Sunday after Pentecost",
+      "type": "FEAST",
+      "description": "St. Joachim, Father of the Blessed Virgin"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-08-16"
+  },
+  {
+    "date": "2026-08-17",
+    "monthDay": "8/17",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Hyacinth",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-08-17"
+  },
+  {
+    "date": "2026-08-18",
+    "monthDay": "8/18",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Feria",
+      "type": "FERIA",
+      "description": "St. Agapitus"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-08-18"
+  },
+  {
+    "date": "2026-08-19",
+    "monthDay": "8/19",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. John Eudes",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-08-19"
+  },
+  {
+    "date": "2026-08-20",
+    "monthDay": "8/20",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Bernard of Clairvaux",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-08-20"
+  },
+  {
+    "date": "2026-08-21",
+    "monthDay": "8/21",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Jane Frances de Chantal",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-08-21"
+  },
+  {
+    "date": "2026-08-22",
+    "monthDay": "8/22",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Immaculate Heart of Mary",
+      "type": "FEAST",
+      "description": "Sts. Timothy, Hippolytus and Symphorianus, Martyrs"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-08-22"
+  },
+  {
+    "date": "2026-08-23",
+    "monthDay": "8/23",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "XIII Sunday after Pentecost",
+      "type": "FEAST"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-08-23"
+  },
+  {
+    "date": "2026-08-24",
+    "monthDay": "8/24",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Bartholomew",
+      "type": "FEAST"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-08-24"
+  },
+  {
+    "date": "2026-08-25",
+    "monthDay": "8/25",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Louis IX",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-08-25"
+  },
+  {
+    "date": "2026-08-26",
+    "monthDay": "8/26",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Feria",
+      "type": "FERIA",
+      "description": "St. Zephyrinus"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-08-26"
+  },
+  {
+    "date": "2026-08-27",
+    "monthDay": "8/27",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Joseph Calasance",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-08-27"
+  },
+  {
+    "date": "2026-08-28",
+    "monthDay": "8/28",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Augustine",
+      "type": "MEMORIAL",
+      "description": "St. Hermes"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-08-28"
+  },
+  {
+    "date": "2026-08-29",
+    "monthDay": "8/29",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Beheading of St. John the Baptist",
+      "type": "MEMORIAL",
+      "description": "St. Sabina"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-08-29"
+  },
+  {
+    "date": "2026-08-30",
+    "monthDay": "8/30",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "XIV Sunday after Pentecost",
+      "type": "FEAST"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-08-30"
+  },
+  {
+    "date": "2026-08-31",
+    "monthDay": "8/31",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Raymond Nonnatus",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-08-31"
+  },
+  {
+    "date": "2026-09-01",
+    "monthDay": "9/1",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Feria",
+      "type": "FERIA",
+      "description": "St. Giles"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-09-01"
+  },
+  {
+    "date": "2026-09-02",
+    "monthDay": "9/2",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Stephen of Hungary",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-09-02"
+  },
+  {
+    "date": "2026-09-03",
+    "monthDay": "9/3",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Pius X",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-09-03"
+  },
+  {
+    "date": "2026-09-04",
+    "monthDay": "9/4",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Feria",
+      "type": "FERIA"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-09-04"
+  },
+  {
+    "date": "2026-09-05",
+    "monthDay": "9/5",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Lawrence Justinian",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-09-05"
+  },
+  {
+    "date": "2026-09-06",
+    "monthDay": "9/6",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "XV Sunday after Pentecost",
+      "type": "FEAST"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-09-06"
+  },
+  {
+    "date": "2026-09-07",
+    "monthDay": "9/7",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Feria",
+      "type": "FERIA"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-09-07"
+  },
+  {
+    "date": "2026-09-08",
+    "monthDay": "9/8",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Nativity of the Blessed Virgin Mary",
+      "type": "FEAST",
+      "description": "S. Hadriani"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-09-08"
+  },
+  {
+    "date": "2026-09-09",
+    "monthDay": "9/9",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Feria",
+      "type": "FERIA",
+      "description": "St. Gorgonius"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-09-09"
+  },
+  {
+    "date": "2026-09-10",
+    "monthDay": "9/10",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Nicholas of Tolentino",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-09-10"
+  },
+  {
+    "date": "2026-09-11",
+    "monthDay": "9/11",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Feria",
+      "type": "FERIA",
+      "description": "Sts. Protus & Hyacinth"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-09-11"
+  },
+  {
+    "date": "2026-09-12",
+    "monthDay": "9/12",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Most Holy Name of Mary",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-09-12"
+  },
+  {
+    "date": "2026-09-13",
+    "monthDay": "9/13",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "XVI Sunday after Pentecost",
+      "type": "FEAST"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-09-13"
+  },
+  {
+    "date": "2026-09-14",
+    "monthDay": "9/14",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Exaltation of the Holy Cross",
+      "type": "FEAST"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-09-14"
+  },
+  {
+    "date": "2026-09-15",
+    "monthDay": "9/15",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Seven Sorrows of the Blessed Virgin Mary",
+      "type": "FEAST",
+      "description": "S. Nicomedes"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-09-15"
+  },
+  {
+    "date": "2026-09-16",
+    "monthDay": "9/16",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Sts. Cornelius & Cyprian",
+      "type": "MEMORIAL",
+      "description": "Sts. Euphemia, Lucy and Geminianus"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-09-16"
+  },
+  {
+    "date": "2026-09-17",
+    "monthDay": "9/17",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Feria",
+      "type": "FERIA",
+      "description": "Stigmata of St. Francis"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-09-17"
+  },
+  {
+    "date": "2026-09-18",
+    "monthDay": "9/18",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Joseph of Cupertino",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-09-18"
+  },
+  {
+    "date": "2026-09-19",
+    "monthDay": "9/19",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Januarius & Companions",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-09-19"
+  },
+  {
+    "date": "2026-09-20",
+    "monthDay": "9/20",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "XVII Sunday after Pentecost",
+      "type": "FEAST"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-09-20"
+  },
+  {
+    "date": "2026-09-21",
+    "monthDay": "9/21",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Matthew",
+      "type": "FEAST"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-09-21"
+  },
+  {
+    "date": "2026-09-22",
+    "monthDay": "9/22",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Thomas of Villanova",
+      "type": "MEMORIAL",
+      "description": "St. Maurice and Companions, Martyrs"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-09-22"
+  },
+  {
+    "date": "2026-09-23",
+    "monthDay": "9/23",
+    "season": "Lent",
+    "celebration": {
+      "name": "Ember Wednesday of September",
+      "type": "FEAST",
+      "description": "St. Linus"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-09-23"
+  },
+  {
+    "date": "2026-09-24",
+    "monthDay": "9/24",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Feria",
+      "type": "FERIA",
+      "description": "Our Lady of Ransom"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-09-24"
+  },
+  {
+    "date": "2026-09-25",
+    "monthDay": "9/25",
+    "season": "Lent",
+    "celebration": {
+      "name": "Ember Friday of September",
+      "type": "FEAST"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-09-25"
+  },
+  {
+    "date": "2026-09-26",
+    "monthDay": "9/26",
+    "season": "Lent",
+    "celebration": {
+      "name": "Ember Saturday of September",
+      "type": "FEAST",
+      "description": "Sts. Cyprian & Justina"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-09-26"
+  },
+  {
+    "date": "2026-09-27",
+    "monthDay": "9/27",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "XVIII Sunday after Pentecost",
+      "type": "FEAST"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-09-27"
+  },
+  {
+    "date": "2026-09-28",
+    "monthDay": "9/28",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Wenceslaus",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-09-28"
+  },
+  {
+    "date": "2026-09-29",
+    "monthDay": "9/29",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Dedication of St. Michael the Archangel",
+      "type": "SOLEMNITY"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-09-29"
+  },
+  {
+    "date": "2026-09-30",
+    "monthDay": "9/30",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Jerome",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-09-30"
+  },
+  {
+    "date": "2026-10-01",
+    "monthDay": "10/1",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Feria",
+      "type": "FERIA",
+      "description": "St. Remigius"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-10-01"
+  },
+  {
+    "date": "2026-10-02",
+    "monthDay": "10/2",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Holy Guardian Angels",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-10-02"
+  },
+  {
+    "date": "2026-10-03",
+    "monthDay": "10/3",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Theresa of the Infant Jesus",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-10-03"
+  },
+  {
+    "date": "2026-10-04",
+    "monthDay": "10/4",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "XIX Sunday after Pentecost",
+      "type": "FEAST"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-10-04"
+  },
+  {
+    "date": "2026-10-05",
+    "monthDay": "10/5",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Feria",
+      "type": "FERIA",
+      "description": "St. Placid & Companions"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-10-05"
+  },
+  {
+    "date": "2026-10-06",
+    "monthDay": "10/6",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Bruno",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-10-06"
+  },
+  {
+    "date": "2026-10-07",
+    "monthDay": "10/7",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Our Lady of the Rosary",
+      "type": "FEAST",
+      "description": "St. Mark I"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-10-07"
+  },
+  {
+    "date": "2026-10-08",
+    "monthDay": "10/8",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Bridget of Sweden",
+      "type": "MEMORIAL",
+      "description": "Ss. Sergio, Baccho, Marcello and Apulejo Martyrs"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-10-08"
+  },
+  {
+    "date": "2026-10-09",
+    "monthDay": "10/9",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. John Leonardi",
+      "type": "MEMORIAL",
+      "description": "St. Dionysius and companions"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-10-09"
+  },
+  {
+    "date": "2026-10-10",
+    "monthDay": "10/10",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Francis Borgia",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-10-10"
+  },
+  {
+    "date": "2026-10-11",
+    "monthDay": "10/11",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "XX Sunday after Pentecost",
+      "type": "FEAST",
+      "description": "Maternity of the Blessed Virgin Mary"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-10-11"
+  },
+  {
+    "date": "2026-10-12",
+    "monthDay": "10/12",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Feria",
+      "type": "FERIA"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-10-12"
+  },
+  {
+    "date": "2026-10-13",
+    "monthDay": "10/13",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Edward",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-10-13"
+  },
+  {
+    "date": "2026-10-14",
+    "monthDay": "10/14",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Callistus I",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-10-14"
+  },
+  {
+    "date": "2026-10-15",
+    "monthDay": "10/15",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Teresa of Avila",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-10-15"
+  },
+  {
+    "date": "2026-10-16",
+    "monthDay": "10/16",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Hedwig",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-10-16"
+  },
+  {
+    "date": "2026-10-17",
+    "monthDay": "10/17",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Margaret Mary Alacoque",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-10-17"
+  },
+  {
+    "date": "2026-10-18",
+    "monthDay": "10/18",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "XXI Sunday after Pentecost",
+      "type": "FEAST",
+      "description": "St. Luke the Evangelist"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-10-18"
+  },
+  {
+    "date": "2026-10-19",
+    "monthDay": "10/19",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Peter of Alcantara",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-10-19"
+  },
+  {
+    "date": "2026-10-20",
+    "monthDay": "10/20",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. John Cantius",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-10-20"
+  },
+  {
+    "date": "2026-10-21",
+    "monthDay": "10/21",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Feria",
+      "type": "FERIA",
+      "description": "St. Hilarion, St. Ursula and Companions"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-10-21"
+  },
+  {
+    "date": "2026-10-22",
+    "monthDay": "10/22",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Feria",
+      "type": "FERIA"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-10-22"
+  },
+  {
+    "date": "2026-10-23",
+    "monthDay": "10/23",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Anthony Mary Claret",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-10-23"
+  },
+  {
+    "date": "2026-10-24",
+    "monthDay": "10/24",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Raphael the Archangel",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-10-24"
+  },
+  {
+    "date": "2026-10-25",
+    "monthDay": "10/25",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Christ the King",
+      "type": "SOLEMNITY"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-10-25"
+  },
+  {
+    "date": "2026-10-26",
+    "monthDay": "10/26",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Feria",
+      "type": "FERIA"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-10-26"
+  },
+  {
+    "date": "2026-10-27",
+    "monthDay": "10/27",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Feria",
+      "type": "FERIA"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-10-27"
+  },
+  {
+    "date": "2026-10-28",
+    "monthDay": "10/28",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Sts. Simon & Jude",
+      "type": "FEAST"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-10-28"
+  },
+  {
+    "date": "2026-10-29",
+    "monthDay": "10/29",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Feria",
+      "type": "FERIA"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-10-29"
+  },
+  {
+    "date": "2026-10-30",
+    "monthDay": "10/30",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Feria",
+      "type": "FERIA"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-10-30"
+  },
+  {
+    "date": "2026-10-31",
+    "monthDay": "10/31",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "V Mass of the B. V. M. \u2013 Salve, Sancta Parens",
+      "type": "FERIA"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-10-31"
+  },
+  {
+    "date": "2026-11-01",
+    "monthDay": "11/1",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "All Saints",
+      "type": "SOLEMNITY"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-11-01"
+  },
+  {
+    "date": "2026-11-02",
+    "monthDay": "11/2",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Commemoration of All Souls",
+      "type": "SOLEMNITY"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-11-02"
+  },
+  {
+    "date": "2026-11-03",
+    "monthDay": "11/3",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Feria",
+      "type": "FERIA"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-11-03"
+  },
+  {
+    "date": "2026-11-04",
+    "monthDay": "11/4",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Charles Borromeo",
+      "type": "MEMORIAL",
+      "description": "Sts. Vitalis and Agricola, Martyrs"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-11-04"
+  },
+  {
+    "date": "2026-11-05",
+    "monthDay": "11/5",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Feria",
+      "type": "FERIA"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-11-05"
+  },
+  {
+    "date": "2026-11-06",
+    "monthDay": "11/6",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Feria",
+      "type": "FERIA"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-11-06"
+  },
+  {
+    "date": "2026-11-07",
+    "monthDay": "11/7",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "V Mass of the B. V. M. \u2013 Salve, Sancta Parens",
+      "type": "FERIA"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-11-07"
+  },
+  {
+    "date": "2026-11-08",
+    "monthDay": "11/8",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "V Sunday after Epiphany",
+      "type": "FEAST"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-11-08"
+  },
+  {
+    "date": "2026-11-09",
+    "monthDay": "11/9",
+    "season": "Epiphany",
+    "celebration": {
+      "name": "Dedication of the Archbasilica of Our Holy Savior",
+      "type": "FEAST",
+      "description": "St. Theodore"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-11-09"
+  },
+  {
+    "date": "2026-11-10",
+    "monthDay": "11/10",
+    "season": "Epiphany",
+    "celebration": {
+      "name": "St. Andrew Avellino",
+      "type": "MEMORIAL",
+      "description": "Sts. Tryphonis, Respicii, et Nymphae"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-11-10"
+  },
+  {
+    "date": "2026-11-11",
+    "monthDay": "11/11",
+    "season": "Epiphany",
+    "celebration": {
+      "name": "St. Martin of Tours",
+      "type": "MEMORIAL",
+      "description": "St. Menna"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-11-11"
+  },
+  {
+    "date": "2026-11-12",
+    "monthDay": "11/12",
+    "season": "Epiphany",
+    "celebration": {
+      "name": "St. Martin I",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-11-12"
+  },
+  {
+    "date": "2026-11-13",
+    "monthDay": "11/13",
+    "season": "Epiphany",
+    "celebration": {
+      "name": "Feria",
+      "type": "FERIA",
+      "description": "St. Didacus"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-11-13"
+  },
+  {
+    "date": "2026-11-14",
+    "monthDay": "11/14",
+    "season": "Epiphany",
+    "celebration": {
+      "name": "St. Josaphat",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-11-14"
+  },
+  {
+    "date": "2026-11-15",
+    "monthDay": "11/15",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "VI Sunday after Epiphany",
+      "type": "FEAST"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-11-15"
+  },
+  {
+    "date": "2026-11-16",
+    "monthDay": "11/16",
+    "season": "Epiphany",
+    "celebration": {
+      "name": "St. Gertrude the Great",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-11-16"
+  },
+  {
+    "date": "2026-11-17",
+    "monthDay": "11/17",
+    "season": "Epiphany",
+    "celebration": {
+      "name": "St. Gregory the Wonderworker",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-11-17"
+  },
+  {
+    "date": "2026-11-18",
+    "monthDay": "11/18",
+    "season": "Epiphany",
+    "celebration": {
+      "name": "Dedication of the Basilicas of Sts. Peter & Paul",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-11-18"
+  },
+  {
+    "date": "2026-11-19",
+    "monthDay": "11/19",
+    "season": "Epiphany",
+    "celebration": {
+      "name": "St. Elizabeth of Hungary",
+      "type": "MEMORIAL",
+      "description": "St. Pontian"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-11-19"
+  },
+  {
+    "date": "2026-11-20",
+    "monthDay": "11/20",
+    "season": "Epiphany",
+    "celebration": {
+      "name": "St. Felix of Valois",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-11-20"
+  },
+  {
+    "date": "2026-11-21",
+    "monthDay": "11/21",
+    "season": "Epiphany",
+    "celebration": {
+      "name": "Presentation of the Blessed Virgin Mary",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-11-21"
+  },
+  {
+    "date": "2026-11-22",
+    "monthDay": "11/22",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "XXIV Sunday after Pentecost",
+      "type": "FEAST"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-11-22"
+  },
+  {
+    "date": "2026-11-23",
+    "monthDay": "11/23",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Clement I",
+      "type": "MEMORIAL",
+      "description": "St. Felicity"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-11-23"
+  },
+  {
+    "date": "2026-11-24",
+    "monthDay": "11/24",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. John of the Cross",
+      "type": "MEMORIAL",
+      "description": "St. Chrysogonus"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-11-24"
+  },
+  {
+    "date": "2026-11-25",
+    "monthDay": "11/25",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Catherine of Alexandria",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-11-25"
+  },
+  {
+    "date": "2026-11-26",
+    "monthDay": "11/26",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Sylvester",
+      "type": "MEMORIAL",
+      "description": "St. Peter of Alexandria"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-11-26"
+  },
+  {
+    "date": "2026-11-27",
+    "monthDay": "11/27",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Feria",
+      "type": "FERIA"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-11-27"
+  },
+  {
+    "date": "2026-11-28",
+    "monthDay": "11/28",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "V Mass of the B. V. M. \u2013 Salve, Sancta Parens",
+      "type": "FERIA"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-11-28"
+  },
+  {
+    "date": "2026-11-29",
+    "monthDay": "11/29",
+    "season": "Lent",
+    "celebration": {
+      "name": "I Sunday of Advent",
+      "type": "SOLEMNITY"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-11-29"
+  },
+  {
+    "date": "2026-11-30",
+    "monthDay": "11/30",
+    "season": "Advent",
+    "celebration": {
+      "name": "St. Andrew",
+      "type": "FEAST"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-11-30"
+  },
+  {
+    "date": "2026-12-01",
+    "monthDay": "12/1",
+    "season": "Lent",
+    "celebration": {
+      "name": "Feria III after I Sunday of Advent",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-12-01"
+  },
+  {
+    "date": "2026-12-02",
+    "monthDay": "12/2",
+    "season": "Advent",
+    "celebration": {
+      "name": "St. Vivian",
+      "type": "MEMORIAL",
+      "description": "Feria IV after I Sunday of Advent"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-12-02"
+  },
+  {
+    "date": "2026-12-03",
+    "monthDay": "12/3",
+    "season": "Advent",
+    "celebration": {
+      "name": "St. Francis Xavier",
+      "type": "MEMORIAL",
+      "description": "Feria V after I Sunday of Advent"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-12-03"
+  },
+  {
+    "date": "2026-12-04",
+    "monthDay": "12/4",
+    "season": "Advent",
+    "celebration": {
+      "name": "St. Peter Chrysologus",
+      "type": "MEMORIAL",
+      "description": "Feria VI after I Sunday of Advent"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-12-04"
+  },
+  {
+    "date": "2026-12-05",
+    "monthDay": "12/5",
+    "season": "Lent",
+    "celebration": {
+      "name": "Sabbato after I Sunday of Advent",
+      "type": "MEMORIAL",
+      "description": "St. Sabbas"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-12-05"
+  },
+  {
+    "date": "2026-12-06",
+    "monthDay": "12/6",
+    "season": "Lent",
+    "celebration": {
+      "name": "II Sunday of Advent",
+      "type": "SOLEMNITY"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-12-06"
+  },
+  {
+    "date": "2026-12-07",
+    "monthDay": "12/7",
+    "season": "Advent",
+    "celebration": {
+      "name": "St. Ambrose",
+      "type": "MEMORIAL",
+      "description": "Feria II after II Sunday of Advent"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-12-07"
+  },
+  {
+    "date": "2026-12-08",
+    "monthDay": "12/8",
+    "season": "Advent",
+    "celebration": {
+      "name": "Immaculate Conception of the Blessed Virgin Mary",
+      "type": "SOLEMNITY"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-12-08"
+  },
+  {
+    "date": "2026-12-09",
+    "monthDay": "12/9",
+    "season": "Lent",
+    "celebration": {
+      "name": "Feria IV after II Sunday of Advent",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-12-09"
+  },
+  {
+    "date": "2026-12-10",
+    "monthDay": "12/10",
+    "season": "Lent",
+    "celebration": {
+      "name": "Feria V after II Sunday of Advent",
+      "type": "MEMORIAL",
+      "description": "St. Melchiades"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-12-10"
+  },
+  {
+    "date": "2026-12-11",
+    "monthDay": "12/11",
+    "season": "Advent",
+    "celebration": {
+      "name": "St. Damasus I",
+      "type": "MEMORIAL",
+      "description": "Feria VI after II Sunday of Advent"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-12-11"
+  },
+  {
+    "date": "2026-12-12",
+    "monthDay": "12/12",
+    "season": "Lent",
+    "celebration": {
+      "name": "Sabbato after II Sunday of Advent",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-12-12"
+  },
+  {
+    "date": "2026-12-13",
+    "monthDay": "12/13",
+    "season": "Lent",
+    "celebration": {
+      "name": "III Sunday of Advent",
+      "type": "SOLEMNITY"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-12-13"
+  },
+  {
+    "date": "2026-12-14",
+    "monthDay": "12/14",
+    "season": "Lent",
+    "celebration": {
+      "name": "Feria II after III Sunday of Advent",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-12-14"
+  },
+  {
+    "date": "2026-12-15",
+    "monthDay": "12/15",
+    "season": "Lent",
+    "celebration": {
+      "name": "Feria III after III Sunday of Advent",
+      "type": "MEMORIAL"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-12-15"
+  },
+  {
+    "date": "2026-12-16",
+    "monthDay": "12/16",
+    "season": "Lent",
+    "celebration": {
+      "name": "Ember Wednesday of Advent",
+      "type": "FEAST",
+      "description": "St. Eusebius"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-12-16"
+  },
+  {
+    "date": "2026-12-17",
+    "monthDay": "12/17",
+    "season": "Lent",
+    "celebration": {
+      "name": "Feria V after III Sunday of Advent",
+      "type": "FEAST"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-12-17"
+  },
+  {
+    "date": "2026-12-18",
+    "monthDay": "12/18",
+    "season": "Lent",
+    "celebration": {
+      "name": "Ember Friday of Advent",
+      "type": "FEAST"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-12-18"
+  },
+  {
+    "date": "2026-12-19",
+    "monthDay": "12/19",
+    "season": "Lent",
+    "celebration": {
+      "name": "Ember Saturday of Advent",
+      "type": "FEAST"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-12-19"
+  },
+  {
+    "date": "2026-12-20",
+    "monthDay": "12/20",
+    "season": "Lent",
+    "celebration": {
+      "name": "IV Sunday of Advent",
+      "type": "SOLEMNITY"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-12-20"
+  },
+  {
+    "date": "2026-12-21",
+    "monthDay": "12/21",
+    "season": "Advent",
+    "celebration": {
+      "name": "St. Thomas",
+      "type": "FEAST",
+      "description": "Feria II after IV Sunday of Advent"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-12-21"
+  },
+  {
+    "date": "2026-12-22",
+    "monthDay": "12/22",
+    "season": "Lent",
+    "celebration": {
+      "name": "Feria III after IV Sunday of Advent",
+      "type": "FEAST"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-12-22"
+  },
+  {
+    "date": "2026-12-23",
+    "monthDay": "12/23",
+    "season": "Lent",
+    "celebration": {
+      "name": "Feria IV after IV Sunday of Advent",
+      "type": "FEAST"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-12-23"
+  },
+  {
+    "date": "2026-12-24",
+    "monthDay": "12/24",
+    "season": "Christmas",
+    "celebration": {
+      "name": "Vigil of Christmas",
+      "type": "SOLEMNITY"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-12-24"
+  },
+  {
+    "date": "2026-12-25",
+    "monthDay": "12/25",
+    "season": "Christmas",
+    "celebration": {
+      "name": "The Nativity of Our Lord",
+      "type": "SOLEMNITY"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-12-25"
+  },
+  {
+    "date": "2026-12-26",
+    "monthDay": "12/26",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "St. Stephen",
+      "type": "FEAST",
+      "description": "For Octave of the Nativity"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-12-26"
+  },
+  {
+    "date": "2026-12-27",
+    "monthDay": "12/27",
+    "season": "Christmas",
+    "celebration": {
+      "name": "Sunday in the Octave of Christmas",
+      "type": "FEAST",
+      "description": "St. John the Evangelist"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-12-27"
+  },
+  {
+    "date": "2026-12-28",
+    "monthDay": "12/28",
+    "season": "Ordinary Time",
+    "celebration": {
+      "name": "Holy Innocents",
+      "type": "FEAST",
+      "description": "For Octave of the Nativity"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-12-28"
+  },
+  {
+    "date": "2026-12-29",
+    "monthDay": "12/29",
+    "season": "Christmas",
+    "celebration": {
+      "name": "Feria in the Octave of Christmas",
+      "type": "FEAST",
+      "description": "St. Thomas Becket"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-12-29"
+  },
+  {
+    "date": "2026-12-30",
+    "monthDay": "12/30",
+    "season": "Christmas",
+    "celebration": {
+      "name": "Feria in the Octave of Christmas",
+      "type": "FEAST"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-12-30"
+  },
+  {
+    "date": "2026-12-31",
+    "monthDay": "12/31",
+    "season": "Christmas",
+    "celebration": {
+      "name": "Feria in the Octave of Christmas",
+      "type": "FEAST",
+      "description": "St. Silvester"
+    },
+    "apiEndpoint": "https://www.missalemeum.com/en/api/v5/calendar/2026-12-31"
+  }
+]

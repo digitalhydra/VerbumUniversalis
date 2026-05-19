@@ -4,10 +4,10 @@
     "monthDay": "1/1",
     "season": "Christmas",
     "readings": {
-      "firstReading": "Nm 6,22-27",
-      "psalm": "Sal 67(66) ,2-3.5.6+8",
-      "secondReading": "Ga 4,4-7",
-      "gospel": "Lc 2,16-21."
+      "firstReading": "Numbers 6:22-27",
+      "psalm": "Psalm 67:2-3, 5.6+8",
+      "secondReading": "Galatians 4:4-7",
+      "gospel": "Luke 2:16-21"
     },
     "calendarSource": "colombia",
     "celebration": "01  Enero, Jueves.  Solemnidad,  Blanco",
@@ -21,9 +21,9 @@
     "monthDay": "1/2",
     "season": "Christmas",
     "readings": {
-      "firstReading": "1Jn 2,22-28",
-      "psalm": "Sal 98(97),1.2-3ab.3cd-4 (R. cf. 3c)",
-      "gospel": "Jn 1,19-28."
+      "firstReading": "1 John 2:22-28",
+      "psalm": "Psalm 98:1, 2-3ab.3cd-4",
+      "gospel": "John 1:19-28"
     },
     "calendarSource": "colombia",
     "celebration": "02  Enero, Viernes.  antes de la Epifanía,  Memoria obligatoria,  Blanco",
@@ -37,26 +37,10 @@
     "monthDay": "1/3",
     "season": "Christmas",
     "readings": {
-      "firstReading": "1Jn 2,29 - 3,6",
-      "psalm": "Sal 98(97),1.3cd-4. 5-6 (R. cf. 3c)",
-      "gospel": "Jn 1,29-34."
-    },
-    "calendarSource": "colombia",
-    "celebration": "03  Enero, Sábado.  antes de la Epifanía,  Feria o Memoria libre,  Blanco",
-    "color": "Blanco",
-    "prelude": "<p>Santísimo Nombre de Jesús</p>",
-    "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
-  },
-  {
-    "date": "2026-01-03",
-    "monthDay": "1/3",
-    "season": "Christmas",
-    "readings": {
-      "firstReading": "Is 60,1-6",
-      "psalm": "Sal 72(71),1-2.7-8.10b-11.12-13 (R. cf. 11)",
-      "secondReading": "Ef 3,2-3a.5-6",
-      "gospel": "Mt 2,1-12."
+      "firstReading": "Isaiah 60:1-6",
+      "psalm": "Psalm 72:1-2, 7-8, 10b-11, 12-13",
+      "secondReading": "Ephesians 3:2-3a.5-6",
+      "gospel": "Matthew 2:1-12"
     },
     "calendarSource": "colombia",
     "celebration": "03  Enero, Sábado.  LA EPIFANIA DEL SEÑOR,  Solemnidad,  Blanco  \r\n EN LA VIGILIA:",
@@ -70,10 +54,10 @@
     "monthDay": "1/4",
     "season": "Christmas",
     "readings": {
-      "firstReading": "Is 60,1-6",
-      "psalm": "Sal 72(71),1-2.7-8.10b-11.12-13 (R. cf. 11)",
-      "secondReading": "Ef 3,2-3a.5-6",
-      "gospel": "Mt 2,1-12."
+      "firstReading": "Isaiah 60:1-6",
+      "psalm": "Psalm 72:1-2, 7-8, 10b-11, 12-13",
+      "secondReading": "Ephesians 3:2-3a.5-6",
+      "gospel": "Matthew 2:1-12"
     },
     "calendarSource": "colombia",
     "celebration": "04  Enero, Domingo.  EN EL DÍA DE LA SOLEMNIDAD,  Solemnidad,  Blanco",
@@ -87,9 +71,9 @@
     "monthDay": "1/5",
     "season": "Christmas",
     "readings": {
-      "firstReading": "1Jn 3,22 - 4,6",
-      "psalm": "Sal 2,7-8.10-11 (R. cf. Jn 1,49)",
-      "gospel": "Mt 4,12-17.23-25."
+      "firstReading": "1 John 3:22 - 4:6",
+      "psalm": "Psalm 2:7-8, 10-11",
+      "gospel": "Matthew 4:12-17, 23-25"
     },
     "calendarSource": "colombia",
     "celebration": "05  Enero, Lunes.  después de la Epifanía,  Feria,  Blanco",
@@ -103,9 +87,9 @@
     "monthDay": "1/6",
     "season": "Christmas",
     "readings": {
-      "firstReading": "1Jn 4,7-10",
-      "psalm": "Sal 72(71),1-2.3-4ab.7-8 (R. cf. 11)",
-      "gospel": "Mc 6,34-44."
+      "firstReading": "1 John 4:7-10",
+      "psalm": "Psalm 72:1-2, 3-4ab.7-8",
+      "gospel": "Mark 6:34-44"
     },
     "calendarSource": "colombia",
     "celebration": "06  Enero, Martes.  después de la Epifanía,  Feria,  Blanco",
@@ -119,9 +103,9 @@
     "monthDay": "1/7",
     "season": "Christmas",
     "readings": {
-      "firstReading": "1Jn 4,11-18",
-      "psalm": "Sal 72(71),1-2.10-11.2-13 (R. cf. 11)",
-      "gospel": "Mc 6,45-52."
+      "firstReading": "1 John 4:11-18",
+      "psalm": "Psalm 72:1-2, 10-11, 2-13",
+      "gospel": "Mark 6:45-52"
     },
     "calendarSource": "colombia",
     "celebration": "07  Enero, Miércoles.  después de la Epifanía,  Feria o Memoria libre,  Blanco",
@@ -135,9 +119,9 @@
     "monthDay": "1/8",
     "season": "Christmas",
     "readings": {
-      "firstReading": "1Jn 4,19 - 5,4",
-      "psalm": "Sal 72(71),1-2.14+15bc.17 (R. Lc 2,30-31)",
-      "gospel": "Lc 4,14-22a."
+      "firstReading": "1 John 4:19 - 5:4",
+      "psalm": "Psalm 72:1-2, 14+15bc.17 (R. Luke 2:30-31)",
+      "gospel": "Luke 4:14-22a"
     },
     "calendarSource": "colombia",
     "celebration": "08  Enero, Jueves.  después de la Epifanía,  Feria,  Blanco",
@@ -151,9 +135,9 @@
     "monthDay": "1/9",
     "season": "Christmas",
     "readings": {
-      "firstReading": "1Jn 5,5-13",
-      "psalm": "Sal 147,12-13.14-15.19-20 (R. 12a)",
-      "gospel": "Lc 5,12-16"
+      "firstReading": "1 John 5:5-13",
+      "psalm": "Psalm 147:12-13, 14-15, 19-20 (R. 12a)",
+      "gospel": "Luke 5:12-16"
     },
     "calendarSource": "colombia",
     "celebration": "09  Enero, Viernes.  después de la Epifanía,  Feria,  Blanco",
@@ -167,9 +151,9 @@
     "monthDay": "1/10",
     "season": "Christmas",
     "readings": {
-      "firstReading": "1Jn 5,14-21",
-      "psalm": "Sal 149,1-2.3-4.5-6a y 9b (R. 17[16],6a)",
-      "gospel": "Jn 3,22-30."
+      "firstReading": "1 John 5:14-21",
+      "psalm": "Psalm 149:1-2, 3-4, 5-6a y 9b (R. 17[16],6a)",
+      "gospel": "John 3:22-30"
     },
     "calendarSource": "colombia",
     "celebration": "10  Enero, Sábado.  después de la Epifanía,  Feria,  Blanco",
@@ -183,10 +167,10 @@
     "monthDay": "1/11",
     "season": "Christmas",
     "readings": {
-      "firstReading": "Is 42,1-4.6-7",
-      "psalm": "Sal 29(28),1a y 2.3ac-4. 3b y 9b-10",
-      "secondReading": "Hch 10,34-38",
-      "gospel": "Mt 3,13-17."
+      "firstReading": "Isaiah 42:1-4, 6-7",
+      "psalm": "Psalm 29:1a y 2, 3ac-4. 3b y 9b-10",
+      "secondReading": "Acts 10:34-38",
+      "gospel": "Matthew 3:13-17"
     },
     "calendarSource": "colombia",
     "celebration": "11  Enero, Domingo.  EL BAUTISMO DEL SEÑOR,  Fiesta ,  Blanco",
@@ -200,9 +184,9 @@
     "monthDay": "1/12",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "1S 1,1-8",
-      "psalm": "Sal 116(115),12-13.14 y 17. 18-19 (R. 17a)",
-      "gospel": "Mc 1,14-20."
+      "firstReading": "1 Samuel 1:1-8",
+      "psalm": "Psalm 116:12-13, 14 y 17. 18-19 (R. 17a)",
+      "gospel": "Mark 1:14-20"
     },
     "calendarSource": "colombia",
     "celebration": "12  Enero, Lunes. 1ª Sem. del TO,  Feria,  Verde",
@@ -216,9 +200,9 @@
     "monthDay": "1/13",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "1S 1,9-20",
-      "psalm": "Sal 1S 2,1.4-5.6-7.8abcd (R. cf. 1a)",
-      "gospel": "Mc 1,21b-28."
+      "firstReading": "1 Samuel 1:9-20",
+      "psalm": "Psalm 1 Samuel 2:1, 4-5, 6-7, 8abcd",
+      "gospel": "Mark 1:21b-28"
     },
     "calendarSource": "colombia",
     "celebration": "13  Enero, Martes. 1ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
@@ -232,9 +216,9 @@
     "monthDay": "1/14",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "1S 3,1-10.19-20",
-      "psalm": "Sal 40(39),2+5.7-8a. 8b-9.10 (R. cf. 8a.9a)",
-      "gospel": "Mc 1,29-39."
+      "firstReading": "1 Samuel 3:1-10, 19-20",
+      "psalm": "Psalm 40:2+5, 7-8a. 8b-9, 10",
+      "gospel": "Mark 1:29-39"
     },
     "calendarSource": "colombia",
     "celebration": "14  Enero, Miércoles. 1ª Sem. del TO,  Feria,  Verde",
@@ -248,9 +232,9 @@
     "monthDay": "1/15",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "1S 4,1-11",
-      "psalm": "Sal 44(43),10-11.14-15. 24-25 (R. 27b)",
-      "gospel": "Mc 1,40-45."
+      "firstReading": "1 Samuel 4:1-11",
+      "psalm": "Psalm 44:10-11, 14-15. 24-25 (R. 27b)",
+      "gospel": "Mark 1:40-45"
     },
     "calendarSource": "colombia",
     "celebration": "15  Enero, Jueves. 1ª Sem. del TO,  Feria,  Verde",
@@ -264,9 +248,9 @@
     "monthDay": "1/16",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "1S 8,4-7.10-22a",
-      "psalm": "Sal 89(88),16-17.18-19 (R. cf. 2a)",
-      "gospel": "Mc 2,1-12."
+      "firstReading": "1 Samuel 8:4-7, 10-22a",
+      "psalm": "Psalm 89:16-17, 18-19",
+      "gospel": "Mark 2:1-12"
     },
     "calendarSource": "colombia",
     "celebration": "16  Enero, Viernes. 1ª Sem. del TO,  Feria,  Verde",
@@ -280,9 +264,9 @@
     "monthDay": "1/17",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "1S 9,1-4.17-19; 10,1a",
-      "psalm": "Sal 21(20),2-3. 4-5.6-7 (R. 2a)",
-      "gospel": "Mc 2,13-17."
+      "firstReading": "1 Samuel 9:1-4, 17-19; 10:1a",
+      "psalm": "Psalm 21:2-3. 4-5, 6-7 (R. 2a)",
+      "gospel": "Mark 2:13-17"
     },
     "calendarSource": "colombia",
     "celebration": "17  Enero, Sábado. 1ª Sem. del TO,  Memoria obligatoria,  Blanco",
@@ -296,10 +280,10 @@
     "monthDay": "1/18",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Is 49,3.5-6",
-      "psalm": "Sal 40(39),2+4ab.7.8-9.10 (R. cf. 8-9)",
-      "secondReading": "1Co 1,1-3",
-      "gospel": "Jn 1,29-34."
+      "firstReading": "Isaiah 49:3, 5-6",
+      "psalm": "Psalm 40:2+4ab.7, 8-9, 10",
+      "secondReading": "1 Corinthians 1:1-3",
+      "gospel": "John 1:29-34"
     },
     "calendarSource": "colombia",
     "celebration": "18  Enero, Domingo. 2ª Sem. del Tiempo Ordinario,  Verde",
@@ -313,9 +297,9 @@
     "monthDay": "1/19",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "1S 15,16-23",
-      "psalm": "Sal 50(49),8-9.16bc-17.21+ y 23 (R. 23b)",
-      "gospel": "Mc 2,18-22."
+      "firstReading": "1 Samuel 15:16-23",
+      "psalm": "Psalm 50:8-9, 16bc-17, 21+ y 23 (R. 23b)",
+      "gospel": "Mark 2:18-22"
     },
     "calendarSource": "colombia",
     "celebration": "19  Enero, Lunes. 2ª Sem. del TO,  Feria,  Verde",
@@ -329,9 +313,9 @@
     "monthDay": "1/20",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "1S 16,1-13",
-      "psalm": "Sal 89(88),20.21-22.27-28 (R. 21a)",
-      "gospel": "Mc 2,23-28."
+      "firstReading": "1 Samuel 16:1-13",
+      "psalm": "Psalm 89:20, 21-22, 27-28 (R. 21a)",
+      "gospel": "Mark 2:23-28"
     },
     "calendarSource": "colombia",
     "celebration": "20  Enero, Martes. 2ª Sem. del TO,  Feria o Memoria libre,  Verde o Rojo",
@@ -345,9 +329,9 @@
     "monthDay": "1/21",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "1S 17,32-33.37.40-51",
-      "psalm": "Sal 144(143),1. 2.9-10 (R. 1a)",
-      "gospel": "Mc 3,1-6."
+      "firstReading": "1 Samuel 17:32-33, 37, 40-51",
+      "psalm": "Psalm 144:1. 2, 9-10 (R. 1a)",
+      "gospel": "Mark 3:1-6"
     },
     "calendarSource": "colombia",
     "celebration": "21  Enero, Miércoles. 2ª Sem. del TO,  Memoria obligatoria,  Rojo",
@@ -361,9 +345,9 @@
     "monthDay": "1/22",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "1S 18,6-9; 19,1-7",
-      "psalm": "Sal 56(55),2-3. 9-10.11-12.13 (R. 5bc)",
-      "gospel": "Mc 3,7-12."
+      "firstReading": "1 Samuel 18:6-9; 19:1-7",
+      "psalm": "Psalm 56:2-3. 9-10, 11-12, 13 (R. 5bc)",
+      "gospel": "Mark 3:7-12"
     },
     "calendarSource": "colombia",
     "celebration": "22  Enero, Jueves. 2ª Sem. del TO,  Feria o Memoria libre,  Verde o Rojo",
@@ -377,9 +361,9 @@
     "monthDay": "1/23",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "1S 24,3-21",
-      "psalm": "Sal 57(56),2.3-4.6+11 (R. 2a)",
-      "gospel": "Mc 3,13-19."
+      "firstReading": "1 Samuel 24:3-21",
+      "psalm": "Psalm 57:2, 3-4, 6+11 (R. 2a)",
+      "gospel": "Mark 3:13-19"
     },
     "calendarSource": "colombia",
     "celebration": "23  Enero, Viernes. 2ª Sem. del TO,  Feria,  Verde",
@@ -393,9 +377,9 @@
     "monthDay": "1/24",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "2S 1,1-4.11-12.19.23-27",
-      "psalm": "Sal 80(79), 2-3.5-7 (R. 4b)",
-      "gospel": "Mc 3,20-21."
+      "firstReading": "2 Samuel 1:1-4, 11-12, 19, 23-27",
+      "psalm": "Psalm 80, 2-3, 5-7 (R. 4b)",
+      "gospel": "Mark 3:20-21"
     },
     "calendarSource": "colombia",
     "celebration": "24  Enero, Sábado. 2ª Sem. del TO,  Memoria obligatoria,  Blanco",
@@ -409,10 +393,10 @@
     "monthDay": "1/25",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Is 8,23b - 9,3",
-      "psalm": "Sal 27(26),1.4.13-14 (R. 1a)",
-      "secondReading": "1Co 1,10-13.17",
-      "gospel": "Mt 4,12-23 (forma larga) o Mt 4,12-17 (forma breve)."
+      "firstReading": "Isaiah 8:23b - 9:3",
+      "psalm": "Psalm 27:1, 4.13-14 (R. 1a)",
+      "secondReading": "1 Corinthians 1:10-13, 17",
+      "gospel": "Matthew 4:12-23 (forma larga) o Matthew 4:12-17 (forma breve)"
     },
     "calendarSource": "colombia",
     "celebration": "25  Enero, Domingo. 3ª Sem. del Tiempo Ordinario,  Verde",
@@ -426,9 +410,9 @@
     "monthDay": "1/26",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "2Tm 1,1-8 o Tt 1,1-5",
-      "psalm": "Sal 96(95),1-2a.2b-3.7-8a.10 (R. 3)",
-      "secondReading": "Lc 10,1-9.",
+      "firstReading": "2Tm 1:1-8 o Tt 1:1-5",
+      "psalm": "Psalm 96:1-2a.2b-3, 7-8a.10 (R. 3)",
+      "secondReading": "Luke 10:1-9",
       "gospel": ""
     },
     "calendarSource": "colombia",
@@ -443,9 +427,9 @@
     "monthDay": "1/27",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "2S 6,12b-15.17-19",
-      "psalm": "Sal 24(23),7.8.9.10 (R. cf. 8a)",
-      "gospel": "Mc 3,31-35."
+      "firstReading": "2 Samuel 6:12b-15, 17-19",
+      "psalm": "Psalm 24:7, 8.9, 10",
+      "gospel": "Mark 3:31-35"
     },
     "calendarSource": "colombia",
     "celebration": "27  Enero, Martes. 3ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
@@ -459,9 +443,9 @@
     "monthDay": "1/28",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "2S 7,4-17",
-      "psalm": "Sal 89(88), 4-5.27-28.29-30 (R. 29a)",
-      "gospel": "Mc 4,1-20."
+      "firstReading": "2 Samuel 7:4-17",
+      "psalm": "Psalm 89, 4-5, 27-28, 29-30 (R. 29a)",
+      "gospel": "Mark 4:1-20"
     },
     "calendarSource": "colombia",
     "celebration": "28  Enero, Miércoles. 3ª Sem. del TO,  Memoria obligatoria,  Blanco",
@@ -475,9 +459,9 @@
     "monthDay": "1/29",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "2S 7,18-19.24-29",
-      "psalm": "Sal 132(131),1-2.3-5.11.12.13-14 (R. Lc 1,32b)",
-      "gospel": "Mc 4,21-25"
+      "firstReading": "2 Samuel 7:18-19, 24-29",
+      "psalm": "Psalm 132:1-2, 3-5, 11, 12, 13-14 (R. Luke 1:32b)",
+      "gospel": "Mark 4:21-25"
     },
     "calendarSource": "colombia",
     "celebration": "29  Enero, Jueves. 3ª Sem. del TO,  Feria,  Verde",
@@ -491,9 +475,9 @@
     "monthDay": "1/30",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "2S 11,1-4a.5-10a.13-17",
-      "psalm": "Sal 51(50),3-4.5-6a.6bc-7.10-11 (R. cf. 3a)",
-      "gospel": "Mc 4,26-34"
+      "firstReading": "2 Samuel 11:1-4a.5-10a, 13-17",
+      "psalm": "Psalm 51:3-4, 5-6a.6bc-7, 10-11",
+      "gospel": "Mark 4:26-34"
     },
     "calendarSource": "colombia",
     "celebration": "30  Enero, Viernes. 3ª Sem. del TO,  Feria,  Verde",
@@ -507,9 +491,9 @@
     "monthDay": "1/31",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "2S 12,1-7a.10-17",
-      "psalm": "Sal 51(50),12-13.14-15.16-17 (R. 12a)",
-      "gospel": "Mc 4,35-41."
+      "firstReading": "2 Samuel 12:1-7a.10-17",
+      "psalm": "Psalm 51:12-13, 14-15, 16-17 (R. 12a)",
+      "gospel": "Mark 4:35-41"
     },
     "calendarSource": "colombia",
     "celebration": "31  Enero, Sábado. 3ª Sem. del TO,  Memoria obligatoria,  Blanco",
@@ -523,10 +507,10 @@
     "monthDay": "2/1",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "So 2,3; 3,12-13",
-      "psalm": "Sal 146(145),6c-7.8-9a.9bc-10 (R. Mt 5,3a)",
-      "secondReading": "1Co 1,26-31",
-      "gospel": "Mt 5,1-12a."
+      "firstReading": "So 2:3; 3:12-13",
+      "psalm": "Psalm 146:6c-7, 8-9a.9bc-10 (R. Matthew 5:3a)",
+      "secondReading": "1 Corinthians 1:26-31",
+      "gospel": "Matthew 5:1-12a"
     },
     "calendarSource": "colombia",
     "celebration": "01  Febrero, Domingo. 4ª Sem. del Tiempo Ordinario,  Verde",
@@ -540,9 +524,9 @@
     "monthDay": "2/2",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Ml 3,1-4",
-      "psalm": "Sal 24(23),7.8.9.10 (R. cf. Dn 3,53a)",
-      "secondReading": "Hb 2,14-18",
+      "firstReading": "Ml 3:1-4",
+      "psalm": "Psalm 24:7, 8.9, 10",
+      "secondReading": "Hb 2:14-18",
       "gospel": "Cuando la fiesta no cae en domingo, se escoge una sola de las dos lecturas anteriores y luego se recita el salmo"
     },
     "calendarSource": "colombia",
@@ -557,9 +541,9 @@
     "monthDay": "2/3",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "2S 18,9-10.14b.24-25a.30 - 19,3",
-      "psalm": "Sal 86(85),1-2.3-4.5-6 (R. 1a)",
-      "gospel": "Mc 5,21-43."
+      "firstReading": "2 Samuel 18:9-10, 14b.24-25a, 30 - 19:3",
+      "psalm": "Psalm 86:1-2, 3-4, 5-6 (R. 1a)",
+      "gospel": "Mark 5:21-43"
     },
     "calendarSource": "colombia",
     "celebration": "03  Febrero, Martes. 4ª Sem. del TO,  Feria o Memoria libre,  Verde o Rojo o Blanco",
@@ -573,9 +557,9 @@
     "monthDay": "2/4",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "2S 24,2.9-17",
-      "psalm": "Sal 32(31),1-2.5.6.7 (R. cf. 5c)",
-      "gospel": "Mc 6,1-6."
+      "firstReading": "2 Samuel 24:2, 9-17",
+      "psalm": "Psalm 32:1-2, 5.6, 7",
+      "gospel": "Mark 6:1-6"
     },
     "calendarSource": "colombia",
     "celebration": "04  Febrero, Miércoles. 4ª Sem. del TO,  Feria,  Verde",
@@ -589,9 +573,9 @@
     "monthDay": "2/5",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "1R 2,1-4.10-12",
-      "psalm": "Sal 1Cro 29,10.11ab.11d-12a.12bcd (R. 12b)",
-      "gospel": "Mc 6,7-13."
+      "firstReading": "1 Kings 2:1-4, 10-12",
+      "psalm": "Psalm 1Cro 29:10, 11ab.11d-12a, 12bcd (R. 12b)",
+      "gospel": "Mark 6:7-13"
     },
     "calendarSource": "colombia",
     "celebration": "05  Febrero, Jueves. 4ª Sem. del TO,  Memoria obligatoria,  Rojo",
@@ -605,9 +589,9 @@
     "monthDay": "2/6",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Sir 47,2-13",
-      "psalm": "Sal 18(17),31.47+50.51 (R. cf. 47b)",
-      "gospel": "Mc 6,14-29."
+      "firstReading": "Sirach 47:2-13",
+      "psalm": "Psalm 18:31, 47+50, 51",
+      "gospel": "Mark 6:14-29"
     },
     "calendarSource": "colombia",
     "celebration": "06  Febrero, Viernes. 4ª Sem. del TO,  Memoria obligatoria,  Rojo",
@@ -621,9 +605,9 @@
     "monthDay": "2/7",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "1R 3,4-13",
-      "psalm": "Sal 119(118),9.10.11. 12.13.14 (R. 12b)",
-      "gospel": "Mc 6,30-34."
+      "firstReading": "1 Kings 3:4-13",
+      "psalm": "Psalm 119:9, 10, 11. 12, 13, 14 (R. 12b)",
+      "gospel": "Mark 6:30-34"
     },
     "calendarSource": "colombia",
     "celebration": "07  Febrero, Sábado. 4ª Sem. del TO,  Feria o BMV,  Verde o Blanco",
@@ -637,10 +621,10 @@
     "monthDay": "2/8",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Is 58,7-10",
-      "psalm": "Sal 112(111),4-5.6-7.8a+9 (R. 4a)",
-      "secondReading": "1Co 2,1-5",
-      "gospel": "Mt 5,13-16."
+      "firstReading": "Isaiah 58:7-10",
+      "psalm": "Psalm 112:4-5, 6-7, 8a+9 (R. 4a)",
+      "secondReading": "1 Corinthians 2:1-5",
+      "gospel": "Matthew 5:13-16"
     },
     "calendarSource": "colombia",
     "celebration": "08  Febrero, Domingo. 5ª Sem. del Tiempo Ordinario,  Verde",
@@ -654,9 +638,9 @@
     "monthDay": "2/9",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "1R 8,1-7.9-13",
-      "psalm": "Sal 132(131),6-7.8-10 (R. 8a)",
-      "gospel": "Mc 6,53-56."
+      "firstReading": "1 Kings 8:1-7, 9-13",
+      "psalm": "Psalm 132:6-7, 8-10 (R. 8a)",
+      "gospel": "Mark 6:53-56"
     },
     "calendarSource": "colombia",
     "celebration": "09  Febrero, Lunes. 5ª Sem. del TO,  Feria,  Verde",
@@ -670,9 +654,9 @@
     "monthDay": "2/10",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "1R 8,22-23.27-30",
-      "psalm": "Sal 84(83),3.4. 5+10.11 (R. 2)",
-      "gospel": "Mc 7,1-13."
+      "firstReading": "1 Kings 8:22-23, 27-30",
+      "psalm": "Psalm 84:3, 4. 5+10, 11 (R. 2)",
+      "gospel": "Mark 7:1-13"
     },
     "calendarSource": "colombia",
     "celebration": "10  Febrero, Martes. 5ª Sem. del TO,  Memoria obligatoria,  Blanco",
@@ -686,9 +670,9 @@
     "monthDay": "2/11",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "1R 10,1-10",
-      "psalm": "Sal 37(36),5-6.30-31. 39-40 (R. 30a)",
-      "gospel": "Mc 7,14-23."
+      "firstReading": "1 Kings 10:1-10",
+      "psalm": "Psalm 37:5-6, 30-31. 39-40 (R. 30a)",
+      "gospel": "Mark 7:14-23"
     },
     "calendarSource": "colombia",
     "celebration": "11  Febrero, Miércoles. 5ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
@@ -702,9 +686,9 @@
     "monthDay": "2/12",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "1R 11,4-13",
-      "psalm": "Sal 106(105),3-4.35-36. 37+40 (R. 4a)",
-      "gospel": "Mc 7,24-30"
+      "firstReading": "1 Kings 11:4-13",
+      "psalm": "Psalm 106:3-4, 35-36. 37+40 (R. 4a)",
+      "gospel": "Mark 7:24-30"
     },
     "calendarSource": "colombia",
     "celebration": "12  Febrero, Jueves. 5ª Sem. del TO,  Feria,  Verde",
@@ -718,9 +702,9 @@
     "monthDay": "2/13",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "1R 11,29-32; 12,19",
-      "psalm": "Sal 81(80),10-11ab. 12-13.14-15 (R. cf. 11a+9a)",
-      "gospel": "Mc 7,31-37"
+      "firstReading": "1 Kings 11:29-32; 12:19",
+      "psalm": "Psalm 81:10-11ab. 12-13, 14-15",
+      "gospel": "Mark 7:31-37"
     },
     "calendarSource": "colombia",
     "celebration": "13  Febrero, Viernes. 5ª Sem. del TO,  Feria,  Verde",
@@ -734,9 +718,9 @@
     "monthDay": "2/14",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "1R 12,26-32; 13,33-34",
-      "psalm": "Sal 106(105), 6-7a.19-20.21-22 (R. 4a)",
-      "gospel": "Mc 8,1-10"
+      "firstReading": "1 Kings 12:26-32; 13:33-34",
+      "psalm": "Psalm 106, 6-7a.19-20, 21-22 (R. 4a)",
+      "gospel": "Mark 8:1-10"
     },
     "calendarSource": "colombia",
     "celebration": "14  Febrero, Sábado. 5ª Sem. del TO,  Memoria obligatoria,  Blanco",
@@ -750,10 +734,10 @@
     "monthDay": "2/15",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Sir 15,16-21",
-      "psalm": "Sal 119(118),1-2.4-5.17-18.33-34 (R. cf. 33a)",
-      "secondReading": "1Co 2,6-10",
-      "gospel": "Mt 5,17-37 (forma larga) o Mt 5,20-22a.27-28.33-34a.37 (forma breve)."
+      "firstReading": "Sirach 15:16-21",
+      "psalm": "Psalm 119:1-2, 4-5, 17-18, 33-34",
+      "secondReading": "1 Corinthians 2:6-10",
+      "gospel": "Matthew 5:17-37 (forma larga) o Matthew 5:20-22a, 27-28, 33-34a, 37 (forma breve)"
     },
     "calendarSource": "colombia",
     "celebration": "15  Febrero, Domingo. 6ª Sem. del Tiempo Ordinario,  Verde",
@@ -767,9 +751,9 @@
     "monthDay": "2/16",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "St 1,1-11",
-      "psalm": "Sal 119(118),67.68.71. 72.75.76 (R. 77a)",
-      "gospel": "Mc 8,11-13."
+      "firstReading": "James 1:1-11",
+      "psalm": "Psalm 119:67, 68, 71. 72, 75, 76 (R. 77a)",
+      "gospel": "Mark 8:11-13"
     },
     "calendarSource": "colombia",
     "celebration": "16  Febrero, Lunes. 6ª Sem. del TO,  Feria,  Verde",
@@ -783,9 +767,9 @@
     "monthDay": "2/17",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "St 1,12-18",
-      "psalm": "Sal 94(93),12-13a.14-15. 18-19 (R. 12a)",
-      "gospel": "Mc 8,14-21."
+      "firstReading": "James 1:12-18",
+      "psalm": "Psalm 94:12-13a, 14-15. 18-19 (R. 12a)",
+      "gospel": "Mark 8:14-21"
     },
     "calendarSource": "colombia",
     "celebration": "17  Febrero, Martes. 6ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
@@ -799,9 +783,9 @@
     "monthDay": "2/18",
     "season": "Lent",
     "readings": {
-      "firstReading": "Jl 2,12-18",
-      "psalm": "Sal 51(50),3-4.5-6a.12-13.14 y 17 (R. cf. 3a)",
-      "gospel": "2Co 5,20 - 6,2"
+      "firstReading": "Joel 2:12-18",
+      "psalm": "Psalm 51:3-4, 5-6a.12-13, 14 y 17",
+      "gospel": "2 Corinthians 5:20 - 6:2"
     },
     "calendarSource": "colombia",
     "celebration": "18  Febrero, Miércoles.  de Ceniza,  Morado",
@@ -815,8 +799,8 @@
     "monthDay": "2/19",
     "season": "Lent",
     "readings": {
-      "firstReading": "Dt 30,15-20",
-      "psalm": "Sal 1,1-2.3.4 y 6 (R. 119[118],29)",
+      "firstReading": "Deuteronomy 30:15-20",
+      "psalm": "Psalm 1:1-2, 3.4 y 6 (R. 119[118],29)",
       "gospel": "&nbsp;"
     },
     "calendarSource": "colombia",
@@ -831,9 +815,9 @@
     "monthDay": "2/20",
     "season": "Lent",
     "readings": {
-      "firstReading": "Is 58,1-9a",
-      "psalm": "Sal 51(50),3-4.5-6a.18-19 (R. cf. 19b)",
-      "gospel": "Mt 9,14-15 o Lc 22,39-46."
+      "firstReading": "Isaiah 58:1-9a",
+      "psalm": "Psalm 51:3-4, 5-6a.18-19",
+      "gospel": "Matthew 9:14-15 o Luke 22:39-46"
     },
     "calendarSource": "colombia",
     "celebration": "20  Febrero, Viernes.  después de Ceniza,  Feria,  Morado",
@@ -847,9 +831,9 @@
     "monthDay": "2/21",
     "season": "Lent",
     "readings": {
-      "firstReading": "Is 58,9b-14",
-      "psalm": "Sal 86(85),1-2.3-4.5-6 (R. 11a)",
-      "gospel": "Lc 5,27-32."
+      "firstReading": "Isaiah 58:9b-14",
+      "psalm": "Psalm 86:1-2, 3-4, 5-6 (R. 11a)",
+      "gospel": "Luke 5:27-32"
     },
     "calendarSource": "colombia",
     "celebration": "21  Febrero, Sábado.  después de Ceniza,  Feria,  Morado",
@@ -863,9 +847,9 @@
     "monthDay": "2/22",
     "season": "Lent",
     "readings": {
-      "firstReading": "Gn 2,7-9; 3,1-7",
-      "psalm": "Sal 51(50),3-4.5-6a. 12-13.14 y 17 (R. cf. 3a)",
-      "secondReading": "Rm 5,12-19 (forma larga) o Rm 5,12.17-19 (forma breve)",
+      "firstReading": "Genesis 2:7-9; 3:1-7",
+      "psalm": "Psalm 51:3-4, 5-6a. 12-13, 14 y 17",
+      "secondReading": "Romans 5:12-19 (forma larga) o Romans 5:12, 17-19 (forma breve)",
       "gospel": "&nbsp;"
     },
     "calendarSource": "colombia",
@@ -880,9 +864,9 @@
     "monthDay": "2/23",
     "season": "Lent",
     "readings": {
-      "firstReading": "Lv 19,1-2.11-18",
-      "psalm": "Sal 19(18),8.9.10. 15 (R. cf. Jn 6,63c)",
-      "gospel": "Mt 25,31-46."
+      "firstReading": "Leviticus 19:1-2, 11-18",
+      "psalm": "Psalm 19:8, 9.10. 15",
+      "gospel": "Matthew 25:31-46"
     },
     "calendarSource": "colombia",
     "celebration": "23  Febrero, Lunes. 1ª Sem. de Cuaresma,  Feria,  Morado",
@@ -896,9 +880,9 @@
     "monthDay": "2/24",
     "season": "Lent",
     "readings": {
-      "firstReading": "Is 55,10-11",
-      "psalm": "Sal 34(33),4-5.6-7.16-17. 18-19 (R. cf. Mt 8,8)",
-      "gospel": "Mt 6,7-15."
+      "firstReading": "Isaiah 55:10-11",
+      "psalm": "Psalm 34:4-5, 6-7, 16-17. 18-19",
+      "gospel": "Matthew 6:7-15"
     },
     "calendarSource": "colombia",
     "celebration": "24  Febrero, Martes. 1ª Sem. de Cuaresma,  Feria,  Morado",
@@ -912,9 +896,9 @@
     "monthDay": "2/25",
     "season": "Lent",
     "readings": {
-      "firstReading": "Jon 3,1-10",
-      "psalm": "Sal 51(50),3-4.12-13. 18-19 (R. cf. 5a)",
-      "gospel": "Lc 11,29-32."
+      "firstReading": "Jonah 3:1-10",
+      "psalm": "Psalm 51:3-4, 12-13. 18-19",
+      "gospel": "Luke 11:29-32"
     },
     "calendarSource": "colombia",
     "celebration": "25  Febrero, Miércoles. 1ª Sem. de Cuaresma,  Feria,  Morado",
@@ -928,9 +912,9 @@
     "monthDay": "2/26",
     "season": "Lent",
     "readings": {
-      "firstReading": "Est 4,17n.p-r.aa-bb.gg.hh",
-      "psalm": "Sal 138(137),1-2a.2bc-3.7cd y 8bc (R. 3a)",
-      "gospel": "Mt 7,7-12."
+      "firstReading": "Esther 4:17n.p-r.aa-bb.gg.hh",
+      "psalm": "Psalm 138:1-2a.2bc-3, 7cd y 8bc (R. 3a)",
+      "gospel": "Matthew 7:7-12"
     },
     "calendarSource": "colombia",
     "celebration": "26  Febrero, Jueves. 1ª Sem. de Cuaresma,  Feria,  Morado",
@@ -944,9 +928,9 @@
     "monthDay": "2/27",
     "season": "Lent",
     "readings": {
-      "firstReading": "Ez 18,21-28",
-      "psalm": "Sal 130(129),1-2.3-4.5-6ab.6c-8 (R. 3)",
-      "gospel": "Mt 5,20-26 o Mc 14,53-64."
+      "firstReading": "Ezekiel 18:21-28",
+      "psalm": "Psalm 130:1-2, 3-4, 5-6ab.6c-8 (R. 3)",
+      "gospel": "Matthew 5:20-26 o Mark 14:53-64"
     },
     "calendarSource": "colombia",
     "celebration": "27  Febrero, Viernes. 1ª Sem. de Cuaresma,  Feria,  Morado",
@@ -960,9 +944,9 @@
     "monthDay": "2/28",
     "season": "Lent",
     "readings": {
-      "firstReading": "Dt 26,16-19",
-      "psalm": "Sal 119(118),1-2.4-5. 7-8 (R. cf. 33)",
-      "gospel": "Mt 5,43-48."
+      "firstReading": "Deuteronomy 26:16-19",
+      "psalm": "Psalm 119:1-2, 4-5. 7-8",
+      "gospel": "Matthew 5:43-48"
     },
     "calendarSource": "colombia",
     "celebration": "28  Febrero, Sábado. 1ª Sem. de Cuaresma,  Feria,  Morado",
@@ -976,10 +960,10 @@
     "monthDay": "3/1",
     "season": "Lent",
     "readings": {
-      "firstReading": "Gn 12,1-4a",
-      "psalm": "Sal 33(32),4-5.18-19. 20 y 22",
-      "secondReading": "2Tm 1,8b-10",
-      "gospel": "Mt 17,1-9."
+      "firstReading": "Genesis 12:1-4a",
+      "psalm": "Psalm 33:4-5, 18-19. 20 y 22",
+      "secondReading": "2Tm 1:8b-10",
+      "gospel": "Matthew 17:1-9"
     },
     "calendarSource": "colombia",
     "celebration": "01  Marzo, Domingo. 2ª Sem. de Cuaresma,  Morado",
@@ -993,9 +977,9 @@
     "monthDay": "3/2",
     "season": "Lent",
     "readings": {
-      "firstReading": "Dn 9,4b-10",
-      "psalm": "Sal 79(78),8.9.11.13 (R. cf. 103[102],10a)",
-      "gospel": "Lc 6,36-38."
+      "firstReading": "Daniel 9:4b-10",
+      "psalm": "Psalm 79:8, 9.11, 13",
+      "gospel": "Luke 6:36-38"
     },
     "calendarSource": "colombia",
     "celebration": "02  Marzo, Lunes. 2ª Sem. de Cuaresma,  Feria,  Morado",
@@ -1009,9 +993,9 @@
     "monthDay": "3/3",
     "season": "Lent",
     "readings": {
-      "firstReading": "Is 1,10.16-20",
-      "psalm": "Sal 50(49),8-9.16bc-17. 21 y 23 (R. cf. 14)",
-      "gospel": "Mt 23,1-12."
+      "firstReading": "Isaiah 1:10, 16-20",
+      "psalm": "Psalm 50:8-9, 16bc-17. 21 y 23",
+      "gospel": "Matthew 23:1-12"
     },
     "calendarSource": "colombia",
     "celebration": "03  Marzo, Martes. 2ª Sem. de Cuaresma,  Feria,  Morado",
@@ -1025,9 +1009,9 @@
     "monthDay": "3/4",
     "season": "Lent",
     "readings": {
-      "firstReading": "Jr 18,18-20",
-      "psalm": "Sal 31(30),5-6.14.15-16 (R. 17b)",
-      "gospel": "Mt 20,17-28."
+      "firstReading": "Jeremiah 18:18-20",
+      "psalm": "Psalm 31:5-6, 14, 15-16 (R. 17b)",
+      "gospel": "Matthew 20:17-28"
     },
     "calendarSource": "colombia",
     "celebration": "04  Marzo, Miércoles. 2ª Sem. de Cuaresma,  Feria,  Morado",
@@ -1041,9 +1025,9 @@
     "monthDay": "3/5",
     "season": "Lent",
     "readings": {
-      "firstReading": "Jr 17,5-10",
-      "psalm": "Sal 1,1-2.3.4 y 6 (R. cf. 40[39],5a)",
-      "gospel": "Lc 16,19-31."
+      "firstReading": "Jeremiah 17:5-10",
+      "psalm": "Psalm 1:1-2, 3.4 y 6",
+      "gospel": "Luke 16:19-31"
     },
     "calendarSource": "colombia",
     "celebration": "05  Marzo, Jueves. 2ª Sem. de Cuaresma,  Feria,  Morado",
@@ -1057,9 +1041,9 @@
     "monthDay": "3/6",
     "season": "Lent",
     "readings": {
-      "firstReading": "Gn 37,3-4.12-13a.17b-28",
-      "psalm": "Sal 105(104),16-17.18-19.20-21 (R. 5a)",
-      "gospel": "Mt 21,33-43.45-46 o Lc 23,13-25."
+      "firstReading": "Genesis 37:3-4, 12-13a, 17b-28",
+      "psalm": "Psalm 105:16-17, 18-19, 20-21 (R. 5a)",
+      "gospel": "Matthew 21:33-43, 45-46 o Luke 23:13-25"
     },
     "calendarSource": "colombia",
     "celebration": "06  Marzo, Viernes. 2ª Sem. de Cuaresma,  Feria,  Morado",
@@ -1073,9 +1057,9 @@
     "monthDay": "3/7",
     "season": "Lent",
     "readings": {
-      "firstReading": "Mi 7,14-15.18-20",
-      "psalm": "Sal 103(102),1-2. 3-4.9-10.11-12 (R. 8a)",
-      "gospel": "Lc 15,1-3.11-32."
+      "firstReading": "Micah 7:14-15, 18-20",
+      "psalm": "Psalm 103:1-2. 3-4, 9-10, 11-12 (R. 8a)",
+      "gospel": "Luke 15:1-3, 11-32"
     },
     "calendarSource": "colombia",
     "celebration": "07  Marzo, Sábado. 2ª Sem. de Cuaresma,  Feria,  Morado",
@@ -1089,10 +1073,10 @@
     "monthDay": "3/8",
     "season": "Lent",
     "readings": {
-      "firstReading": "Éx 17,3-7",
-      "psalm": "Sal 95(94),1-2.6-7ab.7c-9",
-      "secondReading": "Rm 5,1-2.5-8",
-      "gospel": "Jn 4,5-42 (forma larga) o Jn 4,5-15. 19b-26.39a.40-42 (forma breve)."
+      "firstReading": "Éx 17:3-7",
+      "psalm": "Psalm 95:1-2, 6-7ab.7c-9",
+      "secondReading": "Romans 5:1-2, 5-8",
+      "gospel": "John 4:5-42 (forma larga) o John 4:5-15. 19b-26, 39a.40-42 (forma breve)"
     },
     "calendarSource": "colombia",
     "celebration": "08  Marzo, Domingo. 3ª Sem. de Cuaresma,  Morado",
@@ -1106,9 +1090,9 @@
     "monthDay": "3/9",
     "season": "Lent",
     "readings": {
-      "firstReading": "2R 5,1-15a",
-      "psalm": "Sal 42(41),2.3; 43(42),3.4 (R. cf. 42[41],3)",
-      "gospel": "Lc 4,24-30."
+      "firstReading": "2 Kings 5:1-15a",
+      "psalm": "Psalm 42:2, 3; 43:3, 4",
+      "gospel": "Luke 4:24-30"
     },
     "calendarSource": "colombia",
     "celebration": "09  Marzo, Lunes. 3ª Sem. de Cuaresma,  Feria,  Morado",
@@ -1122,9 +1106,9 @@
     "monthDay": "3/10",
     "season": "Lent",
     "readings": {
-      "firstReading": "Dn 3,25.34-43",
-      "psalm": "Sal 25(24),4bc-5ab.6+7bc.8-9 (R. cf. 6a)",
-      "gospel": "Mt 18,21-35."
+      "firstReading": "Daniel 3:25, 34-43",
+      "psalm": "Psalm 25:4bc-5ab.6+7bc.8-9",
+      "gospel": "Matthew 18:21-35"
     },
     "calendarSource": "colombia",
     "celebration": "10  Marzo, Martes. 3ª Sem. de Cuaresma,  Feria,  Morado",
@@ -1138,9 +1122,9 @@
     "monthDay": "3/11",
     "season": "Lent",
     "readings": {
-      "firstReading": "Dt 4,1.5-9",
-      "psalm": "Sal 147(146-147),12-13.15-16.19-20 (R. 119[118],34)",
-      "gospel": "Mt 5,17-19."
+      "firstReading": "Deuteronomy 4:1, 5-9",
+      "psalm": "Psalm 147(146-147),12-13, 15-16, 19-20 (R. 119[118],34)",
+      "gospel": "Matthew 5:17-19"
     },
     "calendarSource": "colombia",
     "celebration": "11  Marzo, Miércoles. 3ª Sem. de Cuaresma,  Feria,  Morado",
@@ -1154,9 +1138,9 @@
     "monthDay": "3/12",
     "season": "Lent",
     "readings": {
-      "firstReading": "Jr 7,23-28",
-      "psalm": "Sal 95(94),1-2.6-7ab.7c-9 (R. cf. 7c)",
-      "gospel": "Lc 11,14-23."
+      "firstReading": "Jeremiah 7:23-28",
+      "psalm": "Psalm 95:1-2, 6-7ab.7c-9",
+      "gospel": "Luke 11:14-23"
     },
     "calendarSource": "colombia",
     "celebration": "12  Marzo, Jueves. 3ª Sem. de Cuaresma,  Feria,  Morado",
@@ -1170,9 +1154,9 @@
     "monthDay": "3/13",
     "season": "Lent",
     "readings": {
-      "firstReading": "Os 14,2-10",
-      "psalm": "Sal 81(80),6c-8a.8bc-9.10-11ab.14+17 (R. Dt 6,4)",
-      "gospel": "Mc 12,28b-34"
+      "firstReading": "Hosea 14:2-10",
+      "psalm": "Psalm 81:6c-8a.8bc-9, 10-11ab.14+17 (R. Deuteronomy 6:4)",
+      "gospel": "Mark 12:28b-34"
     },
     "calendarSource": "colombia",
     "celebration": "13  Marzo, Viernes. 3ª Sem. de Cuaresma,  Feria,  Morado",
@@ -1186,9 +1170,9 @@
     "monthDay": "3/14",
     "season": "Lent",
     "readings": {
-      "firstReading": "Os 6,1-6",
-      "psalm": "Sal 51(50),3-4.18-19.20-21a (R. cf. 19b)",
-      "gospel": "Lc 18,9-14."
+      "firstReading": "Hosea 6:1-6",
+      "psalm": "Psalm 51:3-4, 18-19, 20-21a",
+      "gospel": "Luke 18:9-14"
     },
     "calendarSource": "colombia",
     "celebration": "14  Marzo, Sábado. 3ª Sem. de Cuaresma,  Feria,  Morado",
@@ -1202,10 +1186,10 @@
     "monthDay": "3/15",
     "season": "Lent",
     "readings": {
-      "firstReading": "1S 16,1b.6-7. 10-13a",
-      "psalm": "Sal 23(22),1-3a.3b-4.5.6 (R. cf. 2a)",
-      "secondReading": "Ef 5,8-14",
-      "gospel": "Jn 9,1-41 (forma larga) o Jn 9,1-9.13-17.34-38 (forma breve)."
+      "firstReading": "1 Samuel 16:1b.6-7. 10-13a",
+      "psalm": "Psalm 23:1-3a.3b-4, 5.6",
+      "secondReading": "Ephesians 5:8-14",
+      "gospel": "John 9:1-41 (forma larga) o John 9:1-9, 13-17, 34-38 (forma breve)"
     },
     "calendarSource": "colombia",
     "celebration": "15  Marzo, Domingo. 4ª Sem. de Cuaresma,  «Laetare»,  Morado",
@@ -1219,9 +1203,9 @@
     "monthDay": "3/16",
     "season": "Lent",
     "readings": {
-      "firstReading": "Is 65,17-21",
-      "psalm": "Sal 30(29),2 y 4.5-6.11-12a y 13b (R. cf. 2a.4b)",
-      "gospel": "Jn 4,43-54."
+      "firstReading": "Isaiah 65:17-21",
+      "psalm": "Psalm 30:2 y 4, 5-6, 11-12a y 13b",
+      "gospel": "John 4:43-54"
     },
     "calendarSource": "colombia",
     "celebration": "16  Marzo, Lunes. 4ª Sem. de Cuaresma,  Feria,  Morado",
@@ -1235,9 +1219,9 @@
     "monthDay": "3/17",
     "season": "Lent",
     "readings": {
-      "firstReading": "Ez 47,1-9.12",
-      "psalm": "Sal 46(45),2-3.5-6.8-9 (R. 36[35],10a)",
-      "gospel": "Jn 5,1-16."
+      "firstReading": "Ezekiel 47:1-9, 12",
+      "psalm": "Psalm 46:2-3, 5-6, 8-9 (R. 36[35],10a)",
+      "gospel": "John 5:1-16"
     },
     "calendarSource": "colombia",
     "celebration": "17  Marzo, Martes. 4ª Sem. de Cuaresma,  Feria,  Morado",
@@ -1251,9 +1235,9 @@
     "monthDay": "3/18",
     "season": "Lent",
     "readings": {
-      "firstReading": "Is 49,8-15",
-      "psalm": "Sal 145(144),8-9.13cd-14. 17-18 (R. cf. 71[70],20)",
-      "gospel": "Jn 5,17-30."
+      "firstReading": "Isaiah 49:8-15",
+      "psalm": "Psalm 145:8-9, 13cd-14. 17-18",
+      "gospel": "John 5:17-30"
     },
     "calendarSource": "colombia",
     "celebration": "18  Marzo, Miércoles. 4ª Sem. de Cuaresma,  Feria,  Morado",
@@ -1267,10 +1251,10 @@
     "monthDay": "3/19",
     "season": "Lent",
     "readings": {
-      "firstReading": "2S 7,4-5a.12-14a.16",
-      "psalm": "Sal 89(88),2-3. 4-5.27 y 29 (R. 37)",
-      "secondReading": "Rm 4,13.16-18.22",
-      "gospel": "Mt 1,16.18-21.24a o Lc 2,41-51a."
+      "firstReading": "2 Samuel 7:4-5a.12-14a, 16",
+      "psalm": "Psalm 89:2-3. 4-5, 27 y 29 (R. 37)",
+      "secondReading": "Romans 4:13, 16-18, 22",
+      "gospel": "Matthew 1:16, 18-21, 24a o Luke 2:41-51a"
     },
     "calendarSource": "colombia",
     "celebration": "19  Marzo, Jueves.  Solemnidad,  Blanco",
@@ -1284,9 +1268,9 @@
     "monthDay": "3/20",
     "season": "Lent",
     "readings": {
-      "firstReading": "Sb 2,1a.12-22",
-      "psalm": "Sal 34(33),17-18.19-20. 21 y 23 (R. 19a)",
-      "gospel": "Jn 7,1-2.10.25-30."
+      "firstReading": "Sb 2:1a.12-22",
+      "psalm": "Psalm 34:17-18, 19-20. 21 y 23 (R. 19a)",
+      "gospel": "John 7:1-2, 10, 25-30"
     },
     "calendarSource": "colombia",
     "celebration": "20  Marzo, Viernes. 4ª Sem. de Cuaresma,  Feria,  Morado",
@@ -1300,9 +1284,9 @@
     "monthDay": "3/21",
     "season": "Lent",
     "readings": {
-      "firstReading": "Jr 11,18-20",
-      "psalm": "Sal 7,2-3.9bc-10.11-12 (R. 2a)",
-      "gospel": "Jn 7,40-53."
+      "firstReading": "Jeremiah 11:18-20",
+      "psalm": "Psalm 7:2-3, 9bc-10, 11-12 (R. 2a)",
+      "gospel": "John 7:40-53"
     },
     "calendarSource": "colombia",
     "celebration": "21  Marzo, Sábado. 4ª Sem. de Cuaresma,  Feria,  Morado",
@@ -1316,10 +1300,10 @@
     "monthDay": "3/22",
     "season": "Lent",
     "readings": {
-      "firstReading": "Ez 37,12-14",
-      "psalm": "Sal 130(129),1-2.3-4.5-6ab.6c-8",
-      "secondReading": "Rm 8,8-11",
-      "gospel": "Jn 11,1-45 (forma larga) o Jn 11,3-7.17.20-27.34-45 (forma breve)."
+      "firstReading": "Ezekiel 37:12-14",
+      "psalm": "Psalm 130:1-2, 3-4, 5-6ab.6c-8",
+      "secondReading": "Romans 8:8-11",
+      "gospel": "John 11:1-45 (forma larga) o John 11:3-7, 17, 20-27, 34-45 (forma breve)"
     },
     "calendarSource": "colombia",
     "celebration": "22  Marzo, Domingo. 5ª Sem. de Cuaresma,  Morado",
@@ -1333,9 +1317,9 @@
     "monthDay": "3/23",
     "season": "Lent",
     "readings": {
-      "firstReading": "Dn 13,1-9.15-17.19-30.33-62 (forma larga) o Dn 13,41c-62 (forma breve)",
-      "psalm": "Sal 23(22),1-3a.3b-4.5.6 (R. 4a)",
-      "gospel": "Jn 8,1-11."
+      "firstReading": "Daniel 13:1-9, 15-17, 19-30, 33-62 (forma larga) o Daniel 13:41c-62 (forma breve)",
+      "psalm": "Psalm 23:1-3a.3b-4, 5.6 (R. 4a)",
+      "gospel": "John 8:1-11"
     },
     "calendarSource": "colombia",
     "celebration": "23  Marzo, Lunes. 5ª Sem. de Cuaresma,  Feria,  Morado",
@@ -1349,9 +1333,9 @@
     "monthDay": "3/24",
     "season": "Lent",
     "readings": {
-      "firstReading": "Nm 21,4-9",
-      "psalm": "Sal 102(101),2-3a.3b+16.17-19a.19b-21 (R. cf.4)",
-      "gospel": "Jn 8,21-30."
+      "firstReading": "Numbers 21:4-9",
+      "psalm": "Psalm 102:2-3a.3b+16, 17-19a, 19b-21",
+      "gospel": "John 8:21-30"
     },
     "calendarSource": "colombia",
     "celebration": "24  Marzo, Martes. 5ª Sem. de Cuaresma,  Feria,  Morado",
@@ -1365,10 +1349,10 @@
     "monthDay": "3/25",
     "season": "Lent",
     "readings": {
-      "firstReading": "Is 7,10-14; 8,10",
-      "psalm": "Sal 40(39),7-8a. 8b-9.10.11 (R. 8a y 9a)",
-      "secondReading": "Hb 10,4-10",
-      "gospel": "Lc 1,26-38."
+      "firstReading": "Isaiah 7:10-14; 8:10",
+      "psalm": "Psalm 40:7-8a. 8b-9, 10, 11 (R. 8a y 9a)",
+      "secondReading": "Hb 10:4-10",
+      "gospel": "Luke 1:26-38"
     },
     "calendarSource": "colombia",
     "celebration": "25  Marzo, Miércoles.  Solemnidad,  Blanco",
@@ -1382,9 +1366,9 @@
     "monthDay": "3/26",
     "season": "Lent",
     "readings": {
-      "firstReading": "Gn 17,3-9",
-      "psalm": "Sal 105(104),4-5.6-7.8-9 (R. cf. Lc 1,72-73)",
-      "gospel": "Jn 8,51-59"
+      "firstReading": "Genesis 17:3-9",
+      "psalm": "Psalm 105:4-5, 6-7, 8-9",
+      "gospel": "John 8:51-59"
     },
     "calendarSource": "colombia",
     "celebration": "26  Marzo, Jueves. 5ª Sem. de Cuaresma,  Feria,  Morado",
@@ -1398,9 +1382,9 @@
     "monthDay": "3/27",
     "season": "Lent",
     "readings": {
-      "firstReading": "Jr 20,10-13",
-      "psalm": "Sal 18(17),2-3a.3bc-4.5-6.7 (R. cf. 7)",
-      "gospel": "Jn 10,31-42"
+      "firstReading": "Jeremiah 20:10-13",
+      "psalm": "Psalm 18:2-3a.3bc-4, 5-6, 7",
+      "gospel": "John 10:31-42"
     },
     "calendarSource": "colombia",
     "celebration": "27  Marzo, Viernes. 5ª Sem. de Cuaresma,  Feria,  Morado",
@@ -1414,9 +1398,9 @@
     "monthDay": "3/28",
     "season": "Lent",
     "readings": {
-      "firstReading": "Ez 37,21-28",
-      "psalm": "Sal Jr 31,10.11-12ab.13 (R. cf. Sal 133[132],1)",
-      "gospel": "Jn 11,45-57."
+      "firstReading": "Ezekiel 37:21-28",
+      "psalm": "Psalm Jeremiah 31:10, 11-12ab.13",
+      "gospel": "John 11:45-57"
     },
     "calendarSource": "colombia",
     "celebration": "28  Marzo, Sábado. 5ª Sem. de Cuaresma,  Feria,  Morado",
@@ -1430,10 +1414,10 @@
     "monthDay": "3/29",
     "season": "Lent",
     "readings": {
-      "firstReading": "Is 50,4-7",
-      "psalm": "Sal 22(21),8-9.17-18a.19-20. 23-24 (R. 2a)",
-      "secondReading": "Flp 2,6-11",
-      "gospel": "Mt 26,14 - 27,66 (forma larga) o Mt 27,11-54 (forma breve)"
+      "firstReading": "Isaiah 50:4-7",
+      "psalm": "Psalm 22:8-9, 17-18a, 19-20. 23-24 (R. 2a)",
+      "secondReading": "Philippians 2:6-11",
+      "gospel": "Matthew 26:14 - 27:66 (forma larga) o Matthew 27:11-54 (forma breve)"
     },
     "calendarSource": "colombia",
     "celebration": "29  Marzo, Domingo.  DE RAMOS,  Rojo",
@@ -1447,9 +1431,9 @@
     "monthDay": "3/30",
     "season": "Lent",
     "readings": {
-      "firstReading": "Is 42,1-7",
-      "psalm": "Sal 27(26),1.2.3.13-14 (R. 1a)",
-      "gospel": "Jn 12,1-11."
+      "firstReading": "Isaiah 42:1-7",
+      "psalm": "Psalm 27:1, 2.3, 13-14 (R. 1a)",
+      "gospel": "John 12:1-11"
     },
     "calendarSource": "colombia",
     "celebration": "30  Marzo, Lunes.  Santo,  Feria privilegiada,  Morado",
@@ -1475,9 +1459,9 @@
     "monthDay": "4/1",
     "season": "Lent",
     "readings": {
-      "firstReading": "Is 50,4-9a",
-      "psalm": "Sal 69(68),8.9-10.21-22.31.33-34 (R. cf. 30)",
-      "gospel": "Mt 26,14-25."
+      "firstReading": "Isaiah 50:4-9a",
+      "psalm": "Psalm 69:8, 9-10, 21-22, 31, 33-34",
+      "gospel": "Matthew 26:14-25"
     },
     "calendarSource": "colombia",
     "celebration": "01  Abril, Miércoles.  Santo,  Feria privilegiada,  Morado",
@@ -1489,28 +1473,12 @@
   {
     "date": "2026-04-02",
     "monthDay": "4/2",
-    "season": "Lent",
-    "readings": {
-      "firstReading": "Is 61,1-3a.6a.8b-9",
-      "psalm": "Sal 89(88), 21-22.25+27 (R. cf. 2a)",
-      "gospel": "Ap 1,5-8"
-    },
-    "calendarSource": "colombia",
-    "celebration": "02  Abril, Jueves.  Santo,  Blanco",
-    "color": "Blanco",
-    "prelude": "",
-    "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
-  },
-  {
-    "date": "2026-04-02",
-    "monthDay": "4/2",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "&Eacute;x 12,1-8.11-14",
-      "psalm": "Sal 116(115),12-13.15+16bc.17-18",
-      "secondReading": "1Co 11,23-26",
-      "gospel": "Jn 13,1-15."
+      "firstReading": "&Eacute;x 12:1-8, 11-14",
+      "psalm": "Psalm 116:12-13, 15+16bc.17-18",
+      "secondReading": "1 Corinthians 11:23-26",
+      "gospel": "John 13:1-15"
     },
     "calendarSource": "colombia",
     "celebration": "02  Abril, Jueves Santo. Blanco",
@@ -1524,27 +1492,15 @@
     "monthDay": "4/3",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Is 52,13 - 53,12",
-      "psalm": "Sal 31(30),2 y 6.12-13.15-16.17+25 (R. 6a)",
-      "secondReading": "Hb 4,14-16; 5,7-9",
-      "gospel": "Jn 18,1-19,42."
+      "firstReading": "Isaiah 52:13 - 53:12",
+      "psalm": "Psalm 31:2 y 6, 12-13, 15-16, 17+25 (R. 6a)",
+      "secondReading": "Hb 4:14-16; 5:7-9",
+      "gospel": "John 18:1-19:42"
     },
     "calendarSource": "colombia",
     "celebration": "03  Abril, Viernes.  Santo,  Rojo",
     "color": "Rojo",
     "prelude": "<p>Celebración de la Pasión del Señor: Ritos introductorios. <br>1ª Parte: Liturgia de la Palabra: Lecturas y Oración universal. <br>2ª Parte: Adoración de la Santa Cruz. <br>3ª Parte: Sagrada Comunión.</p>",
-    "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
-  },
-  {
-    "date": "2026-04-04",
-    "monthDay": "4/4",
-    "season": "Ordinary Time",
-    "readings": {},
-    "calendarSource": "colombia",
-    "celebration": "04  Abril, Sábado.  Santo,",
-    "color": "",
-    "prelude": "",
     "calendarLabel": "Colombia (CEC)",
     "sourceReference": "https://web-ordo-colombiano.cec.org.co"
   },
@@ -1565,9 +1521,9 @@
     "monthDay": "4/5",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Hch 10,34a.37-43",
-      "psalm": "Sal 118(117),1-2. 15c y 16a y 17.22-23 (R. 24)",
-      "secondReading": "Col 3,1-4 o 1Co 5,6b-8",
+      "firstReading": "Acts 10:34a, 37-43",
+      "psalm": "Psalm 118:1-2. 15c y 16a y 17, 22-23 (R. 24)",
+      "secondReading": "Colossians 3:1-4 o 1 Corinthians 5:6b-8",
       "gospel": "Secuencia (hoy obligatoria, durante la Octava a elección)"
     },
     "calendarSource": "colombia",
@@ -1582,9 +1538,9 @@
     "monthDay": "4/6",
     "season": "Easter",
     "readings": {
-      "firstReading": "Hch 2,14.22-33",
-      "psalm": "Sal 16(15),1-2+5.7-8.9-10.11 (R. cf. 11a)",
-      "gospel": "Mt 28,8-15."
+      "firstReading": "Acts 2:14, 22-33",
+      "psalm": "Psalm 16:1-2+5, 7-8, 9-10, 11",
+      "gospel": "Matthew 28:8-15"
     },
     "calendarSource": "colombia",
     "celebration": "06  Abril, Lunes.  de la Octava de Pascua,  Blanco",
@@ -1598,9 +1554,9 @@
     "monthDay": "4/7",
     "season": "Easter",
     "readings": {
-      "firstReading": "Hch 2,14a.36-41",
-      "psalm": "Sal 33(32),4-5.18-19.20+22 (R. cf. 5b)",
-      "gospel": "Jn 20,11-18."
+      "firstReading": "Acts 2:14a, 36-41",
+      "psalm": "Psalm 33:4-5, 18-19, 20+22",
+      "gospel": "John 20:11-18"
     },
     "calendarSource": "colombia",
     "celebration": "07  Abril, Martes.  de la Octava de Pascua,  Blanco",
@@ -1614,9 +1570,9 @@
     "monthDay": "4/8",
     "season": "Easter",
     "readings": {
-      "firstReading": "Hch 3,1-10",
-      "psalm": "Sal 105(104),1-2.3-4.6-7. 8-9 (R. 3b)",
-      "gospel": "Lc 24,13-35."
+      "firstReading": "Acts 3:1-10",
+      "psalm": "Psalm 105:1-2, 3-4, 6-7. 8-9 (R. 3b)",
+      "gospel": "Luke 24:13-35"
     },
     "calendarSource": "colombia",
     "celebration": "08  Abril, Miércoles.  de la Octava de Pascua,  Blanco",
@@ -1630,9 +1586,9 @@
     "monthDay": "4/9",
     "season": "Easter",
     "readings": {
-      "firstReading": "Hch 3,11-26",
-      "psalm": "Sal 8,2ab y 5.6-7.8-9 (R. cf. 2b)",
-      "gospel": "Lc 24,35-48."
+      "firstReading": "Acts 3:11-26",
+      "psalm": "Psalm 8:2ab y 5, 6-7, 8-9",
+      "gospel": "Luke 24:35-48"
     },
     "calendarSource": "colombia",
     "celebration": "09  Abril, Jueves.  de la Octava de Pascua,  Blanco",
@@ -1646,9 +1602,9 @@
     "monthDay": "4/10",
     "season": "Easter",
     "readings": {
-      "firstReading": "Hch 4,1-12",
-      "psalm": "Sal 118(117),1-2 y 4.22-23.24-25.26-27a (R. 22)",
-      "gospel": "Jn 21,1-14."
+      "firstReading": "Acts 4:1-12",
+      "psalm": "Psalm 118:1-2 y 4, 22-23, 24-25, 26-27a (R. 22)",
+      "gospel": "John 21:1-14"
     },
     "calendarSource": "colombia",
     "celebration": "10  Abril, Viernes.  de la Octava de Pascua,  Blanco",
@@ -1662,8 +1618,8 @@
     "monthDay": "4/11",
     "season": "Easter",
     "readings": {
-      "firstReading": "Hch 4,13-21",
-      "psalm": "Sal 118(117),1 y 14.15. 16-17.18-19.20-21 (R. 8)",
+      "firstReading": "Acts 4:13-21",
+      "psalm": "Psalm 118:1 y 14, 15. 16-17, 18-19, 20-21 (R. 8)",
       "gospel": "&nbsp;"
     },
     "calendarSource": "colombia",
@@ -1678,10 +1634,10 @@
     "monthDay": "4/12",
     "season": "Easter",
     "readings": {
-      "firstReading": "Hch 2,42-47",
-      "psalm": "Sal 118(117),2-4.13-15ab.22-24 (R. cf. 1)",
-      "secondReading": "1P 1,3-9",
-      "gospel": "Jn 20,19-31."
+      "firstReading": "Acts 2:42-47",
+      "psalm": "Psalm 118:2-4, 13-15ab.22-24",
+      "secondReading": "1P 1:3-9",
+      "gospel": "John 20:19-31"
     },
     "calendarSource": "colombia",
     "celebration": "12  Abril, Domingo. 2ª Sem. de Pascua,  o de la Divina Misericordia,  Blanco",
@@ -1695,9 +1651,9 @@
     "monthDay": "4/13",
     "season": "Easter",
     "readings": {
-      "firstReading": "Hch 4,23-31",
-      "psalm": "Sal 2,1-3.4-6.7.8-9 (R. cf. 12d)",
-      "gospel": "Jn 3,1-8."
+      "firstReading": "Acts 4:23-31",
+      "psalm": "Psalm 2:1-3, 4-6, 7.8-9",
+      "gospel": "John 3:1-8"
     },
     "calendarSource": "colombia",
     "celebration": "13  Abril, Lunes. 2ª Sem. de Pascua,  Feria o Memoria libre,  Blanco o Rojo",
@@ -1711,9 +1667,9 @@
     "monthDay": "4/14",
     "season": "Easter",
     "readings": {
-      "firstReading": "Hch 4,32-37",
-      "psalm": "Sal 93(92),1ab.1c-2.5 (R. 122[121],3)",
-      "gospel": "Jn 3,7b-15."
+      "firstReading": "Acts 4:32-37",
+      "psalm": "Psalm 93:1ab.1c-2, 5 (R. 122[121],3)",
+      "gospel": "John 3:7b-15"
     },
     "calendarSource": "colombia",
     "celebration": "14  Abril, Martes. 2ª Sem. de Pascua,  Feria,  Blanco",
@@ -1727,9 +1683,9 @@
     "monthDay": "4/15",
     "season": "Easter",
     "readings": {
-      "firstReading": "Hch 5,17-26",
-      "psalm": "Sal 34(33),2-3.4-5.6-7.8-9 (R. 7a)",
-      "gospel": "Jn 3,16-21"
+      "firstReading": "Acts 5:17-26",
+      "psalm": "Psalm 34:2-3, 4-5, 6-7, 8-9 (R. 7a)",
+      "gospel": "John 3:16-21"
     },
     "calendarSource": "colombia",
     "celebration": "15  Abril, Miércoles. 2ª Sem. de Pascua,  Feria,  Blanco",
@@ -1743,9 +1699,9 @@
     "monthDay": "4/16",
     "season": "Easter",
     "readings": {
-      "firstReading": "Hch 5,27-33",
-      "psalm": "Sal 34(33),2 y 9.17-18.19-20 (R. 7a)",
-      "gospel": "Jn 3,31-36."
+      "firstReading": "Acts 5:27-33",
+      "psalm": "Psalm 34:2 y 9, 17-18, 19-20 (R. 7a)",
+      "gospel": "John 3:31-36"
     },
     "calendarSource": "colombia",
     "celebration": "16  Abril, Jueves. 2ª Sem. de Pascua,  Feria,  Blanco",
@@ -1759,9 +1715,9 @@
     "monthDay": "4/17",
     "season": "Easter",
     "readings": {
-      "firstReading": "Hch 5,34-42",
-      "psalm": "Sal 27(26),1.4.13-14 (R. cf. 5)",
-      "gospel": "Jn 6,1-15."
+      "firstReading": "Acts 5:34-42",
+      "psalm": "Psalm 27:1, 4.13-14",
+      "gospel": "John 6:1-15"
     },
     "calendarSource": "colombia",
     "celebration": "17  Abril, Viernes. 2ª Sem. de Pascua,  Feria,  Blanco",
@@ -1775,9 +1731,9 @@
     "monthDay": "4/18",
     "season": "Easter",
     "readings": {
-      "firstReading": "Hch 6,1-7",
-      "psalm": "Sal 33(32),1-2.4-5.18-19 (R. 22)",
-      "gospel": "Jn 6,16-21."
+      "firstReading": "Acts 6:1-7",
+      "psalm": "Psalm 33:1-2, 4-5, 18-19 (R. 22)",
+      "gospel": "John 6:16-21"
     },
     "calendarSource": "colombia",
     "celebration": "18  Abril, Sábado. 2ª Sem. de Pascua,  Feria,  Blanco",
@@ -1791,9 +1747,9 @@
     "monthDay": "4/19",
     "season": "Easter",
     "readings": {
-      "firstReading": "Hch 2,14.22-33",
-      "psalm": "Sal 16(15),1-2 y 5.7-8.9-10.11 (R. 11a)",
-      "secondReading": "1P 1,17-21",
+      "firstReading": "Acts 2:14, 22-33",
+      "psalm": "Psalm 16:1-2 y 5, 7-8, 9-10, 11 (R. 11a)",
+      "secondReading": "1P 1:17-21",
       "gospel": "&nbsp;"
     },
     "calendarSource": "colombia",
@@ -1808,9 +1764,9 @@
     "monthDay": "4/20",
     "season": "Easter",
     "readings": {
-      "firstReading": "Hch 6,8-15",
-      "psalm": "Sal 119(118),23-24.26-27. 29-30 (R. cf. 69[68],10)",
-      "gospel": "Jn 6,22-29."
+      "firstReading": "Acts 6:8-15",
+      "psalm": "Psalm 119:23-24, 26-27. 29-30",
+      "gospel": "John 6:22-29"
     },
     "calendarSource": "colombia",
     "celebration": "20  Abril, Lunes. 3ª Sem. de Pascua,  Feria,  Blanco",
@@ -1824,9 +1780,9 @@
     "monthDay": "4/21",
     "season": "Easter",
     "readings": {
-      "firstReading": "Hch 7,51 - 8,1a",
-      "psalm": "Sal 31(30),3cd-4. 6 y 7b y 8a.17 y 21ab (R. 6a)",
-      "gospel": "Jn 6, 30-35."
+      "firstReading": "Acts 7:51 - 8:1a",
+      "psalm": "Psalm 31:3cd-4. 6 y 7b y 8a.17 y 21ab (R. 6a)",
+      "gospel": "John 6, 30-35"
     },
     "calendarSource": "colombia",
     "celebration": "21  Abril, Martes. 3ª Sem. de Pascua,  Feria o Memoria libre,  Blanco",
@@ -1840,9 +1796,9 @@
     "monthDay": "4/22",
     "season": "Easter",
     "readings": {
-      "firstReading": "Hch 8,1b-8",
-      "psalm": "Sal 66(65),1-3a.4-5.6-7a (R. 1)",
-      "gospel": "Jn 6,35-40"
+      "firstReading": "Acts 8:1b-8",
+      "psalm": "Psalm 66:1-3a.4-5, 6-7a (R. 1)",
+      "gospel": "John 6:35-40"
     },
     "calendarSource": "colombia",
     "celebration": "22  Abril, Miércoles. 3ª Sem. de Pascua,  Feria,  Blanco",
@@ -1856,9 +1812,9 @@
     "monthDay": "4/23",
     "season": "Easter",
     "readings": {
-      "firstReading": "Hch 8,26-40",
-      "psalm": "Sal 66(65),8-9.16-17.20 (R. 1)",
-      "gospel": "Jn 6,44-51."
+      "firstReading": "Acts 8:26-40",
+      "psalm": "Psalm 66:8-9, 16-17, 20 (R. 1)",
+      "gospel": "John 6:44-51"
     },
     "calendarSource": "colombia",
     "celebration": "23  Abril, Jueves. 3ª Sem. de Pascua,  Feria o Memoria libre,  Blanco o Rojo",
@@ -1872,9 +1828,9 @@
     "monthDay": "4/24",
     "season": "Easter",
     "readings": {
-      "firstReading": "Hch 9,1-20",
-      "psalm": "Sal 117(116),1.2 (R. Mc 16,15)",
-      "gospel": "Jn 6,52-59."
+      "firstReading": "Acts 9:1-20",
+      "psalm": "Psalm 117:1, 2 (R. Mark 16:15)",
+      "gospel": "John 6:52-59"
     },
     "calendarSource": "colombia",
     "celebration": "24  Abril, Viernes. 3ª Sem. de Pascua,  Feria o Memoria libre,  Blanco o Rojo",
@@ -1888,9 +1844,9 @@
     "monthDay": "4/25",
     "season": "Easter",
     "readings": {
-      "firstReading": "1P 5,5b-14",
-      "psalm": "Sal 89(88),2-3,6-7.16-17 (R. cf. 2a)",
-      "secondReading": "Mc 16,15-20.",
+      "firstReading": "1P 5:5b-14",
+      "psalm": "Psalm 89:2-3:6-7, 16-17",
+      "secondReading": "Mark 16:15-20",
       "gospel": ""
     },
     "calendarSource": "colombia",
@@ -1905,10 +1861,10 @@
     "monthDay": "4/26",
     "season": "Easter",
     "readings": {
-      "firstReading": "Hch 2,14a.36-41",
-      "psalm": "Sal 23(22),1-3a. 3b-4.5.6 (R. 1)",
-      "secondReading": "1P 2,20b-25",
-      "gospel": "Jn 10,1-10."
+      "firstReading": "Acts 2:14a, 36-41",
+      "psalm": "Psalm 23:1-3a. 3b-4, 5.6 (R. 1)",
+      "secondReading": "1P 2:20b-25",
+      "gospel": "John 10:1-10"
     },
     "calendarSource": "colombia",
     "celebration": "26  Abril, Domingo. 4ª Sem. de Pascua,  Blanco",
@@ -1922,9 +1878,9 @@
     "monthDay": "4/27",
     "season": "Easter",
     "readings": {
-      "firstReading": "Hch 11,1-18",
-      "psalm": "Sal 42(41),2.3; 43(42), 3.4 (R. cf. 42[41],3)",
-      "gospel": "Jn 10,11-18."
+      "firstReading": "Acts 11:1-18",
+      "psalm": "Psalm 42:2, 3; 43, 3, 4",
+      "gospel": "John 10:11-18"
     },
     "calendarSource": "colombia",
     "celebration": "27  Abril, Lunes. 4ª Sem. de Pascua,  Feria,  Blanco",
@@ -1938,9 +1894,9 @@
     "monthDay": "4/28",
     "season": "Easter",
     "readings": {
-      "firstReading": "Hch 11,19-26",
-      "psalm": "Sal 87(86),2-3.4-5.6-7 (R. 117[116],1a)",
-      "gospel": "Jn 10,22-30."
+      "firstReading": "Acts 11:19-26",
+      "psalm": "Psalm 87:2-3, 4-5, 6-7 (R. 117[116],1a)",
+      "gospel": "John 10:22-30"
     },
     "calendarSource": "colombia",
     "celebration": "28  Abril, Martes. 4ª Sem. de Pascua,  Feria o Memoria libre,  Blanco o Rojo",
@@ -1954,9 +1910,9 @@
     "monthDay": "4/29",
     "season": "Easter",
     "readings": {
-      "firstReading": "Hch 12,24 - 13,5a",
-      "psalm": "Sal 67(66),2-3.5. 6+8 (R. cf. 4)",
-      "gospel": "Jn 12,44-50."
+      "firstReading": "Acts 12:24 - 13:5a",
+      "psalm": "Psalm 67:2-3, 5. 6+8",
+      "gospel": "John 12:44-50"
     },
     "calendarSource": "colombia",
     "celebration": "29  Abril, Miércoles. 4ª Sem. de Pascua,  Memoria obligatoria,  Blanco",
@@ -1970,9 +1926,9 @@
     "monthDay": "4/30",
     "season": "Easter",
     "readings": {
-      "firstReading": "Hch 13,13-25",
-      "psalm": "Sal 89(88),2-3.21-22.25+27 (R. cf. 18[17],51)",
-      "gospel": "Jn 13,16-20."
+      "firstReading": "Acts 13:13-25",
+      "psalm": "Psalm 89:2-3, 21-22, 25+27",
+      "gospel": "John 13:16-20"
     },
     "calendarSource": "colombia",
     "celebration": "30  Abril, Jueves. 4ª Sem. de Pascua,  Feria o Memoria libre,  Blanco",
@@ -1986,9 +1942,9 @@
     "monthDay": "5/1",
     "season": "Easter",
     "readings": {
-      "firstReading": "Hch 13,26-33",
-      "psalm": "Sal 2,6-7.8-9.10-11 (R. Mt 16,16b)",
-      "gospel": "Jn 14,1-6."
+      "firstReading": "Acts 13:26-33",
+      "psalm": "Psalm 2:6-7, 8-9, 10-11 (R. Matthew 16:16b)",
+      "gospel": "John 14:1-6"
     },
     "calendarSource": "colombia",
     "celebration": "01  Mayo, Viernes. 4ª Sem. de Pascua,  Feria o Memoria libre,  Blanco",
@@ -2002,9 +1958,9 @@
     "monthDay": "5/2",
     "season": "Easter",
     "readings": {
-      "firstReading": "Hch 13,44-52",
-      "psalm": "Sal 98(97),1.2-3ab.3cd-4 (R. 3cd)",
-      "gospel": "Jn 14,7-14."
+      "firstReading": "Acts 13:44-52",
+      "psalm": "Psalm 98:1, 2-3ab.3cd-4 (R. 3cd)",
+      "gospel": "John 14:7-14"
     },
     "calendarSource": "colombia",
     "celebration": "02  Mayo, Sábado. 4ª Sem. de Pascua,  Memoria obligatoria,  Blanco",
@@ -2030,9 +1986,9 @@
     "monthDay": "5/4",
     "season": "Easter",
     "readings": {
-      "firstReading": "1Co 15,1-8",
-      "psalm": "Sal 19(18),2-3.4-5 (R. 5a)",
-      "secondReading": "Jn 14, 6-14.",
+      "firstReading": "1 Corinthians 15:1-8",
+      "psalm": "Psalm 19:2-3, 4-5 (R. 5a)",
+      "secondReading": "John 14, 6-14",
       "gospel": ""
     },
     "calendarSource": "colombia",
@@ -2047,9 +2003,9 @@
     "monthDay": "5/5",
     "season": "Easter",
     "readings": {
-      "firstReading": "Hch 14,19-28",
-      "psalm": "Sal 145(144),10.11-12. 13ab.21 (R. 126[125],5)",
-      "gospel": "Jn 14,27-31a."
+      "firstReading": "Acts 14:19-28",
+      "psalm": "Psalm 145:10, 11-12. 13ab.21 (R. 126[125],5)",
+      "gospel": "John 14:27-31a"
     },
     "calendarSource": "colombia",
     "celebration": "05  Mayo, Martes. 5ª Sem. de Pascua,  Feria,  Blanco",
@@ -2063,9 +2019,9 @@
     "monthDay": "5/6",
     "season": "Easter",
     "readings": {
-      "firstReading": "Hch 15, 1-6",
-      "psalm": "Sal 122 (121), 1-2. 3-4a. 4b-5 (R. cf. 1)",
-      "gospel": "Jn 15, 1-8."
+      "firstReading": "Acts 15, 1-6",
+      "psalm": "Psalm 122 , 1-2. 3-4a. 4b-5",
+      "gospel": "John 15, 1-8"
     },
     "calendarSource": "colombia",
     "celebration": "06  Mayo, Miércoles. 5ª Sem. de Pascua,  Feria,  Blanco",
@@ -2079,9 +2035,9 @@
     "monthDay": "5/7",
     "season": "Easter",
     "readings": {
-      "firstReading": "Hch 15,7-21",
-      "psalm": "Sal 96(95),1-2a.2b-3.10 (R. cf. 3)",
-      "gospel": "Jn 15,9-11."
+      "firstReading": "Acts 15:7-21",
+      "psalm": "Psalm 96:1-2a.2b-3, 10",
+      "gospel": "John 15:9-11"
     },
     "calendarSource": "colombia",
     "celebration": "07  Mayo, Jueves. 5ª Sem. de Pascua,  Feria,  Blanco",
@@ -2095,9 +2051,9 @@
     "monthDay": "5/8",
     "season": "Easter",
     "readings": {
-      "firstReading": "Hch 15, 22-31",
-      "psalm": "Sal 57 (56), 8-9. 10-11. 12 (R. 10a)",
-      "gospel": "Jn 15, 12-17."
+      "firstReading": "Acts 15, 22-31",
+      "psalm": "Psalm 57 , 8-9. 10-11. 12 (R. 10a)",
+      "gospel": "John 15, 12-17"
     },
     "calendarSource": "colombia",
     "celebration": "08  Mayo, Viernes. 5ª Sem. de Pascua,  Feria,  Blanco",
@@ -2111,9 +2067,9 @@
     "monthDay": "5/9",
     "season": "Easter",
     "readings": {
-      "firstReading": "Hch 16, 1-10",
-      "psalm": "Sal 100 (99), 1b-2. 3. 5. (R. 2a)",
-      "gospel": "Jn 15, 18-21."
+      "firstReading": "Acts 16, 1-10",
+      "psalm": "Psalm 100 , 1b-2. 3. 5. (R. 2a)",
+      "gospel": "John 15, 18-21"
     },
     "calendarSource": "colombia",
     "celebration": "09  Mayo, Sábado. 5ª Sem. de Pascua,  Feria,  Blanco",
@@ -2127,10 +2083,10 @@
     "monthDay": "5/10",
     "season": "Easter",
     "readings": {
-      "firstReading": "Hch 8,5-8.14-17",
-      "psalm": "Sal 66(65),1-3a.4-5.6-7a.16 y 20 (R. 1)",
-      "secondReading": "1P 3,15-18",
-      "gospel": "Jn 14,15-21."
+      "firstReading": "Acts 8:5-8, 14-17",
+      "psalm": "Psalm 66:1-3a.4-5, 6-7a.16 y 20 (R. 1)",
+      "secondReading": "1P 3:15-18",
+      "gospel": "John 14:15-21"
     },
     "calendarSource": "colombia",
     "celebration": "10  Mayo, Domingo. 6ª Sem. de Pascua,  Blanco",
@@ -2144,9 +2100,9 @@
     "monthDay": "5/11",
     "season": "Easter",
     "readings": {
-      "firstReading": "Hch 16,10b-15",
-      "psalm": "Sal 149,1-2.3-4.5-6a+9b (R. 4a)",
-      "gospel": "Jn 15,26 - 16,4a."
+      "firstReading": "Acts 16:10b-15",
+      "psalm": "Psalm 149:1-2, 3-4, 5-6a+9b (R. 4a)",
+      "gospel": "John 15:26 - 16:4a"
     },
     "calendarSource": "colombia",
     "celebration": "11  Mayo, Lunes. 6ª Sem. de Pascua,  Feria,  Blanco",
@@ -2160,9 +2116,9 @@
     "monthDay": "5/12",
     "season": "Easter",
     "readings": {
-      "firstReading": "Hch 16,22-34",
-      "psalm": "Sal 138(137),1-2a. 2bc+3.7cd+8bc (R. 7cd)",
-      "gospel": "Jn 16,5-11."
+      "firstReading": "Acts 16:22-34",
+      "psalm": "Psalm 138:1-2a. 2bc+3, 7cd+8bc (R. 7cd)",
+      "gospel": "John 16:5-11"
     },
     "calendarSource": "colombia",
     "celebration": "12  Mayo, Martes. 6ª Sem. de Pascua,  Feria o Memoria libre,  Blanco o Rojo",
@@ -2176,9 +2132,9 @@
     "monthDay": "5/13",
     "season": "Easter",
     "readings": {
-      "firstReading": "Hch 17,15.22 - 18,1",
-      "psalm": "Sal 148,1-2. 11-12.13.14",
-      "gospel": "Jn 16,12-15."
+      "firstReading": "Acts 17:15, 22 - 18:1",
+      "psalm": "Psalm 148:1-2. 11-12, 13, 14",
+      "gospel": "John 16:12-15"
     },
     "calendarSource": "colombia",
     "celebration": "13  Mayo, Miércoles. 6ª Sem. de Pascua,  Feria o Memoria libre,  Blanco",
@@ -2192,9 +2148,9 @@
     "monthDay": "5/14",
     "season": "Easter",
     "readings": {
-      "firstReading": "Hch 1,15-17.20-26",
-      "psalm": "Sal 113(112),1-2.3-4.5-6.7-8 (R. cf. 8)",
-      "secondReading": "Jn 15,9-17.",
+      "firstReading": "Acts 1:15-17, 20-26",
+      "psalm": "Psalm 113:1-2, 3-4, 5-6, 7-8",
+      "secondReading": "John 15:9-17",
       "gospel": ""
     },
     "calendarSource": "colombia",
@@ -2209,9 +2165,9 @@
     "monthDay": "5/15",
     "season": "Easter",
     "readings": {
-      "firstReading": "Hch 18,9-18",
-      "psalm": "Sal 47(46),2-3.4-5.6-7 (R. cf. 10a)",
-      "gospel": "Jn 16,20-23a."
+      "firstReading": "Acts 18:9-18",
+      "psalm": "Psalm 47:2-3, 4-5, 6-7",
+      "gospel": "John 16:20-23a"
     },
     "calendarSource": "colombia",
     "celebration": "15  Mayo, Viernes. 6ª Sem. de Pascua,  Feria,  Blanco",
@@ -2225,26 +2181,10 @@
     "monthDay": "5/16",
     "season": "Easter",
     "readings": {
-      "firstReading": "Hch 18,23-28",
-      "psalm": "Sal 47(46),2-3.8-9.10 (R. 8a)",
-      "gospel": "Jn 16,23b-28."
-    },
-    "calendarSource": "colombia",
-    "celebration": "16  Mayo, Sábado. 6ª Sem. de Pascua,  Feria,  Blanco",
-    "color": "Blanco",
-    "prelude": "",
-    "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
-  },
-  {
-    "date": "2026-05-16",
-    "monthDay": "5/16",
-    "season": "Easter",
-    "readings": {
-      "firstReading": "Hch 1,1-11",
-      "psalm": "Sal 47(46),2-3.6-7.8-9 (R. cf. 6)",
-      "secondReading": "Ef 1,17-23",
-      "gospel": "Mt 28,16-20."
+      "firstReading": "Acts 1:1-11",
+      "psalm": "Psalm 47:2-3, 6-7, 8-9",
+      "secondReading": "Ephesians 1:17-23",
+      "gospel": "Matthew 28:16-20"
     },
     "calendarSource": "colombia",
     "celebration": "16  Mayo, Sábado.  Solemnidad,  Blanco  \r\n EN LA VIGILIA:",
@@ -2258,10 +2198,10 @@
     "monthDay": "5/17",
     "season": "Easter",
     "readings": {
-      "firstReading": "Hch 1,1-11",
-      "psalm": "Sal 47(46),2-3.6-7.8-9 (R. cf. 6)",
-      "secondReading": "Ef 1,17-23",
-      "gospel": "Mt 28,16-20."
+      "firstReading": "Acts 1:1-11",
+      "psalm": "Psalm 47:2-3, 6-7, 8-9",
+      "secondReading": "Ephesians 1:17-23",
+      "gospel": "Matthew 28:16-20"
     },
     "calendarSource": "colombia",
     "celebration": "17  Mayo, Domingo.  EN EL DIA DE LA SOLEMNIDAD,  Blanco",
@@ -2275,9 +2215,9 @@
     "monthDay": "5/18",
     "season": "Easter",
     "readings": {
-      "firstReading": "Hch 19,1-8",
-      "psalm": "Sal 68(67),2.3.4+5ac.6-7ab (R. cf. 10)",
-      "gospel": "Jn 16,29-33."
+      "firstReading": "Acts 19:1-8",
+      "psalm": "Psalm 68:2, 3.4+5ac.6-7ab",
+      "gospel": "John 16:29-33"
     },
     "calendarSource": "colombia",
     "celebration": "18  Mayo, Lunes. 7ª Sem. de Pascua,  Feria o Memoria libre,  Blanco o Rojo",
@@ -2291,9 +2231,9 @@
     "monthDay": "5/19",
     "season": "Easter",
     "readings": {
-      "firstReading": "Hch 20,17-27",
-      "psalm": "Sal 68(67),10-11.20-21 (R. cf. 10)",
-      "gospel": "Jn 17,1-11a."
+      "firstReading": "Acts 20:17-27",
+      "psalm": "Psalm 68:10-11, 20-21",
+      "gospel": "John 17:1-11a"
     },
     "calendarSource": "colombia",
     "celebration": "19  Mayo, Martes. 7ª Sem. de Pascua,  Feria o Memoria libre,  Blanco",
@@ -2307,9 +2247,9 @@
     "monthDay": "5/20",
     "season": "Easter",
     "readings": {
-      "firstReading": "Hch 20,28-38",
-      "psalm": "Sal 68(67),29-30.33-35a.35b-36c (R. 122[121],2)",
-      "gospel": "Jn 17,11b-19."
+      "firstReading": "Acts 20:28-38",
+      "psalm": "Psalm 68:29-30, 33-35a, 35b-36c (R. 122[121],2)",
+      "gospel": "John 17:11b-19"
     },
     "calendarSource": "colombia",
     "celebration": "20  Mayo, Miércoles. 7ª Sem. de Pascua,  Feria o Memoria libre,  Blanco",
@@ -2335,9 +2275,9 @@
     "monthDay": "5/22",
     "season": "Easter",
     "readings": {
-      "firstReading": "Hch 25,13b-21",
-      "psalm": "Sal 103(102),1-2.11-12.19-20ab (R. 19a)",
-      "gospel": "Jn 21,1a.15-19."
+      "firstReading": "Acts 25:13b-21",
+      "psalm": "Psalm 103:1-2, 11-12, 19-20ab (R. 19a)",
+      "gospel": "John 21:1a.15-19"
     },
     "calendarSource": "colombia",
     "celebration": "22  Mayo, Viernes. 7ª Sem. de Pascua,  Feria o Memoria libre,  Blanco",
@@ -2351,26 +2291,10 @@
     "monthDay": "5/23",
     "season": "Easter",
     "readings": {
-      "firstReading": "Hch 28,16-20.30-31",
-      "psalm": "Sal 11(10),4. 5+7 (R. cf. 7b)",
-      "gospel": "Jn 21,20-25."
-    },
-    "calendarSource": "colombia",
-    "celebration": "23  Mayo, Sábado. 7ª Sem. de Pascua,  Feria,  Blanco",
-    "color": "Blanco",
-    "prelude": "",
-    "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
-  },
-  {
-    "date": "2026-05-23",
-    "monthDay": "5/23",
-    "season": "Easter",
-    "readings": {
-      "firstReading": "1ª lectura: Gn 11, 1-9",
-      "psalm": "Sal 32, 10-11.12-13.14-15 (R. cf. 12b) 2ª lectura: Éx 19, 3-8a.16-20b",
-      "secondReading": "Sal Dn 3, 52a y c.53a.55a.56 (R. cf. 52b) o Sal 18, 8.9.10.11 (R. cf. Jn 6, 68c) 3ª lectura: Ez 37, 1-14",
-      "gospel": "Sal 106, 2-3.4-5.6-7.8-9 (R. cf. 1) 4ª lectura: Jl 3, 1-5"
+      "firstReading": "1ª lectura: Genesis 11, 1-9",
+      "psalm": "Psalm 32, 10-11, 12-13, 14-15 2ª lectura: Éx 19, 3-8a.16-20b",
+      "secondReading": "Psalm Daniel 3, 52a y c.53a, 55a.56 o Psalm 18, 8, 9.10, 11 3ª lectura: Ezekiel 37, 1-14",
+      "gospel": "Psalm 106, 2-3, 4-5, 6-7, 8-9 4ª lectura: Joel 3, 1-5"
     },
     "calendarSource": "colombia",
     "celebration": "23  Mayo, Sábado.  Solemnidad,  Rojo  \r\n EN LA VIGILIA:",
@@ -2384,9 +2308,9 @@
     "monthDay": "5/24",
     "season": "Easter",
     "readings": {
-      "firstReading": "Hch 2,1-11",
-      "psalm": "Sal 104(103),1ab+24ac. 29bc-30.31+34 (R. cf. 30)",
-      "secondReading": "1Co 12, 3b-7.12-13",
+      "firstReading": "Acts 2:1-11",
+      "psalm": "Psalm 104:1ab+24ac. 29bc-30, 31+34",
+      "secondReading": "1 Corinthians 12, 3b-7, 12-13",
       "gospel": "Secuencia (obligatoria)"
     },
     "calendarSource": "colombia",
@@ -2413,9 +2337,9 @@
     "monthDay": "5/26",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "1P 1,10-16",
-      "psalm": "Sal 98(97), 1.2-3ab.3c-4 (R. 2a)",
-      "gospel": "Mc 10,28-31"
+      "firstReading": "1P 1:10-16",
+      "psalm": "Psalm 98, 1, 2-3ab.3c-4 (R. 2a)",
+      "gospel": "Mark 10:28-31"
     },
     "calendarSource": "colombia",
     "celebration": "26  Mayo, Martes. 8ª Sem. del TO,  Memoria obligatoria,  Blanco",
@@ -2429,9 +2353,9 @@
     "monthDay": "5/27",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "1P 1,18-25",
-      "psalm": "Sal 147, 12-13.14-15.19-20 (R. 12a)",
-      "gospel": "Mc 10, 32-45"
+      "firstReading": "1P 1:18-25",
+      "psalm": "Psalm 147, 12-13, 14-15, 19-20 (R. 12a)",
+      "gospel": "Mark 10, 32-45"
     },
     "calendarSource": "colombia",
     "celebration": "27  Mayo, Miércoles. 8ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
@@ -2445,9 +2369,9 @@
     "monthDay": "5/28",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Gen 22, 9-18 o Heb 10, 4-10",
-      "psalm": "Sal 39, 7-8a. 8b-9. 10-11ab. 17 (R.: cf. 8a. 9a)",
-      "secondReading": "Mt 26, 36-42",
+      "firstReading": "Gen 22, 9-18 o Hebrews 10, 4-10",
+      "psalm": "Psalm 39, 7-8a. 8b-9. 10-11ab. 17 (R.: cf. 8a. 9a)",
+      "secondReading": "Matthew 26, 36-42",
       "gospel": ""
     },
     "calendarSource": "colombia",
@@ -2463,8 +2387,8 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "1P 4, 7-13",
-      "psalm": "Sal 96(95), 10.11-12.13 (R. 13ab)",
-      "gospel": "Mc 11, 11-26"
+      "psalm": "Psalm 96, 10, 11-12, 13 (R. 13ab)",
+      "gospel": "Mark 11, 11-26"
     },
     "calendarSource": "colombia",
     "celebration": "29  Mayo, Viernes. 8ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
@@ -2490,10 +2414,10 @@
     "monthDay": "5/31",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Éx 34,4b-6.8-9",
-      "psalm": "Sal Dn 3,52ac.53a+54a.55a+56a (R. 52b)",
-      "secondReading": "2Co 13,11-13",
-      "gospel": "Jn 3,16-18."
+      "firstReading": "Éx 34:4b-6, 8-9",
+      "psalm": "Psalm Daniel 3:52ac.53a+54a, 55a+56a (R. 52b)",
+      "secondReading": "2 Corinthians 13:11-13",
+      "gospel": "John 3:16-18"
     },
     "calendarSource": "colombia",
     "celebration": "31  Mayo, Domingo.  LA SANTÍSIMA TRINIDAD,  Solemnidad,  Blanco",
@@ -2507,9 +2431,9 @@
     "monthDay": "6/1",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "2P 1,1-7",
-      "psalm": "Sal 91(90),1-2.14-15ab. 15c-16 (R. 2b)",
-      "gospel": "Mc 12,1-12."
+      "firstReading": "2P 1:1-7",
+      "psalm": "Psalm 91:1-2, 14-15ab. 15c-16 (R. 2b)",
+      "gospel": "Mark 12:1-12"
     },
     "calendarSource": "colombia",
     "celebration": "01  Junio, Lunes. 9ª Sem. del TO,  Memoria obligatoria,  Rojo",
@@ -2523,9 +2447,9 @@
     "monthDay": "6/2",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "2P 3,12-15a. 17-18",
-      "psalm": "Sal 90(89), 2.3-4.10.14+16 (R. 1)",
-      "gospel": "Mc 12,13-17"
+      "firstReading": "2P 3:12-15a. 17-18",
+      "psalm": "Psalm 90, 2, 3-4, 10, 14+16 (R. 1)",
+      "gospel": "Mark 12:13-17"
     },
     "calendarSource": "colombia",
     "celebration": "02  Junio, Martes. 9ª Sem. del TO,  Feria o Memoria libre,  Verde o Rojo",
@@ -2539,9 +2463,9 @@
     "monthDay": "6/3",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "2Tm 1,1-3.6-12",
-      "psalm": "Sal 123(122),1-2a. 2bcd (R. 1a)",
-      "gospel": "Mc 12,18-27."
+      "firstReading": "2Tm 1:1-3, 6-12",
+      "psalm": "Psalm 123:1-2a. 2bcd (R. 1a)",
+      "gospel": "Mark 12:18-27"
     },
     "calendarSource": "colombia",
     "celebration": "03  Junio, Miércoles. 9ª Sem. del TO,  Memoria obligatoria,  Rojo",
@@ -2556,8 +2480,8 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "2Tm 2, 8-15",
-      "psalm": "Sal 25(24), 4- 5ab.8-9.10+14(R. 4a)",
-      "gospel": "Mc 12, 28b-34"
+      "psalm": "Psalm 25, 4- 5ab.8-9, 10+14(R. 4a)",
+      "gospel": "Mark 12, 28b-34"
     },
     "calendarSource": "colombia",
     "celebration": "04  Junio, Jueves. 9ª Sem. del TO,  Feria,  Verde",
@@ -2572,8 +2496,8 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "2Tm 3, 10-17",
-      "psalm": "Sal 119(118), 157.160.161.165.166.168 (R. 165a)",
-      "gospel": "Mc 12, 35-37"
+      "psalm": "Psalm 119, 157, 160, 161, 165, 166, 168 (R. 165a)",
+      "gospel": "Mark 12, 35-37"
     },
     "calendarSource": "colombia",
     "celebration": "05  Junio, Viernes. 9ª Sem. del TO,  Memoria obligatoria,  Rojo",
@@ -2588,8 +2512,8 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "2Tm 4, 1-8",
-      "psalm": "Sal 71(70), 8-9.14-15ab.16-17.22 (R. cf. 15)",
-      "gospel": "Mc 12, 38-44"
+      "psalm": "Psalm 71, 8-9, 14-15ab.16-17, 22",
+      "gospel": "Mark 12, 38-44"
     },
     "calendarSource": "colombia",
     "celebration": "06  Junio, Sábado. 9ª Sem. del TO,  Feria o Memoria libre o BMV,  Verde o Blanco",
@@ -2603,9 +2527,9 @@
     "monthDay": "6/7",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Dt 8,2-3.14b-16a",
-      "psalm": "Sal 147,12-13.14-15.19-20 (R. cf. Lc 1,53)",
-      "secondReading": "1Co 10,16-17",
+      "firstReading": "Deuteronomy 8:2-3, 14b-16a",
+      "psalm": "Psalm 147:12-13, 14-15, 19-20",
+      "secondReading": "1 Corinthians 10:16-17",
       "gospel": "Secuencia (opcional)"
     },
     "calendarSource": "colombia",
@@ -2620,9 +2544,9 @@
     "monthDay": "6/8",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "1R 17,1-6",
-      "psalm": "Sal 121(120),1-2.3-4.5-6.7-8 (R. cf. 2)",
-      "gospel": "Mt 5,1-12."
+      "firstReading": "1 Kings 17:1-6",
+      "psalm": "Psalm 121:1-2, 3-4, 5-6, 7-8",
+      "gospel": "Matthew 5:1-12"
     },
     "calendarSource": "colombia",
     "celebration": "08  Junio, Lunes. 10ª Sem. del TO,  Feria,  Verde",
@@ -2636,9 +2560,9 @@
     "monthDay": "6/9",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "1R 17,7-16",
-      "psalm": "Sal 4,2-3.4-5.6bc-8 (R. cf. 7)",
-      "gospel": "Mt 5,13-16."
+      "firstReading": "1 Kings 17:7-16",
+      "psalm": "Psalm 4:2-3, 4-5, 6bc-8",
+      "gospel": "Matthew 5:13-16"
     },
     "calendarSource": "colombia",
     "celebration": "09  Junio, Martes. 10ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
@@ -2652,9 +2576,9 @@
     "monthDay": "6/10",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "1R 18,20-39",
-      "psalm": "Sal 16(15),1-2a.4.5+8. 11 (R. 1)",
-      "gospel": "Mt 5,17-19."
+      "firstReading": "1 Kings 18:20-39",
+      "psalm": "Psalm 16:1-2a.4, 5+8. 11 (R. 1)",
+      "gospel": "Matthew 5:17-19"
     },
     "calendarSource": "colombia",
     "celebration": "10  Junio, Miércoles. 10ª Sem. del TO,  Feria,  Verde",
@@ -2668,9 +2592,9 @@
     "monthDay": "6/11",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Hch 11,21b-26; 13,1-3",
-      "psalm": "Sal 98(97),1.2-3ab.3c-4.5-6 (R. 2b)",
-      "secondReading": "Mt 10,7-13.",
+      "firstReading": "Acts 11:21b-26; 13:1-3",
+      "psalm": "Psalm 98:1, 2-3ab.3c-4, 5-6 (R. 2b)",
+      "secondReading": "Matthew 10:7-13",
       "gospel": ""
     },
     "calendarSource": "colombia",
@@ -2685,10 +2609,10 @@
     "monthDay": "6/12",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Dt 7,6-11",
-      "psalm": "Sal 103(102),1-2.3-4.6-7.8 y 10 (R. cf. 17)",
-      "secondReading": "1Jn 4,7-16",
-      "gospel": "Mt 11,25-30."
+      "firstReading": "Deuteronomy 7:6-11",
+      "psalm": "Psalm 103:1-2, 3-4, 6-7, 8 y 10",
+      "secondReading": "1 John 4:7-16",
+      "gospel": "Matthew 11:25-30"
     },
     "calendarSource": "colombia",
     "celebration": "12  Junio, Viernes.  SAGRADO CORAZÓN DE JESÚS ,  Solemnidad,  Blanco",
@@ -2702,9 +2626,9 @@
     "monthDay": "6/13",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Is 61, 9-11",
-      "psalm": "Sal 1S 2, 1.4-5.6-7.8abcd (R. 1a)",
-      "secondReading": "Lc 2, 41-51.",
+      "firstReading": "Isaiah 61, 9-11",
+      "psalm": "Psalm 1 Samuel 2, 1, 4-5, 6-7, 8abcd (R. 1a)",
+      "secondReading": "Luke 2, 41-51",
       "gospel": ""
     },
     "calendarSource": "colombia",
@@ -2719,10 +2643,10 @@
     "monthDay": "6/14",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Éx 19,2-6a",
-      "psalm": "Sal 100(99),1-2.3.5(R.3c)",
-      "secondReading": "Rm 5,6-11",
-      "gospel": "Mt 9,36–10,8"
+      "firstReading": "Éx 19:2-6a",
+      "psalm": "Psalm 100:1-2, 3.5(R.3c)",
+      "secondReading": "Romans 5:6-11",
+      "gospel": "Matthew 9:36–10:8"
     },
     "calendarSource": "colombia",
     "celebration": "14  Junio, Domingo. 11ª Sem. del Tiempo Ordinario,  Verde",
@@ -2736,9 +2660,9 @@
     "monthDay": "6/15",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "1R 21,1-16",
-      "psalm": "Sal 5,2-3.5-6.7 (R. 2b)",
-      "gospel": "Mt 5,38-42."
+      "firstReading": "1 Kings 21:1-16",
+      "psalm": "Psalm 5:2-3, 5-6, 7 (R. 2b)",
+      "gospel": "Matthew 5:38-42"
     },
     "calendarSource": "colombia",
     "celebration": "15  Junio, Lunes. 11ª Sem. del TO,  Feria,  Verde",
@@ -2752,9 +2676,9 @@
     "monthDay": "6/16",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "1R 21,17-29",
-      "psalm": "Sal 51(50),3-4.5-6a. 11+16 (R. cf. 3a)",
-      "gospel": "Mt 5,43-48."
+      "firstReading": "1 Kings 21:17-29",
+      "psalm": "Psalm 51:3-4, 5-6a. 11+16",
+      "gospel": "Matthew 5:43-48"
     },
     "calendarSource": "colombia",
     "celebration": "16  Junio, Martes. 11ª Sem. del TO,  Feria,  Verde",
@@ -2768,9 +2692,9 @@
     "monthDay": "6/17",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "2R 2,1.6-14",
-      "psalm": "Sal 31(30),20.21.24 (R. 25)",
-      "gospel": "Mt 6,1-6.16-18."
+      "firstReading": "2 Kings 2:1, 6-14",
+      "psalm": "Psalm 31:20, 21, 24 (R. 25)",
+      "gospel": "Matthew 6:1-6, 16-18"
     },
     "calendarSource": "colombia",
     "celebration": "17  Junio, Miércoles. 11ª Sem. del TO,  Feria,  Verde",
@@ -2784,9 +2708,9 @@
     "monthDay": "6/18",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Sir 48, 1-15",
-      "psalm": "Sal 96(95), 1-2.3-4.5-6.7",
-      "gospel": "Mt 6, 7-15"
+      "firstReading": "Sirach 48, 1-15",
+      "psalm": "Psalm 96, 1-2, 3-4, 5-6, 7",
+      "gospel": "Matthew 6, 7-15"
     },
     "calendarSource": "colombia",
     "celebration": "18  Junio, Jueves.  Feria,  Verde",
@@ -2800,9 +2724,9 @@
     "monthDay": "6/19",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "2R 11,1-4.9-18.20",
-      "psalm": "Sal 132(131),11.12.13-14.17-18 (R. 13)",
-      "gospel": "Mt 6,19-23."
+      "firstReading": "2 Kings 11:1-4, 9-18, 20",
+      "psalm": "Psalm 132:11, 12, 13-14, 17-18 (R. 13)",
+      "gospel": "Matthew 6:19-23"
     },
     "calendarSource": "colombia",
     "celebration": "19  Junio, Viernes.  Feria o Memoria libre,  Verde o Blanco",
@@ -2816,9 +2740,9 @@
     "monthDay": "6/20",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "2Cro 24,17-25",
-      "psalm": "Sal 89(88),4-5.29-30. 31-32.33-34 (R. 29a)",
-      "gospel": "Mt 6,24-34."
+      "firstReading": "2Cro 24:17-25",
+      "psalm": "Psalm 89:4-5, 29-30. 31-32, 33-34 (R. 29a)",
+      "gospel": "Matthew 6:24-34"
     },
     "calendarSource": "colombia",
     "celebration": "20  Junio, Sábado. 11ª Sem. del TO,  Feria o BMV,  Verde o Blanco",
@@ -2832,10 +2756,10 @@
     "monthDay": "6/21",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Jr 20, 10-13",
-      "psalm": "Sal 69(68), 9-10.14.33-34 (R. 35,10)",
-      "secondReading": "Rm 5,12-15",
-      "gospel": "Mt, 10,26-33."
+      "firstReading": "Jeremiah 20, 10-13",
+      "psalm": "Psalm 69, 9-10, 14, 33-34 (R. 35:10)",
+      "secondReading": "Romans 5:12-15",
+      "gospel": "Matthew, 10:26-33"
     },
     "calendarSource": "colombia",
     "celebration": "21  Junio, Domingo. 12ª Sem. del Tiempo Ordinario,  Verde",
@@ -2849,9 +2773,9 @@
     "monthDay": "6/22",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "2R 17,5-8.13-15a.18",
-      "psalm": "Sal 60(59),3.4-5.12-13 (R. 7b)",
-      "gospel": "Mt 7,1-5."
+      "firstReading": "2 Kings 17:5-8, 13-15a, 18",
+      "psalm": "Psalm 60:3, 4-5, 12-13 (R. 7b)",
+      "gospel": "Matthew 7:1-5"
     },
     "calendarSource": "colombia",
     "celebration": "22  Junio, Lunes. 12ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco o Rojo",
@@ -2865,9 +2789,9 @@
     "monthDay": "6/23",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "2R 19,9b-11.14-21.31-35a.36",
-      "psalm": "Sal 48(47),2-3a.3b-4.10-11 (R. cf. 9d)",
-      "gospel": "Mt 7,6.12-14."
+      "firstReading": "2 Kings 19:9b-11, 14-21, 31-35a, 36",
+      "psalm": "Psalm 48:2-3a.3b-4, 10-11",
+      "gospel": "Matthew 7:6, 12-14"
     },
     "calendarSource": "colombia",
     "celebration": "23  Junio, Martes. 12ª Sem. del TO,  Feria,  Verde",
@@ -2881,10 +2805,10 @@
     "monthDay": "6/24",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Is 49,1-6",
-      "psalm": "Sal 139(138),1-3.13-14ab.14c-15(R. 14a)",
-      "secondReading": "Hch 13,22-26",
-      "gospel": "Lc 1,57-66.80"
+      "firstReading": "Isaiah 49:1-6",
+      "psalm": "Psalm 139:1-3, 13-14ab.14c-15(R. 14a)",
+      "secondReading": "Acts 13:22-26",
+      "gospel": "Luke 1:57-66, 80"
     },
     "calendarSource": "colombia",
     "celebration": "24  Junio, Miércoles.  Solemnidad,  Blanco",
@@ -2898,9 +2822,9 @@
     "monthDay": "6/25",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "2R 24,8-17",
-      "psalm": "Sal 79(78),1-2.3-5.8.9 (R. 9bc)",
-      "gospel": "Mt 7,21-29."
+      "firstReading": "2 Kings 24:8-17",
+      "psalm": "Psalm 79:1-2, 3-5, 8.9 (R. 9bc)",
+      "gospel": "Matthew 7:21-29"
     },
     "calendarSource": "colombia",
     "celebration": "25  Junio, Jueves. 12ª Sem. del TO,  Feria,  Verde",
@@ -2914,9 +2838,9 @@
     "monthDay": "6/26",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "2R 25, 1-12",
-      "psalm": "Sal 137(136), 1-2.3.4-5.6 (R. 6a)",
-      "gospel": "Mt 8, 1-4"
+      "firstReading": "2 Kings 25, 1-12",
+      "psalm": "Psalm 137, 1-2, 3.4-5, 6 (R. 6a)",
+      "gospel": "Matthew 8, 1-4"
     },
     "calendarSource": "colombia",
     "celebration": "26  Junio, Viernes. 12ª Sem. del TO,  Feria,  Verde",
@@ -2930,9 +2854,9 @@
     "monthDay": "6/27",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Lm 2,2.10-14.18-19",
-      "psalm": "Sal 74(73),1-2. 3-4.5-7.20-21 (R. 19b)",
-      "gospel": "Mt 8,5-17."
+      "firstReading": "Lm 2:2, 10-14, 18-19",
+      "psalm": "Psalm 74:1-2. 3-4, 5-7, 20-21 (R. 19b)",
+      "gospel": "Matthew 8:5-17"
     },
     "calendarSource": "colombia",
     "celebration": "27  Junio, Sábado. 12ª Sem. del TO,  Feria o Memoria libre o BMV,  Verde o Blanco",
@@ -2946,10 +2870,10 @@
     "monthDay": "6/28",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "2 R 4,8,-11.14-16a",
-      "psalm": "Sal 89(88),2-3.16-17.18-19",
-      "secondReading": "Rm 6,3-4.8-11",
-      "gospel": "Mt 10, 37-42"
+      "firstReading": "2 R 4:8,-11, 14-16a",
+      "psalm": "Psalm 89:2-3, 16-17, 18-19",
+      "secondReading": "Romans 6:3-4, 8-11",
+      "gospel": "Matthew 10, 37-42"
     },
     "calendarSource": "colombia",
     "celebration": "28  Junio, Domingo. 13ª Sem. del Tiempo Ordinario,  Verde",
@@ -2963,10 +2887,10 @@
     "monthDay": "6/29",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Hch 12,1-11",
-      "psalm": "Sal 34(33),2-3.4-5.6-7.8-9 (R. 5b)",
-      "secondReading": "2Tm 4,6-8.17-18",
-      "gospel": "Mt 16,13-19."
+      "firstReading": "Acts 12:1-11",
+      "psalm": "Psalm 34:2-3, 4-5, 6-7, 8-9 (R. 5b)",
+      "secondReading": "2Tm 4:6-8, 17-18",
+      "gospel": "Matthew 16:13-19"
     },
     "calendarSource": "colombia",
     "celebration": "29  Junio, Lunes.  Solemnidad,  Rojo",
@@ -2980,9 +2904,9 @@
     "monthDay": "6/30",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Am 3,1-8; 4,11-12",
-      "psalm": "Sal 5,5-6.7.8 (R. 9a)",
-      "gospel": "Mt 8,23-27."
+      "firstReading": "Amos 3:1-8; 4:11-12",
+      "psalm": "Psalm 5:5-6, 7.8 (R. 9a)",
+      "gospel": "Matthew 8:23-27"
     },
     "calendarSource": "colombia",
     "celebration": "30  Junio, Martes. 13ª Sem. del TO,  Feria o Memoria libre,  Verde o Rojo",
@@ -2996,9 +2920,9 @@
     "monthDay": "7/1",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Am 5, 14-15. 21-24",
-      "psalm": "Sal 50(49), 7.8-9.10-11.12-13.16bc-17 (R. 23b)",
-      "gospel": "Mt 8, 28-34"
+      "firstReading": "Amos 5, 14-15. 21-24",
+      "psalm": "Psalm 50, 7, 8-9, 10-11, 12-13, 16bc-17 (R. 23b)",
+      "gospel": "Matthew 8, 28-34"
     },
     "calendarSource": "colombia",
     "celebration": "01  Julio, Miércoles. 13ª Sem. del TO,  Feria,  Verde",
@@ -3012,9 +2936,9 @@
     "monthDay": "7/2",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Am 7, 10-17",
-      "psalm": "Sal 19(18), 8.9.10.11 (R. 10b)",
-      "gospel": "Mt 9, 1-8"
+      "firstReading": "Amos 7, 10-17",
+      "psalm": "Psalm 19, 8, 9.10, 11 (R. 10b)",
+      "gospel": "Matthew 9, 1-8"
     },
     "calendarSource": "colombia",
     "celebration": "02  Julio, Jueves. 13ª Sem. del TO,  Feria,  Verde",
@@ -3028,9 +2952,9 @@
     "monthDay": "7/3",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Ef 2,19-22",
-      "psalm": "Sal 117(116),1.2 (R.Mc 16,15)",
-      "secondReading": "Jn 20,24-29",
+      "firstReading": "Ephesians 2:19-22",
+      "psalm": "Psalm 117:1, 2 (R.Mark 16:15)",
+      "secondReading": "John 20:24-29",
       "gospel": ""
     },
     "calendarSource": "colombia",
@@ -3045,9 +2969,9 @@
     "monthDay": "7/4",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Am 9,11-15",
-      "psalm": "Sal 85(84),9.11-12.13-14 (R. 9)",
-      "gospel": "Mt 9,14-17."
+      "firstReading": "Amos 9:11-15",
+      "psalm": "Psalm 85:9, 11-12, 13-14 (R. 9)",
+      "gospel": "Matthew 9:14-17"
     },
     "calendarSource": "colombia",
     "celebration": "04  Julio, Sábado. 13ª Sem. del TO,  Feria o Memoria libre o BMV,  Verde o Blanco",
@@ -3061,10 +2985,10 @@
     "monthDay": "7/5",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Za 9,9-10",
-      "psalm": "Sal 145(144),1-2.8-9.10-11.13cd-14 (R. 20[19],7)",
-      "secondReading": "Rm 8,9.11-13",
-      "gospel": "Mt 11,25-30."
+      "firstReading": "Za 9:9-10",
+      "psalm": "Psalm 145:1-2, 8-9, 10-11, 13cd-14 (R. 20[19],7)",
+      "secondReading": "Romans 8:9, 11-13",
+      "gospel": "Matthew 11:25-30"
     },
     "calendarSource": "colombia",
     "celebration": "05  Julio, Domingo. 14ª Sem. del Tiempo Ordinario,  Verde",
@@ -3078,9 +3002,9 @@
     "monthDay": "7/6",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Os 2,16.17b-18.21-22",
-      "psalm": "Sal 145(144),2-3.4-5.6-7.8-9 (R. 8a)",
-      "gospel": "Mt 9,18-26."
+      "firstReading": "Hosea 2:16, 17b-18, 21-22",
+      "psalm": "Psalm 145:2-3, 4-5, 6-7, 8-9 (R. 8a)",
+      "gospel": "Matthew 9:18-26"
     },
     "calendarSource": "colombia",
     "celebration": "06  Julio, Lunes. 14ª Sem. del TO,  Feria o Memoria libre,  Verde o Rojo",
@@ -3094,9 +3018,9 @@
     "monthDay": "7/7",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Os 8,4-7.11-13",
-      "psalm": "Sal 115(113B),3-4.5-6.7ab-8.9-10 (R. 9a)",
-      "gospel": "Mt 9,32-38."
+      "firstReading": "Hosea 8:4-7, 11-13",
+      "psalm": "Psalm 115(113B),3-4, 5-6, 7ab-8, 9-10 (R. 9a)",
+      "gospel": "Matthew 9:32-38"
     },
     "calendarSource": "colombia",
     "celebration": "07  Julio, Martes. 14ª Sem. del TO,  Feria,  Verde",
@@ -3110,9 +3034,9 @@
     "monthDay": "7/8",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Os 10,1-3.7-8.12",
-      "psalm": "Sal 105(104),2-3. 4-5.6-7 (R. 4b)",
-      "gospel": "Mt 10,1-7."
+      "firstReading": "Hosea 10:1-3, 7-8, 12",
+      "psalm": "Psalm 105:2-3. 4-5, 6-7 (R. 4b)",
+      "gospel": "Matthew 10:1-7"
     },
     "calendarSource": "colombia",
     "celebration": "08  Julio, Miércoles. 14ª Sem. del TO,  Feria,  Verde",
@@ -3126,9 +3050,9 @@
     "monthDay": "7/9",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Ef 1,3-6.11-12",
-      "psalm": "Sal 113(112),1-2.3-4.5-6.7-8 (R. 2)",
-      "secondReading": "Lc 11,27-28.",
+      "firstReading": "Ephesians 1:3-6, 11-12",
+      "psalm": "Psalm 113:1-2, 3-4, 5-6, 7-8 (R. 2)",
+      "secondReading": "Luke 11:27-28",
       "gospel": ""
     },
     "calendarSource": "colombia",
@@ -3143,9 +3067,9 @@
     "monthDay": "7/10",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Os 14,2-10",
-      "psalm": "Sal 51(50),3-4.8-9.12-13. 14 y 17 (R. 17b)",
-      "gospel": "Mt 10,16-23."
+      "firstReading": "Hosea 14:2-10",
+      "psalm": "Psalm 51:3-4, 8-9, 12-13. 14 y 17 (R. 17b)",
+      "gospel": "Matthew 10:16-23"
     },
     "calendarSource": "colombia",
     "celebration": "10  Julio, Viernes. 14ª Sem. del TO,  Feria o Memoria libre,  Verde o Rojo",
@@ -3159,9 +3083,9 @@
     "monthDay": "7/11",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Is 6, 1-8",
-      "psalm": "Sal 93(92), 1ab.1c-2.5 (R. 1a)",
-      "gospel": "Mt 10,24-33"
+      "firstReading": "Isaiah 6, 1-8",
+      "psalm": "Psalm 93, 1ab.1c-2, 5 (R. 1a)",
+      "gospel": "Matthew 10:24-33"
     },
     "calendarSource": "colombia",
     "celebration": "11  Julio, Sábado. 14ª Sem. del TO,  Memoria obligatoria,  Blanco",
@@ -3175,10 +3099,10 @@
     "monthDay": "7/12",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Is 55,10-11",
-      "psalm": "Sal 65(64),10.11.12-13. 14",
-      "secondReading": "Rm 8,18-23",
-      "gospel": "Mt 13,1-23 (forma larga) o Mt 13,1-9 (forma breve)."
+      "firstReading": "Isaiah 55:10-11",
+      "psalm": "Psalm 65:10, 11, 12-13. 14",
+      "secondReading": "Romans 8:18-23",
+      "gospel": "Matthew 13:1-23 (forma larga) o Matthew 13:1-9 (forma breve)"
     },
     "calendarSource": "colombia",
     "celebration": "12  Julio, Domingo. 15ª Sem. del Tiempo Ordinario,  Verde",
@@ -3192,9 +3116,9 @@
     "monthDay": "7/13",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Is 1,10-17",
-      "psalm": "Sal 50(49),8-9.16bc-17.21 y 23 (R. 23b)",
-      "gospel": "Mt 10,34 - 11,1."
+      "firstReading": "Isaiah 1:10-17",
+      "psalm": "Psalm 50:8-9, 16bc-17, 21 y 23 (R. 23b)",
+      "gospel": "Matthew 10:34 - 11:1"
     },
     "calendarSource": "colombia",
     "celebration": "13  Julio, Lunes. 15ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
@@ -3208,9 +3132,9 @@
     "monthDay": "7/14",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Is 7,1-9",
-      "psalm": "Sal 48(47),2-3a.3b-4.5-6.7-8 (R. 9d)",
-      "gospel": "Mt 11,20-24."
+      "firstReading": "Isaiah 7:1-9",
+      "psalm": "Psalm 48:2-3a.3b-4, 5-6, 7-8 (R. 9d)",
+      "gospel": "Matthew 11:20-24"
     },
     "calendarSource": "colombia",
     "celebration": "14  Julio, Martes. 15ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
@@ -3224,9 +3148,9 @@
     "monthDay": "7/15",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Is 10,5-7.13-16",
-      "psalm": "Sal 94(93),5-6.7-8. 9-10.14-15 (R. 14a)",
-      "gospel": "Mt 11,25-27."
+      "firstReading": "Isaiah 10:5-7, 13-16",
+      "psalm": "Psalm 94:5-6, 7-8. 9-10, 14-15 (R. 14a)",
+      "gospel": "Matthew 11:25-27"
     },
     "calendarSource": "colombia",
     "celebration": "15  Julio, Miércoles. 15ª Sem. del TO,  Memoria obligatoria,  Blanco",
@@ -3240,9 +3164,9 @@
     "monthDay": "7/16",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Is 26,7-9.12.16-19",
-      "psalm": "Sal 102(101),13-14+15.16-18.19-21 (R. 20b)",
-      "gospel": "Mt 11,28-30."
+      "firstReading": "Isaiah 26:7-9, 12, 16-19",
+      "psalm": "Psalm 102:13-14+15, 16-18, 19-21 (R. 20b)",
+      "gospel": "Matthew 11:28-30"
     },
     "calendarSource": "colombia",
     "celebration": "16  Julio, Jueves. 15ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
@@ -3256,9 +3180,9 @@
     "monthDay": "7/17",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Is 38,1-6.21-22.7-8",
-      "psalm": "Sal Is 38,10. 11.12abcd.16 (R. 17b)",
-      "gospel": "Mt 12,1-8."
+      "firstReading": "Isaiah 38:1-6, 21-22, 7-8",
+      "psalm": "Psalm Isaiah 38:10. 11, 12abcd.16 (R. 17b)",
+      "gospel": "Matthew 12:1-8"
     },
     "calendarSource": "colombia",
     "celebration": "17  Julio, Viernes. 15ª Sem. del TO,  Feria,  Verde",
@@ -3272,9 +3196,9 @@
     "monthDay": "7/18",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Mi 2,1-5",
-      "psalm": "Sal 9, 22-23. 24-25. 28-29. 35 (R.:33b)",
-      "gospel": "Mt 12, 14-21"
+      "firstReading": "Micah 2:1-5",
+      "psalm": "Psalm 9, 22-23. 24-25. 28-29. 35 (R.:33b)",
+      "gospel": "Matthew 12, 14-21"
     },
     "calendarSource": "colombia",
     "celebration": "18  Julio, Sábado. 15ª Sem. del TO,  Feria o BMV,  Verde o Blanco",
@@ -3288,10 +3212,10 @@
     "monthDay": "7/19",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Sb 12,13.16-19",
-      "psalm": "Sal 86(85),5-6.9-10.15-16a (R. 5a)",
-      "secondReading": "Rm 8,26-27",
-      "gospel": "Mt 13,24-43 (forma larga) o Mt 13,24-30 (forma breve)."
+      "firstReading": "Sb 12:13, 16-19",
+      "psalm": "Psalm 86:5-6, 9-10, 15-16a (R. 5a)",
+      "secondReading": "Romans 8:26-27",
+      "gospel": "Matthew 13:24-43 (forma larga) o Matthew 13:24-30 (forma breve)"
     },
     "calendarSource": "colombia",
     "celebration": "19  Julio, Domingo. 16ª Sem. del Tiempo Ordinario,  Verde",
@@ -3305,9 +3229,9 @@
     "monthDay": "7/20",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Mi 6,1-4.6-8",
-      "psalm": "Sal 50(49),5-6.8-9.16bc-17.21+23 (R. 23b)",
-      "gospel": "Mt 12,38-42."
+      "firstReading": "Micah 6:1-4, 6-8",
+      "psalm": "Psalm 50:5-6, 8-9, 16bc-17, 21+23 (R. 23b)",
+      "gospel": "Matthew 12:38-42"
     },
     "calendarSource": "colombia",
     "celebration": "20  Julio, Lunes. 16ª Sem. del TO,  Feria o Memoria libre,  Verde o Rojo",
@@ -3321,9 +3245,9 @@
     "monthDay": "7/21",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Mi 7,14-15.18-20",
-      "psalm": "Sal 85(84), 2-4.5-6.7-8 (R. 8a)",
-      "gospel": "Mt 12,46-50."
+      "firstReading": "Micah 7:14-15, 18-20",
+      "psalm": "Psalm 85, 2-4, 5-6, 7-8 (R. 8a)",
+      "gospel": "Matthew 12:46-50"
     },
     "calendarSource": "colombia",
     "celebration": "21  Julio, Martes. 16ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
@@ -3337,9 +3261,9 @@
     "monthDay": "7/22",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Ct 3,1-4a o 2Co 5,14-17",
-      "psalm": "Sal 63(62),2.3-4.5-6.8-9 (R. 2b)",
-      "secondReading": "Jn 20,1.11-18.",
+      "firstReading": "Ct 3:1-4a o 2 Corinthians 5:14-17",
+      "psalm": "Psalm 63:2, 3-4, 5-6, 8-9 (R. 2b)",
+      "secondReading": "John 20:1, 11-18",
       "gospel": ""
     },
     "calendarSource": "colombia",
@@ -3354,9 +3278,9 @@
     "monthDay": "7/23",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Jr 2,1-3.7-8.12-13",
-      "psalm": "Sal 36(35),6-7ab.8-9.10-11 (R. 10a)",
-      "gospel": "Mt 13,10-17."
+      "firstReading": "Jeremiah 2:1-3, 7-8, 12-13",
+      "psalm": "Psalm 36:6-7ab.8-9, 10-11 (R. 10a)",
+      "gospel": "Matthew 13:10-17"
     },
     "calendarSource": "colombia",
     "celebration": "23  Julio, Jueves. 16ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
@@ -3370,9 +3294,9 @@
     "monthDay": "7/24",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Jr 3, 14-17",
-      "psalm": "Sal Jr 31, 10.11-12ab.13 (R. cf. 10d)",
-      "gospel": "Mt 13, 18-23"
+      "firstReading": "Jeremiah 3, 14-17",
+      "psalm": "Psalm Jeremiah 31, 10, 11-12ab.13",
+      "gospel": "Matthew 13, 18-23"
     },
     "calendarSource": "colombia",
     "celebration": "24  Julio, Viernes. 16ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
@@ -3386,9 +3310,9 @@
     "monthDay": "7/25",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "2Co 4, 7-15",
-      "psalm": "Sal 125, 1b-2ab. 2cd-3. 4-5. 6 (R.: 5)",
-      "secondReading": "Mt 20,20-28.",
+      "firstReading": "2 Corinthians 4, 7-15",
+      "psalm": "Psalm 125, 1b-2ab. 2cd-3. 4-5. 6 (R.: 5)",
+      "secondReading": "Matthew 20:20-28",
       "gospel": ""
     },
     "calendarSource": "colombia",
@@ -3403,10 +3327,10 @@
     "monthDay": "7/26",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "1R 3,5.7-12",
-      "psalm": "Sal 119(118),57+72. 76-77.127-128.129-130 (R. 97a)",
-      "secondReading": "Rm 8,28-30",
-      "gospel": "Mt 13,44-52 (forma larga) o Mt 13,44-46 (forma breve)."
+      "firstReading": "1 Kings 3:5, 7-12",
+      "psalm": "Psalm 119:57+72. 76-77, 127-128, 129-130 (R. 97a)",
+      "secondReading": "Romans 8:28-30",
+      "gospel": "Matthew 13:44-52 (forma larga) o Matthew 13:44-46 (forma breve)"
     },
     "calendarSource": "colombia",
     "celebration": "26  Julio, Domingo. 17ª Sem. del Tiempo Ordinario,  Verde",
@@ -3420,9 +3344,9 @@
     "monthDay": "7/27",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Jr 13, 1-11",
-      "psalm": "Sal Dt 32, 18-19.20.21 (R. 18a)",
-      "gospel": "Mt 13, 31-35"
+      "firstReading": "Jeremiah 13, 1-11",
+      "psalm": "Psalm Deuteronomy 32, 18-19, 20, 21 (R. 18a)",
+      "gospel": "Matthew 13, 31-35"
     },
     "calendarSource": "colombia",
     "celebration": "27  Julio, Lunes. 17ª Sem. del TO,  Feria,  Verde",
@@ -3436,9 +3360,9 @@
     "monthDay": "7/28",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Jr 14,17-22",
-      "psalm": "Sal 79(78),8.9.11+13 (R. 9bc)",
-      "gospel": "Mt 13,36-43."
+      "firstReading": "Jeremiah 14:17-22",
+      "psalm": "Psalm 79:8, 9.11+13 (R. 9bc)",
+      "gospel": "Matthew 13:36-43"
     },
     "calendarSource": "colombia",
     "celebration": "28  Julio, Martes. 17ª Sem. del TO,  Feria,  Verde",
@@ -3452,9 +3376,9 @@
     "monthDay": "7/29",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "1Jn 4,7-16",
-      "psalm": "Sal 34(33),2-3.4-5.6-7. 8-9.10-11 (R. 2a)",
-      "secondReading": "Jn 11,19-27 o Lc 10,38-42",
+      "firstReading": "1 John 4:7-16",
+      "psalm": "Psalm 34:2-3, 4-5, 6-7. 8-9, 10-11 (R. 2a)",
+      "secondReading": "John 11:19-27 o Luke 10:38-42",
       "gospel": ""
     },
     "calendarSource": "colombia",
@@ -3469,9 +3393,9 @@
     "monthDay": "7/30",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Jr 18,1-6",
-      "psalm": "Sal 146(145),1b-2.3-4.5-6 (R. 5a)",
-      "gospel": "Mt 13,47-53."
+      "firstReading": "Jeremiah 18:1-6",
+      "psalm": "Psalm 146:1b-2, 3-4, 5-6 (R. 5a)",
+      "gospel": "Matthew 13:47-53"
     },
     "calendarSource": "colombia",
     "celebration": "30  Julio, Jueves. 17ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
@@ -3485,9 +3409,9 @@
     "monthDay": "7/31",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Jr 26,1-9",
-      "psalm": "Sal 69(68),5.8-10.14 (R. 14c)",
-      "gospel": "Mt 13,54-58."
+      "firstReading": "Jeremiah 26:1-9",
+      "psalm": "Psalm 69:5, 8-10, 14 (R. 14c)",
+      "gospel": "Matthew 13:54-58"
     },
     "calendarSource": "colombia",
     "celebration": "31  Julio, Viernes. 17ª Sem. del TO,  Memoria obligatoria,  Blanco",
@@ -3501,9 +3425,9 @@
     "monthDay": "8/1",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Jr 26,11-16.24",
-      "psalm": "Sal 69(68),15-16.30-31.33-34 (R. cf. 14)",
-      "gospel": "Mt 14,1-12."
+      "firstReading": "Jeremiah 26:11-16, 24",
+      "psalm": "Psalm 69:15-16, 30-31, 33-34",
+      "gospel": "Matthew 14:1-12"
     },
     "calendarSource": "colombia",
     "celebration": "01  Agosto, Sábado. 17ª Sem. del TO,  Memoria obligatoria,  Blanco",
@@ -3517,10 +3441,10 @@
     "monthDay": "8/2",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Is 55,1-3",
-      "psalm": "Sal 145(144),8-9.15-16.17-18 (R. cf. 16)",
-      "secondReading": "Rm 8,35.37-39",
-      "gospel": "Mt 14,13-21."
+      "firstReading": "Isaiah 55:1-3",
+      "psalm": "Psalm 145:8-9, 15-16, 17-18",
+      "secondReading": "Romans 8:35, 37-39",
+      "gospel": "Matthew 14:13-21"
     },
     "calendarSource": "colombia",
     "celebration": "02  Agosto, Domingo. 18ª Sem. del Tiempo Ordinario,  Verde",
@@ -3534,9 +3458,9 @@
     "monthDay": "8/3",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Jr 28,1-17",
-      "psalm": "Sal 119(118),29.43.79.80.95.102 (R. 68b)",
-      "gospel": "Mt 14,22-36."
+      "firstReading": "Jeremiah 28:1-17",
+      "psalm": "Psalm 119:29, 43, 79, 80, 95, 102 (R. 68b)",
+      "gospel": "Matthew 14:22-36"
     },
     "calendarSource": "colombia",
     "celebration": "03  Agosto, Lunes. 18ª Sem. del TO,  Feria,  Verde",
@@ -3550,9 +3474,9 @@
     "monthDay": "8/4",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Jr 30,1-2.12-15.18-22",
-      "psalm": "Sal 102(101),16-18.19-21.29+22-23 (R. cf. 17)",
-      "gospel": "Mt 15, 1-2. 10-14."
+      "firstReading": "Jeremiah 30:1-2, 12-15, 18-22",
+      "psalm": "Psalm 102:16-18, 19-21, 29+22-23",
+      "gospel": "Matthew 15, 1-2. 10-14"
     },
     "calendarSource": "colombia",
     "celebration": "04  Agosto, Martes. 18ª Sem. del TO,  Memoria obligatoria,  Blanco",
@@ -3566,9 +3490,9 @@
     "monthDay": "8/5",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Jr 31,1-7",
-      "psalm": "Sal Jr 31,10.11-12ab.13 (R. cf. 10d)",
-      "gospel": "Mt 15,21-28."
+      "firstReading": "Jeremiah 31:1-7",
+      "psalm": "Psalm Jeremiah 31:10, 11-12ab.13",
+      "gospel": "Matthew 15:21-28"
     },
     "calendarSource": "colombia",
     "celebration": "05  Agosto, Miércoles. 18ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
@@ -3594,9 +3518,9 @@
     "monthDay": "8/7",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Na 2,1.3; 3,1-3.6-7",
-      "psalm": "Sal Dt 32, 35cd-36ab.39abcd.41 (R. 39c)",
-      "gospel": "Mt 16,24-28."
+      "firstReading": "Na 2:1, 3; 3:1-3, 6-7",
+      "psalm": "Psalm Deuteronomy 32, 35cd-36ab.39abcd.41 (R. 39c)",
+      "gospel": "Matthew 16:24-28"
     },
     "calendarSource": "colombia",
     "celebration": "07  Agosto, Viernes. 18ª Sem. del TO,  Feria o Memoria libre,  Verde o Rojo o Blanco",
@@ -3610,9 +3534,9 @@
     "monthDay": "8/8",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Ha 1, 12–2,4",
-      "psalm": "Sal 9, 8-9.10-11.12-13 (R. 11b)",
-      "gospel": "Mt 17, 14-20"
+      "firstReading": "Ha 1, 12–2:4",
+      "psalm": "Psalm 9, 8-9, 10-11, 12-13 (R. 11b)",
+      "gospel": "Matthew 17, 14-20"
     },
     "calendarSource": "colombia",
     "celebration": "08  Agosto, Sábado. 18ª Sem. del TO,  Memoria obligatoria,  Blanco",
@@ -3626,10 +3550,10 @@
     "monthDay": "8/9",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "1R 19,9a.11-13a",
-      "psalm": "Sal 85(84),9ab+10.11-12.13-14 (R. 8)",
-      "secondReading": "Rm 9,1-5",
-      "gospel": "Mt 14,22-33."
+      "firstReading": "1 Kings 19:9a.11-13a",
+      "psalm": "Psalm 85:9ab+10, 11-12, 13-14 (R. 8)",
+      "secondReading": "Romans 9:1-5",
+      "gospel": "Matthew 14:22-33"
     },
     "calendarSource": "colombia",
     "celebration": "09  Agosto, Domingo. 19ª Sem. del Tiempo Ordinario,  Verde",
@@ -3643,9 +3567,9 @@
     "monthDay": "8/10",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "2Co 9,6-10",
-      "psalm": "Sal 112(111),1-2.5-6.7-8.9 (R. 5a)",
-      "secondReading": "Jn 12,24-26.",
+      "firstReading": "2 Corinthians 9:6-10",
+      "psalm": "Psalm 112:1-2, 5-6, 7-8, 9 (R. 5a)",
+      "secondReading": "John 12:24-26",
       "gospel": ""
     },
     "calendarSource": "colombia",
@@ -3660,9 +3584,9 @@
     "monthDay": "8/11",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Ez 2,8 - 3,4",
-      "psalm": "Sal 119(118),14.24.72.103.111.131 (R. 103a)",
-      "gospel": "Mt 18,1-5. 10.12-14."
+      "firstReading": "Ezekiel 2:8 - 3:4",
+      "psalm": "Psalm 119:14, 24, 72, 103, 111, 131 (R. 103a)",
+      "gospel": "Matthew 18:1-5. 10, 12-14"
     },
     "calendarSource": "colombia",
     "celebration": "11  Agosto, Martes. 19ª Sem. del TO,  Memoria obligatoria,  Blanco",
@@ -3676,9 +3600,9 @@
     "monthDay": "8/12",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Ez 9, 1-7;10,18-22",
-      "psalm": "Sal 113(112), 1-2.3-4.5-6 (R. 4b)",
-      "gospel": "Mt 18, 15-20"
+      "firstReading": "Ezekiel 9, 1-7;10:18-22",
+      "psalm": "Psalm 113, 1-2, 3-4, 5-6 (R. 4b)",
+      "gospel": "Matthew 18, 15-20"
     },
     "calendarSource": "colombia",
     "celebration": "12  Agosto, Miércoles. 19ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
@@ -3692,9 +3616,9 @@
     "monthDay": "8/13",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Ez 12,1-12",
-      "psalm": "Sal 78(77),56-57.58-59. 61-62 (R. cf. 7c)",
-      "gospel": "Mt 18,21-19,1."
+      "firstReading": "Ezekiel 12:1-12",
+      "psalm": "Psalm 78:56-57, 58-59. 61-62",
+      "gospel": "Matthew 18:21-19:1"
     },
     "calendarSource": "colombia",
     "celebration": "13  Agosto, Jueves. 19ª Sem. del TO,  Feria o Memoria libre,  Verde o Rojo",
@@ -3708,26 +3632,10 @@
     "monthDay": "8/14",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Ez 16,1-15.60.63 o Ez 16,59-63",
-      "psalm": "Sal Is 12,2-3.4bcd.5-6 (R. 1c)",
-      "gospel": "Mt 19,3-12."
-    },
-    "calendarSource": "colombia",
-    "celebration": "14  Agosto, Viernes. 19ª Sem. del TO,  Memoria obligatoria,  Rojo",
-    "color": "Rojo",
-    "prelude": "<p>San Maximiliano María Kolbe, presbítero y mártir</p>",
-    "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
-  },
-  {
-    "date": "2026-08-14",
-    "monthDay": "8/14",
-    "season": "Ordinary Time",
-    "readings": {
-      "firstReading": "1Cro 15,3-4.15-16; 16,1-2",
-      "psalm": "Sal 132 (131), 7-8.9-10.13-14 (R. cf. 8)",
-      "secondReading": "1Co 15,54-57",
-      "gospel": "Lc 11,27-28."
+      "firstReading": "1Cro 15:3-4, 15-16; 16:1-2",
+      "psalm": "Psalm 132 , 7-8, 9-10, 13-14",
+      "secondReading": "1 Corinthians 15:54-57",
+      "gospel": "Luke 11:27-28"
     },
     "calendarSource": "colombia",
     "celebration": "14  Agosto, Viernes.  Solemnidad,  \r\n EN LA VIGILIA:",
@@ -3741,10 +3649,10 @@
     "monthDay": "8/15",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Ap 11,19a; 12,1-6a.10ab",
-      "psalm": "Sal 45(44), 7a+10bc.11-12a.14-15 (R. cf. 10b)",
-      "secondReading": "1Co 15,20-27a",
-      "gospel": "Lc 1,39-56."
+      "firstReading": "Revelation 11:19a; 12:1-6a.10ab",
+      "psalm": "Psalm 45, 7a+10bc.11-12a, 14-15",
+      "secondReading": "1 Corinthians 15:20-27a",
+      "gospel": "Luke 1:39-56"
     },
     "calendarSource": "colombia",
     "celebration": "15  Agosto, Sábado.  Solemnidad,  Blanco",
@@ -3758,10 +3666,10 @@
     "monthDay": "8/16",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Is 56,1.6-7",
-      "psalm": "Sal 67(66),2-3.5.6+8 (R. cf. 4)",
-      "secondReading": "Rm 11,13-15.29-32",
-      "gospel": "Mt 15,21-28."
+      "firstReading": "Isaiah 56:1, 6-7",
+      "psalm": "Psalm 67:2-3, 5.6+8",
+      "secondReading": "Romans 11:13-15, 29-32",
+      "gospel": "Matthew 15:21-28"
     },
     "calendarSource": "colombia",
     "celebration": "16  Agosto, Domingo. 20ª Sem. del Tiempo Ordinario,  Verde",
@@ -3775,9 +3683,9 @@
     "monthDay": "8/17",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Ez 24, 15-24",
-      "psalm": "Sal Dt 32, 18-19.20.21 (R. 18a)",
-      "gospel": "Mt 19, 16-22"
+      "firstReading": "Ezekiel 24, 15-24",
+      "psalm": "Psalm Deuteronomy 32, 18-19, 20, 21 (R. 18a)",
+      "gospel": "Matthew 19, 16-22"
     },
     "calendarSource": "colombia",
     "celebration": "17  Agosto, Lunes. 20ª Sem. del TO,  Feria,  Verde",
@@ -3791,9 +3699,9 @@
     "monthDay": "8/18",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Ez 28,1-10",
-      "psalm": "Sal Dt 32,26-27ab.27cd-28.30.35cd-36ab (R. 39c)",
-      "gospel": "Mt 19,23-30."
+      "firstReading": "Ezekiel 28:1-10",
+      "psalm": "Psalm Deuteronomy 32:26-27ab.27cd-28, 30, 35cd-36ab (R. 39c)",
+      "gospel": "Matthew 19:23-30"
     },
     "calendarSource": "colombia",
     "celebration": "18  Agosto, Martes. 20ª Sem. del TO,  Feria,  Verde",
@@ -3807,9 +3715,9 @@
     "monthDay": "8/19",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Ez 34,1-11",
-      "psalm": "Sal 23(22),1-3a.3b-4. 5.6 (R. 1)",
-      "gospel": "Mt 20,1-16."
+      "firstReading": "Ezekiel 34:1-11",
+      "psalm": "Psalm 23:1-3a.3b-4. 5, 6 (R. 1)",
+      "gospel": "Matthew 20:1-16"
     },
     "calendarSource": "colombia",
     "celebration": "19  Agosto, Miércoles. 20ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
@@ -3823,9 +3731,9 @@
     "monthDay": "8/20",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Ez 36,23-28",
-      "psalm": "Sal 51(50),12-13.14-15.18-19 (R. Ez 36,25)",
-      "gospel": "Mt 22,1-14."
+      "firstReading": "Ezekiel 36:23-28",
+      "psalm": "Psalm 51:12-13, 14-15, 18-19 (R. Ezekiel 36:25)",
+      "gospel": "Matthew 22:1-14"
     },
     "calendarSource": "colombia",
     "celebration": "20  Agosto, Jueves. 20ª Sem. del TO,  Memoria obligatoria,  Blanco",
@@ -3839,9 +3747,9 @@
     "monthDay": "8/21",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Ez 37,1-14",
-      "psalm": "Sal 107(106),2-3.4-5.6-7.8-9 (R. 1)",
-      "gospel": "Mt 22,34-40."
+      "firstReading": "Ezekiel 37:1-14",
+      "psalm": "Psalm 107:2-3, 4-5, 6-7, 8-9 (R. 1)",
+      "gospel": "Matthew 22:34-40"
     },
     "calendarSource": "colombia",
     "celebration": "21  Agosto, Viernes. 20ª Sem. del TO,  Memoria obligatoria,  Blanco",
@@ -3855,9 +3763,9 @@
     "monthDay": "8/22",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Ez 43,1-7a",
-      "psalm": "Sal 85(84),9ab-10.11-12. 13-14 (R. cf. 10b)",
-      "gospel": "Mt 23,1-12."
+      "firstReading": "Ezekiel 43:1-7a",
+      "psalm": "Psalm 85:9ab-10, 11-12. 13-14",
+      "gospel": "Matthew 23:1-12"
     },
     "calendarSource": "colombia",
     "celebration": "22  Agosto, Sábado. 20ª Sem. del TO,  Memoria obligatoria,  Blanco",
@@ -3871,10 +3779,10 @@
     "monthDay": "8/23",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Is 22,19-23",
-      "psalm": "Sal 138(137),1-2a. 2bc-3.6 y 8bc (R. 80[79],18)",
-      "secondReading": "Rm 11,33-36",
-      "gospel": "Mt 16,13-20."
+      "firstReading": "Isaiah 22:19-23",
+      "psalm": "Psalm 138:1-2a. 2bc-3, 6 y 8bc (R. 80[79],18)",
+      "secondReading": "Romans 11:33-36",
+      "gospel": "Matthew 16:13-20"
     },
     "calendarSource": "colombia",
     "celebration": "23  Agosto, Domingo. 21ª Sem. del Tiempo Ordinario,  Verde",
@@ -3888,9 +3796,9 @@
     "monthDay": "8/24",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Ap 21,9b-14",
-      "psalm": "Sal 145(144),10-11.12-13ab.17-18 (R. cf. 12)",
-      "secondReading": "Jn 1,45-51.",
+      "firstReading": "Revelation 21:9b-14",
+      "psalm": "Psalm 145:10-11, 12-13ab.17-18",
+      "secondReading": "John 1:45-51",
       "gospel": ""
     },
     "calendarSource": "colombia",
@@ -3906,8 +3814,8 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "2Ts 2, 1-3a. 14-17",
-      "psalm": "Sal 95, 10.11-12a.12b-13 (R. 13ab)",
-      "gospel": "Mt 23, 23-26"
+      "psalm": "Psalm 95, 10, 11-12a, 12b-13 (R. 13ab)",
+      "gospel": "Matthew 23, 23-26"
     },
     "calendarSource": "colombia",
     "celebration": "25  Agosto, Martes. 21ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
@@ -3921,9 +3829,9 @@
     "monthDay": "8/26",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "2Ts 3,6-10.16-18",
-      "psalm": "Sal 128(127), 1-2.4-5 (R. cf. 1a)",
-      "gospel": "Mt 23, 27-32"
+      "firstReading": "2Ts 3:6-10, 16-18",
+      "psalm": "Psalm 128, 1-2, 4-5",
+      "gospel": "Matthew 23, 27-32"
     },
     "calendarSource": "colombia",
     "celebration": "26  Agosto, Miércoles. 21ª Sem. del TO,  Feria,  Verde",
@@ -3937,9 +3845,9 @@
     "monthDay": "8/27",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "1Co 1,1-9",
-      "psalm": "Sal 145(144),2-3.4-5.6-7 (R. cf. 1)",
-      "gospel": "Mt 24,42-51."
+      "firstReading": "1 Corinthians 1:1-9",
+      "psalm": "Psalm 145:2-3, 4-5, 6-7",
+      "gospel": "Matthew 24:42-51"
     },
     "calendarSource": "colombia",
     "celebration": "27  Agosto, Jueves. 21ª Sem. del TO,  Memoria obligatoria,  Blanco",
@@ -3953,9 +3861,9 @@
     "monthDay": "8/28",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "1Co 1,17-25",
-      "psalm": "Sal 33(32),1-2.4-5.10-11 (R. 5b)",
-      "gospel": "Mt 25,1-13."
+      "firstReading": "1 Corinthians 1:17-25",
+      "psalm": "Psalm 33:1-2, 4-5, 10-11 (R. 5b)",
+      "gospel": "Matthew 25:1-13"
     },
     "calendarSource": "colombia",
     "celebration": "28  Agosto, Viernes. 21ª Sem. del TO,  Memoria obligatoria,  Blanco",
@@ -3969,9 +3877,9 @@
     "monthDay": "8/29",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Jr 1,17-19",
-      "psalm": "Sal 71(70),1-2.3-4a.5-6ab.15ab y 17 (R. 15a)",
-      "secondReading": "Mc 6,17-29 .",
+      "firstReading": "Jeremiah 1:17-19",
+      "psalm": "Psalm 71:1-2, 3-4a.5-6ab.15ab y 17 (R. 15a)",
+      "secondReading": "Mark 6:17-29",
       "gospel": ""
     },
     "calendarSource": "colombia",
@@ -3986,10 +3894,10 @@
     "monthDay": "8/30",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Jr 20,7-9",
-      "psalm": "Sal 63(62),2.3-4.5-6.8-9 (R. 2b)",
-      "secondReading": "Rm 12,1-2",
-      "gospel": "Mt 16,21-27."
+      "firstReading": "Jeremiah 20:7-9",
+      "psalm": "Psalm 63:2, 3-4, 5-6, 8-9 (R. 2b)",
+      "secondReading": "Romans 12:1-2",
+      "gospel": "Matthew 16:21-27"
     },
     "calendarSource": "colombia",
     "celebration": "30  Agosto, Domingo. 22ª Sem. del Tiempo Ordinario,  Verde",
@@ -4003,9 +3911,9 @@
     "monthDay": "8/31",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "1Co 2, 1-5",
-      "psalm": "Sal 119(118), 97.98.100.101.102 (R. 97a)",
-      "gospel": "Lc 4, 16-30"
+      "firstReading": "1 Corinthians 2, 1-5",
+      "psalm": "Psalm 119, 97, 98, 100, 101, 102 (R. 97a)",
+      "gospel": "Luke 4, 16-30"
     },
     "calendarSource": "colombia",
     "celebration": "31  Agosto, Lunes. 22ª Sem. del TO,  Feria,  Verde",
@@ -4019,9 +3927,9 @@
     "monthDay": "9/1",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "1Co 2,10b-16",
-      "psalm": "Sal 145(144),8-9.10-11.12-13ab.13cd-14 (R. 17a)",
-      "gospel": "Lc 4,31-37."
+      "firstReading": "1 Corinthians 2:10b-16",
+      "psalm": "Psalm 145:8-9, 10-11, 12-13ab.13cd-14 (R. 17a)",
+      "gospel": "Luke 4:31-37"
     },
     "calendarSource": "colombia",
     "celebration": "01  Septiembre, Martes. 22ª Sem. del TO,  Feria,  Verde",
@@ -4035,9 +3943,9 @@
     "monthDay": "9/2",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "1Co 3,1-9",
-      "psalm": "Sal 33(32),12-13.14-15.20-21 (R.12b)",
-      "gospel": "Lc 4,38-44."
+      "firstReading": "1 Corinthians 3:1-9",
+      "psalm": "Psalm 33:12-13, 14-15, 20-21 (R.12b)",
+      "gospel": "Luke 4:38-44"
     },
     "calendarSource": "colombia",
     "celebration": "02  Septiembre, Miércoles. 22ª Sem. del TO,  Feria,  Verde",
@@ -4051,9 +3959,9 @@
     "monthDay": "9/3",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "1Co 3,18-23",
-      "psalm": "Sal 24(23),1-2.3-4ab.5-6 (R. 1a)",
-      "gospel": "Lc 5,1-11."
+      "firstReading": "1 Corinthians 3:18-23",
+      "psalm": "Psalm 24:1-2, 3-4ab.5-6 (R. 1a)",
+      "gospel": "Luke 5:1-11"
     },
     "calendarSource": "colombia",
     "celebration": "03  Septiembre, Jueves. 22ª Sem. del TO,  Memoria obligatoria,  Blanco",
@@ -4067,9 +3975,9 @@
     "monthDay": "9/4",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "1Co 4,1-5",
-      "psalm": "Sal 37(36),3-4.5-6.27-28.39-40 (R. 39a)",
-      "gospel": "Lc 5,33-39."
+      "firstReading": "1 Corinthians 4:1-5",
+      "psalm": "Psalm 37:3-4, 5-6, 27-28, 39-40 (R. 39a)",
+      "gospel": "Luke 5:33-39"
     },
     "calendarSource": "colombia",
     "celebration": "04  Septiembre, Viernes. 22ª Sem. del TO,  Feria,  Verde",
@@ -4083,9 +3991,9 @@
     "monthDay": "9/5",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "1Co 4,6b-15",
-      "psalm": "Sal 145(144),17-18.19-20.21 (R. 18a)",
-      "gospel": "Lc 6,1-5."
+      "firstReading": "1 Corinthians 4:6b-15",
+      "psalm": "Psalm 145:17-18, 19-20, 21 (R. 18a)",
+      "gospel": "Luke 6:1-5"
     },
     "calendarSource": "colombia",
     "celebration": "05  Septiembre, Sábado. 22ª Sem. del TO,  Feria o Memoria libre o BMV,  Verde o Blanco",
@@ -4099,10 +4007,10 @@
     "monthDay": "9/6",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Ez 33,7-9",
-      "psalm": "Sal 95(94),1-2.6-7ab. 7c-9",
-      "secondReading": "Rm 13,8-10",
-      "gospel": "Mt 18,15-20."
+      "firstReading": "Ezekiel 33:7-9",
+      "psalm": "Psalm 95:1-2, 6-7ab. 7c-9",
+      "secondReading": "Romans 13:8-10",
+      "gospel": "Matthew 18:15-20"
     },
     "calendarSource": "colombia",
     "celebration": "06  Septiembre, Domingo. 23ª Sem. del Tiempo Ordinario,  Verde",
@@ -4116,9 +4024,9 @@
     "monthDay": "9/7",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "1Co 5,1-8",
-      "psalm": "Sal 5,5-6.7.12 (R. 9a)",
-      "gospel": "Lc 6,6-11."
+      "firstReading": "1 Corinthians 5:1-8",
+      "psalm": "Psalm 5:5-6, 7.12 (R. 9a)",
+      "gospel": "Luke 6:6-11"
     },
     "calendarSource": "colombia",
     "celebration": "07  Septiembre, Lunes. 23ª Sem. del TO,  Feria,  Verde",
@@ -4132,9 +4040,9 @@
     "monthDay": "9/8",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Mi 5,1-4a o Rm 8,28-30",
-      "psalm": "Sal 13(12),6ab.6cd (R. Is 61,10)",
-      "secondReading": "Mt 1,1-16.18-23 (forma larga) o Mt 1,18-23 (forma breve).",
+      "firstReading": "Micah 5:1-4a o Romans 8:28-30",
+      "psalm": "Psalm 13:6ab.6cd (R. Isaiah 61:10)",
+      "secondReading": "Matthew 1:1-16, 18-23 (forma larga) o Matthew 1:18-23 (forma breve)",
       "gospel": ""
     },
     "calendarSource": "colombia",
@@ -4149,9 +4057,9 @@
     "monthDay": "9/9",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "1Co 7,25-31",
-      "psalm": "Sal 45(44),11-12.14-15. 16-17 (R. 11a)",
-      "gospel": "Lc 6,20-26."
+      "firstReading": "1 Corinthians 7:25-31",
+      "psalm": "Psalm 45:11-12, 14-15. 16-17 (R. 11a)",
+      "gospel": "Luke 6:20-26"
     },
     "calendarSource": "colombia",
     "celebration": "09  Septiembre, Miércoles. 23ª Sem. del TO,  Memoria obligatoria,  Blanco",
@@ -4165,9 +4073,9 @@
     "monthDay": "9/10",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "1Co 8, 1b-7.11-13",
-      "psalm": "Sal 139(138), 1-3.13-14ab.23-24 (R. 24b)",
-      "gospel": "Lc 6, 27-38"
+      "firstReading": "1 Corinthians 8, 1b-7, 11-13",
+      "psalm": "Psalm 139, 1-3, 13-14ab.23-24 (R. 24b)",
+      "gospel": "Luke 6, 27-38"
     },
     "calendarSource": "colombia",
     "celebration": "10  Septiembre, Jueves. 23ª Sem. del TO,  Feria,  Verde",
@@ -4181,9 +4089,9 @@
     "monthDay": "9/11",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "1Co 9,16-19.22b-27",
-      "psalm": "Sal 84(83),3. 4.5-6.12 (R. 2)",
-      "gospel": "Lc 6,39-42."
+      "firstReading": "1 Corinthians 9:16-19, 22b-27",
+      "psalm": "Psalm 84:3. 4, 5-6, 12 (R. 2)",
+      "gospel": "Luke 6:39-42"
     },
     "calendarSource": "colombia",
     "celebration": "11  Septiembre, Viernes. 23ª Sem. del TO,  Feria,  Verde",
@@ -4197,9 +4105,9 @@
     "monthDay": "9/12",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "1Co 10,14-22",
-      "psalm": "Sal 116(115),12-13. 17-18 (R. 17a)",
-      "gospel": "Lc 6,43-49."
+      "firstReading": "1 Corinthians 10:14-22",
+      "psalm": "Psalm 116:12-13. 17-18 (R. 17a)",
+      "gospel": "Luke 6:43-49"
     },
     "calendarSource": "colombia",
     "celebration": "12  Septiembre, Sábado. 23ª Sem. del TO,  Feria o Memoria libre o BMV,  Verde o Blanco",
@@ -4213,10 +4121,10 @@
     "monthDay": "9/13",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Sir 27,30 - 28,7",
-      "psalm": "Sal 103(102),1-2.3-4.9-10.11-12 (R. 8a)",
-      "secondReading": "Rm 14,7-9",
-      "gospel": "Mt 18,21-35."
+      "firstReading": "Sirach 27:30 - 28:7",
+      "psalm": "Psalm 103:1-2, 3-4, 9-10, 11-12 (R. 8a)",
+      "secondReading": "Romans 14:7-9",
+      "gospel": "Matthew 18:21-35"
     },
     "calendarSource": "colombia",
     "celebration": "13  Septiembre, Domingo. 24ª Sem. del Tiempo Ordinario,  Verde",
@@ -4230,9 +4138,9 @@
     "monthDay": "9/14",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "1Co 11,17-26.33",
-      "psalm": "Sal 40(39),7-8a.8b-9.10.17 (R. 1Co 11,26b)",
-      "gospel": "Lc 7,1-10."
+      "firstReading": "1 Corinthians 11:17-26, 33",
+      "psalm": "Psalm 40:7-8a.8b-9, 10, 17 (R. 1 Corinthians 11:26b)",
+      "gospel": "Luke 7:1-10"
     },
     "calendarSource": "colombia",
     "celebration": "14  Septiembre, Lunes. 24ª Sem. del TO,  Feria,  Verde",
@@ -4246,10 +4154,10 @@
     "monthDay": "9/15",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Hb 5,7-9",
-      "psalm": "Sal 31(30),2-3a.3b-4.5-6. 15-16.20 (R. 17b)",
+      "firstReading": "Hb 5:7-9",
+      "psalm": "Psalm 31:2-3a.3b-4, 5-6. 15-16, 20 (R. 17b)",
       "secondReading": "Secuencia (opcional)",
-      "gospel": "Jn 19,25-27 o Lc 2,33-35."
+      "gospel": "John 19:25-27 o Luke 2:33-35"
     },
     "calendarSource": "colombia",
     "celebration": "15  Septiembre, Martes. 24ª Sem. del TO,  Memoria obligatoria,  Blanco",
@@ -4263,9 +4171,9 @@
     "monthDay": "9/16",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "1Co 12,31 - 13,13",
-      "psalm": "Sal 33(32),2-3. 4-5.12+22 (R. 12b)",
-      "gospel": "Lc 7,31-35."
+      "firstReading": "1 Corinthians 12:31 - 13:13",
+      "psalm": "Psalm 33:2-3. 4-5, 12+22 (R. 12b)",
+      "gospel": "Luke 7:31-35"
     },
     "calendarSource": "colombia",
     "celebration": "16  Septiembre, Miércoles. 24ª Sem. del TO,  Memoria obligatoria,  Rojo",
@@ -4279,9 +4187,9 @@
     "monthDay": "9/17",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "1Co 15,1-11",
-      "psalm": "Sal 118(117),1-2.16ab-17.28 (R. 1a)",
-      "gospel": "Lc 7,36-50."
+      "firstReading": "1 Corinthians 15:1-11",
+      "psalm": "Psalm 118:1-2, 16ab-17, 28 (R. 1a)",
+      "gospel": "Luke 7:36-50"
     },
     "calendarSource": "colombia",
     "celebration": "17  Septiembre, Jueves. 24ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
@@ -4295,9 +4203,9 @@
     "monthDay": "9/18",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "1Co 15,12-20",
-      "psalm": "Sal 17(16),1.6-7. 8+15 (R. 15b)",
-      "gospel": "Lc 8,1-3."
+      "firstReading": "1 Corinthians 15:12-20",
+      "psalm": "Psalm 17:1, 6-7. 8+15 (R. 15b)",
+      "gospel": "Luke 8:1-3"
     },
     "calendarSource": "colombia",
     "celebration": "18  Septiembre, Viernes. 24ª Sem. del TO,  Feria,  Verde",
@@ -4311,9 +4219,9 @@
     "monthDay": "9/19",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "1Co 15,35-37.42-49",
-      "psalm": "Sal 56(55),10.11-12.13-14 (R. cf. 14c)",
-      "gospel": "Lc 8,4-15."
+      "firstReading": "1 Corinthians 15:35-37, 42-49",
+      "psalm": "Psalm 56:10, 11-12, 13-14",
+      "gospel": "Luke 8:4-15"
     },
     "calendarSource": "colombia",
     "celebration": "19  Septiembre, Sábado. 24ª Sem. del TO,  Feria o Memoria libre o BMV,  Verde o Rojo o Blanco",
@@ -4327,10 +4235,10 @@
     "monthDay": "9/20",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Is 55,6-9",
-      "psalm": "Sal 145(144),2-3.8-9.17-18 (R. 18a)",
-      "secondReading": "Flp 1,20c-24.27a",
-      "gospel": "Mt 20,1-16."
+      "firstReading": "Isaiah 55:6-9",
+      "psalm": "Psalm 145:2-3, 8-9, 17-18 (R. 18a)",
+      "secondReading": "Philippians 1:20c-24, 27a",
+      "gospel": "Matthew 20:1-16"
     },
     "calendarSource": "colombia",
     "celebration": "20  Septiembre, Domingo. 25ª Sem. del Tiempo Ordinario,  Verde",
@@ -4344,9 +4252,9 @@
     "monthDay": "9/21",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Ef 4,1-7.11-13",
-      "psalm": "Sal 19(18),2-3.4-5 (R. 5a)",
-      "secondReading": "Mt 9,9-13.",
+      "firstReading": "Ephesians 4:1-7, 11-13",
+      "psalm": "Psalm 19:2-3, 4-5 (R. 5a)",
+      "secondReading": "Matthew 9:9-13",
       "gospel": ""
     },
     "calendarSource": "colombia",
@@ -4361,9 +4269,9 @@
     "monthDay": "9/22",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Pr 21,1-6.10-13",
-      "psalm": "Sal 119(118),1.27.30.34.35.44 (R. 35a)",
-      "gospel": "Lc 8,19-21."
+      "firstReading": "Pr 21:1-6, 10-13",
+      "psalm": "Psalm 119:1, 27, 30, 34, 35, 44 (R. 35a)",
+      "gospel": "Luke 8:19-21"
     },
     "calendarSource": "colombia",
     "celebration": "22  Septiembre, Martes. 25ª Sem. del TO,  Feria,  Verde",
@@ -4378,8 +4286,8 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Pr 30, 5-9",
-      "psalm": "Sal 119(118), 29.72.89.101.104.163 (R. 105a)",
-      "gospel": "Lc 9,1-6"
+      "psalm": "Psalm 119, 29, 72, 89, 101, 104, 163 (R. 105a)",
+      "gospel": "Luke 9:1-6"
     },
     "calendarSource": "colombia",
     "celebration": "23  Septiembre, Miércoles. 25ª Sem. del TO,  Memoria obligatoria,  Blanco",
@@ -4393,9 +4301,9 @@
     "monthDay": "9/24",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Qo 1,2-11",
-      "psalm": "Sal 90(89),3-4.5-6.12-13.14 y 17 (R. 1)",
-      "gospel": "Lc 9,7-9."
+      "firstReading": "Qo 1:2-11",
+      "psalm": "Psalm 90:3-4, 5-6, 12-13, 14 y 17 (R. 1)",
+      "gospel": "Luke 9:7-9"
     },
     "calendarSource": "colombia",
     "celebration": "24  Septiembre, Jueves. 25ª Sem. del TO,  Feria,  Verde",
@@ -4409,9 +4317,9 @@
     "monthDay": "9/25",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Qo 3,1-11",
-      "psalm": "Sal 144(143),1a+2abc. 3-4 (R. 1a)",
-      "gospel": "Lc 9,18-22."
+      "firstReading": "Qo 3:1-11",
+      "psalm": "Psalm 144:1a+2abc. 3-4 (R. 1a)",
+      "gospel": "Luke 9:18-22"
     },
     "calendarSource": "colombia",
     "celebration": "25  Septiembre, Viernes. 25ª Sem. del TO,  Feria,  Verde",
@@ -4425,9 +4333,9 @@
     "monthDay": "9/26",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Qo 11,9 - 12,8",
-      "psalm": "Sal 90(89),3-4.5-6.12-13.14+17 (R. 1)",
-      "gospel": "Lc 9,43b-45."
+      "firstReading": "Qo 11:9 - 12:8",
+      "psalm": "Psalm 90:3-4, 5-6, 12-13, 14+17 (R. 1)",
+      "gospel": "Luke 9:43b-45"
     },
     "calendarSource": "colombia",
     "celebration": "26  Septiembre, Sábado. 25ª Sem. del TO,  Feria o Memoria libre o BMV,  Verde o Rojo o Blanco",
@@ -4441,10 +4349,10 @@
     "monthDay": "9/27",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Ez 18,25-28",
-      "psalm": "Sal 25(24),4-5ab.6-7. 8-9 (R. cf. 6a)",
-      "secondReading": "Flp 2,1-11 (forma larga) o Flp 2,1-5 (forma breve)",
-      "gospel": "Mt 21,28-32."
+      "firstReading": "Ezekiel 18:25-28",
+      "psalm": "Psalm 25:4-5ab.6-7. 8-9",
+      "secondReading": "Philippians 2:1-11 (forma larga) o Philippians 2:1-5 (forma breve)",
+      "gospel": "Matthew 21:28-32"
     },
     "calendarSource": "colombia",
     "celebration": "27  Septiembre, Domingo. 26ª Sem. del Tiempo Ordinario,  Verde",
@@ -4458,9 +4366,9 @@
     "monthDay": "9/28",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Jb 1,6-22",
-      "psalm": "Sal 17(16),1.2-3.6-7 (R. 6b)",
-      "gospel": "Lc 9,46-50."
+      "firstReading": "Jb 1:6-22",
+      "psalm": "Psalm 17:1, 2-3, 6-7 (R. 6b)",
+      "gospel": "Luke 9:46-50"
     },
     "calendarSource": "colombia",
     "celebration": "28  Septiembre, Lunes. 26ª Sem. del TO,  Feria o Memoria libre,  Verde o Rojo",
@@ -4474,9 +4382,9 @@
     "monthDay": "9/29",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Dn 7,9-10.13-14 o Ap 12,7-12a",
-      "psalm": "Sal 138(137),1.2a.2b-3.4-5.7c-8 (R. 1c)",
-      "secondReading": "Jn 1,47-51.",
+      "firstReading": "Daniel 7:9-10, 13-14 o Revelation 12:7-12a",
+      "psalm": "Psalm 138:1, 2a.2b-3, 4-5, 7c-8 (R. 1c)",
+      "secondReading": "John 1:47-51",
       "gospel": ""
     },
     "calendarSource": "colombia",
@@ -4491,9 +4399,9 @@
     "monthDay": "9/30",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Jb 9,1-12.14-16",
-      "psalm": "Sal 88(87),10bc-11.12-13.14-15 (R. 3a)",
-      "gospel": "Lc 9,57-62."
+      "firstReading": "Jb 9:1-12, 14-16",
+      "psalm": "Psalm 88:10bc-11, 12-13, 14-15 (R. 3a)",
+      "gospel": "Luke 9:57-62"
     },
     "calendarSource": "colombia",
     "celebration": "30  Septiembre, Miércoles. 26ª Sem. del TO,  Memoria obligatoria,  Blanco",
@@ -4508,8 +4416,8 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Jb 19, 21-27",
-      "psalm": "Sal 27(26), 7-8a.8b-9abc.13-14 (R. 13)",
-      "gospel": "Lc 10, 1-12"
+      "psalm": "Psalm 27, 7-8a.8b-9abc.13-14 (R. 13)",
+      "gospel": "Luke 10, 1-12"
     },
     "calendarSource": "colombia",
     "celebration": "01  Octubre, Jueves. 26ª Sem. del TO,  Memoria obligatoria,  Blanco",
@@ -4523,9 +4431,9 @@
     "monthDay": "10/2",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Éx 23,20-23a",
-      "psalm": "Sal 91(90),1-2.3-4.5-6.10-11 (R.11)",
-      "secondReading": "Mt 18,1-5.10",
+      "firstReading": "Éx 23:20-23a",
+      "psalm": "Psalm 91:1-2, 3-4, 5-6, 10-11 (R.11)",
+      "secondReading": "Matthew 18:1-5, 10",
       "gospel": ""
     },
     "calendarSource": "colombia",
@@ -4540,9 +4448,9 @@
     "monthDay": "10/3",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Jb 42,1-3.5-6.12-16",
-      "psalm": "Sal 119(118), 66.71.75.91.125.130 (R. 135a)",
-      "gospel": "Lc 10,17-24."
+      "firstReading": "Jb 42:1-3, 5-6, 12-16",
+      "psalm": "Psalm 119, 66, 71, 75, 91, 125, 130 (R. 135a)",
+      "gospel": "Luke 10:17-24"
     },
     "calendarSource": "colombia",
     "celebration": "03  Octubre, Sábado. 26ª Sem. del TO,  Feria o BMV,  Verde o Blanco",
@@ -4556,10 +4464,10 @@
     "monthDay": "10/4",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Is 5,1-7",
-      "psalm": "Sal 80(79),9 y 12.13-14.15-16.19-20 (R. cf. 15c)",
-      "secondReading": "Flp 4,6-9",
-      "gospel": "Mt 21,33-43."
+      "firstReading": "Isaiah 5:1-7",
+      "psalm": "Psalm 80:9 y 12, 13-14, 15-16, 19-20",
+      "secondReading": "Philippians 4:6-9",
+      "gospel": "Matthew 21:33-43"
     },
     "calendarSource": "colombia",
     "celebration": "04  Octubre, Domingo. 27ª Sem. del Tiempo Ordinario,  Verde",
@@ -4573,9 +4481,9 @@
     "monthDay": "10/5",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Ga 1,6-12",
-      "psalm": "Sal 111(110),1-2.7-8.9+10c (R. cf. 5b)",
-      "gospel": "Lc 10,25-37."
+      "firstReading": "Galatians 1:6-12",
+      "psalm": "Psalm 111:1-2, 7-8, 9+10c",
+      "gospel": "Luke 10:25-37"
     },
     "calendarSource": "colombia",
     "celebration": "05  Octubre, Lunes. 27ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
@@ -4589,9 +4497,9 @@
     "monthDay": "10/6",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Ga 1,13-24",
-      "psalm": "Sal 139(138),1-3.13-14ab.14c-15 (R. 24b)",
-      "gospel": "Lc 10,38-42."
+      "firstReading": "Galatians 1:13-24",
+      "psalm": "Psalm 139:1-3, 13-14ab.14c-15 (R. 24b)",
+      "gospel": "Luke 10:38-42"
     },
     "calendarSource": "colombia",
     "celebration": "06  Octubre, Martes. 27ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
@@ -4605,9 +4513,9 @@
     "monthDay": "10/7",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Ga 2,1-2.7-14",
-      "psalm": "Sal 117(116),1.2 (R. Mc 16,15)",
-      "gospel": "Lc 11,1-4."
+      "firstReading": "Galatians 2:1-2, 7-14",
+      "psalm": "Psalm 117:1, 2 (R. Mark 16:15)",
+      "gospel": "Luke 11:1-4"
     },
     "calendarSource": "colombia",
     "celebration": "07  Octubre, Miércoles. 27ª Sem. del TO,  Memoria obligatoria,  Blanco",
@@ -4621,9 +4529,9 @@
     "monthDay": "10/8",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Ga 3,1-5",
-      "psalm": "Sal Lc 1,69-70.71-72.73-75 (R. cf. 68)",
-      "gospel": "Lc 11,5-13."
+      "firstReading": "Galatians 3:1-5",
+      "psalm": "Psalm Luke 1:69-70, 71-72, 73-75",
+      "gospel": "Luke 11:5-13"
     },
     "calendarSource": "colombia",
     "celebration": "08  Octubre, Jueves. 27ª Sem. del TO,  Feria,  Verde",
@@ -4637,9 +4545,9 @@
     "monthDay": "10/9",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Ga 3,7-14",
-      "psalm": "Sal 111(110),1-2.3-4.5-6 (R. cf. 5b)",
-      "gospel": "Lc 11,15-26."
+      "firstReading": "Galatians 3:7-14",
+      "psalm": "Psalm 111:1-2, 3-4, 5-6",
+      "gospel": "Luke 11:15-26"
     },
     "calendarSource": "colombia",
     "celebration": "09  Octubre, Viernes. 27ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco o Rojo",
@@ -4653,9 +4561,9 @@
     "monthDay": "10/10",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Ga 3,22-29",
-      "psalm": "Sal 105(104),2-3.4-5.6-7 (R. 8a)",
-      "gospel": "Lc 11,27-28."
+      "firstReading": "Galatians 3:22-29",
+      "psalm": "Psalm 105:2-3, 4-5, 6-7 (R. 8a)",
+      "gospel": "Luke 11:27-28"
     },
     "calendarSource": "colombia",
     "celebration": "10  Octubre, Sábado. 27ª Sem. del TO,  Feria o BMV,  Verde o Blanco",
@@ -4669,10 +4577,10 @@
     "monthDay": "10/11",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Is 25,6-10a",
-      "psalm": "Sal 23(22),1-3a.3b-4.5.6 (R. cf. 5a)",
-      "secondReading": "Flp 4,12-14.19-20",
-      "gospel": "Mt 22,1-14 (forma larga) o Mt 22,1-10 (forma breve)."
+      "firstReading": "Isaiah 25:6-10a",
+      "psalm": "Psalm 23:1-3a.3b-4, 5.6",
+      "secondReading": "Philippians 4:12-14, 19-20",
+      "gospel": "Matthew 22:1-14 (forma larga) o Matthew 22:1-10 (forma breve)"
     },
     "calendarSource": "colombia",
     "celebration": "11  Octubre, Domingo. 28ª Sem. del Tiempo Ordinario,  Verde",
@@ -4686,9 +4594,9 @@
     "monthDay": "10/12",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Ga 4,22-24.26-27.31 - 5,1",
-      "psalm": "Sal 113(112),1-2.3-4.5-7 (R. cf. 2)",
-      "gospel": "Lc 11,29-32."
+      "firstReading": "Galatians 4:22-24, 26-27, 31 - 5:1",
+      "psalm": "Psalm 113:1-2, 3-4, 5-7",
+      "gospel": "Luke 11:29-32"
     },
     "calendarSource": "colombia",
     "celebration": "12  Octubre, Lunes. 28ª Sem. del TO,  Feria,  Verde",
@@ -4702,9 +4610,9 @@
     "monthDay": "10/13",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Ga 5,1-6",
-      "psalm": "Sal 119(118),41.43.44.45.47.48 (R. 41a)",
-      "gospel": "Lc 11,37-41."
+      "firstReading": "Galatians 5:1-6",
+      "psalm": "Psalm 119:41, 43, 44, 45, 47, 48 (R. 41a)",
+      "gospel": "Luke 11:37-41"
     },
     "calendarSource": "colombia",
     "celebration": "13  Octubre, Martes. 28ª Sem. del TO,  Feria,  Verde",
@@ -4718,9 +4626,9 @@
     "monthDay": "10/14",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Ga 5,18-25",
-      "psalm": "Sal 1,1-2.3.4+6 (R. cf. Jn 8,12)",
-      "gospel": "Lc 11,42-46."
+      "firstReading": "Galatians 5:18-25",
+      "psalm": "Psalm 1:1-2, 3.4+6",
+      "gospel": "Luke 11:42-46"
     },
     "calendarSource": "colombia",
     "celebration": "14  Octubre, Miércoles. 28ª Sem. del TO,  Feria o Memoria libre,  Verde o Rojo",
@@ -4734,9 +4642,9 @@
     "monthDay": "10/15",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Ef 1,1-10",
-      "psalm": "Sal 98(97),1.2-3ab.3cd-4.5-6 (R. 2a)",
-      "gospel": "Lc 11,47-54."
+      "firstReading": "Ephesians 1:1-10",
+      "psalm": "Psalm 98:1, 2-3ab.3cd-4, 5-6 (R. 2a)",
+      "gospel": "Luke 11:47-54"
     },
     "calendarSource": "colombia",
     "celebration": "15  Octubre, Jueves.  Memoria obligatoria,  Blanco",
@@ -4750,9 +4658,9 @@
     "monthDay": "10/16",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Ef 1,11-14",
-      "psalm": "Sal 33(32),1-2.4-5.12-13 (R. 12b)",
-      "gospel": "Lc 12,1-7."
+      "firstReading": "Ephesians 1:11-14",
+      "psalm": "Psalm 33:1-2, 4-5, 12-13 (R. 12b)",
+      "gospel": "Luke 12:1-7"
     },
     "calendarSource": "colombia",
     "celebration": "16  Octubre, Viernes. 28ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
@@ -4766,9 +4674,9 @@
     "monthDay": "10/17",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Ef 1,15-23",
-      "psalm": "Sal 8,2-3a.4-5.6-7a (R. cf. 7)",
-      "gospel": "Lc 12,8-12."
+      "firstReading": "Ephesians 1:15-23",
+      "psalm": "Psalm 8:2-3a.4-5, 6-7a",
+      "gospel": "Luke 12:8-12"
     },
     "calendarSource": "colombia",
     "celebration": "17  Octubre, Sábado. 28ª Sem. del TO,  Memoria obligatoria,  Rojo",
@@ -4782,10 +4690,10 @@
     "monthDay": "10/18",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Is 45,1.4-6",
-      "psalm": "Sal 96(95),1 y 3.4-5.7-8.9-10a+c (R. 7b)",
-      "secondReading": "1Ts 1,1-5b",
-      "gospel": "Mt 22,15-21."
+      "firstReading": "Isaiah 45:1, 4-6",
+      "psalm": "Psalm 96:1 y 3, 4-5, 7-8, 9-10a+c (R. 7b)",
+      "secondReading": "1Ts 1:1-5b",
+      "gospel": "Matthew 22:15-21"
     },
     "calendarSource": "colombia",
     "celebration": "18  Octubre, Domingo. 29ª Sem. del Tiempo Ordinario,  Verde",
@@ -4799,9 +4707,9 @@
     "monthDay": "10/19",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Ef 2,1-10",
-      "psalm": "Sal 100(99),2.3.4.5 (R. 3b)",
-      "gospel": "Lc 12,13-21."
+      "firstReading": "Ephesians 2:1-10",
+      "psalm": "Psalm 100:2, 3.4, 5 (R. 3b)",
+      "gospel": "Luke 12:13-21"
     },
     "calendarSource": "colombia",
     "celebration": "19  Octubre, Lunes. 29ª Sem. del TO,  Feria o Memoria libre,  Verde o Rojo o Blanco",
@@ -4815,9 +4723,9 @@
     "monthDay": "10/20",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Ef 2, 12-22",
-      "psalm": "Sal 85(84), 9ab-10.11-12.13-14 (R. 9)",
-      "gospel": "Lc 12, 35-38"
+      "firstReading": "Ephesians 2, 12-22",
+      "psalm": "Psalm 85, 9ab-10, 11-12, 13-14 (R. 9)",
+      "gospel": "Luke 12, 35-38"
     },
     "calendarSource": "colombia",
     "celebration": "20  Octubre, Martes. 29ª Sem. del TO,  Feria,  Verde",
@@ -4831,9 +4739,9 @@
     "monthDay": "10/21",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Ef 3,2-12",
-      "psalm": "Sal Is 12,2-3.4bcd.5-6 (R. cf. 3)",
-      "gospel": "Lc 12,39-48."
+      "firstReading": "Ephesians 3:2-12",
+      "psalm": "Psalm Isaiah 12:2-3, 4bcd.5-6",
+      "gospel": "Luke 12:39-48"
     },
     "calendarSource": "colombia",
     "celebration": "21  Octubre, Miércoles. 29ª Sem. del TO,  Memoria obligatoria,  Blanco",
@@ -4847,9 +4755,9 @@
     "monthDay": "10/22",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Ef 3,14-21",
-      "psalm": "Sal 33(32),1-2.4-5.11-12.18-19 (R. 5b)",
-      "gospel": "Lc 12,49-53."
+      "firstReading": "Ephesians 3:14-21",
+      "psalm": "Psalm 33:1-2, 4-5, 11-12, 18-19 (R. 5b)",
+      "gospel": "Luke 12:49-53"
     },
     "calendarSource": "colombia",
     "celebration": "22  Octubre, Jueves. 29ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
@@ -4863,9 +4771,9 @@
     "monthDay": "10/23",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Ef 4,1-6",
-      "psalm": "Sal 24(23),1-2.3-4ab.5-6 (R. cf. 6)",
-      "gospel": "Lc 12,54-59."
+      "firstReading": "Ephesians 4:1-6",
+      "psalm": "Psalm 24:1-2, 3-4ab.5-6",
+      "gospel": "Luke 12:54-59"
     },
     "calendarSource": "colombia",
     "celebration": "23  Octubre, Viernes. 29ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
@@ -4879,9 +4787,9 @@
     "monthDay": "10/24",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Ef 4,7-16",
-      "psalm": "Sal 122(121),1-2.3-4a.4b-5 (R. cf. 1)",
-      "gospel": "Lc 13,1-9."
+      "firstReading": "Ephesians 4:7-16",
+      "psalm": "Psalm 122:1-2, 3-4a.4b-5",
+      "gospel": "Luke 13:1-9"
     },
     "calendarSource": "colombia",
     "celebration": "24  Octubre, Sábado. 29ª Sem. del TO,  Feria o Memoria libre o BMV,  Verde o Blanco",
@@ -4895,10 +4803,10 @@
     "monthDay": "10/25",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Éx 22,20-26",
-      "psalm": "Sal 18(17),2-3a.3bc-4.47 y 51ab (R. 2)",
-      "secondReading": "1Ts 1,5c-10",
-      "gospel": "Mt 22,34-40."
+      "firstReading": "Éx 22:20-26",
+      "psalm": "Psalm 18:2-3a.3bc-4, 47 y 51ab (R. 2)",
+      "secondReading": "1Ts 1:5c-10",
+      "gospel": "Matthew 22:34-40"
     },
     "calendarSource": "colombia",
     "celebration": "25  Octubre, Domingo. 30ª Sem. del Tiempo Ordinario,  Verde",
@@ -4912,9 +4820,9 @@
     "monthDay": "10/26",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Ef 4,32 - 5,8",
-      "psalm": "Sal 1,1-2.3.4 y 6 (R. cf. Ef 5,1)",
-      "gospel": "Lc 13,10-17."
+      "firstReading": "Ephesians 4:32 - 5:8",
+      "psalm": "Psalm 1:1-2, 3.4 y 6",
+      "gospel": "Luke 13:10-17"
     },
     "calendarSource": "colombia",
     "celebration": "26  Octubre, Lunes. 30ª Sem. del TO,  Feria,  Verde",
@@ -4928,9 +4836,9 @@
     "monthDay": "10/27",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Ef 5,21-33",
-      "psalm": "Sal 128(127),1-2.3.4-5 (R. cf. 1a)",
-      "gospel": "Lc 13,18-21."
+      "firstReading": "Ephesians 5:21-33",
+      "psalm": "Psalm 128:1-2, 3.4-5",
+      "gospel": "Luke 13:18-21"
     },
     "calendarSource": "colombia",
     "celebration": "27  Octubre, Martes. 30ª Sem. del TO,  Feria,  Verde",
@@ -4944,9 +4852,9 @@
     "monthDay": "10/28",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Ef 2,19-22",
-      "psalm": "Sal 19(18),2-3.4-5 (R. 5a)",
-      "secondReading": "Lc 6,12-19.",
+      "firstReading": "Ephesians 2:19-22",
+      "psalm": "Psalm 19:2-3, 4-5 (R. 5a)",
+      "secondReading": "Luke 6:12-19",
       "gospel": ""
     },
     "calendarSource": "colombia",
@@ -4961,9 +4869,9 @@
     "monthDay": "10/29",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Ef 6,10-20",
-      "psalm": "Sal 144(143),1.2.9-10 (R. 1a)",
-      "gospel": "Lc 13,31-35."
+      "firstReading": "Ephesians 6:10-20",
+      "psalm": "Psalm 144:1, 2.9-10 (R. 1a)",
+      "gospel": "Luke 13:31-35"
     },
     "calendarSource": "colombia",
     "celebration": "29  Octubre, Jueves. 30ª Sem. del TO,  Feria,  Verde",
@@ -4977,9 +4885,9 @@
     "monthDay": "10/30",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Flp 1, 1-11",
-      "psalm": "Sal 111(110), 1-2. 3-4. 5-6 (R. 2a)",
-      "gospel": "Lc 14, 1-6"
+      "firstReading": "Philippians 1, 1-11",
+      "psalm": "Psalm 111, 1-2. 3-4. 5-6 (R. 2a)",
+      "gospel": "Luke 14, 1-6"
     },
     "calendarSource": "colombia",
     "celebration": "30  Octubre, Viernes. 30ª Sem. del TO,  Feria,  Verde",
@@ -4993,9 +4901,9 @@
     "monthDay": "10/31",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Flp 1,18b-26",
-      "psalm": "Sal 42(41),2.3.5bcd (R. 3a)",
-      "gospel": "Lc 14,1.7-11."
+      "firstReading": "Philippians 1:18b-26",
+      "psalm": "Psalm 42:2, 3.5bcd (R. 3a)",
+      "gospel": "Luke 14:1, 7-11"
     },
     "calendarSource": "colombia",
     "celebration": "31  Octubre, Sábado. 30ª Sem. del TO,  Feria o BMV,  Verde o Blanco",
@@ -5009,10 +4917,10 @@
     "monthDay": "11/1",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Ap 7,2-4.9-14",
-      "psalm": "Sal 24(23),1-2.3-4ab.5-6 (R. cf. 6 )",
-      "secondReading": "1Jn 3,1-3",
-      "gospel": "Mt 5,1-12a."
+      "firstReading": "Revelation 7:2-4, 9-14",
+      "psalm": "Psalm 24:1-2, 3-4ab.5-6",
+      "secondReading": "1 John 3:1-3",
+      "gospel": "Matthew 5:1-12a"
     },
     "calendarSource": "colombia",
     "celebration": "01  Noviembre, Domingo. 31ª Sem. del Tiempo Ordinario,  Solemnidad,  Blanco",
@@ -5038,9 +4946,9 @@
     "monthDay": "11/3",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Flp 2, 5-11",
-      "psalm": "Sal 22(21), 26b-27.28-30a.31-32 (R. 26a)",
-      "gospel": "Lc 14,15-24"
+      "firstReading": "Philippians 2, 5-11",
+      "psalm": "Psalm 22, 26b-27, 28-30a, 31-32 (R. 26a)",
+      "gospel": "Luke 14:15-24"
     },
     "calendarSource": "colombia",
     "celebration": "03  Noviembre, Martes. 31ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
@@ -5054,9 +4962,9 @@
     "monthDay": "11/4",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Flp 2, 12-18",
-      "psalm": "Sal 27(26), 1.4.13-14 (R. 1a)",
-      "gospel": "Lc 14, 25-33"
+      "firstReading": "Philippians 2, 12-18",
+      "psalm": "Psalm 27, 1, 4.13-14 (R. 1a)",
+      "gospel": "Luke 14, 25-33"
     },
     "calendarSource": "colombia",
     "celebration": "04  Noviembre, Miércoles. 31ª Sem. del TO,  Memoria obligatoria,  Blanco",
@@ -5070,9 +4978,9 @@
     "monthDay": "11/5",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Flp 3,3-8a",
-      "psalm": "Sal 105(104),2-3.4-5. 6-7 (R. 3b)",
-      "gospel": "Lc 15,1-10."
+      "firstReading": "Philippians 3:3-8a",
+      "psalm": "Psalm 105:2-3, 4-5. 6-7 (R. 3b)",
+      "gospel": "Luke 15:1-10"
     },
     "calendarSource": "colombia",
     "celebration": "05  Noviembre, Jueves. 31ª Sem. del TO,  Feria,  Verde",
@@ -5086,9 +4994,9 @@
     "monthDay": "11/6",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Flp 3,17 - 4,1",
-      "psalm": "Sal 122(121),1-2.4-5 (R. cf. 1)",
-      "gospel": "Lc 16,1-8."
+      "firstReading": "Philippians 3:17 - 4:1",
+      "psalm": "Psalm 122:1-2, 4-5",
+      "gospel": "Luke 16:1-8"
     },
     "calendarSource": "colombia",
     "celebration": "06  Noviembre, Viernes. 31ª Sem. del TO,  Feria,  Verde",
@@ -5102,9 +5010,9 @@
     "monthDay": "11/7",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Flp 4,10-19",
-      "psalm": "Sal 112(111),1-2.5-6.8a y 9 (R. 1a)",
-      "gospel": "Lc 16,9-15."
+      "firstReading": "Philippians 4:10-19",
+      "psalm": "Psalm 112:1-2, 5-6, 8a y 9 (R. 1a)",
+      "gospel": "Luke 16:9-15"
     },
     "calendarSource": "colombia",
     "celebration": "07  Noviembre, Sábado. 31ª Sem. del TO,  Feria o BMV,  Verde o Blanco",
@@ -5118,10 +5026,10 @@
     "monthDay": "11/8",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Sb 6,12-16",
-      "psalm": "Sal 63(62),2.3-4.5-6.7-8 (R. 2b)",
-      "secondReading": "1Ts 4,13-18 (forma larga) o 1Ts 4,13-14 (forma breve)",
-      "gospel": "Mt 25,1-13."
+      "firstReading": "Sb 6:12-16",
+      "psalm": "Psalm 63:2, 3-4, 5-6, 7-8 (R. 2b)",
+      "secondReading": "1Ts 4:13-18 (forma larga) o 1Ts 4:13-14 (forma breve)",
+      "gospel": "Matthew 25:1-13"
     },
     "calendarSource": "colombia",
     "celebration": "08  Noviembre, Domingo. 32ª Sem. del Tiempo Ordinario,  Verde",
@@ -5135,9 +5043,9 @@
     "monthDay": "11/9",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Ez 47,1-2.8-9.12",
-      "psalm": "Sal 46(45),2-3.5-6.8-9 (R. 5)",
-      "secondReading": "1Co 3,9c-11.16-17",
+      "firstReading": "Ezekiel 47:1-2, 8-9, 12",
+      "psalm": "Psalm 46:2-3, 5-6, 8-9 (R. 5)",
+      "secondReading": "1 Corinthians 3:9c-11, 16-17",
       "gospel": "Cuando la Fiesta no cae en domingo, se escoge una sola de las lecturas antes del evangelio"
     },
     "calendarSource": "colombia",
@@ -5152,9 +5060,9 @@
     "monthDay": "11/10",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Tt 2,1-8.11-14",
-      "psalm": "Sal 37(36),3-4.18 y 23.27 y 29 (R. 39a)",
-      "gospel": "Lc 17,7-10."
+      "firstReading": "Tt 2:1-8, 11-14",
+      "psalm": "Psalm 37:3-4, 18 y 23, 27 y 29 (R. 39a)",
+      "gospel": "Luke 17:7-10"
     },
     "calendarSource": "colombia",
     "celebration": "10  Noviembre, Martes. 32ª Sem. del TO,  Memoria obligatoria,  Blanco",
@@ -5169,8 +5077,8 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Tt 3, 1-7",
-      "psalm": "Sal 23(22), 1-3a.3b-4.5.6 (R. 1)",
-      "gospel": "Lc 17, 11-19"
+      "psalm": "Psalm 23, 1-3a.3b-4, 5.6 (R. 1)",
+      "gospel": "Luke 17, 11-19"
     },
     "calendarSource": "colombia",
     "celebration": "11  Noviembre, Miércoles. 32ª Sem. del TO,  Memoria obligatoria,  Blanco",
@@ -5184,9 +5092,9 @@
     "monthDay": "11/12",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Flm 7-20",
-      "psalm": "Sal 146(145),7.8-9a.9bc-10 (R. 5a)",
-      "gospel": "Lc 17,20-25."
+      "firstReading": "Philemon 7-20",
+      "psalm": "Psalm 146:7, 8-9a.9bc-10 (R. 5a)",
+      "gospel": "Luke 17:20-25"
     },
     "calendarSource": "colombia",
     "celebration": "12  Noviembre, Jueves. 32ª Sem. del TO,  Memoria obligatoria,  Rojo",
@@ -5200,9 +5108,9 @@
     "monthDay": "11/13",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "2Jn 4-9",
-      "psalm": "Sal 119(118),1.2.10.11.17.18 (R. 1b)",
-      "gospel": "Lc 17,26-37."
+      "firstReading": "2 John 4-9",
+      "psalm": "Psalm 119:1, 2.10, 11, 17, 18 (R. 1b)",
+      "gospel": "Luke 17:26-37"
     },
     "calendarSource": "colombia",
     "celebration": "13  Noviembre, Viernes. 32ª Sem. del TO,  Feria,  Verde",
@@ -5216,9 +5124,9 @@
     "monthDay": "11/14",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "3Jn 5-8",
-      "psalm": "Sal 112(111),1-2.3-4.5-6 (R. 1a)",
-      "gospel": "Lc 18,1-8."
+      "firstReading": "3 Jude 5-8",
+      "psalm": "Psalm 112:1-2, 3-4, 5-6 (R. 1a)",
+      "gospel": "Luke 18:1-8"
     },
     "calendarSource": "colombia",
     "celebration": "14  Noviembre, Sábado. 32ª Sem. del TO,  Feria o BMV,  Verde o Blanco",
@@ -5232,10 +5140,10 @@
     "monthDay": "11/15",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Pr 31,10-13.19-20.30-31",
-      "psalm": "Sal 128(127),1-2.3.4-5 (R. 1a)",
-      "secondReading": "1Ts 5,1-6",
-      "gospel": "Mt 25,14-30 (forma larga) o Mt 25,14-15.19-21 (forma breve)."
+      "firstReading": "Pr 31:10-13, 19-20, 30-31",
+      "psalm": "Psalm 128:1-2, 3.4-5 (R. 1a)",
+      "secondReading": "1Ts 5:1-6",
+      "gospel": "Matthew 25:14-30 (forma larga) o Matthew 25:14-15, 19-21 (forma breve)"
     },
     "calendarSource": "colombia",
     "celebration": "15  Noviembre, Domingo. 33ª Sem. del Tiempo Ordinario,  Verde",
@@ -5249,9 +5157,9 @@
     "monthDay": "11/16",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Ap 1,1-4; 2,1-5a",
-      "psalm": "Sal 1,1-2.3.4+6 (R. Ap 2,7b)",
-      "gospel": "Lc 18,35-43."
+      "firstReading": "Revelation 1:1-4; 2:1-5a",
+      "psalm": "Psalm 1:1-2, 3.4+6 (R. Revelation 2:7b)",
+      "gospel": "Luke 18:35-43"
     },
     "calendarSource": "colombia",
     "celebration": "16  Noviembre, Lunes. 33ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
@@ -5265,9 +5173,9 @@
     "monthDay": "11/17",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Ap 3,1-6.14-22",
-      "psalm": "Sal 15(14),2-3ab.3cd-4ab.5 (R. Ap 3,21)",
-      "gospel": "Lc 19,1-10."
+      "firstReading": "Revelation 3:1-6, 14-22",
+      "psalm": "Psalm 15:2-3ab.3cd-4ab.5 (R. Revelation 3:21)",
+      "gospel": "Luke 19:1-10"
     },
     "calendarSource": "colombia",
     "celebration": "17  Noviembre, Martes. 33ª Sem. del TO,  Memoria obligatoria,  Blanco",
@@ -5281,9 +5189,9 @@
     "monthDay": "11/18",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Ap 4,1-11",
-      "psalm": "Sal 150,1-2.3-4.5-6 (R. Ap 4,8b)",
-      "gospel": "Lc 19,11-28."
+      "firstReading": "Revelation 4:1-11",
+      "psalm": "Psalm 150:1-2, 3-4, 5-6 (R. Revelation 4:8b)",
+      "gospel": "Luke 19:11-28"
     },
     "calendarSource": "colombia",
     "celebration": "18  Noviembre, Miércoles. 33ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
@@ -5297,9 +5205,9 @@
     "monthDay": "11/19",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Ap 5,1-10",
-      "psalm": "Sal 149,1-2.3-4.5-6a+9b (R. cf. Ap 5,10)",
-      "gospel": "Lc 19,41-44."
+      "firstReading": "Revelation 5:1-10",
+      "psalm": "Psalm 149:1-2, 3-4, 5-6a+9b",
+      "gospel": "Luke 19:41-44"
     },
     "calendarSource": "colombia",
     "celebration": "19  Noviembre, Jueves. 33ª Sem. del TO,  Feria,  Verde",
@@ -5313,9 +5221,9 @@
     "monthDay": "11/20",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Ap 10,8-11",
-      "psalm": "Sal 119(118),14.24.72. 103.111.131 (R. 103a)",
-      "gospel": "Lc 19,45-48."
+      "firstReading": "Revelation 10:8-11",
+      "psalm": "Psalm 119:14, 24, 72. 103, 111, 131 (R. 103a)",
+      "gospel": "Luke 19:45-48"
     },
     "calendarSource": "colombia",
     "celebration": "20  Noviembre, Viernes. 33ª Sem. del TO,  Feria,  Verde",
@@ -5329,9 +5237,9 @@
     "monthDay": "11/21",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Ap 11,4-12",
-      "psalm": "Sal 144(143),1.2.9-10 (R. 1a)",
-      "gospel": "Lc 20,27-40."
+      "firstReading": "Revelation 11:4-12",
+      "psalm": "Psalm 144:1, 2.9-10 (R. 1a)",
+      "gospel": "Luke 20:27-40"
     },
     "calendarSource": "colombia",
     "celebration": "21  Noviembre, Sábado. 33ª Sem. del TO,  Memoria obligatoria,  Blanco",
@@ -5345,10 +5253,10 @@
     "monthDay": "11/22",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Ez 34,11-12.15-17",
-      "psalm": "Sal 23(22),1-3a.3b-4.5.6 (R. 1)",
-      "secondReading": "1Co 15,20-26.28",
-      "gospel": "Mt 25,31-46."
+      "firstReading": "Ezekiel 34:11-12, 15-17",
+      "psalm": "Psalm 23:1-3a.3b-4, 5.6 (R. 1)",
+      "secondReading": "1 Corinthians 15:20-26, 28",
+      "gospel": "Matthew 25:31-46"
     },
     "calendarSource": "colombia",
     "celebration": "22  Noviembre, Domingo. 34ª Sem. del Tiempo Ordinario,  NUESTRO SEÑOR JESUCRISTO, REY DEL UNIVERSO,  Solemnidad,  Blanco",
@@ -5362,9 +5270,9 @@
     "monthDay": "11/23",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Ap 14,1-3.4b-5",
-      "psalm": "Sal 24(23),1-2.3-4ab.5-6 (R. cf. 6)",
-      "gospel": "Lc 21,1-4."
+      "firstReading": "Revelation 14:1-3, 4b-5",
+      "psalm": "Psalm 24:1-2, 3-4ab.5-6",
+      "gospel": "Luke 21:1-4"
     },
     "calendarSource": "colombia",
     "celebration": "23  Noviembre, Lunes. 34ª Sem. del TO,  Feria o Memoria libre,  Verde o Rojo o Blanco",
@@ -5378,9 +5286,9 @@
     "monthDay": "11/24",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Ap 14,14-19",
-      "psalm": "Sal 96(95),10.11-12.13 (R. 13b)",
-      "gospel": "Lc 21,5-11."
+      "firstReading": "Revelation 14:14-19",
+      "psalm": "Psalm 96:10, 11-12, 13 (R. 13b)",
+      "gospel": "Luke 21:5-11"
     },
     "calendarSource": "colombia",
     "celebration": "24  Noviembre, Martes. 34ª Sem. del TO,  Memoria obligatoria,  Rojo",
@@ -5394,9 +5302,9 @@
     "monthDay": "11/25",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Ap 15,1-4",
-      "psalm": "Sal 98(97),1.2-3ab.7-8.9 (R. Ap 15,3b)",
-      "gospel": "Lc 21,12-19."
+      "firstReading": "Revelation 15:1-4",
+      "psalm": "Psalm 98:1, 2-3ab.7-8, 9 (R. Revelation 15:3b)",
+      "gospel": "Luke 21:12-19"
     },
     "calendarSource": "colombia",
     "celebration": "25  Noviembre, Miércoles. 34ª Sem. del TO,  Feria o Memoria libre,  Verde o Rojo",
@@ -5410,9 +5318,9 @@
     "monthDay": "11/26",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Ap 18,1-2.21-23; 19,1-3.9a",
-      "psalm": "Sal 100(99),2.3.4.5 (R. Ap 19,9a)",
-      "gospel": "Lc 21,20-28."
+      "firstReading": "Revelation 18:1-2, 21-23; 19:1-3, 9a",
+      "psalm": "Psalm 100:2, 3.4, 5 (R. Revelation 19:9a)",
+      "gospel": "Luke 21:20-28"
     },
     "calendarSource": "colombia",
     "celebration": "26  Noviembre, Jueves. 34ª Sem. del TO,  Feria,  Verde",
@@ -5426,9 +5334,9 @@
     "monthDay": "11/27",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Ap 20,1-4.11 - 21,2",
-      "psalm": "Sal 84(83),3.4.5-6a+8a (R. Ap 21,3b)",
-      "gospel": "Lc 21,29-33."
+      "firstReading": "Revelation 20:1-4, 11 - 21:2",
+      "psalm": "Psalm 84:3, 4.5-6a+8a (R. Revelation 21:3b)",
+      "gospel": "Luke 21:29-33"
     },
     "calendarSource": "colombia",
     "celebration": "27  Noviembre, Viernes. 34ª Sem. del TO,  Feria,  Verde",
@@ -5442,9 +5350,9 @@
     "monthDay": "11/28",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Ap 22,1-7",
-      "psalm": "Sal 95(94),1-2.3-5.6-7 (R. 1Co 16,22b + Ap 22,20c)",
-      "gospel": "Lc 21,34-36."
+      "firstReading": "Revelation 22:1-7",
+      "psalm": "Psalm 95:1-2, 3-5, 6-7 (R. 1 Corinthians 16:22b + Revelation 22:20c)",
+      "gospel": "Luke 21:34-36"
     },
     "calendarSource": "colombia",
     "celebration": "28  Noviembre, Sábado. 34ª Sem. del TO,  Feria o BMV,  Verde o Blanco",
@@ -5452,5 +5360,539 @@
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
     "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+  },
+  {
+    "date": "2026-11-29",
+    "monthDay": "11/29",
+    "season": "Advent",
+    "readings": {
+      "psalm": "Psalm 80:2-3, 15-16, 18-19",
+      "secondReading": "1 Corinthians 1:3-9",
+      "gospel": "Mark 13:33-37"
+    },
+    "calendarSource": "colombia",
+    "calendarLabel": "Colombia (CEC)",
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "celebration": "",
+    "color": "",
+    "prelude": ""
+  },
+  {
+    "date": "2026-11-30",
+    "monthDay": "11/30",
+    "season": "Advent",
+    "readings": {
+      "firstReading": "Romans 10:9-18",
+      "psalm": "Psalm 19:8, 9, 10, 11",
+      "gospel": "Matthew 4:18-22"
+    },
+    "calendarSource": "colombia",
+    "calendarLabel": "Colombia (CEC)",
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "celebration": "",
+    "color": "",
+    "prelude": ""
+  },
+  {
+    "date": "2026-12-01",
+    "monthDay": "12/1",
+    "season": "Advent",
+    "readings": {
+      "firstReading": "Isaiah 11:1-10",
+      "psalm": "Psalm 72:1-2, 7-8, 12-13, 17",
+      "gospel": "Luke 10:21-24"
+    },
+    "calendarSource": "colombia",
+    "calendarLabel": "Colombia (CEC)",
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "celebration": "",
+    "color": "",
+    "prelude": ""
+  },
+  {
+    "date": "2026-12-02",
+    "monthDay": "12/2",
+    "season": "Advent",
+    "readings": {
+      "firstReading": "Isaiah 25:6-10a",
+      "psalm": "Psalm 23:1-3a, 3b-4, 5, 6",
+      "gospel": "Matthew 15:29-37"
+    },
+    "calendarSource": "colombia",
+    "calendarLabel": "Colombia (CEC)",
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "celebration": "",
+    "color": "",
+    "prelude": ""
+  },
+  {
+    "date": "2026-12-03",
+    "monthDay": "12/3",
+    "season": "Advent",
+    "readings": {
+      "firstReading": "Isaiah 26:1-6",
+      "psalm": "Psalm 118:1 and 8-9, 19-21, 25-27a",
+      "gospel": "Matthew 7:21, 24-27"
+    },
+    "calendarSource": "colombia",
+    "calendarLabel": "Colombia (CEC)",
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "celebration": "",
+    "color": "",
+    "prelude": ""
+  },
+  {
+    "date": "2026-12-04",
+    "monthDay": "12/4",
+    "season": "Advent",
+    "readings": {
+      "firstReading": "Isaiah 29:17-24",
+      "psalm": "Psalm 27:1, 4, 13-14",
+      "gospel": "Matthew 9:27-31"
+    },
+    "calendarSource": "colombia",
+    "calendarLabel": "Colombia (CEC)",
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "celebration": "",
+    "color": "",
+    "prelude": ""
+  },
+  {
+    "date": "2026-12-05",
+    "monthDay": "12/5",
+    "season": "Advent",
+    "readings": {
+      "firstReading": "Isaiah 30:19-21, 23-26",
+      "psalm": "Psalm 147:1-2, 3-4, 5-6",
+      "gospel": "Matthew 9:35–10:1, 5a, 6-8"
+    },
+    "calendarSource": "colombia",
+    "calendarLabel": "Colombia (CEC)",
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "celebration": "",
+    "color": "",
+    "prelude": ""
+  },
+  {
+    "date": "2026-12-06",
+    "monthDay": "12/6",
+    "season": "Advent",
+    "readings": {
+      "firstReading": "Isaiah 40:1-5, 9-11",
+      "psalm": "Psalm 85:9-10-11-12, 13-14",
+      "secondReading": "2 Peter 3:8-14",
+      "gospel": "Mark 1:1-8"
+    },
+    "calendarSource": "colombia",
+    "calendarLabel": "Colombia (CEC)",
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "celebration": "",
+    "color": "",
+    "prelude": ""
+  },
+  {
+    "date": "2026-12-07",
+    "monthDay": "12/7",
+    "season": "Advent",
+    "readings": {
+      "firstReading": "Isaiah 35:1-10",
+      "psalm": "Psalm 85:9ab and 10, 11-12, 13-14",
+      "gospel": "Luke 5:17-26"
+    },
+    "calendarSource": "colombia",
+    "calendarLabel": "Colombia (CEC)",
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "celebration": "",
+    "color": "",
+    "prelude": ""
+  },
+  {
+    "date": "2026-12-08",
+    "monthDay": "12/8",
+    "season": "Advent",
+    "readings": {
+      "firstReading": "Genesis 3:9-15, 20",
+      "psalm": "Psalm 98:1, 2-3ab, 3cd-4",
+      "secondReading": "Ephesians 1:3-6, 11-12",
+      "gospel": "Luke 1:26-38"
+    },
+    "calendarSource": "colombia",
+    "calendarLabel": "Colombia (CEC)",
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "celebration": "",
+    "color": "",
+    "prelude": ""
+  },
+  {
+    "date": "2026-12-09",
+    "monthDay": "12/9",
+    "season": "Advent",
+    "readings": {
+      "firstReading": "Isaiah 40:25-31",
+      "psalm": "Psalm 103:1-2, 3-4, 8 and 10",
+      "gospel": "Matthew 11:28-30"
+    },
+    "calendarSource": "colombia",
+    "calendarLabel": "Colombia (CEC)",
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "celebration": "",
+    "color": "",
+    "prelude": ""
+  },
+  {
+    "date": "2026-12-10",
+    "monthDay": "12/10",
+    "season": "Advent",
+    "readings": {
+      "firstReading": "Isaiah 41:13-20",
+      "psalm": "Psalm 145:1 and 9, 10-11, 12-13ab",
+      "gospel": "Matthew 11:11-15"
+    },
+    "calendarSource": "colombia",
+    "calendarLabel": "Colombia (CEC)",
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "celebration": "",
+    "color": "",
+    "prelude": ""
+  },
+  {
+    "date": "2026-12-11",
+    "monthDay": "12/11",
+    "season": "Advent",
+    "readings": {
+      "firstReading": "Isaiah 48:17-19",
+      "psalm": "Psalm 1:1-2, 3, 4 and 6",
+      "gospel": "Matthew 11:16-19"
+    },
+    "calendarSource": "colombia",
+    "calendarLabel": "Colombia (CEC)",
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "celebration": "",
+    "color": "",
+    "prelude": ""
+  },
+  {
+    "date": "2026-12-12",
+    "monthDay": "12/12",
+    "season": "Advent",
+    "readings": {
+      "firstReading": "Zechariah 2:14-17",
+      "psalm": "Judith 13:18bcde, 19",
+      "gospel": "Luke 1:26-38"
+    },
+    "calendarSource": "colombia",
+    "calendarLabel": "Colombia (CEC)",
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "celebration": "",
+    "color": "",
+    "prelude": ""
+  },
+  {
+    "date": "2026-12-13",
+    "monthDay": "12/13",
+    "season": "Advent",
+    "readings": {
+      "firstReading": "Isaiah 61:1-2a, 10-11",
+      "psalm": "Luke 1:46-48, 49-50, 53-54",
+      "secondReading": "1 Thessalonians 5:16-24",
+      "gospel": "John 1:6-8, 19-28"
+    },
+    "calendarSource": "colombia",
+    "calendarLabel": "Colombia (CEC)",
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "celebration": "",
+    "color": "",
+    "prelude": ""
+  },
+  {
+    "date": "2026-12-14",
+    "monthDay": "12/14",
+    "season": "Advent",
+    "readings": {
+      "firstReading": "Numbers 24:2-7, 15-17a",
+      "psalm": "Psalm 25:4-5ab, 6 and 7bc, 8-9",
+      "gospel": "Matthew 21:23-27"
+    },
+    "calendarSource": "colombia",
+    "calendarLabel": "Colombia (CEC)",
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "celebration": "",
+    "color": "",
+    "prelude": ""
+  },
+  {
+    "date": "2026-12-15",
+    "monthDay": "12/15",
+    "season": "Advent",
+    "readings": {
+      "firstReading": "Zephaniah 3:1-2, 9-13",
+      "psalm": "Psalm 34:2-3, 6-7, 17-18, 19 and 23",
+      "gospel": "Matthew 21:28-32"
+    },
+    "calendarSource": "colombia",
+    "calendarLabel": "Colombia (CEC)",
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "celebration": "",
+    "color": "",
+    "prelude": ""
+  },
+  {
+    "date": "2026-12-16",
+    "monthDay": "12/16",
+    "season": "Advent",
+    "readings": {
+      "firstReading": "Isaiah 45:6c-8, 18, 21c-25",
+      "psalm": "Psalm 85:9ab, 10, 11-12, 13-14",
+      "gospel": "Luke 7:18b-23"
+    },
+    "calendarSource": "colombia",
+    "calendarLabel": "Colombia (CEC)",
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "celebration": "",
+    "color": "",
+    "prelude": ""
+  },
+  {
+    "date": "2026-12-17",
+    "monthDay": "12/17",
+    "season": "Advent",
+    "readings": {
+      "firstReading": "Genesis 49:2, 8-10",
+      "psalm": "Psalm 72:1-2, 3-4ab, 7-8, 17",
+      "gospel": "Matthew 1:1-17"
+    },
+    "calendarSource": "colombia",
+    "calendarLabel": "Colombia (CEC)",
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "celebration": "",
+    "color": "",
+    "prelude": ""
+  },
+  {
+    "date": "2026-12-18",
+    "monthDay": "12/18",
+    "season": "Advent",
+    "readings": {
+      "firstReading": "Jeremiah 23:5-8",
+      "psalm": "Psalm 72:1-2, 12-13, 18-19",
+      "gospel": "Matthew 1:18-25"
+    },
+    "calendarSource": "colombia",
+    "calendarLabel": "Colombia (CEC)",
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "celebration": "",
+    "color": "",
+    "prelude": ""
+  },
+  {
+    "date": "2026-12-19",
+    "monthDay": "12/19",
+    "season": "Advent",
+    "readings": {
+      "firstReading": "Judges 13:2-7, 24-25a",
+      "psalm": "Psalm 71:3-4a, 5-6ab, 16-17",
+      "gospel": "Luke 1:5-25"
+    },
+    "calendarSource": "colombia",
+    "calendarLabel": "Colombia (CEC)",
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "celebration": "",
+    "color": "",
+    "prelude": ""
+  },
+  {
+    "date": "2026-12-20",
+    "monthDay": "12/20",
+    "season": "Advent",
+    "readings": {
+      "firstReading": "2 Samuel 7:1-5, 8b-12, 14a, 16",
+      "psalm": "Psalm 89:2-3, 4-5, 27, 29",
+      "secondReading": "Romans 16:25-27",
+      "gospel": "Luke 1:26-38"
+    },
+    "calendarSource": "colombia",
+    "calendarLabel": "Colombia (CEC)",
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "celebration": "",
+    "color": "",
+    "prelude": ""
+  },
+  {
+    "date": "2026-12-21",
+    "monthDay": "12/21",
+    "season": "Advent",
+    "readings": {
+      "firstReading": "Song of Songs 2:8-14",
+      "psalm": "Psalm 33:2-3, 11-12, 20-21",
+      "gospel": "Luke 1:39-45"
+    },
+    "calendarSource": "colombia",
+    "calendarLabel": "Colombia (CEC)",
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "celebration": "",
+    "color": "",
+    "prelude": ""
+  },
+  {
+    "date": "2026-12-22",
+    "monthDay": "12/22",
+    "season": "Advent",
+    "readings": {
+      "firstReading": "1 Samuel 1:24-28",
+      "psalm": "1 Samuel 2:1, 4-5, 6-7, 8abcd",
+      "gospel": "Luke 1:46-56"
+    },
+    "calendarSource": "colombia",
+    "calendarLabel": "Colombia (CEC)",
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "celebration": "",
+    "color": "",
+    "prelude": ""
+  },
+  {
+    "date": "2026-12-23",
+    "monthDay": "12/23",
+    "season": "Advent",
+    "readings": {
+      "firstReading": "Malachi 3:1-4, 23-24",
+      "psalm": "Psalm 25:4-5ab, 8-9, 10 and 14",
+      "gospel": "Luke 1:57-66"
+    },
+    "calendarSource": "colombia",
+    "calendarLabel": "Colombia (CEC)",
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "celebration": "",
+    "color": "",
+    "prelude": ""
+  },
+  {
+    "date": "2026-12-24",
+    "monthDay": "12/24",
+    "season": "Advent",
+    "readings": {
+      "firstReading": "2 Samuel 7:1-5, 8b-12, 14a, 16",
+      "psalm": "Psalm 89:2-3, 4-5, 27 and 29",
+      "gospel": "Luke 1:67-79"
+    },
+    "calendarSource": "colombia",
+    "calendarLabel": "Colombia (CEC)",
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "celebration": "",
+    "color": "",
+    "prelude": ""
+  },
+  {
+    "date": "2026-12-25",
+    "monthDay": "12/25",
+    "season": "Christmas",
+    "readings": {
+      "firstReading": "Isaiah 52:7-10",
+      "psalm": "Psalm 98:1, 2-3, 3-4, 5-6",
+      "secondReading": "Hebrews 1:1-6",
+      "gospel": "John 1:1-18"
+    },
+    "calendarSource": "colombia",
+    "calendarLabel": "Colombia (CEC)",
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "celebration": "",
+    "color": "",
+    "prelude": ""
+  },
+  {
+    "date": "2026-12-26",
+    "monthDay": "12/26",
+    "season": "Christmas",
+    "readings": {
+      "firstReading": "Acts 6:8-10; 7:54-59",
+      "psalm": "Psalm 31:3cd-4, 6 and 8ab, 16bc and 17",
+      "gospel": "Matthew 10:17-22"
+    },
+    "calendarSource": "colombia",
+    "calendarLabel": "Colombia (CEC)",
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "celebration": "",
+    "color": "",
+    "prelude": ""
+  },
+  {
+    "date": "2026-12-27",
+    "monthDay": "12/27",
+    "season": "Christmas",
+    "readings": {
+      "firstReading": "Sirach 3:2-6, 12-14",
+      "psalm": "Psalm 128:1-2, 3, 4-5",
+      "secondReading": "Colossians 3:12-21",
+      "gospel": "Luke 2:22-40"
+    },
+    "calendarSource": "colombia",
+    "calendarLabel": "Colombia (CEC)",
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "celebration": "",
+    "color": "",
+    "prelude": ""
+  },
+  {
+    "date": "2026-12-28",
+    "monthDay": "12/28",
+    "season": "Christmas",
+    "readings": {
+      "firstReading": "1 John 1:5—2:2",
+      "psalm": "Psalm 124:2-3, 4-5, 7cd-8",
+      "gospel": "Matthew 2:13-18"
+    },
+    "calendarSource": "colombia",
+    "calendarLabel": "Colombia (CEC)",
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "celebration": "",
+    "color": "",
+    "prelude": ""
+  },
+  {
+    "date": "2026-12-29",
+    "monthDay": "12/29",
+    "season": "Christmas",
+    "readings": {
+      "firstReading": "1 John 2:3-11",
+      "psalm": "Psalm 96:1-2a, 2b-3, 5b-6",
+      "gospel": "Luke 2:22-35"
+    },
+    "calendarSource": "colombia",
+    "calendarLabel": "Colombia (CEC)",
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "celebration": "",
+    "color": "",
+    "prelude": ""
+  },
+  {
+    "date": "2026-12-30",
+    "monthDay": "12/30",
+    "season": "Christmas",
+    "readings": {
+      "firstReading": "1 John 2:12-17",
+      "psalm": "Psalm 96:7-8a, 8b-9, 10",
+      "gospel": "Luke 2:36-40"
+    },
+    "calendarSource": "colombia",
+    "calendarLabel": "Colombia (CEC)",
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "celebration": "",
+    "color": "",
+    "prelude": ""
+  },
+  {
+    "date": "2026-12-31",
+    "monthDay": "12/31",
+    "season": "Christmas",
+    "readings": {
+      "firstReading": "1 John 2:18-21",
+      "psalm": "Psalm 96:1-2, 11-12, 13",
+      "gospel": "John 1:1-18"
+    },
+    "calendarSource": "colombia",
+    "calendarLabel": "Colombia (CEC)",
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "celebration": "",
+    "color": "",
+    "prelude": ""
   }
 ]

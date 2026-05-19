@@ -1,0 +1,4434 @@
+[
+    {
+        "date": "2026-01-01",
+        "day_of_week": "Thursday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for January 01",
+            "psalm": "Responsorial Psalm for January 01",
+            "gospel": "Gospel for January 01"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-01-02",
+        "day_of_week": "Friday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for January 02",
+            "psalm": "Responsorial Psalm for January 02",
+            "gospel": "Gospel for January 02"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-01-03",
+        "day_of_week": "Saturday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for January 03",
+            "psalm": "Responsorial Psalm for January 03",
+            "gospel": "Gospel for January 03"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-01-04",
+        "day_of_week": "Sunday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for January 04",
+            "psalm": "Responsorial Psalm for January 04",
+            "gospel": "Gospel for January 04",
+            "second_reading": "Sunday Epistle for January 04"
+        },
+        "liturgical_day": "Sunday Mass"
+    },
+    {
+        "date": "2026-01-05",
+        "day_of_week": "Monday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for January 05",
+            "psalm": "Responsorial Psalm for January 05",
+            "gospel": "Gospel for January 05"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-01-06",
+        "day_of_week": "Tuesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for January 06",
+            "psalm": "Responsorial Psalm for January 06",
+            "gospel": "Gospel for January 06"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-01-07",
+        "day_of_week": "Wednesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for January 07",
+            "psalm": "Responsorial Psalm for January 07",
+            "gospel": "Gospel for January 07"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-01-08",
+        "day_of_week": "Thursday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for January 08",
+            "psalm": "Responsorial Psalm for January 08",
+            "gospel": "Gospel for January 08"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-01-09",
+        "day_of_week": "Friday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for January 09",
+            "psalm": "Responsorial Psalm for January 09",
+            "gospel": "Gospel for January 09"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-01-10",
+        "day_of_week": "Saturday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for January 10",
+            "psalm": "Responsorial Psalm for January 10",
+            "gospel": "Gospel for January 10"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-01-11",
+        "day_of_week": "Sunday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for January 11",
+            "psalm": "Responsorial Psalm for January 11",
+            "gospel": "Gospel for January 11",
+            "second_reading": "Sunday Epistle for January 11"
+        },
+        "liturgical_day": "Sunday Mass"
+    },
+    {
+        "date": "2026-01-12",
+        "day_of_week": "Monday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for January 12",
+            "psalm": "Responsorial Psalm for January 12",
+            "gospel": "Gospel for January 12"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-01-13",
+        "day_of_week": "Tuesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for January 13",
+            "psalm": "Responsorial Psalm for January 13",
+            "gospel": "Gospel for January 13"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-01-14",
+        "day_of_week": "Wednesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for January 14",
+            "psalm": "Responsorial Psalm for January 14",
+            "gospel": "Gospel for January 14"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-01-15",
+        "day_of_week": "Thursday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for January 15",
+            "psalm": "Responsorial Psalm for January 15",
+            "gospel": "Gospel for January 15"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-01-16",
+        "day_of_week": "Friday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for January 16",
+            "psalm": "Responsorial Psalm for January 16",
+            "gospel": "Gospel for January 16"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-01-17",
+        "day_of_week": "Saturday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for January 17",
+            "psalm": "Responsorial Psalm for January 17",
+            "gospel": "Gospel for January 17"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-01-18",
+        "day_of_week": "Sunday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for January 18",
+            "psalm": "Responsorial Psalm for January 18",
+            "gospel": "Gospel for January 18",
+            "second_reading": "Sunday Epistle for January 18"
+        },
+        "liturgical_day": "Sunday Mass"
+    },
+    {
+        "date": "2026-01-19",
+        "day_of_week": "Monday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for January 19",
+            "psalm": "Responsorial Psalm for January 19",
+            "gospel": "Gospel for January 19"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-01-20",
+        "day_of_week": "Tuesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for January 20",
+            "psalm": "Responsorial Psalm for January 20",
+            "gospel": "Gospel for January 20"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-01-21",
+        "day_of_week": "Wednesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for January 21",
+            "psalm": "Responsorial Psalm for January 21",
+            "gospel": "Gospel for January 21"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-01-22",
+        "day_of_week": "Thursday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for January 22",
+            "psalm": "Responsorial Psalm for January 22",
+            "gospel": "Gospel for January 22"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-01-23",
+        "day_of_week": "Friday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for January 23",
+            "psalm": "Responsorial Psalm for January 23",
+            "gospel": "Gospel for January 23"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-01-24",
+        "day_of_week": "Saturday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for January 24",
+            "psalm": "Responsorial Psalm for January 24",
+            "gospel": "Gospel for January 24"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-01-25",
+        "day_of_week": "Sunday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for January 25",
+            "psalm": "Responsorial Psalm for January 25",
+            "gospel": "Gospel for January 25",
+            "second_reading": "Sunday Epistle for January 25"
+        },
+        "liturgical_day": "Sunday Mass"
+    },
+    {
+        "date": "2026-01-26",
+        "day_of_week": "Monday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for January 26",
+            "psalm": "Responsorial Psalm for January 26",
+            "gospel": "Gospel for January 26"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-01-27",
+        "day_of_week": "Tuesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for January 27",
+            "psalm": "Responsorial Psalm for January 27",
+            "gospel": "Gospel for January 27"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-01-28",
+        "day_of_week": "Wednesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for January 28",
+            "psalm": "Responsorial Psalm for January 28",
+            "gospel": "Gospel for January 28"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-01-29",
+        "day_of_week": "Thursday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for January 29",
+            "psalm": "Responsorial Psalm for January 29",
+            "gospel": "Gospel for January 29"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-01-30",
+        "day_of_week": "Friday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for January 30",
+            "psalm": "Responsorial Psalm for January 30",
+            "gospel": "Gospel for January 30"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-01-31",
+        "day_of_week": "Saturday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for January 31",
+            "psalm": "Responsorial Psalm for January 31",
+            "gospel": "Gospel for January 31"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-02-01",
+        "day_of_week": "Sunday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for February 01",
+            "psalm": "Responsorial Psalm for February 01",
+            "gospel": "Gospel for February 01",
+            "second_reading": "Sunday Epistle for February 01"
+        },
+        "liturgical_day": "Sunday Mass"
+    },
+    {
+        "date": "2026-02-02",
+        "day_of_week": "Monday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for February 02",
+            "psalm": "Responsorial Psalm for February 02",
+            "gospel": "Gospel for February 02"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-02-03",
+        "day_of_week": "Tuesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for February 03",
+            "psalm": "Responsorial Psalm for February 03",
+            "gospel": "Gospel for February 03"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-02-04",
+        "day_of_week": "Wednesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for February 04",
+            "psalm": "Responsorial Psalm for February 04",
+            "gospel": "Gospel for February 04"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-02-05",
+        "day_of_week": "Thursday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for February 05",
+            "psalm": "Responsorial Psalm for February 05",
+            "gospel": "Gospel for February 05"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-02-06",
+        "day_of_week": "Friday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for February 06",
+            "psalm": "Responsorial Psalm for February 06",
+            "gospel": "Gospel for February 06"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-02-07",
+        "day_of_week": "Saturday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for February 07",
+            "psalm": "Responsorial Psalm for February 07",
+            "gospel": "Gospel for February 07"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-02-08",
+        "day_of_week": "Sunday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for February 08",
+            "psalm": "Responsorial Psalm for February 08",
+            "gospel": "Gospel for February 08",
+            "second_reading": "Sunday Epistle for February 08"
+        },
+        "liturgical_day": "Sunday Mass"
+    },
+    {
+        "date": "2026-02-09",
+        "day_of_week": "Monday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for February 09",
+            "psalm": "Responsorial Psalm for February 09",
+            "gospel": "Gospel for February 09"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-02-10",
+        "day_of_week": "Tuesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for February 10",
+            "psalm": "Responsorial Psalm for February 10",
+            "gospel": "Gospel for February 10"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-02-11",
+        "day_of_week": "Wednesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for February 11",
+            "psalm": "Responsorial Psalm for February 11",
+            "gospel": "Gospel for February 11"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-02-12",
+        "day_of_week": "Thursday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for February 12",
+            "psalm": "Responsorial Psalm for February 12",
+            "gospel": "Gospel for February 12"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-02-13",
+        "day_of_week": "Friday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for February 13",
+            "psalm": "Responsorial Psalm for February 13",
+            "gospel": "Gospel for February 13"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-02-14",
+        "day_of_week": "Saturday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for February 14",
+            "psalm": "Responsorial Psalm for February 14",
+            "gospel": "Gospel for February 14"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-02-15",
+        "day_of_week": "Sunday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for February 15",
+            "psalm": "Responsorial Psalm for February 15",
+            "gospel": "Gospel for February 15",
+            "second_reading": "Sunday Epistle for February 15"
+        },
+        "liturgical_day": "Sunday Mass"
+    },
+    {
+        "date": "2026-02-16",
+        "day_of_week": "Monday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for February 16",
+            "psalm": "Responsorial Psalm for February 16",
+            "gospel": "Gospel for February 16"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-02-17",
+        "day_of_week": "Tuesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for February 17",
+            "psalm": "Responsorial Psalm for February 17",
+            "gospel": "Gospel for February 17"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-02-18",
+        "day_of_week": "Wednesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for February 18",
+            "psalm": "Responsorial Psalm for February 18",
+            "gospel": "Gospel for February 18"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-02-19",
+        "day_of_week": "Thursday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for February 19",
+            "psalm": "Responsorial Psalm for February 19",
+            "gospel": "Gospel for February 19"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-02-20",
+        "day_of_week": "Friday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for February 20",
+            "psalm": "Responsorial Psalm for February 20",
+            "gospel": "Gospel for February 20"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-02-21",
+        "day_of_week": "Saturday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for February 21",
+            "psalm": "Responsorial Psalm for February 21",
+            "gospel": "Gospel for February 21"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-02-22",
+        "day_of_week": "Sunday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for February 22",
+            "psalm": "Responsorial Psalm for February 22",
+            "gospel": "Gospel for February 22",
+            "second_reading": "Sunday Epistle for February 22"
+        },
+        "liturgical_day": "Sunday Mass"
+    },
+    {
+        "date": "2026-02-23",
+        "day_of_week": "Monday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for February 23",
+            "psalm": "Responsorial Psalm for February 23",
+            "gospel": "Gospel for February 23"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-02-24",
+        "day_of_week": "Tuesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for February 24",
+            "psalm": "Responsorial Psalm for February 24",
+            "gospel": "Gospel for February 24"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-02-25",
+        "day_of_week": "Wednesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for February 25",
+            "psalm": "Responsorial Psalm for February 25",
+            "gospel": "Gospel for February 25"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-02-26",
+        "day_of_week": "Thursday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for February 26",
+            "psalm": "Responsorial Psalm for February 26",
+            "gospel": "Gospel for February 26"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-02-27",
+        "day_of_week": "Friday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for February 27",
+            "psalm": "Responsorial Psalm for February 27",
+            "gospel": "Gospel for February 27"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-02-28",
+        "day_of_week": "Saturday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for February 28",
+            "psalm": "Responsorial Psalm for February 28",
+            "gospel": "Gospel for February 28"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-03-01",
+        "day_of_week": "Sunday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for March 01",
+            "psalm": "Responsorial Psalm for March 01",
+            "gospel": "Gospel for March 01",
+            "second_reading": "Sunday Epistle for March 01"
+        },
+        "liturgical_day": "Sunday Mass"
+    },
+    {
+        "date": "2026-03-02",
+        "day_of_week": "Monday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for March 02",
+            "psalm": "Responsorial Psalm for March 02",
+            "gospel": "Gospel for March 02"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-03-03",
+        "day_of_week": "Tuesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for March 03",
+            "psalm": "Responsorial Psalm for March 03",
+            "gospel": "Gospel for March 03"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-03-04",
+        "day_of_week": "Wednesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for March 04",
+            "psalm": "Responsorial Psalm for March 04",
+            "gospel": "Gospel for March 04"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-03-05",
+        "day_of_week": "Thursday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for March 05",
+            "psalm": "Responsorial Psalm for March 05",
+            "gospel": "Gospel for March 05"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-03-06",
+        "day_of_week": "Friday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for March 06",
+            "psalm": "Responsorial Psalm for March 06",
+            "gospel": "Gospel for March 06"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-03-07",
+        "day_of_week": "Saturday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for March 07",
+            "psalm": "Responsorial Psalm for March 07",
+            "gospel": "Gospel for March 07"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-03-08",
+        "day_of_week": "Sunday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for March 08",
+            "psalm": "Responsorial Psalm for March 08",
+            "gospel": "Gospel for March 08",
+            "second_reading": "Sunday Epistle for March 08"
+        },
+        "liturgical_day": "Sunday Mass"
+    },
+    {
+        "date": "2026-03-09",
+        "day_of_week": "Monday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for March 09",
+            "psalm": "Responsorial Psalm for March 09",
+            "gospel": "Gospel for March 09"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-03-10",
+        "day_of_week": "Tuesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for March 10",
+            "psalm": "Responsorial Psalm for March 10",
+            "gospel": "Gospel for March 10"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-03-11",
+        "day_of_week": "Wednesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for March 11",
+            "psalm": "Responsorial Psalm for March 11",
+            "gospel": "Gospel for March 11"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-03-12",
+        "day_of_week": "Thursday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for March 12",
+            "psalm": "Responsorial Psalm for March 12",
+            "gospel": "Gospel for March 12"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-03-13",
+        "day_of_week": "Friday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for March 13",
+            "psalm": "Responsorial Psalm for March 13",
+            "gospel": "Gospel for March 13"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-03-14",
+        "day_of_week": "Saturday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for March 14",
+            "psalm": "Responsorial Psalm for March 14",
+            "gospel": "Gospel for March 14"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-03-15",
+        "day_of_week": "Sunday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for March 15",
+            "psalm": "Responsorial Psalm for March 15",
+            "gospel": "Gospel for March 15",
+            "second_reading": "Sunday Epistle for March 15"
+        },
+        "liturgical_day": "Sunday Mass"
+    },
+    {
+        "date": "2026-03-16",
+        "day_of_week": "Monday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for March 16",
+            "psalm": "Responsorial Psalm for March 16",
+            "gospel": "Gospel for March 16"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-03-17",
+        "day_of_week": "Tuesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for March 17",
+            "psalm": "Responsorial Psalm for March 17",
+            "gospel": "Gospel for March 17"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-03-18",
+        "day_of_week": "Wednesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for March 18",
+            "psalm": "Responsorial Psalm for March 18",
+            "gospel": "Gospel for March 18"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-03-19",
+        "day_of_week": "Thursday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for March 19",
+            "psalm": "Responsorial Psalm for March 19",
+            "gospel": "Gospel for March 19"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-03-20",
+        "day_of_week": "Friday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for March 20",
+            "psalm": "Responsorial Psalm for March 20",
+            "gospel": "Gospel for March 20"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-03-21",
+        "day_of_week": "Saturday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for March 21",
+            "psalm": "Responsorial Psalm for March 21",
+            "gospel": "Gospel for March 21"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-03-22",
+        "day_of_week": "Sunday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for March 22",
+            "psalm": "Responsorial Psalm for March 22",
+            "gospel": "Gospel for March 22",
+            "second_reading": "Sunday Epistle for March 22"
+        },
+        "liturgical_day": "Sunday Mass"
+    },
+    {
+        "date": "2026-03-23",
+        "day_of_week": "Monday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for March 23",
+            "psalm": "Responsorial Psalm for March 23",
+            "gospel": "Gospel for March 23"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-03-24",
+        "day_of_week": "Tuesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for March 24",
+            "psalm": "Responsorial Psalm for March 24",
+            "gospel": "Gospel for March 24"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-03-25",
+        "day_of_week": "Wednesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for March 25",
+            "psalm": "Responsorial Psalm for March 25",
+            "gospel": "Gospel for March 25"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-03-26",
+        "day_of_week": "Thursday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for March 26",
+            "psalm": "Responsorial Psalm for March 26",
+            "gospel": "Gospel for March 26"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-03-27",
+        "day_of_week": "Friday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for March 27",
+            "psalm": "Responsorial Psalm for March 27",
+            "gospel": "Gospel for March 27"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-03-28",
+        "day_of_week": "Saturday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for March 28",
+            "psalm": "Responsorial Psalm for March 28",
+            "gospel": "Gospel for March 28"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-03-29",
+        "day_of_week": "Sunday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for March 29",
+            "psalm": "Responsorial Psalm for March 29",
+            "gospel": "Gospel for March 29",
+            "second_reading": "Sunday Epistle for March 29"
+        },
+        "liturgical_day": "Sunday Mass"
+    },
+    {
+        "date": "2026-03-30",
+        "day_of_week": "Monday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for March 30",
+            "psalm": "Responsorial Psalm for March 30",
+            "gospel": "Gospel for March 30"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-03-31",
+        "day_of_week": "Tuesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for March 31",
+            "psalm": "Responsorial Psalm for March 31",
+            "gospel": "Gospel for March 31"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-04-01",
+        "day_of_week": "Wednesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for April 01",
+            "psalm": "Responsorial Psalm for April 01",
+            "gospel": "Gospel for April 01"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-04-02",
+        "day_of_week": "Thursday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for April 02",
+            "psalm": "Responsorial Psalm for April 02",
+            "gospel": "Gospel for April 02"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-04-03",
+        "day_of_week": "Friday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for April 03",
+            "psalm": "Responsorial Psalm for April 03",
+            "gospel": "Gospel for April 03"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-04-04",
+        "day_of_week": "Saturday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for April 04",
+            "psalm": "Responsorial Psalm for April 04",
+            "gospel": "Gospel for April 04"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-04-05",
+        "day_of_week": "Sunday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for April 05",
+            "psalm": "Responsorial Psalm for April 05",
+            "gospel": "Gospel for April 05",
+            "second_reading": "Sunday Epistle for April 05"
+        },
+        "liturgical_day": "Sunday Mass"
+    },
+    {
+        "date": "2026-04-06",
+        "day_of_week": "Monday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for April 06",
+            "psalm": "Responsorial Psalm for April 06",
+            "gospel": "Gospel for April 06"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-04-07",
+        "day_of_week": "Tuesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for April 07",
+            "psalm": "Responsorial Psalm for April 07",
+            "gospel": "Gospel for April 07"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-04-08",
+        "day_of_week": "Wednesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for April 08",
+            "psalm": "Responsorial Psalm for April 08",
+            "gospel": "Gospel for April 08"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-04-09",
+        "day_of_week": "Thursday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for April 09",
+            "psalm": "Responsorial Psalm for April 09",
+            "gospel": "Gospel for April 09"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-04-10",
+        "day_of_week": "Friday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for April 10",
+            "psalm": "Responsorial Psalm for April 10",
+            "gospel": "Gospel for April 10"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-04-11",
+        "day_of_week": "Saturday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for April 11",
+            "psalm": "Responsorial Psalm for April 11",
+            "gospel": "Gospel for April 11"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-04-12",
+        "day_of_week": "Sunday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for April 12",
+            "psalm": "Responsorial Psalm for April 12",
+            "gospel": "Gospel for April 12",
+            "second_reading": "Sunday Epistle for April 12"
+        },
+        "liturgical_day": "Sunday Mass"
+    },
+    {
+        "date": "2026-04-13",
+        "day_of_week": "Monday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for April 13",
+            "psalm": "Responsorial Psalm for April 13",
+            "gospel": "Gospel for April 13"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-04-14",
+        "day_of_week": "Tuesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for April 14",
+            "psalm": "Responsorial Psalm for April 14",
+            "gospel": "Gospel for April 14"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-04-15",
+        "day_of_week": "Wednesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for April 15",
+            "psalm": "Responsorial Psalm for April 15",
+            "gospel": "Gospel for April 15"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-04-16",
+        "day_of_week": "Thursday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for April 16",
+            "psalm": "Responsorial Psalm for April 16",
+            "gospel": "Gospel for April 16"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-04-17",
+        "day_of_week": "Friday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for April 17",
+            "psalm": "Responsorial Psalm for April 17",
+            "gospel": "Gospel for April 17"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-04-18",
+        "day_of_week": "Saturday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for April 18",
+            "psalm": "Responsorial Psalm for April 18",
+            "gospel": "Gospel for April 18"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-04-19",
+        "day_of_week": "Sunday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for April 19",
+            "psalm": "Responsorial Psalm for April 19",
+            "gospel": "Gospel for April 19",
+            "second_reading": "Sunday Epistle for April 19"
+        },
+        "liturgical_day": "Sunday Mass"
+    },
+    {
+        "date": "2026-04-20",
+        "day_of_week": "Monday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for April 20",
+            "psalm": "Responsorial Psalm for April 20",
+            "gospel": "Gospel for April 20"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-04-21",
+        "day_of_week": "Tuesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for April 21",
+            "psalm": "Responsorial Psalm for April 21",
+            "gospel": "Gospel for April 21"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-04-22",
+        "day_of_week": "Wednesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for April 22",
+            "psalm": "Responsorial Psalm for April 22",
+            "gospel": "Gospel for April 22"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-04-23",
+        "day_of_week": "Thursday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for April 23",
+            "psalm": "Responsorial Psalm for April 23",
+            "gospel": "Gospel for April 23"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-04-24",
+        "day_of_week": "Friday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for April 24",
+            "psalm": "Responsorial Psalm for April 24",
+            "gospel": "Gospel for April 24"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-04-25",
+        "day_of_week": "Saturday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for April 25",
+            "psalm": "Responsorial Psalm for April 25",
+            "gospel": "Gospel for April 25"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-04-26",
+        "day_of_week": "Sunday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for April 26",
+            "psalm": "Responsorial Psalm for April 26",
+            "gospel": "Gospel for April 26",
+            "second_reading": "Sunday Epistle for April 26"
+        },
+        "liturgical_day": "Sunday Mass"
+    },
+    {
+        "date": "2026-04-27",
+        "day_of_week": "Monday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for April 27",
+            "psalm": "Responsorial Psalm for April 27",
+            "gospel": "Gospel for April 27"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-04-28",
+        "day_of_week": "Tuesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for April 28",
+            "psalm": "Responsorial Psalm for April 28",
+            "gospel": "Gospel for April 28"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-04-29",
+        "day_of_week": "Wednesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for April 29",
+            "psalm": "Responsorial Psalm for April 29",
+            "gospel": "Gospel for April 29"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-04-30",
+        "day_of_week": "Thursday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for April 30",
+            "psalm": "Responsorial Psalm for April 30",
+            "gospel": "Gospel for April 30"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-05-01",
+        "day_of_week": "Friday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for May 01",
+            "psalm": "Responsorial Psalm for May 01",
+            "gospel": "Gospel for May 01"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-05-02",
+        "day_of_week": "Saturday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for May 02",
+            "psalm": "Responsorial Psalm for May 02",
+            "gospel": "Gospel for May 02"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-05-03",
+        "day_of_week": "Sunday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for May 03",
+            "psalm": "Responsorial Psalm for May 03",
+            "gospel": "Gospel for May 03",
+            "second_reading": "Sunday Epistle for May 03"
+        },
+        "liturgical_day": "Sunday Mass"
+    },
+    {
+        "date": "2026-05-04",
+        "day_of_week": "Monday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for May 04",
+            "psalm": "Responsorial Psalm for May 04",
+            "gospel": "Gospel for May 04"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-05-05",
+        "day_of_week": "Tuesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for May 05",
+            "psalm": "Responsorial Psalm for May 05",
+            "gospel": "Gospel for May 05"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-05-06",
+        "day_of_week": "Wednesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for May 06",
+            "psalm": "Responsorial Psalm for May 06",
+            "gospel": "Gospel for May 06"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-05-07",
+        "day_of_week": "Thursday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for May 07",
+            "psalm": "Responsorial Psalm for May 07",
+            "gospel": "Gospel for May 07"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-05-08",
+        "day_of_week": "Friday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for May 08",
+            "psalm": "Responsorial Psalm for May 08",
+            "gospel": "Gospel for May 08"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-05-09",
+        "day_of_week": "Saturday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for May 09",
+            "psalm": "Responsorial Psalm for May 09",
+            "gospel": "Gospel for May 09"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-05-10",
+        "day_of_week": "Sunday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for May 10",
+            "psalm": "Responsorial Psalm for May 10",
+            "gospel": "Gospel for May 10",
+            "second_reading": "Sunday Epistle for May 10"
+        },
+        "liturgical_day": "Sunday Mass"
+    },
+    {
+        "date": "2026-05-11",
+        "day_of_week": "Monday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for May 11",
+            "psalm": "Responsorial Psalm for May 11",
+            "gospel": "Gospel for May 11"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-05-12",
+        "day_of_week": "Tuesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for May 12",
+            "psalm": "Responsorial Psalm for May 12",
+            "gospel": "Gospel for May 12"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-05-13",
+        "day_of_week": "Wednesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for May 13",
+            "psalm": "Responsorial Psalm for May 13",
+            "gospel": "Gospel for May 13"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-05-14",
+        "day_of_week": "Thursday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for May 14",
+            "psalm": "Responsorial Psalm for May 14",
+            "gospel": "Gospel for May 14"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-05-15",
+        "day_of_week": "Friday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for May 15",
+            "psalm": "Responsorial Psalm for May 15",
+            "gospel": "Gospel for May 15"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-05-16",
+        "day_of_week": "Saturday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for May 16",
+            "psalm": "Responsorial Psalm for May 16",
+            "gospel": "Gospel for May 16"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-05-17",
+        "day_of_week": "Sunday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for May 17",
+            "psalm": "Responsorial Psalm for May 17",
+            "gospel": "Gospel for May 17",
+            "second_reading": "Sunday Epistle for May 17"
+        },
+        "liturgical_day": "Sunday Mass"
+    },
+    {
+        "date": "2026-05-18",
+        "day_of_week": "Monday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for May 18",
+            "psalm": "Responsorial Psalm for May 18",
+            "gospel": "Gospel for May 18"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-05-19",
+        "day_of_week": "Tuesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for May 19",
+            "psalm": "Responsorial Psalm for May 19",
+            "gospel": "Gospel for May 19"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-05-20",
+        "day_of_week": "Wednesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for May 20",
+            "psalm": "Responsorial Psalm for May 20",
+            "gospel": "Gospel for May 20"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-05-21",
+        "day_of_week": "Thursday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for May 21",
+            "psalm": "Responsorial Psalm for May 21",
+            "gospel": "Gospel for May 21"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-05-22",
+        "day_of_week": "Friday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for May 22",
+            "psalm": "Responsorial Psalm for May 22",
+            "gospel": "Gospel for May 22"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-05-23",
+        "day_of_week": "Saturday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for May 23",
+            "psalm": "Responsorial Psalm for May 23",
+            "gospel": "Gospel for May 23"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-05-24",
+        "day_of_week": "Sunday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for May 24",
+            "psalm": "Responsorial Psalm for May 24",
+            "gospel": "Gospel for May 24",
+            "second_reading": "Sunday Epistle for May 24"
+        },
+        "liturgical_day": "Sunday Mass"
+    },
+    {
+        "date": "2026-05-25",
+        "day_of_week": "Monday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for May 25",
+            "psalm": "Responsorial Psalm for May 25",
+            "gospel": "Gospel for May 25"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-05-26",
+        "day_of_week": "Tuesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for May 26",
+            "psalm": "Responsorial Psalm for May 26",
+            "gospel": "Gospel for May 26"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-05-27",
+        "day_of_week": "Wednesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for May 27",
+            "psalm": "Responsorial Psalm for May 27",
+            "gospel": "Gospel for May 27"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-05-28",
+        "day_of_week": "Thursday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for May 28",
+            "psalm": "Responsorial Psalm for May 28",
+            "gospel": "Gospel for May 28"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-05-29",
+        "day_of_week": "Friday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for May 29",
+            "psalm": "Responsorial Psalm for May 29",
+            "gospel": "Gospel for May 29"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-05-30",
+        "day_of_week": "Saturday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for May 30",
+            "psalm": "Responsorial Psalm for May 30",
+            "gospel": "Gospel for May 30"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-05-31",
+        "day_of_week": "Sunday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for May 31",
+            "psalm": "Responsorial Psalm for May 31",
+            "gospel": "Gospel for May 31",
+            "second_reading": "Sunday Epistle for May 31"
+        },
+        "liturgical_day": "Sunday Mass"
+    },
+    {
+        "date": "2026-06-01",
+        "day_of_week": "Monday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for June 01",
+            "psalm": "Responsorial Psalm for June 01",
+            "gospel": "Gospel for June 01"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-06-02",
+        "day_of_week": "Tuesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for June 02",
+            "psalm": "Responsorial Psalm for June 02",
+            "gospel": "Gospel for June 02"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-06-03",
+        "day_of_week": "Wednesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for June 03",
+            "psalm": "Responsorial Psalm for June 03",
+            "gospel": "Gospel for June 03"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-06-04",
+        "day_of_week": "Thursday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for June 04",
+            "psalm": "Responsorial Psalm for June 04",
+            "gospel": "Gospel for June 04"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-06-05",
+        "day_of_week": "Friday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for June 05",
+            "psalm": "Responsorial Psalm for June 05",
+            "gospel": "Gospel for June 05"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-06-06",
+        "day_of_week": "Saturday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for June 06",
+            "psalm": "Responsorial Psalm for June 06",
+            "gospel": "Gospel for June 06"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-06-07",
+        "day_of_week": "Sunday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for June 07",
+            "psalm": "Responsorial Psalm for June 07",
+            "gospel": "Gospel for June 07",
+            "second_reading": "Sunday Epistle for June 07"
+        },
+        "liturgical_day": "Sunday Mass"
+    },
+    {
+        "date": "2026-06-08",
+        "day_of_week": "Monday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for June 08",
+            "psalm": "Responsorial Psalm for June 08",
+            "gospel": "Gospel for June 08"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-06-09",
+        "day_of_week": "Tuesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for June 09",
+            "psalm": "Responsorial Psalm for June 09",
+            "gospel": "Gospel for June 09"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-06-10",
+        "day_of_week": "Wednesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for June 10",
+            "psalm": "Responsorial Psalm for June 10",
+            "gospel": "Gospel for June 10"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-06-11",
+        "day_of_week": "Thursday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for June 11",
+            "psalm": "Responsorial Psalm for June 11",
+            "gospel": "Gospel for June 11"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-06-12",
+        "day_of_week": "Friday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for June 12",
+            "psalm": "Responsorial Psalm for June 12",
+            "gospel": "Gospel for June 12"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-06-13",
+        "day_of_week": "Saturday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for June 13",
+            "psalm": "Responsorial Psalm for June 13",
+            "gospel": "Gospel for June 13"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-06-14",
+        "day_of_week": "Sunday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for June 14",
+            "psalm": "Responsorial Psalm for June 14",
+            "gospel": "Gospel for June 14",
+            "second_reading": "Sunday Epistle for June 14"
+        },
+        "liturgical_day": "Sunday Mass"
+    },
+    {
+        "date": "2026-06-15",
+        "day_of_week": "Monday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for June 15",
+            "psalm": "Responsorial Psalm for June 15",
+            "gospel": "Gospel for June 15"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-06-16",
+        "day_of_week": "Tuesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for June 16",
+            "psalm": "Responsorial Psalm for June 16",
+            "gospel": "Gospel for June 16"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-06-17",
+        "day_of_week": "Wednesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for June 17",
+            "psalm": "Responsorial Psalm for June 17",
+            "gospel": "Gospel for June 17"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-06-18",
+        "day_of_week": "Thursday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for June 18",
+            "psalm": "Responsorial Psalm for June 18",
+            "gospel": "Gospel for June 18"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-06-19",
+        "day_of_week": "Friday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for June 19",
+            "psalm": "Responsorial Psalm for June 19",
+            "gospel": "Gospel for June 19"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-06-20",
+        "day_of_week": "Saturday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for June 20",
+            "psalm": "Responsorial Psalm for June 20",
+            "gospel": "Gospel for June 20"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-06-21",
+        "day_of_week": "Sunday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for June 21",
+            "psalm": "Responsorial Psalm for June 21",
+            "gospel": "Gospel for June 21",
+            "second_reading": "Sunday Epistle for June 21"
+        },
+        "liturgical_day": "Sunday Mass"
+    },
+    {
+        "date": "2026-06-22",
+        "day_of_week": "Monday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for June 22",
+            "psalm": "Responsorial Psalm for June 22",
+            "gospel": "Gospel for June 22"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-06-23",
+        "day_of_week": "Tuesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for June 23",
+            "psalm": "Responsorial Psalm for June 23",
+            "gospel": "Gospel for June 23"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-06-24",
+        "day_of_week": "Wednesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for June 24",
+            "psalm": "Responsorial Psalm for June 24",
+            "gospel": "Gospel for June 24"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-06-25",
+        "day_of_week": "Thursday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for June 25",
+            "psalm": "Responsorial Psalm for June 25",
+            "gospel": "Gospel for June 25"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-06-26",
+        "day_of_week": "Friday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for June 26",
+            "psalm": "Responsorial Psalm for June 26",
+            "gospel": "Gospel for June 26"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-06-27",
+        "day_of_week": "Saturday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for June 27",
+            "psalm": "Responsorial Psalm for June 27",
+            "gospel": "Gospel for June 27"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-06-28",
+        "day_of_week": "Sunday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for June 28",
+            "psalm": "Responsorial Psalm for June 28",
+            "gospel": "Gospel for June 28",
+            "second_reading": "Sunday Epistle for June 28"
+        },
+        "liturgical_day": "Sunday Mass"
+    },
+    {
+        "date": "2026-06-29",
+        "day_of_week": "Monday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for June 29",
+            "psalm": "Responsorial Psalm for June 29",
+            "gospel": "Gospel for June 29"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-06-30",
+        "day_of_week": "Tuesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for June 30",
+            "psalm": "Responsorial Psalm for June 30",
+            "gospel": "Gospel for June 30"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-07-01",
+        "day_of_week": "Wednesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for July 01",
+            "psalm": "Responsorial Psalm for July 01",
+            "gospel": "Gospel for July 01"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-07-02",
+        "day_of_week": "Thursday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for July 02",
+            "psalm": "Responsorial Psalm for July 02",
+            "gospel": "Gospel for July 02"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-07-03",
+        "day_of_week": "Friday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for July 03",
+            "psalm": "Responsorial Psalm for July 03",
+            "gospel": "Gospel for July 03"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-07-04",
+        "day_of_week": "Saturday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for July 04",
+            "psalm": "Responsorial Psalm for July 04",
+            "gospel": "Gospel for July 04"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-07-05",
+        "day_of_week": "Sunday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for July 05",
+            "psalm": "Responsorial Psalm for July 05",
+            "gospel": "Gospel for July 05",
+            "second_reading": "Sunday Epistle for July 05"
+        },
+        "liturgical_day": "Sunday Mass"
+    },
+    {
+        "date": "2026-07-06",
+        "day_of_week": "Monday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for July 06",
+            "psalm": "Responsorial Psalm for July 06",
+            "gospel": "Gospel for July 06"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-07-07",
+        "day_of_week": "Tuesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for July 07",
+            "psalm": "Responsorial Psalm for July 07",
+            "gospel": "Gospel for July 07"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-07-08",
+        "day_of_week": "Wednesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for July 08",
+            "psalm": "Responsorial Psalm for July 08",
+            "gospel": "Gospel for July 08"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-07-09",
+        "day_of_week": "Thursday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for July 09",
+            "psalm": "Responsorial Psalm for July 09",
+            "gospel": "Gospel for July 09"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-07-10",
+        "day_of_week": "Friday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for July 10",
+            "psalm": "Responsorial Psalm for July 10",
+            "gospel": "Gospel for July 10"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-07-11",
+        "day_of_week": "Saturday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for July 11",
+            "psalm": "Responsorial Psalm for July 11",
+            "gospel": "Gospel for July 11"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-07-12",
+        "day_of_week": "Sunday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for July 12",
+            "psalm": "Responsorial Psalm for July 12",
+            "gospel": "Gospel for July 12",
+            "second_reading": "Sunday Epistle for July 12"
+        },
+        "liturgical_day": "Sunday Mass"
+    },
+    {
+        "date": "2026-07-13",
+        "day_of_week": "Monday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for July 13",
+            "psalm": "Responsorial Psalm for July 13",
+            "gospel": "Gospel for July 13"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-07-14",
+        "day_of_week": "Tuesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for July 14",
+            "psalm": "Responsorial Psalm for July 14",
+            "gospel": "Gospel for July 14"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-07-15",
+        "day_of_week": "Wednesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for July 15",
+            "psalm": "Responsorial Psalm for July 15",
+            "gospel": "Gospel for July 15"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-07-16",
+        "day_of_week": "Thursday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for July 16",
+            "psalm": "Responsorial Psalm for July 16",
+            "gospel": "Gospel for July 16"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-07-17",
+        "day_of_week": "Friday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for July 17",
+            "psalm": "Responsorial Psalm for July 17",
+            "gospel": "Gospel for July 17"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-07-18",
+        "day_of_week": "Saturday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for July 18",
+            "psalm": "Responsorial Psalm for July 18",
+            "gospel": "Gospel for July 18"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-07-19",
+        "day_of_week": "Sunday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for July 19",
+            "psalm": "Responsorial Psalm for July 19",
+            "gospel": "Gospel for July 19",
+            "second_reading": "Sunday Epistle for July 19"
+        },
+        "liturgical_day": "Sunday Mass"
+    },
+    {
+        "date": "2026-07-20",
+        "day_of_week": "Monday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for July 20",
+            "psalm": "Responsorial Psalm for July 20",
+            "gospel": "Gospel for July 20"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-07-21",
+        "day_of_week": "Tuesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for July 21",
+            "psalm": "Responsorial Psalm for July 21",
+            "gospel": "Gospel for July 21"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-07-22",
+        "day_of_week": "Wednesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for July 22",
+            "psalm": "Responsorial Psalm for July 22",
+            "gospel": "Gospel for July 22"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-07-23",
+        "day_of_week": "Thursday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for July 23",
+            "psalm": "Responsorial Psalm for July 23",
+            "gospel": "Gospel for July 23"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-07-24",
+        "day_of_week": "Friday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for July 24",
+            "psalm": "Responsorial Psalm for July 24",
+            "gospel": "Gospel for July 24"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-07-25",
+        "day_of_week": "Saturday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for July 25",
+            "psalm": "Responsorial Psalm for July 25",
+            "gospel": "Gospel for July 25"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-07-26",
+        "day_of_week": "Sunday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for July 26",
+            "psalm": "Responsorial Psalm for July 26",
+            "gospel": "Gospel for July 26",
+            "second_reading": "Sunday Epistle for July 26"
+        },
+        "liturgical_day": "Sunday Mass"
+    },
+    {
+        "date": "2026-07-27",
+        "day_of_week": "Monday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for July 27",
+            "psalm": "Responsorial Psalm for July 27",
+            "gospel": "Gospel for July 27"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-07-28",
+        "day_of_week": "Tuesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for July 28",
+            "psalm": "Responsorial Psalm for July 28",
+            "gospel": "Gospel for July 28"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-07-29",
+        "day_of_week": "Wednesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for July 29",
+            "psalm": "Responsorial Psalm for July 29",
+            "gospel": "Gospel for July 29"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-07-30",
+        "day_of_week": "Thursday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for July 30",
+            "psalm": "Responsorial Psalm for July 30",
+            "gospel": "Gospel for July 30"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-07-31",
+        "day_of_week": "Friday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for July 31",
+            "psalm": "Responsorial Psalm for July 31",
+            "gospel": "Gospel for July 31"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-08-01",
+        "day_of_week": "Saturday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for August 01",
+            "psalm": "Responsorial Psalm for August 01",
+            "gospel": "Gospel for August 01"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-08-02",
+        "day_of_week": "Sunday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for August 02",
+            "psalm": "Responsorial Psalm for August 02",
+            "gospel": "Gospel for August 02",
+            "second_reading": "Sunday Epistle for August 02"
+        },
+        "liturgical_day": "Sunday Mass"
+    },
+    {
+        "date": "2026-08-03",
+        "day_of_week": "Monday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for August 03",
+            "psalm": "Responsorial Psalm for August 03",
+            "gospel": "Gospel for August 03"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-08-04",
+        "day_of_week": "Tuesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for August 04",
+            "psalm": "Responsorial Psalm for August 04",
+            "gospel": "Gospel for August 04"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-08-05",
+        "day_of_week": "Wednesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for August 05",
+            "psalm": "Responsorial Psalm for August 05",
+            "gospel": "Gospel for August 05"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-08-06",
+        "day_of_week": "Thursday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for August 06",
+            "psalm": "Responsorial Psalm for August 06",
+            "gospel": "Gospel for August 06"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-08-07",
+        "day_of_week": "Friday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for August 07",
+            "psalm": "Responsorial Psalm for August 07",
+            "gospel": "Gospel for August 07"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-08-08",
+        "day_of_week": "Saturday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for August 08",
+            "psalm": "Responsorial Psalm for August 08",
+            "gospel": "Gospel for August 08"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-08-09",
+        "day_of_week": "Sunday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for August 09",
+            "psalm": "Responsorial Psalm for August 09",
+            "gospel": "Gospel for August 09",
+            "second_reading": "Sunday Epistle for August 09"
+        },
+        "liturgical_day": "Sunday Mass"
+    },
+    {
+        "date": "2026-08-10",
+        "day_of_week": "Monday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for August 10",
+            "psalm": "Responsorial Psalm for August 10",
+            "gospel": "Gospel for August 10"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-08-11",
+        "day_of_week": "Tuesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for August 11",
+            "psalm": "Responsorial Psalm for August 11",
+            "gospel": "Gospel for August 11"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-08-12",
+        "day_of_week": "Wednesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for August 12",
+            "psalm": "Responsorial Psalm for August 12",
+            "gospel": "Gospel for August 12"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-08-13",
+        "day_of_week": "Thursday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for August 13",
+            "psalm": "Responsorial Psalm for August 13",
+            "gospel": "Gospel for August 13"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-08-14",
+        "day_of_week": "Friday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for August 14",
+            "psalm": "Responsorial Psalm for August 14",
+            "gospel": "Gospel for August 14"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-08-15",
+        "day_of_week": "Saturday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for August 15",
+            "psalm": "Responsorial Psalm for August 15",
+            "gospel": "Gospel for August 15"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-08-16",
+        "day_of_week": "Sunday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for August 16",
+            "psalm": "Responsorial Psalm for August 16",
+            "gospel": "Gospel for August 16",
+            "second_reading": "Sunday Epistle for August 16"
+        },
+        "liturgical_day": "Sunday Mass"
+    },
+    {
+        "date": "2026-08-17",
+        "day_of_week": "Monday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for August 17",
+            "psalm": "Responsorial Psalm for August 17",
+            "gospel": "Gospel for August 17"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-08-18",
+        "day_of_week": "Tuesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for August 18",
+            "psalm": "Responsorial Psalm for August 18",
+            "gospel": "Gospel for August 18"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-08-19",
+        "day_of_week": "Wednesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for August 19",
+            "psalm": "Responsorial Psalm for August 19",
+            "gospel": "Gospel for August 19"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-08-20",
+        "day_of_week": "Thursday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for August 20",
+            "psalm": "Responsorial Psalm for August 20",
+            "gospel": "Gospel for August 20"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-08-21",
+        "day_of_week": "Friday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for August 21",
+            "psalm": "Responsorial Psalm for August 21",
+            "gospel": "Gospel for August 21"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-08-22",
+        "day_of_week": "Saturday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for August 22",
+            "psalm": "Responsorial Psalm for August 22",
+            "gospel": "Gospel for August 22"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-08-23",
+        "day_of_week": "Sunday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for August 23",
+            "psalm": "Responsorial Psalm for August 23",
+            "gospel": "Gospel for August 23",
+            "second_reading": "Sunday Epistle for August 23"
+        },
+        "liturgical_day": "Sunday Mass"
+    },
+    {
+        "date": "2026-08-24",
+        "day_of_week": "Monday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for August 24",
+            "psalm": "Responsorial Psalm for August 24",
+            "gospel": "Gospel for August 24"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-08-25",
+        "day_of_week": "Tuesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for August 25",
+            "psalm": "Responsorial Psalm for August 25",
+            "gospel": "Gospel for August 25"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-08-26",
+        "day_of_week": "Wednesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for August 26",
+            "psalm": "Responsorial Psalm for August 26",
+            "gospel": "Gospel for August 26"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-08-27",
+        "day_of_week": "Thursday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for August 27",
+            "psalm": "Responsorial Psalm for August 27",
+            "gospel": "Gospel for August 27"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-08-28",
+        "day_of_week": "Friday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for August 28",
+            "psalm": "Responsorial Psalm for August 28",
+            "gospel": "Gospel for August 28"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-08-29",
+        "day_of_week": "Saturday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for August 29",
+            "psalm": "Responsorial Psalm for August 29",
+            "gospel": "Gospel for August 29"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-08-30",
+        "day_of_week": "Sunday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for August 30",
+            "psalm": "Responsorial Psalm for August 30",
+            "gospel": "Gospel for August 30",
+            "second_reading": "Sunday Epistle for August 30"
+        },
+        "liturgical_day": "Sunday Mass"
+    },
+    {
+        "date": "2026-08-31",
+        "day_of_week": "Monday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for August 31",
+            "psalm": "Responsorial Psalm for August 31",
+            "gospel": "Gospel for August 31"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-09-01",
+        "day_of_week": "Tuesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for September 01",
+            "psalm": "Responsorial Psalm for September 01",
+            "gospel": "Gospel for September 01"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-09-02",
+        "day_of_week": "Wednesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for September 02",
+            "psalm": "Responsorial Psalm for September 02",
+            "gospel": "Gospel for September 02"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-09-03",
+        "day_of_week": "Thursday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for September 03",
+            "psalm": "Responsorial Psalm for September 03",
+            "gospel": "Gospel for September 03"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-09-04",
+        "day_of_week": "Friday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for September 04",
+            "psalm": "Responsorial Psalm for September 04",
+            "gospel": "Gospel for September 04"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-09-05",
+        "day_of_week": "Saturday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for September 05",
+            "psalm": "Responsorial Psalm for September 05",
+            "gospel": "Gospel for September 05"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-09-06",
+        "day_of_week": "Sunday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for September 06",
+            "psalm": "Responsorial Psalm for September 06",
+            "gospel": "Gospel for September 06",
+            "second_reading": "Sunday Epistle for September 06"
+        },
+        "liturgical_day": "Sunday Mass"
+    },
+    {
+        "date": "2026-09-07",
+        "day_of_week": "Monday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for September 07",
+            "psalm": "Responsorial Psalm for September 07",
+            "gospel": "Gospel for September 07"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-09-08",
+        "day_of_week": "Tuesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for September 08",
+            "psalm": "Responsorial Psalm for September 08",
+            "gospel": "Gospel for September 08"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-09-09",
+        "day_of_week": "Wednesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for September 09",
+            "psalm": "Responsorial Psalm for September 09",
+            "gospel": "Gospel for September 09"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-09-10",
+        "day_of_week": "Thursday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for September 10",
+            "psalm": "Responsorial Psalm for September 10",
+            "gospel": "Gospel for September 10"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-09-11",
+        "day_of_week": "Friday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for September 11",
+            "psalm": "Responsorial Psalm for September 11",
+            "gospel": "Gospel for September 11"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-09-12",
+        "day_of_week": "Saturday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for September 12",
+            "psalm": "Responsorial Psalm for September 12",
+            "gospel": "Gospel for September 12"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-09-13",
+        "day_of_week": "Sunday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for September 13",
+            "psalm": "Responsorial Psalm for September 13",
+            "gospel": "Gospel for September 13",
+            "second_reading": "Sunday Epistle for September 13"
+        },
+        "liturgical_day": "Sunday Mass"
+    },
+    {
+        "date": "2026-09-14",
+        "day_of_week": "Monday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for September 14",
+            "psalm": "Responsorial Psalm for September 14",
+            "gospel": "Gospel for September 14"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-09-15",
+        "day_of_week": "Tuesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for September 15",
+            "psalm": "Responsorial Psalm for September 15",
+            "gospel": "Gospel for September 15"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-09-16",
+        "day_of_week": "Wednesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for September 16",
+            "psalm": "Responsorial Psalm for September 16",
+            "gospel": "Gospel for September 16"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-09-17",
+        "day_of_week": "Thursday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for September 17",
+            "psalm": "Responsorial Psalm for September 17",
+            "gospel": "Gospel for September 17"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-09-18",
+        "day_of_week": "Friday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for September 18",
+            "psalm": "Responsorial Psalm for September 18",
+            "gospel": "Gospel for September 18"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-09-19",
+        "day_of_week": "Saturday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for September 19",
+            "psalm": "Responsorial Psalm for September 19",
+            "gospel": "Gospel for September 19"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-09-20",
+        "day_of_week": "Sunday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for September 20",
+            "psalm": "Responsorial Psalm for September 20",
+            "gospel": "Gospel for September 20",
+            "second_reading": "Sunday Epistle for September 20"
+        },
+        "liturgical_day": "Sunday Mass"
+    },
+    {
+        "date": "2026-09-21",
+        "day_of_week": "Monday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for September 21",
+            "psalm": "Responsorial Psalm for September 21",
+            "gospel": "Gospel for September 21"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-09-22",
+        "day_of_week": "Tuesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for September 22",
+            "psalm": "Responsorial Psalm for September 22",
+            "gospel": "Gospel for September 22"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-09-23",
+        "day_of_week": "Wednesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for September 23",
+            "psalm": "Responsorial Psalm for September 23",
+            "gospel": "Gospel for September 23"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-09-24",
+        "day_of_week": "Thursday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for September 24",
+            "psalm": "Responsorial Psalm for September 24",
+            "gospel": "Gospel for September 24"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-09-25",
+        "day_of_week": "Friday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for September 25",
+            "psalm": "Responsorial Psalm for September 25",
+            "gospel": "Gospel for September 25"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-09-26",
+        "day_of_week": "Saturday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for September 26",
+            "psalm": "Responsorial Psalm for September 26",
+            "gospel": "Gospel for September 26"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-09-27",
+        "day_of_week": "Sunday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for September 27",
+            "psalm": "Responsorial Psalm for September 27",
+            "gospel": "Gospel for September 27",
+            "second_reading": "Sunday Epistle for September 27"
+        },
+        "liturgical_day": "Sunday Mass"
+    },
+    {
+        "date": "2026-09-28",
+        "day_of_week": "Monday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for September 28",
+            "psalm": "Responsorial Psalm for September 28",
+            "gospel": "Gospel for September 28"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-09-29",
+        "day_of_week": "Tuesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for September 29",
+            "psalm": "Responsorial Psalm for September 29",
+            "gospel": "Gospel for September 29"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-09-30",
+        "day_of_week": "Wednesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for September 30",
+            "psalm": "Responsorial Psalm for September 30",
+            "gospel": "Gospel for September 30"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-10-01",
+        "day_of_week": "Thursday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for October 01",
+            "psalm": "Responsorial Psalm for October 01",
+            "gospel": "Gospel for October 01"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-10-02",
+        "day_of_week": "Friday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for October 02",
+            "psalm": "Responsorial Psalm for October 02",
+            "gospel": "Gospel for October 02"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-10-03",
+        "day_of_week": "Saturday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for October 03",
+            "psalm": "Responsorial Psalm for October 03",
+            "gospel": "Gospel for October 03"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-10-04",
+        "day_of_week": "Sunday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for October 04",
+            "psalm": "Responsorial Psalm for October 04",
+            "gospel": "Gospel for October 04",
+            "second_reading": "Sunday Epistle for October 04"
+        },
+        "liturgical_day": "Sunday Mass"
+    },
+    {
+        "date": "2026-10-05",
+        "day_of_week": "Monday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for October 05",
+            "psalm": "Responsorial Psalm for October 05",
+            "gospel": "Gospel for October 05"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-10-06",
+        "day_of_week": "Tuesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for October 06",
+            "psalm": "Responsorial Psalm for October 06",
+            "gospel": "Gospel for October 06"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-10-07",
+        "day_of_week": "Wednesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for October 07",
+            "psalm": "Responsorial Psalm for October 07",
+            "gospel": "Gospel for October 07"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-10-08",
+        "day_of_week": "Thursday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for October 08",
+            "psalm": "Responsorial Psalm for October 08",
+            "gospel": "Gospel for October 08"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-10-09",
+        "day_of_week": "Friday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for October 09",
+            "psalm": "Responsorial Psalm for October 09",
+            "gospel": "Gospel for October 09"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-10-10",
+        "day_of_week": "Saturday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for October 10",
+            "psalm": "Responsorial Psalm for October 10",
+            "gospel": "Gospel for October 10"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-10-11",
+        "day_of_week": "Sunday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for October 11",
+            "psalm": "Responsorial Psalm for October 11",
+            "gospel": "Gospel for October 11",
+            "second_reading": "Sunday Epistle for October 11"
+        },
+        "liturgical_day": "Sunday Mass"
+    },
+    {
+        "date": "2026-10-12",
+        "day_of_week": "Monday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for October 12",
+            "psalm": "Responsorial Psalm for October 12",
+            "gospel": "Gospel for October 12"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-10-13",
+        "day_of_week": "Tuesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for October 13",
+            "psalm": "Responsorial Psalm for October 13",
+            "gospel": "Gospel for October 13"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-10-14",
+        "day_of_week": "Wednesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for October 14",
+            "psalm": "Responsorial Psalm for October 14",
+            "gospel": "Gospel for October 14"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-10-15",
+        "day_of_week": "Thursday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for October 15",
+            "psalm": "Responsorial Psalm for October 15",
+            "gospel": "Gospel for October 15"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-10-16",
+        "day_of_week": "Friday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for October 16",
+            "psalm": "Responsorial Psalm for October 16",
+            "gospel": "Gospel for October 16"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-10-17",
+        "day_of_week": "Saturday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for October 17",
+            "psalm": "Responsorial Psalm for October 17",
+            "gospel": "Gospel for October 17"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-10-18",
+        "day_of_week": "Sunday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for October 18",
+            "psalm": "Responsorial Psalm for October 18",
+            "gospel": "Gospel for October 18",
+            "second_reading": "Sunday Epistle for October 18"
+        },
+        "liturgical_day": "Sunday Mass"
+    },
+    {
+        "date": "2026-10-19",
+        "day_of_week": "Monday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for October 19",
+            "psalm": "Responsorial Psalm for October 19",
+            "gospel": "Gospel for October 19"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-10-20",
+        "day_of_week": "Tuesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for October 20",
+            "psalm": "Responsorial Psalm for October 20",
+            "gospel": "Gospel for October 20"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-10-21",
+        "day_of_week": "Wednesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for October 21",
+            "psalm": "Responsorial Psalm for October 21",
+            "gospel": "Gospel for October 21"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-10-22",
+        "day_of_week": "Thursday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for October 22",
+            "psalm": "Responsorial Psalm for October 22",
+            "gospel": "Gospel for October 22"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-10-23",
+        "day_of_week": "Friday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for October 23",
+            "psalm": "Responsorial Psalm for October 23",
+            "gospel": "Gospel for October 23"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-10-24",
+        "day_of_week": "Saturday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for October 24",
+            "psalm": "Responsorial Psalm for October 24",
+            "gospel": "Gospel for October 24"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-10-25",
+        "day_of_week": "Sunday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for October 25",
+            "psalm": "Responsorial Psalm for October 25",
+            "gospel": "Gospel for October 25",
+            "second_reading": "Sunday Epistle for October 25"
+        },
+        "liturgical_day": "Sunday Mass"
+    },
+    {
+        "date": "2026-10-26",
+        "day_of_week": "Monday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for October 26",
+            "psalm": "Responsorial Psalm for October 26",
+            "gospel": "Gospel for October 26"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-10-27",
+        "day_of_week": "Tuesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for October 27",
+            "psalm": "Responsorial Psalm for October 27",
+            "gospel": "Gospel for October 27"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-10-28",
+        "day_of_week": "Wednesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for October 28",
+            "psalm": "Responsorial Psalm for October 28",
+            "gospel": "Gospel for October 28"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-10-29",
+        "day_of_week": "Thursday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for October 29",
+            "psalm": "Responsorial Psalm for October 29",
+            "gospel": "Gospel for October 29"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-10-30",
+        "day_of_week": "Friday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for October 30",
+            "psalm": "Responsorial Psalm for October 30",
+            "gospel": "Gospel for October 30"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-10-31",
+        "day_of_week": "Saturday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for October 31",
+            "psalm": "Responsorial Psalm for October 31",
+            "gospel": "Gospel for October 31"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-11-01",
+        "day_of_week": "Sunday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for November 01",
+            "psalm": "Responsorial Psalm for November 01",
+            "gospel": "Gospel for November 01",
+            "second_reading": "Sunday Epistle for November 01"
+        },
+        "liturgical_day": "Sunday Mass"
+    },
+    {
+        "date": "2026-11-02",
+        "day_of_week": "Monday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for November 02",
+            "psalm": "Responsorial Psalm for November 02",
+            "gospel": "Gospel for November 02"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-11-03",
+        "day_of_week": "Tuesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for November 03",
+            "psalm": "Responsorial Psalm for November 03",
+            "gospel": "Gospel for November 03"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-11-04",
+        "day_of_week": "Wednesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for November 04",
+            "psalm": "Responsorial Psalm for November 04",
+            "gospel": "Gospel for November 04"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-11-05",
+        "day_of_week": "Thursday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for November 05",
+            "psalm": "Responsorial Psalm for November 05",
+            "gospel": "Gospel for November 05"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-11-06",
+        "day_of_week": "Friday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for November 06",
+            "psalm": "Responsorial Psalm for November 06",
+            "gospel": "Gospel for November 06"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-11-07",
+        "day_of_week": "Saturday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for November 07",
+            "psalm": "Responsorial Psalm for November 07",
+            "gospel": "Gospel for November 07"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-11-08",
+        "day_of_week": "Sunday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for November 08",
+            "psalm": "Responsorial Psalm for November 08",
+            "gospel": "Gospel for November 08",
+            "second_reading": "Sunday Epistle for November 08"
+        },
+        "liturgical_day": "Sunday Mass"
+    },
+    {
+        "date": "2026-11-09",
+        "day_of_week": "Monday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for November 09",
+            "psalm": "Responsorial Psalm for November 09",
+            "gospel": "Gospel for November 09"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-11-10",
+        "day_of_week": "Tuesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for November 10",
+            "psalm": "Responsorial Psalm for November 10",
+            "gospel": "Gospel for November 10"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-11-11",
+        "day_of_week": "Wednesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for November 11",
+            "psalm": "Responsorial Psalm for November 11",
+            "gospel": "Gospel for November 11"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-11-12",
+        "day_of_week": "Thursday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for November 12",
+            "psalm": "Responsorial Psalm for November 12",
+            "gospel": "Gospel for November 12"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-11-13",
+        "day_of_week": "Friday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for November 13",
+            "psalm": "Responsorial Psalm for November 13",
+            "gospel": "Gospel for November 13"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-11-14",
+        "day_of_week": "Saturday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for November 14",
+            "psalm": "Responsorial Psalm for November 14",
+            "gospel": "Gospel for November 14"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-11-15",
+        "day_of_week": "Sunday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for November 15",
+            "psalm": "Responsorial Psalm for November 15",
+            "gospel": "Gospel for November 15",
+            "second_reading": "Sunday Epistle for November 15"
+        },
+        "liturgical_day": "Sunday Mass"
+    },
+    {
+        "date": "2026-11-16",
+        "day_of_week": "Monday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for November 16",
+            "psalm": "Responsorial Psalm for November 16",
+            "gospel": "Gospel for November 16"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-11-17",
+        "day_of_week": "Tuesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for November 17",
+            "psalm": "Responsorial Psalm for November 17",
+            "gospel": "Gospel for November 17"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-11-18",
+        "day_of_week": "Wednesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for November 18",
+            "psalm": "Responsorial Psalm for November 18",
+            "gospel": "Gospel for November 18"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-11-19",
+        "day_of_week": "Thursday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for November 19",
+            "psalm": "Responsorial Psalm for November 19",
+            "gospel": "Gospel for November 19"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-11-20",
+        "day_of_week": "Friday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for November 20",
+            "psalm": "Responsorial Psalm for November 20",
+            "gospel": "Gospel for November 20"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-11-21",
+        "day_of_week": "Saturday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for November 21",
+            "psalm": "Responsorial Psalm for November 21",
+            "gospel": "Gospel for November 21"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-11-22",
+        "day_of_week": "Sunday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for November 22",
+            "psalm": "Responsorial Psalm for November 22",
+            "gospel": "Gospel for November 22",
+            "second_reading": "Sunday Epistle for November 22"
+        },
+        "liturgical_day": "Sunday Mass"
+    },
+    {
+        "date": "2026-11-23",
+        "day_of_week": "Monday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for November 23",
+            "psalm": "Responsorial Psalm for November 23",
+            "gospel": "Gospel for November 23"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-11-24",
+        "day_of_week": "Tuesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for November 24",
+            "psalm": "Responsorial Psalm for November 24",
+            "gospel": "Gospel for November 24"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-11-25",
+        "day_of_week": "Wednesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for November 25",
+            "psalm": "Responsorial Psalm for November 25",
+            "gospel": "Gospel for November 25"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-11-26",
+        "day_of_week": "Thursday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for November 26",
+            "psalm": "Responsorial Psalm for November 26",
+            "gospel": "Gospel for November 26"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-11-27",
+        "day_of_week": "Friday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for November 27",
+            "psalm": "Responsorial Psalm for November 27",
+            "gospel": "Gospel for November 27"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-11-28",
+        "day_of_week": "Saturday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for November 28",
+            "psalm": "Responsorial Psalm for November 28",
+            "gospel": "Gospel for November 28"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-11-29",
+        "day_of_week": "Sunday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for November 29",
+            "psalm": "Responsorial Psalm for November 29",
+            "gospel": "Gospel for November 29",
+            "second_reading": "Sunday Epistle for November 29"
+        },
+        "liturgical_day": "Sunday Mass"
+    },
+    {
+        "date": "2026-11-30",
+        "day_of_week": "Monday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for November 30",
+            "psalm": "Responsorial Psalm for November 30",
+            "gospel": "Gospel for November 30"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-12-01",
+        "day_of_week": "Tuesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for December 01",
+            "psalm": "Responsorial Psalm for December 01",
+            "gospel": "Gospel for December 01"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-12-02",
+        "day_of_week": "Wednesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for December 02",
+            "psalm": "Responsorial Psalm for December 02",
+            "gospel": "Gospel for December 02"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-12-03",
+        "day_of_week": "Thursday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for December 03",
+            "psalm": "Responsorial Psalm for December 03",
+            "gospel": "Gospel for December 03"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-12-04",
+        "day_of_week": "Friday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for December 04",
+            "psalm": "Responsorial Psalm for December 04",
+            "gospel": "Gospel for December 04"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-12-05",
+        "day_of_week": "Saturday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for December 05",
+            "psalm": "Responsorial Psalm for December 05",
+            "gospel": "Gospel for December 05"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-12-06",
+        "day_of_week": "Sunday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for December 06",
+            "psalm": "Responsorial Psalm for December 06",
+            "gospel": "Gospel for December 06",
+            "second_reading": "Sunday Epistle for December 06"
+        },
+        "liturgical_day": "Sunday Mass"
+    },
+    {
+        "date": "2026-12-07",
+        "day_of_week": "Monday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for December 07",
+            "psalm": "Responsorial Psalm for December 07",
+            "gospel": "Gospel for December 07"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-12-08",
+        "day_of_week": "Tuesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for December 08",
+            "psalm": "Responsorial Psalm for December 08",
+            "gospel": "Gospel for December 08"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-12-09",
+        "day_of_week": "Wednesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for December 09",
+            "psalm": "Responsorial Psalm for December 09",
+            "gospel": "Gospel for December 09"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-12-10",
+        "day_of_week": "Thursday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for December 10",
+            "psalm": "Responsorial Psalm for December 10",
+            "gospel": "Gospel for December 10"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-12-11",
+        "day_of_week": "Friday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for December 11",
+            "psalm": "Responsorial Psalm for December 11",
+            "gospel": "Gospel for December 11"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-12-12",
+        "day_of_week": "Saturday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for December 12",
+            "psalm": "Responsorial Psalm for December 12",
+            "gospel": "Gospel for December 12"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-12-13",
+        "day_of_week": "Sunday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for December 13",
+            "psalm": "Responsorial Psalm for December 13",
+            "gospel": "Gospel for December 13",
+            "second_reading": "Sunday Epistle for December 13"
+        },
+        "liturgical_day": "Sunday Mass"
+    },
+    {
+        "date": "2026-12-14",
+        "day_of_week": "Monday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for December 14",
+            "psalm": "Responsorial Psalm for December 14",
+            "gospel": "Gospel for December 14"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-12-15",
+        "day_of_week": "Tuesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for December 15",
+            "psalm": "Responsorial Psalm for December 15",
+            "gospel": "Gospel for December 15"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-12-16",
+        "day_of_week": "Wednesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for December 16",
+            "psalm": "Responsorial Psalm for December 16",
+            "gospel": "Gospel for December 16"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-12-17",
+        "day_of_week": "Thursday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for December 17",
+            "psalm": "Responsorial Psalm for December 17",
+            "gospel": "Gospel for December 17"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-12-18",
+        "day_of_week": "Friday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for December 18",
+            "psalm": "Responsorial Psalm for December 18",
+            "gospel": "Gospel for December 18"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-12-19",
+        "day_of_week": "Saturday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for December 19",
+            "psalm": "Responsorial Psalm for December 19",
+            "gospel": "Gospel for December 19"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-12-20",
+        "day_of_week": "Sunday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for December 20",
+            "psalm": "Responsorial Psalm for December 20",
+            "gospel": "Gospel for December 20",
+            "second_reading": "Sunday Epistle for December 20"
+        },
+        "liturgical_day": "Sunday Mass"
+    },
+    {
+        "date": "2026-12-21",
+        "day_of_week": "Monday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for December 21",
+            "psalm": "Responsorial Psalm for December 21",
+            "gospel": "Gospel for December 21"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-12-22",
+        "day_of_week": "Tuesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for December 22",
+            "psalm": "Responsorial Psalm for December 22",
+            "gospel": "Gospel for December 22"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-12-23",
+        "day_of_week": "Wednesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for December 23",
+            "psalm": "Responsorial Psalm for December 23",
+            "gospel": "Gospel for December 23"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-12-24",
+        "day_of_week": "Thursday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for December 24",
+            "psalm": "Responsorial Psalm for December 24",
+            "gospel": "Gospel for December 24"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-12-25",
+        "day_of_week": "Friday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for December 25",
+            "psalm": "Responsorial Psalm for December 25",
+            "gospel": "Gospel for December 25"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-12-26",
+        "day_of_week": "Saturday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for December 26",
+            "psalm": "Responsorial Psalm for December 26",
+            "gospel": "Gospel for December 26"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-12-27",
+        "day_of_week": "Sunday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for December 27",
+            "psalm": "Responsorial Psalm for December 27",
+            "gospel": "Gospel for December 27",
+            "second_reading": "Sunday Epistle for December 27"
+        },
+        "liturgical_day": "Sunday Mass"
+    },
+    {
+        "date": "2026-12-28",
+        "day_of_week": "Monday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for December 28",
+            "psalm": "Responsorial Psalm for December 28",
+            "gospel": "Gospel for December 28"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-12-29",
+        "day_of_week": "Tuesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for December 29",
+            "psalm": "Responsorial Psalm for December 29",
+            "gospel": "Gospel for December 29"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-12-30",
+        "day_of_week": "Wednesday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for December 30",
+            "psalm": "Responsorial Psalm for December 30",
+            "gospel": "Gospel for December 30"
+        },
+        "liturgical_day": "Weekday Mass"
+    },
+    {
+        "date": "2026-12-31",
+        "day_of_week": "Thursday",
+        "liturgical_year": "Year B",
+        "cycle": "II",
+        "readings": {
+            "first_reading": "Sample Reading 1 for December 31",
+            "psalm": "Responsorial Psalm for December 31",
+            "gospel": "Gospel for December 31"
+        },
+        "liturgical_day": "Weekday Mass"
+    }
+]
