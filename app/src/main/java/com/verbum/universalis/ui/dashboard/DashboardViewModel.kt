@@ -3,6 +3,7 @@ package com.verbum.universalis.ui.dashboard
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.verbum.universalis.data.repository.LiturgicalRepository
+import com.verbum.universalis.data.json.FileManager
 import com.verbum.universalis.data.entities.DailyMassReadingEntry
 import com.verbum.universalis.data.entities.Celebration
 import dagger.hilt.android.lifecycle.HiltViewModel
@@ -14,11 +15,15 @@ import kotlinx.coroutines.launch
 
 @HiltViewModel
 class DashboardViewModel @Inject constructor(
-    private val liturgicalRepository: LiturgicalRepository
+    private val liturgicalRepository: LiturgicalRepository,
+    private val fileManager: FileManager
 ) : ViewModel() {
 
     private val _selectedDate = MutableStateFlow(java.time.LocalDate.now().toString())
     val selectedDate: StateFlow<String> = _selectedDate.asStateFlow()
+
+    private val _selectedCalendar = MutableStateFlow("US")
+    val selectedCalendar: StateFlow<String> = _selectedCalendar.asStateFlow()
 
     private val _massReadings = MutableStateFlow<DailyMassReadingEntry?>(null)
     val massReadings: StateFlow<DailyMassReadingEntry?> = _massReadings.asStateFlow()
@@ -27,7 +32,23 @@ class DashboardViewModel @Inject constructor(
     val celebration: StateFlow<Celebration?> = _celebration.asStateFlow()
 
     init {
+        val settings = fileManager.loadSettings()
+        val calendar = settings?.readingCalendar ?: "US"
+        _selectedCalendar.value = calendar
+        liturgicalRepository.setCalendar(calendar)
         updateDate(java.time.LocalDate.now().toString())
+    }
+
+    fun updateCalendar(calendar: String) {
+        _selectedCalendar.value = calendar
+        viewModelScope.launch {
+            liturgicalRepository.setCalendar(calendar)
+            updateDate(_selectedDate.value)
+            
+            // Save to settings
+            val settings = fileManager.loadSettings() ?: com.verbum.universalis.data.json.UserSettings()
+            fileManager.saveSettings(settings.copy(readingCalendar = calendar))
+        }
     }
 
     fun updateDate(date: String) {

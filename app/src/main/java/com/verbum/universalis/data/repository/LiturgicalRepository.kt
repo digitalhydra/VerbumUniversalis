@@ -1,14 +1,16 @@
 package com.verbum.universalis.data.repository
 
 import android.content.Context
-import com.verbum.universalis.data.entities.*
-import kotlinx.coroutines.flow.Flow
+import com.verbum.universalis.data.entities.DailyMassReadingEntry
+import com.verbum.universalis.data.entities.DailyReadingRef
+import com.verbum.universalis.data.entities.LiturgicalReadingEntry
+import com.verbum.universalis.data.entities.Celebration
+import com.verbum.universalis.data.entities.UnifiedReadingEntry
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.serialization.decodeFromString
 import kotlinx.serialization.json.*
-import java.io.File
 import javax.inject.Inject
 import dagger.hilt.android.qualifiers.ApplicationContext
 
@@ -24,14 +26,21 @@ class LiturgicalRepository @Inject constructor(
     val liturgicalCalendar: StateFlow<List<LiturgicalReadingEntry>> = _liturgicalCalendar.asStateFlow()
 
     init {
-        loadMassReadingsData()
+        loadMassReadingsData("US")
         loadLiturgicalCalendarData()
     }
 
-    private fun loadMassReadingsData() {
+    fun setCalendar(calendar: String) {
+        loadMassReadingsData(calendar)
+    }
+
+    private fun loadMassReadingsData(calendar: String) {
         try {
-            // Priority: daily-mass-readings.json
-            val filename = "plans/daily-mass-readings.json"
+            val filename = when (calendar) {
+                "CO" -> "plans/daily-mass-readings-colombia.json"
+                "RO" -> "plans/daily-mass-readings-rome.json"
+                else -> "plans/daily-mass-readings.json"
+            }
             val assetJson = try {
                 context.assets.open(filename).bufferedReader().use { it.readText() }
             } catch (e: Exception) {
@@ -39,8 +48,18 @@ class LiturgicalRepository @Inject constructor(
             }
 
             if (assetJson != null) {
-                val data = json.decodeFromString<DailyMassReadings>(assetJson)
-                _massReadings.value = data.days
+                val unifiedData = json.decodeFromString<List<UnifiedReadingEntry>>(assetJson)
+                _massReadings.value = unifiedData.map { entry ->
+                    DailyMassReadingEntry(
+                        date = entry.date,
+                        monthDay = entry.monthDay,
+                        season = entry.season,
+                        celebrationName = entry.celebration,
+                        readings = entry.readings.map { (type, ref) ->
+                            DailyReadingRef(type, ref)
+                        }
+                    )
+                }
             }
         } catch (e: Exception) {
             e.printStackTrace()
@@ -65,7 +84,6 @@ class LiturgicalRepository @Inject constructor(
         }
     }
 
-    // Get today's mass readings
     fun getTodayMassReadings(): DailyMassReadingEntry? {
         val today = java.time.LocalDate.now().toString()
         return _massReadings.value.find { it.date == today }
@@ -83,26 +101,20 @@ class LiturgicalRepository @Inject constructor(
         return _massReadings.value.map { it.date }
     }
 
-    // Check if data is loaded
     fun isDataLoaded(): Boolean {
         return _massReadings.value.isNotEmpty()
     }
 
-    // Parse reference string "GEN.1.1" to (bookCode, chapter, verseStart, verseEnd)
     fun parseReference(ref: String): Triple<String, Int, IntRange>? {
-        // Format: "1 Thessalonians 1:1-5, 8b-10" (simplified)
-        // For now, handle "GEN.1.1" or "1TH.1-5"
         val parts = ref.split(":")
         if (parts.size < 2) return null
 
         val bookPart = parts[0].trim()
         val refPart = parts[1].trim()
 
-        // Extract book code (last word(s) before chapter)
         val bookWords = bookPart.split(" ")
         val bookCode = if (bookWords.isNotEmpty()) bookWords.last() else return null
 
-        // Parse verse range
         val rangeParts = refPart.split("-")
         val startVerse = rangeParts[0].filter { it.isDigit() }.toIntOrNull() ?: return null
         val endVerse = if (rangeParts.size > 1) {

@@ -31,6 +31,7 @@ data class DailyMassReadingEntry(
     val monthDay: String? = null,
     val season: String? = null,
     val subSeason: String? = null,
+    val celebrationName: String? = null,
     val readings: List<DailyReadingRef> = emptyList(),
     val usccbLink: String? = null,
     val apiEndpoint: String? = null
@@ -55,4 +56,14 @@ data class DailyMassReadings(
     val title: String? = null,
     val totalDays: Int? = null,
     val days: List<DailyMassReadingEntry> = emptyList()
+)
+
+@Serializable
+data class UnifiedReadingEntry(
+    val date: String,
+    val monthDay: String? = null,
+    val season: String? = null,
+    val readings: Map<String, String> = emptyMap(),
+    val celebration: String? = null,
+    val color: String? = null
 )

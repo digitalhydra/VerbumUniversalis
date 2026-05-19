@@ -57,6 +57,7 @@ fun DashboardScreen(
     val currentDayReadings by viewModel.currentDayReadings.collectAsState(initial = emptyList())
     val currentDayIndex by viewModel.currentDayIndex.collectAsState(initial = 0)
     val selectedDateStr by dashboardViewModel.selectedDate.collectAsState()
+    val selectedCalendar by dashboardViewModel.selectedCalendar.collectAsState()
     val massReadingsEntry by dashboardViewModel.massReadings.collectAsState()
     val celebration by dashboardViewModel.celebration.collectAsState()
     val progressMap by viewModel.progressMap.collectAsState()
@@ -172,23 +173,48 @@ fun DashboardScreen(
                         )
                     }
                     
-                    // Right side: season label and notification icon
-                    massReadingsEntry?.season?.let { name ->
-                        Row(verticalAlignment = Alignment.CenterVertically) {
-                            Text(
-                                text = name,
-                                style = MaterialTheme.typography.bodySmall,
-                                color = accentColor
-                            )
-                            // Show icon if celebration is not a FERIA
-                            if (celebration != null && celebration?.type?.uppercase() != "FERIA") {
-                                Spacer(modifier = Modifier.width(4.dp))
-                                Icon(
-                                    imageVector = Icons.Default.NotificationImportant,
-                                    contentDescription = "Important Celebration",
-                                    tint = accentColor,
-                                    modifier = Modifier.size(32.dp)
+                    // Right side: Calendar Selector, season label and notification icon
+                    Column(horizontalAlignment = Alignment.End) {
+                        // Calendar Selector
+                        Row(
+                            horizontalArrangement = Arrangement.spacedBy(4.dp),
+                            modifier = Modifier.padding(bottom = 8.dp)
+                        ) {
+                            listOf("US" to "US", "CO" to "COL", "RO" to "ROM").forEach { (code, label) ->
+                                val isSelected = selectedCalendar == code
+                                Box(
+                                    modifier = Modifier
+                                        .clip(RoundedCornerShape(8.dp))
+                                        .background(if (isSelected) accentColor else MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.5f))
+                                        .clickable { dashboardViewModel.updateCalendar(code) }
+                                        .padding(horizontal = 8.dp, vertical = 4.dp)
+                                ) {
+                                    Text(
+                                        text = label,
+                                        style = MaterialTheme.typography.labelSmall,
+                                        color = if (isSelected) Color.White else MaterialTheme.colorScheme.onSurfaceVariant
+                                    )
+                                }
+                            }
+                        }
+
+                        massReadingsEntry?.season?.let { name ->
+                            Row(verticalAlignment = Alignment.CenterVertically) {
+                                Text(
+                                    text = name,
+                                    style = MaterialTheme.typography.bodySmall,
+                                    color = accentColor
                                 )
+                                // Show icon if celebration is not a FERIA
+                                if (celebration != null && celebration?.type?.uppercase() != "FERIA") {
+                                    Spacer(modifier = Modifier.width(4.dp))
+                                    Icon(
+                                        imageVector = Icons.Default.NotificationImportant,
+                                        contentDescription = "Important Celebration",
+                                        tint = accentColor,
+                                        modifier = Modifier.size(32.dp)
+                                    )
+                                }
                             }
                         }
                     }
@@ -341,9 +367,12 @@ fun DashboardDayContent(
         massReadingsEntry?.let { mass ->
             item {
                 Column(modifier = Modifier.padding(start = 44.dp, top = 8.dp, bottom = 4.dp)) {
-                    if (celebration != null && celebration.type?.uppercase() != "FERIA") {
+                    val displayCelebration = massReadingsEntry.celebrationName ?: celebration?.name
+                    val isFeria = (celebration?.type?.uppercase() == "FERIA" || massReadingsEntry.celebrationName == null) && displayCelebration == celebration?.name
+                    
+                    if (displayCelebration != null && !isFeria) {
                         Text(
-                            text = celebration.name,
+                            text = displayCelebration,
                             style = MaterialTheme.typography.bodySmall.copy(
                                 fontWeight = FontWeight.Medium,
                                 fontSize = 12.sp
