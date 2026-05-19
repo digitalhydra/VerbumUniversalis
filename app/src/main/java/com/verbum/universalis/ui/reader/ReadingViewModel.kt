@@ -292,6 +292,10 @@ class ReadingViewModel @Inject constructor(
         _showStudyInspector.value = !_showStudyInspector.value
     }
 
+    fun openStudyInspector() {
+        _showStudyInspector.value = true
+    }
+
     // For passing Greek word selection to StudyInspector
     private val _selectedGreekWord = MutableStateFlow<InterlinearWordEntity?>(null)
     val selectedGreekWord: StateFlow<InterlinearWordEntity?> = _selectedGreekWord.asStateFlow()
@@ -396,8 +400,14 @@ class ReadingViewModel @Inject constructor(
         }
     }
 
+    fun clearSelection() {
+        _isSelectionMode.value = false
+        _selectedVerseId.value = null
+    }
+
     fun selectVerse(verseId: Int) {
         _selectedVerseId.value = verseId
+        _isSelectionMode.value = true
     }
 
     fun getDisplayText(verseWithTexts: VerseWithTexts, langCode: String): String {

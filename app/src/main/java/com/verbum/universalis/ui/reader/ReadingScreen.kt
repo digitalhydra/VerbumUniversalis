@@ -224,9 +224,13 @@ fun ReadingScreen(
                                     // Navigate to the InterlinearReader full-screen route
                                     navController.navigate(Route.InterlinearReader.createRoute(verseId))
                                 }
-                                "reference", "catena" -> {
-                                    // Toggle the study inspector to show the relevant tab
-                                    viewModel.toggleStudyInspector()
+                                "reference" -> {
+                                    studyInspectorVM.setActiveTab(InspectorTab.REFERENCES)
+                                    viewModel.openStudyInspector()
+                                }
+                                "catena" -> {
+                                    studyInspectorVM.setActiveTab(InspectorTab.CATENA)
+                                    viewModel.openStudyInspector()
                                 }
                                 "note", "highlight" -> {
                                     viewModel.showNoteHighlightSheet(verseId)
