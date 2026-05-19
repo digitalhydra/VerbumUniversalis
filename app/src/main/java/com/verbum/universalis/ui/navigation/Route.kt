@@ -12,6 +12,7 @@ import com.verbum.universalis.ui.reader.InterlinearReaderScreen
 import com.verbum.universalis.ui.reader.ReadingCanvasScreen
 import com.verbum.universalis.ui.plans.ReadingPlansScreen
 import com.verbum.universalis.ui.settings.SettingsScreen
+import com.verbum.universalis.ui.catechism.CatechismScreen
 import com.verbum.universalis.ui.reader.Passage
 
 // Type alias for mass readings: List of (readingType, reference)
@@ -81,6 +82,7 @@ sealed class Route(val route: String) {
     }
     object ReadingPlans : Route("reading_plans")
     object Settings : Route("settings")
+    object Catechism : Route("catechism")
     object DownloadCatena : Route("download_catena")
     object Sync : Route("sync")
     object Notes : Route("notes")
@@ -207,6 +209,9 @@ fun VerbumNavGraph(
         }
         composable(Route.ReadingPlans.route) { 
             ReadingPlansScreen(onNavigateBack = { navController.popBackStack() }) 
+        }
+        composable(Route.Catechism.route) {
+            CatechismScreen()
         }
         composable(Route.Settings.route) { 
             SettingsScreen(
