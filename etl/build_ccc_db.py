@@ -111,6 +111,49 @@ TRADITION_ABBREVS = {
     "UR": "Unitatis redintegratio",
 }
 
+# ── Official CCC Hierarchy Ranges ─────────────────────────────────────────
+# Structure: (min_para, max_para, title, level)
+# level 0: PART, level 1: SECTION, level 2: CHAPTER
+CCC_HIERARCHY = [
+    # Parts
+    (26, 1065, "PART ONE: THE PROFESSION OF FAITH", 0),
+    (1066, 1690, "PART TWO: THE CELEBRATION OF THE CHRISTIAN MYSTERY", 0),
+    (1691, 2557, "PART THREE: LIFE IN CHRIST", 0),
+    (2558, 2865, "PART FOUR: CHRISTIAN PRAYER", 0),
+
+    # Sections
+    (26, 184, "SECTION ONE: 'I BELIEVE' - 'WE BELIEVE'", 1),
+    (185, 1065, "SECTION TWO: THE PROFESSION OF THE CHRISTIAN FAITH", 1),
+    (1076, 1209, "SECTION ONE: THE SACRAMENTAL ECONOMY", 1),
+    (1210, 1690, "SECTION TWO: THE SEVEN SACRAMENTS OF THE CHURCH", 1),
+    (1699, 2051, "SECTION ONE: MAN'S VOCATION: LIFE IN THE SPIRIT", 1),
+    (2052, 2557, "SECTION TWO: THE TEN COMMANDMENTS", 1),
+    (2559, 2758, "SECTION ONE: PRAYER IN THE CHRISTIAN LIFE", 1),
+    (2759, 2865, "SECTION TWO: THE LORD'S PRAYER: 'OUR FATHER!'", 1),
+
+    # Chapters
+    (27, 49, "CHAPTER ONE: MAN'S CAPACITY FOR GOD", 2),
+    (50, 141, "CHAPTER TWO: GOD COMES TO MEET MAN", 2),
+    (142, 184, "CHAPTER THREE: MAN'S RESPONSE TO GOD", 2),
+    (198, 421, "CHAPTER ONE: I BELIEVE IN GOD THE FATHER", 2),
+    (422, 682, "CHAPTER TWO: I BELIEVE IN JESUS CHRIST, THE ONLY SON OF GOD", 2),
+    (683, 1065, "CHAPTER THREE: I BELIEVE IN THE HOLY SPIRIT", 2),
+    (1077, 1112, "CHAPTER ONE: THE PASCHAL MYSTERY IN THE AGE OF THE CHURCH", 2),
+    (1135, 1209, "CHAPTER TWO: THE SACRAMENTAL CELEBRATION", 2),
+    (1212, 1419, "CHAPTER ONE: THE SACRAMENTS OF CHRISTIAN INITIATION", 2),
+    (1420, 1532, "CHAPTER TWO: THE SACRAMENTS OF HEALING", 2),
+    (1533, 1666, "CHAPTER THREE: THE SACRAMENTS AT THE SERVICE OF COMMUNION", 2),
+    (1667, 1690, "CHAPTER FOUR: OTHER LITURGICAL CELEBRATIONS", 2),
+    (1700, 1876, "CHAPTER ONE: THE DIGNITY OF THE HUMAN PERSON", 2),
+    (1877, 1948, "CHAPTER TWO: THE HUMAN COMMUNITY", 2),
+    (1949, 2051, "CHAPTER THREE: GOD'S SALVATION: LAW AND GRACE", 2),
+    (2083, 2195, "CHAPTER ONE: 'YOU SHALL LOVE THE LORD YOUR GOD...'", 2),
+    (2196, 2257, "CHAPTER TWO: 'YOU SHALL LOVE YOUR NEIGHBOR AS YOURSELF'", 2),
+    (2566, 2649, "CHAPTER ONE: THE REVELATION OF PRAYER", 2),
+    (2650, 2696, "CHAPTER TWO: THE TRADITION OF PRAYER", 2),
+    (2697, 2758, "CHAPTER THREE: THE LIFE OF PRAYER", 2)
+]
+
 
 # ── Helper: normalize whitespace ──────────────────────────────────────────
 
@@ -294,13 +337,53 @@ SLUG_FIXES = {
     "aposcons": "APOSTOLIC CONSTITUTION",
 }
 
-def get_toc_path_for_page(page_id: str, toc_paths: dict[str, str]) -> str:
-    """Get the TOC path for a page_node ID, with slug fixes."""
-    path = toc_paths.get(page_id, "")
-    # Apply slug fixes
-    for slug, display in SLUG_FIXES.items():
-        path = path.replace(slug, display)
-    return path
+def get_toc_path_for_page(n, current_path):
+    """
+    Standardize the TOC path based on official hierarchy ranges.
+    Uses the paragraph number (n) to find Part, Section, Chapter.
+    Then appends relevant Article/In Brief info from the existing path.
+    """
+    if 1 <= n <= 25:
+        return "PROLOGUE"
+
+    parts = []
+    for level in [0, 1, 2]:
+        match = next((h[2] for h in CCC_HIERARCHY if h[0] <= n <= h[1] and h[3] == level), None)
+        if match:
+            parts.append(match)
+
+    prefix = " > ".join(parts)
+
+    # Determine the tail (e.g., Article info) from the current_path
+    existing_parts = [p.strip() for p in current_path.split(">")]
+    tail = []
+    for p in existing_parts:
+        # If this part is NOT already covered by the prefix
+        if p not in prefix and p not in SLUG_FIXES.values():
+            # Keep parts that look like Articles or specific sub-sections
+            if any(x in p.upper() for x in ["ARTICLE", "PARAGRAPH", "IN BRIEF"]):
+                tail.append(p)
+
+    # If no Article/Paragraph found but the last part of existing path is very specific
+    if not tail and existing_parts:
+        last_part = existing_parts[-1]
+        # Map slugs if needed
+        last_part = SLUG_FIXES.get(last_part, last_part)
+        if last_part not in prefix:
+            tail.append(last_part)
+
+    new_path = prefix
+    if tail:
+        # Avoid redundant parts
+        clean_tail = []
+        for t in tail:
+            if t not in new_path:
+                clean_tail.append(t)
+
+        if clean_tail:
+            new_path += " > " + " > ".join(clean_tail)
+
+    return new_path
 
 
 # ── Main ETL ──────────────────────────────────────────────────────────────
@@ -353,10 +436,11 @@ def main():
                 # Finalize previous CCC paragraph
                 if current_ccc is not None and current_text_parts:
                     if current_ccc not in paragraphs:
+                        raw_path = toc_paths.get(pn_id, "")
                         paragraphs[current_ccc] = {
                             "plain_text": clean_text(' '.join(current_text_parts)),
                             "formatted_json": build_formatted_json(current_elements),
-                            "toc_path": get_toc_path_for_page(pn_id, toc_paths),
+                            "toc_path": get_toc_path_for_page(current_ccc, raw_path),
                         }
                         seen_on_pages[current_ccc] = pn_id
                 
@@ -382,10 +466,11 @@ def main():
         
         # Finalize last paragraph on this page
         if current_ccc is not None and current_text_parts and current_ccc not in paragraphs:
+            raw_path = toc_paths.get(pn_id, "")
             paragraphs[current_ccc] = {
                 "plain_text": clean_text(' '.join(current_text_parts)),
                 "formatted_json": build_formatted_json(current_elements),
-                "toc_path": get_toc_path_for_page(pn_id, toc_paths),
+                "toc_path": get_toc_path_for_page(current_ccc, raw_path),
             }
             seen_on_pages[current_ccc] = pn_id
     
@@ -459,10 +544,10 @@ def main():
     
     conn = sqlite3.connect(str(OUTPUT_DB))
     conn.execute("PRAGMA journal_mode=WAL")
-    conn.execute("PRAGMA foreign_keys=ON")
-    
+
     # ── Create tables ──
     conn.executescript("""
+        PRAGMA foreign_keys=OFF;
         DROP TABLE IF EXISTS ccc_bible_refs;
         DROP TABLE IF EXISTS ccc_tradition_refs;
         DROP TABLE IF EXISTS ccc_tags;

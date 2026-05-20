@@ -17,7 +17,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import androidx.lifecycle.viewmodel.compose.viewModel
+import androidx.hilt.navigation.compose.hiltViewModel
 import com.verbum.universalis.core.theme.VerbumTheme
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -25,7 +25,7 @@ import com.verbum.universalis.core.theme.VerbumTheme
 fun CccTocScreen(
     onBack: () -> Unit,
     onParagraphClick: (Int) -> Unit,
-    viewModel: CatechismViewModel = viewModel()
+    viewModel: CatechismViewModel = hiltViewModel()
 ) {
     val tocItems by viewModel.tocItems.collectAsState()
 

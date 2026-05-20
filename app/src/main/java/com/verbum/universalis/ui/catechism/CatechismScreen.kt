@@ -21,7 +21,7 @@ import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import androidx.lifecycle.viewmodel.compose.viewModel
+import androidx.hilt.navigation.compose.hiltViewModel
 import com.verbum.universalis.core.theme.SourceSerifPro
 import com.verbum.universalis.core.theme.VerbumTheme
 
@@ -30,8 +30,9 @@ import com.verbum.universalis.core.theme.VerbumTheme
 fun CatechismScreen(
     paragraphNumber: Int,
     onBack: () -> Unit = {},
+    onNavigateToParagraph: (Int) -> Unit = {},
     onNavigateToBibleRef: (Int, Int, Int?) -> Unit = { _, _, _ -> },
-    viewModel: CatechismViewModel = viewModel()
+    viewModel: CatechismViewModel = hiltViewModel()
 ) {
     val uiState by viewModel.uiState.collectAsState()
     val scrollState = rememberScrollState()
@@ -52,14 +53,14 @@ fun CatechismScreen(
                         modifier = Modifier.fillMaxWidth(),
                         horizontalArrangement = Arrangement.SpaceBetween
                     ) {
-                        TextButton(onClick = { viewModel.navigatePrev() }) {
+                        TextButton(onClick = { uiState?.number?.let { if (it > 1) onNavigateToParagraph(it - 1) } }) {
                             Text("← Prev")
                         }
                         Text(
                             "¶ ${uiState?.number ?: ""}/2865",
                             modifier = Modifier.padding(top = 12.dp)
                         )
-                        TextButton(onClick = { viewModel.navigateNext() }) {
+                        TextButton(onClick = { uiState?.number?.let { if (it < 2865) onNavigateToParagraph(it + 1) } }) {
                             Text("Next →")
                         }
                     }
@@ -172,6 +173,7 @@ fun CatechismScreen(
 fun CatechismScreenPreview() {
     CatechismScreen(
         paragraphNumber = 27,
+        onNavigateToParagraph = {},
         onNavigateToBibleRef = { _, _, _ -> }
     )
 }

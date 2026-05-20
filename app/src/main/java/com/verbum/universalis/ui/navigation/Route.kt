@@ -229,6 +229,11 @@ fun VerbumNavGraph(
             CatechismScreen(
                 paragraphNumber = paragraphNumber,
                 onBack = { navController.popBackStack() },
+                onNavigateToParagraph = { num ->
+                    navController.navigate(Route.Catechism.createRoute(num)) {
+                        popUpTo(Route.CatechismToc.route) { inclusive = false }
+                    }
+                },
                 onNavigateToBibleRef = { bookId, chapter, verse ->
                     navController.navigate(Route.ReadingCanvas.createRoute(bookId, chapter, verse))
                 }
