@@ -7,6 +7,7 @@ import androidx.compose.foundation.text.ClickableText
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
@@ -27,11 +28,17 @@ import com.verbum.universalis.core.theme.VerbumTheme
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun CatechismScreen(
+    paragraphNumber: Int,
     onBack: () -> Unit = {},
+    onNavigateToBibleRef: (Int, Int, Int?) -> Unit = { _, _, _ -> },
     viewModel: CatechismViewModel = viewModel()
 ) {
     val uiState by viewModel.uiState.collectAsState()
     val scrollState = rememberScrollState()
+
+    LaunchedEffect(paragraphNumber) {
+        viewModel.selectParagraph(paragraphNumber)
+    }
 
     VerbumTheme {
         Scaffold(
@@ -133,14 +140,25 @@ fun CatechismScreen(
                                 onClick = { offset ->
                                     annotatedBody.getStringAnnotations(tag = "BIBLE_REF", start = offset, end = offset)
                                         .firstOrNull()?.let { annotation ->
-                                            println("Clicked Bible Ref: ${annotation.item}")
+                                            val parts = annotation.item.split(":")
+                                            if (parts.size >= 3) {
+                                                val bookId = parts[0].toIntOrNull()
+                                                val chapter = parts[1].toIntOrNull()
+                                                val verse = parts[2].toIntOrNull()
+                                                if (bookId != null && chapter != null) {
+                                                    onNavigateToBibleRef(bookId, chapter, verse)
+                                                }
+                                            }
                                         }
                                 }
                             )
                         }
 
                         Spacer(Modifier.height(32.dp))
-                        CccReferencePanel(state.footnotes)
+                        CccReferencePanel(
+                            footnotes = state.footnotes,
+                            onNavigateToBibleRef = onNavigateToBibleRef
+                        )
                         Spacer(Modifier.height(16.dp))
                     }
                 }
@@ -152,5 +170,8 @@ fun CatechismScreen(
 @androidx.compose.ui.tooling.preview.Preview
 @Composable
 fun CatechismScreenPreview() {
-    CatechismScreen()
+    CatechismScreen(
+        paragraphNumber = 27,
+        onNavigateToBibleRef = { _, _, _ -> }
+    )
 }

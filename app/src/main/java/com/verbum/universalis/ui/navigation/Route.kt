@@ -82,7 +82,10 @@ sealed class Route(val route: String) {
     }
     object ReadingPlans : Route("reading_plans")
     object Settings : Route("settings")
-    object Catechism : Route("catechism")
+    object CatechismToc : Route("catechism_toc")
+    object Catechism : Route("catechism/{paragraphNumber}") {
+        fun createRoute(paragraphNumber: Int): String = "catechism/$paragraphNumber"
+    }
     object DownloadCatena : Route("download_catena")
     object Sync : Route("sync")
     object Notes : Route("notes")
@@ -210,8 +213,26 @@ fun VerbumNavGraph(
         composable(Route.ReadingPlans.route) { 
             ReadingPlansScreen(onNavigateBack = { navController.popBackStack() }) 
         }
-        composable(Route.Catechism.route) {
-            CatechismScreen()
+        composable(Route.CatechismToc.route) {
+            com.verbum.universalis.ui.catechism.CccTocScreen(
+                onBack = { navController.popBackStack() },
+                onParagraphClick = { num ->
+                    navController.navigate(Route.Catechism.createRoute(num))
+                }
+            )
+        }
+        composable(
+            route = Route.Catechism.route,
+            arguments = listOf(navArgument("paragraphNumber") { type = NavType.IntType })
+        ) { backStackEntry ->
+            val paragraphNumber = backStackEntry.arguments?.getInt("paragraphNumber") ?: 27
+            CatechismScreen(
+                paragraphNumber = paragraphNumber,
+                onBack = { navController.popBackStack() },
+                onNavigateToBibleRef = { bookId, chapter, verse ->
+                    navController.navigate(Route.ReadingCanvas.createRoute(bookId, chapter, verse))
+                }
+            )
         }
         composable(Route.Settings.route) { 
             SettingsScreen(

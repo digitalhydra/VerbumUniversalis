@@ -14,7 +14,18 @@ sealed class CccElement {
 
 data class Footnote(
     val id: Int,
-    val text: String
+    val text: String,
+    val bookId: Int? = null,
+    val chapter: Int? = null,
+    val verse: Int? = null
+)
+
+data class CccTocNode(
+    val id: String,
+    val title: String,
+    val indentLevel: Int,
+    val paragraphNumber: Int? = null,
+    val children: List<CccTocNode> = emptyList()
 )
 
 data class CccParagraphUiState(

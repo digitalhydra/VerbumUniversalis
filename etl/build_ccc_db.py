@@ -5,8 +5,9 @@ ETL: Build verbum_ccc.db from raw_data/ccc.json
 Normalizes scraped CCC data into clean paragraphs with:
 - Deduplicated paragraph text (same para appears across multiple page fragments)
 - Continuation paragraphs joined (paragraphs without ref-ccc belong to preceding CCC number)
-- Inline Bible references parsed
-- Inline Tradition references parsed  
+- Inline Bible references parsed (stored in `ccc_bible_refs`)
+- Inline Tradition references parsed (stored in `ccc_tradition_refs`)
+- **Footnote extraction** – each `[n]` marker is linked to a footnote entry; footnotes are stored in `ccc_footnotes`. Any Bible citations inside footnotes are also parsed and stored in `ccc_footnote_bible_refs`.
 - FTS5 full-text search index
 - TOC hierarchy
 - User tags table (empty, for app use)
@@ -320,10 +321,13 @@ def main():
     print("Collecting paragraph text...")
     
     # For each CCC paragraph number, store the assembled text from the first page it appears on
-    paragraphs = {}  # ccc_number → {plain_text, formatted_json, toc_paths_set}
+    paragraphs = {}  # ccc_number → {plain_text, formatted_json, toc_path}
     
     # Track which page_nodes we've processed per CCC number (first wins)
     seen_on_pages = {}  # ccc_number → first page_node_id
+    
+    # Mapping of (page_id, footnote_number) → ccc_number so we can assign footnotes to paragraphs
+    footnote_to_paragraph = {}
     
     for pn_id, pn in data["page_nodes"].items():
         page_paragraphs = pn.get("paragraphs", [])
@@ -361,12 +365,20 @@ def main():
                 # Collect text from THIS paragraph's elements (skip the ref-ccc marker itself for text)
                 current_text_parts = [el.get("text", "") for el in elements if el.get("type") == "text"]
                 current_elements = list(elements)  # Keep all elements for formatted JSON
+                # Record any footnote markers in this paragraph (they belong to this CCC number)
+                for el in elements:
+                    if el.get("type") == "ref":
+                        footnote_to_paragraph[(pn_id, el["number"])] = current_ccc
             else:
                 # Continuation paragraph — belongs to current CCC number
                 if current_ccc is not None:
                     continuation_text = [el.get("text", "") for el in elements if el.get("type") == "text"]
                     current_text_parts.extend(continuation_text)
                     current_elements.extend(elements)
+                    # Record footnote markers in continuation paragraphs as well
+                    for el in elements:
+                        if el.get("type") == "ref":
+                            footnote_to_paragraph[(pn_id, el["number"])] = current_ccc
         
         # Finalize last paragraph on this page
         if current_ccc is not None and current_text_parts and current_ccc not in paragraphs:
@@ -394,7 +406,54 @@ def main():
         all_tradition_refs.extend(refs)
     print(f"  {len(all_tradition_refs)} Tradition references found")
     
-    # ── Step 3: Build SQLite database ──
+    # ── Step 3: Extract footnotes ──
+    print("Extracting footnotes...")
+    footnote_rows = []  # each dict {ccc_number, footnote_number, footnote_text}
+    footnote_bible_refs = []  # each dict {ccc_number, footnote_number, refs [...]}
+    for pn_id, pn in data["page_nodes"].items():
+        footnotes = pn.get("footnotes", {})
+        if not footnotes:
+            continue
+        for fn_key, fn in footnotes.items():
+            # footnote number may be string key or int
+            try:
+                fn_number = int(fn_key)
+            except Exception:
+                fn_number = fn_key
+            ccc_number = footnote_to_paragraph.get((pn_id, fn_number))
+            if ccc_number is None:
+                continue
+            # Build footnote text by joining refs texts
+            footnote_text = "; ".join(r.get("text", "") for r in fn.get("refs", []))
+            footnote_rows.append({
+                "ccc_number": ccc_number,
+                "footnote_number": fn_number,
+                "footnote_text": footnote_text,
+            })
+            # Parse any Bible references inside the footnote text
+            bible_refs = parse_bible_refs(footnote_text, ccc_number)
+            if bible_refs:
+                footnote_bible_refs.append({
+                    "ccc_number": ccc_number,
+                    "footnote_number": fn_number,
+                    "refs": bible_refs,
+                })
+    print(f"  {len(footnote_rows)} footnotes extracted")
+    
+    # Dedup footnotes: keep first occurrence for each (ccc_number, footnote_number)
+    footnote_seen = {}
+    footnote_rows_unique = []
+    for row in footnote_rows:
+        key = (row["ccc_number"], row["footnote_number"])
+        if key not in footnote_seen:
+            footnote_seen[key] = True
+            footnote_rows_unique.append(row)
+    footnote_rows = footnote_rows_unique
+    # Filter footnote_bible_refs to only those footnotes we keep
+    footnote_bible_refs = [fb for fb in footnote_bible_refs if (fb["ccc_number"], fb["footnote_number"]) in footnote_seen]
+    print(f"  {len(footnote_rows)} unique footnotes after dedup")
+    
+    # ── Step 4: Build SQLite database ──
     print(f"Building {OUTPUT_DB}...")
     OUTPUT_DB.parent.mkdir(parents=True, exist_ok=True)
     
@@ -409,6 +468,8 @@ def main():
         DROP TABLE IF EXISTS ccc_tags;
         DROP TABLE IF EXISTS ccc_paragraphs;
         DROP TABLE IF EXISTS ccc_fts;
+        DROP TABLE IF EXISTS ccc_footnotes;
+        DROP TABLE IF EXISTS ccc_footnote_bible_refs;
         
         CREATE TABLE ccc_paragraphs (
             number INTEGER PRIMARY KEY,
@@ -477,6 +538,30 @@ def main():
             INSERT INTO ccc_fts(rowid, number, toc_path, plain_text) 
             VALUES (new.number, new.number, new.toc_path, new.plain_text);
         END;
+        
+        -- Footnotes tables
+        CREATE TABLE ccc_footnotes (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            ccc_number INTEGER NOT NULL REFERENCES ccc_paragraphs(number),
+            footnote_number INTEGER NOT NULL,
+            footnote_text TEXT NOT NULL,
+            UNIQUE(ccc_number, footnote_number)
+        );
+        CREATE INDEX idx_footnotes_ccc ON ccc_footnotes(ccc_number);
+        
+        CREATE TABLE ccc_footnote_bible_refs (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            footnote_id INTEGER NOT NULL REFERENCES ccc_footnotes(id),
+            book_id INTEGER NOT NULL,
+            chapter INTEGER NOT NULL,
+            verse_start INTEGER NOT NULL,
+            verse_end INTEGER,
+            ref_text TEXT NOT NULL,
+            ref_position INTEGER NOT NULL,
+            ref_length INTEGER NOT NULL
+        );
+        CREATE INDEX idx_footnote_bible_book ON ccc_footnote_bible_refs(book_id, chapter, verse_start);
+        CREATE INDEX idx_footnote_bible_footnote ON ccc_footnote_bible_refs(footnote_id);
     """)
     
     # ── Insert paragraphs ──
@@ -518,6 +603,46 @@ def main():
         conn.execute("COMMIT")
     print(f"  {len(all_tradition_refs)} Tradition refs inserted")
     
+    # ── Insert footnotes ──
+    footnote_id_map = {}
+    if footnote_rows:
+        conn.execute("BEGIN TRANSACTION")
+        for row in footnote_rows:
+            cur = conn.execute(
+                "INSERT INTO ccc_footnotes (ccc_number, footnote_number, footnote_text) VALUES (?, ?, ?)",
+                (row["ccc_number"], row["footnote_number"], row["footnote_text"])
+            )
+            fid = cur.lastrowid
+            footnote_id_map[(row["ccc_number"], row["footnote_number"])] = fid
+        conn.execute("COMMIT")
+        print(f"  {len(footnote_rows)} footnotes inserted")
+    else:
+        print("  No footnotes to insert")
+    
+    # ── Insert footnote Bible refs ──
+    total_footnote_bible = 0
+    if footnote_bible_refs:
+        conn.execute("BEGIN TRANSACTION")
+        for fb in footnote_bible_refs:
+            ccc_num = fb["ccc_number"]
+            fn_num = fb["footnote_number"]
+            fid = footnote_id_map.get((ccc_num, fn_num))
+            if not fid:
+                continue
+            for ref in fb["refs"]:
+                conn.execute(
+                    """INSERT INTO ccc_footnote_bible_refs 
+                       (footnote_id, book_id, chapter, verse_start, verse_end, ref_text, ref_position, ref_length)
+                       VALUES (?, ?, ?, ?, ?, ?, ?, ?)""",
+                    (fid, ref["book_id"], ref["chapter"], ref["verse_start"],
+                     ref["verse_end"], ref["ref_text"], ref["ref_position"], ref["ref_length"])
+                )
+                total_footnote_bible += 1
+        conn.execute("COMMIT")
+        print(f"  {total_footnote_bible} Bible refs in footnotes inserted")
+    else:
+        print("  No footnote Bible refs to insert")
+    
     # ── Rebuild FTS index ──
     conn.execute("INSERT INTO ccc_fts(ccc_fts) VALUES('rebuild')")
     
@@ -525,12 +650,16 @@ def main():
     count = conn.execute("SELECT COUNT(*) FROM ccc_paragraphs").fetchone()[0]
     bible_count = conn.execute("SELECT COUNT(*) FROM ccc_bible_refs").fetchone()[0]
     trad_count = conn.execute("SELECT COUNT(*) FROM ccc_tradition_refs").fetchone()[0]
+    footnote_count = conn.execute("SELECT COUNT(*) FROM ccc_footnotes").fetchone()[0]
+    footnote_bible_count = conn.execute("SELECT COUNT(*) FROM ccc_footnote_bible_refs").fetchone()[0]
     
     # Show sample
     print(f"\n=== Verification ===")
     print(f"  Paragraphs: {count}")
     print(f"  Bible refs: {bible_count}")
     print(f"  Tradition refs: {trad_count}")
+    print(f"  Footnotes: {footnote_count}")
+    print(f"  Footnote Bible refs: {footnote_bible_count}")
     
     sample = conn.execute("SELECT number, substr(plain_text, 1, 120) FROM ccc_paragraphs WHERE number = 27").fetchone()
     if sample:
@@ -542,7 +671,14 @@ def main():
     if sample_refs:
         print(f"  Bible refs in ¶27: {[r[0] for r in sample_refs]}")
     else:
-        print(f"  No Bible refs in ¶27 (footnotes only)")
+        print(f"  No inline Bible refs in ¶27 (footnotes only)")
+    
+    # Sample footnote
+    sample_fn = conn.execute("SELECT ccc_number, footnote_number, footnote_text FROM ccc_footnotes LIMIT 3").fetchall()
+    if sample_fn:
+        print(f"\n  Sample footnotes:")
+        for row in sample_fn:
+            print(f"    ¶{row[0]} note {row[1]}: {row[2][:60]}...")
     
     conn.close()
     

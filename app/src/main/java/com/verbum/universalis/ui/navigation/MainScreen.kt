@@ -38,7 +38,7 @@ fun MainScreen() {
     val items = listOf(
         NavigationItem("Bible", Route.ReadingCanvas.route, Icons.Default.MenuBook),
         NavigationItem("Readings", Route.Dashboard.route, Icons.Default.CalendarMonth),
-        NavigationItem("Teaching", Route.Catechism.route, Icons.Default.HistoryEdu),
+        NavigationItem("Teaching", Route.CatechismToc.route, Icons.Default.HistoryEdu),
         NavigationItem("Settings", Route.Settings.route, Icons.Default.Menu)
     )
 

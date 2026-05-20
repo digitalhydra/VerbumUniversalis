@@ -1,12 +1,10 @@
 package com.verbum.universalis.ui.catechism
 
 import androidx.lifecycle.ViewModel
-import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
-import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 @HiltViewModel
@@ -22,8 +20,8 @@ class CatechismViewModel @Inject constructor() : ViewModel() {
             CccElement.Text("). Even when this desire is obscured, man's very nature is to seek his source, a longing that manifests as a fundamental 'tons antolest' that can only be fulfilled in communion with God. This desire is itself a gift, a call to return.")
         ),
         footnotes = listOf(
-            Footnote(1, "Romans 1:20"),
-            Footnote(2, "Acts 17:28"),
+            Footnote(1, "Romans 1:20", bookId = 52, chapter = 1, verse = 20),
+            Footnote(2, "Acts 17:28", bookId = 51, chapter = 17, verse = 28),
             Footnote(3, "Vatican II, Lumen Gentium 16.")
         ),
         isRead = false
@@ -44,22 +42,40 @@ class CatechismViewModel @Inject constructor() : ViewModel() {
         isRead = true
     )
 
-    private val _uiState = MutableStateFlow<CccParagraphUiState?>(dummyParagraph27)
+    private val _uiState = MutableStateFlow<CccParagraphUiState?>(null)
     val uiState: StateFlow<CccParagraphUiState?> = _uiState.asStateFlow()
+
+    private val _tocItems = MutableStateFlow<List<CccTocNode>>(
+        listOf(
+            CccTocNode("1", "Prologue", 0),
+            CccTocNode("2", "PART ONE: THE PROFESSION OF FAITH", 0),
+            CccTocNode("3", "SECTION ONE: 'I BELIEVE' - 'WE BELIEVE'", 1),
+            CccTocNode("4", "CHAPTER ONE: MAN'S CAPACITY FOR GOD", 2),
+            CccTocNode("5", "I. The Desire for God", 3, paragraphNumber = 27),
+            CccTocNode("6", "II. Ways of Knowing God", 3, paragraphNumber = 28)
+        )
+    )
+    val tocItems: StateFlow<List<CccTocNode>> = _tocItems.asStateFlow()
+
+    fun selectParagraph(number: Int) {
+        _uiState.value = when (number) {
+            27 -> dummyParagraph27
+            28 -> dummyParagraph28
+            else -> dummyParagraph27 // Fallback for dummy
+        }
+    }
 
     fun toggleRead() {
         _uiState.value = _uiState.value?.let { it.copy(isRead = !it.isRead) }
     }
 
     fun navigateNext() {
-        if (_uiState.value?.number == 27) {
-            _uiState.value = dummyParagraph28
-        }
+        val current = _uiState.value?.number ?: return
+        selectParagraph(current + 1)
     }
 
     fun navigatePrev() {
-        if (_uiState.value?.number == 28) {
-            _uiState.value = dummyParagraph27
-        }
+        val current = _uiState.value?.number ?: return
+        if (current > 1) selectParagraph(current - 1)
     }
 }

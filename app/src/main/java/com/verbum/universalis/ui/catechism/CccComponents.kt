@@ -83,13 +83,16 @@ fun ReadToggleButton(isRead: Boolean, onToggle: () -> Unit) {
 }
 
 @Composable
-fun CccReferencePanel(footnotes: List<Footnote>) {
+fun CccReferencePanel(
+    footnotes: List<Footnote>,
+    onNavigateToBibleRef: (Int, Int, Int?) -> Unit
+) {
     Column(
         modifier = Modifier
             .fillMaxWidth()
             .padding(16.dp)
     ) {
-        Divider(color = Color.Black.copy(alpha = 0.1f))
+        HorizontalDivider(color = Color.Black.copy(alpha = 0.1f))
         Spacer(Modifier.height(16.dp))
         Text(
             "REFERENCES AND FOOTNOTES",
@@ -100,7 +103,15 @@ fun CccReferencePanel(footnotes: List<Footnote>) {
             Text(
                 text = "${footnote.id}. ${footnote.text}",
                 style = MaterialTheme.typography.bodySmall,
-                modifier = Modifier.padding(vertical = 2.dp)
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .clickable(enabled = footnote.bookId != null) {
+                        footnote.bookId?.let { bookId ->
+                            onNavigateToBibleRef(bookId, footnote.chapter ?: 1, footnote.verse)
+                        }
+                    }
+                    .padding(vertical = 4.dp),
+                color = if (footnote.bookId != null) Color(0xFF2E5E8A) else Color.Unspecified
             )
         }
     }
