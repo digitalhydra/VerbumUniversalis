@@ -20,7 +20,7 @@ class CatechismRawDatabase private constructor(private val db: SQLiteDatabase?) 
                     CccParagraphEntity(
                         number = c.getInt(c.getColumnIndexOrThrow("number")),
                         tocPath = c.getString(c.getColumnIndexOrThrow("toc_path")),
-                        plainText = c.getString(c.getColumnIndexOrThrow("plain_text")),
+                        plain_text = c.getString(c.getColumnIndexOrThrow("plain_text")),
                         formattedJson = c.getString(c.getColumnIndexOrThrow("formatted_json"))
                     )
                 } else null
@@ -124,42 +124,74 @@ class CatechismRawDatabase private constructor(private val db: SQLiteDatabase?) 
 
     fun search(query: String, limit: Int = 50): List<CccSearchResultEntity> {
         if (db == null || !db.isOpen || query.isBlank()) return emptyList()
-        return try {
-            // Use FTS5 MATCH with snippet for highlighting
-            // We explicitly match against the plain_text column
-            val sql = """
-                SELECT number, toc_path, snippet(ccc_fts, 2, '<b>', '</b>', '...', 20) as snippet
-                FROM ccc_fts 
-                WHERE plain_text MATCH ? 
-                ORDER BY rank 
-                LIMIT ?
-            """.trimIndent()
-            
-            // Basic sanitization and multi-word prefix matching
-            val sanitizedQuery = query.replace("\"", "").trim()
-            val ftsQuery = sanitizedQuery.split(" ")
-                .filter { it.isNotBlank() }
-                .joinToString(" ") { "$it*" }
+        Log.d("CatechismSearch", "--- SEARCH START ---")
+        Log.d("CatechismSearch", "Raw Query: '$query'")
+        
+        val results = mutableListOf<CccSearchResultEntity>()
+        val sanitizedQuery = query.replace("\"", "").trim()
+        val words = sanitizedQuery.split(" ").filter { it.isNotBlank() }
 
-            val cursor = db.rawQuery(sql, arrayOf(ftsQuery, limit.toString()))
+        // 1. Try FTS Search (with specific Android version compatibility logic)
+        try {
+            // Syntax A: Column filter
+            val ftsQueryA = if (words.size == 1) "plain_text:${words[0]}*" else "plain_text:(${words.joinToString(" ") { "$it*" }})"
+            // Syntax B: Global match
+            val ftsQueryB = words.joinToString(" AND ") { "$it*" }
+
+            val trySyntaxes = listOf(ftsQueryA, ftsQueryB)
             
-            cursor.use { c ->
-                val results = mutableListOf<CccSearchResultEntity>()
-                while (c.moveToNext()) {
-                    results.add(
-                        CccSearchResultEntity(
-                            number = c.getInt(c.getColumnIndexOrThrow("number")),
-                            tocPath = c.getString(c.getColumnIndexOrThrow("toc_path")),
-                            snippet = c.getString(c.getColumnIndexOrThrow("snippet"))
-                        )
-                    )
+            for (syntax in trySyntaxes) {
+                try {
+                    Log.d("CatechismSearch", "Trying FTS Syntax: $syntax")
+                    // Note: ccc_fts is currently FTS5 in asset, but we'll try to prepare it
+                    val sql = "SELECT number, toc_path, snippet(ccc_fts, 2, '<b>', '</b>', '...', 25) as snippet FROM ccc_fts WHERE ccc_fts MATCH ? ORDER BY rank LIMIT ?"
+                    db.rawQuery(sql, arrayOf(syntax, limit.toString())).use { c ->
+                        if (c.count > 0) {
+                            Log.d("CatechismSearch", "FOUND ${c.count} results with FTS")
+                            while (c.moveToNext()) {
+                                results.add(CccSearchResultEntity(
+                                    number = c.getInt(c.getColumnIndexOrThrow("number")),
+                                    tocPath = c.getString(c.getColumnIndexOrThrow("toc_path")),
+                                    snippet = c.getString(c.getColumnIndexOrThrow("snippet"))
+                                ))
+                            }
+                            return results
+                        }
+                    }
+                } catch (e: Exception) {
+                    Log.w("CatechismSearch", "FTS syntax failed, trying next or falling back. Error: ${e.message}")
+                    // Continue to next syntax or fallback
                 }
-                results
             }
         } catch (e: Exception) {
-            Log.e("CatechismRawDatabase", "Error searching for '$query'", e)
-            emptyList()
+            Log.e("CatechismSearch", "General FTS failure", e)
         }
+
+        // 2. ULTIMATE FALLBACK: Simple LIKE query (Guaranteed to work if FTS5 is missing)
+        try {
+            Log.w("CatechismSearch", "FTS unavailable or found 0 results. Falling back to deep scan (LIKE).")
+            val likeSql = "SELECT number, toc_path, plain_text FROM ccc_paragraphs WHERE plain_text LIKE ? OR toc_path LIKE ? LIMIT ?"
+            db.rawQuery(likeSql, arrayOf("%$sanitizedQuery%", "%$sanitizedQuery%", limit.toString())).use { c ->
+                Log.d("CatechismSearch", "LIKE query found ${c.count} results")
+                while (c.moveToNext()) {
+                    val text = c.getString(c.getColumnIndexOrThrow("plain_text"))
+                    val start = text.lowercase().indexOf(sanitizedQuery.lowercase()).coerceAtLeast(0)
+                    val end = (start + 120).coerceAtMost(text.length)
+                    val snippet = "...${text.substring(start, end)}..."
+                    results.add(CccSearchResultEntity(
+                        number = c.getInt(c.getColumnIndexOrThrow("number")),
+                        tocPath = c.getString(c.getColumnIndexOrThrow("toc_path")),
+                        snippet = snippet.replace(sanitizedQuery, "<b>$sanitizedQuery</b>", ignoreCase = true)
+                    ))
+                }
+            }
+        } catch (e: Exception) {
+            Log.e("CatechismRawDatabase", "LIKE search also failed (serious DB error)", e)
+        } finally {
+            Log.d("CatechismSearch", "Final results size: ${results.size}")
+            Log.d("CatechismSearch", "--- SEARCH END ---")
+        }
+        return results
     }
 
     fun getAllParagraphs(): List<CccParagraphEntity> {
@@ -173,7 +205,7 @@ class CatechismRawDatabase private constructor(private val db: SQLiteDatabase?) 
                         CccParagraphEntity(
                             number = c.getInt(c.getColumnIndexOrThrow("number")),
                             tocPath = c.getString(c.getColumnIndexOrThrow("toc_path")),
-                            plainText = c.getString(c.getColumnIndexOrThrow("plain_text")),
+                            plain_text = c.getString(c.getColumnIndexOrThrow("plain_text")),
                             formattedJson = c.getString(c.getColumnIndexOrThrow("formatted_json"))
                         )
                     )
@@ -201,7 +233,6 @@ class CatechismRawDatabase private constructor(private val db: SQLiteDatabase?) 
                 INSTANCE ?: run {
                     val dbFile = File(context.filesDir, "databases/$DATABASE_NAME")
                     // Force copy for now to ensure user has the latest data and FTS index
-                    // In production, we'd check a version flag or file size
                     copyDatabaseFromAssets(context, dbFile)
 
                     val db = try {
@@ -229,6 +260,7 @@ class CatechismRawDatabase private constructor(private val db: SQLiteDatabase?) 
                         input.copyTo(output)
                     }
                 }
+                Log.d("CatechismRawDatabase", "Database copied to: ${dbFile.absolutePath}")
             } catch (e: Exception) {
                 Log.e("CatechismRawDatabase", "Error copying database from assets", e)
             }
@@ -244,7 +276,7 @@ class CatechismRawDatabase private constructor(private val db: SQLiteDatabase?) 
 data class CccParagraphEntity(
     val number: Int,
     val tocPath: String,
-    val plainText: String,
+    val plain_text: String,
     val formattedJson: String
 )
 

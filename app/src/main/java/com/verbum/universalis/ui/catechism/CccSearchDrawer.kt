@@ -92,6 +92,15 @@ fun CccSearchDrawer(
                     singleLine = true
                 )
 
+                if (query.isNotEmpty()) {
+                    Text(
+                        text = "Found ${results.size} results",
+                        style = MaterialTheme.typography.labelSmall,
+                        modifier = Modifier.padding(start = 16.dp, top = 4.dp),
+                        color = Color.Black.copy(alpha = 0.4f)
+                    )
+                }
+
                 Spacer(Modifier.height(16.dp))
 
                 // Search Results

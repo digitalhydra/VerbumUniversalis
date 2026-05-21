@@ -88,7 +88,7 @@ class CatechismViewModel @Inject constructor(
                         }
                     }
                 } catch (e: Exception) {
-                    listOf(CccElement.Text(entity.plainText))
+                    listOf(CccElement.Text(entity.plain_text))
                 }
 
                 _uiState.value = CccParagraphUiState(
@@ -121,8 +121,18 @@ class CatechismViewModel @Inject constructor(
             _searchResults.value = emptyList()
             return
         }
+        
+        // Debug: Hardcode a result to test UI binding if DB fails
+        if (query.lowercase() == "debug") {
+            _searchResults.value = listOf(
+                CccSearchResultEntity(26, "DEBUG MODE", "This is a <b>fake</b> result to test if UI works.")
+            )
+            return
+        }
+
         viewModelScope.launch(Dispatchers.IO) {
-            _searchResults.value = repository.search(query)
+            val dbResults = repository.search(query)
+            _searchResults.value = dbResults
         }
     }
 }
