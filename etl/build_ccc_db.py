@@ -599,13 +599,12 @@ def main():
         CREATE INDEX idx_ccc_tags_tag ON ccc_tags(tag);
         CREATE INDEX idx_ccc_tags_ccc ON ccc_tags(ccc_number);
         
-        -- FTS5 full-text search
-        CREATE VIRTUAL TABLE ccc_fts USING fts5(
+        -- Use FTS4 for broader Android compatibility (FTS5 missing on some devices)
+        CREATE VIRTUAL TABLE ccc_fts USING fts4(
             number,
             toc_path,
             plain_text,
-            content='ccc_paragraphs',
-            content_rowid='number'
+            tokenize=porter
         );
         
         -- Triggers to keep FTS in sync
