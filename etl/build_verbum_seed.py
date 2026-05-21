@@ -276,7 +276,7 @@ def parse_lzss_nt_module(module_dir):
     return result
 
 
-def parse_with_pysword(module_dir, testament, source_type='OSIS'):
+def parse_with_pysword(module_dir, testament, source_type='OSIS', versification='vulg'):
     """
     Parse ZIP-compressed SWORD module using pysword.
     Returns {(book_code, chapter, verse): text}.
@@ -296,7 +296,7 @@ def parse_with_pysword(module_dir, testament, source_type='OSIS'):
         bible = SwordBible(
             module_path=str(base),
             module_type=SwordModuleType.ZTEXT,
-            versification='kjv',
+            versification=versification,
             encoding='utf-8',
             source_type=source_type,
             compress_type='ZIP'
@@ -1014,14 +1014,16 @@ def main():
     for module_dir, lang_code, has_ot, has_nt, compress, source_type, desc in MODULES:
         print(f"\n  Parsing {desc} ({module_dir})...")
         if compress == 'ZIP':
+            # All Catholic modules used here (DRC, SpaPlatense, VulgClementine) use 'Vulg' versification
+            v_system = 'vulg'
             if has_ot:
-                print(f"    OT ({lang_code})...")
-                parsed = parse_with_pysword(module_dir, 'ot', source_type)
+                print(f"    OT ({lang_code}) using '{v_system}'...")
+                parsed = parse_with_pysword(module_dir, 'ot', source_type, versification=v_system)
                 print(f"    Parsed {len(parsed)} OT verses")
                 insert_texts(conn, verse_lookup, parsed, lang_code)
             if has_nt:
-                print(f"    NT ({lang_code})...")
-                parsed = parse_with_pysword(module_dir, 'nt', source_type)
+                print(f"    NT ({lang_code}) using '{v_system}'...")
+                parsed = parse_with_pysword(module_dir, 'nt', source_type, versification=v_system)
                 print(f"    Parsed {len(parsed)} NT verses")
                 insert_texts(conn, verse_lookup, parsed, lang_code)
         else:
