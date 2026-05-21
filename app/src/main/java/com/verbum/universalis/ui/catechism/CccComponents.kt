@@ -5,9 +5,14 @@ import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.text.ClickableText
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.ArrowBack
+import androidx.compose.ui.text.SpanStyle
+import androidx.compose.ui.text.buildAnnotatedString
+import androidx.compose.ui.text.style.TextDecoration
+import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.filled.Check
+import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material.icons.outlined.BookmarkBorder
 import androidx.compose.material3.*
@@ -21,16 +26,28 @@ import androidx.compose.ui.unit.sp
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun CccTopBar(onBack: () -> Unit) {
+fun CccTopBar(
+    isRead: Boolean,
+    onToggleRead: () -> Unit,
+    onSearchClick: () -> Unit,
+    onBack: () -> Unit
+) {
     TopAppBar(
         title = { Text("CATECHISM", style = MaterialTheme.typography.titleMedium.copy(letterSpacing = 2.sp)) },
         navigationIcon = {
             IconButton(onClick = onBack) {
-                Icon(Icons.Default.ArrowBack, contentDescription = "Back")
+                Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back")
             }
         },
         actions = {
-            IconButton(onClick = { /* TODO */ }) {
+            IconButton(onClick = onToggleRead) {
+                Icon(
+                    imageVector = if (isRead) Icons.Default.CheckCircle else Icons.Default.Check,
+                    contentDescription = if (isRead) "Mark as unread" else "Mark as read",
+                    tint = if (isRead) Color(0xFF5D8B5D) else Color.Unspecified
+                )
+            }
+            IconButton(onClick = onSearchClick) {
                 Icon(Icons.Default.Search, contentDescription = "Search")
             }
             IconButton(onClick = { /* TODO */ }) {
@@ -41,45 +58,6 @@ fun CccTopBar(onBack: () -> Unit) {
             containerColor = Color(0xFFFDF7E7) // Parchment color
         )
     )
-}
-
-@Composable
-fun ReadToggleButton(isRead: Boolean, onToggle: () -> Unit) {
-    Box(
-        modifier = Modifier
-            .fillMaxWidth()
-            .padding(16.dp),
-        contentAlignment = Alignment.Center
-    ) {
-        if (!isRead) {
-            OutlinedButton(
-                onClick = onToggle,
-                modifier = Modifier.fillMaxWidth(0.8f),
-                shape = RoundedCornerShape(8.dp),
-                border = ButtonDefaults.outlinedButtonBorder.copy(brush = androidx.compose.ui.graphics.SolidColor(Color(0xFF2E5E8A))),
-                colors = ButtonDefaults.outlinedButtonColors(contentColor = Color(0xFF2E5E8A))
-            ) {
-                Row(verticalAlignment = Alignment.CenterVertically) {
-                    Icon(Icons.Default.Check, contentDescription = null, modifier = Modifier.size(18.dp))
-                    Spacer(Modifier.width(8.dp))
-                    Text("MARK AS READ", fontWeight = FontWeight.SemiBold)
-                }
-            }
-        } else {
-            Button(
-                onClick = onToggle,
-                modifier = Modifier.fillMaxWidth(0.8f),
-                shape = RoundedCornerShape(8.dp),
-                colors = ButtonDefaults.buttonColors(containerColor = Color(0xFF5D8B5D))
-            ) {
-                Row(verticalAlignment = Alignment.CenterVertically) {
-                    Icon(Icons.Default.Check, contentDescription = null, modifier = Modifier.size(18.dp))
-                    Spacer(Modifier.width(8.dp))
-                    Text("READ", fontWeight = FontWeight.SemiBold)
-                }
-            }
-        }
-    }
 }
 
 @Composable
@@ -100,18 +78,55 @@ fun CccReferencePanel(
         )
         Spacer(Modifier.height(8.dp))
         footnotes.forEach { footnote ->
-            Text(
-                text = "${footnote.id}. ${footnote.text}",
+            val annotatedFootnote = buildAnnotatedString {
+                append("${footnote.id}. ")
+                val startOffset = length
+                append(footnote.text)
+                
+                footnote.bibleRefs.forEach { ref ->
+                    val totalStart = startOffset + ref.position
+                    val totalEnd = totalStart + ref.length
+                    
+                    // Safety check for bounds
+                    if (totalStart < length && totalEnd <= length) {
+                        addStyle(
+                            style = SpanStyle(
+                                color = Color(0xFF2E5E8A),
+                                textDecoration = TextDecoration.Underline
+                            ),
+                            start = totalStart,
+                            end = totalEnd
+                        )
+                        addStringAnnotation(
+                            tag = "BIBLE_REF",
+                            annotation = "${ref.bookId}:${ref.chapter}:${ref.verse ?: ""}",
+                            start = totalStart,
+                            end = totalEnd
+                        )
+                    }
+                }
+            }
+
+            ClickableText(
+                text = annotatedFootnote,
                 style = MaterialTheme.typography.bodySmall,
                 modifier = Modifier
                     .fillMaxWidth()
-                    .clickable(enabled = footnote.bookId != null) {
-                        footnote.bookId?.let { bookId ->
-                            onNavigateToBibleRef(bookId, footnote.chapter ?: 1, footnote.verse)
-                        }
-                    }
                     .padding(vertical = 4.dp),
-                color = if (footnote.bookId != null) Color(0xFF2E5E8A) else Color.Unspecified
+                onClick = { offset ->
+                    annotatedFootnote.getStringAnnotations(tag = "BIBLE_REF", start = offset, end = offset)
+                        .firstOrNull()?.let { annotation ->
+                            val parts = annotation.item.split(":")
+                            if (parts.size >= 2) {
+                                val bookId = parts[0].toIntOrNull()
+                                val chapter = parts[1].toIntOrNull()
+                                val verse = if (parts.size > 2) parts[2].toIntOrNull() else null
+                                if (bookId != null && chapter != null) {
+                                    onNavigateToBibleRef(bookId, chapter, verse)
+                                }
+                            }
+                        }
+                }
             )
         }
     }

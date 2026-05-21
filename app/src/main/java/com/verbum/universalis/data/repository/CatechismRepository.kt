@@ -6,6 +6,7 @@ import com.verbum.universalis.data.db.CccBibleRefEntity
 import com.verbum.universalis.data.db.CccFootnoteBibleRefEntity
 import com.verbum.universalis.data.db.CccFootnoteEntity
 import com.verbum.universalis.data.db.CccParagraphEntity
+import com.verbum.universalis.data.db.CccSearchResultEntity
 import com.verbum.universalis.ui.catechism.CccTocNode
 import dagger.hilt.android.qualifiers.ApplicationContext
 import javax.inject.Inject
@@ -31,6 +32,10 @@ class CatechismRepository @Inject constructor(
 
     fun getFootnoteBibleRefs(footnoteId: Int): List<CccFootnoteBibleRefEntity> {
         return db().getFootnoteBibleRefs(footnoteId)
+    }
+
+    fun search(query: String): List<CccSearchResultEntity> {
+        return db().search(query)
     }
 
     fun getTocTree(): List<CccTocNode> {

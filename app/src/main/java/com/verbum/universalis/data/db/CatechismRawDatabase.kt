@@ -122,6 +122,46 @@ class CatechismRawDatabase private constructor(private val db: SQLiteDatabase?) 
         }
     }
 
+    fun search(query: String, limit: Int = 50): List<CccSearchResultEntity> {
+        if (db == null || !db.isOpen || query.isBlank()) return emptyList()
+        return try {
+            // Use FTS5 MATCH with snippet for highlighting
+            // We explicitly match against the plain_text column
+            val sql = """
+                SELECT number, toc_path, snippet(ccc_fts, 2, '<b>', '</b>', '...', 20) as snippet
+                FROM ccc_fts 
+                WHERE plain_text MATCH ? 
+                ORDER BY rank 
+                LIMIT ?
+            """.trimIndent()
+            
+            // Basic sanitization and multi-word prefix matching
+            val sanitizedQuery = query.replace("\"", "").trim()
+            val ftsQuery = sanitizedQuery.split(" ")
+                .filter { it.isNotBlank() }
+                .joinToString(" ") { "$it*" }
+
+            val cursor = db.rawQuery(sql, arrayOf(ftsQuery, limit.toString()))
+            
+            cursor.use { c ->
+                val results = mutableListOf<CccSearchResultEntity>()
+                while (c.moveToNext()) {
+                    results.add(
+                        CccSearchResultEntity(
+                            number = c.getInt(c.getColumnIndexOrThrow("number")),
+                            tocPath = c.getString(c.getColumnIndexOrThrow("toc_path")),
+                            snippet = c.getString(c.getColumnIndexOrThrow("snippet"))
+                        )
+                    )
+                }
+                results
+            }
+        } catch (e: Exception) {
+            Log.e("CatechismRawDatabase", "Error searching for '$query'", e)
+            emptyList()
+        }
+    }
+
     fun getAllParagraphs(): List<CccParagraphEntity> {
         if (db == null || !db.isOpen) return emptyList()
         return try {
@@ -160,9 +200,9 @@ class CatechismRawDatabase private constructor(private val db: SQLiteDatabase?) 
             return INSTANCE ?: synchronized(this) {
                 INSTANCE ?: run {
                     val dbFile = File(context.filesDir, "databases/$DATABASE_NAME")
-                    if (!dbFile.exists()) {
-                        copyDatabaseFromAssets(context, dbFile)
-                    }
+                    // Force copy for now to ensure user has the latest data and FTS index
+                    // In production, we'd check a version flag or file size
+                    copyDatabaseFromAssets(context, dbFile)
 
                     val db = try {
                         SQLiteDatabase.openDatabase(
@@ -237,4 +277,10 @@ data class CccFootnoteBibleRefEntity(
     val refText: String,
     val refPosition: Int,
     val refLength: Int
+)
+
+data class CccSearchResultEntity(
+    val number: Int,
+    val tocPath: String,
+    val snippet: String
 )

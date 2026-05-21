@@ -12,7 +12,6 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontStyle
@@ -35,6 +34,9 @@ fun CatechismScreen(
     viewModel: CatechismViewModel = hiltViewModel()
 ) {
     val uiState by viewModel.uiState.collectAsState()
+    val isSearchVisible by viewModel.isSearching.collectAsState()
+    val searchQuery by viewModel.searchQuery.collectAsState()
+    val searchResults by viewModel.searchResults.collectAsState()
     val scrollState = rememberScrollState()
 
     LaunchedEffect(paragraphNumber) {
@@ -42,128 +44,147 @@ fun CatechismScreen(
     }
 
     VerbumTheme {
-        Scaffold(
-            topBar = { CccTopBar(onBack) },
-            bottomBar = {
-                BottomAppBar(
-                    containerColor = Color(0xFFFDF7E7),
-                    contentPadding = PaddingValues(horizontal = 16.dp)
-                ) {
-                    Row(
-                        modifier = Modifier.fillMaxWidth(),
-                        horizontalArrangement = Arrangement.SpaceBetween
+        Box(modifier = Modifier.fillMaxSize()) {
+            Scaffold(
+                topBar = {
+                    CccTopBar(
+                        isRead = uiState?.isRead ?: false,
+                        onToggleRead = { viewModel.toggleRead() },
+                        onSearchClick = { viewModel.setSearchVisible(true) },
+                        onBack = onBack
+                    )
+                },
+                bottomBar = {
+                    BottomAppBar(
+                        containerColor = Color(0xFFFDF7E7),
+                        contentPadding = PaddingValues(horizontal = 16.dp)
                     ) {
-                        TextButton(onClick = { uiState?.number?.let { if (it > 1) onNavigateToParagraph(it - 1) } }) {
-                            Text("← Prev")
-                        }
-                        Text(
-                            "¶ ${uiState?.number ?: ""}/2865",
-                            modifier = Modifier.padding(top = 12.dp)
-                        )
-                        TextButton(onClick = { uiState?.number?.let { if (it < 2865) onNavigateToParagraph(it + 1) } }) {
-                            Text("Next →")
+                        Row(
+                            modifier = Modifier.fillMaxWidth(),
+                            horizontalArrangement = Arrangement.SpaceBetween
+                        ) {
+                            TextButton(onClick = { uiState?.number?.let { if (it > 1) onNavigateToParagraph(it - 1) } }) {
+                                Text("← Prev")
+                            }
+                            Text(
+                                "¶ ${uiState?.number ?: ""}/2865",
+                                modifier = Modifier.padding(top = 12.dp)
+                            )
+                            TextButton(onClick = { uiState?.number?.let { if (it < 2865) onNavigateToParagraph(it + 1) } }) {
+                                Text("Next →")
+                            }
                         }
                     }
                 }
-            }
-        ) { paddingValues ->
-            Box(
-                modifier = Modifier
-                    .fillMaxSize()
-                    .padding(paddingValues)
-                    .background(Color(0xFFFDF7E7)) // Parchment background
-            ) {
-                uiState?.let { state ->
-                    Column(
-                        modifier = Modifier
-                            .fillMaxSize()
-                            .verticalScroll(scrollState)
-                    ) {
-                        ReadToggleButton(isRead = state.isRead, onToggle = { viewModel.toggleRead() })
-
-                        Column(modifier = Modifier.padding(horizontal = 24.dp)) {
-                            Text(
-                                text = "№ ${state.number}.",
-                                style = MaterialTheme.typography.headlineMedium.copy(
-                                    fontFamily = SourceSerifPro,
-                                    fontSize = 24.sp
+            ) { paddingValues ->
+                Box(
+                    modifier = Modifier
+                        .fillMaxSize()
+                        .padding(paddingValues)
+                        .background(Color(0xFFFDF7E7)) // Parchment background
+                ) {
+                    uiState?.let { state ->
+                        Column(
+                            modifier = Modifier
+                                .fillMaxSize()
+                                .verticalScroll(scrollState)
+                        ) {
+                            Column(modifier = Modifier.padding(horizontal = 24.dp, vertical = 24.dp)) {
+                                Text(
+                                    text = "№ ${state.number}.",
+                                    style = MaterialTheme.typography.headlineMedium.copy(
+                                        fontFamily = SourceSerifPro,
+                                        fontSize = 24.sp
+                                    )
                                 )
-                            )
-                            Text(
-                                text = state.title,
-                                style = MaterialTheme.typography.headlineMedium.copy(
-                                    fontFamily = SourceSerifPro,
-                                    fontWeight = FontWeight.Bold,
-                                    fontSize = 20.sp
-                                ),
-                                modifier = Modifier.padding(bottom = 16.dp)
-                            )
+                                Text(
+                                    text = state.title,
+                                    style = MaterialTheme.typography.headlineMedium.copy(
+                                        fontFamily = SourceSerifPro,
+                                        fontWeight = FontWeight.Bold,
+                                        fontSize = 20.sp
+                                    ),
+                                    modifier = Modifier.padding(bottom = 16.dp)
+                                )
 
-                            val annotatedBody = buildAnnotatedString {
-                                state.elements.forEach { element ->
-                                    when (element) {
-                                        is CccElement.Text -> {
-                                            withStyle(
-                                                style = SpanStyle(
-                                                    fontWeight = if (element.b) FontWeight.Bold else FontWeight.Normal,
-                                                    fontStyle = if (element.i) FontStyle.Italic else FontStyle.Normal
-                                                )
-                                            ) {
-                                                append(element.text)
+                                val annotatedBody = buildAnnotatedString {
+                                    state.elements.forEach { element ->
+                                        when (element) {
+                                            is CccElement.Text -> {
+                                                withStyle(
+                                                    style = SpanStyle(
+                                                        fontWeight = if (element.b) FontWeight.Bold else FontWeight.Normal,
+                                                        fontStyle = if (element.i) FontStyle.Italic else FontStyle.Normal
+                                                    )
+                                                ) {
+                                                    append(element.text)
+                                                }
                                             }
-                                        }
-                                        is CccElement.BibleRef -> {
-                                            pushStringAnnotation(tag = "BIBLE_REF", annotation = "${element.bookId}:${element.chapter}:${element.verseStart}")
-                                            withStyle(
-                                                style = SpanStyle(
-                                                    color = Color(0xFF2E5E8A),
-                                                    textDecoration = TextDecoration.Underline
-                                                )
-                                            ) {
-                                                append(element.refText)
+                                            is CccElement.BibleRef -> {
+                                                pushStringAnnotation(tag = "BIBLE_REF", annotation = "${element.bookId}:${element.chapter}:${element.verseStart}")
+                                                withStyle(
+                                                    style = SpanStyle(
+                                                        color = Color(0xFF2E5E8A),
+                                                        textDecoration = TextDecoration.Underline
+                                                    )
+                                                ) {
+                                                    append(element.refText)
+                                                }
+                                                pop()
                                             }
-                                            pop()
-                                        }
-                                        is CccElement.CccRef -> {
-                                            // Handle CCC cross-refs if needed
+                                            is CccElement.CccRef -> {
+                                                // Handle CCC cross-refs if needed
+                                            }
                                         }
                                     }
                                 }
-                            }
 
-                            ClickableText(
-                                text = annotatedBody,
-                                style = MaterialTheme.typography.bodyLarge.copy(
-                                    fontFamily = SourceSerifPro,
-                                    lineHeight = 28.sp,
-                                    fontSize = 18.sp
-                                ),
-                                onClick = { offset ->
-                                    annotatedBody.getStringAnnotations(tag = "BIBLE_REF", start = offset, end = offset)
-                                        .firstOrNull()?.let { annotation ->
-                                            val parts = annotation.item.split(":")
-                                            if (parts.size >= 3) {
-                                                val bookId = parts[0].toIntOrNull()
-                                                val chapter = parts[1].toIntOrNull()
-                                                val verse = parts[2].toIntOrNull()
-                                                if (bookId != null && chapter != null) {
-                                                    onNavigateToBibleRef(bookId, chapter, verse)
+                                ClickableText(
+                                    text = annotatedBody,
+                                    style = MaterialTheme.typography.bodyLarge.copy(
+                                        fontFamily = SourceSerifPro,
+                                        lineHeight = 28.sp,
+                                        fontSize = 18.sp
+                                    ),
+                                    onClick = { offset ->
+                                        annotatedBody.getStringAnnotations(tag = "BIBLE_REF", start = offset, end = offset)
+                                            .firstOrNull()?.let { annotation ->
+                                                val parts = annotation.item.split(":")
+                                                if (parts.size >= 3) {
+                                                    val bookId = parts[0].toIntOrNull()
+                                                    val chapter = parts[1].toIntOrNull()
+                                                    val verse = parts[2].toIntOrNull()
+                                                    if (bookId != null && chapter != null) {
+                                                        onNavigateToBibleRef(bookId, chapter, verse)
+                                                    }
                                                 }
                                             }
-                                        }
-                                }
-                            )
-                        }
+                                    }
+                                )
+                            }
 
-                        Spacer(Modifier.height(32.dp))
-                        CccReferencePanel(
-                            footnotes = state.footnotes,
-                            onNavigateToBibleRef = onNavigateToBibleRef
-                        )
-                        Spacer(Modifier.height(16.dp))
+                            Spacer(Modifier.height(32.dp))
+                            CccReferencePanel(
+                                footnotes = state.footnotes,
+                                onNavigateToBibleRef = onNavigateToBibleRef
+                            )
+                            Spacer(Modifier.height(16.dp))
+                        }
                     }
                 }
             }
+
+            CccSearchDrawer(
+                isVisible = isSearchVisible,
+                query = searchQuery,
+                results = searchResults,
+                onQueryChange = { viewModel.performSearch(it) },
+                onResultClick = { num ->
+                    viewModel.setSearchVisible(false)
+                    onNavigateToParagraph(num)
+                },
+                onClose = { viewModel.setSearchVisible(false) }
+            )
         }
     }
 }

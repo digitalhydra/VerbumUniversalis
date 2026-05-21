@@ -6,7 +6,7 @@ import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.ArrowBack
+import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
@@ -28,38 +28,55 @@ fun CccTocScreen(
     viewModel: CatechismViewModel = hiltViewModel()
 ) {
     val tocItems by viewModel.tocItems.collectAsState()
+    val isSearchVisible by viewModel.isSearching.collectAsState()
+    val searchQuery by viewModel.searchQuery.collectAsState()
+    val searchResults by viewModel.searchResults.collectAsState()
 
     VerbumTheme {
-        Scaffold(
-            topBar = {
-                TopAppBar(
-                    title = { Text("CATECHISM", style = MaterialTheme.typography.titleMedium.copy(letterSpacing = 2.sp)) },
-                    navigationIcon = {
-                        IconButton(onClick = onBack) {
-                            Icon(Icons.Default.ArrowBack, contentDescription = "Back")
-                        }
-                    },
-                    actions = {
-                        IconButton(onClick = { /* TODO */ }) {
-                            Icon(Icons.Default.Search, contentDescription = "Search")
-                        }
-                    },
-                    colors = TopAppBarDefaults.topAppBarColors(
-                        containerColor = Color(0xFFFDF7E7)
+        Box(modifier = Modifier.fillMaxSize()) {
+            Scaffold(
+                topBar = {
+                    TopAppBar(
+                        title = { Text("CATECHISM", style = MaterialTheme.typography.titleMedium.copy(letterSpacing = 2.sp)) },
+                        navigationIcon = {
+                            IconButton(onClick = onBack) {
+                                Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back")
+                            }
+                        },
+                        actions = {
+                            IconButton(onClick = { viewModel.setSearchVisible(true) }) {
+                                Icon(Icons.Default.Search, contentDescription = "Search")
+                            }
+                        },
+                        colors = TopAppBarDefaults.topAppBarColors(
+                            containerColor = Color(0xFFFDF7E7)
+                        )
                     )
-                )
-            }
-        ) { paddingValues ->
-            LazyColumn(
-                modifier = Modifier
-                    .fillMaxSize()
-                    .padding(paddingValues)
-                    .background(Color(0xFFFDF7E7))
-            ) {
-                items(tocItems) { node ->
-                    TocItem(node, onParagraphClick)
+                }
+            ) { paddingValues ->
+                LazyColumn(
+                    modifier = Modifier
+                        .fillMaxSize()
+                        .padding(paddingValues)
+                        .background(Color(0xFFFDF7E7))
+                ) {
+                    items(tocItems) { node ->
+                        TocItem(node, onParagraphClick)
+                    }
                 }
             }
+
+            CccSearchDrawer(
+                isVisible = isSearchVisible,
+                query = searchQuery,
+                results = searchResults,
+                onQueryChange = { viewModel.performSearch(it) },
+                onResultClick = { num ->
+                    viewModel.setSearchVisible(false)
+                    onParagraphClick(num)
+                },
+                onClose = { viewModel.setSearchVisible(false) }
+            )
         }
     }
 }

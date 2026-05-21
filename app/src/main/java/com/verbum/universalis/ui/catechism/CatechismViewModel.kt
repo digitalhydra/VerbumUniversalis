@@ -2,6 +2,7 @@ package com.verbum.universalis.ui.catechism
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.verbum.universalis.data.db.CccSearchResultEntity
 import com.verbum.universalis.data.repository.CatechismRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
@@ -24,6 +25,15 @@ class CatechismViewModel @Inject constructor(
     private val _tocItems = MutableStateFlow<List<CccTocNode>>(emptyList())
     val tocItems: StateFlow<List<CccTocNode>> = _tocItems.asStateFlow()
 
+    private val _searchResults = MutableStateFlow<List<CccSearchResultEntity>>(emptyList())
+    val searchResults: StateFlow<List<CccSearchResultEntity>> = _searchResults.asStateFlow()
+
+    private val _isSearching = MutableStateFlow(false)
+    val isSearching: StateFlow<Boolean> = _isSearching.asStateFlow()
+
+    private val _searchQuery = MutableStateFlow("")
+    val searchQuery: StateFlow<String> = _searchQuery.asStateFlow()
+
     private val json = Json { ignoreUnknownKeys = true }
 
     init {
@@ -39,17 +49,20 @@ class CatechismViewModel @Inject constructor(
                 // Fetch text-based footnotes from ccc_footnotes
                 val footnoteEntities = repository.getFootnotesForParagraph(number)
                 val footnotes = footnoteEntities.map { fe ->
-                    val bibleRefs = repository.getFootnoteBibleRefs(fe.id)
-                    // If multiple bible refs in one footnote, for now we just link to the first one 
-                    // or maybe we should handle multiple links? 
-                    // Given the Footnote UI, it's one link per footnote item.
-                    val firstRef = bibleRefs.firstOrNull()
+                    val bibleRefs = repository.getFootnoteBibleRefs(fe.id).map { br ->
+                        FootnoteBibleRef(
+                            bookId = br.bookId,
+                            chapter = br.chapter,
+                            verse = br.verseStart,
+                            refText = br.refText,
+                            position = br.refPosition,
+                            length = br.refLength
+                        )
+                    }
                     Footnote(
                         id = fe.footnoteNumber,
                         text = fe.footnoteText,
-                        bookId = firstRef?.bookId,
-                        chapter = firstRef?.chapter,
-                        verse = firstRef?.verseStart
+                        bibleRefs = bibleRefs
                     )
                 }
                 
@@ -92,6 +105,25 @@ class CatechismViewModel @Inject constructor(
 
     fun toggleRead() {
         _uiState.value = _uiState.value?.let { it.copy(isRead = !it.isRead) }
+    }
+
+    fun setSearchVisible(visible: Boolean) {
+        _isSearching.value = visible
+        if (!visible) {
+            _searchQuery.value = ""
+            _searchResults.value = emptyList()
+        }
+    }
+
+    fun performSearch(query: String) {
+        _searchQuery.value = query
+        if (query.length < 3) {
+            _searchResults.value = emptyList()
+            return
+        }
+        viewModelScope.launch(Dispatchers.IO) {
+            _searchResults.value = repository.search(query)
+        }
     }
 }
 

@@ -12,12 +12,19 @@ sealed class CccElement {
     data class CccRef(val refNumber: Int) : CccElement()
 }
 
+data class FootnoteBibleRef(
+    val bookId: Int,
+    val chapter: Int,
+    val verse: Int?,
+    val refText: String,
+    val position: Int,
+    val length: Int
+)
+
 data class Footnote(
     val id: Int,
     val text: String,
-    val bookId: Int? = null,
-    val chapter: Int? = null,
-    val verse: Int? = null
+    val bibleRefs: List<FootnoteBibleRef> = emptyList()
 )
 
 data class CccTocNode(
