@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/app_logo"
+        android:gravity="center"
+        android:width="135dp"
+        android:height="135dp"
+        android:top="55dp"
+        android:bottom="55dp"
+        android:left="55dp"
+        android:right="55dp" />
+</layer-list>
