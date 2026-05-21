@@ -1,0 +1,444 @@
+{
+  "source": "Catechism of the Catholic Church - Abbreviations",
+  "url": "http://www.scborromeo.org/ccc/abbrev.htm",
+  "abbreviations": {
+    "AA": {
+      "abbreviation": "AA",
+      "full": "Apostolicam actositatem",
+      "type": "Council Document"
+    },
+    "AAS": {
+      "abbreviation": "AAS",
+      "full": "Acta Apostolicae Sedis",
+      "type": "Publication"
+    },
+    "AF": {
+      "abbreviation": "AF",
+      "full": "J.B. Lightfoot, ed., The Apostolic Fathers (New York: Macmillan, 1889-1890)",
+      "type": "Book"
+    },
+    "AG": {
+      "abbreviation": "AG",
+      "full": "Ad gentes",
+      "type": "Council Document"
+    },
+    "Ben": {
+      "abbreviation": "Ben",
+      "full": "de Benedictionibus",
+      "type": "Liturgical Book"
+    },
+    "CA": {
+      "abbreviation": "CA",
+      "full": "Centesimus annus",
+      "type": "Encyclical"
+    },
+    "Catech. R.": {
+      "abbreviation": "Catech. R.",
+      "full": "Catechismus Romanus",
+      "type": "Catechism"
+    },
+    "CCEO": {
+      "abbreviation": "CCEO",
+      "full": "Corpus Canonum Ecclisarum Orientalium",
+      "type": "Code of Law"
+    },
+    "CCL": {
+      "abbreviation": "CCL",
+      "full": "Corpus Christianorum, Series Latina (Turhout, 1953- )",
+      "type": "Publication Series"
+    },
+    "CD": {
+      "abbreviation": "CD",
+      "full": "Christus Dominus",
+      "type": "Council Document"
+    },
+    "CDF": {
+      "abbreviation": "CDF",
+      "full": "Congregation for the Doctrine of the faith",
+      "type": "Vatican Congregation"
+    },
+    "CELAM": {
+      "abbreviation": "CELAM",
+      "full": "Consejo Episcopal Latinoamericano",
+      "type": "Organization"
+    },
+    "CIC": {
+      "abbreviation": "CIC",
+      "full": "Codex Iuris Canonici",
+      "type": "Code of Law"
+    },
+    "CL": {
+      "abbreviation": "CL",
+      "full": "Christifideles laici",
+      "type": "Apostolic Exhortation"
+    },
+    "COD": {
+      "abbreviation": "COD",
+      "full": "Conciloirum oecumenicorum decreta",
+      "type": "Book"
+    },
+    "CPG": {
+      "abbreviation": "CPG",
+      "full": "Solemn Profession of faith: Credo of the People of God",
+      "type": "Profession of Faith"
+    },
+    "CSEL": {
+      "abbreviation": "CSEL",
+      "full": "Corpus Scriptorum Ecclesiasticorum Latinorum (Vineea, 1866- )",
+      "type": "Publication Series"
+    },
+    "CT": {
+      "abbreviation": "CT",
+      "full": "Catechesi tradendae",
+      "type": "Apostolic Exhortation"
+    },
+    "DeV": {
+      "abbreviation": "DeV",
+      "full": "Dominum et Vivificanum",
+      "type": "Encyclical"
+    },
+    "DH": {
+      "abbreviation": "DH",
+      "full": "Dignitatis humanae",
+      "type": "Council Document"
+    },
+    "DM": {
+      "abbreviation": "DM",
+      "full": "Dives in misericordia",
+      "type": "Encyclical"
+    },
+    "DS": {
+      "abbreviation": "DS",
+      "full": "Denzinger-Schonmetzer, Enchiridion Symbolorum, definitionum et declarationum de rebus fidei et morum (1965)",
+      "type": "Book"
+    },
+    "DV": {
+      "abbreviation": "DV",
+      "full": "Dei Verbum",
+      "type": "Council Document"
+    },
+    "EN": {
+      "abbreviation": "EN",
+      "full": "Evangelii nuntiandi",
+      "type": "Apostolic Exhortation"
+    },
+    "EP": {
+      "abbreviation": "EP",
+      "full": "Eucharistic Prayer",
+      "type": "Liturgy"
+    },
+    "FC": {
+      "abbreviation": "FC",
+      "full": "Familiaris consortio",
+      "type": "Apostolic Exhortation"
+    },
+    "GCD": {
+      "abbreviation": "GCD",
+      "full": "General Catechetical Directory",
+      "type": "Directory"
+    },
+    "GE": {
+      "abbreviation": "GE",
+      "full": "Gravissimum educationis",
+      "type": "Council Document"
+    },
+    "GILH": {
+      "abbreviation": "GILH",
+      "full": "General Introduction to LH",
+      "type": "Liturgical Instruction"
+    },
+    "GIRM": {
+      "abbreviation": "GIRM",
+      "full": "General Instruction to RomM",
+      "type": "Liturgical Instruction"
+    },
+    "GS": {
+      "abbreviation": "GS",
+      "full": "Gaudium et spes",
+      "type": "Council Document"
+    },
+    "HV": {
+      "abbreviation": "HV",
+      "full": "Humanae vitae",
+      "type": "Encyclical"
+    },
+    "ICEL": {
+      "abbreviation": "ICEL",
+      "full": "International Commission on English in the Liturgy",
+      "type": "Commission"
+    },
+    "IM": {
+      "abbreviation": "IM",
+      "full": "Inter mirifica",
+      "type": "Council Document"
+    },
+    "LE": {
+      "abbreviation": "LE",
+      "full": "Laborem exercens",
+      "type": "Encyclical"
+    },
+    "LG": {
+      "abbreviation": "LG",
+      "full": "Lumen gentium",
+      "type": "Council Document"
+    },
+    "LH": {
+      "abbreviation": "LH",
+      "full": "Liturgy of the Hours",
+      "type": "Liturgical Book"
+    },
+    "LXX": {
+      "abbreviation": "LXX",
+      "full": "Septuagint",
+      "type": "Biblical Version"
+    },
+    "MC": {
+      "abbreviation": "MC",
+      "full": "Marialis cultus",
+      "type": "Apostolic Exhortation"
+    },
+    "MD": {
+      "abbreviation": "MD",
+      "full": "Mulieris dignitatem",
+      "type": "Apostolic Letter"
+    },
+    "MF": {
+      "abbreviation": "MF",
+      "full": "Mysterium fidei",
+      "type": "Encyclical"
+    },
+    "MM": {
+      "abbreviation": "MM",
+      "full": "Mater et magistra",
+      "type": "Encyclical"
+    },
+    "NA": {
+      "abbreviation": "NA",
+      "full": "Nostra aetate",
+      "type": "Council Document"
+    },
+    "NCCB": {
+      "abbreviation": "NCCB",
+      "full": "National Conference of Catholic Bishops (U.S.A.)",
+      "type": "Bishops' Conference"
+    },
+    "ND": {
+      "abbreviation": "ND",
+      "full": "Neuner-Dupuis, The Christian Faith in the Doctrinal Documents of the Catholic Church",
+      "type": "Book"
+    },
+    "OBA": {
+      "abbreviation": "OBA",
+      "full": "Ordo baptismi adultorum",
+      "type": "Liturgical Book"
+    },
+    "OC": {
+      "abbreviation": "OC",
+      "full": "Ordo confirmarionis",
+      "type": "Liturgical Book"
+    },
+    "OCF": {
+      "abbreviation": "OCF",
+      "full": "Order of Christian Funerals",
+      "type": "Liturgical Book"
+    },
+    "OCM": {
+      "abbreviation": "OCM",
+      "full": "Ordo celebrandi Matrimonium",
+      "type": "Liturgical Book"
+    },
+    "OCV": {
+      "abbreviation": "OCV",
+      "full": "Ordo consecrarionis virginum",
+      "type": "Liturgical Book"
+    },
+    "OE": {
+      "abbreviation": "OE",
+      "full": "Orientalium ecclesiarum",
+      "type": "Council Document"
+    },
+    "OP": {
+      "abbreviation": "OP",
+      "full": "Ordo paenitantiae",
+      "type": "Liturgical Book"
+    },
+    "OR": {
+      "abbreviation": "OR",
+      "full": "Office of Readings",
+      "type": "Liturgy"
+    },
+    "OT": {
+      "abbreviation": "OT",
+      "full": "Optatam totius",
+      "type": "Council Document"
+    },
+    "PC": {
+      "abbreviation": "PC",
+      "full": "Perfectae caritatis",
+      "type": "Council Document"
+    },
+    "PG": {
+      "abbreviation": "PG",
+      "full": "J.P. Migne, ed., Patroligia Greaca (Paris, 1867-1866)",
+      "type": "Publication Series"
+    },
+    "PL": {
+      "abbreviation": "PL",
+      "full": "J.P. Migne, ed., Patroligia Latina (Paris, 1841-1855)",
+      "type": "Publication Series"
+    },
+    "PLS": {
+      "abbreviation": "PLS",
+      "full": "J.P. Migne, ed., Patroligia Latina Supplement",
+      "type": "Publication Series"
+    },
+    "PO": {
+      "abbreviation": "PO",
+      "full": "Presbyterorum ordinis",
+      "type": "Council Document"
+    },
+    "PP": {
+      "abbreviation": "PP",
+      "full": "Populorum progressio",
+      "type": "Encyclical"
+    },
+    "PT": {
+      "abbreviation": "PT",
+      "full": "Pacem in terris",
+      "type": "Encyclical"
+    },
+    "RBC": {
+      "abbreviation": "RBC",
+      "full": "Rite of Baptism of Children",
+      "type": "Liturgical Book"
+    },
+    "RCIA": {
+      "abbreviation": "RCIA",
+      "full": "Rite of christian initiation of adults",
+      "type": "Liturgical Book"
+    },
+    "RH": {
+      "abbreviation": "RH",
+      "full": "Redemptor hominis",
+      "type": "Encyclical"
+    },
+    "RomM": {
+      "abbreviation": "RomM",
+      "full": "Roman Missal",
+      "type": "Liturgical Book"
+    },
+    "RMat": {
+      "abbreviation": "RMat",
+      "full": "Redemptoris Mater",
+      "type": "Encyclical"
+    },
+    "RMiss": {
+      "abbreviation": "RMiss",
+      "full": "Redemptoris Missio",
+      "type": "Encyclical"
+    },
+    "RP": {
+      "abbreviation": "RP",
+      "full": "Reconciliatio et paenitentia",
+      "type": "Apostolic Exhortation"
+    },
+    "SC": {
+      "abbreviation": "SC",
+      "full": "Sacrosanctum concilium",
+      "type": "Council Document"
+    },
+    "SCG": {
+      "abbreviation": "SCG",
+      "full": "Summa Contra Gentiles",
+      "type": "Theological Work"
+    },
+    "SCh": {
+      "abbreviation": "SCh",
+      "full": "Sources Chretiennes (Paris: 1942- )",
+      "type": "Publication Series"
+    },
+    "SRS": {
+      "abbreviation": "SRS",
+      "full": "Sollicitudo rei socialis",
+      "type": "Encyclical"
+    },
+    "STh": {
+      "abbreviation": "STh",
+      "full": "Summa Theologiea",
+      "type": "Theological Work"
+    },
+    "UR": {
+      "abbreviation": "UR",
+      "full": "Unitatis redintegratio",
+      "type": "Council Document"
+    }
+  },
+  "bible_books": {
+    "Gen": { "abbreviation": "Gen", "name": "Genesis", "testament": "Old Testament" },
+    "Ex": { "abbreviation": "Ex", "name": "Exodus", "testament": "Old Testament" },
+    "Lev": { "abbreviation": "Lev", "name": "Leviticus", "testament": "Old Testament" },
+    "Num": { "abbreviation": "Num", "name": "Numbers", "testament": "Old Testament" },
+    "Deut": { "abbreviation": "Deut", "name": "Deuteronomy", "testament": "Old Testament" },
+    "Josh": { "abbreviation": "Josh", "name": "Joshua", "testament": "Old Testament" },
+    "Judg": { "abbreviation": "Judg", "name": "Judges", "testament": "Old Testament" },
+    "1 Sam": { "abbreviation": "1 Sam", "name": "1 Samuel", "testament": "Old Testament" },
+    "2 Sam": { "abbreviation": "2 Sam", "name": "2 Samuel", "testament": "Old Testament" },
+    "1 Kings": { "abbreviation": "1 Kings", "name": "1 Kings", "testament": "Old Testament" },
+    "2 Kings": { "abbreviation": "2 Kings", "name": "2 Kings", "testament": "Old Testament" },
+    "1 Chr": { "abbreviation": "1 Chr", "name": "1 Chronicles", "testament": "Old Testament" },
+    "2 Chr": { "abbreviation": "2 Chr", "name": "2 Chronicles", "testament": "Old Testament" },
+    "Ezra": { "abbreviation": "Ezra", "name": "Ezra", "testament": "Old Testament" },
+    "1 Macc": { "abbreviation": "1 Macc", "name": "1 Maccabees", "testament": "Old Testament (Deuterocanonical)" },
+    "2 Macc": { "abbreviation": "2 Macc", "name": "2 Maccabees", "testament": "Old Testament (Deuterocanonical)" },
+    "Job": { "abbreviation": "Job", "name": "Job", "testament": "Old Testament" },
+    "Ps": { "abbreviation": "Ps", "name": "Psalms", "testament": "Old Testament" },
+    "Prov": { "abbreviation": "Prov", "name": "Proverbs", "testament": "Old Testament" },
+    "Eccl": { "abbreviation": "Eccl", "name": "Ecclesiastes", "testament": "Old Testament" },
+    "Song": { "abbreviation": "Song", "name": "Song of Solomon", "testament": "Old Testament" },
+    "Wis": { "abbreviation": "Wis", "name": "Wisdom", "testament": "Old Testament (Deuterocanonical)" },
+    "Sir": { "abbreviation": "Sir", "name": "Sirach", "testament": "Old Testament (Deuterocanonical)" },
+    "Isa": { "abbreviation": "Isa", "name": "Isaiah", "testament": "Old Testament" },
+    "Lam": { "abbreviation": "Lam", "name": "Lamentations", "testament": "Old Testament" },
+    "Bar": { "abbreviation": "Bar", "name": "Baruch", "testament": "Old Testament (Deuterocanonical)" },
+    "Ezek": { "abbreviation": "Ezek", "name": "Ezekiel", "testament": "Old Testament" },
+    "Dan": { "abbreviation": "Dan", "name": "Daniel", "testament": "Old Testament" },
+    "Hos": { "abbreviation": "Hos", "name": "Hosea", "testament": "Old Testament" },
+    "Joel": { "abbreviation": "Joel", "name": "Joel", "testament": "Old Testament" },
+    "Am": { "abbreviation": "Am", "name": "Amos", "testament": "Old Testament" },
+    "Jon": { "abbreviation": "Jon", "name": "Jonah", "testament": "Old Testament" },
+    "Mic": { "abbreviation": "Mic", "name": "Micah", "testament": "Old Testament" },
+    "Nah": { "abbreviation": "Nah", "name": "Nahum", "testament": "Old Testament" },
+    "Hab": { "abbreviation": "Hab", "name": "Habakkuk", "testament": "Old Testament" },
+    "Zeph": { "abbreviation": "Zeph", "name": "Zephaniah", "testament": "Old Testament" },
+    "Hag": { "abbreviation": "Hag", "name": "Haggai", "testament": "Old Testament" },
+    "Zech": { "abbreviation": "Zech", "name": "Zechariah", "testament": "Old Testament" },
+    "Mal": { "abbreviation": "Mal", "name": "Malachi", "testament": "Old Testament" },
+    "Mt": { "abbreviation": "Mt", "name": "Matthew", "testament": "New Testament" },
+    "Mk": { "abbreviation": "Mk", "name": "Mark", "testament": "New Testament" },
+    "Lk": { "abbreviation": "Lk", "name": "Luke", "testament": "New Testament" },
+    "Jn": { "abbreviation": "Jn", "name": "John", "testament": "New Testament" },
+    "Acts": { "abbreviation": "Acts", "name": "Acts of the Apostles", "testament": "New Testament" },
+    "Rom": { "abbreviation": "Rom", "name": "Romans", "testament": "New Testament" },
+    "1 Cor": { "abbreviation": "1 Cor", "name": "1 Corinthians", "testament": "New Testament" },
+    "2 Cor": { "abbreviation": "2 Cor", "name": "2 Corinthians", "testament": "New Testament" },
+    "Gal": { "abbreviation": "Gal", "name": "Galatians", "testament": "New Testament" },
+    "Eph": { "abbreviation": "Eph", "name": "Ephesians", "testament": "New Testament" },
+    "Phil": { "abbreviation": "Phil", "name": "Philippians", "testament": "New Testament" },
+    "Col": { "abbreviation": "Col", "name": "Colossians", "testament": "New Testament" },
+    "1 Thes": { "abbreviation": "1 Thes", "name": "1 Thessalonians", "testament": "New Testament" },
+    "2 Thes": { "abbreviation": "2 Thes", "name": "2 Thessalonians", "testament": "New Testament" },
+    "1 Tim": { "abbreviation": "1 Tim", "name": "1 Timothy", "testament": "New Testament" },
+    "2 Tim": { "abbreviation": "2 Tim", "name": "2 Timothy", "testament": "New Testament" },
+    "Titus": { "abbreviation": "Titus", "name": "Titus", "testament": "New Testament" },
+    "Philem": { "abbreviation": "Philem", "name": "Philemon", "testament": "New Testament" },
+    "Heb": { "abbreviation": "Heb", "name": "Hebrews", "testament": "New Testament" },
+    "Jas": { "abbreviation": "Jas", "name": "James", "testament": "New Testament" },
+    "1 Pet": { "abbreviation": "1 Pet", "name": "1 Peter", "testament": "New Testament" },
+    "2 Pet": { "abbreviation": "2 Pet", "name": "2 Peter", "testament": "New Testament" },
+    "1 Jn": { "abbreviation": "1 Jn", "name": "1 John", "testament": "New Testament" },
+    "2 Jn": { "abbreviation": "2 Jn", "name": "2 John", "testament": "New Testament" },
+    "3 Jn": { "abbreviation": "3 Jn", "name": "3 John", "testament": "New Testament" },
+    "Jude": { "abbreviation": "Jude", "name": "Jude", "testament": "New Testament" },
+    "Rev": { "abbreviation": "Rev", "name": "Revelation", "testament": "New Testament" }
+  }
+}
