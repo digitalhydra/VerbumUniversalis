@@ -12,6 +12,7 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.delay
 
 @HiltViewModel
 class DashboardViewModel @Inject constructor(
@@ -31,18 +32,30 @@ class DashboardViewModel @Inject constructor(
     private val _celebration = MutableStateFlow<Celebration?>(null)
     val celebration: StateFlow<Celebration?> = _celebration.asStateFlow()
 
+    private val _visibleDates = MutableStateFlow<List<String>>(liturgicalRepository.getAllDates())
+    val visibleDates: StateFlow<List<String>> = _visibleDates.asStateFlow()
+
     init {
         val settings = fileManager.loadSettings()
         val calendar = settings?.readingCalendar ?: "US"
         _selectedCalendar.value = calendar
         liturgicalRepository.setCalendar(calendar)
-        updateDate(java.time.LocalDate.now().toString())
+        
+        // Update both mass readings and the visible list
+        val all = liturgicalRepository.getAllDates()
+        _visibleDates.value = all
+        
+        val today = java.time.LocalDate.now().toString()
+        updateDate(today)
     }
+
 
     fun updateCalendar(calendar: String) {
         _selectedCalendar.value = calendar
         viewModelScope.launch {
             liturgicalRepository.setCalendar(calendar)
+            val all = liturgicalRepository.getAllDates()
+            _visibleDates.value = all
             updateDate(_selectedDate.value)
             
             // Save to settings

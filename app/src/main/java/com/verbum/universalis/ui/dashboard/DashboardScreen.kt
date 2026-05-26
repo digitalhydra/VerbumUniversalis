@@ -61,6 +61,7 @@ fun DashboardScreen(
     val massReadingsEntry by dashboardViewModel.massReadings.collectAsState()
     val celebration by dashboardViewModel.celebration.collectAsState()
     val progressMap by viewModel.progressMap.collectAsState()
+    val visibleDates by dashboardViewModel.visibleDates.collectAsState()
 
     val allDates = remember { dashboardViewModel.getAllDates() }
     val initialPage = remember(selectedDateStr) { 
@@ -224,7 +225,7 @@ fun DashboardScreen(
 
                 // Scrollable Date Strip
                 ScrollableDateStrip(
-                    allDates = allDates,
+                    allDates = visibleDates,
                     selectedDate = selectedDate,
                     accentColor = accentColor,
                     onDateSelected = { date: LocalDate ->
@@ -278,15 +279,25 @@ fun ScrollableDateStrip(
     accentColor: Color,
     onDateSelected: (LocalDate) -> Unit
 ) {
-    val listState = rememberLazyListState()
-    val selectedIndex = remember(selectedDate) {
+    if (allDates.isEmpty()) return
+
+    val selectedIndex = remember(selectedDate, allDates) {
         allDates.indexOf(selectedDate.toString()).coerceAtLeast(0)
     }
 
+    val initialScrollIndex = remember { (selectedIndex - 3).coerceAtLeast(0) }
+    
+    val listState = rememberLazyListState(
+        initialFirstVisibleItemIndex = initialScrollIndex
+    )
+
+    var lastAppliedIndex by remember { mutableIntStateOf(selectedIndex) }
+
     LaunchedEffect(selectedIndex) {
-        if (selectedIndex >= 0) {
-            // Center the selected date in the strip
-            listState.animateScrollToItem((selectedIndex - 3).coerceAtLeast(0))
+        if (selectedIndex >= 0 && selectedIndex != lastAppliedIndex) {
+            val targetIndex = (selectedIndex - 3).coerceAtLeast(0)
+            listState.animateScrollToItem(targetIndex)
+            lastAppliedIndex = selectedIndex
         }
     }
 
