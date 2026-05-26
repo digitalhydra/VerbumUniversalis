@@ -55,4 +55,14 @@
     <string name="delete">Delete</string>
     <string name="cancel">Cancel</string>
     <string name="save_note">Save Note</string>
+
+    <!-- Settings Menu Items -->
+    <string name="download_catena">Download Catena</string>
+    <string name="download_catena_desc">Download the Catena commentary database from GitHub releases</string>
+    <string name="sync">Sync</string>
+    <string name="sync_desc">Sync your notes and highlights with GitHub</string>
+    <string name="notes_desc">Manage your notes and highlights</string>
+    <string name="theme_desc">Change the app theme (light/dark)</string>
+    <string name="language_desc">Change the application language (English/Español)</string>
+    <string name="back">Back</string>
 </resources>

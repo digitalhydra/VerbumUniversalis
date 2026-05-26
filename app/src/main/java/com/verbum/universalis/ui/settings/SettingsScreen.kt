@@ -64,7 +64,7 @@ fun SettingsScreen(
                 title = { Text(stringResource(R.string.settings)) },
                 navigationIcon = {
                     IconButton(onClick = onBack) {
-                        Icon(Icons.Default.ArrowBack, contentDescription = "Back")
+                        Icon(Icons.Default.ArrowBack, contentDescription = stringResource(R.string.back))
                     }
                 }
             )
@@ -79,32 +79,32 @@ fun SettingsScreen(
         ) {
             val menuItems = listOf(
                 SettingsMenuItem(
-                    title = "Download Catena",
-                    description = "Download the Catena commentary database from GitHub releases",
+                    title = stringResource(R.string.download_catena),
+                    description = stringResource(R.string.download_catena_desc),
                     icon = Icons.Default.Download,
                     route = Route.DownloadCatena
                 ),
                 SettingsMenuItem(
-                    title = "Sync",
-                    description = "Sync your notes and highlights with GitHub",
+                    title = stringResource(R.string.sync),
+                    description = stringResource(R.string.sync_desc),
                     icon = Icons.Default.Sync,
                     route = Route.Sync
                 ),
                 SettingsMenuItem(
-                    title = "Notes",
-                    description = "Manage your notes and highlights",
+                    title = stringResource(R.string.notes),
+                    description = stringResource(R.string.notes_desc),
                     icon = Icons.Default.Note,
                     route = Route.Notes
                 ),
                 SettingsMenuItem(
-                    title = "Theme",
-                    description = "Change the app theme (light/dark)",
+                    title = stringResource(R.string.theme),
+                    description = stringResource(R.string.theme_desc),
                     icon = Icons.Default.Brightness6,
                     route = Route.Theme
                 ),
                 SettingsMenuItem(
                     title = stringResource(R.string.language),
-                    description = "Change the application language (English/Español)",
+                    description = stringResource(R.string.language_desc),
                     icon = Icons.Default.Language,
                     route = Route.Language
                 )

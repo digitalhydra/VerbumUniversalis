@@ -55,4 +55,14 @@
     <string name="delete">Eliminar</string>
     <string name="cancel">Cancelar</string>
     <string name="save_note">Guardar Nota</string>
+
+    <!-- Settings Menu Items -->
+    <string name="download_catena">Descargar Catena</string>
+    <string name="download_catena_desc">Descargar la base de datos de comentarios Catena desde los lanzamientos de GitHub</string>
+    <string name="sync">Sincronizar</string>
+    <string name="sync_desc">Sincroniza tus notas y resaltados con GitHub</string>
+    <string name="notes_desc">Gestiona tus notas y resaltados</string>
+    <string name="theme_desc">Cambiar el tema de la aplicación (claro/oscuro)</string>
+    <string name="language_desc">Cambiar el idioma de la aplicación (English/Español)</string>
+    <string name="back">Atrás</string>
 </resources>
