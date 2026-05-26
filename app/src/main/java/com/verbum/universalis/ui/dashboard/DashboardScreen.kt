@@ -19,7 +19,7 @@ import androidx.compose.material.icons.filled.Notifications
 import androidx.compose.material.icons.filled.NotificationImportant
 import androidx.compose.material.icons.filled.RadioButtonUnchecked
 import androidx.compose.material.icons.filled.Settings
-import androidx.compose.material.icons.filled.Today
+import androidx.compose.material.icons.filled.*
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -372,7 +372,7 @@ fun DashboardDayContent(
             .fillMaxSize()
             .padding(horizontal = 24.dp),
         verticalArrangement = Arrangement.spacedBy(16.dp),
-        contentPadding = PaddingValues(bottom = 24.dp)
+        contentPadding = PaddingValues(bottom = 120.dp) // Extra padding for floating bottom bar
     ) {
         // 1. Daily Mass Section
         massReadingsEntry?.let { mass ->
@@ -410,7 +410,16 @@ fun DashboardDayContent(
                     "firstReading" -> "First Reading"
                     "psalm" -> "Responsorial Psalm"
                     "gospel" -> "Gospel"
+                    "secondReading" -> "Second Reading"
                     else -> ref.type.replaceFirstChar { it.uppercase() }
+                }
+
+                val icon = when (ref.type) {
+                    "firstReading" -> Icons.Default.HistoryEdu
+                    "psalm" -> Icons.Default.MusicNote
+                    "gospel" -> Icons.Default.AutoStories
+                    "secondReading" -> Icons.Default.Mail
+                    else -> Icons.Default.MenuBook
                 }
                 
                 TimelineItem(
@@ -419,6 +428,8 @@ fun DashboardDayContent(
                     time = if (index == 0) "Liturgical" else "",
                     isHighlighted = ref.type == "gospel",
                     accentColor = accentColor,
+                    icon = icon,
+                    showLine = false,
                     onClick = {
                         val parts = ref.reference.split(":")
                         if (parts.size >= 2) {
@@ -511,6 +522,7 @@ fun DashboardDayContent(
                     isHighlighted = false,
                     accentColor = accentColor,
                     isCompleted = isCompleted,
+                    icon = if (isCompleted) Icons.Default.CheckCircle else Icons.Default.Moving,
                     onToggleComplete = {
                         onTogglePlanReadingComplete(planId, currentDayIndex, index)
                     },
@@ -536,6 +548,8 @@ fun TimelineItem(
     accentColor: Color,
     isCompleted: Boolean = false,
     onToggleComplete: (() -> Unit)? = null,
+    icon: androidx.compose.ui.graphics.vector.ImageVector? = null,
+    showLine: Boolean = true,
     onClick: () -> Unit
 ) {
     Row(
@@ -545,36 +559,56 @@ fun TimelineItem(
             .clickable(onClick = onClick),
         verticalAlignment = Alignment.Top
     ) {
-        // Timeline line and dot
+        // Timeline line and dot/icon
         Box(
             modifier = Modifier
-                .width(32.dp)
+                .width(48.dp) // Widened for icons
                 .fillMaxHeight(),
             contentAlignment = Alignment.TopCenter
         ) {
             // The vertical line
-            Box(
-                modifier = Modifier
-                    .width(2.dp)
-                    .fillMaxHeight()
-                    .padding(top = 12.dp) // Start below the dot center
-                    .background(MaterialTheme.colorScheme.outlineVariant.copy(alpha = 0.5f))
-            )
+            if (showLine) {
+                Box(
+                    modifier = Modifier
+                        .width(2.dp)
+                        .fillMaxHeight()
+                        .padding(top = 12.dp) // Start below the dot center
+                        .background(MaterialTheme.colorScheme.outlineVariant.copy(alpha = 0.5f))
+                )
+            }
             
-            // The dot
-            Box(
-                modifier = Modifier
-                    .padding(top = 4.dp)
-                    .size(16.dp)
-                    .clip(CircleShape)
-                    .background(if (isHighlighted || isCompleted) accentColor else MaterialTheme.colorScheme.surface)
-                    .then(
-                        if (!isHighlighted && !isCompleted) Modifier.background(MaterialTheme.colorScheme.surface).padding(2.dp).clip(CircleShape).background(MaterialTheme.colorScheme.outlineVariant) else Modifier
+            // The dot or icon
+            if (icon != null) {
+                Box(
+                    modifier = Modifier
+                        .padding(top = 4.dp)
+                        .size(36.dp) // Increased from 32dp
+                        .clip(CircleShape)
+                        .background(if (isHighlighted) accentColor else MaterialTheme.colorScheme.surfaceVariant),
+                    contentAlignment = Alignment.Center
+                ) {
+                    Icon(
+                        imageVector = icon,
+                        contentDescription = null,
+                        modifier = Modifier.size(23.dp), // Increased from 18dp (~5px larger)
+                        tint = if (isHighlighted) Color.White else accentColor
                     )
-            )
+                }
+            } else {
+                Box(
+                    modifier = Modifier
+                        .padding(top = 4.dp)
+                        .size(21.dp) // Increased from 16dp
+                        .clip(CircleShape)
+                        .background(if (isHighlighted || isCompleted) accentColor else MaterialTheme.colorScheme.surface)
+                        .then(
+                            if (!isHighlighted && !isCompleted) Modifier.background(MaterialTheme.colorScheme.surface).padding(2.dp).clip(CircleShape).background(MaterialTheme.colorScheme.outlineVariant) else Modifier
+                        )
+                )
+            }
         }
 
-        Spacer(modifier = Modifier.width(12.dp))
+        Spacer(modifier = Modifier.width(8.dp)) // Reduced from 12dp
 
         // Content Card
         Card(

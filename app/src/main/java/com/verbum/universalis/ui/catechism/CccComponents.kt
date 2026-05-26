@@ -11,6 +11,7 @@ import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
+import androidx.compose.material.icons.filled.Bookmark
 import androidx.compose.material.icons.filled.Check
 import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material.icons.filled.Search
@@ -28,7 +29,9 @@ import androidx.compose.ui.unit.sp
 @Composable
 fun CccTopBar(
     isRead: Boolean,
+    isBookmarked: Boolean,
     onToggleRead: () -> Unit,
+    onToggleBookmark: () -> Unit,
     onSearchClick: () -> Unit,
     onBack: () -> Unit
 ) {
@@ -50,8 +53,12 @@ fun CccTopBar(
             IconButton(onClick = onSearchClick) {
                 Icon(Icons.Default.Search, contentDescription = "Search")
             }
-            IconButton(onClick = { /* TODO */ }) {
-                Icon(Icons.Outlined.BookmarkBorder, contentDescription = "Bookmarks")
+            IconButton(onClick = onToggleBookmark) {
+                Icon(
+                    imageVector = if (isBookmarked) Icons.Default.Bookmark else Icons.Outlined.BookmarkBorder,
+                    contentDescription = if (isBookmarked) "Remove bookmark" else "Add bookmark",
+                    tint = if (isBookmarked) Color(0xFFD4AF37) else Color.Unspecified
+                )
             }
         },
         colors = TopAppBarDefaults.topAppBarColors(

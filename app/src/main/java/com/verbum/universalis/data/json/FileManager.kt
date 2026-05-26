@@ -1,9 +1,9 @@
 package com.verbum.universalis.data.json
 
 import android.content.Context
+import kotlinx.serialization.json.Json
 import kotlinx.serialization.decodeFromString
 import kotlinx.serialization.encodeToString
-import kotlinx.serialization.json.Json
 import java.io.File
 import javax.inject.Inject
 import dagger.hilt.android.qualifiers.ApplicationContext
@@ -82,5 +82,13 @@ class FileManager @Inject constructor(
 
     fun loadProgressV2(): Map<String, Map<Int, DayProgress>> {
         return readFile("progress_v2.json") { json.decodeFromString<Map<String, Map<Int, DayProgress>>>(it) } ?: emptyMap()
+    }
+
+    fun saveCccBookmarks(bookmarks: List<Int>) {
+        writeAtomic("ccc_bookmarks.json", bookmarks) { json.encodeToString(it) }
+    }
+
+    fun loadCccBookmarks(): List<Int> {
+        return readFile("ccc_bookmarks.json") { json.decodeFromString<List<Int>>(it) } ?: emptyList()
     }
 }

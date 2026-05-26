@@ -4,6 +4,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.verbum.universalis.data.db.CccSearchResultEntity
 import com.verbum.universalis.data.repository.CatechismRepository
+import com.verbum.universalis.data.json.FileManager
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -16,7 +17,8 @@ import javax.inject.Inject
 
 @HiltViewModel
 class CatechismViewModel @Inject constructor(
-    private val repository: CatechismRepository
+    private val repository: CatechismRepository,
+    private val fileManager: FileManager
 ) : ViewModel() {
 
     private val _uiState = MutableStateFlow<CccParagraphUiState?>(null)
@@ -34,11 +36,15 @@ class CatechismViewModel @Inject constructor(
     private val _searchQuery = MutableStateFlow("")
     val searchQuery: StateFlow<String> = _searchQuery.asStateFlow()
 
+    private val _bookmarks = MutableStateFlow<List<Int>>(emptyList())
+    val bookmarks: StateFlow<List<Int>> = _bookmarks.asStateFlow()
+
     private val json = Json { ignoreUnknownKeys = true }
 
     init {
         viewModelScope.launch(Dispatchers.IO) {
             _tocItems.value = repository.getTocTree()
+            _bookmarks.value = fileManager.loadCccBookmarks()
         }
     }
 
@@ -97,7 +103,8 @@ class CatechismViewModel @Inject constructor(
                     tocPath = entity.tocPath,
                     elements = elements,
                     footnotes = footnotes,
-                    isRead = false // TODO: Persist read state
+                    isRead = false, // TODO: Persist read state
+                    isBookmarked = _bookmarks.value.contains(entity.number)
                 )
             }
         }
@@ -105,6 +112,24 @@ class CatechismViewModel @Inject constructor(
 
     fun toggleRead() {
         _uiState.value = _uiState.value?.let { it.copy(isRead = !it.isRead) }
+    }
+
+    fun toggleBookmark() {
+        val currentNum = _uiState.value?.number ?: return
+        val currentBookmarks = _bookmarks.value.toMutableList()
+        
+        if (currentBookmarks.contains(currentNum)) {
+            currentBookmarks.remove(currentNum)
+        } else {
+            currentBookmarks.add(currentNum)
+        }
+        
+        _bookmarks.value = currentBookmarks
+        _uiState.value = _uiState.value?.copy(isBookmarked = currentBookmarks.contains(currentNum))
+        
+        viewModelScope.launch(Dispatchers.IO) {
+            fileManager.saveCccBookmarks(currentBookmarks)
+        }
     }
 
     fun setSearchVisible(visible: Boolean) {

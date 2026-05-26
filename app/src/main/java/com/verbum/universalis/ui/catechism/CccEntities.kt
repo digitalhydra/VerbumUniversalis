@@ -41,5 +41,6 @@ data class CccParagraphUiState(
     val tocPath: String,
     val elements: List<CccElement>,
     val footnotes: List<Footnote>,
-    val isRead: Boolean = false
+    val isRead: Boolean = false,
+    val isBookmarked: Boolean = false
 )

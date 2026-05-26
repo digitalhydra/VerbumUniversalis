@@ -49,7 +49,9 @@ fun CatechismScreen(
                 topBar = {
                     CccTopBar(
                         isRead = uiState?.isRead ?: false,
+                        isBookmarked = uiState?.isBookmarked ?: false,
                         onToggleRead = { viewModel.toggleRead() },
+                        onToggleBookmark = { viewModel.toggleBookmark() },
                         onSearchClick = { viewModel.setSearchVisible(true) },
                         onBack = onBack
                     )
