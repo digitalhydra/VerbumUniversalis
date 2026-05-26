@@ -29,4 +29,30 @@
     <string name="select_theme">Seleccionar Tema</string>
     <string name="language">Idioma</string>
     <string name="select_language">Seleccionar Idioma</string>
+
+    <!-- Bible Index / Picker -->
+    <string name="bible_index">Índice Bíblico</string>
+    <string name="books">Libros</string>
+    <string name="chapters">Capítulos</string>
+    <string name="verses">Versículos</string>
+    <string name="old_testament">A.T.</string>
+    <string name="new_testament">N.T.</string>
+    <string name="jump_to">Ir a:</string>
+    <string name="search_hint">Buscar libro o ref. (ej. Gén 1:1)</string>
+    <string name="go">Ir</string>
+    <string name="jump_to_chapter">Ir al Capítulo</string>
+    <string name="search_books">Buscar libros…</string>
+
+    <string name="theme">Tema</string>
+    <string name="light_theme">Tema Claro</string>
+    <string name="dark_theme">Tema Oscuro</string>
+    <string name="light_theme_desc">Tema brillante con texto oscuro</string>
+    <string name="dark_theme_desc">Tema oscuro con texto claro</string>
+    <string name="notes">Notas</string>
+    <string name="no_notes_yet">Aún no hay notas. Crea notas desde las pantallas de Lectura o Interlineal.</string>
+    <string name="delete_note">Eliminar Nota</string>
+    <string name="delete_note_confirm">¿Estás seguro de que quieres eliminar esta nota?</string>
+    <string name="delete">Eliminar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="save_note">Guardar Nota</string>
 </resources>

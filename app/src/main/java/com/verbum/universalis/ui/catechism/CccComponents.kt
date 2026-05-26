@@ -1,15 +1,10 @@
 package com.verbum.universalis.ui.catechism
 
-import androidx.compose.foundation.background
-import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.ClickableText
 import androidx.compose.material.icons.Icons
-import androidx.compose.ui.text.SpanStyle
-import androidx.compose.ui.text.buildAnnotatedString
-import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.filled.Bookmark
 import androidx.compose.material.icons.filled.Check
@@ -21,9 +16,14 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.SpanStyle
+import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.verbum.universalis.R
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -36,7 +36,7 @@ fun CccTopBar(
     onBack: () -> Unit
 ) {
     TopAppBar(
-        title = { Text("CATECHISM", style = MaterialTheme.typography.titleMedium.copy(letterSpacing = 2.sp)) },
+        title = { Text(stringResource(R.string.catechism), style = MaterialTheme.typography.titleMedium.copy(letterSpacing = 2.sp)) },
         navigationIcon = {
             IconButton(onClick = onBack) {
                 Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back")
@@ -80,7 +80,7 @@ fun CccReferencePanel(
         HorizontalDivider(color = Color.Black.copy(alpha = 0.1f))
         Spacer(Modifier.height(16.dp))
         Text(
-            "REFERENCES AND FOOTNOTES",
+            stringResource(R.string.references_and_footnotes),
             style = MaterialTheme.typography.labelMedium.copy(fontWeight = FontWeight.Bold, letterSpacing = 1.sp)
         )
         Spacer(Modifier.height(8.dp))

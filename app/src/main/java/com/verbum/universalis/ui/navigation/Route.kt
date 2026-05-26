@@ -90,6 +90,7 @@ sealed class Route(val route: String) {
     object Sync : Route("sync")
     object Notes : Route("notes")
     object Theme : Route("theme")
+    object Language : Route("language")
 }
 
 @Composable
@@ -201,10 +202,10 @@ fun VerbumNavGraph(
                         val bookCode = parts[0]
                         val chapter = parts[1].toIntOrNull()
                         if (chapter != null) {
-                            val bookId = Passage.BOOK_NAME_TO_ID[bookCode] ?: Passage.BOOK_NAME_TO_ID.entries.find { 
+                            val resolvedBookId = Passage.BOOK_NAME_TO_ID[bookCode] ?: Passage.BOOK_NAME_TO_ID.entries.find { 
                                 it.key.equals(bookCode, ignoreCase = true) 
                             }?.value
-                            navController.navigate(Route.ReadingCanvas.createRoute(bookId, chapter))
+                            navController.navigate(Route.ReadingCanvas.createRoute(resolvedBookId, chapter))
                         }
                     }
                 }
@@ -256,6 +257,15 @@ fun VerbumNavGraph(
         }
         composable(Route.Theme.route) { 
             com.verbum.universalis.ui.settings.ThemeScreen(onBack = { navController.popBackStack() }) 
+        }
+        composable(Route.Language.route) {
+            val activity = androidx.compose.ui.platform.LocalContext.current as? com.verbum.universalis.ui.dashboard.DashboardActivity
+            activity?.let {
+                com.verbum.universalis.ui.settings.LanguageScreen(
+                    onBack = { navController.popBackStack() },
+                    languageManager = it.languageManager
+                )
+            }
         }
     }
 }

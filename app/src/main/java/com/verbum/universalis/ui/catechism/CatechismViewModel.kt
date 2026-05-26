@@ -2,6 +2,7 @@ package com.verbum.universalis.ui.catechism
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.verbum.universalis.core.LanguageManager
 import com.verbum.universalis.data.db.CccSearchResultEntity
 import com.verbum.universalis.data.repository.CatechismRepository
 import com.verbum.universalis.data.json.FileManager
@@ -18,7 +19,8 @@ import javax.inject.Inject
 @HiltViewModel
 class CatechismViewModel @Inject constructor(
     private val repository: CatechismRepository,
-    private val fileManager: FileManager
+    private val fileManager: FileManager,
+    private val languageManager: LanguageManager
 ) : ViewModel() {
 
     private val _uiState = MutableStateFlow<CccParagraphUiState?>(null)
@@ -43,14 +45,23 @@ class CatechismViewModel @Inject constructor(
 
     init {
         viewModelScope.launch(Dispatchers.IO) {
-            _tocItems.value = repository.getTocTree()
             _bookmarks.value = fileManager.loadCccBookmarks()
+            
+            // Observe language changes
+            languageManager.appLanguage.collect { lang ->
+                _tocItems.value = repository.getTocTree(lang)
+                // Re-fetch current paragraph if active
+                _uiState.value?.number?.let { num ->
+                    selectParagraph(num)
+                }
+            }
         }
     }
 
     fun selectParagraph(number: Int) {
         viewModelScope.launch(Dispatchers.IO) {
-            val entity = repository.getParagraph(number)
+            val lang = languageManager.appLanguage.value
+            val entity = repository.getParagraph(number, lang)
             if (entity != null) {
                 // Fetch text-based footnotes from ccc_footnotes
                 val footnoteEntities = repository.getFootnotesForParagraph(number)
@@ -156,7 +167,8 @@ class CatechismViewModel @Inject constructor(
         }
 
         viewModelScope.launch(Dispatchers.IO) {
-            val dbResults = repository.search(query)
+            val lang = languageManager.appLanguage.value
+            val dbResults = repository.search(query, lang)
             _searchResults.value = dbResults
         }
     }

@@ -8,17 +8,18 @@ import java.io.FileOutputStream
 
 class CatechismRawDatabase private constructor(private val db: SQLiteDatabase?) {
 
-    fun getParagraph(number: Int): CccParagraphEntity? {
+    fun getParagraph(number: Int, lang: String): CccParagraphEntity? {
         if (db == null || !db.isOpen) return null
         return try {
             val cursor = db.rawQuery(
-                "SELECT * FROM ccc_paragraphs WHERE number = ?",
-                arrayOf(number.toString())
+                "SELECT * FROM ccc_paragraphs WHERE number = ? AND lang = ?",
+                arrayOf(number.toString(), lang)
             )
             cursor.use { c ->
                 if (c.moveToFirst()) {
                     CccParagraphEntity(
                         number = c.getInt(c.getColumnIndexOrThrow("number")),
+                        lang = c.getString(c.getColumnIndexOrThrow("lang")),
                         tocPath = c.getString(c.getColumnIndexOrThrow("toc_path")),
                         plain_text = c.getString(c.getColumnIndexOrThrow("plain_text")),
                         formattedJson = c.getString(c.getColumnIndexOrThrow("formatted_json"))
@@ -122,10 +123,10 @@ class CatechismRawDatabase private constructor(private val db: SQLiteDatabase?) 
         }
     }
 
-    fun search(query: String, limit: Int = 50): List<CccSearchResultEntity> {
+    fun search(query: String, lang: String, limit: Int = 50): List<CccSearchResultEntity> {
         if (db == null || !db.isOpen || query.isBlank()) return emptyList()
         Log.d("CatechismSearch", "--- SEARCH START ---")
-        Log.d("CatechismSearch", "Raw Query: '$query'")
+        Log.d("CatechismSearch", "Raw Query: '$query', Lang: $lang")
         
         val results = mutableListOf<CccSearchResultEntity>()
         val sanitizedQuery = query.replace("\"", "").trim()
@@ -134,17 +135,16 @@ class CatechismRawDatabase private constructor(private val db: SQLiteDatabase?) 
         // 1. Try FTS Search (with specific Android version compatibility logic)
         try {
             // Syntax A: Column filter
-            val ftsQueryA = if (words.size == 1) "plain_text:${words[0]}*" else "plain_text:(${words.joinToString(" ") { "$it*" }})"
+            val ftsQueryA = if (words.size == 1) "lang:$lang plain_text:${words[0]}*" else "lang:$lang plain_text:(${words.joinToString(" ") { "$it*" }})"
             // Syntax B: Global match
-            val ftsQueryB = words.joinToString(" AND ") { "$it*" }
+            val ftsQueryB = "lang:$lang " + words.joinToString(" AND ") { "$it*" }
 
             val trySyntaxes = listOf(ftsQueryA, ftsQueryB)
             
             for (syntax in trySyntaxes) {
                 try {
                     Log.d("CatechismSearch", "Trying FTS Syntax: $syntax")
-                    // Note: ccc_fts is currently FTS5 in asset, but we'll try to prepare it
-                    val sql = "SELECT number, toc_path, snippet(ccc_fts, 2, '<b>', '</b>', '...', 25) as snippet FROM ccc_fts WHERE ccc_fts MATCH ? ORDER BY rank LIMIT ?"
+                    val sql = "SELECT number, toc_path, snippet(ccc_fts, 3, '<b>', '</b>', '...', 25) as snippet FROM ccc_fts WHERE ccc_fts MATCH ? ORDER BY rank LIMIT ?"
                     db.rawQuery(sql, arrayOf(syntax, limit.toString())).use { c ->
                         if (c.count > 0) {
                             Log.d("CatechismSearch", "FOUND ${c.count} results with FTS")
@@ -160,18 +160,17 @@ class CatechismRawDatabase private constructor(private val db: SQLiteDatabase?) 
                     }
                 } catch (e: Exception) {
                     Log.w("CatechismSearch", "FTS syntax failed, trying next or falling back. Error: ${e.message}")
-                    // Continue to next syntax or fallback
                 }
             }
         } catch (e: Exception) {
             Log.e("CatechismSearch", "General FTS failure", e)
         }
 
-        // 2. ULTIMATE FALLBACK: Simple LIKE query (Guaranteed to work if FTS5 is missing)
+        // 2. ULTIMATE FALLBACK: Simple LIKE query (Guaranteed to work if FTS4 is missing)
         try {
             Log.w("CatechismSearch", "FTS unavailable or found 0 results. Falling back to deep scan (LIKE).")
-            val likeSql = "SELECT number, toc_path, plain_text FROM ccc_paragraphs WHERE plain_text LIKE ? OR toc_path LIKE ? LIMIT ?"
-            db.rawQuery(likeSql, arrayOf("%$sanitizedQuery%", "%$sanitizedQuery%", limit.toString())).use { c ->
+            val likeSql = "SELECT number, toc_path, plain_text FROM ccc_paragraphs WHERE lang = ? AND (plain_text LIKE ? OR toc_path LIKE ?) LIMIT ?"
+            db.rawQuery(likeSql, arrayOf(lang, "%$sanitizedQuery%", "%$sanitizedQuery%", limit.toString())).use { c ->
                 Log.d("CatechismSearch", "LIKE query found ${c.count} results")
                 while (c.moveToNext()) {
                     val text = c.getString(c.getColumnIndexOrThrow("plain_text"))
@@ -194,16 +193,17 @@ class CatechismRawDatabase private constructor(private val db: SQLiteDatabase?) 
         return results
     }
 
-    fun getAllParagraphs(): List<CccParagraphEntity> {
+    fun getAllParagraphs(lang: String): List<CccParagraphEntity> {
         if (db == null || !db.isOpen) return emptyList()
         return try {
-            val cursor = db.rawQuery("SELECT * FROM ccc_paragraphs ORDER BY number", null)
+            val cursor = db.rawQuery("SELECT * FROM ccc_paragraphs WHERE lang = ? ORDER BY number", arrayOf(lang))
             cursor.use { c ->
                 val results = mutableListOf<CccParagraphEntity>()
                 while (c.moveToNext()) {
                     results.add(
                         CccParagraphEntity(
                             number = c.getInt(c.getColumnIndexOrThrow("number")),
+                            lang = c.getString(c.getColumnIndexOrThrow("lang")),
                             tocPath = c.getString(c.getColumnIndexOrThrow("toc_path")),
                             plain_text = c.getString(c.getColumnIndexOrThrow("plain_text")),
                             formattedJson = c.getString(c.getColumnIndexOrThrow("formatted_json"))
@@ -213,7 +213,7 @@ class CatechismRawDatabase private constructor(private val db: SQLiteDatabase?) 
                 results
             }
         } catch (e: Exception) {
-            Log.e("CatechismRawDatabase", "Error fetching all paragraphs", e)
+            Log.e("CatechismRawDatabase", "Error fetching all paragraphs for $lang", e)
             emptyList()
         }
     }
@@ -275,6 +275,7 @@ class CatechismRawDatabase private constructor(private val db: SQLiteDatabase?) 
 
 data class CccParagraphEntity(
     val number: Int,
+    val lang: String,
     val tocPath: String,
     val plain_text: String,
     val formattedJson: String

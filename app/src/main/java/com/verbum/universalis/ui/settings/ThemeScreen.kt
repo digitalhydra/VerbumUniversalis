@@ -21,7 +21,9 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
+import com.verbum.universalis.R
 import com.verbum.universalis.core.theme.ThemeManager
 import com.verbum.universalis.data.json.FileManager
 import com.verbum.universalis.data.json.UserSettings
@@ -66,7 +68,7 @@ fun ThemeScreen(
     Scaffold(
         topBar = {
             CenterAlignedTopAppBar(
-                title = { Text("Theme") },
+                title = { Text(stringResource(R.string.theme)) },
                 navigationIcon = {
                     IconButton(onClick = onBack) {
                         Icon(Icons.Default.ArrowBack, contentDescription = "Back")
@@ -82,14 +84,14 @@ fun ThemeScreen(
                 .padding(16.dp)
         ) {
             Text(
-                text = "Select Theme",
+                text = stringResource(R.string.select_theme),
                 style = MaterialTheme.typography.titleMedium
             )
             Spacer(modifier = Modifier.height(24.dp))
 
             ThemeOptionRow(
-                title = "Light Theme",
-                description = "Bright theme with dark text",
+                title = stringResource(R.string.light_theme),
+                description = stringResource(R.string.light_theme_desc),
                 isSelected = currentTheme == "light",
                 onClick = {
                     currentTheme = "light"
@@ -100,8 +102,8 @@ fun ThemeScreen(
             Spacer(modifier = Modifier.height(16.dp))
 
             ThemeOptionRow(
-                title = "Dark Theme",
-                description = "Dark theme with light text",
+                title = stringResource(R.string.dark_theme),
+                description = stringResource(R.string.dark_theme_desc),
                 isSelected = currentTheme == "dark",
                 onClick = {
                     currentTheme = "dark"

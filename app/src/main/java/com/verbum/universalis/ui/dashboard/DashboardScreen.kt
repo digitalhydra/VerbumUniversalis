@@ -26,10 +26,12 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
+import com.verbum.universalis.R
 import com.verbum.universalis.core.theme.VerbumBlue
 import com.verbum.universalis.core.theme.VerbumBlueLight
 import com.verbum.universalis.data.json.ReadingPlanViewModel
@@ -165,7 +167,7 @@ fun DashboardScreen(
                             modifier = Modifier.clickable { showDatePicker = true }
                         )
                         Text(
-                            text = if (selectedDate == LocalDate.now()) "Today" else selectedDate.dayOfWeek.getDisplayName(TextStyle.FULL, Locale.getDefault()),
+                            text = if (selectedDate == LocalDate.now()) stringResource(R.string.today) else selectedDate.dayOfWeek.getDisplayName(TextStyle.FULL, Locale.getDefault()),
                             style = MaterialTheme.typography.headlineLarge.copy(
                                 fontWeight = FontWeight.Bold,
                                 fontSize = 32.sp
@@ -393,7 +395,7 @@ fun DashboardDayContent(
                         )
                     }
                     Text(
-                        text = "Daily Mass",
+                        text = stringResource(R.string.daily_mass),
                         style = MaterialTheme.typography.labelLarge.copy(
                             fontWeight = FontWeight.Bold,
                             letterSpacing = 1.sp
@@ -488,7 +490,7 @@ fun DashboardDayContent(
                     verticalAlignment = Alignment.CenterVertically
                 ) {
                     Text(
-                        text = "Yearly Plan",
+                        text = stringResource(R.string.yearly_plan),
                         style = MaterialTheme.typography.labelLarge.copy(
                             fontWeight = FontWeight.Bold,
                             letterSpacing = 1.sp
@@ -516,7 +518,7 @@ fun DashboardDayContent(
                 val isCompleted = dayProgress?.completedReadings?.contains(index) ?: false
 
                 TimelineItem(
-                    title = "Bible in a Year",
+                    title = stringResource(R.string.bible_in_a_year),
                     subtitle = "${reading.book} ${reading.chapter}",
                     time = "Day ${currentDayIndex + 1}",
                     isHighlighted = false,

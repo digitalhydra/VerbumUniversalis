@@ -16,11 +16,14 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.verbum.universalis.R
+import com.verbum.universalis.core.LanguageManager
 import com.verbum.universalis.core.theme.Inter
 import com.verbum.universalis.core.theme.VerbumBlue
 import com.verbum.universalis.core.theme.White
@@ -40,8 +43,11 @@ enum class TestamentFilter { OLD, NEW }
 
 @HiltViewModel
 class BookPickerViewModel @Inject constructor(
-    private val repository: BibleRepository
+    private val repository: BibleRepository,
+    private val languageManager: LanguageManager
 ) : ViewModel() {
+    
+    val appLanguage: StateFlow<String> = languageManager.appLanguage
     
     private val _currentStep = MutableStateFlow(PickerStep.BOOKS)
     val currentStep: StateFlow<PickerStep> = _currentStep.asStateFlow()
@@ -76,12 +82,14 @@ class BookPickerViewModel @Inject constructor(
                 val bookPart = queryClean.split(" ")[0]
                 it.name_en.contains(bookPart, ignoreCase = true) || 
                 it.name_es.contains(bookPart, ignoreCase = true) ||
-                getAbbreviation(it.id).contains(bookPart, ignoreCase = true)
+                getAbbreviation(it.id, "en").contains(bookPart, ignoreCase = true) ||
+                getAbbreviation(it.id, "es").contains(bookPart, ignoreCase = true)
             } else {
                 queryClean.isEmpty() || 
                 it.name_en.contains(queryClean, ignoreCase = true) || 
                 it.name_es.contains(queryClean, ignoreCase = true) ||
-                getAbbreviation(it.id).contains(queryClean, ignoreCase = true)
+                getAbbreviation(it.id, "en").contains(queryClean, ignoreCase = true) ||
+                getAbbreviation(it.id, "es").contains(queryClean, ignoreCase = true)
             }
             matchesTestament && matchesQuery
         }
@@ -186,6 +194,7 @@ fun BookPickerScreen(
     val selectedChapter by viewModel.selectedChapter.collectAsState()
     val selectedVerse by viewModel.selectedVerse.collectAsState()
     val searchQuery by viewModel.searchQuery.collectAsState()
+    val appLanguage by viewModel.appLanguage.collectAsState()
 
     LaunchedEffect(initialBookId, initialChapter, initialVerse) {
         if (initialBookId != null && initialChapter != null) {
@@ -208,12 +217,12 @@ fun BookPickerScreen(
                 IconButton(onClick = { if (currentStep == PickerStep.BOOKS) onClose() else viewModel.goBack() }) {
                     Icon(
                         imageVector = if (currentStep == PickerStep.BOOKS) Icons.Default.Close else Icons.AutoMirrored.Filled.ArrowBack,
-                        contentDescription = "Back",
+                        contentDescription = stringResource(R.string.prev),
                         tint = TextPrimaryLight
                     )
                 }
                 Text(
-                    text = "Bible Index",
+                    text = stringResource(R.string.bible_index),
                     style = MaterialTheme.typography.titleLarge,
                     color = TextPrimaryLight,
                     modifier = Modifier.padding(start = 8.dp)
@@ -227,14 +236,14 @@ fun BookPickerScreen(
                 modifier = Modifier
                     .fillMaxWidth()
                     .padding(horizontal = 16.dp, vertical = 8.dp),
-                label = { Text("Jump to:") },
-                placeholder = { Text("Search book or ref (e.g. Gen 1:1)") },
+                label = { Text(stringResource(R.string.jump_to)) },
+                placeholder = { Text(stringResource(R.string.search_hint)) },
                 singleLine = true,
                 leadingIcon = { Icon(Icons.Default.Search, contentDescription = null, tint = TextPrimaryLight) },
                 trailingIcon = {
                     if (searchQuery.any { it.isDigit() }) {
                         TextButton(onClick = { viewModel.handleSearchAction { b, c, v, f -> onResult(b, c, v, f) } }) {
-                            Text("Go", color = VerbumBlue, fontWeight = FontWeight.Bold)
+                            Text(stringResource(R.string.go), color = VerbumBlue, fontWeight = FontWeight.Bold)
                         }
                     }
                 },
@@ -263,17 +272,17 @@ fun BookPickerScreen(
                 horizontalArrangement = Arrangement.SpaceAround
             ) {
                 PickerTab(
-                    text = "Books",
+                    text = stringResource(R.string.books),
                     isSelected = currentStep == PickerStep.BOOKS,
                     onClick = { viewModel.setStep(PickerStep.BOOKS) }
                 )
                 PickerTab(
-                    text = "Chapters",
+                    text = stringResource(R.string.chapters),
                     isSelected = currentStep == PickerStep.CHAPTERS,
                     onClick = { viewModel.setStep(PickerStep.CHAPTERS) }
                 )
                 PickerTab(
-                    text = "Verses",
+                    text = stringResource(R.string.verses),
                     isSelected = currentStep == PickerStep.VERSES,
                     onClick = { viewModel.setStep(PickerStep.VERSES) }
                 )
@@ -290,6 +299,7 @@ fun BookPickerScreen(
                             BookGrid(
                                 books = books, 
                                 selectedBookId = selectedBook?.id,
+                                appLanguage = appLanguage,
                                 onBookClick = { viewModel.selectBook(it) }
                             )
                         }
@@ -326,12 +336,12 @@ fun BookPickerScreen(
                     horizontalArrangement = Arrangement.SpaceEvenly
                 ) {
                     TestamentTab(
-                        text = "Old Testament",
+                        text = stringResource(R.string.old_testament),
                         isSelected = testamentFilter == TestamentFilter.OLD,
                         onClick = { viewModel.setTestament(TestamentFilter.OLD) }
                     )
                     TestamentTab(
-                        text = "New Testament",
+                        text = stringResource(R.string.new_testament),
                         isSelected = testamentFilter == TestamentFilter.NEW,
                         onClick = { viewModel.setTestament(TestamentFilter.NEW) }
                     )
@@ -349,7 +359,7 @@ fun BookPickerScreen(
                     modifier = Modifier.fillMaxWidth().padding(16.dp),
                     colors = ButtonDefaults.buttonColors(containerColor = VerbumBlue)
                 ) {
-                    Text("Jump to Chapter", fontFamily = Inter, color = White)
+                    Text(stringResource(R.string.jump_to_chapter), fontFamily = Inter, color = White)
                 }
             }
         }
@@ -410,7 +420,7 @@ fun TestamentTab(text: String, isSelected: Boolean, onClick: () -> Unit) {
 }
 
 @Composable
-fun BookGrid(books: List<BookEntity>, selectedBookId: Int?, onBookClick: (BookEntity) -> Unit) {
+fun BookGrid(books: List<BookEntity>, selectedBookId: Int?, appLanguage: String, onBookClick: (BookEntity) -> Unit) {
     LazyVerticalGrid(
         columns = GridCells.Fixed(3),
         horizontalArrangement = Arrangement.spacedBy(8.dp),
@@ -420,6 +430,7 @@ fun BookGrid(books: List<BookEntity>, selectedBookId: Int?, onBookClick: (BookEn
             BookItem(
                 book = book, 
                 isSelected = book.id == selectedBookId,
+                appLanguage = appLanguage,
                 onClick = { onBookClick(book) }
             )
         }
@@ -427,9 +438,9 @@ fun BookGrid(books: List<BookEntity>, selectedBookId: Int?, onBookClick: (BookEn
 }
 
 @Composable
-fun BookItem(book: BookEntity, isSelected: Boolean, onClick: () -> Unit) {
-    val abbreviation = getAbbreviation(book.id)
-    val fullName = Passage.BOOK_ID_TO_LONG_NAME[book.id] ?: book.name_en
+fun BookItem(book: BookEntity, isSelected: Boolean, appLanguage: String, onClick: () -> Unit) {
+    val abbreviation = getAbbreviation(book.id, appLanguage)
+    val fullName = if (appLanguage == "es") book.name_es else book.name_en
     Card(
         modifier = Modifier
             .fillMaxWidth()
@@ -496,8 +507,8 @@ fun NumberGrid(items: List<Int>, selectedItem: Int?, onNumberClick: (Int) -> Uni
     }
 }
 
-fun getAbbreviation(bookId: Int): String {
-    return mapOf(
+fun getAbbreviation(bookId: Int, lang: String = "en"): String {
+    val enMap = mapOf(
         1 to "Gen", 2 to "Exo", 3 to "Lev", 4 to "Num", 5 to "Deu", 6 to "Jos", 7 to "Jdg", 8 to "Rut",
         9 to "1Sa", 10 to "2Sa", 11 to "1Ki", 12 to "2Ki", 13 to "1Ch", 14 to "2Ch", 15 to "Ezr", 16 to "Neh",
         17 to "Tob", 18 to "Jdt", 19 to "Est", 20 to "Job", 21 to "Psa", 22 to "Pro", 23 to "Ecc", 24 to "Son",
@@ -508,5 +519,18 @@ fun getAbbreviation(bookId: Int): String {
         57 to "Phi", 58 to "Col", 59 to "1Th", 60 to "2Th", 61 to "1Ti", 62 to "2Ti", 63 to "Tit", 64 to "Phm",
         65 to "Heb", 66 to "Jas", 67 to "1Pe", 68 to "2Pe", 69 to "1Jn", 70 to "2Jn", 71 to "3Jn", 72 to "Jud",
         73 to "Rev"
-    )[bookId] ?: "Bk"
+    )
+    val esMap = mapOf(
+        1 to "Gén", 2 to "Éxo", 3 to "Lev", 4 to "Núm", 5 to "Deu", 6 to "Jos", 7 to "Jue", 8 to "Rut",
+        9 to "1Sa", 10 to "2Sa", 11 to "1Re", 12 to "2Re", 13 to "1Cr", 14 to "2Cr", 15 to "Esd", 16 to "Neh",
+        17 to "Tob", 18 to "Jdt", 19 to "Est", 20 to "Job", 21 to "Sal", 22 to "Pro", 23 to "Ecl", 24 to "Can",
+        25 to "Sab", 26 to "Ecl", 27 to "Isa", 28 to "Jer", 29 to "Lam", 30 to "Bar", 31 to "Eze", 32 to "Dan",
+        33 to "Ose", 34 to "Joe", 35 to "Amó", 36 to "Abd", 37 to "Jon", 38 to "Miq", 39 to "Nah", 40 to "Hab",
+        41 to "Sof", 42 to "Age", 43 to "Zac", 44 to "Mal", 45 to "1Ma", 46 to "2Ma", 47 to "Mat", 48 to "Mar",
+        49 to "Luc", 50 to "Jua", 51 to "Hech", 52 to "Rom", 53 to "1Co", 54 to "2Co", 55 to "Gál", 56 to "Efe",
+        57 to "Fil", 58 to "Col", 59 to "1Te", 60 to "2Te", 61 to "1Ti", 62 to "2Ti", 63 to "Tit", 64 to "Flm",
+        65 to "Heb", 66 to "San", 67 to "1Pe", 68 to "2Pe", 69 to "1Jn", 70 to "2Jn", 71 to "3Jn", 72 to "Jud",
+        73 to "Apo"
+    )
+    return (if (lang == "es") esMap[bookId] else enMap[bookId]) ?: "Bk"
 }

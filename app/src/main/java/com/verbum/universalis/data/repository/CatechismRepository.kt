@@ -18,8 +18,8 @@ class CatechismRepository @Inject constructor(
 ) {
     private fun db() = CatechismRawDatabase.getDatabase(context)
 
-    fun getParagraph(number: Int): CccParagraphEntity? {
-        return db().getParagraph(number)
+    fun getParagraph(number: Int, lang: String): CccParagraphEntity? {
+        return db().getParagraph(number, lang)
     }
 
     fun getBibleRefsForParagraph(number: Int): List<CccBibleRefEntity> {
@@ -34,12 +34,12 @@ class CatechismRepository @Inject constructor(
         return db().getFootnoteBibleRefs(footnoteId)
     }
 
-    fun search(query: String): List<CccSearchResultEntity> {
-        return db().search(query)
+    fun search(query: String, lang: String): List<CccSearchResultEntity> {
+        return db().search(query, lang)
     }
 
-    fun getTocTree(): List<CccTocNode> {
-        val paragraphs = db().getAllParagraphs()
+    fun getTocTree(lang: String): List<CccTocNode> {
+        val paragraphs = db().getAllParagraphs(lang)
         if (paragraphs.isEmpty()) return emptyList()
 
         val roots = mutableListOf<CccTocNode>()

@@ -14,6 +14,7 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.material.icons.filled.Brightness6
 import androidx.compose.material.icons.filled.Download
+import androidx.compose.material.icons.filled.Language
 import androidx.compose.material.icons.filled.Note
 import androidx.compose.material.icons.filled.Sync
 import androidx.compose.material3.*
@@ -25,10 +26,12 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.compose.rememberNavController
+import com.verbum.universalis.R
 import com.verbum.universalis.data.ssh.SSHKeyManager
 import com.verbum.universalis.data.sync.GitSyncViewModel
 import com.verbum.universalis.data.sync.SyncStatus
@@ -40,6 +43,7 @@ object Route {
     const val Sync = "sync"
     const val Notes = "notes"
     const val Theme = "theme"
+    const val Language = "language"
 }
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -57,7 +61,7 @@ fun SettingsScreen(
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text("Settings") },
+                title = { Text(stringResource(R.string.settings)) },
                 navigationIcon = {
                     IconButton(onClick = onBack) {
                         Icon(Icons.Default.ArrowBack, contentDescription = "Back")
@@ -97,6 +101,12 @@ fun SettingsScreen(
                     description = "Change the app theme (light/dark)",
                     icon = Icons.Default.Brightness6,
                     route = Route.Theme
+                ),
+                SettingsMenuItem(
+                    title = stringResource(R.string.language),
+                    description = "Change the application language (English/Español)",
+                    icon = Icons.Default.Language,
+                    route = Route.Language
                 )
             )
 

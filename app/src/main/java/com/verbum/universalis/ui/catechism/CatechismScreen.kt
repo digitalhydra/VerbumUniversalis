@@ -12,6 +12,7 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontStyle
@@ -21,6 +22,7 @@ import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
+import com.verbum.universalis.R
 import com.verbum.universalis.core.theme.SourceSerifPro
 import com.verbum.universalis.core.theme.VerbumTheme
 
@@ -66,14 +68,14 @@ fun CatechismScreen(
                             horizontalArrangement = Arrangement.SpaceBetween
                         ) {
                             TextButton(onClick = { uiState?.number?.let { if (it > 1) onNavigateToParagraph(it - 1) } }) {
-                                Text("← Prev")
+                                Text(stringResource(R.string.prev))
                             }
                             Text(
                                 "¶ ${uiState?.number ?: ""}/2865",
                                 modifier = Modifier.padding(top = 12.dp)
                             )
                             TextButton(onClick = { uiState?.number?.let { if (it < 2865) onNavigateToParagraph(it + 1) } }) {
-                                Text("Next →")
+                                Text(stringResource(R.string.next))
                             }
                         }
                     }

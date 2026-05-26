@@ -557,10 +557,12 @@ def main():
         DROP TABLE IF EXISTS ccc_footnote_bible_refs;
         
         CREATE TABLE ccc_paragraphs (
-            number INTEGER PRIMARY KEY,
+            number INTEGER,
+            lang TEXT NOT NULL,
             toc_path TEXT NOT NULL,
             plain_text TEXT NOT NULL,
-            formatted_json TEXT NOT NULL
+            formatted_json TEXT NOT NULL,
+            PRIMARY KEY (number, lang)
         );
         
         CREATE TABLE ccc_bible_refs (
@@ -599,9 +601,10 @@ def main():
         CREATE INDEX idx_ccc_tags_tag ON ccc_tags(tag);
         CREATE INDEX idx_ccc_tags_ccc ON ccc_tags(ccc_number);
         
-        -- Use FTS4 for broader Android compatibility (FTS5 missing on some devices)
+        -- FTS4 full-text search
         CREATE VIRTUAL TABLE ccc_fts USING fts4(
             number,
+            lang,
             toc_path,
             plain_text,
             tokenize=porter
@@ -652,11 +655,11 @@ def main():
     conn.execute("BEGIN TRANSACTION")
     for ccc_num, para in sorted(paragraphs.items()):
         conn.execute(
-            "INSERT INTO ccc_paragraphs (number, toc_path, plain_text, formatted_json) VALUES (?, ?, ?, ?)",
-            (ccc_num, para["toc_path"], para["plain_text"], para["formatted_json"])
+            "INSERT INTO ccc_paragraphs (number, lang, toc_path, plain_text, formatted_json) VALUES (?, ?, ?, ?, ?)",
+            (ccc_num, "en", para["toc_path"], para["plain_text"], para["formatted_json"])
         )
-    conn.execute("COMMIT")
-    print(f"  {len(paragraphs)} paragraphs inserted")
+    conn.commit()
+    print(f"  {len(paragraphs)} paragraphs inserted (English)")
     
     # ── Insert Bible refs ──
     if all_bible_refs:
@@ -728,7 +731,12 @@ def main():
         print("  No footnote Bible refs to insert")
     
     # ── Rebuild FTS index ──
-    conn.execute("INSERT INTO ccc_fts(ccc_fts) VALUES('rebuild')")
+    conn.execute("DELETE FROM ccc_fts")
+    conn.execute("""
+        INSERT INTO ccc_fts(rowid, number, lang, toc_path, plain_text)
+        SELECT number, number, lang, toc_path, plain_text FROM ccc_paragraphs
+    """)
+    conn.commit()
     
     # ── Verify ──
     count = conn.execute("SELECT COUNT(*) FROM ccc_paragraphs").fetchone()[0]
@@ -745,9 +753,9 @@ def main():
     print(f"  Footnotes: {footnote_count}")
     print(f"  Footnote Bible refs: {footnote_bible_count}")
     
-    sample = conn.execute("SELECT number, substr(plain_text, 1, 120) FROM ccc_paragraphs WHERE number = 27").fetchone()
+    sample = conn.execute("SELECT number, lang, substr(plain_text, 1, 120) FROM ccc_paragraphs WHERE number = 27 AND lang = 'en'").fetchone()
     if sample:
-        print(f"\n  Sample ¶{sample[0]}: \"{sample[1]}...\"")
+        print(f"\n  Sample ¶{sample[0]} [{sample[1]}]: \"{sample[2]}...\"")
     
     sample_refs = conn.execute(
         "SELECT ref_text FROM ccc_bible_refs WHERE ccc_number = 27"

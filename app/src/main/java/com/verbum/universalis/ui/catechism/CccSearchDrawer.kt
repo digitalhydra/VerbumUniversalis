@@ -14,6 +14,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
@@ -21,6 +22,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.verbum.universalis.R
 import com.verbum.universalis.data.db.CccSearchResultEntity
 
 @Composable
@@ -73,7 +75,7 @@ fun CccSearchDrawer(
                     modifier = Modifier
                         .fillMaxWidth()
                         .padding(horizontal = 7.dp),
-                    placeholder = { Text("Search Catechism...") },
+                    placeholder = { Text(stringResource(R.string.search_catechism)) },
                     leadingIcon = { Icon(Icons.Default.Search, contentDescription = null) },
                     trailingIcon = {
                         if (query.isNotEmpty()) {
@@ -94,7 +96,7 @@ fun CccSearchDrawer(
 
                 if (query.isNotEmpty()) {
                     Text(
-                        text = "Found ${results.size} results",
+                        text = stringResource(R.string.found_results, results.size),
                         style = MaterialTheme.typography.labelSmall,
                         modifier = Modifier.padding(start = 16.dp, top = 4.dp),
                         color = Color.Black.copy(alpha = 0.4f)
@@ -118,7 +120,7 @@ fun CccSearchDrawer(
                                 contentAlignment = Alignment.Center
                             ) {
                                 Text(
-                                    "No results found for \"$query\"",
+                                    stringResource(R.string.no_results, query),
                                     style = MaterialTheme.typography.bodyMedium,
                                     color = Color.Black.copy(alpha = 0.5f)
                                 )

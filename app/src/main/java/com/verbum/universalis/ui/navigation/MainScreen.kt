@@ -15,6 +15,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
@@ -23,6 +24,7 @@ import androidx.navigation.NavDestination.Companion.hierarchy
 import androidx.navigation.NavGraph.Companion.findStartDestination
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
+import com.verbum.universalis.R
 import com.verbum.universalis.core.theme.VerbumBlue
 
 @Composable
@@ -36,10 +38,10 @@ fun MainScreen() {
     val showBottomBar = currentRoute == Route.Dashboard.route
     
     val items = listOf(
-        NavigationItem("Bible", Route.ReadingCanvas.route, Icons.Default.MenuBook),
-        NavigationItem("Readings", Route.Dashboard.route, Icons.Default.CalendarMonth),
-        NavigationItem("Teaching", Route.CatechismToc.route, Icons.Default.HistoryEdu),
-        NavigationItem("Settings", Route.Settings.route, Icons.Default.Menu)
+        NavigationItem(stringResource(R.string.bible), Route.ReadingCanvas.route, Icons.Default.MenuBook),
+        NavigationItem(stringResource(R.string.readings), Route.Dashboard.route, Icons.Default.CalendarMonth),
+        NavigationItem(stringResource(R.string.teaching), Route.CatechismToc.route, Icons.Default.HistoryEdu),
+        NavigationItem(stringResource(R.string.settings), Route.Settings.route, Icons.Default.Menu)
     )
 
     Scaffold(

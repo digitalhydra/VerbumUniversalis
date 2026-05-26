@@ -10,6 +10,8 @@ import androidx.datastore.preferences.preferencesDataStore
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.verbum.universalis.core.LanguageManager
+import com.verbum.universalis.data.entities.BookEntity
 import com.verbum.universalis.data.repository.BibleRepository
 import com.verbum.universalis.VerbumApplication
 import com.verbum.universalis.data.json.Note
@@ -166,6 +168,7 @@ val Application.dataStore by preferencesDataStore(name = "verbum_settings")
 class ReadingViewModel @Inject constructor(
     private val repository: BibleRepository,
     private val notesRepository: NotesRepository,
+    private val languageManager: LanguageManager,
     private val app: Application,
     private val savedStateHandle: SavedStateHandle
 ) : ViewModel() {
@@ -174,6 +177,10 @@ class ReadingViewModel @Inject constructor(
 
     private val _currentPassage: MutableStateFlow<Passage>
     val currentPassage: StateFlow<Passage>
+    
+    val appLanguage = languageManager.appLanguage
+    
+    private val _bookNames = MutableStateFlow<Map<Int, BookEntity>>(emptyMap())
 
     // Selection mode state
     private val _isSelectionMode = MutableStateFlow(false)
@@ -204,6 +211,12 @@ class ReadingViewModel @Inject constructor(
 
         _currentPassage = MutableStateFlow(initialPassage)
         currentPassage = _currentPassage.asStateFlow()
+
+        viewModelScope.launch {
+            repository.getAllBooks().collect { books ->
+                _bookNames.value = books.associateBy { it.id }
+            }
+        }
 
         if (bookId == -1 || chapter == -1) {
             // Load last read passage from DataStore only if no arguments provided
@@ -426,7 +439,13 @@ class ReadingViewModel @Inject constructor(
 
     // Get display string for a passage (e.g., "Genesis 1")
     fun getPassageReference(p: Passage): String {
-        val bookName = Passage.BOOK_ID_TO_NAME[p.bookId] ?: "Book ${p.bookId}"
+        val book = _bookNames.value[p.bookId]
+        val bookName = if (languageManager.appLanguage.value == "es") {
+            book?.name_es ?: Passage.BOOK_ID_TO_NAME[p.bookId] ?: "Libro ${p.bookId}"
+        } else {
+            book?.name_en ?: Passage.BOOK_ID_TO_NAME[p.bookId] ?: "Book ${p.bookId}"
+        }
+
         return if (p.verseFilter != null) {
             "$bookName ${p.chapter}:${p.verseFilter}"
         } else {
