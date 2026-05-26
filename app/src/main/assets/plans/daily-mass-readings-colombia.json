@@ -5,12 +5,12 @@
     "season": "Christmas",
     "readings": {
       "firstReading": "Numbers 6:22-27",
-      "psalm": "Psalm 67:2-3, 5.6+8",
+      "psalm": "Psalm 67:2-3, 5, 6, 8",
       "secondReading": "Galatians 4:4-7",
       "gospel": "Luke 2:16-21"
     },
     "calendarSource": "colombia",
-    "celebration": "01  Enero, Jueves.  Solemnidad,  Blanco",
+    "celebration": "Jueves. Solemnidad",
     "color": "Blanco",
     "prelude": "<p>Santa María Madre de Dios, (Día de precepto)</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -26,7 +26,7 @@
       "gospel": "John 1:19-28"
     },
     "calendarSource": "colombia",
-    "celebration": "02  Enero, Viernes.  antes de la Epifanía,  Memoria obligatoria,  Blanco",
+    "celebration": "Viernes. antes de la Epifanía, Memoria obligatoria",
     "color": "Blanco",
     "prelude": "<p>Santos Basilio Magno y Gregorio Nacianceno, obispos y doctores de la Iglesia</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -43,7 +43,7 @@
       "gospel": "Matthew 2:1-12"
     },
     "calendarSource": "colombia",
-    "celebration": "03  Enero, Sábado.  LA EPIFANIA DEL SEÑOR,  Solemnidad,  Blanco  \r\n EN LA VIGILIA:",
+    "celebration": "Sábado. La Epifanía del Señor, Solemnidad",
     "color": "Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -60,7 +60,7 @@
       "gospel": "Matthew 2:1-12"
     },
     "calendarSource": "colombia",
-    "celebration": "04  Enero, Domingo.  EN EL DÍA DE LA SOLEMNIDAD,  Solemnidad,  Blanco",
+    "celebration": "Domingo. En el Día de la Solemnidad, Solemnidad",
     "color": "Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -76,7 +76,7 @@
       "gospel": "Matthew 4:12-17, 23-25"
     },
     "calendarSource": "colombia",
-    "celebration": "05  Enero, Lunes.  después de la Epifanía,  Feria,  Blanco",
+    "celebration": "Lunes. después de la Epifanía, Feria",
     "color": "Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -92,7 +92,7 @@
       "gospel": "Mark 6:34-44"
     },
     "calendarSource": "colombia",
-    "celebration": "06  Enero, Martes.  después de la Epifanía,  Feria,  Blanco",
+    "celebration": "Martes. después de la Epifanía, Feria",
     "color": "Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -108,7 +108,7 @@
       "gospel": "Mark 6:45-52"
     },
     "calendarSource": "colombia",
-    "celebration": "07  Enero, Miércoles.  después de la Epifanía,  Feria o Memoria libre,  Blanco",
+    "celebration": "Miércoles. después de la Epifanía, Feria o Memoria libre",
     "color": "Blanco",
     "prelude": "<p>San Raimundo de Peñafort, presbítero</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -120,11 +120,11 @@
     "season": "Christmas",
     "readings": {
       "firstReading": "1 John 4:19 - 5:4",
-      "psalm": "Psalm 72:1-2, 14+15bc.17 (R. Luke 2:30-31)",
+      "psalm": "Psalm 72:1-2, 14, 15bc.17 (R. Luke 2:30-31)",
       "gospel": "Luke 4:14-22a"
     },
     "calendarSource": "colombia",
-    "celebration": "08  Enero, Jueves.  después de la Epifanía,  Feria,  Blanco",
+    "celebration": "Jueves. después de la Epifanía, Feria",
     "color": "Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -140,7 +140,7 @@
       "gospel": "Luke 5:12-16"
     },
     "calendarSource": "colombia",
-    "celebration": "09  Enero, Viernes.  después de la Epifanía,  Feria,  Blanco",
+    "celebration": "Viernes. después de la Epifanía, Feria",
     "color": "Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -152,11 +152,11 @@
     "season": "Christmas",
     "readings": {
       "firstReading": "1 John 5:14-21",
-      "psalm": "Psalm 149:1-2, 3-4, 5-6a y 9b (R. 17[16],6a)",
+      "psalm": "Psalm 149:1-2, 3-4, 5-6a y 9b (R. 17[16], 6a)",
       "gospel": "John 3:22-30"
     },
     "calendarSource": "colombia",
-    "celebration": "10  Enero, Sábado.  después de la Epifanía,  Feria,  Blanco",
+    "celebration": "Sábado. después de la Epifanía, Feria",
     "color": "Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -173,7 +173,7 @@
       "gospel": "Matthew 3:13-17"
     },
     "calendarSource": "colombia",
-    "celebration": "11  Enero, Domingo.  EL BAUTISMO DEL SEÑOR,  Fiesta ,  Blanco",
+    "celebration": "Domingo. El Bautismo del Señor, Fiesta",
     "color": "Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -189,7 +189,7 @@
       "gospel": "Mark 1:14-20"
     },
     "calendarSource": "colombia",
-    "celebration": "12  Enero, Lunes. 1ª Sem. del TO,  Feria,  Verde",
+    "celebration": "Lunes. 1ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "null",
     "calendarLabel": "Colombia (CEC)",
@@ -205,7 +205,7 @@
       "gospel": "Mark 1:21b-28"
     },
     "calendarSource": "colombia",
-    "celebration": "13  Enero, Martes. 1ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
+    "celebration": "Martes. 1ª Semana del Tiempo Ordinario, Feria o Memoria libre",
     "color": "Verde o Blanco",
     "prelude": "<p>San Hilario, obispo y doctor de la Iglesia</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -217,11 +217,11 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "1 Samuel 3:1-10, 19-20",
-      "psalm": "Psalm 40:2+5, 7-8a. 8b-9, 10",
+      "psalm": "Psalm 40:2, 5, 7-8a. 8b-9, 10",
       "gospel": "Mark 1:29-39"
     },
     "calendarSource": "colombia",
-    "celebration": "14  Enero, Miércoles. 1ª Sem. del TO,  Feria,  Verde",
+    "celebration": "Miércoles. 1ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -237,7 +237,7 @@
       "gospel": "Mark 1:40-45"
     },
     "calendarSource": "colombia",
-    "celebration": "15  Enero, Jueves. 1ª Sem. del TO,  Feria,  Verde",
+    "celebration": "Jueves. 1ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -253,7 +253,7 @@
       "gospel": "Mark 2:1-12"
     },
     "calendarSource": "colombia",
-    "celebration": "16  Enero, Viernes. 1ª Sem. del TO,  Feria,  Verde",
+    "celebration": "Viernes. 1ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -269,7 +269,7 @@
       "gospel": "Mark 2:13-17"
     },
     "calendarSource": "colombia",
-    "celebration": "17  Enero, Sábado. 1ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "celebration": "Sábado. 1ª Semana del Tiempo Ordinario, Memoria obligatoria",
     "color": "Blanco",
     "prelude": "<p>San Antonio, abad</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -281,12 +281,12 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Isaiah 49:3, 5-6",
-      "psalm": "Psalm 40:2+4ab.7, 8-9, 10",
+      "psalm": "Psalm 40:2, 4ab.7, 8-9, 10",
       "secondReading": "1 Corinthians 1:1-3",
       "gospel": "John 1:29-34"
     },
     "calendarSource": "colombia",
-    "celebration": "18  Enero, Domingo. 2ª Sem. del Tiempo Ordinario,  Verde",
+    "celebration": "Domingo. 2ª Sem. del Tiempo Ordinario",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -302,7 +302,7 @@
       "gospel": "Mark 2:18-22"
     },
     "calendarSource": "colombia",
-    "celebration": "19  Enero, Lunes. 2ª Sem. del TO,  Feria,  Verde",
+    "celebration": "Lunes. 2ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -318,7 +318,7 @@
       "gospel": "Mark 2:23-28"
     },
     "calendarSource": "colombia",
-    "celebration": "20  Enero, Martes. 2ª Sem. del TO,  Feria o Memoria libre,  Verde o Rojo",
+    "celebration": "Martes. 2ª Semana del Tiempo Ordinario, Feria o Memoria libre",
     "color": "Verde o Rojo",
     "prelude": "<p>San Fabián, papa y mártir; San Sebastián, mártir</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -334,7 +334,7 @@
       "gospel": "Mark 3:1-6"
     },
     "calendarSource": "colombia",
-    "celebration": "21  Enero, Miércoles. 2ª Sem. del TO,  Memoria obligatoria,  Rojo",
+    "celebration": "Miércoles. 2ª Semana del Tiempo Ordinario, Memoria obligatoria",
     "color": "Rojo",
     "prelude": "<p>Santa Inés, virgen y mártir</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -350,7 +350,7 @@
       "gospel": "Mark 3:7-12"
     },
     "calendarSource": "colombia",
-    "celebration": "22  Enero, Jueves. 2ª Sem. del TO,  Feria o Memoria libre,  Verde o Rojo",
+    "celebration": "Jueves. 2ª Semana del Tiempo Ordinario, Feria o Memoria libre",
     "color": "Verde o Rojo",
     "prelude": "<p>San Vicente, diácono y mártir</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -362,11 +362,11 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "1 Samuel 24:3-21",
-      "psalm": "Psalm 57:2, 3-4, 6+11 (R. 2a)",
+      "psalm": "Psalm 57:2, 3-4, 6, 11 (R. 2a)",
       "gospel": "Mark 3:13-19"
     },
     "calendarSource": "colombia",
-    "celebration": "23  Enero, Viernes. 2ª Sem. del TO,  Feria,  Verde",
+    "celebration": "Viernes. 2ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -382,7 +382,7 @@
       "gospel": "Mark 3:20-21"
     },
     "calendarSource": "colombia",
-    "celebration": "24  Enero, Sábado. 2ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "celebration": "Sábado. 2ª Semana del Tiempo Ordinario, Memoria obligatoria",
     "color": "Blanco",
     "prelude": "<p>San Francisco de Sales, obispo y doctor de la Iglesia</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -394,12 +394,12 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Isaiah 8:23b - 9:3",
-      "psalm": "Psalm 27:1, 4.13-14 (R. 1a)",
+      "psalm": "Psalm 27:1, 4, 13-14 (R. 1a)",
       "secondReading": "1 Corinthians 1:10-13, 17",
       "gospel": "Matthew 4:12-23 (forma larga) o Matthew 4:12-17 (forma breve)"
     },
     "calendarSource": "colombia",
-    "celebration": "25  Enero, Domingo. 3ª Sem. del Tiempo Ordinario,  Verde",
+    "celebration": "Domingo. 3ª Sem. del Tiempo Ordinario",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -413,10 +413,10 @@
       "firstReading": "2Tm 1:1-8 o Tt 1:1-5",
       "psalm": "Psalm 96:1-2a.2b-3, 7-8a.10 (R. 3)",
       "secondReading": "Luke 10:1-9",
-      "gospel": ""
+      "gospel": "Mark 3:22-30"
     },
     "calendarSource": "colombia",
-    "celebration": "26  Enero, Lunes. 3ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "celebration": "Lunes. 3ª Semana del Tiempo Ordinario, Memoria obligatoria",
     "color": "Blanco",
     "prelude": "<p>Santos Timoteo y Tito, obispos</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -428,11 +428,11 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "2 Samuel 6:12b-15, 17-19",
-      "psalm": "Psalm 24:7, 8.9, 10",
+      "psalm": "Psalm 24:7, 8, 9, 10",
       "gospel": "Mark 3:31-35"
     },
     "calendarSource": "colombia",
-    "celebration": "27  Enero, Martes. 3ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
+    "celebration": "Martes. 3ª Semana del Tiempo Ordinario, Feria o Memoria libre",
     "color": "Verde o Blanco",
     "prelude": "<p>Santa Ángela de Meríci, virgen</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -448,7 +448,7 @@
       "gospel": "Mark 4:1-20"
     },
     "calendarSource": "colombia",
-    "celebration": "28  Enero, Miércoles. 3ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "celebration": "Miércoles. 3ª Semana del Tiempo Ordinario, Memoria obligatoria",
     "color": "Blanco",
     "prelude": "<p>Santo Tomás de Aquino, presbítero y doctor de la Iglesia</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -464,7 +464,7 @@
       "gospel": "Mark 4:21-25"
     },
     "calendarSource": "colombia",
-    "celebration": "29  Enero, Jueves. 3ª Sem. del TO,  Feria,  Verde",
+    "celebration": "Jueves. 3ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -480,7 +480,7 @@
       "gospel": "Mark 4:26-34"
     },
     "calendarSource": "colombia",
-    "celebration": "30  Enero, Viernes. 3ª Sem. del TO,  Feria,  Verde",
+    "celebration": "Viernes. 3ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -496,7 +496,7 @@
       "gospel": "Mark 4:35-41"
     },
     "calendarSource": "colombia",
-    "celebration": "31  Enero, Sábado. 3ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "celebration": "Sábado. 3ª Semana del Tiempo Ordinario, Memoria obligatoria",
     "color": "Blanco",
     "prelude": "<p>San Juan Bosco, presbítero</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -513,7 +513,7 @@
       "gospel": "Matthew 5:1-12a"
     },
     "calendarSource": "colombia",
-    "celebration": "01  Febrero, Domingo. 4ª Sem. del Tiempo Ordinario,  Verde",
+    "celebration": "Domingo. 4ª Sem. del Tiempo Ordinario",
     "color": "Verde",
     "prelude": "null",
     "calendarLabel": "Colombia (CEC)",
@@ -525,12 +525,12 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Ml 3:1-4",
-      "psalm": "Psalm 24:7, 8.9, 10",
+      "psalm": "Psalm 24:7, 8, 9, 10",
       "secondReading": "Hb 2:14-18",
       "gospel": "Cuando la fiesta no cae en domingo, se escoge una sola de las dos lecturas anteriores y luego se recita el salmo"
     },
     "calendarSource": "colombia",
-    "celebration": "02  Febrero, Lunes.  Fiesta,  Blanco",
+    "celebration": "Lunes. Fiesta",
     "color": "Blanco",
     "prelude": "<p>Presentación del Señor,</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -546,7 +546,7 @@
       "gospel": "Mark 5:21-43"
     },
     "calendarSource": "colombia",
-    "celebration": "03  Febrero, Martes. 4ª Sem. del TO,  Feria o Memoria libre,  Verde o Rojo o Blanco",
+    "celebration": "Martes. 4ª Semana del Tiempo Ordinario, Feria o Memoria libre",
     "color": "Verde o Rojo o Blanco",
     "prelude": "<p>San Blas, obispo y mártir; San Óscar, obispo</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -558,11 +558,11 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "2 Samuel 24:2, 9-17",
-      "psalm": "Psalm 32:1-2, 5.6, 7",
+      "psalm": "Psalm 32:1-2, 5, 6, 7",
       "gospel": "Mark 6:1-6"
     },
     "calendarSource": "colombia",
-    "celebration": "04  Febrero, Miércoles. 4ª Sem. del TO,  Feria,  Verde",
+    "celebration": "Miércoles. 4ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -578,7 +578,7 @@
       "gospel": "Mark 6:7-13"
     },
     "calendarSource": "colombia",
-    "celebration": "05  Febrero, Jueves. 4ª Sem. del TO,  Memoria obligatoria,  Rojo",
+    "celebration": "Jueves. 4ª Semana del Tiempo Ordinario, Memoria obligatoria",
     "color": "Rojo",
     "prelude": "<p>Santa Águeda, virgen y mártir</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -590,11 +590,11 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Sirach 47:2-13",
-      "psalm": "Psalm 18:31, 47+50, 51",
+      "psalm": "Psalm 18:31, 47, 50, 51",
       "gospel": "Mark 6:14-29"
     },
     "calendarSource": "colombia",
-    "celebration": "06  Febrero, Viernes. 4ª Sem. del TO,  Memoria obligatoria,  Rojo",
+    "celebration": "Viernes. 4ª Semana del Tiempo Ordinario, Memoria obligatoria",
     "color": "Rojo",
     "prelude": "<p>Santos Pablo Miki y Compañeros, mártires</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -610,7 +610,7 @@
       "gospel": "Mark 6:30-34"
     },
     "calendarSource": "colombia",
-    "celebration": "07  Febrero, Sábado. 4ª Sem. del TO,  Feria o BMV,  Verde o Blanco",
+    "celebration": "Sábado. 4ª Semana del Tiempo Ordinario, Feria o BMV",
     "color": "Verde o Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -622,12 +622,12 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Isaiah 58:7-10",
-      "psalm": "Psalm 112:4-5, 6-7, 8a+9 (R. 4a)",
+      "psalm": "Psalm 112:4-5, 6-7, 8a, 9 (R. 4a)",
       "secondReading": "1 Corinthians 2:1-5",
       "gospel": "Matthew 5:13-16"
     },
     "calendarSource": "colombia",
-    "celebration": "08  Febrero, Domingo. 5ª Sem. del Tiempo Ordinario,  Verde",
+    "celebration": "Domingo. 5ª Sem. del Tiempo Ordinario",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -643,7 +643,7 @@
       "gospel": "Mark 6:53-56"
     },
     "calendarSource": "colombia",
-    "celebration": "09  Febrero, Lunes. 5ª Sem. del TO,  Feria,  Verde",
+    "celebration": "Lunes. 5ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -655,11 +655,11 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "1 Kings 8:22-23, 27-30",
-      "psalm": "Psalm 84:3, 4. 5+10, 11 (R. 2)",
+      "psalm": "Psalm 84:3, 4. 5, 10, 11 (R. 2)",
       "gospel": "Mark 7:1-13"
     },
     "calendarSource": "colombia",
-    "celebration": "10  Febrero, Martes. 5ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "celebration": "Martes. 5ª Semana del Tiempo Ordinario, Memoria obligatoria",
     "color": "Blanco",
     "prelude": "<p>Santa Escolástica, virgen</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -675,7 +675,7 @@
       "gospel": "Mark 7:14-23"
     },
     "calendarSource": "colombia",
-    "celebration": "11  Febrero, Miércoles. 5ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
+    "celebration": "Miércoles. 5ª Semana del Tiempo Ordinario, Feria o Memoria libre",
     "color": "Verde o Blanco",
     "prelude": "<p>Bienaventurada Virgen María de Lourdes</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -687,11 +687,11 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "1 Kings 11:4-13",
-      "psalm": "Psalm 106:3-4, 35-36. 37+40 (R. 4a)",
+      "psalm": "Psalm 106:3-4, 35-36. 37, 40 (R. 4a)",
       "gospel": "Mark 7:24-30"
     },
     "calendarSource": "colombia",
-    "celebration": "12  Febrero, Jueves. 5ª Sem. del TO,  Feria,  Verde",
+    "celebration": "Jueves. 5ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -707,7 +707,7 @@
       "gospel": "Mark 7:31-37"
     },
     "calendarSource": "colombia",
-    "celebration": "13  Febrero, Viernes. 5ª Sem. del TO,  Feria,  Verde",
+    "celebration": "Viernes. 5ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -723,7 +723,7 @@
       "gospel": "Mark 8:1-10"
     },
     "calendarSource": "colombia",
-    "celebration": "14  Febrero, Sábado. 5ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "celebration": "Sábado. 5ª Semana del Tiempo Ordinario, Memoria obligatoria",
     "color": "Blanco",
     "prelude": "<p>Santos Cirilo, monje y Metodio, obispo</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -740,7 +740,7 @@
       "gospel": "Matthew 5:17-37 (forma larga) o Matthew 5:20-22a, 27-28, 33-34a, 37 (forma breve)"
     },
     "calendarSource": "colombia",
-    "celebration": "15  Febrero, Domingo. 6ª Sem. del Tiempo Ordinario,  Verde",
+    "celebration": "Domingo. 6ª Sem. del Tiempo Ordinario",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -756,7 +756,7 @@
       "gospel": "Mark 8:11-13"
     },
     "calendarSource": "colombia",
-    "celebration": "16  Febrero, Lunes. 6ª Sem. del TO,  Feria,  Verde",
+    "celebration": "Lunes. 6ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "null",
     "calendarLabel": "Colombia (CEC)",
@@ -772,7 +772,7 @@
       "gospel": "Mark 8:14-21"
     },
     "calendarSource": "colombia",
-    "celebration": "17  Febrero, Martes. 6ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
+    "celebration": "Martes. 6ª Semana del Tiempo Ordinario, Feria o Memoria libre",
     "color": "Verde o Blanco",
     "prelude": "<p>Los siete santos Fundadores de la Orden de los Siervos de la Bienaventurada Virgen María</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -788,7 +788,7 @@
       "gospel": "2 Corinthians 5:20 - 6:2"
     },
     "calendarSource": "colombia",
-    "celebration": "18  Febrero, Miércoles.  de Ceniza,  Morado",
+    "celebration": "Miércoles. de Ceniza",
     "color": "Morado",
     "prelude": "null",
     "calendarLabel": "Colombia (CEC)",
@@ -800,11 +800,11 @@
     "season": "Lent",
     "readings": {
       "firstReading": "Deuteronomy 30:15-20",
-      "psalm": "Psalm 1:1-2, 3.4 y 6 (R. 119[118],29)",
+      "psalm": "Psalm 1:1-2, 3, 4 y 6 (R. 119[118], 29)",
       "gospel": "&nbsp;"
     },
     "calendarSource": "colombia",
-    "celebration": "19  Febrero, Jueves.  después de Ceniza,  Feria,  Morado",
+    "celebration": "Jueves. después de Ceniza, Feria",
     "color": "Morado",
     "prelude": "null",
     "calendarLabel": "Colombia (CEC)",
@@ -820,7 +820,7 @@
       "gospel": "Matthew 9:14-15 o Luke 22:39-46"
     },
     "calendarSource": "colombia",
-    "celebration": "20  Febrero, Viernes.  después de Ceniza,  Feria,  Morado",
+    "celebration": "Viernes. después de Ceniza, Feria",
     "color": "Morado",
     "prelude": "null",
     "calendarLabel": "Colombia (CEC)",
@@ -836,7 +836,7 @@
       "gospel": "Luke 5:27-32"
     },
     "calendarSource": "colombia",
-    "celebration": "21  Febrero, Sábado.  después de Ceniza,  Feria,  Morado",
+    "celebration": "Sábado. después de Ceniza, Feria",
     "color": "Morado",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -853,7 +853,7 @@
       "gospel": "&nbsp;"
     },
     "calendarSource": "colombia",
-    "celebration": "22  Febrero, Domingo. 1ª Sem. de Cuaresma,  Morado",
+    "celebration": "Domingo. 1ª Semana de Cuaresma",
     "color": "Morado",
     "prelude": "null",
     "calendarLabel": "Colombia (CEC)",
@@ -865,11 +865,11 @@
     "season": "Lent",
     "readings": {
       "firstReading": "Leviticus 19:1-2, 11-18",
-      "psalm": "Psalm 19:8, 9.10. 15",
+      "psalm": "Psalm 19:8, 9, 10. 15",
       "gospel": "Matthew 25:31-46"
     },
     "calendarSource": "colombia",
-    "celebration": "23  Febrero, Lunes. 1ª Sem. de Cuaresma,  Feria,  Morado",
+    "celebration": "Lunes. 1ª Semana de Cuaresma, Feria",
     "color": "Morado",
     "prelude": "null",
     "calendarLabel": "Colombia (CEC)",
@@ -885,7 +885,7 @@
       "gospel": "Matthew 6:7-15"
     },
     "calendarSource": "colombia",
-    "celebration": "24  Febrero, Martes. 1ª Sem. de Cuaresma,  Feria,  Morado",
+    "celebration": "Martes. 1ª Semana de Cuaresma, Feria",
     "color": "Morado",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -901,7 +901,7 @@
       "gospel": "Luke 11:29-32"
     },
     "calendarSource": "colombia",
-    "celebration": "25  Febrero, Miércoles. 1ª Sem. de Cuaresma,  Feria,  Morado",
+    "celebration": "Miércoles. 1ª Semana de Cuaresma, Feria",
     "color": "Morado",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -917,7 +917,7 @@
       "gospel": "Matthew 7:7-12"
     },
     "calendarSource": "colombia",
-    "celebration": "26  Febrero, Jueves. 1ª Sem. de Cuaresma,  Feria,  Morado",
+    "celebration": "Jueves. 1ª Semana de Cuaresma, Feria",
     "color": "Morado",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -933,7 +933,7 @@
       "gospel": "Matthew 5:20-26 o Mark 14:53-64"
     },
     "calendarSource": "colombia",
-    "celebration": "27  Febrero, Viernes. 1ª Sem. de Cuaresma,  Feria,  Morado",
+    "celebration": "Viernes. 1ª Semana de Cuaresma, Feria",
     "color": "Morado",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -949,7 +949,7 @@
       "gospel": "Matthew 5:43-48"
     },
     "calendarSource": "colombia",
-    "celebration": "28  Febrero, Sábado. 1ª Sem. de Cuaresma,  Feria,  Morado",
+    "celebration": "Sábado. 1ª Semana de Cuaresma, Feria",
     "color": "Morado",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -966,7 +966,7 @@
       "gospel": "Matthew 17:1-9"
     },
     "calendarSource": "colombia",
-    "celebration": "01  Marzo, Domingo. 2ª Sem. de Cuaresma,  Morado",
+    "celebration": "Domingo. 2ª Semana de Cuaresma",
     "color": "Morado",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -978,11 +978,11 @@
     "season": "Lent",
     "readings": {
       "firstReading": "Daniel 9:4b-10",
-      "psalm": "Psalm 79:8, 9.11, 13",
+      "psalm": "Psalm 79:8, 9, 11, 13",
       "gospel": "Luke 6:36-38"
     },
     "calendarSource": "colombia",
-    "celebration": "02  Marzo, Lunes. 2ª Sem. de Cuaresma,  Feria,  Morado",
+    "celebration": "Lunes. 2ª Semana de Cuaresma, Feria",
     "color": "Morado",
     "prelude": "<p>null</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -998,7 +998,7 @@
       "gospel": "Matthew 23:1-12"
     },
     "calendarSource": "colombia",
-    "celebration": "03  Marzo, Martes. 2ª Sem. de Cuaresma,  Feria,  Morado",
+    "celebration": "Martes. 2ª Semana de Cuaresma, Feria",
     "color": "Morado",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -1014,7 +1014,7 @@
       "gospel": "Matthew 20:17-28"
     },
     "calendarSource": "colombia",
-    "celebration": "04  Marzo, Miércoles. 2ª Sem. de Cuaresma,  Feria,  Morado",
+    "celebration": "Miércoles. 2ª Semana de Cuaresma, Feria",
     "color": "Morado",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -1026,11 +1026,11 @@
     "season": "Lent",
     "readings": {
       "firstReading": "Jeremiah 17:5-10",
-      "psalm": "Psalm 1:1-2, 3.4 y 6",
+      "psalm": "Psalm 1:1-2, 3, 4 y 6",
       "gospel": "Luke 16:19-31"
     },
     "calendarSource": "colombia",
-    "celebration": "05  Marzo, Jueves. 2ª Sem. de Cuaresma,  Feria,  Morado",
+    "celebration": "Jueves. 2ª Semana de Cuaresma, Feria",
     "color": "Morado",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -1046,7 +1046,7 @@
       "gospel": "Matthew 21:33-43, 45-46 o Luke 23:13-25"
     },
     "calendarSource": "colombia",
-    "celebration": "06  Marzo, Viernes. 2ª Sem. de Cuaresma,  Feria,  Morado",
+    "celebration": "Viernes. 2ª Semana de Cuaresma, Feria",
     "color": "Morado",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -1062,7 +1062,7 @@
       "gospel": "Luke 15:1-3, 11-32"
     },
     "calendarSource": "colombia",
-    "celebration": "07  Marzo, Sábado. 2ª Sem. de Cuaresma,  Feria,  Morado",
+    "celebration": "Sábado. 2ª Semana de Cuaresma, Feria",
     "color": "Morado",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -1079,7 +1079,7 @@
       "gospel": "John 4:5-42 (forma larga) o John 4:5-15. 19b-26, 39a.40-42 (forma breve)"
     },
     "calendarSource": "colombia",
-    "celebration": "08  Marzo, Domingo. 3ª Sem. de Cuaresma,  Morado",
+    "celebration": "Domingo. 3ª Semana de Cuaresma",
     "color": "Morado",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -1095,7 +1095,7 @@
       "gospel": "Luke 4:24-30"
     },
     "calendarSource": "colombia",
-    "celebration": "09  Marzo, Lunes. 3ª Sem. de Cuaresma,  Feria,  Morado",
+    "celebration": "Lunes. 3ª Semana de Cuaresma, Feria",
     "color": "Morado",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -1107,11 +1107,11 @@
     "season": "Lent",
     "readings": {
       "firstReading": "Daniel 3:25, 34-43",
-      "psalm": "Psalm 25:4bc-5ab.6+7bc.8-9",
+      "psalm": "Psalm 25:4bc-5ab.6, 7bc.8-9",
       "gospel": "Matthew 18:21-35"
     },
     "calendarSource": "colombia",
-    "celebration": "10  Marzo, Martes. 3ª Sem. de Cuaresma,  Feria,  Morado",
+    "celebration": "Martes. 3ª Semana de Cuaresma, Feria",
     "color": "Morado",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -1123,11 +1123,11 @@
     "season": "Lent",
     "readings": {
       "firstReading": "Deuteronomy 4:1, 5-9",
-      "psalm": "Psalm 147(146-147),12-13, 15-16, 19-20 (R. 119[118],34)",
+      "psalm": "Psalm 147(146-147), 12-13, 15-16, 19-20 (R. 119[118], 34)",
       "gospel": "Matthew 5:17-19"
     },
     "calendarSource": "colombia",
-    "celebration": "11  Marzo, Miércoles. 3ª Sem. de Cuaresma,  Feria,  Morado",
+    "celebration": "Miércoles. 3ª Semana de Cuaresma, Feria",
     "color": "Morado",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -1143,7 +1143,7 @@
       "gospel": "Luke 11:14-23"
     },
     "calendarSource": "colombia",
-    "celebration": "12  Marzo, Jueves. 3ª Sem. de Cuaresma,  Feria,  Morado",
+    "celebration": "Jueves. 3ª Semana de Cuaresma, Feria",
     "color": "Morado",
     "prelude": "null",
     "calendarLabel": "Colombia (CEC)",
@@ -1155,11 +1155,11 @@
     "season": "Lent",
     "readings": {
       "firstReading": "Hosea 14:2-10",
-      "psalm": "Psalm 81:6c-8a.8bc-9, 10-11ab.14+17 (R. Deuteronomy 6:4)",
+      "psalm": "Psalm 81:6c-8a.8bc-9, 10-11ab.14, 17 (R. Deuteronomy 6:4)",
       "gospel": "Mark 12:28b-34"
     },
     "calendarSource": "colombia",
-    "celebration": "13  Marzo, Viernes. 3ª Sem. de Cuaresma,  Feria,  Morado",
+    "celebration": "Viernes. 3ª Semana de Cuaresma, Feria",
     "color": "Morado",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -1175,7 +1175,7 @@
       "gospel": "Luke 18:9-14"
     },
     "calendarSource": "colombia",
-    "celebration": "14  Marzo, Sábado. 3ª Sem. de Cuaresma,  Feria,  Morado",
+    "celebration": "Sábado. 3ª Semana de Cuaresma, Feria",
     "color": "Morado",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -1187,12 +1187,12 @@
     "season": "Lent",
     "readings": {
       "firstReading": "1 Samuel 16:1b.6-7. 10-13a",
-      "psalm": "Psalm 23:1-3a.3b-4, 5.6",
+      "psalm": "Psalm 23:1-3a.3b-4, 5, 6",
       "secondReading": "Ephesians 5:8-14",
       "gospel": "John 9:1-41 (forma larga) o John 9:1-9, 13-17, 34-38 (forma breve)"
     },
     "calendarSource": "colombia",
-    "celebration": "15  Marzo, Domingo. 4ª Sem. de Cuaresma,  «Laetare»,  Morado",
+    "celebration": "Domingo. 4ª Semana de Cuaresma, «Laetare»",
     "color": "Morado",
     "prelude": "null",
     "calendarLabel": "Colombia (CEC)",
@@ -1208,7 +1208,7 @@
       "gospel": "John 4:43-54"
     },
     "calendarSource": "colombia",
-    "celebration": "16  Marzo, Lunes. 4ª Sem. de Cuaresma,  Feria,  Morado",
+    "celebration": "Lunes. 4ª Semana de Cuaresma, Feria",
     "color": "Morado",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -1220,11 +1220,11 @@
     "season": "Lent",
     "readings": {
       "firstReading": "Ezekiel 47:1-9, 12",
-      "psalm": "Psalm 46:2-3, 5-6, 8-9 (R. 36[35],10a)",
+      "psalm": "Psalm 46:2-3, 5-6, 8-9 (R. 36[35], 10a)",
       "gospel": "John 5:1-16"
     },
     "calendarSource": "colombia",
-    "celebration": "17  Marzo, Martes. 4ª Sem. de Cuaresma,  Feria,  Morado",
+    "celebration": "Martes. 4ª Semana de Cuaresma, Feria",
     "color": "Morado",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -1240,7 +1240,7 @@
       "gospel": "John 5:17-30"
     },
     "calendarSource": "colombia",
-    "celebration": "18  Marzo, Miércoles. 4ª Sem. de Cuaresma,  Feria,  Morado",
+    "celebration": "Miércoles. 4ª Semana de Cuaresma, Feria",
     "color": "Morado",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -1257,7 +1257,7 @@
       "gospel": "Matthew 1:16, 18-21, 24a o Luke 2:41-51a"
     },
     "calendarSource": "colombia",
-    "celebration": "19  Marzo, Jueves.  Solemnidad,  Blanco",
+    "celebration": "Jueves. Solemnidad",
     "color": "Blanco",
     "prelude": "<p>San José, Esposo de la Bienaventurada Virgen María</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -1273,7 +1273,7 @@
       "gospel": "John 7:1-2, 10, 25-30"
     },
     "calendarSource": "colombia",
-    "celebration": "20  Marzo, Viernes. 4ª Sem. de Cuaresma,  Feria,  Morado",
+    "celebration": "Viernes. 4ª Semana de Cuaresma, Feria",
     "color": "Morado",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -1289,7 +1289,7 @@
       "gospel": "John 7:40-53"
     },
     "calendarSource": "colombia",
-    "celebration": "21  Marzo, Sábado. 4ª Sem. de Cuaresma,  Feria,  Morado",
+    "celebration": "Sábado. 4ª Semana de Cuaresma, Feria",
     "color": "Morado",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -1306,7 +1306,7 @@
       "gospel": "John 11:1-45 (forma larga) o John 11:3-7, 17, 20-27, 34-45 (forma breve)"
     },
     "calendarSource": "colombia",
-    "celebration": "22  Marzo, Domingo. 5ª Sem. de Cuaresma,  Morado",
+    "celebration": "Domingo. 5ª Semana de Cuaresma",
     "color": "Morado",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -1318,11 +1318,11 @@
     "season": "Lent",
     "readings": {
       "firstReading": "Daniel 13:1-9, 15-17, 19-30, 33-62 (forma larga) o Daniel 13:41c-62 (forma breve)",
-      "psalm": "Psalm 23:1-3a.3b-4, 5.6 (R. 4a)",
+      "psalm": "Psalm 23:1-3a.3b-4, 5, 6 (R. 4a)",
       "gospel": "John 8:1-11"
     },
     "calendarSource": "colombia",
-    "celebration": "23  Marzo, Lunes. 5ª Sem. de Cuaresma,  Feria,  Morado",
+    "celebration": "Lunes. 5ª Semana de Cuaresma, Feria",
     "color": "Morado",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -1334,11 +1334,11 @@
     "season": "Lent",
     "readings": {
       "firstReading": "Numbers 21:4-9",
-      "psalm": "Psalm 102:2-3a.3b+16, 17-19a, 19b-21",
+      "psalm": "Psalm 102:2-3a.3b, 16, 17-19a, 19b-21",
       "gospel": "John 8:21-30"
     },
     "calendarSource": "colombia",
-    "celebration": "24  Marzo, Martes. 5ª Sem. de Cuaresma,  Feria,  Morado",
+    "celebration": "Martes. 5ª Semana de Cuaresma, Feria",
     "color": "Morado",
     "prelude": "null",
     "calendarLabel": "Colombia (CEC)",
@@ -1355,7 +1355,7 @@
       "gospel": "Luke 1:26-38"
     },
     "calendarSource": "colombia",
-    "celebration": "25  Marzo, Miércoles.  Solemnidad,  Blanco",
+    "celebration": "Miércoles. Solemnidad",
     "color": "Blanco",
     "prelude": "<p>Anunciación del Señor,</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -1371,7 +1371,7 @@
       "gospel": "John 8:51-59"
     },
     "calendarSource": "colombia",
-    "celebration": "26  Marzo, Jueves. 5ª Sem. de Cuaresma,  Feria,  Morado",
+    "celebration": "Jueves. 5ª Semana de Cuaresma, Feria",
     "color": "Morado",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -1387,7 +1387,7 @@
       "gospel": "John 10:31-42"
     },
     "calendarSource": "colombia",
-    "celebration": "27  Marzo, Viernes. 5ª Sem. de Cuaresma,  Feria,  Morado",
+    "celebration": "Viernes. 5ª Semana de Cuaresma, Feria",
     "color": "Morado",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -1403,7 +1403,7 @@
       "gospel": "John 11:45-57"
     },
     "calendarSource": "colombia",
-    "celebration": "28  Marzo, Sábado. 5ª Sem. de Cuaresma,  Feria,  Morado",
+    "celebration": "Sábado. 5ª Semana de Cuaresma, Feria",
     "color": "Morado",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -1420,7 +1420,7 @@
       "gospel": "Matthew 26:14 - 27:66 (forma larga) o Matthew 27:11-54 (forma breve)"
     },
     "calendarSource": "colombia",
-    "celebration": "29  Marzo, Domingo.  DE RAMOS,  Rojo",
+    "celebration": "Domingo. De Ramos",
     "color": "Rojo",
     "prelude": "<p>Procesión: <br>Leccionario Dominical A: <br>Mt 21,1-11. <br>Para las formas de hacer la conmemoración de la entrada del Señor a Jerusalén leer en el Misal, pp. 241 - 249.</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -1432,11 +1432,11 @@
     "season": "Lent",
     "readings": {
       "firstReading": "Isaiah 42:1-7",
-      "psalm": "Psalm 27:1, 2.3, 13-14 (R. 1a)",
+      "psalm": "Psalm 27:1, 2, 3, 13-14 (R. 1a)",
       "gospel": "John 12:1-11"
     },
     "calendarSource": "colombia",
-    "celebration": "30  Marzo, Lunes.  Santo,  Feria privilegiada,  Morado",
+    "celebration": "Lunes. Santo, Feria privilegiada",
     "color": "Morado",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -1446,9 +1446,13 @@
     "date": "2026-03-31",
     "monthDay": "3/31",
     "season": "Lent",
-    "readings": {},
+    "readings": {
+      "firstReading": "Isaiah 49:1-6",
+      "psalm": "Psalm 71:1-2, 3-4a, 5ab-6ab, 15 and 17",
+      "gospel": "John 13:21-33, 36-38"
+    },
     "calendarSource": "colombia",
-    "celebration": "31  Marzo, Martes.  Santo,  Feria privilegiada,  Morado",
+    "celebration": "Martes. Santo, Feria privilegiada",
     "color": "Morado",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -1464,7 +1468,7 @@
       "gospel": "Matthew 26:14-25"
     },
     "calendarSource": "colombia",
-    "celebration": "01  Abril, Miércoles.  Santo,  Feria privilegiada,  Morado",
+    "celebration": "Miércoles. Santo, Feria privilegiada",
     "color": "Morado",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -1476,12 +1480,12 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "&Eacute;x 12:1-8, 11-14",
-      "psalm": "Psalm 116:12-13, 15+16bc.17-18",
+      "psalm": "Psalm 116:12-13, 15, 16bc.17-18",
       "secondReading": "1 Corinthians 11:23-26",
       "gospel": "John 13:1-15"
     },
     "calendarSource": "colombia",
-    "celebration": "02  Abril, Jueves Santo. Blanco",
+    "celebration": "Jueves Santo",
     "color": "Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -1493,12 +1497,12 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Isaiah 52:13 - 53:12",
-      "psalm": "Psalm 31:2 y 6, 12-13, 15-16, 17+25 (R. 6a)",
+      "psalm": "Psalm 31:2 y 6, 12-13, 15-16, 17, 25 (R. 6a)",
       "secondReading": "Hb 4:14-16; 5:7-9",
       "gospel": "John 18:1-19:42"
     },
     "calendarSource": "colombia",
-    "celebration": "03  Abril, Viernes.  Santo,  Rojo",
+    "celebration": "Viernes. Santo",
     "color": "Rojo",
     "prelude": "<p>Celebración de la Pasión del Señor: Ritos introductorios. <br>1ª Parte: Liturgia de la Palabra: Lecturas y Oración universal. <br>2ª Parte: Adoración de la Santa Cruz. <br>3ª Parte: Sagrada Comunión.</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -1508,9 +1512,14 @@
     "date": "2026-04-04",
     "monthDay": "4/4",
     "season": "Ordinary Time",
-    "readings": {},
+    "readings": {
+      "psalm": "Psalm 118:1-2, 16-17, 22-23",
+      "secondReading": "Exodus 14:15—15:1",
+      "firstReading": "Isaiah 54:5-14",
+      "gospel": "Matthew 28:1-10"
+    },
     "calendarSource": "colombia",
-    "celebration": "04  Abril, Sábado.  DOMINGO DE PASCUA EN LA RESURRECCIÓN DEL SEÑOR,  Solemnidad,  Blanco  \r\n EN LA VIGILIA:",
+    "celebration": "Sábado. Domingo de Pascua en la Resurrección del Señor, Solemnidad",
     "color": "Blanco",
     "prelude": "<h2>Celebración</h2>\n<p>En la noche del sábado comienza la celebración de la Pascua con la Vigilia Pascual. No antes de entrada la noche. <br><br>La celebración tiene cuatro partes: <br><br><strong>1ª Parte: Pascua cósmica<br></strong>                Lucernario - Pregón Pascual<br><br><strong>2ª Parte: Pascua Histórica</strong><br>                Liturgia de la Palabra:<br><br>Leccionario Dominical A. Se proponen nueve lecturas: siete del Antiguo Testamento (cada una con su salmo responsorial y su oración respectiva) y dos del Nuevo Testamento. <br><br>Donde graves circunstancias pastorales lo exijan, se puede disminuir el número de lecturas del Antiguo Testamento. Háganse al menos tres lecturas del Antiguo Testamento; en casos urgentes, al menos dos. Nunca se omita la lectura del Capítulo 14 del Éxodo con su cántico. Debe tenerse en cuenta que la lectura y meditación de la Palabra de Dios es parte fundamental de esta Vigilia. <br><br><strong>Lecturas del Antiguo Testamento: <br><br>1ª lectura: </strong>Gn 1,1 - 2,2 (forma larga) o Gn 1,1. 26-31a (forma breve) / Sal 104(103), 1-2a.5-6.10 y 12.13-14ab.24 y 35c (R. cf. 30) o Sal 33(32),4-5.6-7.12-13.20 y 22 (R. 5a). <br><strong>2ª lectura: </strong>Gn 22,1-18 (forma larga) o Gn 22, 1-2.9a.10-13.15-18 (forma breve) / Sal 16(15), 5 y 8.9-10.11 (R. 1). <br><strong>3ª lectura: </strong>Éx 14,15 - 15,1 (nunca se puede omitir) / Sal Éx 15,1-2ab.2cd.3-4. 5-6.17-18 (R. 1a). <br><strong>4ª lectura:</strong> Is 54,5-14 / Sal 30(29),3-4.5-6.12ac-13 (R. 2a). <br><strong>5ª lectura: </strong>Is 55,1-11 / Sal Is 12,2-3.4bcd.5-6 (R. 3).<br><strong>6ª lectura:</strong> Ba 3,9-15.32 - 4,4 / Sal 19(18),8. 9.10.11 (R. Jn 6,68c). <br><strong>7ª lectura:</strong> Ez 36,16-17a.18-28 / Sal 42(41),3. 5bcd; 43(42),3.4 o, cuando se celebra el Bautismo, Sal 51(50), 12-13.14-15.18-19 (R. 12a) o Sal Is 12,2-3.4bcd.5-6 (R. 3). <br><br>Después de la última lectura del Antiguo Testamento con su Salmo responsorial y su oración, se encienden los cirios del altar; se entona solemnemente el <strong>GLORIA</strong> (se tocan las campanas); se dice la Oración Colecta. </p>\n<p><strong>Lecturas del Nuevo Testamento:<br><br></strong> Rm 6,3-11 / Aleluya solemne con el Sal 118 (117),1-2.15c+16a+17.22-23 / Mt 28,1-10 (puede usarse incienso). <br><br><strong>Homilía. <br><br>3ª Parte: Pascua de los neófitos</strong><br><strong>                Liturgia Bautismal y Renovación de los Compromisos Bautismales. <br></strong>                No hay Credo; hay Oración Universal. <br><br><strong>4ª Parte: Pascua de los fieles<br>               Liturgia de la Eucaristía</strong> <br><br>Prf. de Pascua I («…en esta santísima noche»); en la Plegaria Eucarística se hace memoria de los bautizados y de los padrinos. <br>Plegaria Eucarística I o Canon Romano, el «Reunidos en comunión…» y «Acepta, Señor, en tu bondad…» son propios. <br>Bendición final solemne, propia para este día; en la despedida de hoy se agrega doble Aleluya, que se mantiene durante toda la Octava de Pascua. <br><br>El Cirio pascual se enciende en todas las celebraciones litúrgicas, más solemnes, de este tiempo. <br><br><br></p>",
     "calendarLabel": "Colombia (CEC)",
@@ -1527,7 +1536,7 @@
       "gospel": "Secuencia (hoy obligatoria, durante la Octava a elección)"
     },
     "calendarSource": "colombia",
-    "celebration": "05  Abril, Domingo.  DOMINGO DE PASCUA DE LA RESURECCIÓN DEL SEÑOR,  Solemnidad,  Blanco",
+    "celebration": "Domingo. Domingo de Pascua de la Resurección del Señor, Solemnidad",
     "color": "Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -1539,11 +1548,11 @@
     "season": "Easter",
     "readings": {
       "firstReading": "Acts 2:14, 22-33",
-      "psalm": "Psalm 16:1-2+5, 7-8, 9-10, 11",
+      "psalm": "Psalm 16:1-2, 5, 7-8, 9-10, 11",
       "gospel": "Matthew 28:8-15"
     },
     "calendarSource": "colombia",
-    "celebration": "06  Abril, Lunes.  de la Octava de Pascua,  Blanco",
+    "celebration": "Lunes. de la Octava de Pascua",
     "color": "Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -1555,11 +1564,11 @@
     "season": "Easter",
     "readings": {
       "firstReading": "Acts 2:14a, 36-41",
-      "psalm": "Psalm 33:4-5, 18-19, 20+22",
+      "psalm": "Psalm 33:4-5, 18-19, 20, 22",
       "gospel": "John 20:11-18"
     },
     "calendarSource": "colombia",
-    "celebration": "07  Abril, Martes.  de la Octava de Pascua,  Blanco",
+    "celebration": "Martes. de la Octava de Pascua",
     "color": "Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -1575,7 +1584,7 @@
       "gospel": "Luke 24:13-35"
     },
     "calendarSource": "colombia",
-    "celebration": "08  Abril, Miércoles.  de la Octava de Pascua,  Blanco",
+    "celebration": "Miércoles. de la Octava de Pascua",
     "color": "Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -1591,7 +1600,7 @@
       "gospel": "Luke 24:35-48"
     },
     "calendarSource": "colombia",
-    "celebration": "09  Abril, Jueves.  de la Octava de Pascua,  Blanco",
+    "celebration": "Jueves. de la Octava de Pascua",
     "color": "Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -1607,7 +1616,7 @@
       "gospel": "John 21:1-14"
     },
     "calendarSource": "colombia",
-    "celebration": "10  Abril, Viernes.  de la Octava de Pascua,  Blanco",
+    "celebration": "Viernes. de la Octava de Pascua",
     "color": "Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -1623,7 +1632,7 @@
       "gospel": "&nbsp;"
     },
     "calendarSource": "colombia",
-    "celebration": "11  Abril, Sábado.  de la Octava de Pascua",
+    "celebration": "Sábado. de la Octava de Pascua",
     "color": "Blanco",
     "prelude": "null",
     "calendarLabel": "Colombia (CEC)",
@@ -1640,7 +1649,7 @@
       "gospel": "John 20:19-31"
     },
     "calendarSource": "colombia",
-    "celebration": "12  Abril, Domingo. 2ª Sem. de Pascua,  o de la Divina Misericordia,  Blanco",
+    "celebration": "Domingo. 2ª Semana de Pascua, o de la Divina Misericordia",
     "color": "Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -1652,11 +1661,11 @@
     "season": "Easter",
     "readings": {
       "firstReading": "Acts 4:23-31",
-      "psalm": "Psalm 2:1-3, 4-6, 7.8-9",
+      "psalm": "Psalm 2:1-3, 4-6, 7, 8-9",
       "gospel": "John 3:1-8"
     },
     "calendarSource": "colombia",
-    "celebration": "13  Abril, Lunes. 2ª Sem. de Pascua,  Feria o Memoria libre,  Blanco o Rojo",
+    "celebration": "Lunes. 2ª Semana de Pascua, Feria o Memoria libre",
     "color": "Blanco o Rojo",
     "prelude": "<p>San Martín I, papa y mártir</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -1668,11 +1677,11 @@
     "season": "Easter",
     "readings": {
       "firstReading": "Acts 4:32-37",
-      "psalm": "Psalm 93:1ab.1c-2, 5 (R. 122[121],3)",
+      "psalm": "Psalm 93:1ab.1c-2, 5 (R. 122[121], 3)",
       "gospel": "John 3:7b-15"
     },
     "calendarSource": "colombia",
-    "celebration": "14  Abril, Martes. 2ª Sem. de Pascua,  Feria,  Blanco",
+    "celebration": "Martes. 2ª Semana de Pascua, Feria",
     "color": "Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -1688,7 +1697,7 @@
       "gospel": "John 3:16-21"
     },
     "calendarSource": "colombia",
-    "celebration": "15  Abril, Miércoles. 2ª Sem. de Pascua,  Feria,  Blanco",
+    "celebration": "Miércoles. 2ª Semana de Pascua, Feria",
     "color": "Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -1704,7 +1713,7 @@
       "gospel": "John 3:31-36"
     },
     "calendarSource": "colombia",
-    "celebration": "16  Abril, Jueves. 2ª Sem. de Pascua,  Feria,  Blanco",
+    "celebration": "Jueves. 2ª Semana de Pascua, Feria",
     "color": "Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -1716,11 +1725,11 @@
     "season": "Easter",
     "readings": {
       "firstReading": "Acts 5:34-42",
-      "psalm": "Psalm 27:1, 4.13-14",
+      "psalm": "Psalm 27:1, 4, 13-14",
       "gospel": "John 6:1-15"
     },
     "calendarSource": "colombia",
-    "celebration": "17  Abril, Viernes. 2ª Sem. de Pascua,  Feria,  Blanco",
+    "celebration": "Viernes. 2ª Semana de Pascua, Feria",
     "color": "Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -1736,7 +1745,7 @@
       "gospel": "John 6:16-21"
     },
     "calendarSource": "colombia",
-    "celebration": "18  Abril, Sábado. 2ª Sem. de Pascua,  Feria,  Blanco",
+    "celebration": "Sábado. 2ª Semana de Pascua, Feria",
     "color": "Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -1753,7 +1762,7 @@
       "gospel": "&nbsp;"
     },
     "calendarSource": "colombia",
-    "celebration": "19  Abril, Domingo. 3ª Sem. de Pascua,  Blanco",
+    "celebration": "Domingo. 3ª Semana de Pascua",
     "color": "Blanco",
     "prelude": "null",
     "calendarLabel": "Colombia (CEC)",
@@ -1769,7 +1778,7 @@
       "gospel": "John 6:22-29"
     },
     "calendarSource": "colombia",
-    "celebration": "20  Abril, Lunes. 3ª Sem. de Pascua,  Feria,  Blanco",
+    "celebration": "Lunes. 3ª Semana de Pascua, Feria",
     "color": "Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -1785,7 +1794,7 @@
       "gospel": "John 6, 30-35"
     },
     "calendarSource": "colombia",
-    "celebration": "21  Abril, Martes. 3ª Sem. de Pascua,  Feria o Memoria libre,  Blanco",
+    "celebration": "Martes. 3ª Semana de Pascua, Feria o Memoria libre",
     "color": "Blanco",
     "prelude": "<p>San Anselmo, obispo y doctor de la Iglesia</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -1801,7 +1810,7 @@
       "gospel": "John 6:35-40"
     },
     "calendarSource": "colombia",
-    "celebration": "22  Abril, Miércoles. 3ª Sem. de Pascua,  Feria,  Blanco",
+    "celebration": "Miércoles. 3ª Semana de Pascua, Feria",
     "color": "Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -1817,7 +1826,7 @@
       "gospel": "John 6:44-51"
     },
     "calendarSource": "colombia",
-    "celebration": "23  Abril, Jueves. 3ª Sem. de Pascua,  Feria o Memoria libre,  Blanco o Rojo",
+    "celebration": "Jueves. 3ª Semana de Pascua, Feria o Memoria libre",
     "color": "Blanco o Rojo",
     "prelude": "<p>San Jorge , mártir; San Adalberto, obispo y mártir</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -1833,7 +1842,7 @@
       "gospel": "John 6:52-59"
     },
     "calendarSource": "colombia",
-    "celebration": "24  Abril, Viernes. 3ª Sem. de Pascua,  Feria o Memoria libre,  Blanco o Rojo",
+    "celebration": "Viernes. 3ª Semana de Pascua, Feria o Memoria libre",
     "color": "Blanco o Rojo",
     "prelude": "<p>San Fidel de Sigmaringa, presbítero y mártir</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -1847,10 +1856,10 @@
       "firstReading": "1P 5:5b-14",
       "psalm": "Psalm 89:2-3:6-7, 16-17",
       "secondReading": "Mark 16:15-20",
-      "gospel": ""
+      "gospel": "Mark 16:15-20"
     },
     "calendarSource": "colombia",
-    "celebration": "25  Abril, Sábado.  Fiesta,  Rojo",
+    "celebration": "Sábado. Fiesta",
     "color": "Rojo",
     "prelude": "<p>San Marcos, evangelista</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -1862,12 +1871,12 @@
     "season": "Easter",
     "readings": {
       "firstReading": "Acts 2:14a, 36-41",
-      "psalm": "Psalm 23:1-3a. 3b-4, 5.6 (R. 1)",
+      "psalm": "Psalm 23:1-3a. 3b-4, 5, 6 (R. 1)",
       "secondReading": "1P 2:20b-25",
       "gospel": "John 10:1-10"
     },
     "calendarSource": "colombia",
-    "celebration": "26  Abril, Domingo. 4ª Sem. de Pascua,  Blanco",
+    "celebration": "Domingo. 4ª Semana de Pascua",
     "color": "Blanco",
     "prelude": "null",
     "calendarLabel": "Colombia (CEC)",
@@ -1883,7 +1892,7 @@
       "gospel": "John 10:11-18"
     },
     "calendarSource": "colombia",
-    "celebration": "27  Abril, Lunes. 4ª Sem. de Pascua,  Feria,  Blanco",
+    "celebration": "Lunes. 4ª Semana de Pascua, Feria",
     "color": "Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -1895,11 +1904,11 @@
     "season": "Easter",
     "readings": {
       "firstReading": "Acts 11:19-26",
-      "psalm": "Psalm 87:2-3, 4-5, 6-7 (R. 117[116],1a)",
+      "psalm": "Psalm 87:2-3, 4-5, 6-7 (R. 117[116], 1a)",
       "gospel": "John 10:22-30"
     },
     "calendarSource": "colombia",
-    "celebration": "28  Abril, Martes. 4ª Sem. de Pascua,  Feria o Memoria libre,  Blanco o Rojo",
+    "celebration": "Martes. 4ª Semana de Pascua, Feria o Memoria libre",
     "color": "Blanco o Rojo",
     "prelude": "<p>San Pedro Chanel, presbítero y mártir; San Luis María Grignion de Monfort, presbítero</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -1911,11 +1920,11 @@
     "season": "Easter",
     "readings": {
       "firstReading": "Acts 12:24 - 13:5a",
-      "psalm": "Psalm 67:2-3, 5. 6+8",
+      "psalm": "Psalm 67:2-3, 5. 6, 8",
       "gospel": "John 12:44-50"
     },
     "calendarSource": "colombia",
-    "celebration": "29  Abril, Miércoles. 4ª Sem. de Pascua,  Memoria obligatoria,  Blanco",
+    "celebration": "Miércoles. 4ª Semana de Pascua, Memoria obligatoria",
     "color": "Blanco",
     "prelude": "<p>Santa Catalina de Siena, virgen y doctora de la Iglesia</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -1927,11 +1936,11 @@
     "season": "Easter",
     "readings": {
       "firstReading": "Acts 13:13-25",
-      "psalm": "Psalm 89:2-3, 21-22, 25+27",
+      "psalm": "Psalm 89:2-3, 21-22, 25, 27",
       "gospel": "John 13:16-20"
     },
     "calendarSource": "colombia",
-    "celebration": "30  Abril, Jueves. 4ª Sem. de Pascua,  Feria o Memoria libre,  Blanco",
+    "celebration": "Jueves. 4ª Semana de Pascua, Feria o Memoria libre",
     "color": "Blanco",
     "prelude": "<p>San Pío V, papa</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -1947,7 +1956,7 @@
       "gospel": "John 14:1-6"
     },
     "calendarSource": "colombia",
-    "celebration": "01  Mayo, Viernes. 4ª Sem. de Pascua,  Feria o Memoria libre,  Blanco",
+    "celebration": "Viernes. 4ª Semana de Pascua, Feria o Memoria libre",
     "color": "Blanco",
     "prelude": "<p>San José, obrero</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -1963,7 +1972,7 @@
       "gospel": "John 14:7-14"
     },
     "calendarSource": "colombia",
-    "celebration": "02  Mayo, Sábado. 4ª Sem. de Pascua,  Memoria obligatoria,  Blanco",
+    "celebration": "Sábado. 4ª Semana de Pascua, Memoria obligatoria",
     "color": "Blanco",
     "prelude": "<p>San Atanasio, obispo y doctor de la Iglesia</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -1973,9 +1982,14 @@
     "date": "2026-05-03",
     "monthDay": "5/3",
     "season": "Easter",
-    "readings": {},
+    "readings": {
+      "firstReading": "Acts 6:1-7",
+      "psalm": "Psalm 33:1-2, 4-5, 18-19",
+      "secondReading": "1 Peter 2:4-9",
+      "gospel": "John 14:1-12"
+    },
     "calendarSource": "colombia",
-    "celebration": "03  Mayo, Domingo. 5ª Sem. de Pascua",
+    "celebration": "Domingo. 5ª Semana de Pascua",
     "color": "Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -1989,10 +2003,10 @@
       "firstReading": "1 Corinthians 15:1-8",
       "psalm": "Psalm 19:2-3, 4-5 (R. 5a)",
       "secondReading": "John 14, 6-14",
-      "gospel": ""
+      "gospel": "John 14:21-26"
     },
     "calendarSource": "colombia",
-    "celebration": "04  Mayo, Lunes.  Fiesta,  Rojo",
+    "celebration": "Lunes. Fiesta",
     "color": "Rojo",
     "prelude": "<p>Santos Felipe y Santiago, apóstoles</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -2004,11 +2018,11 @@
     "season": "Easter",
     "readings": {
       "firstReading": "Acts 14:19-28",
-      "psalm": "Psalm 145:10, 11-12. 13ab.21 (R. 126[125],5)",
+      "psalm": "Psalm 145:10, 11-12. 13ab.21 (R. 126[125], 5)",
       "gospel": "John 14:27-31a"
     },
     "calendarSource": "colombia",
-    "celebration": "05  Mayo, Martes. 5ª Sem. de Pascua,  Feria,  Blanco",
+    "celebration": "Martes. 5ª Semana de Pascua, Feria",
     "color": "Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -2024,7 +2038,7 @@
       "gospel": "John 15, 1-8"
     },
     "calendarSource": "colombia",
-    "celebration": "06  Mayo, Miércoles. 5ª Sem. de Pascua,  Feria,  Blanco",
+    "celebration": "Miércoles. 5ª Semana de Pascua, Feria",
     "color": "Blanco",
     "prelude": "null",
     "calendarLabel": "Colombia (CEC)",
@@ -2040,7 +2054,7 @@
       "gospel": "John 15:9-11"
     },
     "calendarSource": "colombia",
-    "celebration": "07  Mayo, Jueves. 5ª Sem. de Pascua,  Feria,  Blanco",
+    "celebration": "Jueves. 5ª Semana de Pascua, Feria",
     "color": "Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -2056,7 +2070,7 @@
       "gospel": "John 15, 12-17"
     },
     "calendarSource": "colombia",
-    "celebration": "08  Mayo, Viernes. 5ª Sem. de Pascua,  Feria,  Blanco",
+    "celebration": "Viernes. 5ª Semana de Pascua, Feria",
     "color": "Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -2072,7 +2086,7 @@
       "gospel": "John 15, 18-21"
     },
     "calendarSource": "colombia",
-    "celebration": "09  Mayo, Sábado. 5ª Sem. de Pascua,  Feria,  Blanco",
+    "celebration": "Sábado. 5ª Semana de Pascua, Feria",
     "color": "Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -2089,7 +2103,7 @@
       "gospel": "John 14:15-21"
     },
     "calendarSource": "colombia",
-    "celebration": "10  Mayo, Domingo. 6ª Sem. de Pascua,  Blanco",
+    "celebration": "Domingo. 6ª Semana de Pascua",
     "color": "Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -2101,11 +2115,11 @@
     "season": "Easter",
     "readings": {
       "firstReading": "Acts 16:10b-15",
-      "psalm": "Psalm 149:1-2, 3-4, 5-6a+9b (R. 4a)",
+      "psalm": "Psalm 149:1-2, 3-4, 5-6a, 9b (R. 4a)",
       "gospel": "John 15:26 - 16:4a"
     },
     "calendarSource": "colombia",
-    "celebration": "11  Mayo, Lunes. 6ª Sem. de Pascua,  Feria,  Blanco",
+    "celebration": "Lunes. 6ª Semana de Pascua, Feria",
     "color": "Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -2117,11 +2131,11 @@
     "season": "Easter",
     "readings": {
       "firstReading": "Acts 16:22-34",
-      "psalm": "Psalm 138:1-2a. 2bc+3, 7cd+8bc (R. 7cd)",
+      "psalm": "Psalm 138:1-2a. 2bc, 3, 7cd, 8bc (R. 7cd)",
       "gospel": "John 16:5-11"
     },
     "calendarSource": "colombia",
-    "celebration": "12  Mayo, Martes. 6ª Sem. de Pascua,  Feria o Memoria libre,  Blanco o Rojo",
+    "celebration": "Martes. 6ª Semana de Pascua, Feria o Memoria libre",
     "color": "Blanco o Rojo",
     "prelude": "<p>Santos Nereo y Aquileo, mártires; San Pancracio, mártir</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -2137,7 +2151,7 @@
       "gospel": "John 16:12-15"
     },
     "calendarSource": "colombia",
-    "celebration": "13  Mayo, Miércoles. 6ª Sem. de Pascua,  Feria o Memoria libre,  Blanco",
+    "celebration": "Miércoles. 6ª Semana de Pascua, Feria o Memoria libre",
     "color": "Blanco",
     "prelude": "<p>Bienaventurada Virgen María de Fátima,</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -2153,7 +2167,7 @@
       "gospel": "John 15:9-17"
     },
     "calendarSource": "colombia",
-    "celebration": "14  Mayo, Jueves.  Fiesta,  Rojo",
+    "celebration": "Jueves. Fiesta",
     "color": "Rojo",
     "prelude": "<p>San Matías, apóstol</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -2169,7 +2183,7 @@
       "gospel": "John 16:20-23a"
     },
     "calendarSource": "colombia",
-    "celebration": "15  Mayo, Viernes. 6ª Sem. de Pascua,  Feria,  Blanco",
+    "celebration": "Viernes. 6ª Semana de Pascua, Feria",
     "color": "Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -2186,7 +2200,7 @@
       "gospel": "Matthew 28:16-20"
     },
     "calendarSource": "colombia",
-    "celebration": "16  Mayo, Sábado.  Solemnidad,  Blanco  \r\n EN LA VIGILIA:",
+    "celebration": "Sábado. Solemnidad",
     "color": "Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -2203,7 +2217,7 @@
       "gospel": "Matthew 28:16-20"
     },
     "calendarSource": "colombia",
-    "celebration": "17  Mayo, Domingo.  EN EL DIA DE LA SOLEMNIDAD,  Blanco",
+    "celebration": "Domingo. En el Dia de la Solemnidad",
     "color": "Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -2215,11 +2229,11 @@
     "season": "Easter",
     "readings": {
       "firstReading": "Acts 19:1-8",
-      "psalm": "Psalm 68:2, 3.4+5ac.6-7ab",
+      "psalm": "Psalm 68:2, 3, 4, 5ac.6-7ab",
       "gospel": "John 16:29-33"
     },
     "calendarSource": "colombia",
-    "celebration": "18  Mayo, Lunes. 7ª Sem. de Pascua,  Feria o Memoria libre,  Blanco o Rojo",
+    "celebration": "Lunes. 7ª Semana de Pascua, Feria o Memoria libre",
     "color": "Blanco o Rojo",
     "prelude": "<p>San Juan I, papa y mártir</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -2235,7 +2249,7 @@
       "gospel": "John 17:1-11a"
     },
     "calendarSource": "colombia",
-    "celebration": "19  Mayo, Martes. 7ª Sem. de Pascua,  Feria o Memoria libre,  Blanco",
+    "celebration": "Martes. 7ª Semana de Pascua, Feria o Memoria libre",
     "color": "Blanco",
     "prelude": "<p>Santa María Bernarda Bütler, virgen</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -2247,11 +2261,11 @@
     "season": "Easter",
     "readings": {
       "firstReading": "Acts 20:28-38",
-      "psalm": "Psalm 68:29-30, 33-35a, 35b-36c (R. 122[121],2)",
+      "psalm": "Psalm 68:29-30, 33-35a, 35b-36c (R. 122[121], 2)",
       "gospel": "John 17:11b-19"
     },
     "calendarSource": "colombia",
-    "celebration": "20  Mayo, Miércoles. 7ª Sem. de Pascua,  Feria o Memoria libre,  Blanco",
+    "celebration": "Miércoles. 7ª Semana de Pascua, Feria o Memoria libre",
     "color": "Blanco",
     "prelude": "<p>San Bernardino de Siena, presbítero</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -2261,9 +2275,13 @@
     "date": "2026-05-21",
     "monthDay": "5/21",
     "season": "Easter",
-    "readings": {},
+    "readings": {
+      "firstReading": "Acts 22:30; 23:6-11",
+      "psalm": "Psalm 16:1-2a and 5, 7-8, 9-10, 11",
+      "gospel": "John 17:20-26"
+    },
     "calendarSource": "colombia",
-    "celebration": "21  Mayo, Jueves. 7ª Sem. de Pascua,  Feria o Memoria libre,  Blanco o Rojo",
+    "celebration": "Jueves. 7ª Semana de Pascua, Feria o Memoria libre",
     "color": "Blanco o Rojo",
     "prelude": "Santos Cristóbal Magallanes,  presbítero y compañeros, mártires",
     "calendarLabel": "Colombia (CEC)",
@@ -2279,7 +2297,7 @@
       "gospel": "John 21:1a.15-19"
     },
     "calendarSource": "colombia",
-    "celebration": "22  Mayo, Viernes. 7ª Sem. de Pascua,  Feria o Memoria libre,  Blanco",
+    "celebration": "Viernes. 7ª Semana de Pascua, Feria o Memoria libre",
     "color": "Blanco",
     "prelude": "<p>Santa Rita de Casia, religiosa</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -2292,11 +2310,11 @@
     "readings": {
       "firstReading": "1ª lectura: Genesis 11, 1-9",
       "psalm": "Psalm 32, 10-11, 12-13, 14-15 2ª lectura: Éx 19, 3-8a.16-20b",
-      "secondReading": "Psalm Daniel 3, 52a y c.53a, 55a.56 o Psalm 18, 8, 9.10, 11 3ª lectura: Ezekiel 37, 1-14",
+      "secondReading": "Psalm Daniel 3, 52a y c.53a, 55a.56 o Psalm 18, 8, 9, 10, 11 3ª lectura: Ezekiel 37, 1-14",
       "gospel": "Psalm 106, 2-3, 4-5, 6-7, 8-9 4ª lectura: Joel 3, 1-5"
     },
     "calendarSource": "colombia",
-    "celebration": "23  Mayo, Sábado.  Solemnidad,  Rojo  \r\n EN LA VIGILIA:",
+    "celebration": "Sábado. Solemnidad",
     "color": "Rojo",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -2308,12 +2326,12 @@
     "season": "Easter",
     "readings": {
       "firstReading": "Acts 2:1-11",
-      "psalm": "Psalm 104:1ab+24ac. 29bc-30, 31+34",
+      "psalm": "Psalm 104:1ab, 24ac. 29bc-30, 31, 34",
       "secondReading": "1 Corinthians 12, 3b-7, 12-13",
       "gospel": "Secuencia (obligatoria)"
     },
     "calendarSource": "colombia",
-    "celebration": "24  Mayo, Domingo.  EN EL DIA DE LA SOLEMNIDAD,  Solemnidad,  Rojo",
+    "celebration": "Domingo. En el Dia de la Solemnidad, Solemnidad",
     "color": "Rojo",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -2323,9 +2341,13 @@
     "date": "2026-05-25",
     "monthDay": "5/25",
     "season": "Ordinary Time",
-    "readings": {},
+    "readings": {
+      "firstReading": "Genesis 3:9-15, 20",
+      "psalm": "Psalm 87:1-2, 3 and 5, 6-7",
+      "gospel": "John 19:25-34"
+    },
     "calendarSource": "colombia",
-    "celebration": "25  Mayo, Lunes. 8ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "celebration": "Lunes. 8ª Semana del Tiempo Ordinario, Memoria obligatoria",
     "color": "Blanco",
     "prelude": "<p>Bienaventurada Virgen María, Madre de la Iglesia</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -2341,7 +2363,7 @@
       "gospel": "Mark 10:28-31"
     },
     "calendarSource": "colombia",
-    "celebration": "26  Mayo, Martes. 8ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "celebration": "Martes. 8ª Semana del Tiempo Ordinario, Memoria obligatoria",
     "color": "Blanco",
     "prelude": "<p>San Felipe Neri, presbítero</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -2357,7 +2379,7 @@
       "gospel": "Mark 10, 32-45"
     },
     "calendarSource": "colombia",
-    "celebration": "27  Mayo, Miércoles. 8ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
+    "celebration": "Miércoles. 8ª Semana del Tiempo Ordinario, Feria o Memoria libre",
     "color": "Verde o Blanco",
     "prelude": "<p>San Agustín de Canterbury, obispo</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -2373,7 +2395,7 @@
       "gospel": "Matthew 26, 36-42"
     },
     "calendarSource": "colombia",
-    "celebration": "28  Mayo, Jueves. 8ª Sem. del TO,  JESUCRISTO, SUMO Y ETERNO SACERDOTE,  Fiesta ,  Blanco",
+    "celebration": "Jueves. 8ª Semana del Tiempo Ordinario, Jesucristo, Sumo Y Eterno Sacerdote, Fiesta",
     "color": "Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -2389,7 +2411,7 @@
       "gospel": "Mark 11, 11-26"
     },
     "calendarSource": "colombia",
-    "celebration": "29  Mayo, Viernes. 8ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
+    "celebration": "Viernes. 8ª Semana del Tiempo Ordinario, Feria o Memoria libre",
     "color": "Verde o Blanco",
     "prelude": "<p>San Pablo VI, papa</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -2399,9 +2421,13 @@
     "date": "2026-05-30",
     "monthDay": "5/30",
     "season": "Ordinary Time",
-    "readings": {},
+    "readings": {
+      "firstReading": "Jude 17, 20b-25",
+      "psalm": "Psalm 63:2, 3-4, 5-6",
+      "gospel": "Mark 11:27-33"
+    },
     "calendarSource": "colombia",
-    "celebration": "30  Mayo, Sábado. 8ª Sem. del TO,  Feria o BMV,  Verde o Blanco",
+    "celebration": "Sábado. 8ª Semana del Tiempo Ordinario, Feria o BMV",
     "color": "Verde o Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -2413,12 +2439,12 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Éx 34:4b-6, 8-9",
-      "psalm": "Psalm Daniel 3:52ac.53a+54a, 55a+56a (R. 52b)",
+      "psalm": "Psalm Daniel 3:52ac.53a, 54a, 55a, 56a (R. 52b)",
       "secondReading": "2 Corinthians 13:11-13",
       "gospel": "John 3:16-18"
     },
     "calendarSource": "colombia",
-    "celebration": "31  Mayo, Domingo.  LA SANTÍSIMA TRINIDAD,  Solemnidad,  Blanco",
+    "celebration": "Domingo. La Santísima Trinidad, Solemnidad",
     "color": "Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -2434,7 +2460,7 @@
       "gospel": "Mark 12:1-12"
     },
     "calendarSource": "colombia",
-    "celebration": "01  Junio, Lunes. 9ª Sem. del TO,  Memoria obligatoria,  Rojo",
+    "celebration": "Lunes. 9ª Semana del Tiempo Ordinario, Memoria obligatoria",
     "color": "Rojo",
     "prelude": "<p>San Justino, mártir</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -2446,11 +2472,11 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "2P 3:12-15a. 17-18",
-      "psalm": "Psalm 90, 2, 3-4, 10, 14+16 (R. 1)",
+      "psalm": "Psalm 90, 2, 3-4, 10, 14, 16 (R. 1)",
       "gospel": "Mark 12:13-17"
     },
     "calendarSource": "colombia",
-    "celebration": "02  Junio, Martes. 9ª Sem. del TO,  Feria o Memoria libre,  Verde o Rojo",
+    "celebration": "Martes. 9ª Semana del Tiempo Ordinario, Feria o Memoria libre",
     "color": "Verde o Rojo",
     "prelude": "<p>Santos Marcelino y Pedro, mártires</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -2466,7 +2492,7 @@
       "gospel": "Mark 12:18-27"
     },
     "calendarSource": "colombia",
-    "celebration": "03  Junio, Miércoles. 9ª Sem. del TO,  Memoria obligatoria,  Rojo",
+    "celebration": "Miércoles. 9ª Semana del Tiempo Ordinario, Memoria obligatoria",
     "color": "Rojo",
     "prelude": "<p>Santos Carlos Lwanga y compañeros, mártires</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -2478,11 +2504,11 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "2Tm 2, 8-15",
-      "psalm": "Psalm 25, 4- 5ab.8-9, 10+14(R. 4a)",
+      "psalm": "Psalm 25, 4- 5ab.8-9, 10, 14(R. 4a)",
       "gospel": "Mark 12, 28b-34"
     },
     "calendarSource": "colombia",
-    "celebration": "04  Junio, Jueves. 9ª Sem. del TO,  Feria,  Verde",
+    "celebration": "Jueves. 9ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -2498,7 +2524,7 @@
       "gospel": "Mark 12, 35-37"
     },
     "calendarSource": "colombia",
-    "celebration": "05  Junio, Viernes. 9ª Sem. del TO,  Memoria obligatoria,  Rojo",
+    "celebration": "Viernes. 9ª Semana del Tiempo Ordinario, Memoria obligatoria",
     "color": "Rojo",
     "prelude": "<p>San Bonifacio, obispo y mártir</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -2514,7 +2540,7 @@
       "gospel": "Mark 12, 38-44"
     },
     "calendarSource": "colombia",
-    "celebration": "06  Junio, Sábado. 9ª Sem. del TO,  Feria o Memoria libre o BMV,  Verde o Blanco",
+    "celebration": "Sábado. 9ª Semana del Tiempo Ordinario, Feria o Memoria libre o BMV",
     "color": "Verde o Blanco",
     "prelude": "<p>San Norberto, obispo</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -2531,7 +2557,7 @@
       "gospel": "Secuencia (opcional)"
     },
     "calendarSource": "colombia",
-    "celebration": "07  Junio, Domingo.  EL CUERPO Y LA SANGRE SANTÍSIMOS DE CRISTO (En Colombia),  Solemnidad,  Blanco",
+    "celebration": "Domingo. El Cuerpo Y La Sangre Santísimos de Cristo (En Colombia), Solemnidad",
     "color": "Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -2547,7 +2573,7 @@
       "gospel": "Matthew 5:1-12"
     },
     "calendarSource": "colombia",
-    "celebration": "08  Junio, Lunes. 10ª Sem. del TO,  Feria,  Verde",
+    "celebration": "Lunes. 10ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -2563,7 +2589,7 @@
       "gospel": "Matthew 5:13-16"
     },
     "calendarSource": "colombia",
-    "celebration": "09  Junio, Martes. 10ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
+    "celebration": "Martes. 10ª Semana del Tiempo Ordinario, Feria o Memoria libre",
     "color": "Verde o Blanco",
     "prelude": "<p>San Efrén, diácono y doctor de la Iglesia</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -2575,11 +2601,11 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "1 Kings 18:20-39",
-      "psalm": "Psalm 16:1-2a.4, 5+8. 11 (R. 1)",
+      "psalm": "Psalm 16:1-2a.4, 5, 8. 11 (R. 1)",
       "gospel": "Matthew 5:17-19"
     },
     "calendarSource": "colombia",
-    "celebration": "10  Junio, Miércoles. 10ª Sem. del TO,  Feria,  Verde",
+    "celebration": "Miércoles. 10ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -2595,7 +2621,7 @@
       "gospel": "Matthew 10:7-13"
     },
     "calendarSource": "colombia",
-    "celebration": "11  Junio, Jueves. 10ª Sem. del TO,  Memoria obligatoria,  Rojo",
+    "celebration": "Jueves. 10ª Semana del Tiempo Ordinario, Memoria obligatoria",
     "color": "Rojo",
     "prelude": "<p>San Bernabé, apóstol</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -2612,7 +2638,7 @@
       "gospel": "Matthew 11:25-30"
     },
     "calendarSource": "colombia",
-    "celebration": "12  Junio, Viernes.  SAGRADO CORAZÓN DE JESÚS ,  Solemnidad,  Blanco",
+    "celebration": "Viernes. Sagrado Corazón de Jesús , Solemnidad",
     "color": "Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -2626,10 +2652,10 @@
       "firstReading": "Isaiah 61, 9-11",
       "psalm": "Psalm 1 Samuel 2, 1, 4-5, 6-7, 8abcd (R. 1a)",
       "secondReading": "Luke 2, 41-51",
-      "gospel": ""
+      "gospel": "Matthew 5:33-37"
     },
     "calendarSource": "colombia",
-    "celebration": "13  Junio, Sábado. 10ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "celebration": "Sábado. 10ª Semana del Tiempo Ordinario, Memoria obligatoria",
     "color": "Blanco",
     "prelude": "<p>El Inmaculado Corazón de Santa María Virgen</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -2641,12 +2667,12 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Éx 19:2-6a",
-      "psalm": "Psalm 100:1-2, 3.5(R.3c)",
+      "psalm": "Psalm 100:1-2, 3, 5(R.3c)",
       "secondReading": "Romans 5:6-11",
       "gospel": "Matthew 9:36–10:8"
     },
     "calendarSource": "colombia",
-    "celebration": "14  Junio, Domingo. 11ª Sem. del Tiempo Ordinario,  Verde",
+    "celebration": "Domingo. 11ª Sem. del Tiempo Ordinario",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -2662,7 +2688,7 @@
       "gospel": "Matthew 5:38-42"
     },
     "calendarSource": "colombia",
-    "celebration": "15  Junio, Lunes. 11ª Sem. del TO,  Feria,  Verde",
+    "celebration": "Lunes. 11ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -2674,11 +2700,11 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "1 Kings 21:17-29",
-      "psalm": "Psalm 51:3-4, 5-6a. 11+16",
+      "psalm": "Psalm 51:3-4, 5-6a. 11, 16",
       "gospel": "Matthew 5:43-48"
     },
     "calendarSource": "colombia",
-    "celebration": "16  Junio, Martes. 11ª Sem. del TO,  Feria,  Verde",
+    "celebration": "Martes. 11ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -2694,7 +2720,7 @@
       "gospel": "Matthew 6:1-6, 16-18"
     },
     "calendarSource": "colombia",
-    "celebration": "17  Junio, Miércoles. 11ª Sem. del TO,  Feria,  Verde",
+    "celebration": "Miércoles. 11ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -2710,7 +2736,7 @@
       "gospel": "Matthew 6, 7-15"
     },
     "calendarSource": "colombia",
-    "celebration": "18  Junio, Jueves.  Feria,  Verde",
+    "celebration": "Jueves. Feria",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -2726,7 +2752,7 @@
       "gospel": "Matthew 6:19-23"
     },
     "calendarSource": "colombia",
-    "celebration": "19  Junio, Viernes.  Feria o Memoria libre,  Verde o Blanco",
+    "celebration": "Viernes. Feria o Memoria libre",
     "color": "Verde o Blanco",
     "prelude": "<p>San Romualdo, abad</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -2742,7 +2768,7 @@
       "gospel": "Matthew 6:24-34"
     },
     "calendarSource": "colombia",
-    "celebration": "20  Junio, Sábado. 11ª Sem. del TO,  Feria o BMV,  Verde o Blanco",
+    "celebration": "Sábado. 11ª Semana del Tiempo Ordinario, Feria o BMV",
     "color": "Verde o Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -2759,7 +2785,7 @@
       "gospel": "Matthew, 10:26-33"
     },
     "calendarSource": "colombia",
-    "celebration": "21  Junio, Domingo. 12ª Sem. del Tiempo Ordinario,  Verde",
+    "celebration": "Domingo. 12ª Sem. del Tiempo Ordinario",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -2775,7 +2801,7 @@
       "gospel": "Matthew 7:1-5"
     },
     "calendarSource": "colombia",
-    "celebration": "22  Junio, Lunes. 12ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco o Rojo",
+    "celebration": "Lunes. 12ª Semana del Tiempo Ordinario, Feria o Memoria libre",
     "color": "Verde o Blanco o Rojo",
     "prelude": "<p>San Paulino de Nola, obispo; Santos Juan Fisher, obispo y Tomás Moro, mártires</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -2791,7 +2817,7 @@
       "gospel": "Matthew 7:6, 12-14"
     },
     "calendarSource": "colombia",
-    "celebration": "23  Junio, Martes. 12ª Sem. del TO,  Feria,  Verde",
+    "celebration": "Martes. 12ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -2808,7 +2834,7 @@
       "gospel": "Luke 1:57-66, 80"
     },
     "calendarSource": "colombia",
-    "celebration": "24  Junio, Miércoles.  Solemnidad,  Blanco",
+    "celebration": "Miércoles. Solemnidad",
     "color": "Blanco",
     "prelude": "<p>Natividad de San Juan Bautista</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -2820,11 +2846,11 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "2 Kings 24:8-17",
-      "psalm": "Psalm 79:1-2, 3-5, 8.9 (R. 9bc)",
+      "psalm": "Psalm 79:1-2, 3-5, 8, 9 (R. 9bc)",
       "gospel": "Matthew 7:21-29"
     },
     "calendarSource": "colombia",
-    "celebration": "25  Junio, Jueves. 12ª Sem. del TO,  Feria,  Verde",
+    "celebration": "Jueves. 12ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -2836,11 +2862,11 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "2 Kings 25, 1-12",
-      "psalm": "Psalm 137, 1-2, 3.4-5, 6 (R. 6a)",
+      "psalm": "Psalm 137, 1-2, 3, 4-5, 6 (R. 6a)",
       "gospel": "Matthew 8, 1-4"
     },
     "calendarSource": "colombia",
-    "celebration": "26  Junio, Viernes. 12ª Sem. del TO,  Feria,  Verde",
+    "celebration": "Viernes. 12ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -2856,7 +2882,7 @@
       "gospel": "Matthew 8:5-17"
     },
     "calendarSource": "colombia",
-    "celebration": "27  Junio, Sábado. 12ª Sem. del TO,  Feria o Memoria libre o BMV,  Verde o Blanco",
+    "celebration": "Sábado. 12ª Semana del Tiempo Ordinario, Feria o Memoria libre o BMV",
     "color": "Verde o Blanco",
     "prelude": "<p>San Cirilo de Alejandría, obispo y doctor de la Iglesia</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -2867,13 +2893,13 @@
     "monthDay": "6/28",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "2 R 4:8,-11, 14-16a",
+      "firstReading": "2 R 4:8, -11, 14-16a",
       "psalm": "Psalm 89:2-3, 16-17, 18-19",
       "secondReading": "Romans 6:3-4, 8-11",
       "gospel": "Matthew 10, 37-42"
     },
     "calendarSource": "colombia",
-    "celebration": "28  Junio, Domingo. 13ª Sem. del Tiempo Ordinario,  Verde",
+    "celebration": "Domingo. 13ª Sem. del Tiempo Ordinario",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -2890,7 +2916,7 @@
       "gospel": "Matthew 16:13-19"
     },
     "calendarSource": "colombia",
-    "celebration": "29  Junio, Lunes.  Solemnidad,  Rojo",
+    "celebration": "Lunes. Solemnidad",
     "color": "Rojo",
     "prelude": "<p>Santos Pedro y Pablo, apóstoles</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -2902,11 +2928,11 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Amos 3:1-8; 4:11-12",
-      "psalm": "Psalm 5:5-6, 7.8 (R. 9a)",
+      "psalm": "Psalm 5:5-6, 7, 8 (R. 9a)",
       "gospel": "Matthew 8:23-27"
     },
     "calendarSource": "colombia",
-    "celebration": "30  Junio, Martes. 13ª Sem. del TO,  Feria o Memoria libre,  Verde o Rojo",
+    "celebration": "Martes. 13ª Semana del Tiempo Ordinario, Feria o Memoria libre",
     "color": "Verde o Rojo",
     "prelude": "<p>Santos Protomártires de la Iglesia Romana</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -2922,7 +2948,7 @@
       "gospel": "Matthew 8, 28-34"
     },
     "calendarSource": "colombia",
-    "celebration": "01  Julio, Miércoles. 13ª Sem. del TO,  Feria,  Verde",
+    "celebration": "Miércoles. 13ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -2934,11 +2960,11 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Amos 7, 10-17",
-      "psalm": "Psalm 19, 8, 9.10, 11 (R. 10b)",
+      "psalm": "Psalm 19, 8, 9, 10, 11 (R. 10b)",
       "gospel": "Matthew 9, 1-8"
     },
     "calendarSource": "colombia",
-    "celebration": "02  Julio, Jueves. 13ª Sem. del TO,  Feria,  Verde",
+    "celebration": "Jueves. 13ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -2954,7 +2980,7 @@
       "gospel": "John 20:24-29"
     },
     "calendarSource": "colombia",
-    "celebration": "03  Julio, Viernes.  Fiesta,  Rojo",
+    "celebration": "Viernes. Fiesta",
     "color": "Rojo",
     "prelude": "<p>Santo Tomás, apóstol</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -2970,7 +2996,7 @@
       "gospel": "Matthew 9:14-17"
     },
     "calendarSource": "colombia",
-    "celebration": "04  Julio, Sábado. 13ª Sem. del TO,  Feria o Memoria libre o BMV,  Verde o Blanco",
+    "celebration": "Sábado. 13ª Semana del Tiempo Ordinario, Feria o Memoria libre o BMV",
     "color": "Verde o Blanco",
     "prelude": "<p>Santa Isabel de Portugal</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -2982,12 +3008,12 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Za 9:9-10",
-      "psalm": "Psalm 145:1-2, 8-9, 10-11, 13cd-14 (R. 20[19],7)",
+      "psalm": "Psalm 145:1-2, 8-9, 10-11, 13cd-14 (R. 20[19], 7)",
       "secondReading": "Romans 8:9, 11-13",
       "gospel": "Matthew 11:25-30"
     },
     "calendarSource": "colombia",
-    "celebration": "05  Julio, Domingo. 14ª Sem. del Tiempo Ordinario,  Verde",
+    "celebration": "Domingo. 14ª Sem. del Tiempo Ordinario",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -3003,7 +3029,7 @@
       "gospel": "Matthew 9:18-26"
     },
     "calendarSource": "colombia",
-    "celebration": "06  Julio, Lunes. 14ª Sem. del TO,  Feria o Memoria libre,  Verde o Rojo",
+    "celebration": "Lunes. 14ª Semana del Tiempo Ordinario, Feria o Memoria libre",
     "color": "Verde o Rojo",
     "prelude": "<p>Santa María Goretti, virgen y mártir</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -3015,11 +3041,11 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Hosea 8:4-7, 11-13",
-      "psalm": "Psalm 115(113B),3-4, 5-6, 7ab-8, 9-10 (R. 9a)",
+      "psalm": "Psalm 115(113B), 3-4, 5-6, 7ab-8, 9-10 (R. 9a)",
       "gospel": "Matthew 9:32-38"
     },
     "calendarSource": "colombia",
-    "celebration": "07  Julio, Martes. 14ª Sem. del TO,  Feria,  Verde",
+    "celebration": "Martes. 14ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -3035,7 +3061,7 @@
       "gospel": "Matthew 10:1-7"
     },
     "calendarSource": "colombia",
-    "celebration": "08  Julio, Miércoles. 14ª Sem. del TO,  Feria,  Verde",
+    "celebration": "Miércoles. 14ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -3051,7 +3077,7 @@
       "gospel": "Luke 11:27-28"
     },
     "calendarSource": "colombia",
-    "celebration": "09  Julio, Jueves.  Fiesta,  Blanco",
+    "celebration": "Jueves. Fiesta",
     "color": "Blanco",
     "prelude": "<p>Bienaventurada Virgen María del Rosario de Chiquinquirá, Patrona de Colombia</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -3067,7 +3093,7 @@
       "gospel": "Matthew 10:16-23"
     },
     "calendarSource": "colombia",
-    "celebration": "10  Julio, Viernes. 14ª Sem. del TO,  Feria o Memoria libre,  Verde o Rojo",
+    "celebration": "Viernes. 14ª Semana del Tiempo Ordinario, Feria o Memoria libre",
     "color": "Verde o Rojo",
     "prelude": "<p>Santos Agustín Zhao Rong, presbítero, y compañeros, mártires</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -3083,7 +3109,7 @@
       "gospel": "Matthew 10:24-33"
     },
     "calendarSource": "colombia",
-    "celebration": "11  Julio, Sábado. 14ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "celebration": "Sábado. 14ª Semana del Tiempo Ordinario, Memoria obligatoria",
     "color": "Blanco",
     "prelude": "<p>San Benito, abad</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -3100,7 +3126,7 @@
       "gospel": "Matthew 13:1-23 (forma larga) o Matthew 13:1-9 (forma breve)"
     },
     "calendarSource": "colombia",
-    "celebration": "12  Julio, Domingo. 15ª Sem. del Tiempo Ordinario,  Verde",
+    "celebration": "Domingo. 15ª Sem. del Tiempo Ordinario",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -3116,7 +3142,7 @@
       "gospel": "Matthew 10:34 - 11:1"
     },
     "calendarSource": "colombia",
-    "celebration": "13  Julio, Lunes. 15ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
+    "celebration": "Lunes. 15ª Semana del Tiempo Ordinario, Feria o Memoria libre",
     "color": "Verde o Blanco",
     "prelude": "<p>San Enrique</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -3132,7 +3158,7 @@
       "gospel": "Matthew 11:20-24"
     },
     "calendarSource": "colombia",
-    "celebration": "14  Julio, Martes. 15ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
+    "celebration": "Martes. 15ª Semana del Tiempo Ordinario, Feria o Memoria libre",
     "color": "Verde o Blanco",
     "prelude": "<p>San Camilo de Lelis, presbítero</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -3148,7 +3174,7 @@
       "gospel": "Matthew 11:25-27"
     },
     "calendarSource": "colombia",
-    "celebration": "15  Julio, Miércoles. 15ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "celebration": "Miércoles. 15ª Semana del Tiempo Ordinario, Memoria obligatoria",
     "color": "Blanco",
     "prelude": "<p>San Buenaventura, obispo y doctor de la Iglesia</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -3160,11 +3186,11 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Isaiah 26:7-9, 12, 16-19",
-      "psalm": "Psalm 102:13-14+15, 16-18, 19-21 (R. 20b)",
+      "psalm": "Psalm 102:13-14, 15, 16-18, 19-21 (R. 20b)",
       "gospel": "Matthew 11:28-30"
     },
     "calendarSource": "colombia",
-    "celebration": "16  Julio, Jueves. 15ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
+    "celebration": "Jueves. 15ª Semana del Tiempo Ordinario, Feria o Memoria libre",
     "color": "Verde o Blanco",
     "prelude": "<p>Bienaventurada Virgen María del Carmen</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -3180,7 +3206,7 @@
       "gospel": "Matthew 12:1-8"
     },
     "calendarSource": "colombia",
-    "celebration": "17  Julio, Viernes. 15ª Sem. del TO,  Feria,  Verde",
+    "celebration": "Viernes. 15ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -3196,7 +3222,7 @@
       "gospel": "Matthew 12, 14-21"
     },
     "calendarSource": "colombia",
-    "celebration": "18  Julio, Sábado. 15ª Sem. del TO,  Feria o BMV,  Verde o Blanco",
+    "celebration": "Sábado. 15ª Semana del Tiempo Ordinario, Feria o BMV",
     "color": "Verde o Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -3213,7 +3239,7 @@
       "gospel": "Matthew 13:24-43 (forma larga) o Matthew 13:24-30 (forma breve)"
     },
     "calendarSource": "colombia",
-    "celebration": "19  Julio, Domingo. 16ª Sem. del Tiempo Ordinario,  Verde",
+    "celebration": "Domingo. 16ª Sem. del Tiempo Ordinario",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -3225,11 +3251,11 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Micah 6:1-4, 6-8",
-      "psalm": "Psalm 50:5-6, 8-9, 16bc-17, 21+23 (R. 23b)",
+      "psalm": "Psalm 50:5-6, 8-9, 16bc-17, 21, 23 (R. 23b)",
       "gospel": "Matthew 12:38-42"
     },
     "calendarSource": "colombia",
-    "celebration": "20  Julio, Lunes. 16ª Sem. del TO,  Feria o Memoria libre,  Verde o Rojo",
+    "celebration": "Lunes. 16ª Semana del Tiempo Ordinario, Feria o Memoria libre",
     "color": "Verde o Rojo",
     "prelude": "<p>San Apolinar, obispo y mártir</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -3245,7 +3271,7 @@
       "gospel": "Matthew 12:46-50"
     },
     "calendarSource": "colombia",
-    "celebration": "21  Julio, Martes. 16ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
+    "celebration": "Martes. 16ª Semana del Tiempo Ordinario, Feria o Memoria libre",
     "color": "Verde o Blanco",
     "prelude": "<p>San Lorenzo de Brindis, presbítero y doctor de la Iglesia</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -3261,7 +3287,7 @@
       "gospel": "John 20:1, 11-18"
     },
     "calendarSource": "colombia",
-    "celebration": "22  Julio, Miércoles.  Fiesta,  Blanco",
+    "celebration": "Miércoles. Fiesta",
     "color": "Blanco",
     "prelude": "<p>Santa María Magdalena,</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -3277,7 +3303,7 @@
       "gospel": "Matthew 13:10-17"
     },
     "calendarSource": "colombia",
-    "celebration": "23  Julio, Jueves. 16ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
+    "celebration": "Jueves. 16ª Semana del Tiempo Ordinario, Feria o Memoria libre",
     "color": "Verde o Blanco",
     "prelude": "<p>Santa Brígida, religiosa</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -3293,7 +3319,7 @@
       "gospel": "Matthew 13, 18-23"
     },
     "calendarSource": "colombia",
-    "celebration": "24  Julio, Viernes. 16ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
+    "celebration": "Viernes. 16ª Semana del Tiempo Ordinario, Feria o Memoria libre",
     "color": "Verde o Blanco",
     "prelude": "<p>San Charbel Makhluf, presbítero</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -3309,7 +3335,7 @@
       "gospel": "Matthew 20:20-28"
     },
     "calendarSource": "colombia",
-    "celebration": "25  Julio, Sábado.  Fiesta,  Rojo",
+    "celebration": "Sábado. Fiesta",
     "color": "Rojo",
     "prelude": "<p>Santiago, apóstol</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -3321,12 +3347,12 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "1 Kings 3:5, 7-12",
-      "psalm": "Psalm 119:57+72. 76-77, 127-128, 129-130 (R. 97a)",
+      "psalm": "Psalm 119:57, 72. 76-77, 127-128, 129-130 (R. 97a)",
       "secondReading": "Romans 8:28-30",
       "gospel": "Matthew 13:44-52 (forma larga) o Matthew 13:44-46 (forma breve)"
     },
     "calendarSource": "colombia",
-    "celebration": "26  Julio, Domingo. 17ª Sem. del Tiempo Ordinario,  Verde",
+    "celebration": "Domingo. 17ª Sem. del Tiempo Ordinario",
     "color": "Verde",
     "prelude": "null",
     "calendarLabel": "Colombia (CEC)",
@@ -3342,7 +3368,7 @@
       "gospel": "Matthew 13, 31-35"
     },
     "calendarSource": "colombia",
-    "celebration": "27  Julio, Lunes. 17ª Sem. del TO,  Feria,  Verde",
+    "celebration": "Lunes. 17ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "null",
     "calendarLabel": "Colombia (CEC)",
@@ -3354,11 +3380,11 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Jeremiah 14:17-22",
-      "psalm": "Psalm 79:8, 9.11+13 (R. 9bc)",
+      "psalm": "Psalm 79:8, 9, 11, 13 (R. 9bc)",
       "gospel": "Matthew 13:36-43"
     },
     "calendarSource": "colombia",
-    "celebration": "28  Julio, Martes. 17ª Sem. del TO,  Feria,  Verde",
+    "celebration": "Martes. 17ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -3374,7 +3400,7 @@
       "gospel": "John 11:19-27 o Luke 10:38-42"
     },
     "calendarSource": "colombia",
-    "celebration": "29  Julio, Miércoles. 17ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "celebration": "Miércoles. 17ª Semana del Tiempo Ordinario, Memoria obligatoria",
     "color": "Blanco",
     "prelude": "<p>Santos Marta, María y Lázaro</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -3390,7 +3416,7 @@
       "gospel": "Matthew 13:47-53"
     },
     "calendarSource": "colombia",
-    "celebration": "30  Julio, Jueves. 17ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
+    "celebration": "Jueves. 17ª Semana del Tiempo Ordinario, Feria o Memoria libre",
     "color": "Verde o Blanco",
     "prelude": "<p>San Pedro Crisólogo, obispo y doctor de la Iglesia</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -3406,7 +3432,7 @@
       "gospel": "Matthew 13:54-58"
     },
     "calendarSource": "colombia",
-    "celebration": "31  Julio, Viernes. 17ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "celebration": "Viernes. 17ª Semana del Tiempo Ordinario, Memoria obligatoria",
     "color": "Blanco",
     "prelude": "<p>San Ignacio de Loyola, presbítero</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -3422,7 +3448,7 @@
       "gospel": "Matthew 14:1-12"
     },
     "calendarSource": "colombia",
-    "celebration": "01  Agosto, Sábado. 17ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "celebration": "Sábado. 17ª Semana del Tiempo Ordinario, Memoria obligatoria",
     "color": "Blanco",
     "prelude": "<p>San Alfonso María de Ligorio, obispo y doctor de la Iglesia</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -3439,7 +3465,7 @@
       "gospel": "Matthew 14:13-21"
     },
     "calendarSource": "colombia",
-    "celebration": "02  Agosto, Domingo. 18ª Sem. del Tiempo Ordinario,  Verde",
+    "celebration": "Domingo. 18ª Sem. del Tiempo Ordinario",
     "color": "Verde",
     "prelude": "null",
     "calendarLabel": "Colombia (CEC)",
@@ -3455,7 +3481,7 @@
       "gospel": "Matthew 14:22-36"
     },
     "calendarSource": "colombia",
-    "celebration": "03  Agosto, Lunes. 18ª Sem. del TO,  Feria,  Verde",
+    "celebration": "Lunes. 18ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "null",
     "calendarLabel": "Colombia (CEC)",
@@ -3467,11 +3493,11 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Jeremiah 30:1-2, 12-15, 18-22",
-      "psalm": "Psalm 102:16-18, 19-21, 29+22-23",
+      "psalm": "Psalm 102:16-18, 19-21, 29, 22-23",
       "gospel": "Matthew 15, 1-2. 10-14"
     },
     "calendarSource": "colombia",
-    "celebration": "04  Agosto, Martes. 18ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "celebration": "Martes. 18ª Semana del Tiempo Ordinario, Memoria obligatoria",
     "color": "Blanco",
     "prelude": "<p>San Juan María Vianney, presbítero</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -3487,7 +3513,7 @@
       "gospel": "Matthew 15:21-28"
     },
     "calendarSource": "colombia",
-    "celebration": "05  Agosto, Miércoles. 18ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
+    "celebration": "Miércoles. 18ª Semana del Tiempo Ordinario, Feria o Memoria libre",
     "color": "Verde o Blanco",
     "prelude": "<p>Dedicación de la Basílica de Santa María</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -3497,9 +3523,14 @@
     "date": "2026-08-06",
     "monthDay": "8/6",
     "season": "Ordinary Time",
-    "readings": {},
+    "readings": {
+      "firstReading": "Daniel 7:9-10, 13-14",
+      "psalm": "Psalm 97:1-2, 5-6, 9",
+      "secondReading": "2 Peter 1:16-19",
+      "gospel": "Matthew 17:1-9"
+    },
     "calendarSource": "colombia",
-    "celebration": "06  Agosto, Jueves.  Fiesta,  Blanco",
+    "celebration": "Jueves. Fiesta",
     "color": "Blanco",
     "prelude": "<p>Transfiguración del Señor</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -3515,7 +3546,7 @@
       "gospel": "Matthew 16:24-28"
     },
     "calendarSource": "colombia",
-    "celebration": "07  Agosto, Viernes. 18ª Sem. del TO,  Feria o Memoria libre,  Verde o Rojo o Blanco",
+    "celebration": "Viernes. 18ª Semana del Tiempo Ordinario, Feria o Memoria libre",
     "color": "Verde o Rojo o Blanco",
     "prelude": "<p>Santos Sixto II, papa, y compañeros, mártires; San Cayetano, presbítero</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -3531,7 +3562,7 @@
       "gospel": "Matthew 17, 14-20"
     },
     "calendarSource": "colombia",
-    "celebration": "08  Agosto, Sábado. 18ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "celebration": "Sábado. 18ª Semana del Tiempo Ordinario, Memoria obligatoria",
     "color": "Blanco",
     "prelude": "<p>Santo Domingo de Guzmán, presbítero</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -3543,12 +3574,12 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "1 Kings 19:9a.11-13a",
-      "psalm": "Psalm 85:9ab+10, 11-12, 13-14 (R. 8)",
+      "psalm": "Psalm 85:9ab, 10, 11-12, 13-14 (R. 8)",
       "secondReading": "Romans 9:1-5",
       "gospel": "Matthew 14:22-33"
     },
     "calendarSource": "colombia",
-    "celebration": "09  Agosto, Domingo. 19ª Sem. del Tiempo Ordinario,  Verde",
+    "celebration": "Domingo. 19ª Sem. del Tiempo Ordinario",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -3564,7 +3595,7 @@
       "gospel": "John 12:24-26"
     },
     "calendarSource": "colombia",
-    "celebration": "10  Agosto, Lunes.  Fiesta,  Rojo",
+    "celebration": "Lunes. Fiesta",
     "color": "Rojo",
     "prelude": "<p>San Lorenzo, diácono y Mártir</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -3580,7 +3611,7 @@
       "gospel": "Matthew 18:1-5. 10, 12-14"
     },
     "calendarSource": "colombia",
-    "celebration": "11  Agosto, Martes. 19ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "celebration": "Martes. 19ª Semana del Tiempo Ordinario, Memoria obligatoria",
     "color": "Blanco",
     "prelude": "<p>Santa Clara, virgen</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -3596,7 +3627,7 @@
       "gospel": "Matthew 18, 15-20"
     },
     "calendarSource": "colombia",
-    "celebration": "12  Agosto, Miércoles. 19ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
+    "celebration": "Miércoles. 19ª Semana del Tiempo Ordinario, Feria o Memoria libre",
     "color": "Verde o Blanco",
     "prelude": "<p>Santa Juana Francisca de Chantal, religiosa</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -3612,7 +3643,7 @@
       "gospel": "Matthew 18:21-19:1"
     },
     "calendarSource": "colombia",
-    "celebration": "13  Agosto, Jueves. 19ª Sem. del TO,  Feria o Memoria libre,  Verde o Rojo",
+    "celebration": "Jueves. 19ª Semana del Tiempo Ordinario, Feria o Memoria libre",
     "color": "Verde o Rojo",
     "prelude": "<p>Santos Ponciano, papa, e Hipólito, presbítero , mártires</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -3629,8 +3660,8 @@
       "gospel": "Luke 11:27-28"
     },
     "calendarSource": "colombia",
-    "celebration": "14  Agosto, Viernes.  Solemnidad,  \r\n EN LA VIGILIA:",
-    "color": "",
+    "celebration": "Viernes. Solemnidad",
+    "color": "Blanco",
     "prelude": "La Asunción de  la Bienaventurada Virgen María(En la Vigilia)",
     "calendarLabel": "Colombia (CEC)",
     "sourceReference": "https://web-ordo-colombiano.cec.org.co"
@@ -3641,12 +3672,12 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Revelation 11:19a; 12:1-6a.10ab",
-      "psalm": "Psalm 45, 7a+10bc.11-12a, 14-15",
+      "psalm": "Psalm 45, 7a, 10bc.11-12a, 14-15",
       "secondReading": "1 Corinthians 15:20-27a",
       "gospel": "Luke 1:39-56"
     },
     "calendarSource": "colombia",
-    "celebration": "15  Agosto, Sábado.  Solemnidad,  Blanco",
+    "celebration": "Sábado. Solemnidad",
     "color": "Blanco",
     "prelude": "<p>La Asunción de la Bienaventurada Virgen María,</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -3658,12 +3689,12 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Isaiah 56:1, 6-7",
-      "psalm": "Psalm 67:2-3, 5.6+8",
+      "psalm": "Psalm 67:2-3, 5, 6, 8",
       "secondReading": "Romans 11:13-15, 29-32",
       "gospel": "Matthew 15:21-28"
     },
     "calendarSource": "colombia",
-    "celebration": "16  Agosto, Domingo. 20ª Sem. del Tiempo Ordinario,  Verde",
+    "celebration": "Domingo. 20ª Sem. del Tiempo Ordinario",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -3679,7 +3710,7 @@
       "gospel": "Matthew 19, 16-22"
     },
     "calendarSource": "colombia",
-    "celebration": "17  Agosto, Lunes. 20ª Sem. del TO,  Feria,  Verde",
+    "celebration": "Lunes. 20ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -3695,7 +3726,7 @@
       "gospel": "Matthew 19:23-30"
     },
     "calendarSource": "colombia",
-    "celebration": "18  Agosto, Martes. 20ª Sem. del TO,  Feria,  Verde",
+    "celebration": "Martes. 20ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -3711,7 +3742,7 @@
       "gospel": "Matthew 20:1-16"
     },
     "calendarSource": "colombia",
-    "celebration": "19  Agosto, Miércoles. 20ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
+    "celebration": "Miércoles. 20ª Semana del Tiempo Ordinario, Feria o Memoria libre",
     "color": "Verde o Blanco",
     "prelude": "<p>San Juan Eudes, presbítero; San Ezequiel Moreno Díaz, obispo</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -3727,7 +3758,7 @@
       "gospel": "Matthew 22:1-14"
     },
     "calendarSource": "colombia",
-    "celebration": "20  Agosto, Jueves. 20ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "celebration": "Jueves. 20ª Semana del Tiempo Ordinario, Memoria obligatoria",
     "color": "Blanco",
     "prelude": "<p>San Bernardo, abad y doctor de la Iglesia</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -3743,7 +3774,7 @@
       "gospel": "Matthew 22:34-40"
     },
     "calendarSource": "colombia",
-    "celebration": "21  Agosto, Viernes. 20ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "celebration": "Viernes. 20ª Semana del Tiempo Ordinario, Memoria obligatoria",
     "color": "Blanco",
     "prelude": "<p>San Pío X, papa</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -3759,7 +3790,7 @@
       "gospel": "Matthew 23:1-12"
     },
     "calendarSource": "colombia",
-    "celebration": "22  Agosto, Sábado. 20ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "celebration": "Sábado. 20ª Semana del Tiempo Ordinario, Memoria obligatoria",
     "color": "Blanco",
     "prelude": "<p>Bienaventurada Virgen María, Reina</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -3771,12 +3802,12 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Isaiah 22:19-23",
-      "psalm": "Psalm 138:1-2a. 2bc-3, 6 y 8bc (R. 80[79],18)",
+      "psalm": "Psalm 138:1-2a. 2bc-3, 6 y 8bc (R. 80[79], 18)",
       "secondReading": "Romans 11:33-36",
       "gospel": "Matthew 16:13-20"
     },
     "calendarSource": "colombia",
-    "celebration": "23  Agosto, Domingo. 21ª Sem. del Tiempo Ordinario,  Verde",
+    "celebration": "Domingo. 21ª Sem. del Tiempo Ordinario",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -3792,7 +3823,7 @@
       "gospel": "John 1:45-51"
     },
     "calendarSource": "colombia",
-    "celebration": "24  Agosto, Lunes.  Fiesta,  Rojo",
+    "celebration": "Lunes. Fiesta",
     "color": "Rojo",
     "prelude": "<p>San Bartolomé, apóstol</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -3808,7 +3839,7 @@
       "gospel": "Matthew 23, 23-26"
     },
     "calendarSource": "colombia",
-    "celebration": "25  Agosto, Martes. 21ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
+    "celebration": "Martes. 21ª Semana del Tiempo Ordinario, Feria o Memoria libre",
     "color": "Verde o Blanco",
     "prelude": "<p>San Luis, de Francia; San Jose de Calasanz, presbítero</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -3824,7 +3855,7 @@
       "gospel": "Matthew 23, 27-32"
     },
     "calendarSource": "colombia",
-    "celebration": "26  Agosto, Miércoles. 21ª Sem. del TO,  Feria,  Verde",
+    "celebration": "Miércoles. 21ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -3840,7 +3871,7 @@
       "gospel": "Matthew 24:42-51"
     },
     "calendarSource": "colombia",
-    "celebration": "27  Agosto, Jueves. 21ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "celebration": "Jueves. 21ª Semana del Tiempo Ordinario, Memoria obligatoria",
     "color": "Blanco",
     "prelude": "<p>Santa Mónica</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -3856,7 +3887,7 @@
       "gospel": "Matthew 25:1-13"
     },
     "calendarSource": "colombia",
-    "celebration": "28  Agosto, Viernes. 21ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "celebration": "Viernes. 21ª Semana del Tiempo Ordinario, Memoria obligatoria",
     "color": "Blanco",
     "prelude": "<p>San Agustín, obispo y doctor de la Iglesia</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -3872,7 +3903,7 @@
       "gospel": "Mark 6:17-29"
     },
     "calendarSource": "colombia",
-    "celebration": "29  Agosto, Sábado. 21ª Sem. del TO,  Memoria obligatoria,  Rojo",
+    "celebration": "Sábado. 21ª Semana del Tiempo Ordinario, Memoria obligatoria",
     "color": "Rojo",
     "prelude": "<p>Martirio de san Juan Bautista</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -3889,7 +3920,7 @@
       "gospel": "Matthew 16:21-27"
     },
     "calendarSource": "colombia",
-    "celebration": "30  Agosto, Domingo. 22ª Sem. del Tiempo Ordinario,  Verde",
+    "celebration": "Domingo. 22ª Sem. del Tiempo Ordinario",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -3905,7 +3936,7 @@
       "gospel": "Luke 4, 16-30"
     },
     "calendarSource": "colombia",
-    "celebration": "31  Agosto, Lunes. 22ª Sem. del TO,  Feria,  Verde",
+    "celebration": "Lunes. 22ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -3921,7 +3952,7 @@
       "gospel": "Luke 4:31-37"
     },
     "calendarSource": "colombia",
-    "celebration": "01  Septiembre, Martes. 22ª Sem. del TO,  Feria,  Verde",
+    "celebration": "Martes. 22ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -3937,7 +3968,7 @@
       "gospel": "Luke 4:38-44"
     },
     "calendarSource": "colombia",
-    "celebration": "02  Septiembre, Miércoles. 22ª Sem. del TO,  Feria,  Verde",
+    "celebration": "Miércoles. 22ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -3953,7 +3984,7 @@
       "gospel": "Luke 5:1-11"
     },
     "calendarSource": "colombia",
-    "celebration": "03  Septiembre, Jueves. 22ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "celebration": "Jueves. 22ª Semana del Tiempo Ordinario, Memoria obligatoria",
     "color": "Blanco",
     "prelude": "<p>San Gregorio Magno, papa y doctor de la Iglesia</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -3969,7 +4000,7 @@
       "gospel": "Luke 5:33-39"
     },
     "calendarSource": "colombia",
-    "celebration": "04  Septiembre, Viernes. 22ª Sem. del TO,  Feria,  Verde",
+    "celebration": "Viernes. 22ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -3985,7 +4016,7 @@
       "gospel": "Luke 6:1-5"
     },
     "calendarSource": "colombia",
-    "celebration": "05  Septiembre, Sábado. 22ª Sem. del TO,  Feria o Memoria libre o BMV,  Verde o Blanco",
+    "celebration": "Sábado. 22ª Semana del Tiempo Ordinario, Feria o Memoria libre o BMV",
     "color": "Verde o Blanco",
     "prelude": "<p>Santa Teresa de Calcuta, virgen</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -4002,7 +4033,7 @@
       "gospel": "Matthew 18:15-20"
     },
     "calendarSource": "colombia",
-    "celebration": "06  Septiembre, Domingo. 23ª Sem. del Tiempo Ordinario,  Verde",
+    "celebration": "Domingo. 23ª Sem. del Tiempo Ordinario",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -4014,11 +4045,11 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "1 Corinthians 5:1-8",
-      "psalm": "Psalm 5:5-6, 7.12 (R. 9a)",
+      "psalm": "Psalm 5:5-6, 7, 12 (R. 9a)",
       "gospel": "Luke 6:6-11"
     },
     "calendarSource": "colombia",
-    "celebration": "07  Septiembre, Lunes. 23ª Sem. del TO,  Feria,  Verde",
+    "celebration": "Lunes. 23ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -4034,7 +4065,7 @@
       "gospel": "Matthew 1:1-16, 18-23"
     },
     "calendarSource": "colombia",
-    "celebration": "08  Septiembre, Martes.  Fiesta,  Blanco",
+    "celebration": "Martes. Fiesta",
     "color": "Blanco",
     "prelude": "<p>Natividad de la Bienaventurada Virgen María, null</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -4050,7 +4081,7 @@
       "gospel": "Luke 6:20-26"
     },
     "calendarSource": "colombia",
-    "celebration": "09  Septiembre, Miércoles. 23ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "celebration": "Miércoles. 23ª Semana del Tiempo Ordinario, Memoria obligatoria",
     "color": "Blanco",
     "prelude": "<p>San Pedro Claver, presbítero</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -4066,7 +4097,7 @@
       "gospel": "Luke 6, 27-38"
     },
     "calendarSource": "colombia",
-    "celebration": "10  Septiembre, Jueves. 23ª Sem. del TO,  Feria,  Verde",
+    "celebration": "Jueves. 23ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -4082,7 +4113,7 @@
       "gospel": "Luke 6:39-42"
     },
     "calendarSource": "colombia",
-    "celebration": "11  Septiembre, Viernes. 23ª Sem. del TO,  Feria,  Verde",
+    "celebration": "Viernes. 23ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -4098,7 +4129,7 @@
       "gospel": "Luke 6:43-49"
     },
     "calendarSource": "colombia",
-    "celebration": "12  Septiembre, Sábado. 23ª Sem. del TO,  Feria o Memoria libre o BMV,  Verde o Blanco",
+    "celebration": "Sábado. 23ª Semana del Tiempo Ordinario, Feria o Memoria libre o BMV",
     "color": "Verde o Blanco",
     "prelude": "<p>Santísimo Nombre de María</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -4115,7 +4146,7 @@
       "gospel": "Matthew 18:21-35"
     },
     "calendarSource": "colombia",
-    "celebration": "13  Septiembre, Domingo. 24ª Sem. del Tiempo Ordinario,  Verde",
+    "celebration": "Domingo. 24ª Sem. del Tiempo Ordinario",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -4131,7 +4162,7 @@
       "gospel": "Luke 7:1-10"
     },
     "calendarSource": "colombia",
-    "celebration": "14  Septiembre, Lunes. 24ª Sem. del TO,  Feria,  Verde",
+    "celebration": "Lunes. 24ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -4148,7 +4179,7 @@
       "gospel": "John 19:25-27 o Luke 2:33-35"
     },
     "calendarSource": "colombia",
-    "celebration": "15  Septiembre, Martes. 24ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "celebration": "Martes. 24ª Semana del Tiempo Ordinario, Memoria obligatoria",
     "color": "Blanco",
     "prelude": "<p>Bienaventurada Virgen María de los Dolores</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -4160,11 +4191,11 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "1 Corinthians 12:31 - 13:13",
-      "psalm": "Psalm 33:2-3. 4-5, 12+22 (R. 12b)",
+      "psalm": "Psalm 33:2-3. 4-5, 12, 22 (R. 12b)",
       "gospel": "Luke 7:31-35"
     },
     "calendarSource": "colombia",
-    "celebration": "16  Septiembre, Miércoles. 24ª Sem. del TO,  Memoria obligatoria,  Rojo",
+    "celebration": "Miércoles. 24ª Semana del Tiempo Ordinario, Memoria obligatoria",
     "color": "Rojo",
     "prelude": "<p>Santos Cornelio, papa y Cipriano, obispo, mártires</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -4180,7 +4211,7 @@
       "gospel": "Luke 7:36-50"
     },
     "calendarSource": "colombia",
-    "celebration": "17  Septiembre, Jueves. 24ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
+    "celebration": "Jueves. 24ª Semana del Tiempo Ordinario, Feria o Memoria libre",
     "color": "Verde o Blanco",
     "prelude": "<p>San Roberto Belarmino, obispo y doctor de la Iglesia; Santa Hildegarda de Bingen, virgen y doctora de la Iglesia.</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -4192,11 +4223,11 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "1 Corinthians 15:12-20",
-      "psalm": "Psalm 17:1, 6-7. 8+15 (R. 15b)",
+      "psalm": "Psalm 17:1, 6-7. 8, 15 (R. 15b)",
       "gospel": "Luke 8:1-3"
     },
     "calendarSource": "colombia",
-    "celebration": "18  Septiembre, Viernes. 24ª Sem. del TO,  Feria,  Verde",
+    "celebration": "Viernes. 24ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -4212,7 +4243,7 @@
       "gospel": "Luke 8:4-15"
     },
     "calendarSource": "colombia",
-    "celebration": "19  Septiembre, Sábado. 24ª Sem. del TO,  Feria o Memoria libre o BMV,  Verde o Rojo o Blanco",
+    "celebration": "Sábado. 24ª Semana del Tiempo Ordinario, Feria o Memoria libre o BMV",
     "color": "Verde o Rojo o Blanco",
     "prelude": "<p>San Jenaro, obispo y mártir</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -4229,7 +4260,7 @@
       "gospel": "Matthew 20:1-16"
     },
     "calendarSource": "colombia",
-    "celebration": "20  Septiembre, Domingo. 25ª Sem. del Tiempo Ordinario,  Verde",
+    "celebration": "Domingo. 25ª Sem. del Tiempo Ordinario",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -4245,7 +4276,7 @@
       "gospel": "Matthew 9:9-13"
     },
     "calendarSource": "colombia",
-    "celebration": "21  Septiembre, Lunes.  Fiesta,  Rojo",
+    "celebration": "Lunes. Fiesta",
     "color": "Rojo",
     "prelude": "<p>San Mateo, apóstol y evangelista</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -4261,7 +4292,7 @@
       "gospel": "Luke 8:19-21"
     },
     "calendarSource": "colombia",
-    "celebration": "22  Septiembre, Martes. 25ª Sem. del TO,  Feria,  Verde",
+    "celebration": "Martes. 25ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -4277,7 +4308,7 @@
       "gospel": "Luke 9:1-6"
     },
     "calendarSource": "colombia",
-    "celebration": "23  Septiembre, Miércoles. 25ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "celebration": "Miércoles. 25ª Semana del Tiempo Ordinario, Memoria obligatoria",
     "color": "Blanco",
     "prelude": "<p>San Pío de Pietrelcina, presbítero</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -4293,7 +4324,7 @@
       "gospel": "Luke 9:7-9"
     },
     "calendarSource": "colombia",
-    "celebration": "24  Septiembre, Jueves. 25ª Sem. del TO,  Feria,  Verde",
+    "celebration": "Jueves. 25ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -4305,11 +4336,11 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Qo 3:1-11",
-      "psalm": "Psalm 144:1a+2abc. 3-4 (R. 1a)",
+      "psalm": "Psalm 144:1a, 2abc. 3-4 (R. 1a)",
       "gospel": "Luke 9:18-22"
     },
     "calendarSource": "colombia",
-    "celebration": "25  Septiembre, Viernes. 25ª Sem. del TO,  Feria,  Verde",
+    "celebration": "Viernes. 25ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -4321,11 +4352,11 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Qo 11:9 - 12:8",
-      "psalm": "Psalm 90:3-4, 5-6, 12-13, 14+17 (R. 1)",
+      "psalm": "Psalm 90:3-4, 5-6, 12-13, 14, 17 (R. 1)",
       "gospel": "Luke 9:43b-45"
     },
     "calendarSource": "colombia",
-    "celebration": "26  Septiembre, Sábado. 25ª Sem. del TO,  Feria o Memoria libre o BMV,  Verde o Rojo o Blanco",
+    "celebration": "Sábado. 25ª Semana del Tiempo Ordinario, Feria o Memoria libre o BMV",
     "color": "Verde o Rojo o Blanco",
     "prelude": "<p>Santos Cosme y Damián, mártires</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -4342,7 +4373,7 @@
       "gospel": "Matthew 21:28-32"
     },
     "calendarSource": "colombia",
-    "celebration": "27  Septiembre, Domingo. 26ª Sem. del Tiempo Ordinario,  Verde",
+    "celebration": "Domingo. 26ª Sem. del Tiempo Ordinario",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -4358,7 +4389,7 @@
       "gospel": "Luke 9:46-50"
     },
     "calendarSource": "colombia",
-    "celebration": "28  Septiembre, Lunes. 26ª Sem. del TO,  Feria o Memoria libre,  Verde o Rojo",
+    "celebration": "Lunes. 26ª Semana del Tiempo Ordinario, Feria o Memoria libre",
     "color": "Verde o Rojo",
     "prelude": "<p>San Wenceslao, mártir; Santos Lorenzo Ruiz y compañeros, mártires</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -4374,7 +4405,7 @@
       "gospel": "John 1:47-51"
     },
     "calendarSource": "colombia",
-    "celebration": "29  Septiembre, Martes.  Fiesta,  Blanco",
+    "celebration": "Martes. Fiesta",
     "color": "Blanco",
     "prelude": "<p>Santos Arcángeles Miguel, Gabriel y Rafael</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -4390,7 +4421,7 @@
       "gospel": "Luke 9:57-62"
     },
     "calendarSource": "colombia",
-    "celebration": "30  Septiembre, Miércoles. 26ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "celebration": "Miércoles. 26ª Semana del Tiempo Ordinario, Memoria obligatoria",
     "color": "Blanco",
     "prelude": "<p>San Jerónimo, presbítero y doctor de la Iglesia</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -4406,7 +4437,7 @@
       "gospel": "Luke 10, 1-12"
     },
     "calendarSource": "colombia",
-    "celebration": "01  Octubre, Jueves. 26ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "celebration": "Jueves. 26ª Semana del Tiempo Ordinario, Memoria obligatoria",
     "color": "Blanco",
     "prelude": "<p>Santa Teresa del Niño Jesús, virgen y doctora de la Iglesia</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -4422,7 +4453,7 @@
       "gospel": "Matthew 18:1-5, 10"
     },
     "calendarSource": "colombia",
-    "celebration": "02  Octubre, Viernes. 26ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "celebration": "Viernes. 26ª Semana del Tiempo Ordinario, Memoria obligatoria",
     "color": "Blanco",
     "prelude": "<p>Santos Ángeles Custodios</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -4438,7 +4469,7 @@
       "gospel": "Luke 10:17-24"
     },
     "calendarSource": "colombia",
-    "celebration": "03  Octubre, Sábado. 26ª Sem. del TO,  Feria o BMV,  Verde o Blanco",
+    "celebration": "Sábado. 26ª Semana del Tiempo Ordinario, Feria o BMV",
     "color": "Verde o Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -4455,7 +4486,7 @@
       "gospel": "Matthew 21:33-43"
     },
     "calendarSource": "colombia",
-    "celebration": "04  Octubre, Domingo. 27ª Sem. del Tiempo Ordinario,  Verde",
+    "celebration": "Domingo. 27ª Sem. del Tiempo Ordinario",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -4467,11 +4498,11 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Galatians 1:6-12",
-      "psalm": "Psalm 111:1-2, 7-8, 9+10c",
+      "psalm": "Psalm 111:1-2, 7-8, 9, 10c",
       "gospel": "Luke 10:25-37"
     },
     "calendarSource": "colombia",
-    "celebration": "05  Octubre, Lunes. 27ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
+    "celebration": "Lunes. 27ª Semana del Tiempo Ordinario, Feria o Memoria libre",
     "color": "Verde o Blanco",
     "prelude": "<p>Santa Faustina Kowalska, virgen</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -4487,7 +4518,7 @@
       "gospel": "Luke 10:38-42"
     },
     "calendarSource": "colombia",
-    "celebration": "06  Octubre, Martes. 27ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
+    "celebration": "Martes. 27ª Semana del Tiempo Ordinario, Feria o Memoria libre",
     "color": "Verde o Blanco",
     "prelude": "<p>San Bruno, presbítero</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -4503,7 +4534,7 @@
       "gospel": "Luke 11:1-4"
     },
     "calendarSource": "colombia",
-    "celebration": "07  Octubre, Miércoles. 27ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "celebration": "Miércoles. 27ª Semana del Tiempo Ordinario, Memoria obligatoria",
     "color": "Blanco",
     "prelude": "<p>Bienaventurada Virgen María del Rosario</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -4519,7 +4550,7 @@
       "gospel": "Luke 11:5-13"
     },
     "calendarSource": "colombia",
-    "celebration": "08  Octubre, Jueves. 27ª Sem. del TO,  Feria,  Verde",
+    "celebration": "Jueves. 27ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -4535,7 +4566,7 @@
       "gospel": "Luke 11:15-26"
     },
     "calendarSource": "colombia",
-    "celebration": "09  Octubre, Viernes. 27ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco o Rojo",
+    "celebration": "Viernes. 27ª Semana del Tiempo Ordinario, Feria o Memoria libre",
     "color": "Verde o Blanco o Rojo",
     "prelude": "<p>San Luis Bertrán, presbítero; Santos Dionisio, obispo, y Compañeros, mártires; San Juan Leonardi, presbítero</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -4551,7 +4582,7 @@
       "gospel": "Luke 11:27-28"
     },
     "calendarSource": "colombia",
-    "celebration": "10  Octubre, Sábado. 27ª Sem. del TO,  Feria o BMV,  Verde o Blanco",
+    "celebration": "Sábado. 27ª Semana del Tiempo Ordinario, Feria o BMV",
     "color": "Verde o Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -4563,12 +4594,12 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Isaiah 25:6-10a",
-      "psalm": "Psalm 23:1-3a.3b-4, 5.6",
+      "psalm": "Psalm 23:1-3a.3b-4, 5, 6",
       "secondReading": "Philippians 4:12-14, 19-20",
       "gospel": "Matthew 22:1-14 (forma larga) o Matthew 22:1-10 (forma breve)"
     },
     "calendarSource": "colombia",
-    "celebration": "11  Octubre, Domingo. 28ª Sem. del Tiempo Ordinario,  Verde",
+    "celebration": "Domingo. 28ª Sem. del Tiempo Ordinario",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -4584,7 +4615,7 @@
       "gospel": "Luke 11:29-32"
     },
     "calendarSource": "colombia",
-    "celebration": "12  Octubre, Lunes. 28ª Sem. del TO,  Feria,  Verde",
+    "celebration": "Lunes. 28ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -4600,7 +4631,7 @@
       "gospel": "Luke 11:37-41"
     },
     "calendarSource": "colombia",
-    "celebration": "13  Octubre, Martes. 28ª Sem. del TO,  Feria,  Verde",
+    "celebration": "Martes. 28ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -4612,11 +4643,11 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Galatians 5:18-25",
-      "psalm": "Psalm 1:1-2, 3.4+6",
+      "psalm": "Psalm 1:1-2, 3, 4, 6",
       "gospel": "Luke 11:42-46"
     },
     "calendarSource": "colombia",
-    "celebration": "14  Octubre, Miércoles. 28ª Sem. del TO,  Feria o Memoria libre,  Verde o Rojo",
+    "celebration": "Miércoles. 28ª Semana del Tiempo Ordinario, Feria o Memoria libre",
     "color": "Verde o Rojo",
     "prelude": "<p>San Calixto I, papa y mártir</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -4632,7 +4663,7 @@
       "gospel": "Luke 11:47-54"
     },
     "calendarSource": "colombia",
-    "celebration": "15  Octubre, Jueves.  Memoria obligatoria,  Blanco",
+    "celebration": "Jueves. Memoria obligatoria",
     "color": "Blanco",
     "prelude": "<p>Santa Teresa de Jesús, virgen y doctora de la Iglesia</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -4648,7 +4679,7 @@
       "gospel": "Luke 12:1-7"
     },
     "calendarSource": "colombia",
-    "celebration": "16  Octubre, Viernes. 28ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
+    "celebration": "Viernes. 28ª Semana del Tiempo Ordinario, Feria o Memoria libre",
     "color": "Verde o Blanco",
     "prelude": "<p>Santa Eduviges, religiosa; Santa Margarita María de Alacoque, virgen</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -4664,7 +4695,7 @@
       "gospel": "Luke 12:8-12"
     },
     "calendarSource": "colombia",
-    "celebration": "17  Octubre, Sábado. 28ª Sem. del TO,  Memoria obligatoria,  Rojo",
+    "celebration": "Sábado. 28ª Semana del Tiempo Ordinario, Memoria obligatoria",
     "color": "Rojo",
     "prelude": "<p>San Ignacio de Antioquía, obispo y mártir</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -4681,7 +4712,7 @@
       "gospel": "Matthew 22:15-21"
     },
     "calendarSource": "colombia",
-    "celebration": "18  Octubre, Domingo. 29ª Sem. del Tiempo Ordinario,  Verde",
+    "celebration": "Domingo. 29ª Sem. del Tiempo Ordinario",
     "color": "Verde",
     "prelude": "null",
     "calendarLabel": "Colombia (CEC)",
@@ -4693,11 +4724,11 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Ephesians 2:1-10",
-      "psalm": "Psalm 100:2, 3.4, 5 (R. 3b)",
+      "psalm": "Psalm 100:2, 3, 4, 5 (R. 3b)",
       "gospel": "Luke 12:13-21"
     },
     "calendarSource": "colombia",
-    "celebration": "19  Octubre, Lunes. 29ª Sem. del TO,  Feria o Memoria libre,  Verde o Rojo o Blanco",
+    "celebration": "Lunes. 29ª Semana del Tiempo Ordinario, Feria o Memoria libre",
     "color": "Verde o Rojo o Blanco",
     "prelude": "<p>Santos Juan de Brébeuf e Isaac Jogues, presbíteros, y compañeros, mártires; San Pablo de la Cruz, presbítero</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -4713,7 +4744,7 @@
       "gospel": "Luke 12, 35-38"
     },
     "calendarSource": "colombia",
-    "celebration": "20  Octubre, Martes. 29ª Sem. del TO,  Feria,  Verde",
+    "celebration": "Martes. 29ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -4729,7 +4760,7 @@
       "gospel": "Luke 12:39-48"
     },
     "calendarSource": "colombia",
-    "celebration": "21  Octubre, Miércoles. 29ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "celebration": "Miércoles. 29ª Semana del Tiempo Ordinario, Memoria obligatoria",
     "color": "Blanco",
     "prelude": "<p>Santa Laura de santa Catalina de Siena Montoya y Upegui, virgen</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -4745,7 +4776,7 @@
       "gospel": "Luke 12:49-53"
     },
     "calendarSource": "colombia",
-    "celebration": "22  Octubre, Jueves. 29ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
+    "celebration": "Jueves. 29ª Semana del Tiempo Ordinario, Feria o Memoria libre",
     "color": "Verde o Blanco",
     "prelude": "<p>San Juan Pablo II, papa</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -4761,7 +4792,7 @@
       "gospel": "Luke 12:54-59"
     },
     "calendarSource": "colombia",
-    "celebration": "23  Octubre, Viernes. 29ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
+    "celebration": "Viernes. 29ª Semana del Tiempo Ordinario, Feria o Memoria libre",
     "color": "Verde o Blanco",
     "prelude": "<p>San Juan de Capistrano, presbítero</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -4777,7 +4808,7 @@
       "gospel": "Luke 13:1-9"
     },
     "calendarSource": "colombia",
-    "celebration": "24  Octubre, Sábado. 29ª Sem. del TO,  Feria o Memoria libre o BMV,  Verde o Blanco",
+    "celebration": "Sábado. 29ª Semana del Tiempo Ordinario, Feria o Memoria libre o BMV",
     "color": "Verde o Blanco",
     "prelude": "<p>San Antonio María Claret, obispo</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -4794,7 +4825,7 @@
       "gospel": "Matthew 22:34-40"
     },
     "calendarSource": "colombia",
-    "celebration": "25  Octubre, Domingo. 30ª Sem. del Tiempo Ordinario,  Verde",
+    "celebration": "Domingo. 30ª Sem. del Tiempo Ordinario",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -4806,11 +4837,11 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Ephesians 4:32 - 5:8",
-      "psalm": "Psalm 1:1-2, 3.4 y 6",
+      "psalm": "Psalm 1:1-2, 3, 4 y 6",
       "gospel": "Luke 13:10-17"
     },
     "calendarSource": "colombia",
-    "celebration": "26  Octubre, Lunes. 30ª Sem. del TO,  Feria,  Verde",
+    "celebration": "Lunes. 30ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -4822,11 +4853,11 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Ephesians 5:21-33",
-      "psalm": "Psalm 128:1-2, 3.4-5",
+      "psalm": "Psalm 128:1-2, 3, 4-5",
       "gospel": "Luke 13:18-21"
     },
     "calendarSource": "colombia",
-    "celebration": "27  Octubre, Martes. 30ª Sem. del TO,  Feria,  Verde",
+    "celebration": "Martes. 30ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -4842,7 +4873,7 @@
       "gospel": "Luke 6:12-19"
     },
     "calendarSource": "colombia",
-    "celebration": "28  Octubre, Miércoles.  Fiesta,  Rojo",
+    "celebration": "Miércoles. Fiesta",
     "color": "Rojo",
     "prelude": "<p>Santos Simón y Judas, apóstoles</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -4854,11 +4885,11 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Ephesians 6:10-20",
-      "psalm": "Psalm 144:1, 2.9-10 (R. 1a)",
+      "psalm": "Psalm 144:1, 2, 9-10 (R. 1a)",
       "gospel": "Luke 13:31-35"
     },
     "calendarSource": "colombia",
-    "celebration": "29  Octubre, Jueves. 30ª Sem. del TO,  Feria,  Verde",
+    "celebration": "Jueves. 30ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -4874,7 +4905,7 @@
       "gospel": "Luke 14, 1-6"
     },
     "calendarSource": "colombia",
-    "celebration": "30  Octubre, Viernes. 30ª Sem. del TO,  Feria,  Verde",
+    "celebration": "Viernes. 30ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -4886,11 +4917,11 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Philippians 1:18b-26",
-      "psalm": "Psalm 42:2, 3.5bcd (R. 3a)",
+      "psalm": "Psalm 42:2, 3, 5bcd (R. 3a)",
       "gospel": "Luke 14:1, 7-11"
     },
     "calendarSource": "colombia",
-    "celebration": "31  Octubre, Sábado. 30ª Sem. del TO,  Feria o BMV,  Verde o Blanco",
+    "celebration": "Sábado. 30ª Semana del Tiempo Ordinario, Feria o BMV",
     "color": "Verde o Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -4907,7 +4938,7 @@
       "gospel": "Matthew 5:1-12a"
     },
     "calendarSource": "colombia",
-    "celebration": "01  Noviembre, Domingo. 31ª Sem. del Tiempo Ordinario,  Solemnidad,  Blanco",
+    "celebration": "Domingo. 31ª Sem. del Tiempo Ordinario, Solemnidad",
     "color": "Blanco",
     "prelude": "<p>Todos los Santos</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -4917,9 +4948,14 @@
     "date": "2026-11-02",
     "monthDay": "11/2",
     "season": "Ordinary Time",
-    "readings": {},
+    "readings": {
+      "firstReading": "Wisdom 3:1-9",
+      "psalm": "Psalm 23:1-3a, 3b-4, 5, 6",
+      "secondReading": "Romans 5:5-11",
+      "gospel": "John 6:37-40"
+    },
     "calendarSource": "colombia",
-    "celebration": "02  Noviembre, Lunes. 31ª Sem. del TO,  Memoria obligatoria,  Morado",
+    "celebration": "Lunes. 31ª Semana del Tiempo Ordinario, Memoria obligatoria",
     "color": "Morado",
     "prelude": "<p>Conmemoración de Todos los Fieles Difuntos</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -4935,7 +4971,7 @@
       "gospel": "Luke 14:15-24"
     },
     "calendarSource": "colombia",
-    "celebration": "03  Noviembre, Martes. 31ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
+    "celebration": "Martes. 31ª Semana del Tiempo Ordinario, Feria o Memoria libre",
     "color": "Verde o Blanco",
     "prelude": "<p>San Martín de Porres, religioso</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -4947,11 +4983,11 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Philippians 2, 12-18",
-      "psalm": "Psalm 27, 1, 4.13-14 (R. 1a)",
+      "psalm": "Psalm 27, 1, 4, 13-14 (R. 1a)",
       "gospel": "Luke 14, 25-33"
     },
     "calendarSource": "colombia",
-    "celebration": "04  Noviembre, Miércoles. 31ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "celebration": "Miércoles. 31ª Semana del Tiempo Ordinario, Memoria obligatoria",
     "color": "Blanco",
     "prelude": "<p>San Carlos Borromeo, obispo</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -4967,7 +5003,7 @@
       "gospel": "Luke 15:1-10"
     },
     "calendarSource": "colombia",
-    "celebration": "05  Noviembre, Jueves. 31ª Sem. del TO,  Feria,  Verde",
+    "celebration": "Jueves. 31ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -4983,7 +5019,7 @@
       "gospel": "Luke 16:1-8"
     },
     "calendarSource": "colombia",
-    "celebration": "06  Noviembre, Viernes. 31ª Sem. del TO,  Feria,  Verde",
+    "celebration": "Viernes. 31ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -4999,7 +5035,7 @@
       "gospel": "Luke 16:9-15"
     },
     "calendarSource": "colombia",
-    "celebration": "07  Noviembre, Sábado. 31ª Sem. del TO,  Feria o BMV,  Verde o Blanco",
+    "celebration": "Sábado. 31ª Semana del Tiempo Ordinario, Feria o BMV",
     "color": "Verde o Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -5016,7 +5052,7 @@
       "gospel": "Matthew 25:1-13"
     },
     "calendarSource": "colombia",
-    "celebration": "08  Noviembre, Domingo. 32ª Sem. del Tiempo Ordinario,  Verde",
+    "celebration": "Domingo. 32ª Sem. del Tiempo Ordinario",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -5033,7 +5069,7 @@
       "gospel": "John 2:13-22"
     },
     "calendarSource": "colombia",
-    "celebration": "09  Noviembre, Lunes.  Fiesta,  Blanco",
+    "celebration": "Lunes. Fiesta",
     "color": "Blanco",
     "prelude": "<p>Dedicación de la Basílica de Letrán</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -5049,7 +5085,7 @@
       "gospel": "Luke 17:7-10"
     },
     "calendarSource": "colombia",
-    "celebration": "10  Noviembre, Martes. 32ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "celebration": "Martes. 32ª Semana del Tiempo Ordinario, Memoria obligatoria",
     "color": "Blanco",
     "prelude": "<p>San León Magno, papa y doctor de la Iglesia</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -5061,11 +5097,11 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Tt 3, 1-7",
-      "psalm": "Psalm 23, 1-3a.3b-4, 5.6 (R. 1)",
+      "psalm": "Psalm 23, 1-3a.3b-4, 5, 6 (R. 1)",
       "gospel": "Luke 17, 11-19"
     },
     "calendarSource": "colombia",
-    "celebration": "11  Noviembre, Miércoles. 32ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "celebration": "Miércoles. 32ª Semana del Tiempo Ordinario, Memoria obligatoria",
     "color": "Blanco",
     "prelude": "<p>San Martín de Tours, obispo</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -5081,7 +5117,7 @@
       "gospel": "Luke 17:20-25"
     },
     "calendarSource": "colombia",
-    "celebration": "12  Noviembre, Jueves. 32ª Sem. del TO,  Memoria obligatoria,  Rojo",
+    "celebration": "Jueves. 32ª Semana del Tiempo Ordinario, Memoria obligatoria",
     "color": "Rojo",
     "prelude": "<p>San Josafat, obispo y mártir</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -5093,11 +5129,11 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "2 John 4-9",
-      "psalm": "Psalm 119:1, 2.10, 11, 17, 18 (R. 1b)",
+      "psalm": "Psalm 119:1, 2, 10, 11, 17, 18 (R. 1b)",
       "gospel": "Luke 17:26-37"
     },
     "calendarSource": "colombia",
-    "celebration": "13  Noviembre, Viernes. 32ª Sem. del TO,  Feria,  Verde",
+    "celebration": "Viernes. 32ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -5113,7 +5149,7 @@
       "gospel": "Luke 18:1-8"
     },
     "calendarSource": "colombia",
-    "celebration": "14  Noviembre, Sábado. 32ª Sem. del TO,  Feria o BMV,  Verde o Blanco",
+    "celebration": "Sábado. 32ª Semana del Tiempo Ordinario, Feria o BMV",
     "color": "Verde o Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -5125,12 +5161,12 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Pr 31:10-13, 19-20, 30-31",
-      "psalm": "Psalm 128:1-2, 3.4-5 (R. 1a)",
+      "psalm": "Psalm 128:1-2, 3, 4-5 (R. 1a)",
       "secondReading": "1Ts 5:1-6",
       "gospel": "Matthew 25:14-30 (forma larga) o Matthew 25:14-15, 19-21 (forma breve)"
     },
     "calendarSource": "colombia",
-    "celebration": "15  Noviembre, Domingo. 33ª Sem. del Tiempo Ordinario,  Verde",
+    "celebration": "Domingo. 33ª Sem. del Tiempo Ordinario",
     "color": "Verde",
     "prelude": "null",
     "calendarLabel": "Colombia (CEC)",
@@ -5142,11 +5178,11 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Revelation 1:1-4; 2:1-5a",
-      "psalm": "Psalm 1:1-2, 3.4+6 (R. Revelation 2:7b)",
+      "psalm": "Psalm 1:1-2, 3, 4, 6 (R. Revelation 2:7b)",
       "gospel": "Luke 18:35-43"
     },
     "calendarSource": "colombia",
-    "celebration": "16  Noviembre, Lunes. 33ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
+    "celebration": "Lunes. 33ª Semana del Tiempo Ordinario, Feria o Memoria libre",
     "color": "Verde o Blanco",
     "prelude": "<p>Santa Margarita de Escocia, ; Santa Gertrudis, virgen</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -5162,7 +5198,7 @@
       "gospel": "Luke 19:1-10"
     },
     "calendarSource": "colombia",
-    "celebration": "17  Noviembre, Martes. 33ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "celebration": "Martes. 33ª Semana del Tiempo Ordinario, Memoria obligatoria",
     "color": "Blanco",
     "prelude": "<p>Santa Isabel de Hungría, religiosa</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -5178,7 +5214,7 @@
       "gospel": "Luke 19:11-28"
     },
     "calendarSource": "colombia",
-    "celebration": "18  Noviembre, Miércoles. 33ª Sem. del TO,  Feria o Memoria libre,  Verde o Blanco",
+    "celebration": "Miércoles. 33ª Semana del Tiempo Ordinario, Feria o Memoria libre",
     "color": "Verde o Blanco",
     "prelude": "<p>Dedicación de las basílicas de los santos Pedro y Pablo, apóstoles</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -5190,11 +5226,11 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Revelation 5:1-10",
-      "psalm": "Psalm 149:1-2, 3-4, 5-6a+9b",
+      "psalm": "Psalm 149:1-2, 3-4, 5-6a, 9b",
       "gospel": "Luke 19:41-44"
     },
     "calendarSource": "colombia",
-    "celebration": "19  Noviembre, Jueves. 33ª Sem. del TO,  Feria,  Verde",
+    "celebration": "Jueves. 33ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "null",
     "calendarLabel": "Colombia (CEC)",
@@ -5210,7 +5246,7 @@
       "gospel": "Luke 19:45-48"
     },
     "calendarSource": "colombia",
-    "celebration": "20  Noviembre, Viernes. 33ª Sem. del TO,  Feria,  Verde",
+    "celebration": "Viernes. 33ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "null",
     "calendarLabel": "Colombia (CEC)",
@@ -5222,11 +5258,11 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Revelation 11:4-12",
-      "psalm": "Psalm 144:1, 2.9-10 (R. 1a)",
+      "psalm": "Psalm 144:1, 2, 9-10 (R. 1a)",
       "gospel": "Luke 20:27-40"
     },
     "calendarSource": "colombia",
-    "celebration": "21  Noviembre, Sábado. 33ª Sem. del TO,  Memoria obligatoria,  Blanco",
+    "celebration": "Sábado. 33ª Semana del Tiempo Ordinario, Memoria obligatoria",
     "color": "Blanco",
     "prelude": "<p>La Presentación de la Bienaventurada Virgen María</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -5238,12 +5274,12 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Ezekiel 34:11-12, 15-17",
-      "psalm": "Psalm 23:1-3a.3b-4, 5.6 (R. 1)",
+      "psalm": "Psalm 23:1-3a.3b-4, 5, 6 (R. 1)",
       "secondReading": "1 Corinthians 15:20-26, 28",
       "gospel": "Matthew 25:31-46"
     },
     "calendarSource": "colombia",
-    "celebration": "22  Noviembre, Domingo. 34ª Sem. del Tiempo Ordinario,  NUESTRO SEÑOR JESUCRISTO, REY DEL UNIVERSO,  Solemnidad,  Blanco",
+    "celebration": "Domingo. 34ª Sem. del Tiempo Ordinario, Nuestro Señor Jesucristo, Rey del Universo, Solemnidad",
     "color": "Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -5259,7 +5295,7 @@
       "gospel": "Luke 21:1-4"
     },
     "calendarSource": "colombia",
-    "celebration": "23  Noviembre, Lunes. 34ª Sem. del TO,  Feria o Memoria libre,  Verde o Rojo o Blanco",
+    "celebration": "Lunes. 34ª Semana del Tiempo Ordinario, Feria o Memoria libre",
     "color": "Verde o Rojo o Blanco",
     "prelude": "<p>San Clemente I, papa y mártir; San Columbano, abad</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -5275,7 +5311,7 @@
       "gospel": "Luke 21:5-11"
     },
     "calendarSource": "colombia",
-    "celebration": "24  Noviembre, Martes. 34ª Sem. del TO,  Memoria obligatoria,  Rojo",
+    "celebration": "Martes. 34ª Semana del Tiempo Ordinario, Memoria obligatoria",
     "color": "Rojo",
     "prelude": "<p>San Andres Dung Lac, presbítero y compañeros, mártires</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -5291,7 +5327,7 @@
       "gospel": "Luke 21:12-19"
     },
     "calendarSource": "colombia",
-    "celebration": "25  Noviembre, Miércoles. 34ª Sem. del TO,  Feria o Memoria libre,  Verde o Rojo",
+    "celebration": "Miércoles. 34ª Semana del Tiempo Ordinario, Feria o Memoria libre",
     "color": "Verde o Rojo",
     "prelude": "<p>Santa Catalina de Alejandría, virgen y mártir</p>",
     "calendarLabel": "Colombia (CEC)",
@@ -5303,11 +5339,11 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Revelation 18:1-2, 21-23; 19:1-3, 9a",
-      "psalm": "Psalm 100:2, 3.4, 5 (R. Revelation 19:9a)",
+      "psalm": "Psalm 100:2, 3, 4, 5 (R. Revelation 19:9a)",
       "gospel": "Luke 21:20-28"
     },
     "calendarSource": "colombia",
-    "celebration": "26  Noviembre, Jueves. 34ª Sem. del TO,  Feria,  Verde",
+    "celebration": "Jueves. 34ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -5319,11 +5355,11 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Revelation 20:1-4, 11 - 21:2",
-      "psalm": "Psalm 84:3, 4.5-6a+8a (R. Revelation 21:3b)",
+      "psalm": "Psalm 84:3, 4, 5-6a, 8a (R. Revelation 21:3b)",
       "gospel": "Luke 21:29-33"
     },
     "calendarSource": "colombia",
-    "celebration": "27  Noviembre, Viernes. 34ª Sem. del TO,  Feria,  Verde",
+    "celebration": "Viernes. 34ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -5339,7 +5375,7 @@
       "gospel": "Luke 21:34-36"
     },
     "calendarSource": "colombia",
-    "celebration": "28  Noviembre, Sábado. 34ª Sem. del TO,  Feria o BMV,  Verde o Blanco",
+    "celebration": "Sábado. 34ª Semana del Tiempo Ordinario, Feria o BMV",
     "color": "Verde o Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
@@ -5357,8 +5393,8 @@
     "calendarSource": "colombia",
     "calendarLabel": "Colombia (CEC)",
     "sourceReference": "https://web-ordo-colombiano.cec.org.co",
-    "celebration": "",
-    "color": "",
+    "celebration": "Domingo. Adviento",
+    "color": "Morado",
     "prelude": ""
   },
   {
@@ -5373,8 +5409,8 @@
     "calendarSource": "colombia",
     "calendarLabel": "Colombia (CEC)",
     "sourceReference": "https://web-ordo-colombiano.cec.org.co",
-    "celebration": "",
-    "color": "",
+    "celebration": "Lunes. Adviento",
+    "color": "Morado",
     "prelude": ""
   },
   {
@@ -5389,8 +5425,8 @@
     "calendarSource": "colombia",
     "calendarLabel": "Colombia (CEC)",
     "sourceReference": "https://web-ordo-colombiano.cec.org.co",
-    "celebration": "",
-    "color": "",
+    "celebration": "Martes. Adviento",
+    "color": "Morado",
     "prelude": ""
   },
   {
@@ -5405,8 +5441,8 @@
     "calendarSource": "colombia",
     "calendarLabel": "Colombia (CEC)",
     "sourceReference": "https://web-ordo-colombiano.cec.org.co",
-    "celebration": "",
-    "color": "",
+    "celebration": "Miércoles. Adviento",
+    "color": "Morado",
     "prelude": ""
   },
   {
@@ -5421,8 +5457,8 @@
     "calendarSource": "colombia",
     "calendarLabel": "Colombia (CEC)",
     "sourceReference": "https://web-ordo-colombiano.cec.org.co",
-    "celebration": "",
-    "color": "",
+    "celebration": "Jueves. Adviento",
+    "color": "Morado",
     "prelude": ""
   },
   {
@@ -5437,8 +5473,8 @@
     "calendarSource": "colombia",
     "calendarLabel": "Colombia (CEC)",
     "sourceReference": "https://web-ordo-colombiano.cec.org.co",
-    "celebration": "",
-    "color": "",
+    "celebration": "Viernes. Adviento",
+    "color": "Morado",
     "prelude": ""
   },
   {
@@ -5453,8 +5489,8 @@
     "calendarSource": "colombia",
     "calendarLabel": "Colombia (CEC)",
     "sourceReference": "https://web-ordo-colombiano.cec.org.co",
-    "celebration": "",
-    "color": "",
+    "celebration": "Sábado. Adviento",
+    "color": "Morado",
     "prelude": ""
   },
   {
@@ -5470,8 +5506,8 @@
     "calendarSource": "colombia",
     "calendarLabel": "Colombia (CEC)",
     "sourceReference": "https://web-ordo-colombiano.cec.org.co",
-    "celebration": "",
-    "color": "",
+    "celebration": "Domingo. Adviento",
+    "color": "Morado",
     "prelude": ""
   },
   {
@@ -5486,8 +5522,8 @@
     "calendarSource": "colombia",
     "calendarLabel": "Colombia (CEC)",
     "sourceReference": "https://web-ordo-colombiano.cec.org.co",
-    "celebration": "",
-    "color": "",
+    "celebration": "Lunes. Adviento",
+    "color": "Morado",
     "prelude": ""
   },
   {
@@ -5503,8 +5539,8 @@
     "calendarSource": "colombia",
     "calendarLabel": "Colombia (CEC)",
     "sourceReference": "https://web-ordo-colombiano.cec.org.co",
-    "celebration": "",
-    "color": "",
+    "celebration": "Inmaculada Concepción de la Santísima Virgen María, Solemnidad",
+    "color": "Blanco",
     "prelude": ""
   },
   {
@@ -5519,8 +5555,8 @@
     "calendarSource": "colombia",
     "calendarLabel": "Colombia (CEC)",
     "sourceReference": "https://web-ordo-colombiano.cec.org.co",
-    "celebration": "",
-    "color": "",
+    "celebration": "Miércoles. Adviento",
+    "color": "Morado",
     "prelude": ""
   },
   {
@@ -5535,8 +5571,8 @@
     "calendarSource": "colombia",
     "calendarLabel": "Colombia (CEC)",
     "sourceReference": "https://web-ordo-colombiano.cec.org.co",
-    "celebration": "",
-    "color": "",
+    "celebration": "Jueves. Adviento",
+    "color": "Morado",
     "prelude": ""
   },
   {
@@ -5551,8 +5587,8 @@
     "calendarSource": "colombia",
     "calendarLabel": "Colombia (CEC)",
     "sourceReference": "https://web-ordo-colombiano.cec.org.co",
-    "celebration": "",
-    "color": "",
+    "celebration": "Viernes. Adviento",
+    "color": "Morado",
     "prelude": ""
   },
   {
@@ -5567,8 +5603,8 @@
     "calendarSource": "colombia",
     "calendarLabel": "Colombia (CEC)",
     "sourceReference": "https://web-ordo-colombiano.cec.org.co",
-    "celebration": "",
-    "color": "",
+    "celebration": "Nuestra Señora de Guadalupe, Fiesta",
+    "color": "Blanco",
     "prelude": ""
   },
   {
@@ -5584,8 +5620,8 @@
     "calendarSource": "colombia",
     "calendarLabel": "Colombia (CEC)",
     "sourceReference": "https://web-ordo-colombiano.cec.org.co",
-    "celebration": "",
-    "color": "",
+    "celebration": "Domingo. Adviento",
+    "color": "Morado",
     "prelude": ""
   },
   {
@@ -5600,8 +5636,8 @@
     "calendarSource": "colombia",
     "calendarLabel": "Colombia (CEC)",
     "sourceReference": "https://web-ordo-colombiano.cec.org.co",
-    "celebration": "",
-    "color": "",
+    "celebration": "Lunes. Adviento",
+    "color": "Morado",
     "prelude": ""
   },
   {
@@ -5616,8 +5652,8 @@
     "calendarSource": "colombia",
     "calendarLabel": "Colombia (CEC)",
     "sourceReference": "https://web-ordo-colombiano.cec.org.co",
-    "celebration": "",
-    "color": "",
+    "celebration": "Martes. Adviento",
+    "color": "Morado",
     "prelude": ""
   },
   {
@@ -5626,14 +5662,14 @@
     "season": "Advent",
     "readings": {
       "firstReading": "Isaiah 45:6c-8, 18, 21c-25",
-      "psalm": "Psalm 85:9ab, 10, 11-12, 13-14",
+      "psalm": "Psalm 85:9ab, 10, 11-12, 13-14",
       "gospel": "Luke 7:18b-23"
     },
     "calendarSource": "colombia",
     "calendarLabel": "Colombia (CEC)",
     "sourceReference": "https://web-ordo-colombiano.cec.org.co",
-    "celebration": "",
-    "color": "",
+    "celebration": "Miércoles. Adviento",
+    "color": "Morado",
     "prelude": ""
   },
   {
@@ -5648,8 +5684,8 @@
     "calendarSource": "colombia",
     "calendarLabel": "Colombia (CEC)",
     "sourceReference": "https://web-ordo-colombiano.cec.org.co",
-    "celebration": "",
-    "color": "",
+    "celebration": "Jueves. Adviento",
+    "color": "Morado",
     "prelude": ""
   },
   {
@@ -5664,8 +5700,8 @@
     "calendarSource": "colombia",
     "calendarLabel": "Colombia (CEC)",
     "sourceReference": "https://web-ordo-colombiano.cec.org.co",
-    "celebration": "",
-    "color": "",
+    "celebration": "Viernes. Adviento",
+    "color": "Morado",
     "prelude": ""
   },
   {
@@ -5680,8 +5716,8 @@
     "calendarSource": "colombia",
     "calendarLabel": "Colombia (CEC)",
     "sourceReference": "https://web-ordo-colombiano.cec.org.co",
-    "celebration": "",
-    "color": "",
+    "celebration": "Sábado. Adviento",
+    "color": "Morado",
     "prelude": ""
   },
   {
@@ -5697,8 +5733,8 @@
     "calendarSource": "colombia",
     "calendarLabel": "Colombia (CEC)",
     "sourceReference": "https://web-ordo-colombiano.cec.org.co",
-    "celebration": "",
-    "color": "",
+    "celebration": "Domingo. Adviento",
+    "color": "Morado",
     "prelude": ""
   },
   {
@@ -5713,8 +5749,8 @@
     "calendarSource": "colombia",
     "calendarLabel": "Colombia (CEC)",
     "sourceReference": "https://web-ordo-colombiano.cec.org.co",
-    "celebration": "",
-    "color": "",
+    "celebration": "Lunes. Adviento",
+    "color": "Morado",
     "prelude": ""
   },
   {
@@ -5729,8 +5765,8 @@
     "calendarSource": "colombia",
     "calendarLabel": "Colombia (CEC)",
     "sourceReference": "https://web-ordo-colombiano.cec.org.co",
-    "celebration": "",
-    "color": "",
+    "celebration": "Martes. Adviento",
+    "color": "Morado",
     "prelude": ""
   },
   {
@@ -5745,8 +5781,8 @@
     "calendarSource": "colombia",
     "calendarLabel": "Colombia (CEC)",
     "sourceReference": "https://web-ordo-colombiano.cec.org.co",
-    "celebration": "",
-    "color": "",
+    "celebration": "Miércoles. Adviento",
+    "color": "Morado",
     "prelude": ""
   },
   {
@@ -5761,8 +5797,8 @@
     "calendarSource": "colombia",
     "calendarLabel": "Colombia (CEC)",
     "sourceReference": "https://web-ordo-colombiano.cec.org.co",
-    "celebration": "",
-    "color": "",
+    "celebration": "Jueves. Adviento",
+    "color": "Morado",
     "prelude": ""
   },
   {
@@ -5778,8 +5814,8 @@
     "calendarSource": "colombia",
     "calendarLabel": "Colombia (CEC)",
     "sourceReference": "https://web-ordo-colombiano.cec.org.co",
-    "celebration": "",
-    "color": "",
+    "celebration": "Natividad del Señor (Navidad), Solemnidad",
+    "color": "Blanco",
     "prelude": ""
   },
   {
@@ -5794,8 +5830,8 @@
     "calendarSource": "colombia",
     "calendarLabel": "Colombia (CEC)",
     "sourceReference": "https://web-ordo-colombiano.cec.org.co",
-    "celebration": "",
-    "color": "",
+    "celebration": "Sábado. Navidad",
+    "color": "Blanco",
     "prelude": ""
   },
   {
@@ -5811,8 +5847,8 @@
     "calendarSource": "colombia",
     "calendarLabel": "Colombia (CEC)",
     "sourceReference": "https://web-ordo-colombiano.cec.org.co",
-    "celebration": "",
-    "color": "",
+    "celebration": "Domingo. Navidad",
+    "color": "Blanco",
     "prelude": ""
   },
   {
@@ -5827,8 +5863,8 @@
     "calendarSource": "colombia",
     "calendarLabel": "Colombia (CEC)",
     "sourceReference": "https://web-ordo-colombiano.cec.org.co",
-    "celebration": "",
-    "color": "",
+    "celebration": "Lunes. Navidad",
+    "color": "Blanco",
     "prelude": ""
   },
   {
@@ -5843,8 +5879,8 @@
     "calendarSource": "colombia",
     "calendarLabel": "Colombia (CEC)",
     "sourceReference": "https://web-ordo-colombiano.cec.org.co",
-    "celebration": "",
-    "color": "",
+    "celebration": "Martes. Navidad",
+    "color": "Blanco",
     "prelude": ""
   },
   {
@@ -5859,8 +5895,8 @@
     "calendarSource": "colombia",
     "calendarLabel": "Colombia (CEC)",
     "sourceReference": "https://web-ordo-colombiano.cec.org.co",
-    "celebration": "",
-    "color": "",
+    "celebration": "Miércoles. Navidad",
+    "color": "Blanco",
     "prelude": ""
   },
   {
@@ -5875,9 +5911,8 @@
     "calendarSource": "colombia",
     "calendarLabel": "Colombia (CEC)",
     "sourceReference": "https://web-ordo-colombiano.cec.org.co",
-    "celebration": "",
-    "color": "",
+    "celebration": "Jueves. Navidad",
+    "color": "Blanco",
     "prelude": ""
   }
 ]
-
