@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Verbum Universalis</string>
+
+    <!-- Catechism -->
+    <string name="catechism">CATECHISM</string>
+    <string name="search_catechism">Search Catechism…</string>
+    <string name="mark_as_read">MARK AS READ</string>
+    <string name="read">READ</string>
+    <string name="found_results">Found %1$d results</string>
+    <string name="no_results">No results found for \"%1$s\"</string>
+    <string name="prev">← Prev</string>
+    <string name="next">Next →</string>
+    <string name="references_and_footnotes">REFERENCES AND FOOTNOTES</string>
+
+    <!-- Navigation -->
+    <string name="bible">Bible</string>
+    <string name="readings">Readings</string>
+    <string name="teaching">Teaching</string>
+    <string name="settings">Settings</string>
+
+    <!-- Dashboard -->
+    <string name="daily_mass">Daily Mass</string>
+    <string name="yearly_plan">Yearly Plan</string>
+    <string name="today">Today</string>
+    <string name="bible_in_a_year">Bible in a Year</string>
+
+    <!-- Settings -->
+    <string name="select_theme">Select Theme</string>
+    <string name="language">Language</string>
+    <string name="select_language">Select Language</string>
+</resources>
