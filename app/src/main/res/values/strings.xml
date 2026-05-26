@@ -2,9 +2,9 @@
 <resources>
     <string name="app_name">Verbum Universalis</string>
 
-    <!-- Catechism -->
-    <string name="catechism">CATECHISM</string>
-    <string name="search_catechism">Search Catechism…</string>
+    <!-- Catechism / Tradition -->
+    <string name="catechism">TRADITION</string>
+    <string name="search_catechism">Search Tradition…</string>
     <string name="mark_as_read">MARK AS READ</string>
     <string name="read">READ</string>
     <string name="found_results">Found %1$d results</string>
@@ -16,7 +16,7 @@
     <!-- Navigation -->
     <string name="bible">Bible</string>
     <string name="readings">Readings</string>
-    <string name="teaching">Teaching</string>
+    <string name="teaching">Tradition</string>
     <string name="settings">Settings</string>
 
     <!-- Dashboard -->
