@@ -1,0 +1,218 @@
+[
+  {
+    "id": "rerum-novarum",
+    "title": "Rerum Novarum",
+    "author": "Pope Leo XIII",
+    "date": "1891-05-15",
+    "type": "encyclical",
+    "url": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_15051891_rerum-novarum.html",
+    "file": "encyclicals/1891-rerum-novarum.md"
+  },
+  {
+    "id": "quadragesimo-anno",
+    "title": "Quadragesimo Anno",
+    "author": "Pope Pius XI",
+    "date": "1931-05-15",
+    "type": "encyclical",
+    "url": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_19310515_quadragesimo-anno.html",
+    "file": "encyclicals/1931-quadragesimo-anno.md"
+  },
+  {
+    "id": "mater-et-magistra",
+    "title": "Mater et Magistra",
+    "author": "Pope John XXIII",
+    "date": "1961-05-15",
+    "type": "encyclical",
+    "url": "https://www.vatican.va/content/john-xxiii/en/encyclicals/documents/hf_j-xxiii_enc_15051961_mater.html",
+    "file": "encyclicals/1961-mater-et-magistra.md"
+  },
+  {
+    "id": "pacem-in-terris",
+    "title": "Pacem in Terris",
+    "author": "Pope John XXIII",
+    "date": "1963-04-11",
+    "type": "encyclical",
+    "url": "https://www.vatican.va/content/john-xxiii/en/encyclicals/documents/hf_j-xxiii_enc_11041963_pacem.html",
+    "file": "encyclicals/1963-pacem-in-terris.md"
+  },
+  {
+    "id": "gaudium-et-spes",
+    "title": "Gaudium et Spes",
+    "author": "Second Vatican Council",
+    "date": "1965-12-07",
+    "type": "vatican-ii",
+    "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651207_gaudium-et-spes_en.html",
+    "file": "vatican-ii/gaudium-et-spes.md"
+  },
+  {
+    "id": "populorum-progressio",
+    "title": "Populorum Progressio",
+    "author": "Pope Paul VI",
+    "date": "1967-03-26",
+    "type": "encyclical",
+    "url": "https://www.vatican.va/content/paul-vi/en/encyclicals/documents/hf_p-vi_enc_26031967_populorum.html",
+    "file": "encyclicals/1967-populorum-progressio.md"
+  },
+  {
+    "id": "laborem-exercens",
+    "title": "Laborem Exercens",
+    "author": "Pope John Paul II",
+    "date": "1981-09-14",
+    "type": "encyclical",
+    "url": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_14091981_laborem-exercens.html",
+    "file": "encyclicals/1981-laborem-exercens.md"
+  },
+  {
+    "id": "sollicitudo-rei-socialis",
+    "title": "Sollicitudo Rei Socialis",
+    "author": "Pope John Paul II",
+    "date": "1987-12-30",
+    "type": "encyclical",
+    "url": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_30121987_sollicitudo-rei-socialis.html",
+    "file": "encyclicals/1987-sollicitudo-rei-socialis.md"
+  },
+  {
+    "id": "centesimus-annus",
+    "title": "Centesimus Annus",
+    "author": "Pope John Paul II",
+    "date": "1991-05-01",
+    "type": "encyclical",
+    "url": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_01051991_centesimus-annus.html",
+    "file": "encyclicals/1991-centesimus-annus.md"
+  },
+  {
+    "id": "compendium-social-doctrine",
+    "title": "Compendium of the Social Doctrine of the Church",
+    "author": "Pontifical Council for Justice and Peace",
+    "date": "2004-10-25",
+    "type": "compendium",
+    "url": "https://www.vatican.va/roman_curia/pontifical_councils/justpeace/documents/rc_pc_justpeace_doc_20060526_compendio-dott-soc_en.html",
+    "file": "compendium/compendium-social-doctrine.md"
+  },
+  {
+    "id": "laudato-si",
+    "title": "Laudato Si'",
+    "author": "Pope Francis",
+    "date": "2015-05-24",
+    "type": "encyclical",
+    "url": "https://www.vatican.va/content/francesco/en/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html",
+    "file": "encyclicals/2015-laudato-si.md"
+  },
+  {
+    "id": "fratelli-tutti",
+    "title": "Fratelli Tutti",
+    "author": "Pope Francis",
+    "date": "2020-10-03",
+    "type": "encyclical",
+    "url": "https://www.vatican.va/content/francesco/en/encyclicals/documents/papa-francesco_20201003_enciclica-fratelli-tutti.html",
+    "file": "encyclicals/2020-fratelli-tutti.md"
+  },
+  {
+    "id": "rerum-novarum-es",
+    "title": "Rerum Novarum",
+    "author": "Papa León XIII",
+    "date": "1891-05-15",
+    "type": "encyclical",
+    "url": "https://www.vatican.va/content/leo-xiii/es/encyclicals/documents/hf_l-xiii_enc_15051891_rerum-novarum.html",
+    "file": "encyclicals/1891-rerum-novarum-es.md"
+  },
+  {
+    "id": "quadragesimo-anno-es",
+    "title": "Quadragesimo Anno",
+    "author": "Papa Pío XI",
+    "date": "1931-05-15",
+    "type": "encyclical",
+    "url": "https://www.vatican.va/content/pius-xi/es/encyclicals/documents/hf_p-xi_enc_19310515_quadragesimo-anno.html",
+    "file": "encyclicals/1931-quadragesimo-anno-es.md"
+  },
+  {
+    "id": "mater-et-magistra-es",
+    "title": "Mater et Magistra",
+    "author": "Papa Juan XXIII",
+    "date": "1961-05-15",
+    "type": "encyclical",
+    "url": "https://www.vatican.va/content/john-xxiii/es/encyclicals/documents/hf_j-xxiii_enc_15051961_mater.html",
+    "file": "encyclicals/1961-mater-et-magistra-es.md"
+  },
+  {
+    "id": "pacem-in-terris-es",
+    "title": "Pacem in Terris",
+    "author": "Papa Juan XXIII",
+    "date": "1963-04-11",
+    "type": "encyclical",
+    "url": "https://www.vatican.va/content/john-xxiii/es/encyclicals/documents/hf_j-xxiii_enc_11041963_pacem.html",
+    "file": "encyclicals/1963-pacem-in-terris-es.md"
+  },
+  {
+    "id": "gaudium-et-spes-es",
+    "title": "Gaudium et Spes",
+    "author": "Concilio Vaticano II",
+    "date": "1965-12-07",
+    "type": "vatican-ii",
+    "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651207_gaudium-et-spes_sp.html",
+    "file": "vatican-ii/gaudium-et-spes-es.md"
+  },
+  {
+    "id": "populorum-progressio-es",
+    "title": "Populorum Progressio",
+    "author": "Papa Pablo VI",
+    "date": "1967-03-26",
+    "type": "encyclical",
+    "url": "https://www.vatican.va/content/paul-vi/es/encyclicals/documents/hf_p-vi_enc_26031967_populorum.html",
+    "file": "encyclicals/1967-populorum-progressio-es.md"
+  },
+  {
+    "id": "laborem-exercens-es",
+    "title": "Laborem Exercens",
+    "author": "Papa Juan Pablo II",
+    "date": "1981-09-14",
+    "type": "encyclical",
+    "url": "https://www.vatican.va/content/john-paul-ii/es/encyclicals/documents/hf_jp-ii_enc_14091981_laborem-exercens.html",
+    "file": "encyclicals/1981-laborem-exercens-es.md"
+  },
+  {
+    "id": "sollicitudo-rei-socialis-es",
+    "title": "Sollicitudo Rei Socialis",
+    "author": "Papa Juan Pablo II",
+    "date": "1987-12-30",
+    "type": "encyclical",
+    "url": "https://www.vatican.va/content/john-paul-ii/es/encyclicals/documents/hf_jp-ii_enc_30121987_sollicitudo-rei-socialis.html",
+    "file": "encyclicals/1987-sollicitudo-rei-socialis-es.md"
+  },
+  {
+    "id": "centesimus-annus-es",
+    "title": "Centesimus Annus",
+    "author": "Papa Juan Pablo II",
+    "date": "1991-05-01",
+    "type": "encyclical",
+    "url": "https://www.vatican.va/content/john-paul-ii/es/encyclicals/documents/hf_jp-ii_enc_01051991_centesimus-annus.html",
+    "file": "encyclicals/1991-centesimus-annus-es.md"
+  },
+  {
+    "id": "compendium-social-doctrine-es",
+    "title": "Compendio de la Doctrina Social de la Iglesia",
+    "author": "Consejo Pontificio para la Justicia y la Paz",
+    "date": "2004-10-25",
+    "type": "compendium",
+    "url": "https://www.vatican.va/roman_curia/pontifical_councils/justpeace/documents/rc_pc_justpeace_doc_20060526_compendio-dott-soc_sp.html",
+    "file": "compendium/compendium-social-doctrine-es.md"
+  },
+  {
+    "id": "laudato-si-es",
+    "title": "Laudato Si'",
+    "author": "Papa Francisco",
+    "date": "2015-05-24",
+    "type": "encyclical",
+    "url": "https://www.vatican.va/content/francesco/es/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html",
+    "file": "encyclicals/2015-laudato-si-es.md"
+  },
+  {
+    "id": "fratelli-tutti-es",
+    "title": "Fratelli Tutti",
+    "author": "Papa Francisco",
+    "date": "2020-10-03",
+    "type": "encyclical",
+    "url": "https://www.vatican.va/content/francesco/es/encyclicals/documents/papa-francesco_20201003_enciclica-fratelli-tutti.html",
+    "file": "encyclicals/2020-fratelli-tutti-es.md"
+  }
+]
