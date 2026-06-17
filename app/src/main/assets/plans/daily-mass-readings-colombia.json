@@ -22,7 +22,7 @@
     "season": "Christmas",
     "readings": {
       "firstReading": "1 John 2:22-28",
-      "psalm": "Psalm 98:1, 2-3ab.3cd-4",
+      "psalm": "Psalm 98:1, 2-3,3-4",
       "gospel": "John 1:19-28"
     },
     "calendarSource": "colombia",
@@ -38,8 +38,8 @@
     "season": "Christmas",
     "readings": {
       "firstReading": "Isaiah 60:1-6",
-      "psalm": "Psalm 72:1-2, 7-8, 10b-11, 12-13",
-      "secondReading": "Ephesians 3:2-3a.5-6",
+      "psalm": "Psalm 72:1-2, 7-8, 10-11, 12-13",
+      "secondReading": "Ephesians 3:2-3,5-6",
       "gospel": "Matthew 2:1-12"
     },
     "calendarSource": "colombia",
@@ -55,8 +55,8 @@
     "season": "Christmas",
     "readings": {
       "firstReading": "Isaiah 60:1-6",
-      "psalm": "Psalm 72:1-2, 7-8, 10b-11, 12-13",
-      "secondReading": "Ephesians 3:2-3a.5-6",
+      "psalm": "Psalm 72:1-2, 7-8, 10-11, 12-13",
+      "secondReading": "Ephesians 3:2-3,5-6",
       "gospel": "Matthew 2:1-12"
     },
     "calendarSource": "colombia",
@@ -88,7 +88,7 @@
     "season": "Christmas",
     "readings": {
       "firstReading": "1 John 4:7-10",
-      "psalm": "Psalm 72:1-2, 3-4ab.7-8",
+      "psalm": "Psalm 72:1-2, 3-4,7-8",
       "gospel": "Mark 6:34-44"
     },
     "calendarSource": "colombia",
@@ -120,15 +120,16 @@
     "season": "Christmas",
     "readings": {
       "firstReading": "1 John 4:19 - 5:4",
-      "psalm": "Psalm 72:1-2, 14, 15bc.17 (R. Luke 2:30-31)",
-      "gospel": "Luke 4:14-22a"
+      "psalm": "Psalm 72:1-2, 14, 15,17",
+      "gospel": "Luke 4:14-22"
     },
     "calendarSource": "colombia",
     "celebration": "Jueves. después de la Epifanía, Feria",
     "color": "Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "Luke 2:30-31"
   },
   {
     "date": "2026-01-09",
@@ -136,7 +137,7 @@
     "season": "Christmas",
     "readings": {
       "firstReading": "1 John 5:5-13",
-      "psalm": "Psalm 147:12-13, 14-15, 19-20 (R. 12a)",
+      "psalm": "Psalm 147:12-13, 14-15, 19-20",
       "gospel": "Luke 5:12-16"
     },
     "calendarSource": "colombia",
@@ -144,7 +145,8 @@
     "color": "Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "12"
   },
   {
     "date": "2026-01-10",
@@ -152,7 +154,7 @@
     "season": "Christmas",
     "readings": {
       "firstReading": "1 John 5:14-21",
-      "psalm": "Psalm 149:1-2, 3-4, 5-6a y 9b (R. 17[16], 6a)",
+      "psalm": "Psalm 149:1-2, 3-4, 5-6, 9",
       "gospel": "John 3:22-30"
     },
     "calendarSource": "colombia",
@@ -160,7 +162,8 @@
     "color": "Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "17[16], 6"
   },
   {
     "date": "2026-01-11",
@@ -168,7 +171,7 @@
     "season": "Christmas",
     "readings": {
       "firstReading": "Isaiah 42:1-4, 6-7",
-      "psalm": "Psalm 29:1a y 2, 3ac-4. 3b y 9b-10",
+      "psalm": "Psalm 29:1, 2, 3-4,3, 9-10",
       "secondReading": "Acts 10:34-38",
       "gospel": "Matthew 3:13-17"
     },
@@ -185,15 +188,16 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "1 Samuel 1:1-8",
-      "psalm": "Psalm 116:12-13, 14 y 17. 18-19 (R. 17a)",
+      "psalm": "Psalm 116:12-13, 14, 17,18-19",
       "gospel": "Mark 1:14-20"
     },
     "calendarSource": "colombia",
     "celebration": "Lunes. 1ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
-    "prelude": "null",
+    "prelude": null,
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "17"
   },
   {
     "date": "2026-01-13",
@@ -201,8 +205,8 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "1 Samuel 1:9-20",
-      "psalm": "Psalm 1 Samuel 2:1, 4-5, 6-7, 8abcd",
-      "gospel": "Mark 1:21b-28"
+      "psalm": "Psalm 1:1, 4-5, 6-7, 8",
+      "gospel": "Mark 1:21-28"
     },
     "calendarSource": "colombia",
     "celebration": "Martes. 1ª Semana del Tiempo Ordinario, Feria o Memoria libre",
@@ -217,7 +221,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "1 Samuel 3:1-10, 19-20",
-      "psalm": "Psalm 40:2, 5, 7-8a. 8b-9, 10",
+      "psalm": "Psalm 40:2, 5, 7-8,8-9, 10",
       "gospel": "Mark 1:29-39"
     },
     "calendarSource": "colombia",
@@ -233,7 +237,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "1 Samuel 4:1-11",
-      "psalm": "Psalm 44:10-11, 14-15. 24-25 (R. 27b)",
+      "psalm": "Psalm 44:10-11, 14-15,24-25",
       "gospel": "Mark 1:40-45"
     },
     "calendarSource": "colombia",
@@ -241,14 +245,15 @@
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "27"
   },
   {
     "date": "2026-01-16",
     "monthDay": "1/16",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "1 Samuel 8:4-7, 10-22a",
+      "firstReading": "1 Samuel 8:4-7, 10-22",
       "psalm": "Psalm 89:16-17, 18-19",
       "gospel": "Mark 2:1-12"
     },
@@ -264,8 +269,8 @@
     "monthDay": "1/17",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "1 Samuel 9:1-4, 17-19; 10:1a",
-      "psalm": "Psalm 21:2-3. 4-5, 6-7 (R. 2a)",
+      "firstReading": "1 Samuel 9:1-4, 17-19, 10:1",
+      "psalm": "Psalm 21:2-3,4-5, 6-7",
       "gospel": "Mark 2:13-17"
     },
     "calendarSource": "colombia",
@@ -273,7 +278,8 @@
     "color": "Blanco",
     "prelude": "<p>San Antonio, abad</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "2"
   },
   {
     "date": "2026-01-18",
@@ -281,7 +287,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Isaiah 49:3, 5-6",
-      "psalm": "Psalm 40:2, 4ab.7, 8-9, 10",
+      "psalm": "Psalm 40:2, 4,7, 8-9, 10",
       "secondReading": "1 Corinthians 1:1-3",
       "gospel": "John 1:29-34"
     },
@@ -298,7 +304,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "1 Samuel 15:16-23",
-      "psalm": "Psalm 50:8-9, 16bc-17, 21+ y 23 (R. 23b)",
+      "psalm": "Psalm 50:8-9, 16-17, 21, 23",
       "gospel": "Mark 2:18-22"
     },
     "calendarSource": "colombia",
@@ -306,7 +312,8 @@
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "23"
   },
   {
     "date": "2026-01-20",
@@ -314,7 +321,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "1 Samuel 16:1-13",
-      "psalm": "Psalm 89:20, 21-22, 27-28 (R. 21a)",
+      "psalm": "Psalm 89:20, 21-22, 27-28",
       "gospel": "Mark 2:23-28"
     },
     "calendarSource": "colombia",
@@ -322,7 +329,8 @@
     "color": "Verde o Rojo",
     "prelude": "<p>San Fabián, papa y mártir; San Sebastián, mártir</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "21"
   },
   {
     "date": "2026-01-21",
@@ -330,7 +338,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "1 Samuel 17:32-33, 37, 40-51",
-      "psalm": "Psalm 144:1. 2, 9-10 (R. 1a)",
+      "psalm": "Psalm 144:1,2, 9-10",
       "gospel": "Mark 3:1-6"
     },
     "calendarSource": "colombia",
@@ -338,15 +346,16 @@
     "color": "Rojo",
     "prelude": "<p>Santa Inés, virgen y mártir</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "1"
   },
   {
     "date": "2026-01-22",
     "monthDay": "1/22",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "1 Samuel 18:6-9; 19:1-7",
-      "psalm": "Psalm 56:2-3. 9-10, 11-12, 13 (R. 5bc)",
+      "firstReading": "1 Samuel 18:6-9, 19:1-7",
+      "psalm": "Psalm 56:2-3,9-10, 11-12, 13",
       "gospel": "Mark 3:7-12"
     },
     "calendarSource": "colombia",
@@ -354,7 +363,8 @@
     "color": "Verde o Rojo",
     "prelude": "<p>San Vicente, diácono y mártir</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "5"
   },
   {
     "date": "2026-01-23",
@@ -362,7 +372,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "1 Samuel 24:3-21",
-      "psalm": "Psalm 57:2, 3-4, 6, 11 (R. 2a)",
+      "psalm": "Psalm 57:2, 3-4, 6, 11",
       "gospel": "Mark 3:13-19"
     },
     "calendarSource": "colombia",
@@ -370,7 +380,8 @@
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "2"
   },
   {
     "date": "2026-01-24",
@@ -378,7 +389,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "2 Samuel 1:1-4, 11-12, 19, 23-27",
-      "psalm": "Psalm 80:2-3, 5-7 (R. 4b)",
+      "psalm": "Psalm 80:2-3, 5-7",
       "gospel": "Mark 3:20-21"
     },
     "calendarSource": "colombia",
@@ -386,32 +397,34 @@
     "color": "Blanco",
     "prelude": "<p>San Francisco de Sales, obispo y doctor de la Iglesia</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "4"
   },
   {
     "date": "2026-01-25",
     "monthDay": "1/25",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Isaiah 8:23b - 9:3",
-      "psalm": "Psalm 27:1, 4, 13-14 (R. 1a)",
+      "firstReading": "Isaiah 8:23 - 9:3",
+      "psalm": "Psalm 27:1, 4, 13-14",
       "secondReading": "1 Corinthians 1:10-13, 17",
-      "gospel": "Matthew 4:12-23 (forma larga) o Matthew 4:12-17 (forma breve)"
+      "gospel": "Matthew 4:12-23"
     },
     "calendarSource": "colombia",
     "celebration": "Domingo. 3ª Sem. del Tiempo Ordinario",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "1"
   },
   {
     "date": "2026-01-26",
     "monthDay": "1/26",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "2 Timothy 1:1-8 o Titus 1:1-5",
-      "psalm": "Psalm 96:1-2a.2b-3, 7-8a.10 (R. 3)",
+      "firstReading": "2 Timothy 1:1-8",
+      "psalm": "Psalm 96:1-2,2-3, 7-8,10",
       "secondReading": "Luke 10:1-9",
       "gospel": "Mark 3:22-30"
     },
@@ -420,14 +433,15 @@
     "color": "Blanco",
     "prelude": "<p>Santos Timoteo y Tito, obispos</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "3"
   },
   {
     "date": "2026-01-27",
     "monthDay": "1/27",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "2 Samuel 6:12b-15, 17-19",
+      "firstReading": "2 Samuel 6:12-15, 17-19",
       "psalm": "Psalm 24:7, 8, 9, 10",
       "gospel": "Mark 3:31-35"
     },
@@ -444,7 +458,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "2 Samuel 7:4-17",
-      "psalm": "Psalm 89:4-5, 27-28, 29-30 (R. 29a)",
+      "psalm": "Psalm 89:4-5, 27-28, 29-30",
       "gospel": "Mark 4:1-20"
     },
     "calendarSource": "colombia",
@@ -452,7 +466,8 @@
     "color": "Blanco",
     "prelude": "<p>Santo Tomás de Aquino, presbítero y doctor de la Iglesia</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "29"
   },
   {
     "date": "2026-01-29",
@@ -460,7 +475,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "2 Samuel 7:18-19, 24-29",
-      "psalm": "Psalm 132:1-2, 3-5, 11, 12, 13-14 (R. Luke 1:32b)",
+      "psalm": "Psalm 132:1-2, 3-5, 11, 12, 13-14",
       "gospel": "Mark 4:21-25"
     },
     "calendarSource": "colombia",
@@ -468,15 +483,16 @@
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "Luke 1:32"
   },
   {
     "date": "2026-01-30",
     "monthDay": "1/30",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "2 Samuel 11:1-4a.5-10a, 13-17",
-      "psalm": "Psalm 51:3-4, 5-6a.6bc-7, 10-11",
+      "firstReading": "2 Samuel 11:1-4,5-10, 13-17",
+      "psalm": "Psalm 51:3-4, 5-6,6-7, 10-11",
       "gospel": "Mark 4:26-34"
     },
     "calendarSource": "colombia",
@@ -491,8 +507,8 @@
     "monthDay": "1/31",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "2 Samuel 12:1-7a.10-17",
-      "psalm": "Psalm 51:12-13, 14-15, 16-17 (R. 12a)",
+      "firstReading": "2 Samuel 12:1-7,10-17",
+      "psalm": "Psalm 51:12-13, 14-15, 16-17",
       "gospel": "Mark 4:35-41"
     },
     "calendarSource": "colombia",
@@ -500,24 +516,26 @@
     "color": "Blanco",
     "prelude": "<p>San Juan Bosco, presbítero</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "12"
   },
   {
     "date": "2026-02-01",
     "monthDay": "2/1",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Zephaniah 2:3; 3:12-13",
-      "psalm": "Psalm 146:6c-7, 8-9a.9bc-10 (R. Matthew 5:3a)",
+      "firstReading": "Zephaniah 2:3, 3:12-13",
+      "psalm": "Psalm 146:6-7, 8-9,9-10",
       "secondReading": "1 Corinthians 1:26-31",
-      "gospel": "Matthew 5:1-12a"
+      "gospel": "Matthew 5:1-12"
     },
     "calendarSource": "colombia",
     "celebration": "Domingo. 4ª Sem. del Tiempo Ordinario",
     "color": "Verde",
-    "prelude": "null",
+    "prelude": null,
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "Matthew 5:3"
   },
   {
     "date": "2026-02-02",
@@ -527,7 +545,7 @@
       "firstReading": "Malachi 3:1-4",
       "psalm": "Psalm 24:7, 8, 9, 10",
       "secondReading": "Hebrews 2:14-18",
-      "gospel": "Cuando la fiesta no cae en domingo, se escoge una sola de las dos lecturas anteriores y luego se recita el salmo"
+      "gospel": "Luke 2:22-40 or 2:22-32"
     },
     "calendarSource": "colombia",
     "celebration": "Lunes. Fiesta",
@@ -541,8 +559,8 @@
     "monthDay": "2/3",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "2 Samuel 18:9-10, 14b.24-25a, 30 - 19:3",
-      "psalm": "Psalm 86:1-2, 3-4, 5-6 (R. 1a)",
+      "firstReading": "2 Samuel 18:9-10, 14,24-25, 30 - 19:3",
+      "psalm": "Psalm 86:1-2, 3-4, 5-6",
       "gospel": "Mark 5:21-43"
     },
     "calendarSource": "colombia",
@@ -550,7 +568,8 @@
     "color": "Verde o Rojo o Blanco",
     "prelude": "<p>San Blas, obispo y mártir; San Óscar, obispo</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "1"
   },
   {
     "date": "2026-02-04",
@@ -574,7 +593,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "1 Kings 2:1-4, 10-12",
-      "psalm": "Psalm 1 Chronicles 29:10, 11ab.11d-12a, 12bcd (R. 12b)",
+      "psalm": "1 Chronicles 29:10, 11,11-12, 12",
       "gospel": "Mark 6:7-13"
     },
     "calendarSource": "colombia",
@@ -582,7 +601,8 @@
     "color": "Rojo",
     "prelude": "<p>Santa Águeda, virgen y mártir</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "12"
   },
   {
     "date": "2026-02-06",
@@ -606,7 +626,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "1 Kings 3:4-13",
-      "psalm": "Psalm 119:9, 10, 11. 12, 13, 14 (R. 12b)",
+      "psalm": "Psalm 119:9, 10, 11,12, 13, 14",
       "gospel": "Mark 6:30-34"
     },
     "calendarSource": "colombia",
@@ -614,7 +634,8 @@
     "color": "Verde o Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "12"
   },
   {
     "date": "2026-02-08",
@@ -622,7 +643,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Isaiah 58:7-10",
-      "psalm": "Psalm 112:4-5, 6-7, 8a, 9 (R. 4a)",
+      "psalm": "Psalm 112:4-5, 6-7, 8, 9",
       "secondReading": "1 Corinthians 2:1-5",
       "gospel": "Matthew 5:13-16"
     },
@@ -631,7 +652,8 @@
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "4"
   },
   {
     "date": "2026-02-09",
@@ -639,7 +661,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "1 Kings 8:1-7, 9-13",
-      "psalm": "Psalm 132:6-7, 8-10 (R. 8a)",
+      "psalm": "Psalm 132:6-7, 8-10",
       "gospel": "Mark 6:53-56"
     },
     "calendarSource": "colombia",
@@ -647,7 +669,8 @@
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "8"
   },
   {
     "date": "2026-02-10",
@@ -655,7 +678,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "1 Kings 8:22-23, 27-30",
-      "psalm": "Psalm 84:3, 4. 5, 10, 11 (R. 2)",
+      "psalm": "Psalm 84:3, 4,5, 10, 11",
       "gospel": "Mark 7:1-13"
     },
     "calendarSource": "colombia",
@@ -663,7 +686,8 @@
     "color": "Blanco",
     "prelude": "<p>Santa Escolástica, virgen</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "2"
   },
   {
     "date": "2026-02-11",
@@ -671,7 +695,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "1 Kings 10:1-10",
-      "psalm": "Psalm 37:5-6, 30-31. 39-40 (R. 30a)",
+      "psalm": "Psalm 37:5-6, 30-31,39-40",
       "gospel": "Mark 7:14-23"
     },
     "calendarSource": "colombia",
@@ -679,7 +703,8 @@
     "color": "Verde o Blanco",
     "prelude": "<p>Bienaventurada Virgen María de Lourdes</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "30"
   },
   {
     "date": "2026-02-12",
@@ -687,7 +712,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "1 Kings 11:4-13",
-      "psalm": "Psalm 106:3-4, 35-36. 37, 40 (R. 4a)",
+      "psalm": "Psalm 106:3-4, 35-36,37, 40",
       "gospel": "Mark 7:24-30"
     },
     "calendarSource": "colombia",
@@ -695,15 +720,16 @@
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "4"
   },
   {
     "date": "2026-02-13",
     "monthDay": "2/13",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "1 Kings 11:29-32; 12:19",
-      "psalm": "Psalm 81:10-11ab. 12-13, 14-15",
+      "firstReading": "1 Kings 11:29-32, 12:19",
+      "psalm": "Psalm 81:10-11, 12-13, 14-15",
       "gospel": "Mark 7:31-37"
     },
     "calendarSource": "colombia",
@@ -718,8 +744,8 @@
     "monthDay": "2/14",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "1 Kings 12:26-32; 13:33-34",
-      "psalm": "Psalm 106:6-7a.19-20, 21-22 (R. 4a)",
+      "firstReading": "1 Kings 12:26-32, 13:33-34",
+      "psalm": "Psalm 106:6-7,19-20, 21-22",
       "gospel": "Mark 8:1-10"
     },
     "calendarSource": "colombia",
@@ -727,7 +753,8 @@
     "color": "Blanco",
     "prelude": "<p>Santos Cirilo, monje y Metodio, obispo</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "4"
   },
   {
     "date": "2026-02-15",
@@ -737,7 +764,7 @@
       "firstReading": "Sirach 15:16-21",
       "psalm": "Psalm 119:1-2, 4-5, 17-18, 33-34",
       "secondReading": "1 Corinthians 2:6-10",
-      "gospel": "Matthew 5:17-37 (forma larga) o Matthew 5:20-22a, 27-28, 33-34a, 37 (forma breve)"
+      "gospel": "Matthew 5:17-37"
     },
     "calendarSource": "colombia",
     "celebration": "Domingo. 6ª Sem. del Tiempo Ordinario",
@@ -752,15 +779,16 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "James 1:1-11",
-      "psalm": "Psalm 119:67, 68, 71. 72, 75, 76 (R. 77a)",
+      "psalm": "Psalm 119:67, 68, 71,72, 75, 76",
       "gospel": "Mark 8:11-13"
     },
     "calendarSource": "colombia",
     "celebration": "Lunes. 6ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
-    "prelude": "null",
+    "prelude": null,
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "77"
   },
   {
     "date": "2026-02-17",
@@ -768,7 +796,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "James 1:12-18",
-      "psalm": "Psalm 94:12-13a, 14-15. 18-19 (R. 12a)",
+      "psalm": "Psalm 94:12-13, 14-15,18-19",
       "gospel": "Mark 8:14-21"
     },
     "calendarSource": "colombia",
@@ -776,7 +804,8 @@
     "color": "Verde o Blanco",
     "prelude": "<p>Los siete santos Fundadores de la Orden de los Siervos de la Bienaventurada Virgen María</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "12"
   },
   {
     "date": "2026-02-18",
@@ -784,13 +813,13 @@
     "season": "Lent",
     "readings": {
       "firstReading": "Joel 2:12-18",
-      "psalm": "Psalm 51:3-4, 5-6a.12-13, 14 y 17",
+      "psalm": "Psalm 51:3-4, 5-6,12-13, 14, 17",
       "gospel": "2 Corinthians 5:20 - 6:2"
     },
     "calendarSource": "colombia",
     "celebration": "Miércoles. de Ceniza",
     "color": "Morado",
-    "prelude": "null",
+    "prelude": null,
     "calendarLabel": "Colombia (CEC)",
     "sourceReference": "https://web-ordo-colombiano.cec.org.co"
   },
@@ -800,29 +829,30 @@
     "season": "Lent",
     "readings": {
       "firstReading": "Deuteronomy 30:15-20",
-      "psalm": "Psalm 1:1-2, 3, 4 y 6 (R. 119[118], 29)",
-      "gospel": "&nbsp;"
+      "psalm": "Psalm 1:1-2, 3, 4, 6",
+      "gospel": "Luke 9:22-25"
     },
     "calendarSource": "colombia",
     "celebration": "Jueves. después de Ceniza, Feria",
     "color": "Morado",
-    "prelude": "null",
+    "prelude": null,
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "119[118], 29"
   },
   {
     "date": "2026-02-20",
     "monthDay": "2/20",
     "season": "Lent",
     "readings": {
-      "firstReading": "Isaiah 58:1-9a",
-      "psalm": "Psalm 51:3-4, 5-6a.18-19",
-      "gospel": "Matthew 9:14-15 o Luke 22:39-46"
+      "firstReading": "Isaiah 58:1-9",
+      "psalm": "Psalm 51:3-4, 5-6,18-19",
+      "gospel": "Matthew 9:14-15"
     },
     "calendarSource": "colombia",
     "celebration": "Viernes. después de Ceniza, Feria",
     "color": "Morado",
-    "prelude": "null",
+    "prelude": null,
     "calendarLabel": "Colombia (CEC)",
     "sourceReference": "https://web-ordo-colombiano.cec.org.co"
   },
@@ -831,8 +861,8 @@
     "monthDay": "2/21",
     "season": "Lent",
     "readings": {
-      "firstReading": "Isaiah 58:9b-14",
-      "psalm": "Psalm 86:1-2, 3-4, 5-6 (R. 11a)",
+      "firstReading": "Isaiah 58:9-14",
+      "psalm": "Psalm 86:1-2, 3-4, 5-6",
       "gospel": "Luke 5:27-32"
     },
     "calendarSource": "colombia",
@@ -840,22 +870,23 @@
     "color": "Morado",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "11"
   },
   {
     "date": "2026-02-22",
     "monthDay": "2/22",
     "season": "Lent",
     "readings": {
-      "firstReading": "Genesis 2:7-9; 3:1-7",
-      "psalm": "Psalm 51:3-4, 5-6a. 12-13, 14 y 17",
-      "secondReading": "Romans 5:12-19 (forma larga) o Romans 5:12, 17-19 (forma breve)",
-      "gospel": "&nbsp;"
+      "firstReading": "Genesis 2:7-9, 3:1-7",
+      "psalm": "Psalm 51:3-4, 5-6,12-13, 14, 17",
+      "secondReading": "Romans 5:12-19",
+      "gospel": "Matthew 4:1-11"
     },
     "calendarSource": "colombia",
     "celebration": "Domingo. 1ª Semana de Cuaresma",
     "color": "Morado",
-    "prelude": "null",
+    "prelude": null,
     "calendarLabel": "Colombia (CEC)",
     "sourceReference": "https://web-ordo-colombiano.cec.org.co"
   },
@@ -865,13 +896,13 @@
     "season": "Lent",
     "readings": {
       "firstReading": "Leviticus 19:1-2, 11-18",
-      "psalm": "Psalm 19:8, 9, 10. 15",
+      "psalm": "Psalm 19:8, 9, 10,15",
       "gospel": "Matthew 25:31-46"
     },
     "calendarSource": "colombia",
     "celebration": "Lunes. 1ª Semana de Cuaresma, Feria",
     "color": "Morado",
-    "prelude": "null",
+    "prelude": null,
     "calendarLabel": "Colombia (CEC)",
     "sourceReference": "https://web-ordo-colombiano.cec.org.co"
   },
@@ -881,7 +912,7 @@
     "season": "Lent",
     "readings": {
       "firstReading": "Isaiah 55:10-11",
-      "psalm": "Psalm 34:4-5, 6-7, 16-17. 18-19",
+      "psalm": "Psalm 34:4-5, 6-7, 16-17,18-19",
       "gospel": "Matthew 6:7-15"
     },
     "calendarSource": "colombia",
@@ -897,7 +928,7 @@
     "season": "Lent",
     "readings": {
       "firstReading": "Jonah 3:1-10",
-      "psalm": "Psalm 51:3-4, 12-13. 18-19",
+      "psalm": "Psalm 51:3-4, 12-13,18-19",
       "gospel": "Luke 11:29-32"
     },
     "calendarSource": "colombia",
@@ -912,8 +943,8 @@
     "monthDay": "2/26",
     "season": "Lent",
     "readings": {
-      "firstReading": "Esther 4:17n.p-r.aa-bb.gg.hh",
-      "psalm": "Psalm 138:1-2a.2bc-3, 7cd y 8bc (R. 3a)",
+      "firstReading": "Esther 4:17-18",
+      "psalm": "Psalm 138:1-2,2-3, 7, 8",
       "gospel": "Matthew 7:7-12"
     },
     "calendarSource": "colombia",
@@ -921,7 +952,8 @@
     "color": "Morado",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "3"
   },
   {
     "date": "2026-02-27",
@@ -929,15 +961,16 @@
     "season": "Lent",
     "readings": {
       "firstReading": "Ezekiel 18:21-28",
-      "psalm": "Psalm 130:1-2, 3-4, 5-6ab.6c-8 (R. 3)",
-      "gospel": "Matthew 5:20-26 o Mark 14:53-64"
+      "psalm": "Psalm 130:1-2, 3-4, 5-6,6-8",
+      "gospel": "Matthew 5:20-26"
     },
     "calendarSource": "colombia",
     "celebration": "Viernes. 1ª Semana de Cuaresma, Feria",
     "color": "Morado",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "3"
   },
   {
     "date": "2026-02-28",
@@ -945,7 +978,7 @@
     "season": "Lent",
     "readings": {
       "firstReading": "Deuteronomy 26:16-19",
-      "psalm": "Psalm 119:1-2, 4-5. 7-8",
+      "psalm": "Psalm 119:1-2, 4-5,7-8",
       "gospel": "Matthew 5:43-48"
     },
     "calendarSource": "colombia",
@@ -960,9 +993,9 @@
     "monthDay": "3/1",
     "season": "Lent",
     "readings": {
-      "firstReading": "Genesis 12:1-4a",
-      "psalm": "Psalm 33:4-5, 18-19. 20 y 22",
-      "secondReading": "2 Timothy 1:8b-10",
+      "firstReading": "Genesis 12:1-4",
+      "psalm": "Psalm 33:4-5, 18-19,20, 22",
+      "secondReading": "2 Timothy 1:8-10",
       "gospel": "Matthew 17:1-9"
     },
     "calendarSource": "colombia",
@@ -977,14 +1010,14 @@
     "monthDay": "3/2",
     "season": "Lent",
     "readings": {
-      "firstReading": "Daniel 9:4b-10",
+      "firstReading": "Daniel 9:4-10",
       "psalm": "Psalm 79:8, 9, 11, 13",
       "gospel": "Luke 6:36-38"
     },
     "calendarSource": "colombia",
     "celebration": "Lunes. 2ª Semana de Cuaresma, Feria",
     "color": "Morado",
-    "prelude": "<p>null</p>",
+    "prelude": null,
     "calendarLabel": "Colombia (CEC)",
     "sourceReference": "https://web-ordo-colombiano.cec.org.co"
   },
@@ -994,7 +1027,7 @@
     "season": "Lent",
     "readings": {
       "firstReading": "Isaiah 1:10, 16-20",
-      "psalm": "Psalm 50:8-9, 16bc-17. 21 y 23",
+      "psalm": "Psalm 50:8-9, 16-17,21, 23",
       "gospel": "Matthew 23:1-12"
     },
     "calendarSource": "colombia",
@@ -1010,7 +1043,7 @@
     "season": "Lent",
     "readings": {
       "firstReading": "Jeremiah 18:18-20",
-      "psalm": "Psalm 31:5-6, 14, 15-16 (R. 17b)",
+      "psalm": "Psalm 31:5-6, 14, 15-16",
       "gospel": "Matthew 20:17-28"
     },
     "calendarSource": "colombia",
@@ -1018,7 +1051,8 @@
     "color": "Morado",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "17"
   },
   {
     "date": "2026-03-05",
@@ -1026,7 +1060,7 @@
     "season": "Lent",
     "readings": {
       "firstReading": "Jeremiah 17:5-10",
-      "psalm": "Psalm 1:1-2, 3, 4 y 6",
+      "psalm": "Psalm 1:1-2, 3, 4, 6",
       "gospel": "Luke 16:19-31"
     },
     "calendarSource": "colombia",
@@ -1041,16 +1075,17 @@
     "monthDay": "3/6",
     "season": "Lent",
     "readings": {
-      "firstReading": "Genesis 37:3-4, 12-13a, 17b-28",
-      "psalm": "Psalm 105:16-17, 18-19, 20-21 (R. 5a)",
-      "gospel": "Matthew 21:33-43, 45-46 o Luke 23:13-25"
+      "firstReading": "Genesis 37:3-4, 12-13, 17-28",
+      "psalm": "Psalm 105:16-17, 18-19, 20-21",
+      "gospel": "Matthew 21:33-43, 45-46"
     },
     "calendarSource": "colombia",
     "celebration": "Viernes. 2ª Semana de Cuaresma, Feria",
     "color": "Morado",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "5"
   },
   {
     "date": "2026-03-07",
@@ -1058,7 +1093,7 @@
     "season": "Lent",
     "readings": {
       "firstReading": "Micah 7:14-15, 18-20",
-      "psalm": "Psalm 103:1-2. 3-4, 9-10, 11-12 (R. 8a)",
+      "psalm": "Psalm 103:1-2,3-4, 9-10, 11-12",
       "gospel": "Luke 15:1-3, 11-32"
     },
     "calendarSource": "colombia",
@@ -1066,7 +1101,8 @@
     "color": "Morado",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "8"
   },
   {
     "date": "2026-03-08",
@@ -1074,9 +1110,9 @@
     "season": "Lent",
     "readings": {
       "firstReading": "Exodus 17:3-7",
-      "psalm": "Psalm 95:1-2, 6-7ab.7c-9",
+      "psalm": "Psalm 95:1-2, 6-7,7-9",
       "secondReading": "Romans 5:1-2, 5-8",
-      "gospel": "John 4:5-42 (forma larga) o John 4:5-15. 19b-26, 39a.40-42 (forma breve)"
+      "gospel": "John 4:5-42"
     },
     "calendarSource": "colombia",
     "celebration": "Domingo. 3ª Semana de Cuaresma",
@@ -1090,8 +1126,8 @@
     "monthDay": "3/9",
     "season": "Lent",
     "readings": {
-      "firstReading": "2 Kings 5:1-15a",
-      "psalm": "Psalm 42:2, 3; 43:3, 4",
+      "firstReading": "2 Kings 5:1-15",
+      "psalm": "Psalm 42:2, 3, 43:3, 4",
       "gospel": "Luke 4:24-30"
     },
     "calendarSource": "colombia",
@@ -1107,7 +1143,7 @@
     "season": "Lent",
     "readings": {
       "firstReading": "Daniel 3:25, 34-43",
-      "psalm": "Psalm 25:4bc-5ab.6, 7bc.8-9",
+      "psalm": "Psalm 25:4-5,6, 7,8-9",
       "gospel": "Matthew 18:21-35"
     },
     "calendarSource": "colombia",
@@ -1123,7 +1159,7 @@
     "season": "Lent",
     "readings": {
       "firstReading": "Deuteronomy 4:1, 5-9",
-      "psalm": "Psalm 147(146-147), 12-13, 15-16, 19-20 (R. 119[118], 34)",
+      "psalm": "Psalm 147(146-147), 12-13, 15-16, 19-20",
       "gospel": "Matthew 5:17-19"
     },
     "calendarSource": "colombia",
@@ -1131,7 +1167,8 @@
     "color": "Morado",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "119[118], 34"
   },
   {
     "date": "2026-03-12",
@@ -1139,13 +1176,13 @@
     "season": "Lent",
     "readings": {
       "firstReading": "Jeremiah 7:23-28",
-      "psalm": "Psalm 95:1-2, 6-7ab.7c-9",
+      "psalm": "Psalm 95:1-2, 6-7,7-9",
       "gospel": "Luke 11:14-23"
     },
     "calendarSource": "colombia",
     "celebration": "Jueves. 3ª Semana de Cuaresma, Feria",
     "color": "Morado",
-    "prelude": "null",
+    "prelude": null,
     "calendarLabel": "Colombia (CEC)",
     "sourceReference": "https://web-ordo-colombiano.cec.org.co"
   },
@@ -1155,15 +1192,16 @@
     "season": "Lent",
     "readings": {
       "firstReading": "Hosea 14:2-10",
-      "psalm": "Psalm 81:6c-8a.8bc-9, 10-11ab.14, 17 (R. Deuteronomy 6:4)",
-      "gospel": "Mark 12:28b-34"
+      "psalm": "Psalm 81:6-8,8-9, 10-11,14, 17",
+      "gospel": "Mark 12:28-34"
     },
     "calendarSource": "colombia",
     "celebration": "Viernes. 3ª Semana de Cuaresma, Feria",
     "color": "Morado",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "Deuteronomy 6:4"
   },
   {
     "date": "2026-03-14",
@@ -1171,7 +1209,7 @@
     "season": "Lent",
     "readings": {
       "firstReading": "Hosea 6:1-6",
-      "psalm": "Psalm 51:3-4, 18-19, 20-21a",
+      "psalm": "Psalm 51:3-4, 18-19, 20-21",
       "gospel": "Luke 18:9-14"
     },
     "calendarSource": "colombia",
@@ -1186,15 +1224,15 @@
     "monthDay": "3/15",
     "season": "Lent",
     "readings": {
-      "firstReading": "1 Samuel 16:1b.6-7. 10-13a",
-      "psalm": "Psalm 23:1-3a.3b-4, 5, 6",
+      "firstReading": "1 Samuel 16:1,6-7,10-13",
+      "psalm": "Psalm 23:1-3,3-4, 5, 6",
       "secondReading": "Ephesians 5:8-14",
-      "gospel": "John 9:1-41 (forma larga) o John 9:1-9, 13-17, 34-38 (forma breve)"
+      "gospel": "John 9:1-41"
     },
     "calendarSource": "colombia",
     "celebration": "Domingo. 4ª Semana de Cuaresma, «Laetare»",
     "color": "Morado",
-    "prelude": "null",
+    "prelude": null,
     "calendarLabel": "Colombia (CEC)",
     "sourceReference": "https://web-ordo-colombiano.cec.org.co"
   },
@@ -1204,7 +1242,7 @@
     "season": "Lent",
     "readings": {
       "firstReading": "Isaiah 65:17-21",
-      "psalm": "Psalm 30:2 y 4, 5-6, 11-12a y 13b",
+      "psalm": "Psalm 30:2, 4, 5-6, 11-12, 13",
       "gospel": "John 4:43-54"
     },
     "calendarSource": "colombia",
@@ -1220,7 +1258,7 @@
     "season": "Lent",
     "readings": {
       "firstReading": "Ezekiel 47:1-9, 12",
-      "psalm": "Psalm 46:2-3, 5-6, 8-9 (R. 36[35], 10a)",
+      "psalm": "Psalm 46:2-3, 5-6, 8-9",
       "gospel": "John 5:1-16"
     },
     "calendarSource": "colombia",
@@ -1228,7 +1266,8 @@
     "color": "Morado",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "36[35], 10"
   },
   {
     "date": "2026-03-18",
@@ -1236,7 +1275,7 @@
     "season": "Lent",
     "readings": {
       "firstReading": "Isaiah 49:8-15",
-      "psalm": "Psalm 145:8-9, 13cd-14. 17-18",
+      "psalm": "Psalm 145:8-9, 13-14,17-18",
       "gospel": "John 5:17-30"
     },
     "calendarSource": "colombia",
@@ -1251,25 +1290,26 @@
     "monthDay": "3/19",
     "season": "Lent",
     "readings": {
-      "firstReading": "2 Samuel 7:4-5a.12-14a, 16",
-      "psalm": "Psalm 89:2-3. 4-5, 27 y 29 (R. 37)",
+      "firstReading": "2 Samuel 7:4-5,12-14, 16",
+      "psalm": "Psalm 89:2-3,4-5, 27, 29",
       "secondReading": "Romans 4:13, 16-18, 22",
-      "gospel": "Matthew 1:16, 18-21, 24a o Luke 2:41-51a"
+      "gospel": "Matthew 1:16, 18-21, 24"
     },
     "calendarSource": "colombia",
     "celebration": "Jueves. Solemnidad",
     "color": "Blanco",
     "prelude": "<p>San José, Esposo de la Bienaventurada Virgen María</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "37"
   },
   {
     "date": "2026-03-20",
     "monthDay": "3/20",
     "season": "Lent",
     "readings": {
-      "firstReading": "Wisdom 2:1a.12-22",
-      "psalm": "Psalm 34:17-18, 19-20. 21 y 23 (R. 19a)",
+      "firstReading": "Wisdom 2:1,12-22",
+      "psalm": "Psalm 34:17-18, 19-20,21, 23",
       "gospel": "John 7:1-2, 10, 25-30"
     },
     "calendarSource": "colombia",
@@ -1277,7 +1317,8 @@
     "color": "Morado",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "19"
   },
   {
     "date": "2026-03-21",
@@ -1285,7 +1326,7 @@
     "season": "Lent",
     "readings": {
       "firstReading": "Jeremiah 11:18-20",
-      "psalm": "Psalm 7:2-3, 9bc-10, 11-12 (R. 2a)",
+      "psalm": "Psalm 7:2-3, 9-10, 11-12",
       "gospel": "John 7:40-53"
     },
     "calendarSource": "colombia",
@@ -1293,7 +1334,8 @@
     "color": "Morado",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "2"
   },
   {
     "date": "2026-03-22",
@@ -1301,9 +1343,9 @@
     "season": "Lent",
     "readings": {
       "firstReading": "Ezekiel 37:12-14",
-      "psalm": "Psalm 130:1-2, 3-4, 5-6ab.6c-8",
+      "psalm": "Psalm 130:1-2, 3-4, 5-6,6-8",
       "secondReading": "Romans 8:8-11",
-      "gospel": "John 11:1-45 (forma larga) o John 11:3-7, 17, 20-27, 34-45 (forma breve)"
+      "gospel": "John 11:1-45"
     },
     "calendarSource": "colombia",
     "celebration": "Domingo. 5ª Semana de Cuaresma",
@@ -1317,8 +1359,8 @@
     "monthDay": "3/23",
     "season": "Lent",
     "readings": {
-      "firstReading": "Daniel 13:1-9, 15-17, 19-30, 33-62 (forma larga) o Daniel 13:41c-62 (forma breve)",
-      "psalm": "Psalm 23:1-3a.3b-4, 5, 6 (R. 4a)",
+      "firstReading": "Daniel 13:1-9, 15-17, 19-30, 33-62",
+      "psalm": "Psalm 23:1-3,3-4, 5, 6",
       "gospel": "John 8:1-11"
     },
     "calendarSource": "colombia",
@@ -1326,7 +1368,8 @@
     "color": "Morado",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "4"
   },
   {
     "date": "2026-03-24",
@@ -1334,13 +1377,13 @@
     "season": "Lent",
     "readings": {
       "firstReading": "Numbers 21:4-9",
-      "psalm": "Psalm 102:2-3a.3b, 16, 17-19a, 19b-21",
+      "psalm": "Psalm 102:2-3,3, 16, 17-19, 19-21",
       "gospel": "John 8:21-30"
     },
     "calendarSource": "colombia",
     "celebration": "Martes. 5ª Semana de Cuaresma, Feria",
     "color": "Morado",
-    "prelude": "null",
+    "prelude": null,
     "calendarLabel": "Colombia (CEC)",
     "sourceReference": "https://web-ordo-colombiano.cec.org.co"
   },
@@ -1349,8 +1392,8 @@
     "monthDay": "3/25",
     "season": "Lent",
     "readings": {
-      "firstReading": "Isaiah 7:10-14; 8:10",
-      "psalm": "Psalm 40:7-8a. 8b-9, 10, 11 (R. 8a y 9a)",
+      "firstReading": "Isaiah 7:10-14, 8:10",
+      "psalm": "Psalm 40:7-8,8-9, 10, 11",
       "secondReading": "Hebrews 10:4-10",
       "gospel": "Luke 1:26-38"
     },
@@ -1359,7 +1402,8 @@
     "color": "Blanco",
     "prelude": "<p>Anunciación del Señor,</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "8 y 9"
   },
   {
     "date": "2026-03-26",
@@ -1383,7 +1427,7 @@
     "season": "Lent",
     "readings": {
       "firstReading": "Jeremiah 20:10-13",
-      "psalm": "Psalm 18:2-3a.3bc-4, 5-6, 7",
+      "psalm": "Psalm 18:2-3,3-4, 5-6, 7",
       "gospel": "John 10:31-42"
     },
     "calendarSource": "colombia",
@@ -1399,7 +1443,7 @@
     "season": "Lent",
     "readings": {
       "firstReading": "Ezekiel 37:21-28",
-      "psalm": "Psalm Jeremiah 31:10, 11-12ab.13",
+      "psalm": "Jeremiah 31:10, 11-12,13",
       "gospel": "John 11:45-57"
     },
     "calendarSource": "colombia",
@@ -1415,16 +1459,17 @@
     "season": "Lent",
     "readings": {
       "firstReading": "Isaiah 50:4-7",
-      "psalm": "Psalm 22:8-9, 17-18a, 19-20. 23-24 (R. 2a)",
+      "psalm": "Psalm 22:8-9, 17-18, 19-20,23-24",
       "secondReading": "Philippians 2:6-11",
-      "gospel": "Matthew 26:14 - 27:66 (forma larga) o Matthew 27:11-54 (forma breve)"
+      "gospel": "Matthew 26:14 - 27:66"
     },
     "calendarSource": "colombia",
     "celebration": "Domingo. De Ramos",
     "color": "Rojo",
     "prelude": "<p>Procesión: <br>Leccionario Dominical A: <br>Mt 21,1-11. <br>Para las formas de hacer la conmemoración de la entrada del Señor a Jerusalén leer en el Misal, pp. 241 - 249.</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "2"
   },
   {
     "date": "2026-03-30",
@@ -1432,7 +1477,7 @@
     "season": "Lent",
     "readings": {
       "firstReading": "Isaiah 42:1-7",
-      "psalm": "Psalm 27:1, 2, 3, 13-14 (R. 1a)",
+      "psalm": "Psalm 27:1, 2, 3, 13-14",
       "gospel": "John 12:1-11"
     },
     "calendarSource": "colombia",
@@ -1440,7 +1485,8 @@
     "color": "Morado",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "1"
   },
   {
     "date": "2026-03-31",
@@ -1448,7 +1494,7 @@
     "season": "Lent",
     "readings": {
       "firstReading": "Isaiah 49:1-6",
-      "psalm": "Psalm 71:1-2, 3-4a, 5ab-6ab, 15 and 17",
+      "psalm": "Psalm 71:1-2, 3-4, 5-6, 15 and 17",
       "gospel": "John 13:21-33, 36-38"
     },
     "calendarSource": "colombia",
@@ -1463,7 +1509,7 @@
     "monthDay": "4/1",
     "season": "Lent",
     "readings": {
-      "firstReading": "Isaiah 50:4-9a",
+      "firstReading": "Isaiah 50:4-9",
       "psalm": "Psalm 69:8, 9-10, 21-22, 31, 33-34",
       "gospel": "Matthew 26:14-25"
     },
@@ -1479,8 +1525,8 @@
     "monthDay": "4/2",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "&Eacute;x 12:1-8, 11-14",
-      "psalm": "Psalm 116:12-13, 15, 16bc.17-18",
+      "firstReading": "Exodus 12:1-8, 11-14",
+      "psalm": "Psalm 116:12-13, 15, 16,17-18",
       "secondReading": "1 Corinthians 11:23-26",
       "gospel": "John 13:1-15"
     },
@@ -1497,8 +1543,8 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Isaiah 52:13 - 53:12",
-      "psalm": "Psalm 31:2 y 6, 12-13, 15-16, 17, 25 (R. 6a)",
-      "secondReading": "Hebrews 4:14-16; 5:7-9",
+      "psalm": "Psalm 31:2, 6, 12-13, 15-16, 17, 25",
+      "secondReading": "Hebrews 4:14-16, 5:7-9",
       "gospel": "John 18:1-19:42"
     },
     "calendarSource": "colombia",
@@ -1506,7 +1552,8 @@
     "color": "Rojo",
     "prelude": "<p>Celebración de la Pasión del Señor: Ritos introductorios. <br>1ª Parte: Liturgia de la Palabra: Lecturas y Oración universal. <br>2ª Parte: Adoración de la Santa Cruz. <br>3ª Parte: Sagrada Comunión.</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "6"
   },
   {
     "date": "2026-04-04",
@@ -1514,7 +1561,7 @@
     "season": "Ordinary Time",
     "readings": {
       "psalm": "Psalm 118:1-2, 16-17, 22-23",
-      "secondReading": "Exodus 14:15—15:1",
+      "secondReading": "Exodus 14:15-15:1",
       "firstReading": "Isaiah 54:5-14",
       "gospel": "Matthew 28:1-10"
     },
@@ -1530,9 +1577,9 @@
     "monthDay": "4/5",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Acts 10:34a, 37-43",
-      "psalm": "Psalm 118:1-2. 15c y 16a y 17, 22-23 (R. 24)",
-      "secondReading": "Colossians 3:1-4 o 1 Corinthians 5:6b-8",
+      "firstReading": "Acts 10:34, 37-43",
+      "psalm": "Psalm 118:1-2,15, 16, 17, 22-23",
+      "secondReading": "Colossians 3:1-4",
       "gospel": "Secuencia (hoy obligatoria, durante la Octava a elección)"
     },
     "calendarSource": "colombia",
@@ -1540,7 +1587,8 @@
     "color": "Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "24"
   },
   {
     "date": "2026-04-06",
@@ -1563,7 +1611,7 @@
     "monthDay": "4/7",
     "season": "Easter",
     "readings": {
-      "firstReading": "Acts 2:14a, 36-41",
+      "firstReading": "Acts 2:14, 36-41",
       "psalm": "Psalm 33:4-5, 18-19, 20, 22",
       "gospel": "John 20:11-18"
     },
@@ -1580,7 +1628,7 @@
     "season": "Easter",
     "readings": {
       "firstReading": "Acts 3:1-10",
-      "psalm": "Psalm 105:1-2, 3-4, 6-7. 8-9 (R. 3b)",
+      "psalm": "Psalm 105:1-2, 3-4, 6-7,8-9",
       "gospel": "Luke 24:13-35"
     },
     "calendarSource": "colombia",
@@ -1588,7 +1636,8 @@
     "color": "Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "3"
   },
   {
     "date": "2026-04-09",
@@ -1596,7 +1645,7 @@
     "season": "Easter",
     "readings": {
       "firstReading": "Acts 3:11-26",
-      "psalm": "Psalm 8:2ab y 5, 6-7, 8-9",
+      "psalm": "Psalm 8:2, 5, 6-7, 8-9",
       "gospel": "Luke 24:35-48"
     },
     "calendarSource": "colombia",
@@ -1612,7 +1661,7 @@
     "season": "Easter",
     "readings": {
       "firstReading": "Acts 4:1-12",
-      "psalm": "Psalm 118:1-2 y 4, 22-23, 24-25, 26-27a (R. 22)",
+      "psalm": "Psalm 118:1-2, 4, 22-23, 24-25, 26-27",
       "gospel": "John 21:1-14"
     },
     "calendarSource": "colombia",
@@ -1620,7 +1669,8 @@
     "color": "Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "22"
   },
   {
     "date": "2026-04-11",
@@ -1628,15 +1678,16 @@
     "season": "Easter",
     "readings": {
       "firstReading": "Acts 4:13-21",
-      "psalm": "Psalm 118:1 y 14, 15. 16-17, 18-19, 20-21 (R. 8)",
-      "gospel": "&nbsp;"
+      "psalm": "Psalm 118:1, 14, 15,16-17, 18-19, 20-21",
+      "gospel": "Mark 16:9-15"
     },
     "calendarSource": "colombia",
     "celebration": "Sábado. de la Octava de Pascua",
     "color": "Blanco",
-    "prelude": "null",
+    "prelude": null,
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "8"
   },
   {
     "date": "2026-04-12",
@@ -1644,7 +1695,7 @@
     "season": "Easter",
     "readings": {
       "firstReading": "Acts 2:42-47",
-      "psalm": "Psalm 118:2-4, 13-15ab.22-24",
+      "psalm": "Psalm 118:2-4, 13-15,22-24",
       "secondReading": "1 Peter 1:3-9",
       "gospel": "John 20:19-31"
     },
@@ -1677,15 +1728,16 @@
     "season": "Easter",
     "readings": {
       "firstReading": "Acts 4:32-37",
-      "psalm": "Psalm 93:1ab.1c-2, 5 (R. 122[121], 3)",
-      "gospel": "John 3:7b-15"
+      "psalm": "Psalm 93:1,1-2, 5",
+      "gospel": "John 3:7-15"
     },
     "calendarSource": "colombia",
     "celebration": "Martes. 2ª Semana de Pascua, Feria",
     "color": "Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "122[121], 3"
   },
   {
     "date": "2026-04-15",
@@ -1693,7 +1745,7 @@
     "season": "Easter",
     "readings": {
       "firstReading": "Acts 5:17-26",
-      "psalm": "Psalm 34:2-3, 4-5, 6-7, 8-9 (R. 7a)",
+      "psalm": "Psalm 34:2-3, 4-5, 6-7, 8-9",
       "gospel": "John 3:16-21"
     },
     "calendarSource": "colombia",
@@ -1701,7 +1753,8 @@
     "color": "Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "7"
   },
   {
     "date": "2026-04-16",
@@ -1709,7 +1762,7 @@
     "season": "Easter",
     "readings": {
       "firstReading": "Acts 5:27-33",
-      "psalm": "Psalm 34:2 y 9, 17-18, 19-20 (R. 7a)",
+      "psalm": "Psalm 34:2, 9, 17-18, 19-20",
       "gospel": "John 3:31-36"
     },
     "calendarSource": "colombia",
@@ -1717,7 +1770,8 @@
     "color": "Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "7"
   },
   {
     "date": "2026-04-17",
@@ -1741,7 +1795,7 @@
     "season": "Easter",
     "readings": {
       "firstReading": "Acts 6:1-7",
-      "psalm": "Psalm 33:1-2, 4-5, 18-19 (R. 22)",
+      "psalm": "Psalm 33:1-2, 4-5, 18-19",
       "gospel": "John 6:16-21"
     },
     "calendarSource": "colombia",
@@ -1749,7 +1803,8 @@
     "color": "Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "22"
   },
   {
     "date": "2026-04-19",
@@ -1757,16 +1812,17 @@
     "season": "Easter",
     "readings": {
       "firstReading": "Acts 2:14, 22-33",
-      "psalm": "Psalm 16:1-2 y 5, 7-8, 9-10, 11 (R. 11a)",
+      "psalm": "Psalm 16:1-2, 5, 7-8, 9-10, 11",
       "secondReading": "1 Peter 1:17-21",
-      "gospel": "&nbsp;"
+      "gospel": "Luke 24:13-35"
     },
     "calendarSource": "colombia",
     "celebration": "Domingo. 3ª Semana de Pascua",
     "color": "Blanco",
-    "prelude": "null",
+    "prelude": null,
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "11"
   },
   {
     "date": "2026-04-20",
@@ -1774,7 +1830,7 @@
     "season": "Easter",
     "readings": {
       "firstReading": "Acts 6:8-15",
-      "psalm": "Psalm 119:23-24, 26-27. 29-30",
+      "psalm": "Psalm 119:23-24, 26-27,29-30",
       "gospel": "John 6:22-29"
     },
     "calendarSource": "colombia",
@@ -1789,8 +1845,8 @@
     "monthDay": "4/21",
     "season": "Easter",
     "readings": {
-      "firstReading": "Acts 7:51 - 8:1a",
-      "psalm": "Psalm 31:3cd-4. 6 y 7b y 8a.17 y 21ab (R. 6a)",
+      "firstReading": "Acts 7:51 - 8:1",
+      "psalm": "Psalm 31:3-4,6, 7, 8,17, 21",
       "gospel": "John 6:30-35"
     },
     "calendarSource": "colombia",
@@ -1798,15 +1854,16 @@
     "color": "Blanco",
     "prelude": "<p>San Anselmo, obispo y doctor de la Iglesia</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "6"
   },
   {
     "date": "2026-04-22",
     "monthDay": "4/22",
     "season": "Easter",
     "readings": {
-      "firstReading": "Acts 8:1b-8",
-      "psalm": "Psalm 66:1-3a.4-5, 6-7a (R. 1)",
+      "firstReading": "Acts 8:1-8",
+      "psalm": "Psalm 66:1-3,4-5, 6-7",
       "gospel": "John 6:35-40"
     },
     "calendarSource": "colombia",
@@ -1814,7 +1871,8 @@
     "color": "Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "1"
   },
   {
     "date": "2026-04-23",
@@ -1822,7 +1880,7 @@
     "season": "Easter",
     "readings": {
       "firstReading": "Acts 8:26-40",
-      "psalm": "Psalm 66:8-9, 16-17, 20 (R. 1)",
+      "psalm": "Psalm 66:8-9, 16-17, 20",
       "gospel": "John 6:44-51"
     },
     "calendarSource": "colombia",
@@ -1830,7 +1888,8 @@
     "color": "Blanco o Rojo",
     "prelude": "<p>San Jorge , mártir; San Adalberto, obispo y mártir</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "1"
   },
   {
     "date": "2026-04-24",
@@ -1838,7 +1897,7 @@
     "season": "Easter",
     "readings": {
       "firstReading": "Acts 9:1-20",
-      "psalm": "Psalm 117:1, 2 (R. Mark 16:15)",
+      "psalm": "Psalm 117:1, 2",
       "gospel": "John 6:52-59"
     },
     "calendarSource": "colombia",
@@ -1846,14 +1905,15 @@
     "color": "Blanco o Rojo",
     "prelude": "<p>San Fidel de Sigmaringa, presbítero y mártir</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "Mark 16:15"
   },
   {
     "date": "2026-04-25",
     "monthDay": "4/25",
     "season": "Easter",
     "readings": {
-      "firstReading": "1 Peter 5:5b-14",
+      "firstReading": "1 Peter 5:5-14",
       "psalm": "Psalm 89:2-3:6-7, 16-17",
       "secondReading": "Mark 16:15-20",
       "gospel": "Mark 16:15-20"
@@ -1870,17 +1930,18 @@
     "monthDay": "4/26",
     "season": "Easter",
     "readings": {
-      "firstReading": "Acts 2:14a, 36-41",
-      "psalm": "Psalm 23:1-3a. 3b-4, 5, 6 (R. 1)",
-      "secondReading": "1 Peter 2:20b-25",
+      "firstReading": "Acts 2:14, 36-41",
+      "psalm": "Psalm 23:1-3,3-4, 5, 6",
+      "secondReading": "1 Peter 2:20-25",
       "gospel": "John 10:1-10"
     },
     "calendarSource": "colombia",
     "celebration": "Domingo. 4ª Semana de Pascua",
     "color": "Blanco",
-    "prelude": "null",
+    "prelude": null,
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "1"
   },
   {
     "date": "2026-04-27",
@@ -1888,7 +1949,7 @@
     "season": "Easter",
     "readings": {
       "firstReading": "Acts 11:1-18",
-      "psalm": "Psalm 42:2, 3; 43, 3, 4",
+      "psalm": "Psalm 42:2, 3, 43, 3, 4",
       "gospel": "John 10:11-18"
     },
     "calendarSource": "colombia",
@@ -1904,7 +1965,7 @@
     "season": "Easter",
     "readings": {
       "firstReading": "Acts 11:19-26",
-      "psalm": "Psalm 87:2-3, 4-5, 6-7 (R. 117[116], 1a)",
+      "psalm": "Psalm 87:2-3, 4-5, 6-7",
       "gospel": "John 10:22-30"
     },
     "calendarSource": "colombia",
@@ -1912,15 +1973,16 @@
     "color": "Blanco o Rojo",
     "prelude": "<p>San Pedro Chanel, presbítero y mártir; San Luis María Grignion de Monfort, presbítero</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "117[116], 1"
   },
   {
     "date": "2026-04-29",
     "monthDay": "4/29",
     "season": "Easter",
     "readings": {
-      "firstReading": "Acts 12:24 - 13:5a",
-      "psalm": "Psalm 67:2-3, 5. 6, 8",
+      "firstReading": "Acts 12:24 - 13:5",
+      "psalm": "Psalm 67:2-3, 5,6, 8",
       "gospel": "John 12:44-50"
     },
     "calendarSource": "colombia",
@@ -1952,7 +2014,7 @@
     "season": "Easter",
     "readings": {
       "firstReading": "Acts 13:26-33",
-      "psalm": "Psalm 2:6-7, 8-9, 10-11 (R. Matthew 16:16b)",
+      "psalm": "Psalm 2:6-7, 8-9, 10-11",
       "gospel": "John 14:1-6"
     },
     "calendarSource": "colombia",
@@ -1960,7 +2022,8 @@
     "color": "Blanco",
     "prelude": "<p>San José, obrero</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "Matthew 16:16"
   },
   {
     "date": "2026-05-02",
@@ -1968,7 +2031,7 @@
     "season": "Easter",
     "readings": {
       "firstReading": "Acts 13:44-52",
-      "psalm": "Psalm 98:1, 2-3ab.3cd-4 (R. 3cd)",
+      "psalm": "Psalm 98:1, 2-3,3-4",
       "gospel": "John 14:7-14"
     },
     "calendarSource": "colombia",
@@ -1976,7 +2039,8 @@
     "color": "Blanco",
     "prelude": "<p>San Atanasio, obispo y doctor de la Iglesia</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "3"
   },
   {
     "date": "2026-05-03",
@@ -2001,7 +2065,7 @@
     "season": "Easter",
     "readings": {
       "firstReading": "1 Corinthians 15:1-8",
-      "psalm": "Psalm 19:2-3, 4-5 (R. 5a)",
+      "psalm": "Psalm 19:2-3, 4-5",
       "secondReading": "John 14:6-14",
       "gospel": "John 14:21-26"
     },
@@ -2010,7 +2074,8 @@
     "color": "Rojo",
     "prelude": "<p>Santos Felipe y Santiago, apóstoles</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "5"
   },
   {
     "date": "2026-05-05",
@@ -2018,15 +2083,16 @@
     "season": "Easter",
     "readings": {
       "firstReading": "Acts 14:19-28",
-      "psalm": "Psalm 145:10, 11-12. 13ab.21 (R. 126[125], 5)",
-      "gospel": "John 14:27-31a"
+      "psalm": "Psalm 145:10, 11-12,13,21",
+      "gospel": "John 14:27-31"
     },
     "calendarSource": "colombia",
     "celebration": "Martes. 5ª Semana de Pascua, Feria",
     "color": "Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "126[125], 5"
   },
   {
     "date": "2026-05-06",
@@ -2034,13 +2100,13 @@
     "season": "Easter",
     "readings": {
       "firstReading": "Acts 15:1-6",
-      "psalm": "Psalm 122 , 1-2. 3-4a. 4b-5",
+      "psalm": "Psalm 122 , 1-2,3-4,4-5",
       "gospel": "John 15:1-8"
     },
     "calendarSource": "colombia",
     "celebration": "Miércoles. 5ª Semana de Pascua, Feria",
     "color": "Blanco",
-    "prelude": "null",
+    "prelude": null,
     "calendarLabel": "Colombia (CEC)",
     "sourceReference": "https://web-ordo-colombiano.cec.org.co"
   },
@@ -2050,7 +2116,7 @@
     "season": "Easter",
     "readings": {
       "firstReading": "Acts 15:7-21",
-      "psalm": "Psalm 96:1-2a.2b-3, 10",
+      "psalm": "Psalm 96:1-2,2-3, 10",
       "gospel": "John 15:9-11"
     },
     "calendarSource": "colombia",
@@ -2066,7 +2132,7 @@
     "season": "Easter",
     "readings": {
       "firstReading": "Acts 15:22-31",
-      "psalm": "Psalm 57 , 8-9. 10-11. 12 (R. 10a)",
+      "psalm": "Psalm 57 , 8-9,10-11,12",
       "gospel": "John 15:12-17"
     },
     "calendarSource": "colombia",
@@ -2074,7 +2140,8 @@
     "color": "Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "10"
   },
   {
     "date": "2026-05-09",
@@ -2082,7 +2149,7 @@
     "season": "Easter",
     "readings": {
       "firstReading": "Acts 16:1-10",
-      "psalm": "Psalm 100 , 1b-2. 3. 5. (R. 2a)",
+      "psalm": "Psalm 100 , 1-2,3,5.",
       "gospel": "John 15:18-21"
     },
     "calendarSource": "colombia",
@@ -2090,7 +2157,8 @@
     "color": "Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "2"
   },
   {
     "date": "2026-05-10",
@@ -2098,7 +2166,7 @@
     "season": "Easter",
     "readings": {
       "firstReading": "Acts 8:5-8, 14-17",
-      "psalm": "Psalm 66:1-3a.4-5, 6-7a.16 y 20 (R. 1)",
+      "psalm": "Psalm 66:1-3,4-5, 6-7,16, 20",
       "secondReading": "1 Peter 3:15-18",
       "gospel": "John 14:15-21"
     },
@@ -2107,23 +2175,25 @@
     "color": "Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "1"
   },
   {
     "date": "2026-05-11",
     "monthDay": "5/11",
     "season": "Easter",
     "readings": {
-      "firstReading": "Acts 16:10b-15",
-      "psalm": "Psalm 149:1-2, 3-4, 5-6a, 9b (R. 4a)",
-      "gospel": "John 15:26 - 16:4a"
+      "firstReading": "Acts 16:10-15",
+      "psalm": "Psalm 149:1-2, 3-4, 5-6, 9",
+      "gospel": "John 15:26 - 16:4"
     },
     "calendarSource": "colombia",
     "celebration": "Lunes. 6ª Semana de Pascua, Feria",
     "color": "Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "4"
   },
   {
     "date": "2026-05-12",
@@ -2131,7 +2201,7 @@
     "season": "Easter",
     "readings": {
       "firstReading": "Acts 16:22-34",
-      "psalm": "Psalm 138:1-2a. 2bc, 3, 7cd, 8bc (R. 7cd)",
+      "psalm": "Psalm 138:1-2,2, 3, 7, 8",
       "gospel": "John 16:5-11"
     },
     "calendarSource": "colombia",
@@ -2139,7 +2209,8 @@
     "color": "Blanco o Rojo",
     "prelude": "<p>Santos Nereo y Aquileo, mártires; San Pancracio, mártir</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "7"
   },
   {
     "date": "2026-05-13",
@@ -2147,7 +2218,7 @@
     "season": "Easter",
     "readings": {
       "firstReading": "Acts 17:15, 22 - 18:1",
-      "psalm": "Psalm 148:1-2. 11-12, 13, 14",
+      "psalm": "Psalm 148:1-2,11-12, 13, 14",
       "gospel": "John 16:12-15"
     },
     "calendarSource": "colombia",
@@ -2180,7 +2251,7 @@
     "readings": {
       "firstReading": "Acts 18:9-18",
       "psalm": "Psalm 47:2-3, 4-5, 6-7",
-      "gospel": "John 16:20-23a"
+      "gospel": "John 16:20-23"
     },
     "calendarSource": "colombia",
     "celebration": "Viernes. 6ª Semana de Pascua, Feria",
@@ -2229,7 +2300,7 @@
     "season": "Easter",
     "readings": {
       "firstReading": "Acts 19:1-8",
-      "psalm": "Psalm 68:2, 3, 4, 5ac.6-7ab",
+      "psalm": "Psalm 68:2, 3, 4, 5,6-7",
       "gospel": "John 16:29-33"
     },
     "calendarSource": "colombia",
@@ -2246,7 +2317,7 @@
     "readings": {
       "firstReading": "Acts 20:17-27",
       "psalm": "Psalm 68:10-11, 20-21",
-      "gospel": "John 17:1-11a"
+      "gospel": "John 17:1-11"
     },
     "calendarSource": "colombia",
     "celebration": "Martes. 7ª Semana de Pascua, Feria o Memoria libre",
@@ -2261,23 +2332,24 @@
     "season": "Easter",
     "readings": {
       "firstReading": "Acts 20:28-38",
-      "psalm": "Psalm 68:29-30, 33-35a, 35b-36c (R. 122[121], 2)",
-      "gospel": "John 17:11b-19"
+      "psalm": "Psalm 68:29-30, 33-35, 35-36",
+      "gospel": "John 17:11-19"
     },
     "calendarSource": "colombia",
     "celebration": "Miércoles. 7ª Semana de Pascua, Feria o Memoria libre",
     "color": "Blanco",
     "prelude": "<p>San Bernardino de Siena, presbítero</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "122[121], 2"
   },
   {
     "date": "2026-05-21",
     "monthDay": "5/21",
     "season": "Easter",
     "readings": {
-      "firstReading": "Acts 22:30; 23:6-11",
-      "psalm": "Psalm 16:1-2a and 5, 7-8, 9-10, 11",
+      "firstReading": "Acts 22:30, 23:6-11",
+      "psalm": "Psalm 16:1-2 and 5, 7-8, 9-10, 11",
       "gospel": "John 17:20-26"
     },
     "calendarSource": "colombia",
@@ -2292,26 +2364,27 @@
     "monthDay": "5/22",
     "season": "Easter",
     "readings": {
-      "firstReading": "Acts 25:13b-21",
-      "psalm": "Psalm 103:1-2, 11-12, 19-20ab (R. 19a)",
-      "gospel": "John 21:1a.15-19"
+      "firstReading": "Acts 25:13-21",
+      "psalm": "Psalm 103:1-2, 11-12, 19-20",
+      "gospel": "John 21:1,15-19"
     },
     "calendarSource": "colombia",
     "celebration": "Viernes. 7ª Semana de Pascua, Feria o Memoria libre",
     "color": "Blanco",
     "prelude": "<p>Santa Rita de Casia, religiosa</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "19"
   },
   {
     "date": "2026-05-23",
     "monthDay": "5/23",
     "season": "Easter",
     "readings": {
-      "firstReading": "1ª lectura: Genesis 11:1-9",
-      "psalm": "Psalm 32:10-11, 12-13, 14-15 2ª lectura: Exodus 19:3-8a.16-20b",
-      "secondReading": "Psalm Daniel 3:52a y c.53a, 55a.56 o Psalm 18:8, 9, 10, 11 3ª lectura: Ezekiel 37:1-14",
-      "gospel": "Psalm 106:2-3, 4-5, 6-7, 8-9 4ª lectura: Joel 3:1-5"
+      "firstReading": "Genesis 11:1-9",
+      "psalm": "Psalm 32:10-11, 12-13, 14-15",
+      "secondReading": "Daniel 3:52, c.53, 55,56",
+      "gospel": "Psalm 106:2-3, 4-5, 6-7, 8-9"
     },
     "calendarSource": "colombia",
     "celebration": "Sábado. Solemnidad",
@@ -2326,8 +2399,8 @@
     "season": "Easter",
     "readings": {
       "firstReading": "Acts 2:1-11",
-      "psalm": "Psalm 104:1ab, 24ac. 29bc-30, 31, 34",
-      "secondReading": "1 Corinthians 12:3b-7, 12-13",
+      "psalm": "Psalm 104:1, 24, 29-30, 31, 34",
+      "secondReading": "1 Corinthians 12:3-7, 12-13",
       "gospel": "Secuencia (obligatoria)"
     },
     "calendarSource": "colombia",
@@ -2359,7 +2432,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "1 Peter 1:10-16",
-      "psalm": "Psalm 98:1, 2-3ab.3c-4 (R. 2a)",
+      "psalm": "Psalm 98:1, 2-3,3-4",
       "gospel": "Mark 10:28-31"
     },
     "calendarSource": "colombia",
@@ -2367,7 +2440,8 @@
     "color": "Blanco",
     "prelude": "<p>San Felipe Neri, presbítero</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "2"
   },
   {
     "date": "2026-05-27",
@@ -2375,7 +2449,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "1 Peter 1:18-25",
-      "psalm": "Psalm 147:12-13, 14-15, 19-20 (R. 12a)",
+      "psalm": "Psalm 147:12-13, 14-15, 19-20",
       "gospel": "Mark 10:32-45"
     },
     "calendarSource": "colombia",
@@ -2383,15 +2457,16 @@
     "color": "Verde o Blanco",
     "prelude": "<p>San Agustín de Canterbury, obispo</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "12"
   },
   {
     "date": "2026-05-28",
     "monthDay": "5/28",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Genesis 22:9-18 o Hebrews 10:4-10",
-      "psalm": "Psalm 39:7-8a. 8b-9. 10-11ab. 17 (R.: cf. 8a. 9a)",
+      "firstReading": "Genesis 22:9-18",
+      "psalm": "Psalm 39:7-8,8-9,10-11, 17",
       "gospel": "Matthew 26:36-42"
     },
     "calendarSource": "colombia",
@@ -2399,7 +2474,8 @@
     "color": "Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "cf. 8,9"
   },
   {
     "date": "2026-05-29",
@@ -2407,7 +2483,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "1 Peter 4:7-13",
-      "psalm": "Psalm 96:10, 11-12, 13 (R. 13ab)",
+      "psalm": "Psalm 96:10, 11-12, 13",
       "gospel": "Mark 11:11-26"
     },
     "calendarSource": "colombia",
@@ -2415,14 +2491,15 @@
     "color": "Verde o Blanco",
     "prelude": "<p>San Pablo VI, papa</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "13"
   },
   {
     "date": "2026-05-30",
     "monthDay": "5/30",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Jude 17:20b-25",
+      "firstReading": "Jude 17:20-25",
       "psalm": "Psalm 63:2, 3-4, 5-6",
       "gospel": "Mark 11:27-33"
     },
@@ -2438,8 +2515,8 @@
     "monthDay": "5/31",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Exodus 34:4b-6, 8-9",
-      "psalm": "Psalm Daniel 3:52ac.53a, 54a, 55a, 56a (R. 52b)",
+      "firstReading": "Exodus 34:4-6, 8-9",
+      "psalm": "Daniel 3:52,53, 54, 55, 56",
       "secondReading": "2 Corinthians 13:11-13",
       "gospel": "John 3:16-18"
     },
@@ -2448,7 +2525,8 @@
     "color": "Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "52"
   },
   {
     "date": "2026-06-01",
@@ -2456,7 +2534,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "2 Peter 1:1-7",
-      "psalm": "Psalm 91:1-2, 14-15ab. 15c-16 (R. 2b)",
+      "psalm": "Psalm 91:1-2, 14-15, 15-16",
       "gospel": "Mark 12:1-12"
     },
     "calendarSource": "colombia",
@@ -2464,15 +2542,16 @@
     "color": "Rojo",
     "prelude": "<p>San Justino, mártir</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "2"
   },
   {
     "date": "2026-06-02",
     "monthDay": "6/2",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "2 Peter 3:12-15a. 17-18",
-      "psalm": "Psalm 90:2, 3-4, 10, 14, 16 (R. 1)",
+      "firstReading": "2 Peter 3:12-15,17-18",
+      "psalm": "Psalm 90:2, 3-4, 10, 14, 16",
       "gospel": "Mark 12:13-17"
     },
     "calendarSource": "colombia",
@@ -2480,7 +2559,8 @@
     "color": "Verde o Rojo",
     "prelude": "<p>Santos Marcelino y Pedro, mártires</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "1"
   },
   {
     "date": "2026-06-03",
@@ -2488,7 +2568,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "2 Timothy 1:1-3, 6-12",
-      "psalm": "Psalm 123:1-2a. 2bcd (R. 1a)",
+      "psalm": "Psalm 123:1-2,2",
       "gospel": "Mark 12:18-27"
     },
     "calendarSource": "colombia",
@@ -2496,7 +2576,8 @@
     "color": "Rojo",
     "prelude": "<p>Santos Carlos Lwanga y compañeros, mártires</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "1"
   },
   {
     "date": "2026-06-04",
@@ -2504,15 +2585,16 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "2 Timothy 2:8-15",
-      "psalm": "Psalm 25:4- 5ab.8-9, 10, 14(R. 4a)",
-      "gospel": "Mark 12:28b-34"
+      "psalm": "Psalm 25:4- 5,8-9, 10, 14",
+      "gospel": "Mark 12:28-34"
     },
     "calendarSource": "colombia",
     "celebration": "Jueves. 9ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "4"
   },
   {
     "date": "2026-06-05",
@@ -2520,7 +2602,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "2 Timothy 3:10-17",
-      "psalm": "Psalm 119:157, 160, 161, 165, 166, 168 (R. 165a)",
+      "psalm": "Psalm 119:157, 160, 161, 165, 166, 168",
       "gospel": "Mark 12:35-37"
     },
     "calendarSource": "colombia",
@@ -2528,7 +2610,8 @@
     "color": "Rojo",
     "prelude": "<p>San Bonifacio, obispo y mártir</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "165"
   },
   {
     "date": "2026-06-06",
@@ -2536,7 +2619,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "2 Timothy 4:1-8",
-      "psalm": "Psalm 71:8-9, 14-15ab.16-17, 22",
+      "psalm": "Psalm 71:8-9, 14-15,16-17, 22",
       "gospel": "Mark 12:38-44"
     },
     "calendarSource": "colombia",
@@ -2551,7 +2634,7 @@
     "monthDay": "6/7",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Deuteronomy 8:2-3, 14b-16a",
+      "firstReading": "Deuteronomy 8:2-3, 14-16",
       "psalm": "Psalm 147:12-13, 14-15, 19-20",
       "secondReading": "1 Corinthians 10:16-17",
       "gospel": "Secuencia (opcional)"
@@ -2585,7 +2668,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "1 Kings 17:7-16",
-      "psalm": "Psalm 4:2-3, 4-5, 6bc-8",
+      "psalm": "Psalm 4:2-3, 4-5, 6-8",
       "gospel": "Matthew 5:13-16"
     },
     "calendarSource": "colombia",
@@ -2601,7 +2684,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "1 Kings 18:20-39",
-      "psalm": "Psalm 16:1-2a.4, 5, 8. 11 (R. 1)",
+      "psalm": "Psalm 16:1-2,4, 5, 8,11",
       "gospel": "Matthew 5:17-19"
     },
     "calendarSource": "colombia",
@@ -2609,15 +2692,16 @@
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "1"
   },
   {
     "date": "2026-06-11",
     "monthDay": "6/11",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Acts 11:21b-26; 13:1-3",
-      "psalm": "Psalm 98:1, 2-3ab.3c-4, 5-6 (R. 2b)",
+      "firstReading": "Acts 11:21-26, 13:1-3",
+      "psalm": "Psalm 98:1, 2-3,3-4, 5-6",
       "gospel": "Matthew 10:7-13"
     },
     "calendarSource": "colombia",
@@ -2625,7 +2709,8 @@
     "color": "Rojo",
     "prelude": "<p>San Bernabé, apóstol</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "2"
   },
   {
     "date": "2026-06-12",
@@ -2633,7 +2718,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Deuteronomy 7:6-11",
-      "psalm": "Psalm 103:1-2, 3-4, 6-7, 8 y 10",
+      "psalm": "Psalm 103:1-2, 3-4, 6-7, 8, 10",
       "secondReading": "1 John 4:7-16",
       "gospel": "Matthew 11:25-30"
     },
@@ -2650,7 +2735,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Isaiah 61:9-11",
-      "psalm": "Psalm 1 Samuel 2:1, 4-5, 6-7, 8abcd (R. 1a)",
+      "psalm": "1 Samuel 2:1, 4-5, 6-7, 8",
       "secondReading": "Luke 2:41-51",
       "gospel": "Matthew 5:33-37"
     },
@@ -2659,24 +2744,26 @@
     "color": "Blanco",
     "prelude": "<p>El Inmaculado Corazón de Santa María Virgen</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "1"
   },
   {
     "date": "2026-06-14",
     "monthDay": "6/14",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Exodus 19:2-6a",
-      "psalm": "Psalm 100:1-2, 3, 5(R.3c)",
+      "firstReading": "Exodus 19:2-6",
+      "psalm": "Psalm 100:1-2, 3, 5",
       "secondReading": "Romans 5:6-11",
-      "gospel": "Matthew 9:36–10:8"
+      "gospel": "Matthew 9:36-10:8"
     },
     "calendarSource": "colombia",
     "celebration": "Domingo. 11ª Sem. del Tiempo Ordinario",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "3"
   },
   {
     "date": "2026-06-15",
@@ -2684,7 +2771,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "1 Kings 21:1-16",
-      "psalm": "Psalm 5:2-3, 5-6, 7 (R. 2b)",
+      "psalm": "Psalm 5:2-3, 5-6, 7",
       "gospel": "Matthew 5:38-42"
     },
     "calendarSource": "colombia",
@@ -2692,7 +2779,8 @@
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "2"
   },
   {
     "date": "2026-06-16",
@@ -2700,7 +2788,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "1 Kings 21:17-29",
-      "psalm": "Psalm 51:3-4, 5-6a. 11, 16",
+      "psalm": "Psalm 51:3-4, 5-6,11, 16",
       "gospel": "Matthew 5:43-48"
     },
     "calendarSource": "colombia",
@@ -2716,7 +2804,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "2 Kings 2:1, 6-14",
-      "psalm": "Psalm 31:20, 21, 24 (R. 25)",
+      "psalm": "Psalm 31:20, 21, 24",
       "gospel": "Matthew 6:1-6, 16-18"
     },
     "calendarSource": "colombia",
@@ -2724,7 +2812,8 @@
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "25"
   },
   {
     "date": "2026-06-18",
@@ -2748,7 +2837,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "2 Kings 11:1-4, 9-18, 20",
-      "psalm": "Psalm 132:11, 12, 13-14, 17-18 (R. 13)",
+      "psalm": "Psalm 132:11, 12, 13-14, 17-18",
       "gospel": "Matthew 6:19-23"
     },
     "calendarSource": "colombia",
@@ -2756,15 +2845,16 @@
     "color": "Verde o Blanco",
     "prelude": "<p>San Romualdo, abad</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "13"
   },
   {
     "date": "2026-06-20",
     "monthDay": "6/20",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "2Cro 24:17-25",
-      "psalm": "Psalm 89:4-5, 29-30. 31-32, 33-34 (R. 29a)",
+      "firstReading": "2 Chronicles 24:17-25",
+      "psalm": "Psalm 89:4-5, 29-30,31-32, 33-34",
       "gospel": "Matthew 6:24-34"
     },
     "calendarSource": "colombia",
@@ -2772,7 +2862,8 @@
     "color": "Verde o Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "29"
   },
   {
     "date": "2026-06-21",
@@ -2780,7 +2871,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Jeremiah 20:10-13",
-      "psalm": "Psalm 69:9-10, 14, 33-34 (R. 35:10)",
+      "psalm": "Psalm 69:9-10, 14, 33-34",
       "secondReading": "Romans 5:12-15",
       "gospel": "Matthew, 10:26-33"
     },
@@ -2789,15 +2880,16 @@
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "35:10"
   },
   {
     "date": "2026-06-22",
     "monthDay": "6/22",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "2 Kings 17:5-8, 13-15a, 18",
-      "psalm": "Psalm 60:3, 4-5, 12-13 (R. 7b)",
+      "firstReading": "2 Kings 17:5-8, 13-15, 18",
+      "psalm": "Psalm 60:3, 4-5, 12-13",
       "gospel": "Matthew 7:1-5"
     },
     "calendarSource": "colombia",
@@ -2805,15 +2897,16 @@
     "color": "Verde o Blanco o Rojo",
     "prelude": "<p>San Paulino de Nola, obispo; Santos Juan Fisher, obispo y Tomás Moro, mártires</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "7"
   },
   {
     "date": "2026-06-23",
     "monthDay": "6/23",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "2 Kings 19:9b-11, 14-21, 31-35a, 36",
-      "psalm": "Psalm 48:2-3a.3b-4, 10-11",
+      "firstReading": "2 Kings 19:9-11, 14-21, 31-35, 36",
+      "psalm": "Psalm 48:2-3,3-4, 10-11",
       "gospel": "Matthew 7:6, 12-14"
     },
     "calendarSource": "colombia",
@@ -2829,7 +2922,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Isaiah 49:1-6",
-      "psalm": "Psalm 139:1-3, 13-14ab.14c-15(R. 14a)",
+      "psalm": "Psalm 139:1-3, 13-14,14-15",
       "secondReading": "Acts 13:22-26",
       "gospel": "Luke 1:57-66, 80"
     },
@@ -2838,7 +2931,8 @@
     "color": "Blanco",
     "prelude": "<p>Natividad de San Juan Bautista</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "14"
   },
   {
     "date": "2026-06-25",
@@ -2846,7 +2940,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "2 Kings 24:8-17",
-      "psalm": "Psalm 79:1-2, 3-5, 8, 9 (R. 9bc)",
+      "psalm": "Psalm 79:1-2, 3-5, 8, 9",
       "gospel": "Matthew 7:21-29"
     },
     "calendarSource": "colombia",
@@ -2854,7 +2948,8 @@
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "9"
   },
   {
     "date": "2026-06-26",
@@ -2862,7 +2957,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "2 Kings 25:1-12",
-      "psalm": "Psalm 137:1-2, 3, 4-5, 6 (R. 6a)",
+      "psalm": "Psalm 137:1-2, 3, 4-5, 6",
       "gospel": "Matthew 8:1-4"
     },
     "calendarSource": "colombia",
@@ -2870,7 +2965,8 @@
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "6"
   },
   {
     "date": "2026-06-27",
@@ -2878,7 +2974,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Lamentations 2:2, 10-14, 18-19",
-      "psalm": "Psalm 74:1-2. 3-4, 5-7, 20-21 (R. 19b)",
+      "psalm": "Psalm 74:1-2,3-4, 5-7, 20-21",
       "gospel": "Matthew 8:5-17"
     },
     "calendarSource": "colombia",
@@ -2886,14 +2982,15 @@
     "color": "Verde o Blanco",
     "prelude": "<p>San Cirilo de Alejandría, obispo y doctor de la Iglesia</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "19"
   },
   {
     "date": "2026-06-28",
     "monthDay": "6/28",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "2 Kings 4:8, -11, 14-16a",
+      "firstReading": "2 Kings 4:8, 11, 14-16",
       "psalm": "Psalm 89:2-3, 16-17, 18-19",
       "secondReading": "Romans 6:3-4, 8-11",
       "gospel": "Matthew 10:37-42"
@@ -2911,7 +3008,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Acts 12:1-11",
-      "psalm": "Psalm 34:2-3, 4-5, 6-7, 8-9 (R. 5b)",
+      "psalm": "Psalm 34:2-3, 4-5, 6-7, 8-9",
       "secondReading": "2 Timothy 4:6-8, 17-18",
       "gospel": "Matthew 16:13-19"
     },
@@ -2920,15 +3017,16 @@
     "color": "Rojo",
     "prelude": "<p>Santos Pedro y Pablo, apóstoles</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "5"
   },
   {
     "date": "2026-06-30",
     "monthDay": "6/30",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Amos 3:1-8; 4:11-12",
-      "psalm": "Psalm 5:5-6, 7, 8 (R. 9a)",
+      "firstReading": "Amos 3:1-8, 4:11-12",
+      "psalm": "Psalm 5:5-6, 7, 8",
       "gospel": "Matthew 8:23-27"
     },
     "calendarSource": "colombia",
@@ -2936,15 +3034,16 @@
     "color": "Verde o Rojo",
     "prelude": "<p>Santos Protomártires de la Iglesia Romana</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "9"
   },
   {
     "date": "2026-07-01",
     "monthDay": "7/1",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Amos 5:14-15. 21-24",
-      "psalm": "Psalm 50:7, 8-9, 10-11, 12-13, 16bc-17 (R. 23b)",
+      "firstReading": "Amos 5:14-15,21-24",
+      "psalm": "Psalm 50:7, 8-9, 10-11, 12-13, 16-17",
       "gospel": "Matthew 8:28-34"
     },
     "calendarSource": "colombia",
@@ -2952,7 +3051,8 @@
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "23"
   },
   {
     "date": "2026-07-02",
@@ -2960,7 +3060,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Amos 7:10-17",
-      "psalm": "Psalm 19:8, 9, 10, 11 (R. 10b)",
+      "psalm": "Psalm 19:8, 9, 10, 11",
       "gospel": "Matthew 9:1-8"
     },
     "calendarSource": "colombia",
@@ -2968,7 +3068,8 @@
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "10"
   },
   {
     "date": "2026-07-03",
@@ -2976,7 +3077,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Ephesians 2:19-22",
-      "psalm": "Psalm 117:1, 2 (R.Mark 16:15)",
+      "psalm": "Psalm 117:1, 2",
       "gospel": "John 20:24-29"
     },
     "calendarSource": "colombia",
@@ -2984,7 +3085,8 @@
     "color": "Rojo",
     "prelude": "<p>Santo Tomás, apóstol</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "Mark 16:15"
   },
   {
     "date": "2026-07-04",
@@ -2992,7 +3094,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Amos 9:11-15",
-      "psalm": "Psalm 85:9, 11-12, 13-14 (R. 9)",
+      "psalm": "Psalm 85:9, 11-12, 13-14",
       "gospel": "Matthew 9:14-17"
     },
     "calendarSource": "colombia",
@@ -3000,7 +3102,8 @@
     "color": "Verde o Blanco",
     "prelude": "<p>Santa Isabel de Portugal</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "9"
   },
   {
     "date": "2026-07-05",
@@ -3008,7 +3111,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Zechariah 9:9-10",
-      "psalm": "Psalm 145:1-2, 8-9, 10-11, 13cd-14 (R. 20[19], 7)",
+      "psalm": "Psalm 145:1-2, 8-9, 10-11, 13-14",
       "secondReading": "Romans 8:9, 11-13",
       "gospel": "Matthew 11:25-30"
     },
@@ -3017,15 +3120,16 @@
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "20[19], 7"
   },
   {
     "date": "2026-07-06",
     "monthDay": "7/6",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Hosea 2:16, 17b-18, 21-22",
-      "psalm": "Psalm 145:2-3, 4-5, 6-7, 8-9 (R. 8a)",
+      "firstReading": "Hosea 2:16, 17-18, 21-22",
+      "psalm": "Psalm 145:2-3, 4-5, 6-7, 8-9",
       "gospel": "Matthew 9:18-26"
     },
     "calendarSource": "colombia",
@@ -3033,7 +3137,8 @@
     "color": "Verde o Rojo",
     "prelude": "<p>Santa María Goretti, virgen y mártir</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "8"
   },
   {
     "date": "2026-07-07",
@@ -3041,7 +3146,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Hosea 8:4-7, 11-13",
-      "psalm": "Psalm 115(113B), 3-4, 5-6, 7ab-8, 9-10 (R. 9a)",
+      "psalm": "Psalm 115(113B), 3-4, 5-6, 7-8, 9-10",
       "gospel": "Matthew 9:32-38"
     },
     "calendarSource": "colombia",
@@ -3049,7 +3154,8 @@
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "9"
   },
   {
     "date": "2026-07-08",
@@ -3057,7 +3163,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Hosea 10:1-3, 7-8, 12",
-      "psalm": "Psalm 105:2-3. 4-5, 6-7 (R. 4b)",
+      "psalm": "Psalm 105:2-3,4-5, 6-7",
       "gospel": "Matthew 10:1-7"
     },
     "calendarSource": "colombia",
@@ -3065,7 +3171,8 @@
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "4"
   },
   {
     "date": "2026-07-09",
@@ -3073,7 +3180,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Ephesians 1:3-6, 11-12",
-      "psalm": "Psalm 113:1-2, 3-4, 5-6, 7-8 (R. 2)",
+      "psalm": "Psalm 113:1-2, 3-4, 5-6, 7-8",
       "gospel": "Luke 11:27-28"
     },
     "calendarSource": "colombia",
@@ -3081,7 +3188,8 @@
     "color": "Blanco",
     "prelude": "<p>Bienaventurada Virgen María del Rosario de Chiquinquirá, Patrona de Colombia</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "2"
   },
   {
     "date": "2026-07-10",
@@ -3089,7 +3197,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Hosea 14:2-10",
-      "psalm": "Psalm 51:3-4, 8-9, 12-13. 14 y 17 (R. 17b)",
+      "psalm": "Psalm 51:3-4, 8-9, 12-13,14, 17",
       "gospel": "Matthew 10:16-23"
     },
     "calendarSource": "colombia",
@@ -3097,7 +3205,8 @@
     "color": "Verde o Rojo",
     "prelude": "<p>Santos Agustín Zhao Rong, presbítero, y compañeros, mártires</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "17"
   },
   {
     "date": "2026-07-11",
@@ -3105,7 +3214,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Isaiah 6:1-8",
-      "psalm": "Psalm 93:1ab.1c-2, 5 (R. 1a)",
+      "psalm": "Psalm 93:1,1-2, 5",
       "gospel": "Matthew 10:24-33"
     },
     "calendarSource": "colombia",
@@ -3113,7 +3222,8 @@
     "color": "Blanco",
     "prelude": "<p>San Benito, abad</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "1"
   },
   {
     "date": "2026-07-12",
@@ -3121,9 +3231,9 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Isaiah 55:10-11",
-      "psalm": "Psalm 65:10, 11, 12-13. 14",
+      "psalm": "Psalm 65:10, 11, 12-13,14",
       "secondReading": "Romans 8:18-23",
-      "gospel": "Matthew 13:1-23 (forma larga) o Matthew 13:1-9 (forma breve)"
+      "gospel": "Matthew 13:1-23"
     },
     "calendarSource": "colombia",
     "celebration": "Domingo. 15ª Sem. del Tiempo Ordinario",
@@ -3138,7 +3248,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Isaiah 1:10-17",
-      "psalm": "Psalm 50:8-9, 16bc-17, 21 y 23 (R. 23b)",
+      "psalm": "Psalm 50:8-9, 16-17, 21, 23",
       "gospel": "Matthew 10:34 - 11:1"
     },
     "calendarSource": "colombia",
@@ -3146,7 +3256,8 @@
     "color": "Verde o Blanco",
     "prelude": "<p>San Enrique</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "23"
   },
   {
     "date": "2026-07-14",
@@ -3154,7 +3265,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Isaiah 7:1-9",
-      "psalm": "Psalm 48:2-3a.3b-4, 5-6, 7-8 (R. 9d)",
+      "psalm": "Psalm 48:2-3,3-4, 5-6, 7-8",
       "gospel": "Matthew 11:20-24"
     },
     "calendarSource": "colombia",
@@ -3162,7 +3273,8 @@
     "color": "Verde o Blanco",
     "prelude": "<p>San Camilo de Lelis, presbítero</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "9"
   },
   {
     "date": "2026-07-15",
@@ -3170,7 +3282,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Isaiah 10:5-7, 13-16",
-      "psalm": "Psalm 94:5-6, 7-8. 9-10, 14-15 (R. 14a)",
+      "psalm": "Psalm 94:5-6, 7-8,9-10, 14-15",
       "gospel": "Matthew 11:25-27"
     },
     "calendarSource": "colombia",
@@ -3178,7 +3290,8 @@
     "color": "Blanco",
     "prelude": "<p>San Buenaventura, obispo y doctor de la Iglesia</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "14"
   },
   {
     "date": "2026-07-16",
@@ -3186,7 +3299,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Isaiah 26:7-9, 12, 16-19",
-      "psalm": "Psalm 102:13-14, 15, 16-18, 19-21 (R. 20b)",
+      "psalm": "Psalm 102:13-14, 15, 16-18, 19-21",
       "gospel": "Matthew 11:28-30"
     },
     "calendarSource": "colombia",
@@ -3194,7 +3307,8 @@
     "color": "Verde o Blanco",
     "prelude": "<p>Bienaventurada Virgen María del Carmen</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "20"
   },
   {
     "date": "2026-07-17",
@@ -3202,7 +3316,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Isaiah 38:1-6, 21-22, 7-8",
-      "psalm": "Psalm Isaiah 38:10. 11, 12abcd.16 (R. 17b)",
+      "psalm": "Isaiah 38:10,11, 12,16",
       "gospel": "Matthew 12:1-8"
     },
     "calendarSource": "colombia",
@@ -3210,7 +3324,8 @@
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "17"
   },
   {
     "date": "2026-07-18",
@@ -3218,7 +3333,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Micah 2:1-5",
-      "psalm": "Psalm 9:22-23. 24-25. 28-29. 35 (R.:33b)",
+      "psalm": "Psalm 9:22-23,24-25,28-29,35",
       "gospel": "Matthew 12:14-21"
     },
     "calendarSource": "colombia",
@@ -3226,7 +3341,8 @@
     "color": "Verde o Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "33"
   },
   {
     "date": "2026-07-19",
@@ -3234,16 +3350,17 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Wisdom 12:13, 16-19",
-      "psalm": "Psalm 86:5-6, 9-10, 15-16a (R. 5a)",
+      "psalm": "Psalm 86:5-6, 9-10, 15-16",
       "secondReading": "Romans 8:26-27",
-      "gospel": "Matthew 13:24-43 (forma larga) o Matthew 13:24-30 (forma breve)"
+      "gospel": "Matthew 13:24-43"
     },
     "calendarSource": "colombia",
     "celebration": "Domingo. 16ª Sem. del Tiempo Ordinario",
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "5"
   },
   {
     "date": "2026-07-20",
@@ -3251,7 +3368,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Micah 6:1-4, 6-8",
-      "psalm": "Psalm 50:5-6, 8-9, 16bc-17, 21, 23 (R. 23b)",
+      "psalm": "Psalm 50:5-6, 8-9, 16-17, 21, 23",
       "gospel": "Matthew 12:38-42"
     },
     "calendarSource": "colombia",
@@ -3259,7 +3376,8 @@
     "color": "Verde o Rojo",
     "prelude": "<p>San Apolinar, obispo y mártir</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "23"
   },
   {
     "date": "2026-07-21",
@@ -3267,7 +3385,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Micah 7:14-15, 18-20",
-      "psalm": "Psalm 85:2-4, 5-6, 7-8 (R. 8a)",
+      "psalm": "Psalm 85:2-4, 5-6, 7-8",
       "gospel": "Matthew 12:46-50"
     },
     "calendarSource": "colombia",
@@ -3275,15 +3393,16 @@
     "color": "Verde o Blanco",
     "prelude": "<p>San Lorenzo de Brindis, presbítero y doctor de la Iglesia</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "8"
   },
   {
     "date": "2026-07-22",
     "monthDay": "7/22",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Song of Songs 3:1-4a o 2 Corinthians 5:14-17",
-      "psalm": "Psalm 63:2, 3-4, 5-6, 8-9 (R. 2b)",
+      "firstReading": "Song of Songs 3:1-4",
+      "psalm": "Psalm 63:2, 3-4, 5-6, 8-9",
       "gospel": "John 20:1, 11-18"
     },
     "calendarSource": "colombia",
@@ -3291,7 +3410,8 @@
     "color": "Blanco",
     "prelude": "<p>Santa María Magdalena,</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "2"
   },
   {
     "date": "2026-07-23",
@@ -3299,7 +3419,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Jeremiah 2:1-3, 7-8, 12-13",
-      "psalm": "Psalm 36:6-7ab.8-9, 10-11 (R. 10a)",
+      "psalm": "Psalm 36:6-7,8-9, 10-11",
       "gospel": "Matthew 13:10-17"
     },
     "calendarSource": "colombia",
@@ -3307,7 +3427,8 @@
     "color": "Verde o Blanco",
     "prelude": "<p>Santa Brígida, religiosa</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "10"
   },
   {
     "date": "2026-07-24",
@@ -3315,7 +3436,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Jeremiah 3:14-17",
-      "psalm": "Psalm Jeremiah 31:10, 11-12ab.13",
+      "psalm": "Jeremiah 31:10, 11-12,13",
       "gospel": "Matthew 13:18-23"
     },
     "calendarSource": "colombia",
@@ -3331,7 +3452,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "2 Corinthians 4:7-15",
-      "psalm": "Psalm 125:1b-2ab. 2cd-3. 4-5. 6 (R.: 5)",
+      "psalm": "Psalm 125:1-2, 2-3,4-5,6",
       "gospel": "Matthew 20:20-28"
     },
     "calendarSource": "colombia",
@@ -3339,7 +3460,8 @@
     "color": "Rojo",
     "prelude": "<p>Santiago, apóstol</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "5"
   },
   {
     "date": "2026-07-26",
@@ -3347,16 +3469,17 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "1 Kings 3:5, 7-12",
-      "psalm": "Psalm 119:57, 72. 76-77, 127-128, 129-130 (R. 97a)",
+      "psalm": "Psalm 119:57, 72,76-77, 127-128, 129-130",
       "secondReading": "Romans 8:28-30",
-      "gospel": "Matthew 13:44-52 (forma larga) o Matthew 13:44-46 (forma breve)"
+      "gospel": "Matthew 13:44-52"
     },
     "calendarSource": "colombia",
     "celebration": "Domingo. 17ª Sem. del Tiempo Ordinario",
     "color": "Verde",
-    "prelude": "null",
+    "prelude": null,
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "97"
   },
   {
     "date": "2026-07-27",
@@ -3364,15 +3487,16 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Jeremiah 13:1-11",
-      "psalm": "Psalm Deuteronomy 32:18-19, 20, 21 (R. 18a)",
+      "psalm": "Deuteronomy 32:18-19, 20, 21",
       "gospel": "Matthew 13:31-35"
     },
     "calendarSource": "colombia",
     "celebration": "Lunes. 17ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
-    "prelude": "null",
+    "prelude": null,
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "18"
   },
   {
     "date": "2026-07-28",
@@ -3380,7 +3504,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Jeremiah 14:17-22",
-      "psalm": "Psalm 79:8, 9, 11, 13 (R. 9bc)",
+      "psalm": "Psalm 79:8, 9, 11, 13",
       "gospel": "Matthew 13:36-43"
     },
     "calendarSource": "colombia",
@@ -3388,7 +3512,8 @@
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "9"
   },
   {
     "date": "2026-07-29",
@@ -3396,15 +3521,16 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "1 John 4:7-16",
-      "psalm": "Psalm 34:2-3, 4-5, 6-7. 8-9, 10-11 (R. 2a)",
-      "gospel": "John 11:19-27 o Luke 10:38-42"
+      "psalm": "Psalm 34:2-3, 4-5, 6-7,8-9, 10-11",
+      "gospel": "John 11:19-27"
     },
     "calendarSource": "colombia",
     "celebration": "Miércoles. 17ª Semana del Tiempo Ordinario, Memoria obligatoria",
     "color": "Blanco",
     "prelude": "<p>Santos Marta, María y Lázaro</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "2"
   },
   {
     "date": "2026-07-30",
@@ -3412,7 +3538,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Jeremiah 18:1-6",
-      "psalm": "Psalm 146:1b-2, 3-4, 5-6 (R. 5a)",
+      "psalm": "Psalm 146:1-2, 3-4, 5-6",
       "gospel": "Matthew 13:47-53"
     },
     "calendarSource": "colombia",
@@ -3420,7 +3546,8 @@
     "color": "Verde o Blanco",
     "prelude": "<p>San Pedro Crisólogo, obispo y doctor de la Iglesia</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "5"
   },
   {
     "date": "2026-07-31",
@@ -3428,7 +3555,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Jeremiah 26:1-9",
-      "psalm": "Psalm 69:5, 8-10, 14 (R. 14c)",
+      "psalm": "Psalm 69:5, 8-10, 14",
       "gospel": "Matthew 13:54-58"
     },
     "calendarSource": "colombia",
@@ -3436,7 +3563,8 @@
     "color": "Blanco",
     "prelude": "<p>San Ignacio de Loyola, presbítero</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "14"
   },
   {
     "date": "2026-08-01",
@@ -3467,7 +3595,7 @@
     "calendarSource": "colombia",
     "celebration": "Domingo. 18ª Sem. del Tiempo Ordinario",
     "color": "Verde",
-    "prelude": "null",
+    "prelude": null,
     "calendarLabel": "Colombia (CEC)",
     "sourceReference": "https://web-ordo-colombiano.cec.org.co"
   },
@@ -3477,15 +3605,16 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Jeremiah 28:1-17",
-      "psalm": "Psalm 119:29, 43, 79, 80, 95, 102 (R. 68b)",
+      "psalm": "Psalm 119:29, 43, 79, 80, 95, 102",
       "gospel": "Matthew 14:22-36"
     },
     "calendarSource": "colombia",
     "celebration": "Lunes. 18ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
-    "prelude": "null",
+    "prelude": null,
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "68"
   },
   {
     "date": "2026-08-04",
@@ -3494,7 +3623,7 @@
     "readings": {
       "firstReading": "Jeremiah 30:1-2, 12-15, 18-22",
       "psalm": "Psalm 102:16-18, 19-21, 29, 22-23",
-      "gospel": "Matthew 15:1-2. 10-14"
+      "gospel": "Matthew 15:1-2,10-14"
     },
     "calendarSource": "colombia",
     "celebration": "Martes. 18ª Semana del Tiempo Ordinario, Memoria obligatoria",
@@ -3509,7 +3638,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Jeremiah 31:1-7",
-      "psalm": "Psalm Jeremiah 31:10, 11-12ab.13",
+      "psalm": "Jeremiah 31:10, 11-12,13",
       "gospel": "Matthew 15:21-28"
     },
     "calendarSource": "colombia",
@@ -3541,8 +3670,8 @@
     "monthDay": "8/7",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Nahum 2:1, 3; 3:1-3, 6-7",
-      "psalm": "Psalm Deuteronomy 32:35cd-36ab.39abcd.41 (R. 39c)",
+      "firstReading": "Nahum 2:1, 3, 3:1-3, 6-7",
+      "psalm": "Deuteronomy 32:35-36,39,41",
       "gospel": "Matthew 16:24-28"
     },
     "calendarSource": "colombia",
@@ -3550,15 +3679,16 @@
     "color": "Verde o Rojo o Blanco",
     "prelude": "<p>Santos Sixto II, papa, y compañeros, mártires; San Cayetano, presbítero</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "39"
   },
   {
     "date": "2026-08-08",
     "monthDay": "8/8",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Habakkuk 1:12–2:4",
-      "psalm": "Psalm 9:8-9, 10-11, 12-13 (R. 11b)",
+      "firstReading": "Habakkuk 1:12-2:4",
+      "psalm": "Psalm 9:8-9, 10-11, 12-13",
       "gospel": "Matthew 17:14-20"
     },
     "calendarSource": "colombia",
@@ -3566,15 +3696,16 @@
     "color": "Blanco",
     "prelude": "<p>Santo Domingo de Guzmán, presbítero</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "11"
   },
   {
     "date": "2026-08-09",
     "monthDay": "8/9",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "1 Kings 19:9a.11-13a",
-      "psalm": "Psalm 85:9ab, 10, 11-12, 13-14 (R. 8)",
+      "firstReading": "1 Kings 19:9,11-13",
+      "psalm": "Psalm 85:9, 10, 11-12, 13-14",
       "secondReading": "Romans 9:1-5",
       "gospel": "Matthew 14:22-33"
     },
@@ -3583,7 +3714,8 @@
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "8"
   },
   {
     "date": "2026-08-10",
@@ -3591,7 +3723,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "2 Corinthians 9:6-10",
-      "psalm": "Psalm 112:1-2, 5-6, 7-8, 9 (R. 5a)",
+      "psalm": "Psalm 112:1-2, 5-6, 7-8, 9",
       "gospel": "John 12:24-26"
     },
     "calendarSource": "colombia",
@@ -3599,7 +3731,8 @@
     "color": "Rojo",
     "prelude": "<p>San Lorenzo, diácono y Mártir</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "5"
   },
   {
     "date": "2026-08-11",
@@ -3607,23 +3740,24 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Ezekiel 2:8 - 3:4",
-      "psalm": "Psalm 119:14, 24, 72, 103, 111, 131 (R. 103a)",
-      "gospel": "Matthew 18:1-5. 10, 12-14"
+      "psalm": "Psalm 119:14, 24, 72, 103, 111, 131",
+      "gospel": "Matthew 18:1-5,10, 12-14"
     },
     "calendarSource": "colombia",
     "celebration": "Martes. 19ª Semana del Tiempo Ordinario, Memoria obligatoria",
     "color": "Blanco",
     "prelude": "<p>Santa Clara, virgen</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "103"
   },
   {
     "date": "2026-08-12",
     "monthDay": "8/12",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Ezekiel 9:1-7;10:18-22",
-      "psalm": "Psalm 113:1-2, 3-4, 5-6 (R. 4b)",
+      "firstReading": "Ezekiel 9:1-7,10:18-22",
+      "psalm": "Psalm 113:1-2, 3-4, 5-6",
       "gospel": "Matthew 18:15-20"
     },
     "calendarSource": "colombia",
@@ -3631,7 +3765,8 @@
     "color": "Verde o Blanco",
     "prelude": "<p>Santa Juana Francisca de Chantal, religiosa</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "4"
   },
   {
     "date": "2026-08-13",
@@ -3639,7 +3774,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Ezekiel 12:1-12",
-      "psalm": "Psalm 78:56-57, 58-59. 61-62",
+      "psalm": "Psalm 78:56-57, 58-59,61-62",
       "gospel": "Matthew 18:21-19:1"
     },
     "calendarSource": "colombia",
@@ -3654,7 +3789,7 @@
     "monthDay": "8/14",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "1 Chronicles 15:3-4, 15-16; 16:1-2",
+      "firstReading": "1 Chronicles 15:3-4, 15-16, 16:1-2",
       "psalm": "Psalm 132 , 7-8, 9-10, 13-14",
       "secondReading": "1 Corinthians 15:54-57",
       "gospel": "Luke 11:27-28"
@@ -3671,9 +3806,9 @@
     "monthDay": "8/15",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Revelation 11:19a; 12:1-6a.10ab",
-      "psalm": "Psalm 45:7a, 10bc.11-12a, 14-15",
-      "secondReading": "1 Corinthians 15:20-27a",
+      "firstReading": "Revelation 11:19, 12:1-6,10",
+      "psalm": "Psalm 45:7, 10,11-12, 14-15",
+      "secondReading": "1 Corinthians 15:20-27",
       "gospel": "Luke 1:39-56"
     },
     "calendarSource": "colombia",
@@ -3706,7 +3841,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Ezekiel 24:15-24",
-      "psalm": "Psalm Deuteronomy 32:18-19, 20, 21 (R. 18a)",
+      "psalm": "Deuteronomy 32:18-19, 20, 21",
       "gospel": "Matthew 19:16-22"
     },
     "calendarSource": "colombia",
@@ -3714,7 +3849,8 @@
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "18"
   },
   {
     "date": "2026-08-18",
@@ -3722,7 +3858,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Ezekiel 28:1-10",
-      "psalm": "Psalm Deuteronomy 32:26-27ab.27cd-28, 30, 35cd-36ab (R. 39c)",
+      "psalm": "Deuteronomy 32:26-27,27-28, 30, 35-36",
       "gospel": "Matthew 19:23-30"
     },
     "calendarSource": "colombia",
@@ -3730,7 +3866,8 @@
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "39"
   },
   {
     "date": "2026-08-19",
@@ -3738,7 +3875,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Ezekiel 34:1-11",
-      "psalm": "Psalm 23:1-3a.3b-4. 5, 6 (R. 1)",
+      "psalm": "Psalm 23:1-3,3-4,5, 6",
       "gospel": "Matthew 20:1-16"
     },
     "calendarSource": "colombia",
@@ -3746,7 +3883,8 @@
     "color": "Verde o Blanco",
     "prelude": "<p>San Juan Eudes, presbítero; San Ezequiel Moreno Díaz, obispo</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "1"
   },
   {
     "date": "2026-08-20",
@@ -3754,7 +3892,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Ezekiel 36:23-28",
-      "psalm": "Psalm 51:12-13, 14-15, 18-19 (R. Ezekiel 36:25)",
+      "psalm": "Psalm 51:12-13, 14-15, 18-19",
       "gospel": "Matthew 22:1-14"
     },
     "calendarSource": "colombia",
@@ -3762,7 +3900,8 @@
     "color": "Blanco",
     "prelude": "<p>San Bernardo, abad y doctor de la Iglesia</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "Ezekiel 36:25"
   },
   {
     "date": "2026-08-21",
@@ -3770,7 +3909,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Ezekiel 37:1-14",
-      "psalm": "Psalm 107:2-3, 4-5, 6-7, 8-9 (R. 1)",
+      "psalm": "Psalm 107:2-3, 4-5, 6-7, 8-9",
       "gospel": "Matthew 22:34-40"
     },
     "calendarSource": "colombia",
@@ -3778,15 +3917,16 @@
     "color": "Blanco",
     "prelude": "<p>San Pío X, papa</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "1"
   },
   {
     "date": "2026-08-22",
     "monthDay": "8/22",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Ezekiel 43:1-7a",
-      "psalm": "Psalm 85:9ab-10, 11-12. 13-14",
+      "firstReading": "Ezekiel 43:1-7",
+      "psalm": "Psalm 85:9-10, 11-12,13-14",
       "gospel": "Matthew 23:1-12"
     },
     "calendarSource": "colombia",
@@ -3802,7 +3942,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Isaiah 22:19-23",
-      "psalm": "Psalm 138:1-2a. 2bc-3, 6 y 8bc (R. 80[79], 18)",
+      "psalm": "Psalm 138:1-2,2-3, 6, 8",
       "secondReading": "Romans 11:33-36",
       "gospel": "Matthew 16:13-20"
     },
@@ -3811,15 +3951,16 @@
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "80[79], 18"
   },
   {
     "date": "2026-08-24",
     "monthDay": "8/24",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Revelation 21:9b-14",
-      "psalm": "Psalm 145:10-11, 12-13ab.17-18",
+      "firstReading": "Revelation 21:9-14",
+      "psalm": "Psalm 145:10-11, 12-13,17-18",
       "gospel": "John 1:45-51"
     },
     "calendarSource": "colombia",
@@ -3834,8 +3975,8 @@
     "monthDay": "8/25",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "2 Thessalonians 2:1-3a. 14-17",
-      "psalm": "Psalm 95:10, 11-12a, 12b-13 (R. 13ab)",
+      "firstReading": "2 Thessalonians 2:1-3,14-17",
+      "psalm": "Psalm 95:10, 11-12, 12-13",
       "gospel": "Matthew 23:23-26"
     },
     "calendarSource": "colombia",
@@ -3843,7 +3984,8 @@
     "color": "Verde o Blanco",
     "prelude": "<p>San Luis, de Francia; San Jose de Calasanz, presbítero</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "13"
   },
   {
     "date": "2026-08-26",
@@ -3883,7 +4025,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "1 Corinthians 1:17-25",
-      "psalm": "Psalm 33:1-2, 4-5, 10-11 (R. 5b)",
+      "psalm": "Psalm 33:1-2, 4-5, 10-11",
       "gospel": "Matthew 25:1-13"
     },
     "calendarSource": "colombia",
@@ -3891,7 +4033,8 @@
     "color": "Blanco",
     "prelude": "<p>San Agustín, obispo y doctor de la Iglesia</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "5"
   },
   {
     "date": "2026-08-29",
@@ -3899,7 +4042,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Jeremiah 1:17-19",
-      "psalm": "Psalm 71:1-2, 3-4a.5-6ab.15ab y 17 (R. 15a)",
+      "psalm": "Psalm 71:1-2, 3-4,5-6,15, 17",
       "gospel": "Mark 6:17-29"
     },
     "calendarSource": "colombia",
@@ -3907,7 +4050,8 @@
     "color": "Rojo",
     "prelude": "<p>Martirio de san Juan Bautista</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "15"
   },
   {
     "date": "2026-08-30",
@@ -3915,7 +4059,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Jeremiah 20:7-9",
-      "psalm": "Psalm 63:2, 3-4, 5-6, 8-9 (R. 2b)",
+      "psalm": "Psalm 63:2, 3-4, 5-6, 8-9",
       "secondReading": "Romans 12:1-2",
       "gospel": "Matthew 16:21-27"
     },
@@ -3924,7 +4068,8 @@
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "2"
   },
   {
     "date": "2026-08-31",
@@ -3932,7 +4077,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "1 Corinthians 2:1-5",
-      "psalm": "Psalm 119:97, 98, 100, 101, 102 (R. 97a)",
+      "psalm": "Psalm 119:97, 98, 100, 101, 102",
       "gospel": "Luke 4:16-30"
     },
     "calendarSource": "colombia",
@@ -3940,15 +4085,16 @@
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "97"
   },
   {
     "date": "2026-09-01",
     "monthDay": "9/1",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "1 Corinthians 2:10b-16",
-      "psalm": "Psalm 145:8-9, 10-11, 12-13ab.13cd-14 (R. 17a)",
+      "firstReading": "1 Corinthians 2:10-16",
+      "psalm": "Psalm 145:8-9, 10-11, 12-13,13-14",
       "gospel": "Luke 4:31-37"
     },
     "calendarSource": "colombia",
@@ -3956,7 +4102,8 @@
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "17"
   },
   {
     "date": "2026-09-02",
@@ -3964,7 +4111,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "1 Corinthians 3:1-9",
-      "psalm": "Psalm 33:12-13, 14-15, 20-21 (R.12b)",
+      "psalm": "Psalm 33:12-13, 14-15, 20-21",
       "gospel": "Luke 4:38-44"
     },
     "calendarSource": "colombia",
@@ -3972,7 +4119,8 @@
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "12"
   },
   {
     "date": "2026-09-03",
@@ -3980,7 +4128,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "1 Corinthians 3:18-23",
-      "psalm": "Psalm 24:1-2, 3-4ab.5-6 (R. 1a)",
+      "psalm": "Psalm 24:1-2, 3-4,5-6",
       "gospel": "Luke 5:1-11"
     },
     "calendarSource": "colombia",
@@ -3988,7 +4136,8 @@
     "color": "Blanco",
     "prelude": "<p>San Gregorio Magno, papa y doctor de la Iglesia</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "1"
   },
   {
     "date": "2026-09-04",
@@ -3996,7 +4145,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "1 Corinthians 4:1-5",
-      "psalm": "Psalm 37:3-4, 5-6, 27-28, 39-40 (R. 39a)",
+      "psalm": "Psalm 37:3-4, 5-6, 27-28, 39-40",
       "gospel": "Luke 5:33-39"
     },
     "calendarSource": "colombia",
@@ -4004,15 +4153,16 @@
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "39"
   },
   {
     "date": "2026-09-05",
     "monthDay": "9/5",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "1 Corinthians 4:6b-15",
-      "psalm": "Psalm 145:17-18, 19-20, 21 (R. 18a)",
+      "firstReading": "1 Corinthians 4:6-15",
+      "psalm": "Psalm 145:17-18, 19-20, 21",
       "gospel": "Luke 6:1-5"
     },
     "calendarSource": "colombia",
@@ -4020,7 +4170,8 @@
     "color": "Verde o Blanco",
     "prelude": "<p>Santa Teresa de Calcuta, virgen</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "18"
   },
   {
     "date": "2026-09-06",
@@ -4028,7 +4179,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Ezekiel 33:7-9",
-      "psalm": "Psalm 95:1-2, 6-7ab. 7c-9",
+      "psalm": "Psalm 95:1-2, 6-7, 7-9",
       "secondReading": "Romans 13:8-10",
       "gospel": "Matthew 18:15-20"
     },
@@ -4045,7 +4196,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "1 Corinthians 5:1-8",
-      "psalm": "Psalm 5:5-6, 7, 12 (R. 9a)",
+      "psalm": "Psalm 5:5-6, 7, 12",
       "gospel": "Luke 6:6-11"
     },
     "calendarSource": "colombia",
@@ -4053,15 +4204,16 @@
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "9"
   },
   {
     "date": "2026-09-08",
     "monthDay": "9/8",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Micah 5:1-4a o Romans 8:28-30",
-      "psalm": "Psalm 13:6ab.6cd (R. Isaiah 61:10)",
+      "firstReading": "Micah 5:1-4",
+      "psalm": "Psalm 13:6,6",
       "gospel": "Matthew 1:1-16, 18-23"
     },
     "calendarSource": "colombia",
@@ -4069,7 +4221,8 @@
     "color": "Blanco",
     "prelude": "<p>Natividad de la Bienaventurada Virgen María, null</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "Isaiah 61:10"
   },
   {
     "date": "2026-09-09",
@@ -4077,7 +4230,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "1 Corinthians 7:25-31",
-      "psalm": "Psalm 45:11-12, 14-15. 16-17 (R. 11a)",
+      "psalm": "Psalm 45:11-12, 14-15,16-17",
       "gospel": "Luke 6:20-26"
     },
     "calendarSource": "colombia",
@@ -4085,15 +4238,16 @@
     "color": "Blanco",
     "prelude": "<p>San Pedro Claver, presbítero</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "11"
   },
   {
     "date": "2026-09-10",
     "monthDay": "9/10",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "1 Corinthians 8:1b-7, 11-13",
-      "psalm": "Psalm 139:1-3, 13-14ab.23-24 (R. 24b)",
+      "firstReading": "1 Corinthians 8:1-7, 11-13",
+      "psalm": "Psalm 139:1-3, 13-14,23-24",
       "gospel": "Luke 6:27-38"
     },
     "calendarSource": "colombia",
@@ -4101,15 +4255,16 @@
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "24"
   },
   {
     "date": "2026-09-11",
     "monthDay": "9/11",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "1 Corinthians 9:16-19, 22b-27",
-      "psalm": "Psalm 84:3. 4, 5-6, 12 (R. 2)",
+      "firstReading": "1 Corinthians 9:16-19, 22-27",
+      "psalm": "Psalm 84:3,4, 5-6, 12",
       "gospel": "Luke 6:39-42"
     },
     "calendarSource": "colombia",
@@ -4117,7 +4272,8 @@
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "2"
   },
   {
     "date": "2026-09-12",
@@ -4125,7 +4281,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "1 Corinthians 10:14-22",
-      "psalm": "Psalm 116:12-13. 17-18 (R. 17a)",
+      "psalm": "Psalm 116:12-13,17-18",
       "gospel": "Luke 6:43-49"
     },
     "calendarSource": "colombia",
@@ -4133,7 +4289,8 @@
     "color": "Verde o Blanco",
     "prelude": "<p>Santísimo Nombre de María</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "17"
   },
   {
     "date": "2026-09-13",
@@ -4141,7 +4298,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Sirach 27:30 - 28:7",
-      "psalm": "Psalm 103:1-2, 3-4, 9-10, 11-12 (R. 8a)",
+      "psalm": "Psalm 103:1-2, 3-4, 9-10, 11-12",
       "secondReading": "Romans 14:7-9",
       "gospel": "Matthew 18:21-35"
     },
@@ -4150,7 +4307,8 @@
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "8"
   },
   {
     "date": "2026-09-14",
@@ -4158,7 +4316,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "1 Corinthians 11:17-26, 33",
-      "psalm": "Psalm 40:7-8a.8b-9, 10, 17 (R. 1 Corinthians 11:26b)",
+      "psalm": "Psalm 40:7-8,8-9, 10, 17",
       "gospel": "Luke 7:1-10"
     },
     "calendarSource": "colombia",
@@ -4166,7 +4324,8 @@
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "1 Corinthians 11:26"
   },
   {
     "date": "2026-09-15",
@@ -4174,16 +4333,17 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Hebrews 5:7-9",
-      "psalm": "Psalm 31:2-3a.3b-4, 5-6. 15-16, 20 (R. 17b)",
+      "psalm": "Psalm 31:2-3,3-4, 5-6,15-16, 20",
       "secondReading": "Secuencia (opcional)",
-      "gospel": "John 19:25-27 o Luke 2:33-35"
+      "gospel": "John 19:25-27"
     },
     "calendarSource": "colombia",
     "celebration": "Martes. 24ª Semana del Tiempo Ordinario, Memoria obligatoria",
     "color": "Blanco",
     "prelude": "<p>Bienaventurada Virgen María de los Dolores</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "17"
   },
   {
     "date": "2026-09-16",
@@ -4191,7 +4351,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "1 Corinthians 12:31 - 13:13",
-      "psalm": "Psalm 33:2-3. 4-5, 12, 22 (R. 12b)",
+      "psalm": "Psalm 33:2-3,4-5, 12, 22",
       "gospel": "Luke 7:31-35"
     },
     "calendarSource": "colombia",
@@ -4199,7 +4359,8 @@
     "color": "Rojo",
     "prelude": "<p>Santos Cornelio, papa y Cipriano, obispo, mártires</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "12"
   },
   {
     "date": "2026-09-17",
@@ -4207,7 +4368,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "1 Corinthians 15:1-11",
-      "psalm": "Psalm 118:1-2, 16ab-17, 28 (R. 1a)",
+      "psalm": "Psalm 118:1-2, 16-17, 28",
       "gospel": "Luke 7:36-50"
     },
     "calendarSource": "colombia",
@@ -4215,7 +4376,8 @@
     "color": "Verde o Blanco",
     "prelude": "<p>San Roberto Belarmino, obispo y doctor de la Iglesia; Santa Hildegarda de Bingen, virgen y doctora de la Iglesia.</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "1"
   },
   {
     "date": "2026-09-18",
@@ -4223,7 +4385,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "1 Corinthians 15:12-20",
-      "psalm": "Psalm 17:1, 6-7. 8, 15 (R. 15b)",
+      "psalm": "Psalm 17:1, 6-7,8, 15",
       "gospel": "Luke 8:1-3"
     },
     "calendarSource": "colombia",
@@ -4231,7 +4393,8 @@
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "15"
   },
   {
     "date": "2026-09-19",
@@ -4255,8 +4418,8 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Isaiah 55:6-9",
-      "psalm": "Psalm 145:2-3, 8-9, 17-18 (R. 18a)",
-      "secondReading": "Philippians 1:20c-24, 27a",
+      "psalm": "Psalm 145:2-3, 8-9, 17-18",
+      "secondReading": "Philippians 1:20-24, 27",
       "gospel": "Matthew 20:1-16"
     },
     "calendarSource": "colombia",
@@ -4264,7 +4427,8 @@
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "18"
   },
   {
     "date": "2026-09-21",
@@ -4272,7 +4436,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Ephesians 4:1-7, 11-13",
-      "psalm": "Psalm 19:2-3, 4-5 (R. 5a)",
+      "psalm": "Psalm 19:2-3, 4-5",
       "gospel": "Matthew 9:9-13"
     },
     "calendarSource": "colombia",
@@ -4280,7 +4444,8 @@
     "color": "Rojo",
     "prelude": "<p>San Mateo, apóstol y evangelista</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "5"
   },
   {
     "date": "2026-09-22",
@@ -4288,7 +4453,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Proverbs 21:1-6, 10-13",
-      "psalm": "Psalm 119:1, 27, 30, 34, 35, 44 (R. 35a)",
+      "psalm": "Psalm 119:1, 27, 30, 34, 35, 44",
       "gospel": "Luke 8:19-21"
     },
     "calendarSource": "colombia",
@@ -4296,7 +4461,8 @@
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "35"
   },
   {
     "date": "2026-09-23",
@@ -4304,7 +4470,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Proverbs 30:5-9",
-      "psalm": "Psalm 119:29, 72, 89, 101, 104, 163 (R. 105a)",
+      "psalm": "Psalm 119:29, 72, 89, 101, 104, 163",
       "gospel": "Luke 9:1-6"
     },
     "calendarSource": "colombia",
@@ -4312,7 +4478,8 @@
     "color": "Blanco",
     "prelude": "<p>San Pío de Pietrelcina, presbítero</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "105"
   },
   {
     "date": "2026-09-24",
@@ -4320,7 +4487,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Ecclesiastes 1:2-11",
-      "psalm": "Psalm 90:3-4, 5-6, 12-13, 14 y 17 (R. 1)",
+      "psalm": "Psalm 90:3-4, 5-6, 12-13, 14, 17",
       "gospel": "Luke 9:7-9"
     },
     "calendarSource": "colombia",
@@ -4328,7 +4495,8 @@
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "1"
   },
   {
     "date": "2026-09-25",
@@ -4336,7 +4504,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Ecclesiastes 3:1-11",
-      "psalm": "Psalm 144:1a, 2abc. 3-4 (R. 1a)",
+      "psalm": "Psalm 144:1, 2, 3-4",
       "gospel": "Luke 9:18-22"
     },
     "calendarSource": "colombia",
@@ -4344,7 +4512,8 @@
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "1"
   },
   {
     "date": "2026-09-26",
@@ -4352,15 +4521,16 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Ecclesiastes 11:9 - 12:8",
-      "psalm": "Psalm 90:3-4, 5-6, 12-13, 14, 17 (R. 1)",
-      "gospel": "Luke 9:43b-45"
+      "psalm": "Psalm 90:3-4, 5-6, 12-13, 14, 17",
+      "gospel": "Luke 9:43-45"
     },
     "calendarSource": "colombia",
     "celebration": "Sábado. 25ª Semana del Tiempo Ordinario, Feria o Memoria libre o BMV",
     "color": "Verde o Rojo o Blanco",
     "prelude": "<p>Santos Cosme y Damián, mártires</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "1"
   },
   {
     "date": "2026-09-27",
@@ -4368,8 +4538,8 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Ezekiel 18:25-28",
-      "psalm": "Psalm 25:4-5ab.6-7. 8-9",
-      "secondReading": "Philippians 2:1-11 (forma larga) o Philippians 2:1-5 (forma breve)",
+      "psalm": "Psalm 25:4-5,6-7,8-9",
+      "secondReading": "Philippians 2:1-11",
       "gospel": "Matthew 21:28-32"
     },
     "calendarSource": "colombia",
@@ -4385,7 +4555,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Job 1:6-22",
-      "psalm": "Psalm 17:1, 2-3, 6-7 (R. 6b)",
+      "psalm": "Psalm 17:1, 2-3, 6-7",
       "gospel": "Luke 9:46-50"
     },
     "calendarSource": "colombia",
@@ -4393,15 +4563,16 @@
     "color": "Verde o Rojo",
     "prelude": "<p>San Wenceslao, mártir; Santos Lorenzo Ruiz y compañeros, mártires</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "6"
   },
   {
     "date": "2026-09-29",
     "monthDay": "9/29",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Daniel 7:9-10, 13-14 o Revelation 12:7-12a",
-      "psalm": "Psalm 138:1, 2a.2b-3, 4-5, 7c-8 (R. 1c)",
+      "firstReading": "Daniel 7:9-10, 13-14",
+      "psalm": "Psalm 138:1, 2,2-3, 4-5, 7-8",
       "gospel": "John 1:47-51"
     },
     "calendarSource": "colombia",
@@ -4409,7 +4580,8 @@
     "color": "Blanco",
     "prelude": "<p>Santos Arcángeles Miguel, Gabriel y Rafael</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "1"
   },
   {
     "date": "2026-09-30",
@@ -4417,7 +4589,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Job 9:1-12, 14-16",
-      "psalm": "Psalm 88:10bc-11, 12-13, 14-15 (R. 3a)",
+      "psalm": "Psalm 88:10-11, 12-13, 14-15",
       "gospel": "Luke 9:57-62"
     },
     "calendarSource": "colombia",
@@ -4425,7 +4597,8 @@
     "color": "Blanco",
     "prelude": "<p>San Jerónimo, presbítero y doctor de la Iglesia</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "3"
   },
   {
     "date": "2026-10-01",
@@ -4433,7 +4606,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Job 19:21-27",
-      "psalm": "Psalm 27:7-8a.8b-9abc.13-14 (R. 13)",
+      "psalm": "Psalm 27:7-8,8-9,13-14",
       "gospel": "Luke 10:1-12"
     },
     "calendarSource": "colombia",
@@ -4441,15 +4614,16 @@
     "color": "Blanco",
     "prelude": "<p>Santa Teresa del Niño Jesús, virgen y doctora de la Iglesia</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "13"
   },
   {
     "date": "2026-10-02",
     "monthDay": "10/2",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Exodus 23:20-23a",
-      "psalm": "Psalm 91:1-2, 3-4, 5-6, 10-11 (R.11)",
+      "firstReading": "Exodus 23:20-23",
+      "psalm": "Psalm 91:1-2, 3-4, 5-6, 10-11",
       "gospel": "Matthew 18:1-5, 10"
     },
     "calendarSource": "colombia",
@@ -4457,7 +4631,8 @@
     "color": "Blanco",
     "prelude": "<p>Santos Ángeles Custodios</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "11"
   },
   {
     "date": "2026-10-03",
@@ -4465,7 +4640,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Job 42:1-3, 5-6, 12-16",
-      "psalm": "Psalm 119:66, 71, 75, 91, 125, 130 (R. 135a)",
+      "psalm": "Psalm 119:66, 71, 75, 91, 125, 130",
       "gospel": "Luke 10:17-24"
     },
     "calendarSource": "colombia",
@@ -4473,7 +4648,8 @@
     "color": "Verde o Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "135"
   },
   {
     "date": "2026-10-04",
@@ -4481,7 +4657,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Isaiah 5:1-7",
-      "psalm": "Psalm 80:9 y 12, 13-14, 15-16, 19-20",
+      "psalm": "Psalm 80:9, 12, 13-14, 15-16, 19-20",
       "secondReading": "Philippians 4:6-9",
       "gospel": "Matthew 21:33-43"
     },
@@ -4498,7 +4674,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Galatians 1:6-12",
-      "psalm": "Psalm 111:1-2, 7-8, 9, 10c",
+      "psalm": "Psalm 111:1-2, 7-8, 9, 10",
       "gospel": "Luke 10:25-37"
     },
     "calendarSource": "colombia",
@@ -4514,7 +4690,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Galatians 1:13-24",
-      "psalm": "Psalm 139:1-3, 13-14ab.14c-15 (R. 24b)",
+      "psalm": "Psalm 139:1-3, 13-14,14-15",
       "gospel": "Luke 10:38-42"
     },
     "calendarSource": "colombia",
@@ -4522,7 +4698,8 @@
     "color": "Verde o Blanco",
     "prelude": "<p>San Bruno, presbítero</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "24"
   },
   {
     "date": "2026-10-07",
@@ -4530,7 +4707,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Galatians 2:1-2, 7-14",
-      "psalm": "Psalm 117:1, 2 (R. Mark 16:15)",
+      "psalm": "Psalm 117:1, 2",
       "gospel": "Luke 11:1-4"
     },
     "calendarSource": "colombia",
@@ -4538,7 +4715,8 @@
     "color": "Blanco",
     "prelude": "<p>Bienaventurada Virgen María del Rosario</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "Mark 16:15"
   },
   {
     "date": "2026-10-08",
@@ -4546,7 +4724,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Galatians 3:1-5",
-      "psalm": "Psalm Luke 1:69-70, 71-72, 73-75",
+      "psalm": "Luke 1:69-70, 71-72, 73-75",
       "gospel": "Luke 11:5-13"
     },
     "calendarSource": "colombia",
@@ -4578,7 +4756,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Galatians 3:22-29",
-      "psalm": "Psalm 105:2-3, 4-5, 6-7 (R. 8a)",
+      "psalm": "Psalm 105:2-3, 4-5, 6-7",
       "gospel": "Luke 11:27-28"
     },
     "calendarSource": "colombia",
@@ -4586,17 +4764,18 @@
     "color": "Verde o Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "8"
   },
   {
     "date": "2026-10-11",
     "monthDay": "10/11",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Isaiah 25:6-10a",
-      "psalm": "Psalm 23:1-3a.3b-4, 5, 6",
+      "firstReading": "Isaiah 25:6-10",
+      "psalm": "Psalm 23:1-3,3-4, 5, 6",
       "secondReading": "Philippians 4:12-14, 19-20",
-      "gospel": "Matthew 22:1-14 (forma larga) o Matthew 22:1-10 (forma breve)"
+      "gospel": "Matthew 22:1-14"
     },
     "calendarSource": "colombia",
     "celebration": "Domingo. 28ª Sem. del Tiempo Ordinario",
@@ -4627,7 +4806,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Galatians 5:1-6",
-      "psalm": "Psalm 119:41, 43, 44, 45, 47, 48 (R. 41a)",
+      "psalm": "Psalm 119:41, 43, 44, 45, 47, 48",
       "gospel": "Luke 11:37-41"
     },
     "calendarSource": "colombia",
@@ -4635,7 +4814,8 @@
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "41"
   },
   {
     "date": "2026-10-14",
@@ -4659,7 +4839,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Ephesians 1:1-10",
-      "psalm": "Psalm 98:1, 2-3ab.3cd-4, 5-6 (R. 2a)",
+      "psalm": "Psalm 98:1, 2-3,3-4, 5-6",
       "gospel": "Luke 11:47-54"
     },
     "calendarSource": "colombia",
@@ -4667,7 +4847,8 @@
     "color": "Blanco",
     "prelude": "<p>Santa Teresa de Jesús, virgen y doctora de la Iglesia</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "2"
   },
   {
     "date": "2026-10-16",
@@ -4675,7 +4856,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Ephesians 1:11-14",
-      "psalm": "Psalm 33:1-2, 4-5, 12-13 (R. 12b)",
+      "psalm": "Psalm 33:1-2, 4-5, 12-13",
       "gospel": "Luke 12:1-7"
     },
     "calendarSource": "colombia",
@@ -4683,7 +4864,8 @@
     "color": "Verde o Blanco",
     "prelude": "<p>Santa Eduviges, religiosa; Santa Margarita María de Alacoque, virgen</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "12"
   },
   {
     "date": "2026-10-17",
@@ -4691,7 +4873,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Ephesians 1:15-23",
-      "psalm": "Psalm 8:2-3a.4-5, 6-7a",
+      "psalm": "Psalm 8:2-3,4-5, 6-7",
       "gospel": "Luke 12:8-12"
     },
     "calendarSource": "colombia",
@@ -4707,16 +4889,17 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Isaiah 45:1, 4-6",
-      "psalm": "Psalm 96:1 y 3, 4-5, 7-8, 9-10a+c (R. 7b)",
-      "secondReading": "1 Thessalonians 1:1-5b",
+      "psalm": "Psalm 96:1, 3, 4-5, 7-8, 9-10c",
+      "secondReading": "1 Thessalonians 1:1-5",
       "gospel": "Matthew 22:15-21"
     },
     "calendarSource": "colombia",
     "celebration": "Domingo. 29ª Sem. del Tiempo Ordinario",
     "color": "Verde",
-    "prelude": "null",
+    "prelude": null,
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "7"
   },
   {
     "date": "2026-10-19",
@@ -4724,7 +4907,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Ephesians 2:1-10",
-      "psalm": "Psalm 100:2, 3, 4, 5 (R. 3b)",
+      "psalm": "Psalm 100:2, 3, 4, 5",
       "gospel": "Luke 12:13-21"
     },
     "calendarSource": "colombia",
@@ -4732,7 +4915,8 @@
     "color": "Verde o Rojo o Blanco",
     "prelude": "<p>Santos Juan de Brébeuf e Isaac Jogues, presbíteros, y compañeros, mártires; San Pablo de la Cruz, presbítero</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "3"
   },
   {
     "date": "2026-10-20",
@@ -4740,7 +4924,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Ephesians 2:12-22",
-      "psalm": "Psalm 85:9ab-10, 11-12, 13-14 (R. 9)",
+      "psalm": "Psalm 85:9-10, 11-12, 13-14",
       "gospel": "Luke 12:35-38"
     },
     "calendarSource": "colombia",
@@ -4748,7 +4932,8 @@
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "9"
   },
   {
     "date": "2026-10-21",
@@ -4756,7 +4941,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Ephesians 3:2-12",
-      "psalm": "Psalm Isaiah 12:2-3, 4bcd.5-6",
+      "psalm": "Isaiah 12:2-3, 4,5-6",
       "gospel": "Luke 12:39-48"
     },
     "calendarSource": "colombia",
@@ -4772,7 +4957,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Ephesians 3:14-21",
-      "psalm": "Psalm 33:1-2, 4-5, 11-12, 18-19 (R. 5b)",
+      "psalm": "Psalm 33:1-2, 4-5, 11-12, 18-19",
       "gospel": "Luke 12:49-53"
     },
     "calendarSource": "colombia",
@@ -4780,7 +4965,8 @@
     "color": "Verde o Blanco",
     "prelude": "<p>San Juan Pablo II, papa</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "5"
   },
   {
     "date": "2026-10-23",
@@ -4788,7 +4974,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Ephesians 4:1-6",
-      "psalm": "Psalm 24:1-2, 3-4ab.5-6",
+      "psalm": "Psalm 24:1-2, 3-4,5-6",
       "gospel": "Luke 12:54-59"
     },
     "calendarSource": "colombia",
@@ -4804,7 +4990,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Ephesians 4:7-16",
-      "psalm": "Psalm 122:1-2, 3-4a.4b-5",
+      "psalm": "Psalm 122:1-2, 3-4,4-5",
       "gospel": "Luke 13:1-9"
     },
     "calendarSource": "colombia",
@@ -4820,8 +5006,8 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Exodus 22:20-26",
-      "psalm": "Psalm 18:2-3a.3bc-4, 47 y 51ab (R. 2)",
-      "secondReading": "1 Thessalonians 1:5c-10",
+      "psalm": "Psalm 18:2-3,3-4, 47, 51",
+      "secondReading": "1 Thessalonians 1:5-10",
       "gospel": "Matthew 22:34-40"
     },
     "calendarSource": "colombia",
@@ -4829,7 +5015,8 @@
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "2"
   },
   {
     "date": "2026-10-26",
@@ -4837,7 +5024,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Ephesians 4:32 - 5:8",
-      "psalm": "Psalm 1:1-2, 3, 4 y 6",
+      "psalm": "Psalm 1:1-2, 3, 4, 6",
       "gospel": "Luke 13:10-17"
     },
     "calendarSource": "colombia",
@@ -4869,7 +5056,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Ephesians 2:19-22",
-      "psalm": "Psalm 19:2-3, 4-5 (R. 5a)",
+      "psalm": "Psalm 19:2-3, 4-5",
       "gospel": "Luke 6:12-19"
     },
     "calendarSource": "colombia",
@@ -4877,7 +5064,8 @@
     "color": "Rojo",
     "prelude": "<p>Santos Simón y Judas, apóstoles</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "5"
   },
   {
     "date": "2026-10-29",
@@ -4885,7 +5073,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Ephesians 6:10-20",
-      "psalm": "Psalm 144:1, 2, 9-10 (R. 1a)",
+      "psalm": "Psalm 144:1, 2, 9-10",
       "gospel": "Luke 13:31-35"
     },
     "calendarSource": "colombia",
@@ -4893,7 +5081,8 @@
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "1"
   },
   {
     "date": "2026-10-30",
@@ -4901,7 +5090,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Philippians 1:1-11",
-      "psalm": "Psalm 111:1-2. 3-4. 5-6 (R. 2a)",
+      "psalm": "Psalm 111:1-2,3-4,5-6",
       "gospel": "Luke 14:1-6"
     },
     "calendarSource": "colombia",
@@ -4909,15 +5098,16 @@
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "2"
   },
   {
     "date": "2026-10-31",
     "monthDay": "10/31",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Philippians 1:18b-26",
-      "psalm": "Psalm 42:2, 3, 5bcd (R. 3a)",
+      "firstReading": "Philippians 1:18-26",
+      "psalm": "Psalm 42:2, 3, 5",
       "gospel": "Luke 14:1, 7-11"
     },
     "calendarSource": "colombia",
@@ -4925,7 +5115,8 @@
     "color": "Verde o Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "3"
   },
   {
     "date": "2026-11-01",
@@ -4933,9 +5124,9 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Revelation 7:2-4, 9-14",
-      "psalm": "Psalm 24:1-2, 3-4ab.5-6",
+      "psalm": "Psalm 24:1-2, 3-4,5-6",
       "secondReading": "1 John 3:1-3",
-      "gospel": "Matthew 5:1-12a"
+      "gospel": "Matthew 5:1-12"
     },
     "calendarSource": "colombia",
     "celebration": "Domingo. 31ª Sem. del Tiempo Ordinario, Solemnidad",
@@ -4950,7 +5141,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Wisdom 3:1-9",
-      "psalm": "Psalm 23:1-3a, 3b-4, 5, 6",
+      "psalm": "Psalm 23:1-3, 3-4, 5, 6",
       "secondReading": "Romans 5:5-11",
       "gospel": "John 6:37-40"
     },
@@ -4967,7 +5158,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Philippians 2:5-11",
-      "psalm": "Psalm 22:26b-27, 28-30a, 31-32 (R. 26a)",
+      "psalm": "Psalm 22:26-27, 28-30, 31-32",
       "gospel": "Luke 14:15-24"
     },
     "calendarSource": "colombia",
@@ -4975,7 +5166,8 @@
     "color": "Verde o Blanco",
     "prelude": "<p>San Martín de Porres, religioso</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "26"
   },
   {
     "date": "2026-11-04",
@@ -4983,7 +5175,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Philippians 2:12-18",
-      "psalm": "Psalm 27:1, 4, 13-14 (R. 1a)",
+      "psalm": "Psalm 27:1, 4, 13-14",
       "gospel": "Luke 14:25-33"
     },
     "calendarSource": "colombia",
@@ -4991,15 +5183,16 @@
     "color": "Blanco",
     "prelude": "<p>San Carlos Borromeo, obispo</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "1"
   },
   {
     "date": "2026-11-05",
     "monthDay": "11/5",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Philippians 3:3-8a",
-      "psalm": "Psalm 105:2-3, 4-5. 6-7 (R. 3b)",
+      "firstReading": "Philippians 3:3-8",
+      "psalm": "Psalm 105:2-3, 4-5,6-7",
       "gospel": "Luke 15:1-10"
     },
     "calendarSource": "colombia",
@@ -5007,7 +5200,8 @@
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "3"
   },
   {
     "date": "2026-11-06",
@@ -5031,7 +5225,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Philippians 4:10-19",
-      "psalm": "Psalm 112:1-2, 5-6, 8a y 9 (R. 1a)",
+      "psalm": "Psalm 112:1-2, 5-6, 8, 9",
       "gospel": "Luke 16:9-15"
     },
     "calendarSource": "colombia",
@@ -5039,7 +5233,8 @@
     "color": "Verde o Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "1"
   },
   {
     "date": "2026-11-08",
@@ -5047,8 +5242,8 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Wisdom 6:12-16",
-      "psalm": "Psalm 63:2, 3-4, 5-6, 7-8 (R. 2b)",
-      "secondReading": "1 Thessalonians 4:13-18 (forma larga) o 1 Thessalonians 4:13-14 (forma breve)",
+      "psalm": "Psalm 63:2, 3-4, 5-6, 7-8",
+      "secondReading": "1 Thessalonians 4:13-18",
       "gospel": "Matthew 25:1-13"
     },
     "calendarSource": "colombia",
@@ -5056,7 +5251,8 @@
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "2"
   },
   {
     "date": "2026-11-09",
@@ -5064,8 +5260,8 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Ezekiel 47:1-2, 8-9, 12",
-      "psalm": "Psalm 46:2-3, 5-6, 8-9 (R. 5)",
-      "secondReading": "1 Corinthians 3:9c-11, 16-17",
+      "psalm": "Psalm 46:2-3, 5-6, 8-9",
+      "secondReading": "1 Corinthians 3:9-11, 16-17",
       "gospel": "John 2:13-22"
     },
     "calendarSource": "colombia",
@@ -5073,7 +5269,8 @@
     "color": "Blanco",
     "prelude": "<p>Dedicación de la Basílica de Letrán</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "5"
   },
   {
     "date": "2026-11-10",
@@ -5081,7 +5278,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Titus 2:1-8, 11-14",
-      "psalm": "Psalm 37:3-4, 18 y 23, 27 y 29 (R. 39a)",
+      "psalm": "Psalm 37:3-4, 18, 23, 27, 29",
       "gospel": "Luke 17:7-10"
     },
     "calendarSource": "colombia",
@@ -5089,7 +5286,8 @@
     "color": "Blanco",
     "prelude": "<p>San León Magno, papa y doctor de la Iglesia</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "39"
   },
   {
     "date": "2026-11-11",
@@ -5097,7 +5295,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Titus 3:1-7",
-      "psalm": "Psalm 23:1-3a.3b-4, 5, 6 (R. 1)",
+      "psalm": "Psalm 23:1-3,3-4, 5, 6",
       "gospel": "Luke 17:11-19"
     },
     "calendarSource": "colombia",
@@ -5105,7 +5303,8 @@
     "color": "Blanco",
     "prelude": "<p>San Martín de Tours, obispo</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "1"
   },
   {
     "date": "2026-11-12",
@@ -5113,7 +5312,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Philemon 7-20",
-      "psalm": "Psalm 146:7, 8-9a.9bc-10 (R. 5a)",
+      "psalm": "Psalm 146:7, 8-9,9-10",
       "gospel": "Luke 17:20-25"
     },
     "calendarSource": "colombia",
@@ -5121,7 +5320,8 @@
     "color": "Rojo",
     "prelude": "<p>San Josafat, obispo y mártir</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "5"
   },
   {
     "date": "2026-11-13",
@@ -5129,7 +5329,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "2 John 4-9",
-      "psalm": "Psalm 119:1, 2, 10, 11, 17, 18 (R. 1b)",
+      "psalm": "Psalm 119:1, 2, 10, 11, 17, 18",
       "gospel": "Luke 17:26-37"
     },
     "calendarSource": "colombia",
@@ -5137,7 +5337,8 @@
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "1"
   },
   {
     "date": "2026-11-14",
@@ -5145,7 +5346,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Jude 5-8",
-      "psalm": "Psalm 112:1-2, 3-4, 5-6 (R. 1a)",
+      "psalm": "Psalm 112:1-2, 3-4, 5-6",
       "gospel": "Luke 18:1-8"
     },
     "calendarSource": "colombia",
@@ -5153,7 +5354,8 @@
     "color": "Verde o Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "1"
   },
   {
     "date": "2026-11-15",
@@ -5161,24 +5363,25 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Proverbs 31:10-13, 19-20, 30-31",
-      "psalm": "Psalm 128:1-2, 3, 4-5 (R. 1a)",
+      "psalm": "Psalm 128:1-2, 3, 4-5",
       "secondReading": "1 Thessalonians 5:1-6",
-      "gospel": "Matthew 25:14-30 (forma larga) o Matthew 25:14-15, 19-21 (forma breve)"
+      "gospel": "Matthew 25:14-30"
     },
     "calendarSource": "colombia",
     "celebration": "Domingo. 33ª Sem. del Tiempo Ordinario",
     "color": "Verde",
-    "prelude": "null",
+    "prelude": null,
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "1"
   },
   {
     "date": "2026-11-16",
     "monthDay": "11/16",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Revelation 1:1-4; 2:1-5a",
-      "psalm": "Psalm 1:1-2, 3, 4, 6 (R. Revelation 2:7b)",
+      "firstReading": "Revelation 1:1-4, 2:1-5",
+      "psalm": "Psalm 1:1-2, 3, 4, 6",
       "gospel": "Luke 18:35-43"
     },
     "calendarSource": "colombia",
@@ -5186,7 +5389,8 @@
     "color": "Verde o Blanco",
     "prelude": "<p>Santa Margarita de Escocia, ; Santa Gertrudis, virgen</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "Revelation 2:7"
   },
   {
     "date": "2026-11-17",
@@ -5194,7 +5398,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Revelation 3:1-6, 14-22",
-      "psalm": "Psalm 15:2-3ab.3cd-4ab.5 (R. Revelation 3:21)",
+      "psalm": "Psalm 15:2-3,3-4,5",
       "gospel": "Luke 19:1-10"
     },
     "calendarSource": "colombia",
@@ -5202,7 +5406,8 @@
     "color": "Blanco",
     "prelude": "<p>Santa Isabel de Hungría, religiosa</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "Revelation 3:21"
   },
   {
     "date": "2026-11-18",
@@ -5210,7 +5415,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Revelation 4:1-11",
-      "psalm": "Psalm 150:1-2, 3-4, 5-6 (R. Revelation 4:8b)",
+      "psalm": "Psalm 150:1-2, 3-4, 5-6",
       "gospel": "Luke 19:11-28"
     },
     "calendarSource": "colombia",
@@ -5218,7 +5423,8 @@
     "color": "Verde o Blanco",
     "prelude": "<p>Dedicación de las basílicas de los santos Pedro y Pablo, apóstoles</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "Revelation 4:8"
   },
   {
     "date": "2026-11-19",
@@ -5226,13 +5432,13 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Revelation 5:1-10",
-      "psalm": "Psalm 149:1-2, 3-4, 5-6a, 9b",
+      "psalm": "Psalm 149:1-2, 3-4, 5-6, 9",
       "gospel": "Luke 19:41-44"
     },
     "calendarSource": "colombia",
     "celebration": "Jueves. 33ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
-    "prelude": "null",
+    "prelude": null,
     "calendarLabel": "Colombia (CEC)",
     "sourceReference": "https://web-ordo-colombiano.cec.org.co"
   },
@@ -5242,15 +5448,16 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Revelation 10:8-11",
-      "psalm": "Psalm 119:14, 24, 72. 103, 111, 131 (R. 103a)",
+      "psalm": "Psalm 119:14, 24, 72,103, 111, 131",
       "gospel": "Luke 19:45-48"
     },
     "calendarSource": "colombia",
     "celebration": "Viernes. 33ª Semana del Tiempo Ordinario, Feria",
     "color": "Verde",
-    "prelude": "null",
+    "prelude": null,
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "103"
   },
   {
     "date": "2026-11-21",
@@ -5258,7 +5465,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Revelation 11:4-12",
-      "psalm": "Psalm 144:1, 2, 9-10 (R. 1a)",
+      "psalm": "Psalm 144:1, 2, 9-10",
       "gospel": "Luke 20:27-40"
     },
     "calendarSource": "colombia",
@@ -5266,7 +5473,8 @@
     "color": "Blanco",
     "prelude": "<p>La Presentación de la Bienaventurada Virgen María</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "1"
   },
   {
     "date": "2026-11-22",
@@ -5274,7 +5482,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Ezekiel 34:11-12, 15-17",
-      "psalm": "Psalm 23:1-3a.3b-4, 5, 6 (R. 1)",
+      "psalm": "Psalm 23:1-3,3-4, 5, 6",
       "secondReading": "1 Corinthians 15:20-26, 28",
       "gospel": "Matthew 25:31-46"
     },
@@ -5283,15 +5491,16 @@
     "color": "Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "1"
   },
   {
     "date": "2026-11-23",
     "monthDay": "11/23",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Revelation 14:1-3, 4b-5",
-      "psalm": "Psalm 24:1-2, 3-4ab.5-6",
+      "firstReading": "Revelation 14:1-3, 4-5",
+      "psalm": "Psalm 24:1-2, 3-4,5-6",
       "gospel": "Luke 21:1-4"
     },
     "calendarSource": "colombia",
@@ -5307,7 +5516,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Revelation 14:14-19",
-      "psalm": "Psalm 96:10, 11-12, 13 (R. 13b)",
+      "psalm": "Psalm 96:10, 11-12, 13",
       "gospel": "Luke 21:5-11"
     },
     "calendarSource": "colombia",
@@ -5315,7 +5524,8 @@
     "color": "Rojo",
     "prelude": "<p>San Andres Dung Lac, presbítero y compañeros, mártires</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "13"
   },
   {
     "date": "2026-11-25",
@@ -5323,7 +5533,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Revelation 15:1-4",
-      "psalm": "Psalm 98:1, 2-3ab.7-8, 9 (R. Revelation 15:3b)",
+      "psalm": "Psalm 98:1, 2-3,7-8, 9",
       "gospel": "Luke 21:12-19"
     },
     "calendarSource": "colombia",
@@ -5331,15 +5541,16 @@
     "color": "Verde o Rojo",
     "prelude": "<p>Santa Catalina de Alejandría, virgen y mártir</p>",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "Revelation 15:3"
   },
   {
     "date": "2026-11-26",
     "monthDay": "11/26",
     "season": "Ordinary Time",
     "readings": {
-      "firstReading": "Revelation 18:1-2, 21-23; 19:1-3, 9a",
-      "psalm": "Psalm 100:2, 3, 4, 5 (R. Revelation 19:9a)",
+      "firstReading": "Revelation 18:1-2, 21-23, 19:1-3, 9",
+      "psalm": "Psalm 100:2, 3, 4, 5",
       "gospel": "Luke 21:20-28"
     },
     "calendarSource": "colombia",
@@ -5347,7 +5558,8 @@
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "Revelation 19:9"
   },
   {
     "date": "2026-11-27",
@@ -5355,7 +5567,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Revelation 20:1-4, 11 - 21:2",
-      "psalm": "Psalm 84:3, 4, 5-6a, 8a (R. Revelation 21:3b)",
+      "psalm": "Psalm 84:3, 4, 5-6, 8",
       "gospel": "Luke 21:29-33"
     },
     "calendarSource": "colombia",
@@ -5363,7 +5575,8 @@
     "color": "Verde",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "Revelation 21:3"
   },
   {
     "date": "2026-11-28",
@@ -5371,7 +5584,7 @@
     "season": "Ordinary Time",
     "readings": {
       "firstReading": "Revelation 22:1-7",
-      "psalm": "Psalm 95:1-2, 3-5, 6-7 (R. 1 Corinthians 16:22b + Revelation 22:20c)",
+      "psalm": "Psalm 95:1-2, 3-5, 6-7",
       "gospel": "Luke 21:34-36"
     },
     "calendarSource": "colombia",
@@ -5379,7 +5592,8 @@
     "color": "Verde o Blanco",
     "prelude": "",
     "calendarLabel": "Colombia (CEC)",
-    "sourceReference": "https://web-ordo-colombiano.cec.org.co"
+    "sourceReference": "https://web-ordo-colombiano.cec.org.co",
+    "refrain": "1 Corinthians 16:22 + Revelation 22:20"
   },
   {
     "date": "2026-11-29",
@@ -5434,8 +5648,8 @@
     "monthDay": "12/2",
     "season": "Advent",
     "readings": {
-      "firstReading": "Isaiah 25:6-10a",
-      "psalm": "Psalm 23:1-3a, 3b-4, 5, 6",
+      "firstReading": "Isaiah 25:6-10",
+      "psalm": "Psalm 23:1-3, 3-4, 5, 6",
       "gospel": "Matthew 15:29-37"
     },
     "calendarSource": "colombia",
@@ -5451,7 +5665,7 @@
     "season": "Advent",
     "readings": {
       "firstReading": "Isaiah 26:1-6",
-      "psalm": "Psalm 118:1 and 8-9, 19-21, 25-27a",
+      "psalm": "Psalm 118:1 and 8-9, 19-21, 25-27",
       "gospel": "Matthew 7:21, 24-27"
     },
     "calendarSource": "colombia",
@@ -5484,7 +5698,7 @@
     "readings": {
       "firstReading": "Isaiah 30:19-21, 23-26",
       "psalm": "Psalm 147:1-2, 3-4, 5-6",
-      "gospel": "Matthew 9:35–10:1, 5a, 6-8"
+      "gospel": "Matthew 9:35-10:1, 5, 6-8"
     },
     "calendarSource": "colombia",
     "calendarLabel": "Colombia (CEC)",
@@ -5516,7 +5730,7 @@
     "season": "Advent",
     "readings": {
       "firstReading": "Isaiah 35:1-10",
-      "psalm": "Psalm 85:9ab and 10, 11-12, 13-14",
+      "psalm": "Psalm 85:9 and 10, 11-12, 13-14",
       "gospel": "Luke 5:17-26"
     },
     "calendarSource": "colombia",
@@ -5532,7 +5746,7 @@
     "season": "Advent",
     "readings": {
       "firstReading": "Genesis 3:9-15, 20",
-      "psalm": "Psalm 98:1, 2-3ab, 3cd-4",
+      "psalm": "Psalm 98:1, 2-3, 3-4",
       "secondReading": "Ephesians 1:3-6, 11-12",
       "gospel": "Luke 1:26-38"
     },
@@ -5565,7 +5779,7 @@
     "season": "Advent",
     "readings": {
       "firstReading": "Isaiah 41:13-20",
-      "psalm": "Psalm 145:1 and 9, 10-11, 12-13ab",
+      "psalm": "Psalm 145:1 and 9, 10-11, 12-13",
       "gospel": "Matthew 11:11-15"
     },
     "calendarSource": "colombia",
@@ -5597,7 +5811,7 @@
     "season": "Advent",
     "readings": {
       "firstReading": "Zechariah 2:14-17",
-      "psalm": "Judith 13:18bcde, 19",
+      "psalm": "Judith 13:18, 19",
       "gospel": "Luke 1:26-38"
     },
     "calendarSource": "colombia",
@@ -5612,7 +5826,7 @@
     "monthDay": "12/13",
     "season": "Advent",
     "readings": {
-      "firstReading": "Isaiah 61:1-2a, 10-11",
+      "firstReading": "Isaiah 61:1-2, 10-11",
       "psalm": "Luke 1:46-48, 49-50, 53-54",
       "secondReading": "1 Thessalonians 5:16-24",
       "gospel": "John 1:6-8, 19-28"
@@ -5629,8 +5843,8 @@
     "monthDay": "12/14",
     "season": "Advent",
     "readings": {
-      "firstReading": "Numbers 24:2-7, 15-17a",
-      "psalm": "Psalm 25:4-5ab, 6 and 7bc, 8-9",
+      "firstReading": "Numbers 24:2-7, 15-17",
+      "psalm": "Psalm 25:4-5, 6 and 7, 8-9",
       "gospel": "Matthew 21:23-27"
     },
     "calendarSource": "colombia",
@@ -5661,9 +5875,9 @@
     "monthDay": "12/16",
     "season": "Advent",
     "readings": {
-      "firstReading": "Isaiah 45:6c-8, 18, 21c-25",
-      "psalm": "Psalm 85:9ab, 10, 11-12, 13-14",
-      "gospel": "Luke 7:18b-23"
+      "firstReading": "Isaiah 45:6-8, 18, 21-25",
+      "psalm": "Psalm 85:9, 10, 11-12, 13-14",
+      "gospel": "Luke 7:18-23"
     },
     "calendarSource": "colombia",
     "calendarLabel": "Colombia (CEC)",
@@ -5678,7 +5892,7 @@
     "season": "Advent",
     "readings": {
       "firstReading": "Genesis 49:2, 8-10",
-      "psalm": "Psalm 72:1-2, 3-4ab, 7-8, 17",
+      "psalm": "Psalm 72:1-2, 3-4, 7-8, 17",
       "gospel": "Matthew 1:1-17"
     },
     "calendarSource": "colombia",
@@ -5709,8 +5923,8 @@
     "monthDay": "12/19",
     "season": "Advent",
     "readings": {
-      "firstReading": "Judges 13:2-7, 24-25a",
-      "psalm": "Psalm 71:3-4a, 5-6ab, 16-17",
+      "firstReading": "Judges 13:2-7, 24-25",
+      "psalm": "Psalm 71:3-4, 5-6, 16-17",
       "gospel": "Luke 1:5-25"
     },
     "calendarSource": "colombia",
@@ -5725,7 +5939,7 @@
     "monthDay": "12/20",
     "season": "Advent",
     "readings": {
-      "firstReading": "2 Samuel 7:1-5, 8b-12, 14a, 16",
+      "firstReading": "2 Samuel 7:1-5, 8-12, 14, 16",
       "psalm": "Psalm 89:2-3, 4-5, 27, 29",
       "secondReading": "Romans 16:25-27",
       "gospel": "Luke 1:26-38"
@@ -5759,7 +5973,7 @@
     "season": "Advent",
     "readings": {
       "firstReading": "1 Samuel 1:24-28",
-      "psalm": "1 Samuel 2:1, 4-5, 6-7, 8abcd",
+      "psalm": "1 Samuel 2:1, 4-5, 6-7, 8",
       "gospel": "Luke 1:46-56"
     },
     "calendarSource": "colombia",
@@ -5775,7 +5989,7 @@
     "season": "Advent",
     "readings": {
       "firstReading": "Malachi 3:1-4, 23-24",
-      "psalm": "Psalm 25:4-5ab, 8-9, 10 and 14",
+      "psalm": "Psalm 25:4-5, 8-9, 10 and 14",
       "gospel": "Luke 1:57-66"
     },
     "calendarSource": "colombia",
@@ -5790,7 +6004,7 @@
     "monthDay": "12/24",
     "season": "Advent",
     "readings": {
-      "firstReading": "2 Samuel 7:1-5, 8b-12, 14a, 16",
+      "firstReading": "2 Samuel 7:1-5, 8-12, 14, 16",
       "psalm": "Psalm 89:2-3, 4-5, 27 and 29",
       "gospel": "Luke 1:67-79"
     },
@@ -5823,8 +6037,8 @@
     "monthDay": "12/26",
     "season": "Christmas",
     "readings": {
-      "firstReading": "Acts 6:8-10; 7:54-59",
-      "psalm": "Psalm 31:3cd-4, 6 and 8ab, 16bc and 17",
+      "firstReading": "Acts 6:8-10, 7:54-59",
+      "psalm": "Psalm 31:3-4, 6 and 8, 16 and 17",
       "gospel": "Matthew 10:17-22"
     },
     "calendarSource": "colombia",
@@ -5856,8 +6070,8 @@
     "monthDay": "12/28",
     "season": "Christmas",
     "readings": {
-      "firstReading": "1 John 1:5—2:2",
-      "psalm": "Psalm 124:2-3, 4-5, 7cd-8",
+      "firstReading": "1 John 1:5-2:2",
+      "psalm": "Psalm 124:2-3, 4-5, 7-8",
       "gospel": "Matthew 2:13-18"
     },
     "calendarSource": "colombia",
@@ -5873,7 +6087,7 @@
     "season": "Christmas",
     "readings": {
       "firstReading": "1 John 2:3-11",
-      "psalm": "Psalm 96:1-2a, 2b-3, 5b-6",
+      "psalm": "Psalm 96:1-2, 2-3, 5-6",
       "gospel": "Luke 2:22-35"
     },
     "calendarSource": "colombia",
@@ -5889,7 +6103,7 @@
     "season": "Christmas",
     "readings": {
       "firstReading": "1 John 2:12-17",
-      "psalm": "Psalm 96:7-8a, 8b-9, 10",
+      "psalm": "Psalm 96:7-8, 8-9, 10",
       "gospel": "Luke 2:36-40"
     },
     "calendarSource": "colombia",

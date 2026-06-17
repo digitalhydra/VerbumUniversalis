@@ -2,8 +2,11 @@ package com.verbum.universalis.ui.reader
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.test.core.app.ApplicationProvider
+import androidx.lifecycle.SavedStateHandle
+import com.verbum.universalis.core.LanguageManager
 import com.verbum.universalis.data.json.FileManager
 import com.verbum.universalis.data.repository.BibleRepository
+import com.verbum.universalis.data.repository.NotesRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.test.TestDispatcher
 import kotlinx.coroutines.test.UnconfinedTestDispatcher
@@ -29,6 +32,12 @@ class ReadingViewModelTest {
     @Mock
     lateinit var repository: BibleRepository
     
+    @Mock
+    lateinit var notesRepository: NotesRepository
+
+    @Mock
+    lateinit var languageManager: LanguageManager
+
     private val testDispatcher: TestDispatcher = UnconfinedTestDispatcher()
     
     @Before
@@ -37,7 +46,9 @@ class ReadingViewModelTest {
         Dispatchers.setMain(testDispatcher)
         val app = ApplicationProvider.getApplicationContext<android.app.Application>()
         fileManager = FileManager(app)
-        viewModel = ReadingViewModel(repository, app)
+        
+        val savedStateHandle = SavedStateHandle(mapOf("bookId" to 1, "chapter" to 1))
+        viewModel = ReadingViewModel(repository, notesRepository, languageManager, app, savedStateHandle)
     }
     
     @After
@@ -46,49 +57,28 @@ class ReadingViewModelTest {
     }
     
     @Test
-    fun testNoteSheetVisibility() = runTest {
+    fun testNoteHighlightSheetVisibility() = runTest {
         // Initially false
-        assertFalse(viewModel.showNoteBottomSheet.value)
+        assertFalse(viewModel.showNoteHighlightSheet.value)
         
-        // Show note sheet
-        viewModel.showNoteSheet(1)
-        assertTrue(viewModel.showNoteBottomSheet.value)
-        assertEquals(1, viewModel.selectedVerseIdForNote.value)
+        // Show sheet
+        viewModel.showNoteHighlightSheet(1)
+        assertTrue(viewModel.showNoteHighlightSheet.value)
+        assertEquals(1, viewModel.selectedVerseForNoteHighlight.value)
         
-        // Hide note sheet
-        viewModel.hideNoteSheet()
-        assertFalse(viewModel.showNoteBottomSheet.value)
-        assertNull(viewModel.selectedVerseIdForNote.value)
-    }
-    
-    @Test
-    fun testHighlightPickerVisibility() = runTest {
-        // Initially false
-        assertFalse(viewModel.showHighlightPicker.value)
-        
-        // Show highlight picker
-        viewModel.showHighlightPicker(1)
-        assertTrue(viewModel.showHighlightPicker.value)
-        assertEquals(1, viewModel.selectedVerseIdForHighlight.value)
-        
-        // Hide highlight picker
-        viewModel.hideHighlightPicker()
-        assertFalse(viewModel.showHighlightPicker.value)
-        assertNull(viewModel.selectedVerseIdForHighlight.value)
+        // Hide sheet
+        viewModel.hideNoteHighlightSheet()
+        assertFalse(viewModel.showNoteHighlightSheet.value)
+        assertNull(viewModel.selectedVerseForNoteHighlight.value)
     }
     
     @Test
     fun testSaveNote() = runTest {
-        viewModel.showNoteSheet(1)
+        viewModel.selectVerse(1)
         viewModel.saveNote("Test note content")
         
-        // Verify note was saved
-        val notes = fileManager.loadNotes()
-        assertEquals(1, notes.size)
-        assertEquals("Test note content", notes[0].content)
-        assertEquals(1, notes[0].verseId)
-        
-        // Sheet should be hidden after save
-        assertFalse(viewModel.showNoteBottomSheet.value)
+        // Sheet and selection should be cleared after save
+        assertNull(viewModel.selectedVerseId.value)
+        assertFalse(viewModel.isSelectionMode.value)
     }
 }

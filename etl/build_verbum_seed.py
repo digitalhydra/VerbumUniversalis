@@ -1058,6 +1058,38 @@ def main():
     for key, val in stats.items():
         print(f"  {key}: {val}")
 
+    # ── Verse-count assertions (catch versification regressions) ──
+    conn = sqlite3.connect(str(DB_PATH))
+    # NT: 27 books, expected ≥ 7945 verses for 'vulg' versification
+    nt_verses = conn.execute(
+        "SELECT COUNT(*) FROM verses v JOIN books b ON v.book_id=b.id WHERE b.testament='nt'"
+    ).fetchone()[0]
+    # OT: 46 books, expected ≥ 27800 verses for 'vulg' versification
+    ot_verses = conn.execute(
+        "SELECT COUNT(*) FROM verses v JOIN books b ON v.book_id=b.id WHERE b.testament='ot'"
+    ).fetchone()[0]
+    # Jude (book 72): must have exactly 25 verses
+    jude_verses = conn.execute(
+        "SELECT COUNT(*) FROM verses WHERE book_id=72"
+    ).fetchone()[0]
+    conn.close()
+
+    errors = []
+    if nt_verses < 7945:
+        errors.append(f"NT verse count too low: {nt_verses} (expected >= 7945)")
+    if ot_verses < 27800:
+        errors.append(f"OT verse count too low: {ot_verses} (expected >= 27800)")
+    if jude_verses != 25:
+        errors.append(f"Jude verse count wrong: {jude_verses} (expected 25)")
+
+    if errors:
+        for err in errors:
+            print(f"  ERROR: {err}")
+        print("\n  VERSE COUNT VALIDATION FAILED — likely versification mismatch!")
+        sys.exit(1)
+    else:
+        print(f"  Verse-count assertions passed (NT={nt_verses}, OT={ot_verses}, Jude={jude_verses})")
+
     # Copy to assets
     shutil.copy2(DB_PATH, DB_ASSET_PATH)
     print(f"\n  Copied to {DB_ASSET_PATH}")
